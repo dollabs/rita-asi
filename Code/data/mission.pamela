@@ -1,0 +1,416 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Situational awareness
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; ToM This is what RITA believes about a team player (onle one at present)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Behavioral model
+
+(defpclass BehavioralModel []
+  :meta {:doc "What we believe about the participants behaviortyype"}
+  :modes [:type1 :type2 :type3]) ; replace with real player types
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; EmotionalState model
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; This is information that is provided ahead of time regarding the participant
+;;; Its usefulness is not clear, but it is fixed starting information
+
+(defpclass SituatedObject []
+  :meta {:doc "Where the entity is located"}
+  :fields {x 0
+           y 0
+           z 0
+           motion_x 0
+           motion_y 0
+           motion_z 0
+           yaw 0
+           pitch 0
+           space {:observable false}})
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Participants
+
+(defpclass Activity [] :modes [:stationary :walking :sprinting :jumping :triaging :swinging])
+(defpclass TriageStrategy [] :modes [:gold-victims-only :green-victims-only :all-victims])
+(defpclass DeviceUse [] :modes [:never :sometimes :usually :always])
+
+(defpclass Participant [pname ks tom]
+  :meta {:doc "What the participant knows and believes about his himself"}
+  :inherit [SituatedObject]
+  :fields {pname pname
+           known ks
+           theory-of-mind tom
+           activity (mode-of Activity :stationary)
+           triage-strategy (mode-of TriageStrategy :all-victims) ; Condition 3 assumption, will be reset
+           where "Unknown"
+           x 0
+           y 0
+           z 0
+           mx 0
+           my 0
+           mz 0
+           yaw 0
+           pitch 0
+           score 0
+           seconds-remaining 0
+           gold-victims-triaged 0
+           green-victims-triaged 0
+           left-gold-victims 0
+           left-green-victims 0
+           marking-with-light-off-if-cleared 0
+           marking-with-light-off-if-not-cleared 0
+           marking-with-door-closed-if-cleared 0
+           marking-with-door-closed-if-not-cleared 0
+           beeps-ignored 0
+           beeps-followed 0
+           beep-response (mode-of DeviceUse :never) ; Condition 3 assumption, will be reset
+          }
+  :modes [:open :closed :locked]
+  :methods [
+            ;; Interacting with doors
+            (defpmethod open-door
+              {
+               ;; :pre
+               ;; (and
+               ;;  (:close-to self door)
+               ;;  (= door :closed)
+               ;;  (:connects-with door self.place)
+               ;;  (:connects-with door anotherplace)
+               ;;  (not (= self-place anotherplace))
+               ;;  (:desire (= self.place anotherplace)))
+               :post :open
+               :doc "opens the door"}
+              []
+              ;;(door.open-door)
+              )
+            (defpmethod close-door
+              {:pre :open :post :closed
+               :doc "closes the door"} [])
+            (defpmethod lock-door
+              {:pre :closed :post :locked
+               :doc "locks the door"} [])
+            (defpmethod unlock-door
+              {:pre :locked :post :closed
+               :doc "unlocks the door"} [])
+            (defpmethod walk-through-door
+              {:pre :open
+               :doc "passes through the door"} [])
+            ;;  Interacting with rooms
+            (defpmethod enter-room-through
+              {:doc "Enter room through a portal"}
+              [portal])
+            (defpmethod exit-room-through
+              {:doc "Exit room through a portal"}
+              [portal])
+            ;; Interacting with switches
+            (defpmethod turn-on-switch
+              {:doc "Exit room through a portal"}
+              [aswitch])
+            (defpmethod turn-off-switch
+              {:doc "Exit room through a portal"}
+              [aswitch])
+            ;; Interacting with a patient
+            (defpmethod triage-victim
+              {:doc "Triage a victim"}
+              [avictim])
+            (defpmethod select-tool
+              {:doc "Select a tool"}
+              [atool])
+              ]
+  )
+
+(defpclass Passive-Agent [ks]
+  :meta {:doc "What RITA knows and believes about a participant"}
+  :inherit [SituatedObject]
+  :fields {known ks})
+
+(defpclass Agent [ks]
+  :meta {:doc "What RITA knows and believes about a participant"}
+  :inherit [SituatedObject]  ; Not situated yet but maybe one day
+  :fields {pname "RITA"
+           known ks
+           ;; theory-of-mind tom
+           activity (mode-of Activity :stationary)
+           triage-strategy (mode-of TriageStrategy :all-victims) ; Condition 3 assumption, will be reset
+           where "Unknown"
+           x 0
+           y 0
+           z 0
+           mx 0
+           my 0
+           mz 0
+           yaw 0
+           pitch 0
+           score 0
+           seconds-remaining 0
+           gold-victims-triaged 0
+           green-victims-triaged 0
+           left-gold-victims 0
+           left-green-victims 0
+           marking-with-light-off-if-cleared 0
+           marking-with-light-off-if-not-cleared 0
+           marking-with-door-closed-if-cleared 0
+           marking-with-door-closed-if-not-cleared 0
+           beeps-ignored 0
+           beeps-followed 0
+           beep-response (mode-of DeviceUse :never)}) ; Condition 3 assumption, will be reset})
+
+(defpclass Robot [pname ks]
+  :meta {:doc "What Robot knows and believes about a participant"}
+  :inherit [SituatedObject]  ; Not situated yet but maybe one day
+  :fields {pname pname
+           known ks
+           where "Unknown"
+           x 0
+           y 0
+           z 0
+           mx 0
+           my 0
+           mz 0
+           yaw 0
+           pitch 0})
+
+(defpclass EmotionalState [cl tp tired happy afraid distractible oriented]
+  :meta {:doc "What we believe about the participants emotional state"}
+  ;; For now, these are all numeric ranges between 0 and 100
+  :fields {cognitiveLoad cl
+           feelingTimePressured tp
+           tiredness tired
+           happiness happy
+           fear afraid
+           distractibility distractible
+           spatialawareness oriented})
+
+(defpclass ToM [estate ;pbm
+               ]
+  :meta {:doc "What we believe about the participants state of mind"}
+  :fields {emotionalState estate
+           ;;participantBehaviorModel pbm
+           })
+
+(defpclass BeliefState [rita rob1 ed pname p1 p1tom p2 p2tom p3 p3tom p4 p4tom]
+  :meta {:doc "Constructor of the Belief State"}
+  :fields {rita-agent       (Agent rita :id "agentBeliefState.rita")
+           robot1           (Robot "Robot1" rob1 :id "agentBeliefState.robot1")
+           testbed-observer (Passive-Agent ed :id "agentBeliefState.observer")
+           participant1     (Participant pname p1 p1tom :id "agentBeliefState.participant1") ; These numbers will come from elsewhere
+           participant2     (Participant pname p2 p2tom :id "agentBeliefState.participant2") ; These numbers will come from elsewhere
+           participant3     (Participant pname p3 p3tom :id "agentBeliefState.participant3") ; These numbers will come from elsewhere
+           participant4     (Participant pname p4 p4tom :id "agentBeliefState.participant4") ; These numbers will come from elsewhere
+           })
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Participant model
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; This is information that is provided ahead of time regarding the participant
+;;; Its usefulness is not clear, but it is fixed starting information
+
+(defpclass ParticipantProfile [name age gender culture minecraft-proficiency
+                               gamer-proficiency training-proficiency spatial-ability]
+  :meta {:doc "What we know about the participant a-priori - provided information"}
+
+  :fields {pname name                         ; Name as a String, eg "Fred"
+           page age                           ; age in years
+           pgender gender                     ; :male or :female
+           cultural culture                   ; Cultural affiliation a keyword
+           pmcprof minecraft-proficiency      ; Proficiency in minecraft (0 100)
+           pgamerprof gamer-proficiency       ; General Gamer Proficiency (0 100)
+           ptprof training-proficiency        ; Training proficiency (0 100) or however that is provided
+           pspatial-ability spatial-ability}) ; Special ability (0 100) or however that is provided
+
+;; (defpclass Team [rita ed pname p1] ; p2 p3 p4
+;;   :meta {:doc "Constructor of the Belief State"}
+;;   :fields {rita-agent       (Agent rita :id "agentBeliefState.rita")
+;;            testbed-observer (Passive-Agent ed :id "agentBeliefState.observer")
+;;            participant1     (Participant pname p1 :id "agentBeliefState.participant1") ; These numbers will come from elsewhere
+;;            ;; participant2 p2
+;;            ;; participant3 p3
+;;            ;; participant4 p4
+;;            })
+
+(defpclass General []           :modes [:initial :nothing])
+(defpclass DestinationStates [] :modes [:normal :arrived])
+
+(defpclass Destination [adest]
+  :modes {:normal (or (mode-of General :initial)) :arrived true} ; crappy way of specifying initial
+  :fields {t-location adest}
+  :methods [(defpmethod be-arrived
+              {:doc "Change state to arrived."
+               :pre (not :arrived)
+               :post :arrived
+               }
+              [])])
+
+(defpclass Strategy [] :modes [:left :right :by-corridor])
+
+(defpclass LPlayer [endat]
+  :fields {nowat (lvar "room came-from")
+           p-location endat}
+
+  :methods [(defpmethod goto-room      ; Goto a room
+              {:doc "Move to another room"
+               :pre (and
+                     (propositions [(:left-path-neighbor nowat newloc)])
+                         ;(= newloc (mode-of Room :unvisited))
+                     (same p-location nowat))
+               :post (same p-location newloc)
+               :primitive true}
+              [newloc])
+            (defpmethod arrive
+              {:doc "arrived"
+               :pre (same p-location object.t-location)
+               :post (= object (mode-of DestinationStates :arrived))
+               :primitive true}
+              [object])])
+
+(defpclass RPlayer [endat]
+  :fields {nowat (lvar "room came-from")
+           p-location endat}
+
+  :methods [(defpmethod goto-room      ; Goto a room
+              {:doc "Move to another room"
+               :pre (and
+                     (propositions [(:right-path-neighbor nowat newloc)]
+                                   ;;where (= newloc (mode-of Room :unvisited))
+                                   )
+                     (same p-location nowat))
+               :post (same p-location newloc)
+               :primitive true}
+              [newloc])
+           (defpmethod arrive
+              {:doc "arrived"
+               :pre (same p-location object.t-location)
+               :post (= object (mode-of DestinationStates :arrived))
+               :primitive true}
+              [object])])
+
+(defpclass RoomModes [] :modes [:unvisited :visited])
+
+(defpclass MissionStatus []
+  :modes {:started (or (mode-of General :initial)) :finished true})
+
+(defpclass OPlayer [startat mstatus]
+  :fields {nowat (lvar "room-came-from")
+           from (lvar "from")
+           dest (lvar "finalroom")
+           p-location startat
+           missionstatus mstatus}
+
+  :methods [(defpmethod goto-room      ; Goto a room
+              {:doc "Move to another room"
+               :pre (and
+                     (propositions [(:nearby-unvisited-wrt-distance
+                                     nowat newloc)])
+                     (same p-location nowat))
+               :post (and
+                      (same p-location newloc)
+                      (= newloc (mode-of RoomModes :visited)))
+               :primitive true}
+              [newloc])
+
+            (defpmethod arrive      ; Finished
+              {:doc "Finished when all rooms visited"
+               :pre (and
+                     (propositions [(:lookahead-steps p-location dest)])
+                     (same p-location dest))
+
+               :post (= missionstatus (mode-of MissionStatus :finished))
+               :primitive true}
+              [newloc])
+            ])
+
+(defpclass Main3 []
+  :modes [ :root ]
+  :fields {slplayer (LPlayer "/Falcon.StagingArea" :id "Player-left")
+           ldest (Destination "/Falcon.RoomJ" :id "targetdestination1")
+           rdest (Destination "/Falcon.SCR2" :id "targetdestination2")
+           participant1     (Participant "Player1" p1 0 :id "agentBeliefState.participant1") ; These numbers will come from elsewhere
+           participant2     (Participant "Player2" p2 0 :id "agentBeliefState.participant2") ; These numbers will come from elsewhere
+           participant3     (Participant "Player3" p3 0 :id "agentBeliefState.participant3") ; These numbers will come from elsewhere
+           participant4     (Participant "Player4" p3 0 :id "agentBeliefState.participant4") ; These numbers will come from elsewhere
+           participant5     (Participant "Player5" p3 0 :id "agentBeliefState.participant5") ; These numbers will come from elsewhere
+           participant6     (Participant "Player6" p3 0 :id "agentBeliefState.participant6") ; These numbers will come from elsewhere
+           robot1           (Robot "Robot1"        r1   :id "agentBeliefState.robot1")       ; These numbers will come from elsewhere
+
+           rita (ParticipantProfile "Rita"       0 :asist-assistant    :robot    0  0  0  0)
+           r1   (ParticipantProfile "Robot1"     0 :learing-robot      :robot    0  0  0  0)
+           observer (ParticipantProfile "Ed"     0 :testbed-observer   :robot    0  0  0  0)
+           ;;p1-survey (PreTrialSurvey)
+           p1   (ParticipantProfile "Player1" 18 :female             :american 50 50 80 80) ; last arg was p1-survey
+           p2   (ParticipantProfile "Player2" 18 :male               :american 50 50 80 80) ; last arg was p1-survey
+           p3   (ParticipantProfile "Player3" 18 :male               :american 50 50 80 80) ; last arg was p1-survey
+           p4   (ParticipantProfile "Player4" 18 :male               :american 50 50 80 80) ; p4-survey
+           p5   (ParticipantProfile "Player5" 18 :male               :american 50 50 80 80) ; p5-survey
+           p6   (ParticipantProfile "Player6" 18 :male               :american 50 50 80 80) ; p6-survey
+           }
+  :methods [(defpmethod goal
+              {:doc "Search the building"
+               :post (= ldest (mode-of Destination :arrived))
+                   ;;(= rdest (mode-of Destination :arrived))
+               }
+              [])])
+
+(defpclass Main2 []
+  :modes [ :root ]
+  :fields {srplayer (RPlayer "/Falcon.StagingArea" :id "Player-right")
+           ldest (Destination "/Falcon.RoomJ" :id "targetdestination1")
+           rdest (Destination "/Falcon.SCR2" :id "targetdestination2")
+           participant1     (Participant "Player1" p1 0 :id "agentBeliefState.participant1") ; These numbers will come from elsewhere
+           participant2     (Participant "Player2" p2 0 :id "agentBeliefState.participant2") ; These numbers will come from elsewhere
+           participant3     (Participant "Player3" p3 0 :id "agentBeliefState.participant3") ; These numbers will come from elsewhere
+           participant4     (Participant "Player4" p3 0 :id "agentBeliefState.participant4") ; These numbers will come from elsewhere
+           participant5     (Participant "Player5" p3 0 :id "agentBeliefState.participant5") ; These numbers will come from elsewhere
+           participant6     (Participant "Player6" p3 0 :id "agentBeliefState.participant6") ; These numbers will come from elsewhere
+           robot1           (Robot "Robot1"        r1   :id "agentBeliefState.robot1")       ; These numbers will come from elsewhere
+
+           rita (ParticipantProfile "Rita"       0 :asist-assistant    :robot    0  0  0  0)
+           r1   (ParticipantProfile "Robot1"     0 :learing-robot      :robot    0  0  0  0)
+           observer (ParticipantProfile "Ed"     0 :testbed-observer   :robot    0  0  0  0)
+           ;;p1-survey (PreTrialSurvey)
+           p1   (ParticipantProfile "Player1" 18 :female             :american 50 50 80 80) ; p1-survey
+           p2   (ParticipantProfile "Player2" 18 :male               :american 50 50 80 80) ; p2-survey
+           p3   (ParticipantProfile "Player3" 18 :male               :american 50 50 80 80) ; p3-survey
+           p4   (ParticipantProfile "Player4" 18 :male               :american 50 50 80 80) ; p4-survey
+           p5   (ParticipantProfile "Player5" 18 :male               :american 50 50 80 80) ; p5-survey
+           p6   (ParticipantProfile "Player6" 18 :male               :american 50 50 80 80) ; p6-survey
+           }
+  :methods [(defpmethod goal
+              {:doc "Search the building"
+               :post ;(= ldest (mode-of Destination :arrived))
+                      (= rdest (mode-of Destination :arrived))
+              }
+              [])])
+
+(defpclass Main []
+  :meta {:doc "Constructor of the SAR scenario"}
+  :fields {missionstatus (MissionStatus)
+           participant1     (Participant "Player1" p1 0 :id "agentBeliefState.participant1") ; These numbers will come from elsewhere
+           participant2     (Participant "Player2" p2 0 :id "agentBeliefState.participant2") ; These numbers will come from elsewhere
+           participant3     (Participant "Player3" p3 0 :id "agentBeliefState.participant3") ; These numbers will come from elsewhere
+           participant4     (Participant "Player4" p3 0 :id "agentBeliefState.participant4") ; These numbers will come from elsewhere
+           participant5     (Participant "Player5" p3 0 :id "agentBeliefState.participant5") ; These numbers will come from elsewhere
+           participant6     (Participant "Player6" p3 0 :id "agentBeliefState.participant6") ; These numbers will come from elsewhere
+           robot1           (Robot "Robot1"        r1   :id "agentBeliefState.robot1")       ; These numbers will come from elsewhere
+           player (OPlayer "/Falcon.StagingArea" missionstatus :id "Player-Opportunistic") ;+++ This needs updating
+           rita-agent       (Agent rita :id "agentBeliefState.rita")
+           rita (ParticipantProfile "Rita"       0 :asist-assistant    :robot     0  0  0  0)
+           r1   (ParticipantProfile "Robot1"     0 :learing-robot      :robot    0  0  0  0)
+           observer (ParticipantProfile "Ed"     0 :testbed-observer   :robot     0  0  0  0)
+           p1   (ParticipantProfile "Player1  " 18 :female             :american 50 50 80 80)
+           p2   (ParticipantProfile "Player2  " 18 :male               :american 50 50 80 80)
+           p3   (ParticipantProfile "Player3  " 18 :male               :american 50 50 80 80)
+           p4   (ParticipantProfile "Player4" 18 :male               :american 50 50 80 80) ; p4-survey
+           p5   (ParticipantProfile "Player5" 18 :male               :american 50 50 80 80) ; p5-survey
+           p6   (ParticipantProfile "Player6" 18 :male               :american 50 50 80 80) ; p6-survey
+           aroom (lvar "a room")
+          }
+    :methods [(defpmethod goal
+              {:doc "Search the building"
+               :post (= missionstatus (mode-of MissionStatus :finished))}
+              [])])
+
+;;; Fin

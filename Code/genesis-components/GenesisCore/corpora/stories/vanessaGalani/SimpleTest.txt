@@ -1,0 +1,350 @@
+Start experiment.
+
+Show both perspectives.
+
+Both perspectives.
+
+Insert file General commonsense knowledge.
+
+Insert file Relations knowledge.
+
+xx is a person.
+
+yy is a person.
+
+zz is a place.
+
+vv is a person.
+
+If xx dispatches several trade ships, then xx may be worried and xx does not have any money.
+
+If xx is ashamed of yy and yy is xx's father, then xx may run away.
+
+If xx takes a pound of yy's flesh, then yy may bleed to death.
+
+If xx takes a pound of yy's flesh, then xx will spill yy's blood.
+
+Note that Shylock, Antonio, Bassanio, Nerissa, Jessica, Portia, Lorenzo, Lancelot, Balthasar, Bellario, Gratiano,  are names.
+
+if xx does not repay money to yy and xx borrowed money from yy, then xx goes to prison.
+
+if xx goes to prison, then xx has a trial.
+
+is xx insults yy, then yy may hate xx.
+
+If xx wants to marry yy and xx's father is cruel, then xx may run away to marry yy.
+
+//If xx has a trial, and yy is a judge, then yy presides over xx's trial.
+
+if xx is sick, then xx cannot preside over yy's trial.
+
+if xx is supposed to preside over zz's trial and xx wants yy to preside over zz's trial, then yy may preside over zz's trial.
+
+If xx loves yy and xx wants to impress yy, then xx may want to borrow money from zz.
+
+if xx lends money to yy, then yy borrows money from xx.
+
+If xx gives a ring to yy and yy gives the ring to vv, then xx may become upset.
+
+if xx loves yy, then xx may help yy.
+
+if xx is yy's daughter, then yy is xx's father.
+
+If  xx borrows money from yy, then xx  has money.
+
+If xx does not have any money, then xx cannot lend money to yy.
+
+if xx wants to marry yy, then xx may want to impress yy.
+
+If xx insults yy, then yy want revenge on xx.
+
+If xx hates yy, then xx may not be lenient with yy.
+
+if xx does not have money, then xx may borrow money from yy.
+
+if xx is yy's daughter and yy is angry with xx, then yy may disinherit xx.
+
+if xx is yy's daughter and xx runs away, then yy may be angry with xx.
+
+if xx is kind, then xx may be merciful.
+
+if xx is yy's father, then yy is heir to xx's fortune.
+ 
+if xx decides to take a pound of yy's flesh, then xx has threatened yy's life.
+
+If xx if yy's father, and xx disinherits yy, then yy is not the heir to xx's fortune.
+
+If xx does not have any money and xx owes yy money, then xx may not repay money to yy.
+
+If xx lends money to yy, then yy owes xx money.
+
+If xx lends money to yy with no interest, then yy may believe that xx is nice.
+
+
+
+                                                                                     
+Start story titled "The Merchant of Venice".
+
+Antonio is a person.
+
+Shylock is a person.
+
+Portia is a person.
+
+Bassanio is a person.
+
+The Duke is a person. 
+
+Lorenzo is a person.
+
+Lancelot is a person.
+
+Jessica is a person.
+
+Balthasar is a person. 
+
+Balthasar's Clerk is a person.
+
+Nerissa is a person.
+
+Bellario is a person.
+
+Gratiano is a person.
+
+The State of Venice is an entity.
+
+
+
+Construct a mental model for Antonio.
+Construct a mental model for Bassanio.
+Construct a mental model for The Duke.
+Construct a mental model for Shylock.
+
+
+
+
+Portia is rich.
+
+Balthasar is Portia's friend.
+
+Lancelot is Shylock's servant.
+
+Jessica is Shylock's daughter.
+
+Lorenzo is Bassanio's friend.
+
+Bassanio is Antonio's friend.
+
+Shylock is Jewish.
+
+
+
+
+Antonio has dispatched several trade ships to various ports. 
+
+Antonio is worried.
+
+Bassanio owes Antonio money.
+
+Bassanio is in love with Portia.
+
+Bassanio wants to marry Portia.
+
+Bassanio asks to borrow money from Antonio to impress Portia.
+
+Antonio does not have any money.
+
+Antonio cannot lend money to Bassanio. 
+
+//Broadcast status.
+
+//Pause.
+
+
+
+
+Portia likes Bassanio.
+
+Portia wants to marry Bassanio.
+
+Shylock is cruel.
+
+Antonio wants to borrow money from Shylock.
+
+Shylock is doubtful of Antonio because Antonio does not have any money. 
+
+Shylock lends money to Antonio with no interest.
+
+Antonio lends money to Bassanio. 
+
+Shylock is viscous.
+
+Antonio believes Shylock has become nice.
+
+Antonio always insults Shylock publicly because Shylock is cruel.
+
+Shylock hates Antonio.
+
+Shylock asks a pound of Antonio's flesh  because Shylock wants revenge on Antonio.
+
+Bassanio advices Antonio against giving Shylock a pound of Antonio's flesh.
+
+Antonio agrees to give Shylock a pound of Antonio's flesh because Antonio believes he will make a lot of money from his ships.
+
+Antonio lends money to Bassanio.
+
+//Antonio signs the bond with Shylock.
+
+//Broadcast status.
+
+//Pause.
+
+
+Bassanio marries Portia.
+
+Jessica is ashamed of Shylock because Shylock is cruel.
+
+Jessica wants to marry Lorenzo.
+
+Jessica disobeys Shylock and runs away to marry Lorenzo.
+
+Shylock is angry with Jessica.
+
+Shylock disinherits Jessica.
+
+//Broadcast status.
+
+//Pause.
+
+
+
+Antonio receives a letter saying Antonio lost all his ships.
+
+Antonio believes he does not have any money because he believes he lost all his ships.
+
+Antonio does not repay money to Shylock.
+
+Shylock wants revenge on Antonio.
+
+//Broadcast status.
+
+//Pause.
+
+
+
+
+Portia gives Bassanio a ring.
+
+Nerissa gives Gratiano a ring.
+
+//Broadcast status.
+
+//Pause.
+
+
+
+Antonio goes to prison because he did not repay money to Shylock.
+
+Antonio pleads for mercy. 
+
+Shylock refuses to grant Antonio mercy.
+
+//Portia and Jessica dress up as men.
+
+The court conveys for Antonio's trial.
+
+Shylock wants to take the pound of Antonio's flesh because he hates Antonio.
+
+Bellario is a judge. 
+
+Bellario is supposed to preside over Antonio's trial.
+
+Balthasar's Clerk enters the court dressed as a man.
+
+Antonio believes Balthasar is a judge.
+Bassanio believes Balthasar is a judge.
+The Duke believes Balthasar is a judge.
+Shylock believes Balthasar is a judge.
+
+Portia Believes Balthasar is Portia.
+
+Bellario believes Balthasar is Portia.
+
+Bellario cannot preside over Antonio's trial because Bellario is sick.
+
+Bellario wants Balthasar to preside over Antonio's trial.
+
+Balthasar enters the court.
+
+Bassanio offers to pay more than the debt to shylock..
+
+Shylock refuses the Payment from Bassanio.
+
+Portia asks Shylock to take a pound of Antonio's flesh.
+
+Portia reminds Shylock that Antonio's blood must not be spilled.
+
+If blood is spilled, Shylock will be guilty of conspiring aganist a venetian citizen.
+
+Shylock agrees to take the payment from Bassanio.
+
+Shylock does not take a pound of Antonio's flesh.
+
+Portia refuses that Bassanio pays Shylock and insists Shylock takes a pound of Antonio's flesh.
+
+Shylock is guilty of threatening Antonio's life.
+
+Shylock is sanctioned because Shylock is guilty.
+
+Portia gives half of Shylock's estate to Antonio. 
+
+Portia gives half of Shylock's estate to the state of Venice.
+
+The Duke is merciful and gives Shylock back the other half of his estate.
+
+The Duke spares Shylock's life.
+
+The Duke gives Shylock a fine.
+
+//Broadcast status.
+
+//Pause.
+
+
+
+The Duke tells Antonio to reward Portia for saving Antonio's life. 
+
+Bassanio offers Balthazar money.
+
+Balthazar wants the ring Portia gave Bassanio.
+
+Antonio convinces Basanio to give Balthasar the ring.
+
+Bassanio gives Balthasar Bassanio's ring.
+
+Lorenzo gives Balthasar's Clerk Lorenzo's ring.
+
+//Broadcast status.
+
+//Pause.
+
+
+
+Nerissa asks Gratiano for the ring she gave him.
+
+Portia asks Bassanio for the ring she gave him.
+
+Bassanio says he gave the ring to Balthasar.
+
+Gratiano says he gave the ring to Balthasar's Clerk.
+
+Portia tells Bassanio she is Balthasar's friend.
+
+Partia gives Bassanio his ring.
+
+Nerissa gives Gratiano his ring.
+
+
+
+The end.
+

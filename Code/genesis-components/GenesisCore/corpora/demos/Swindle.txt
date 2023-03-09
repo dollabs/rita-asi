@@ -1,0 +1,64 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set left panel to Inspector.
+Set right panel to Summary.
+Set bottom panel to Elaboration graph.
+
+XX is a person.  YY is a person.  A thief is a person.
+
+// Common sense inference rule 
+If xx swindles yy, then xx harms yy.
+if xx kills yy, then yy becomes dead.
+if xx harms yy, then xx angers yy.
+
+
+// Common sense explanation rules, signaled by may
+If xx becomes rich and xx trusts yy and yy steals, then yy may swindle xx.
+If xx angers yy, then yy may kill xx.
+
+// Common sense presumption rule, signaled by presumably because
+xx starts a company presumably because xx is ambitious.
+xx steals presumably because xx is greedy.
+
+// Common sense abduction rule, signaled by must be
+// If xx kills yy, then xx must be insane.
+
+// Concept pattern
+Start description of "Murder".
+xx's angering yy leads to yy's killing xx. 
+The end.
+
+// Another concept pattern.
+Start description of "Tragic greed".
+xx's being greedy leads to xx's becoming dead.
+The end.
+
+// Another concept pattern
+Start description of "Ambition rewarded".
+xx's being ambitious leads to xx's becoming rich.
+The end.
+
+Start story titled "Demonstration".
+
+Peter, Paul, and Mary, are persons. 
+
+Peter is poor.
+
+Mary marries Peter because Mary loves Peter.
+
+Paul steals.
+
+Mary trusts Paul.
+
+Mary's starting a company leads to Mary's becoming rich.
+
+Paul swindles Mary.
+
+In order to kill Paul, Mary shoots Paul with a gun.
+
+
+The end.
+
+

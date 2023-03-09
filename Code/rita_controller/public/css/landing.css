@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.section {
+  font-family: 'Mulish', sans-serif;
+  font-size: 0.9rem;
+  margin: 0rem 2rem;
+  padding: 1.5rem 0.5rem;
+}
+
+/******* SEARCH SECTION *********/
+.search-section {
+  background-color: #172144;
+  border-radius: 0.5rem;
+}
+
+.search__wrapper {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  background-color: rgb(26, 26, 26);
+  width: 100%;
+  border: 2px solid #281350;
+  border-right: none;
+  padding: 1rem;
+  height: 3rem;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #d1a8d8;
+}
+
+.searchTerm:focus {
+  color: #d5a7dd;
+}
+
+.searchButton {
+  width: 5rem;
+  height: 3rem;
+  border: 1px solid #9037b9;
+  background: #9037b9;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0;
+}
+
+/******* COMMANDS SECTION *********/
+.command-section {
+  color: rgb(236, 223, 243);
+  background: #172144;
+  font: 300 1em 'Mulish', sans-serif;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+.command-section h6 {
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.commands {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  padding: 1rem;
+  width: 100%;
+}
+
+.prod {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.dev {
+  height: 27.5rem;
+}
+
+.operations {
+  height: 18rem;
+}
+
+.inputFile {
+  display: flex;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+/* Command buttons: https://developer.mozilla.org/en/docs/Web/CSS/box-shadow */
+@import url('https://fonts.googleapis.com/css?family=Mukta:700');
+.fill:hover {
+  box-shadow: inset 0 0 0 2em #4703b4e0;
+}
+
+button:hover {
+  border-color: #4703b4e0;
+  color: rgb(196, 161, 193);
+}
+
+button {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  font: inherit;
+  font-size: 0.8rem;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  border-radius: 1rem;
+  border: 2px solid #76228fab;
+}
+
+.btn-1 {
+  background: #771e70;
+  color: #96c7e4;
+}
+
+.btn-2 {
+  background: #952f9e;
+  color: #cea1db;
+}
+
+.btn-3 {
+  background: #9037b9;
+  color: #cea1db;
+}
+
+.btn-4 {
+  background: #4c39bb;
+  color: #cea1db;
+}
+
+.btn-5 {
+  background: #4464af;
+  color: #0b0e25;
+}
+
+.btn-6 {
+  background: #4788ad;
+  color: #0b2325;
+  border: none;
+  width: 100%;
+}
+
+.btn-7 {
+  background: #2f6280;
+  color: #dbf1f4;
+  border: none;
+  width: 100%;
+}
+
+.btn-8 {
+  background: #0b3954;
+  color: #77cfd7;
+  border: none;
+}
+
+.btn-9 {
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1e4494, #97037ade); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  color: #e5e7fc;
+  width: 50%;
+}
+
+.input {
+  background: #223392;
+  width: 80%;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  margin: auto;
+  color: rgb(23, 7, 43);
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: none;
+  color: rgb(175, 159, 196);
+}
+
+/******* TERMINAL LIKE *********/
+.fakeButtons {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  position: relative;
+  top: 6px;
+  left: 6px;
+  background-color: #ff3b47;
+  border-color: #9d252b;
+  display: inline-block;
+}
+
+.fakeMinimize {
+  left: 11px;
+  background-color: #ffc100;
+  border-color: #9d802c;
+}
+
+.fakeZoom {
+  left: 16px;
+  background-color: #00d742;
+  border-color: #049931;
+}
+
+.fakeMenu {
+  width: 100%;
+  box-sizing: border-box;
+  height: 25px;
+  background-color: rgb(120, 40, 128);
+  margin: 0 auto;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.fakeScreen {
+  padding: 2rem 3rem;
+  height: 27.4rem;
+  background-color: #172144;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  position: relative;
+}
+
+.text {
+  overflow: scroll;
+  height: 29rem;
+}
+.fakeScreen p {
+  position: relative;
+  text-align: left;
+  font-size: 1.2em;
+  font-family: monospace;
+  white-space: nowrap;
+  color: #e7b1da;
+}
+
+/* Animation */
+.anim-typewriter {
+  /* border-right: 0.15em solid orange; The typwriter cursor */
+  animation: typewriter 4s steps(44) 1s 1 normal both; /* blink-caret 0.5s step-end infinite */
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Check box */
+.check__item {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.check__item label {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 1rem;
+  column-gap: 1rem;
+}
+
+.default__check[type='checkbox'] {
+  display: none;
+}
+
+.default__check[type='checkbox'] ~ .custom__check {
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  border: 2px solid rgb(196, 161, 193);
+  position: relative;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.default__check[type='checkbox'] ~ .custom__check:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  transition: all 0.4s ease;
+}
+.default__check[type='checkbox'].switchbox + .custom__check {
+  width: 2rem;
+}
+.default__check[type='checkbox'].switchbox + .custom__check:after {
+  transform: scale(1.5);
+  left: 4px;
+}
+.default__check[type='checkbox'].switchbox:not(:checked) ~ .custom__check:after {
+  background-color: rgb(196, 161, 193);
+}
+.default__check[type='checkbox'].switchbox:checked ~ .custom__check:after {
+  left: 1rem;
+}
+.default__check[type='checkbox']:checked ~ .custom__check {
+  background-color: #4c39bb;
+}
+.default__check[type='checkbox']:checked ~ .custom__check:after {
+  visibility: visible;
+}
+
+.switchbox ~ .custom__check {
+  border-radius: 50rem;
+}
+.switchbox ~ .custom__check:after {
+  width: 8px;
+  height: 8px;
+  background-color: rgb(196, 161, 193);
+  border-radius: 50rem;
+}

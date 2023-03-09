@@ -1,0 +1,45 @@
+//Infer Enter Exit 1, March 2016
+// Exp 1: If someone is in a Scene (existing construct, defined by Then), they probably observe events in the scene.
+
+Start experiment.
+
+Start story titled "Infer Enter Exit 1".
+
+/////////////////////////////////////////////////////////////////////////////**/
+
+//infer A, B, M, N enter
+//all events in this scene should be observed by A, B, M, N
+The box falls.
+Alice gives an apple to Bobby.
+The dog barks.
+Maria jumps.
+The pig flies.
+Alice hugs Bobby.
+The duck quacks.
+Nancy is happy.
+The cow sleeps.
+
+//infer A, B, M, N exit (due to "Then")
+//infer C, D, E enter
+//all events in this scene should be observed by C, D, E
+
+Then, the horse runs.
+Carla sings with David.
+The glass breaks.
+Emily claps.
+The audience cheers.
+
+Everyone exits the scene. //infer C, D, E exit
+
+A tree falls in the forest. //obs by nobody
+
+// Test that this still works when many characters are mentioned in the same sentence.
+Then, Alice, Bobby, and Carla play frisbee with David. //obs by A, B, C, D
+
+//Expected mental models:
+    // A, B, M, N: The box falls. Alice gives an apple to Bobby. ... The cow sleeps. [frisbee].
+    // C, D, E: The horse runs. Carla sings with David. The glass breaks. Emily claps. The audience cheers. [frisbee].
+
+/////////////////////////////////////////////////////////////////////////////**/
+
+The end.

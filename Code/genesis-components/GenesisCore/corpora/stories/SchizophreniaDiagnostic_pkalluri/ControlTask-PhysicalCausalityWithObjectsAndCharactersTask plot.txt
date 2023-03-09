@@ -1,0 +1,16 @@
+MySlide is a slide.
+MyBall is a ball.
+Bob is a person.
+
+Then, the story begins.
+
+//Pic 1
+MyBall is on MySlide.
+MyBall is high on MySlide.
+Bob is right.
+
+//Pic 2
+MyBall is low on MySlide.
+
+//Pic 3
+MyBall rolls at ground-level.

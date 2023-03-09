@@ -1,0 +1,19 @@
+{
+    "accept_time": "2019-06-04 10:26:43+08:00", 
+    "instructions": [
+        "Put charger on table", 
+        "Put dinner fork to left aide of charger", 
+        "put dinner knife on right side of charger", 
+        "put salad fork to left of dinner fork", 
+        "put salad knife to right of dinner knife", 
+        "soup spoon gord on right side of salad knife", 
+        "dessert spoon goes above charger", 
+        "dessert fork goes under dessert knife", 
+        "bread pkate goes above forks", 
+        "butter knife goes on bread plate", 
+        "water glass goes above knives", 
+        "napkin goes on charger"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table4"
+}

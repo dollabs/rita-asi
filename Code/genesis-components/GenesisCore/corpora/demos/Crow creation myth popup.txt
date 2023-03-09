@@ -1,0 +1,17 @@
+<h1>What you see</h1>
+
+Genesis interprets a Native American creation myth of the Crows.
+<p>
+Note that the my features the <i>Strangely, ... leads to ....</i>  idea that there is a causal connection,
+you will never understand it.
+
+Also, note that <i>Old Man Coyote</i> has strong medicine is inserted into the story as a consequence of
+Genesis's noting a concept <i>Creation.</i>.  Then, noting the strong medicine, Genesis finds an instance of <i>Medicine Man</i>.
+
+<h1>What you can do</h1>
+
+<ul>
+<li> Click or right click to zoom in or out on the elaboration graph.  Press and drag to move the elaboration graph.
+<li> Press the buttons at the bottom of the elaboration graph.
+     Examine the elements involved in the <i>Inspector</i> pane.
+</ul>

@@ -1,0 +1,5 @@
+
+Number of sentences: 0.0
+Number of sentences parsed: 0.0
+Average length of sentence: NaN
+Portion of translatable sentence: NaN

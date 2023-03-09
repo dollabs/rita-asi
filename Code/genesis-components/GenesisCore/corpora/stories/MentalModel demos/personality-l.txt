@@ -1,0 +1,8 @@
+xx is a person.
+
+If xx shouts, then xx must be angry.
+
+Start story titled "Personality L".
+
+The end.
+

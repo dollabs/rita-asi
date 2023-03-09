@@ -1,0 +1,11 @@
+Start commonsense knowledge.
+
+XX, YY, ZZ are persons.
+
+XX abandons YY because ZZ persuades XX to abandon YY.
+
+//Different methods of harm.
+XX harms YY because XX starves YY.
+XX harms YY because XX abandons YY.
+
+if xx is yy's husband, then yy is xx's wife.

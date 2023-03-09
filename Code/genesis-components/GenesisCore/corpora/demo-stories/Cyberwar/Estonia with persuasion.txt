@@ -1,0 +1,72 @@
+Start experiment.
+
+Show both perspectives.
+
+Set right panel to Retelling.
+
+First perspective.
+
+Insert file Estonia commonsense knowledge.
+
+// Insert file Estonia reflective knowledge.
+
+Insert file General reflective knowledge.
+
+Start description of "Attack".
+xx is an entity.
+yy is an entity.
+xx's performing aa leads to xx's attacking yy.
+Evidently, XX triggers "Attack".
+The end.
+
+Start description of "Insult".
+xx is an entity.
+yy is an entity.
+xx insults yy.
+Evidently, XX triggers "Insult".
+The end.
+
+Start description of "Lack of respect".
+xx is an entity.
+yy is an entity.
+xx does not respect yy.
+Evidently, XX triggers "Lack of respect".
+The end.
+
+Start description of "Desire to harm".
+xx is an entity.
+yy is an entity.
+xx wants to harm yy.
+Evidently, XX triggers "Desire to harm".
+The end.
+
+Start description of "Victim".
+xx is an entity.
+yy is an entity.
+xx harms yy.
+Evidently, yy triggers "Victim".
+The end.
+
+Assert thread thing, aggressor, attack.
+Assert thread thing, aggressor, insult.
+Assert thread thing, aggressor, lack of respect.
+Assert thread thing, aggressor, desire to harm.
+
+Assert thread thing, victim.
+
+Aggressor is opposite of victim. 
+
+Start story titled "Cyber war".
+
+// Estonia and Russia are countries.
+
+I am Estonia's friend.
+
+Estonia is my friend.
+
+Insert file Estonia plot.
+
+Insert into text box: Make Estonia be aggressor.
+
+
+

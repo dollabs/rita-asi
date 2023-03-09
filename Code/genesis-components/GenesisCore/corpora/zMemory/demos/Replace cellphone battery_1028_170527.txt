@@ -1,0 +1,15 @@
+Start experiment.
+
+Set Deploy novice first switch to false.
+
+Set Real robot button to true.
+
+Set self aware button to true.
+
+Set right panel to Commentary.
+
+Read knowledge in ZZ Basic blocks knowledge.
+
+Read knowledge in Steps_Replace cellphone battery_1028_170527.
+
+Insert into text box: Replace cellphone battery.

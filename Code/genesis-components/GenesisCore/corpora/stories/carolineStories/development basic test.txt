@@ -1,0 +1,137 @@
+Start story titled "Model Test".
+
+//FIRST VERSION
+//Bambi runs in the marsh.
+//Bambi gets excited.
+//Bambi runs in the cattails.
+//Bambi has itchy spots.
+
+//SECOND VERSION
+Bambi likes to prance and run in lots of different places.
+Running is fun for Bambi.
+//Then on Monday morning, Bambi runs in the pine grove.
+Then, the time is Monday morning.
+Bambi runs in the pine grove.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+Bambi does nothing. // placeholder hack for mental model 2 not transmitting the last sentence.
+
+//Then on Monday afternoon, Bambi runs in the pine trees. //new line cedar trees
+Start story titled "afternoon".
+Then, the time is Monday afternoon.
+Bambi does not have itchy spots.
+Bambi runs in the pine trees.
+Bambi plays on the rope swing.
+Bambi feels great.
+Bambi does not have any itchy spots.
+Bambi does nothing.
+
+//Then on Tuesday morning, Bambi gets excited.
+Start story titled "Tuesday morning".
+Then, the time is Tuesday morning.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi runs in the grass.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+Bambi does nothing.
+
+//Then on Tuesday afternoon, Bambi reads a book. //new line - and
+Start story titled "Tuesday afternoon".
+Then, the time is Tuesday afternoon.
+Bambi reads a book.
+Bambi runs in the rock_bed. //through rock bed
+Bambi feels great.
+Bambi does not have any itchy spots.
+Bambi does nothing.
+
+//Then on Wednesday morning, Bambi runs in the marsh.
+Start story titled "Wednesday morning".
+Then, the time is Wednesday morning.
+Bambi runs in the marsh.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+Bambi does nothing.
+
+//Then on Wednesday afternoon, Bambi runs in the apple orchard. //new line - and
+Start story titled "Wednesday afternoon".
+Then, the time is Wednesday afternoon.
+Bambi runs in the apple orchard.
+Bambi plays with a truck. //through apple... with his toy truck
+Bambi feels great.
+Bambi does not have any itchy spots.
+Bambi does nothing.
+
+//Then on Thursday morning, Bambi gets excited.
+Start story titled "Tursday morning".
+Then, the time is Thursday morning.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi runs in the leaves.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+Bambi does nothing.
+
+//Then on Thursday afternoon, Bambi plays jump rope. //new line - and
+Start story titled "Thursday afternoon".
+Then, the time is Thursday afternoon.
+Bambi plays jump rope.
+Bambi runs in the sand.
+Bambi feels great.
+Bambi does not have any itchy spots.
+Bambi does nothing.
+
+//Then on Friday morning, Bambi runs in the bushes.
+Start story titled "Friday morning".
+Then, the time is Friday morning.
+Bambi runs in the bushes.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+Bambi does nothing.
+
+//Then on Saturday morning, Bambi gets excited.
+Start story titled "Saturday morning".
+Then, the time is Saturday morning.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi runs in the grass.
+//Bambi gets excited.
+//Bambi runs in the cattails.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+Bambi does nothing.
+
+//Then on Saturday afternoon, Bambi gets his hair brushed. //new line - and
+Start story titled "Saturday afternoon".
+Then, the time is Saturday afternoon.
+Bambi gets his hair brushed.
+Bambi runs in the blueberry_patch. //through blueberry patch
+Bambi feels great.
+Bambi does not have any itchy spots.
+Bambi does nothing.
+
+//Then on Sunday morning, Bambi runs in the garden. //through garden
+Start story titled "Sunday morning".
+Then, the time is Sunday morning.
+Bambi runs in the garden.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+Bambi does nothing.
+
+//Then on Friday afternoon, Bambi runs in the playground. //new line - and
+Start story titled "Friday afternoon".
+Then, the time is Friday afternoon.
+Bambi runs in the playground.
+Bambi roller skates. //through playground
+Bambi feels great.
+Bambi does not have any itchy spots.
+Bambi does nothing.
+
+
+Then, on the next day Bambi's spots were all gone.
+Have fun Bambi.
+
+The end.
+
+//Does bambi have itchy spots because bambi runs in the cattails or bambi runs in the pine grove

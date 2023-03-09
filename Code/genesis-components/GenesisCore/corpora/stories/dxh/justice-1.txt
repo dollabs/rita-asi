@@ -1,0 +1,34 @@
+Insert file Start experiment.
+
+Set right panel to mental models.
+
+Set bottom panel to elaboration graph.
+
+Start common sense knowledge.
+
+xx is a person.
+yy is a person.
+
+If xx kills yy,  yy becomes dead.
+
+Show first perspective.
+First perspective.
+
+Start story titled "Jack and Jill"
+
+Jill is a person.
+Jack is a person.
+Greg is a person.
+
+Jill threatens to kill Jack if Jack does not kill Greg.
+Jill vows to kill Jack if Jack does not kill Greg.
+
+// Kevin is hanged for looking at Hannah.
+// // The preceding sentence is misparsed as: "Kevin has the classification hanged so that he can observe Hannah."
+
+Kevin is hanged because he looked at Hannah.
+// Kevin is hanged as punishment for looking at Hannah.
+
+Jill threatens to kill Jack unless Jack kills Greg.
+
+Jill kills Jack.

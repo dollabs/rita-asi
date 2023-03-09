@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../css/favicon.ico">
+  
+  <title>Story Aligner - Genesis Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Story Aligner";
+    var mkdocs_page_input_path = "story-aligner.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Genesis Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Genesis</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="..">Genesis System</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../contribute/">Contribute to Documentation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../past/">Past</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../current.md">Current</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../future.md">Future</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Fundamentals</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../innerese/">Representation - Innerese</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../stories/">Writing Stories</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../inference/">Inference by Rules</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../concept-patterns/">Concept Patterns</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../mental-model/">Mental Models</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../classification/">Classification</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Genesis Interface</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../genesis-controls/">Controls</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../gui-subsystems/">Subsystems</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Consciousness</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../core/">Genesis Core</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../wire/">Box and Wire</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../problem-solver/">Problem Solver</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Mental Experts</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../hypothetical-reasoner/">Hypothetical Reasoner</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story reteller.md">Story Reteller</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-summarizer/">Story Summarizer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="./">Story Aligner</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#imagination-through-story-alignment">Imagination through Story Alignment</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#story-comparison">Story comparison</a></li>
+        
+            <li><a class="toctree-l4" href="#sequence-alignment-by-nw-algorithm">Sequence alignment by NW algorithm</a></li>
+        
+            <li><a class="toctree-l4" href="#word-alignment-by-wordnet">Word Alignment by WordNet</a></li>
+        
+            <li><a class="toctree-l4" href="#demo-predict-future-of-conflicts">Demo: Predict Future of Conflicts</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Knowledge Base</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../concept-net/">Commonsense - ConceptNet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../wikihow/">Procedural Knowledge - WikiHow</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../atomic/">Inference Rules - ATOMIC</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../personalities/">Personalities</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Knowledge Generators</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../recipe-learners/">Recipe Learners</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Story Aligner</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#imagination-through-story-alignment">Imagination through Story Alignment</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#story-comparison">Story comparison</a></li>
+        
+            <li><a class="toctree-l4" href="#sequence-alignment-by-nw-algorithm">Sequence alignment by NW algorithm</a></li>
+        
+            <li><a class="toctree-l4" href="#word-alignment-by-wordnet">Word Alignment by WordNet</a></li>
+        
+            <li><a class="toctree-l4" href="#demo-predict-future-of-conflicts">Demo: Predict Future of Conflicts</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Tips for Users</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../tips-genesese/">Writing Parsable English</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../tips-eclipse/">Debugging in Eclipse</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../commentary/">Using Commentary</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Demonstrations</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../demo-macbeth2/">Culture Differences</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Genesis Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Knowledge Generators &raquo;</li>
+        
+      
+    
+    <li>Story Aligner</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="imagination-through-story-alignment">Imagination through Story Alignment</h1>
+<p>The ideas and demos come from Matthew Paul Fay's 2012 MEng thesis <a href="http://groups.csail.mit.edu/genesis/papers/Fay%202012.pdf">Enabling Imagination through Story Alignment</a>.</p>
+<h2 id="story-comparison">Story comparison</h2>
+<p>People intuitively use story comparison to draw on old experiences to construct and understand new ideas. Matthew's algorithms are capable of providing a polynomial time solution to an otherwise exponential time problem.</p>
+<p>A story is a sequence of time ordered story elements. The inputs to the algorithm are two sequences, A and B, and a similarity matrix, S, comparing all element types that exist in the domain. The goal is to find an alignment between sequences with a maximal alignment score where the score is calculated by summing over the similarity of each pair of elements in the alignment. Gaps are allowed anywhere in the alignment and are given a constant gap penalty d.</p>
+<h2 id="sequence-alignment-by-nw-algorithm">Sequence alignment by NW algorithm</h2>
+<p>Steps to determine the matching sequences using the Needleman Wunsch algorithm:</p>
+<ol>
+<li>Calculate the scoring table</li>
+<li>Trace the maximum matching threads</li>
+<li>Write down the matching sequences</li>
+</ol>
+<h3 id="step-1-calculate-the-scoring-table">Step 1: Calculate the scoring table</h3>
+<p>For example, here are the rules for scoring:</p>
+<ul>
+<li>If match, score + 1</li>
+<li>If mismatch, score - 1</li>
+<li>If Small insertions and deletions (INDELs), score - 1</li>
+</ul>
+<p>Eg. sequences:</p>
+<ol>
+<li>ATCGGAG</li>
+<li>ATGGCAA</li>
+</ol>
+<p>Scoring matrix: F (i,j) = max{</p>
+<ul>
+<li>F(i-1, j-1) + S(i,j)  ==&gt;  F(↖) + S(mtach/mismatch)</li>
+<li>F(i-1, j) + S(indel)  ==&gt;  F(↑) + S(indel)</li>
+<li>F(i, j-1) + S(indel)  ==&gt;  F(←) + S(indel)</li>
+</ul>
+<p>}</p>
+<p>The resulting scoring matrix:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>A</th>
+<th>T</th>
+<th>C</th>
+<th>G</th>
+<th>G</th>
+<th>A</th>
+<th>G</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>0</td>
+<td>-1</td>
+<td>-2</td>
+<td>-3</td>
+<td>-4</td>
+<td>-5</td>
+<td>-6</td>
+<td>-7</td>
+</tr>
+<tr>
+<td>A</td>
+<td>-1</td>
+<td>1</td>
+<td>0</td>
+<td>-1</td>
+<td>-2</td>
+<td>-3</td>
+<td>-4</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>T</td>
+<td>-2</td>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>-1</td>
+<td>-2</td>
+<td>-3</td>
+</tr>
+<tr>
+<td>G</td>
+<td>-3</td>
+<td>-1</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>G</td>
+<td>-4</td>
+<td>-2</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>C</td>
+<td>-5</td>
+<td>-3</td>
+<td>-1</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>A</td>
+<td>-6</td>
+<td>-4</td>
+<td>-2</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>3</td>
+<td>2</td>
+</tr>
+<tr>
+<td>A</td>
+<td>-7</td>
+<td>-5</td>
+<td>-3</td>
+<td>-1</td>
+<td>-1</td>
+<td>0</td>
+<td>2</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-2-trace-the-maximum-matching-threads">Step 2: Trace the maximum matching threads</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>A</th>
+<th>T</th>
+<th>C</th>
+<th>G</th>
+<th>G</th>
+<th>A</th>
+<th>G</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>A</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>T</td>
+<td></td>
+<td></td>
+<td>2</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>G</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>G</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>A</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>A</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-3-write-down-the-matching-sequences">Step 3: Write down the matching sequences</h3>
+<p>If the line goes horizontally at row N, add a dash after N; if the line goes vertical at column M, add a dash after M.</p>
+<p>There are two matching threads. If we choose the 1 on the right of 2 (TT):</p>
+<ul>
+<li>ATCGG-AG</li>
+<li>AT-GGCAA</li>
+</ul>
+<p>If we choose the 1 on the left of 2 (GG):</p>
+<ul>
+<li>ATCGG-AG</li>
+<li>ATG-GCAA</li>
+</ul>
+<p>Among these two, the best match is:</p>
+<ul>
+<li>ATCGG-AG</li>
+<li>AT-GGCAA</li>
+</ul>
+<h2 id="word-alignment-by-wordnet">Word Alignment by WordNet</h2>
+<p>Using WordNet thread, similarity between two entities is calculated by counting the number of matched elements in the entities’ primed threads and dividing the result by the maximum length of the entities’ threads.</p>
+<p><img alt="alignment-threads" src="../imgs/alignment-threads.png" /></p>
+<p>Example similarity scores:</p>
+<p><img alt="alignment-wordnet" src="../imgs/alignment-wordnet.png" /></p>
+<h2 id="demo-predict-future-of-conflicts">Demo: Predict Future of Conflicts</h2>
+<p>One useful application for story alignment in this domain is to align partial stories of conflicts to see what future events can be predicted from historical occurrences.</p>
+<p>One way is to match story elements:</p>
+<p><img alt="alignment-element" src="../imgs/alignment-element.png" /></p>
+<p>Another way is to match concepts:</p>
+<p><img alt="alignment-concept" src="../imgs/alignment-concept.png" /></p>
+<p>A relation represents any sort of interaction between the things.</p>
+<p>An elaboration graph is a visual representation of how all the events in the story are connected to each other and the inferred events from common sense knowledge.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../tips-genesese/" class="btn btn-neutral float-right" title="Writing Parsable English">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../recipe-learners/" class="btn btn-neutral" title="Recipe Learners"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Maintained by the Gensis Group, Computer Science and Artificial Intelligence Lab, MIT. <br>
+
+  Any questions? Contact Yang at <a href="mailto:ztyang@mit.edu">ztyang@mit.edu</a> or Dylan at <a href="mailto:dxh@mit.edu">dxh@mit.edu</a>
+
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../recipe-learners/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../tips-genesese/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

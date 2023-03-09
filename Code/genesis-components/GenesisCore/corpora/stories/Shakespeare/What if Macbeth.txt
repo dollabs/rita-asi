@@ -1,0 +1,69 @@
+Start experiment.
+
+
+// Both perspectives will be shown.
+Show both perspectives.
+
+// Rules and concepts will go into both story processors
+Both perspectives.
+
+A king is a kind of noble.
+
+Insert file General commonsense knowledge.
+
+If xx is an enemy of zz and yy is an enemy of zz then xx is a friend of yy.
+
+xx may kill yy because xx is insane.
+
+Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+Start description of "Insane violence".
+xx is a entity.
+yy is a entity.
+xx kills yy because xx is insane.
+The end.
+
+ "Eastern" is a kind of personality trait.
+
+ "Machiavellian" is a kind of personality trait.
+
+// Start first perspective story.
+
+First perspective.
+
+Start story titled "Macbeth/Revenge".
+
+// Start second perspective story.
+
+Second perspective.
+
+Start story titled "Macbeth hypothetical".
+
+// New location
+
+Both perspectives.
+I am eastern.
+I am machiavellian.
+
+// Switch to first perspective only for reading story
+
+First perspective.
+
+// Previous location
+// I am eastern.
+// I am machiavellian.
+
+Insert file Macbeth plot.
+
+
+
+// Insert question into text box: What would happen if Duncan is not Cawdor's enemy?
+Insert question into text box: What would happen if Lady Macduff is not Macduff's wife?
+// Insert question into text box: What would happen if Duncan is old?
+
+
+// At this point, rules and concepts are in both perspectives, but story only in first perspective.
+
+ 

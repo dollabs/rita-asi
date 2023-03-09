@@ -1,0 +1,54 @@
+[
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "Player396",
+      "values": "switch"
+    },
+    "exchange": "rita",
+    "mission-id": "MissionIDPlaceholder007",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "MissionIDPlaceholder007",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "Player396"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player396",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Player396",
+      "uid": "se16974"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  }
+]

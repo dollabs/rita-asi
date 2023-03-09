@@ -1,0 +1,140 @@
+Start story titled "Bunny Story".
+
+Bunny is a rabbit. Bunny is a girl.
+
+// SHOW-AND-TELL --> SCHOOL FOR MATCHING PURPOSES
+// This is Bunny.
+Bunny is scared because next week she has to give school.
+school makes Bunny scared.
+
+//Then on Monday morning, Bunny thinks about school.
+Then, it is Monday morning.
+Bunny thinks about school.
+Bunny feels scared.
+Bunny eats some cheese.
+Bunny has nausea.
+
+The end.
+
+Start story titled "Monday afternoon".
+//Then on Monday afternoon, Bunny ties her shoes. // and
+Then, the time is Monday afternoon.
+Bunny ties her shoes.
+Bunny eats strawberries.
+Bunny feels great. //! can't parse !
+Bunny does not have nausea.
+
+The end.
+
+Start story titled "Tuesday morning".
+//Then on Tuesday morning, Bunny eats a popsicle.
+Then, the time is Tuesday morning. //split so can match...
+Bunny eats a popsicle.
+Bunny thinks about school.
+Bunny feels scared.
+Bunny has nausea.
+
+The end.
+
+Start story titled "Tuesday afternoon".
+//Then on Tuesday afternoon, Bunny eats some toast. // and
+Then, the time is Tuesday afternoon.
+Bunny eats some toast.
+Bunny takes a bath.
+Bunny feels great. //! can't parse !
+Bunny does not have nausea.
+
+The end.
+
+Start story titled "Wednesday morning".
+//Then on Wednesday morning, Bunny thinks about school.
+Then, the time is Wednesday morning.
+Bunny thinks about school.
+Bunny feels scared.
+Bunny eats French fries.
+Bunny has nausea.
+
+The end.
+
+Start story titled "Wednesday afternoon".
+//Then on Wednesday afternoon, Bunny plays bingo. // and
+Then, the time is Wednesday afternoon.
+Bunny plays bingo.
+Bunny eats pasta.
+Bunny feels great. //! can't parse !
+Bunny does not have nausea.
+
+The end.
+
+Start story titled "Thursday morning".
+//Then on Thursday morning, Bunny eats a muffin.
+Then, the time is Thursday morning.
+Bunny eats a muffin.
+Bunny thinks about school.
+Bunny feels scared.
+Bunny has nausea.
+
+The end.
+
+Start story titled "Thursday afternoon".
+//Then on Thursday afternoon, Bunny eats some yogurt. // and
+Then, the time is Thursday afternoon.
+Bunny eats some yogurt.
+Bunny brushes her teeth.
+Bunny feels great. //! can't parse !
+Bunny does not have nausea.
+
+The end.
+
+Start story titled "Friday morning".
+//Then on Friday morning, Bunny thinks about school.
+Then, the time is Friday morning.
+Bunny thinks about school.
+Bunny feels scared.
+Bunny eats some soup.
+Bunny has nausea.
+
+The end.
+
+Start story titled "Friday afternoon".
+//Then on Friday afternoon, Bunny plays on the monkey bars. // and
+Then, the time is Friday afternoon.
+Bunny plays on the monkey bars.
+Bunny eats a banana.
+Bunny feels great. //! can't parse !
+Bunny does not have nausea.
+
+The end.
+
+Start story titled "Saturday morning".
+//Then on Saturday morning, Bunny eats a carrot.
+Then, the time is Saturday morning.
+Bunny eats a carrot.
+Bunny thinks about school.
+Bunny feels scared.
+Bunny has nausea.
+
+The end.
+
+Start story titled "Saturday afternoon".
+//Then on Saturday afternoon, Bunny eats some tofu. // and
+Then, the time is Saturday afternoon.
+Bunny eats some tofu.
+Bunny builds a snowman.
+Bunny feels great. //! can't parse !
+Bunny does not have nausea.
+
+The end.
+
+Start story titled "Sunday morning".
+//Then on Sunday morning, Bunny thinks about school.
+Then, the time is Sunday morning.
+Bunny eats a sandwich.
+Bunny thinks about school.
+Bunny feels scared.
+Bunny has nausea.
+Then the next day Bunny gave school.
+She did very well and everyone clapped!
+Hurray for Bunny. //! can't parse !
+
+The End.

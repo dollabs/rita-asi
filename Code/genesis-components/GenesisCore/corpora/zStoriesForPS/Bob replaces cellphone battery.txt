@@ -1,0 +1,16 @@
+Start experiment.
+
+Insert file zTransitionRulesByCategory.
+
+Bob is a person.
+
+Start story titled "Bob".
+Bob was asked to change the battery of a Samsung phone.
+First, he made coffee.
+Next, he found a replacement battery on his workstation.
+He also found some flowers.
+Then, he slid down the cover from the phone.
+He removed the old battery from the phone and put the replacement battery in the phone.
+Lastly, he placed the cover on the phone.
+The problem is solved. The client was happy!
+The end.

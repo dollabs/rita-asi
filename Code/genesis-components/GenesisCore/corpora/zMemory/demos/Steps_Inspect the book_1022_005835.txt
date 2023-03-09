@@ -1,0 +1,75 @@
+/* ------------------------------
+ Generated on Inspect the book_1022_005835 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Inspect the book".
+Intention: Inspect the book.
+The end.
+
+If the intention is "Inspect the book".
+Verify: The book doesn't have the book's dust jacket.
+Step: Read the title.
+Step: Read the subtitle.
+Step: Read contents' table.
+Step: Glance at the preface that was written by the author.
+The end.
+
+If the intention is "Inspect the book".
+Verify: the book has the book's dust jacket.
+Step: Read the title.
+Step: Read the subtitle.
+Step: Read contents' table.
+Step: Glance at the preface that was written by the author.
+Step: Look at the blurb.
+The end.
+
+// ------------ Step 1
+If the problem is "Read the title".
+Intention: Read the title.
+The end.
+
+If the intention is "Read the title".
+Method: Assume success.
+The end.
+
+// ------------ Step 2
+If the problem is "Read the subtitle".
+Intention: Read the subtitle.
+The end.
+
+If the intention is "Read the subtitle".
+Method: Assume success.
+The end.
+
+// ------------ Step 3
+If the problem is "Read contents' table".
+Intention: Read contents' table.
+The end.
+
+If the intention is "Read contents' table".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Inspect the book_1022_005835 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+// ------------ Step 1
+If the problem is "Glance at the preface that was written by the author".
+Intention: Glance at the preface that was written by the author.
+The end.
+
+If the intention is "Glance at the preface that was written by the author".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Inspect the book_1022_005835 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+// ------------ Step 1
+If the problem is "Look at the blurb".
+Intention: Look at the blurb.
+The end.
+
+If the intention is "Look at the blurb".
+Method: Assume success.
+The end.
+

@@ -1,0 +1,19 @@
+{
+    "accept_time": "2019-06-04 10:12:53+08:00", 
+    "instructions": [
+        "Put the plate in center of table.", 
+        "Put the Dinner Fork on the left of the plate", 
+        "Put the dinner knife on the right side of the plate", 
+        "Put the salad fork on the left side of the dinner fork.", 
+        "Put the salad knife on the right side of the dinner fork.", 
+        "Put the soup spoon on the right side of salad knife.", 
+        "Put the dessert spoon above the charger with bowl pointing to left.", 
+        "Put the dessert fork below the dessert spoon and have the fork prong facing right.", 
+        "Put the dinner plate on top of charger.", 
+        "Put the butter knife on top of bread plate.", 
+        "Put the water glass above the knives.", 
+        "Put the napkin on top of dinner plate."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table4"
+}

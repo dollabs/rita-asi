@@ -1,0 +1,18 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0335".
+THE PRINCESS WAS A PROUD NATIVE OF THE GREAT CITY.
+WHILE TAKING A WALK, THE PRINCESS AND THE WARRIOR HAD AN ACCIDENT.
+THE PRINCESS TREATED HER OWN INJURIES.
+THE PRINCESS MADE A POTION THAT THE WARRIOR DRANK. HE STARTED TO RECOVER.
+THE END.
+
+
+
+The end.

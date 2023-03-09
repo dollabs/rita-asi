@@ -1,0 +1,61 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Find difference button to true.
+Set left panel to commentary.
+// Set right panel to Z Story Aligner Gallery.
+Set right panel to source.
+
+Both perspectives.
+
+Burma is an entity.
+General Archibald Wavell is an entity.
+Winston Churchill is an entity.
+British is an entity.
+The Italians is an entity.
+The British is an entity.
+Japanese is an entity.
+Egypt is an entity.
+Australia is an entity.
+// Western Desert Campaign is an entity.
+Burma Campaign is an entity.
+The defender 17th Indian Division is an entity.
+Axis forces is an entity.
+Forces is an entity.
+Campaign is an entity.
+
+cc is an entity.
+pp is an entity.
+vv is a variable.
+
+If pp fights for the axis countries, then pp are the axis forces.
+If pp invades cc, then pp are in war with cc.
+If pp is greatly reduced by vv, then pp is short of combat forces.
+If pp request help from cc, then pp is in need.
+If pp attacks cc in vv, then pp are in war with cc.
+If pp is insufficient for defence, then pp is short of combat forces.
+If pp expects reinforcements, then pp is in need.
+
+Show both perspectives.
+
+First perspective.
+Start story titled "Italians invaded Egypt".
+In 1940, the Italians invaded Egypt.
+The Italians fought for the axis countries.
+In 1882, the British based forces in Egypt.
+But the forces was greatly reduced by the terms of the Anglo-Egyptian Treaty of 1936.
+The British requested help from Australia, so Australia sent four infantry divisions.
+The British won the campaign of Western Desert.
+The end.
+
+Second perspective.
+Start story titled "Japanese bombed Burma".
+The Japanese are the axis forces in Asia.
+Japanese attacked Burma in December 1941.
+Burma was colonized by the British.
+Winston Churchill wanted to win the Burma Campaign.
+The defender, 17th Indian Division, lost two brigades and was insufficient for defence.
+General Archibald Wavell was the commander in chief of the American British Dutch Australian Command and was expecting substantial reinforcements.
+The end.

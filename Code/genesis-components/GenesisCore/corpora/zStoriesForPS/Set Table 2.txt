@@ -1,0 +1,12 @@
+Start experiment.
+// https://www.architecturaldigest.com/story/how-to-set-a-dinner-table
+Start story titled "Set Table 2".
+
+Lay out a place mat, if you're using one.
+Place the dinner plate in the center of the table setting.
+The fork is placed to the left of the plate.
+Place the knife to the right of the dinner plate and then set the spoon to the right of the knife.
+Set the water glass in the top right corner, above the knife.
+The napkin can be placed on top of the dinner plate or beneath the fork.
+
+The end.

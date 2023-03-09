@@ -1,0 +1,88 @@
+[
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Research_Account",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "Research_Account"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "c3500384-4dc7-4325-81de-f70c5b05b4ee",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "c3500384-4dc7-4325-81de-f70c5b05b4ee",
+    "prediction-stats": {
+      "aggregate-stats": {
+        "breakdown": {
+          "false": 158,
+          "true": 526,
+          "unknown": 50
+        },
+        "total": 734
+      },
+      "aggregate-stats-detail": {
+        "MissionTracker--goto-room": {
+          "counts": {
+            "false": 4
+          },
+          "probability": {
+            "false": 1.0
+          },
+          "totals": 4
+        },
+        "StateEstimation--enter-room": {
+          "counts": {
+            "false": 125,
+            "true": 170,
+            "unknown": 33
+          },
+          "probability": {
+            "false": 0.3810975609756098,
+            "true": 0.5182926829268293,
+            "unknown": 0.100609756097561
+          },
+          "totals": 328
+        },
+        "StateEstimation--exit-room": {
+          "counts": {
+            "true": 356,
+            "unknown": 3
+          },
+          "probability": {
+            "true": 0.9916434540389972,
+            "unknown": 0.008356545961002786
+          },
+          "totals": 359
+        },
+        "StateEstimation--triage-victim": {
+          "counts": {
+            "false": 29,
+            "unknown": 14
+          },
+          "probability": {
+            "false": 0.6744186046511628,
+            "unknown": 0.3255813953488372
+          },
+          "totals": 43
+        }
+      },
+      "mission-stats": {
+        "breakdown": {},
+        "total": 0
+      },
+      "mission-stats-detail": {},
+      "unhandled-timeouts": 0
+    },
+    "received-routing-key": "prediction-stats",
+    "routing-key": "prediction-stats"
+  }
+]

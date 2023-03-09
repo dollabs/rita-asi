@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 10:17:38+08:00", 
+    "instructions": [
+        "Place the dinner fork on the table", 
+        "Place the dinner knife to the right of the fork", 
+        "Place the salad fork nearer to the dinner fork", 
+        "Place the salad knife nearer to the dinner knife", 
+        "Place the soup spoon nearer to the salad knife", 
+        "Place the dessert spoon", 
+        "replace the dessert spoon nearer to the soup spoon", 
+        "Again place the dessert spoon ", 
+        "Place the dinner plate in the middle of the table", 
+        "Place the bread plate", 
+        "Place the butter knife on the bread plate", 
+        "Place the wine glass nearer to the soup spoon", 
+        "Place the water glass nearer to the wine glass", 
+        "Place the napkin on the dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

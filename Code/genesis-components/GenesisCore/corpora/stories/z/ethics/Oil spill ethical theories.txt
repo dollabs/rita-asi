@@ -1,0 +1,38 @@
+Show both perspectives.
+
+First perspective.
+
+
+// ---------------------
+// Virtual Ethics
+// ---------------------
+
+If xx is a professional engineer, then obeying the law demonstrates xx's responsibility to the company and society.
+
+Start description of "Act because it is virtuous".
+yy's performing aa demonstrates xx's responsibility to the company and society.
+yy performs aa.
+The end.
+
+
+Second perspective.
+
+// ---------------------
+// Right Ethics
+// ---------------------
+
+If xx is a person, then xx has the right to live.
+
+Start description of "Act because others have right to live".
+xx has the right to live without fear.
+yy's performing aa leads to xx's health damage being prevented.
+yy performs aa.
+The end.
+
+
+Both Perspectives.
+
+Start description of "Whistleblow".
+yy is xx's immediate supervisor.
+xx reported aa to an external authority.
+The end.

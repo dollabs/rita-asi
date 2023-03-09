@@ -1,0 +1,17 @@
+// Example of what King Hamlet might do (Mufasa Model)
+
+King Hamlet is a person.
+
+Claudius is generic.
+
+Hamlet is generic.
+
+Claudius is King Hamlet's brother.
+
+Claudius is King Hamlet's successor.
+
+King Hamlet is the king.
+
+Hamlet is King Hamlet's son.
+
+Claudius kills King Hamlet.

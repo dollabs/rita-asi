@@ -1,0 +1,36 @@
+Start experiment.
+
+Set Find concepts while reading switch to true.
+
+aa is an action.
+xx, yy, John, and Peter are persons.
+
+Start description of "GR preventer".
+xx is moral.
+xx's performing aa leads to xx's violating golden-rule.
+Consequently, refuse onsets.
+The end.
+
+Start description of "GR violation".
+xx's performing aa leads to xx's violating golden-rule.
+The end.
+
+If xx kills yy then xx harms yy.
+
+If xx insults yy then xx harms yy.
+
+If xx harms yy then xx violates golden-rule.
+
+If xx harms yy then yy may kill xx.
+
+Start story titled "Debug 1".
+
+// Try various combinations of following two commented out.
+ Peter is moral.
+ I am moral.
+
+Peter insults me.
+
+I killed Peter.
+
+The end.

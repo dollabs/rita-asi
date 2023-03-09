@@ -1,0 +1,3742 @@
+[
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 1",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 1"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16974",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Cloak room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Cloak room door?",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Cloak room",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16976",
+      "using": "Cloak room door?"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Break room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Break room entrance",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Break room",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16977",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Executive suite 1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Executive suite 1",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Executive Suite 1"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Executive suite 1"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16978",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Executive Suite 1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Executive suite 1",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Executive Suite 1",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16979",
+      "using": "Executive suite 1"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Janitor room door",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Janitor room door",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room J"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Janitor room door"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16980",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room J",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Janitor room door",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room J",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16981",
+      "using": "Janitor room door"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "gold_block",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "gold_block",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "gold_block"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16982",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "gold_block",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "gold_block",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "gold_block"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16983",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 109",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 109",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 109"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 109"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16984",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 109",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 109",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 109",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16985",
+      "using": "Door to room 109"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 110",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 110"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 110"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16986",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 110",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 110",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16987",
+      "using": "Door to room 110"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 111",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 111",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 111",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16989",
+      "using": "Door to room 111"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16990",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16991",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "South Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 111",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16992",
+      "using": "Door to room 111"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 110",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 110"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 110"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16993",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 110",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 110",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16994",
+      "using": "Door to room 110"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 109",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 109",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 109"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 109"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16995",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 109",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 109",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 109",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16996",
+      "using": "Door to room 109"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 108",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 108",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 108"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 108"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16997",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 108",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 108",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 108",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16998",
+      "using": "Door to room 108"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Cube farm door to south corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Cube farm door to south corridor",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Cubicle farm"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Cube farm door to south corridor"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se16999",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Cubicle farm",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Cube farm door to south corridor",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Cubicle farm",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17000",
+      "using": "Cube farm door to south corridor"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17002",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17003",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "gold_block",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "gold_block",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "gold_block"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17004",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 107",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 107",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 107",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17006",
+      "using": "Door to room 107"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17007",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17008",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 107",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 107",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 107"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 107"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17009",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 107",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 107",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 107",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17010",
+      "using": "Door to room 107"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 106",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 106",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 106"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 106"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17011",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 106",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 106",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 106",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17012",
+      "using": "Door to room 106"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 105",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 105",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 105"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 105"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17013",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 105",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 105",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 105",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17014",
+      "using": "Door to room 105"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 104",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 104",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 104"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 104"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17015",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 104",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 104",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 104",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17016",
+      "using": "Door to room 104"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 103",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 103",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 103"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 103"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17017",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 103",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 103",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 103",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17018",
+      "using": "Door to room 103"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 102",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 102",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 102"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 102"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17019",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 102",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 102",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 102",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17020",
+      "using": "Door to room 102"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "East Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corridor Intersection SC-EC",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "East Corridor",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17021",
+      "using": "Corridor Intersection SC-EC"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 102",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17024",
+      "using": "Door to room 102"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corridor Intersection SC-CC",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Center Corridor",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17026",
+      "using": "Corridor Intersection SC-CC"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17027",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17028",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17029",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17030",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17031",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17032",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Main conference room door to East Corridor-a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Main conference room door to East Corridor-b",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17033",
+      "using": "Main conference room door to East Corridor-b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corner space door-a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corner space door-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Corner space north"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Corner space door-a"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17035",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corner space north",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corner space door-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Corner space north",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17036",
+      "using": "Corner space door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corner space door-b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corner space door-b",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Corner space north"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Corner space door-b"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17037",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corner space door-b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corner space door-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17039",
+      "using": "Corner space door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "prismarine",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17040",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corner space north",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Terrace door",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17041",
+      "using": "Terrace door"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corner space door-b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corner space door-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17042",
+      "using": "Corner space door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corner space door-a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corner space door-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Corner space north"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Corner space door-a"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17043",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corner space north",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corner space door-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Corner space north",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17044",
+      "using": "Corner space door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Executive suite 2",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Executive suite 2",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Executive Suite 2"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Executive suite 2"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17045",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "North Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Executive suite 2",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17047",
+      "using": "Executive suite 2"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Executive suite 2",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Executive suite 2",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Executive Suite 2"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Executive suite 2"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17048",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Executive Suite 2",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Executive suite 2",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Executive Suite 2",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17049",
+      "using": "Executive suite 2"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small Conference Room 1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 1 door-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Small Conference Room 1",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17051",
+      "using": "Small conference room 1 door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small conference room 1 door-b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 1 door-b",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Small Conference Room 1"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Small conference room 1 door-b"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17052",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small Conference Room 1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 1 door-b",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Small Conference Room 1",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17053",
+      "using": "Small conference room 1 door-b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 1 door-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17054",
+      "using": "Small conference room 1 door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small conference room 2 door-a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 2 door-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Small conference room 2 door-b"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Small conference room 2 door-a"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17055",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small conference room 2 door-b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 2 door-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Small conference room 2 door-b",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17056",
+      "using": "Small conference room 2 door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 2 door-b",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17057",
+      "using": "Small conference room 2 door-b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small conference room 2 door-b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 2 door-b",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Small conference room 2 door-a"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Small conference room 2 door-b"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17058",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small conference room 2 door-a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 2 door-b",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Small conference room 2 door-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17059",
+      "using": "Small conference room 2 door-b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Main conference room door to center corridor-a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Main conference room door to center corridor-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Main Conference Room"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Main conference room door to center corridor-a"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17060",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Main Conference Room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Main conference room door to center corridor-a",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Main Conference Room",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17061",
+      "using": "Main conference room door to center corridor-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 104",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 104",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 104"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 104"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17063",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 104",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 104",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 104",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17064",
+      "using": "Door to room 104"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "South Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 104",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17065",
+      "using": "Door to room 104"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 103",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 103",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 103"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 103"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17066",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 103",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 103",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 103",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17067",
+      "using": "Door to room 103"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 102",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 102",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 102"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 102"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17068",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 102",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 102",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 102",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17069",
+      "using": "Door to room 102"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 102",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17070",
+      "using": "Door to room 102"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "East Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corridor Intersection SC-EC",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "East Corridor",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17071",
+      "using": "Corridor Intersection SC-EC"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 104",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 104",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-enter": "Room 104"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 104"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17073",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d0b4624a-6904-4c7d-826b-180956fe5781",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 104",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 104",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 104",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASU_MC",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASU_MC",
+      "uid": "se17074",
+      "using": "Door to room 104"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  }
+]

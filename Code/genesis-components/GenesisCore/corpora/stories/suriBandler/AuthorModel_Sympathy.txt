@@ -1,0 +1,45 @@
+// Need this because otherwise victim and child match as both have threads that define them as person.
+// Effect here is to force use of primed thread, that is, the first one.
+A victim is a victim. A child is a child.
+
+// Using refers to instead of calls to ensure that entities do not become what they are called.
+
+Start description of "Childhood".
+xx and yy are entities.
+xx refers to yy as a youth.
+Consequently, xx invokes yy's childhood.
+The end.
+
+Start description of "Victimhood".
+xx is an entity.
+yy is a person.
+xx refers to yy as a victim.
+Consequently, xx elicits sympathy for yy.
+The end.
+
+Start description of "Repetition".
+xx is an entity.
+yy is a person.
+xx refers to yy as a victim repeatedly.
+Consequently, xx increases sympathy for yy.
+The end.
+
+Start description of "Passivity".
+xx is an entity.
+yy is a person.
+xx refers to yy as a victim and xx labels yy as passivity's object.
+Consequently, xx increases sympathy for yy.
+The end.
+
+If xx refers to yy as a victim, then xx elicits sympathy for yy.
+
+//If xx invokes yy's childhood and xx elicits sympathy for yy, then xx increases sympathy for yy.
+
+Start description of "Increase Sympathy". 
+xx and yy are entities. 
+xx invokes yy's childhood. 
+xx elicits sympathy for yy.
+Consequently, xx increases sympathy for yy. 
+The end.
+
+//If xx refers to yy as a victim and xx labels yy as passivity's object, then xx increases sympathy for yy.

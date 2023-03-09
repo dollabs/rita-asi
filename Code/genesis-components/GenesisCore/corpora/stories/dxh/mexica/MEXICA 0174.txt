@@ -1,0 +1,17 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0174".
+BECAUSE THE FARMER WAS GREEDY, THE FARMER ABDUCTED THE PRINCESS AND TOOK HER TO THE FOREST.
+THE PRINCESS UNDID THE ROPES. SHE WAS FREE.
+THE PRINCESS THREATENED TO KILL THE FARMER. HE DECIDED TO HIDE IN THE VOLCANO.
+THE END.
+
+
+
+The end.

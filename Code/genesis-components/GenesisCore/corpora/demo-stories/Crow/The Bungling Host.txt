@@ -1,0 +1,77 @@
+Start experiment.
+
+Note the "Old Man Coyote" is a name.
+Note that "Owl Chief" is a name.
+Note that "Elk Chief" is a name.
+Note that "Condor Chief" is a name.
+Note that "Crow Chief" is a name.
+
+Insert file Crow commonsense knowledge.
+Insert file Crow reflective knowledge.
+
+"Trickster" is a kind of personality trait.
+
+Start story titled "The Bungling Host".
+
+Old Man Coyote is a person.
+Old Man Coyote is a trickster.
+Owl Chief is an owl.
+Elk Chief is an elk.
+Condor Chief is a condor.
+Crow Chief is a crow.
+
+Old Man Coyote was hungry.
+Old Man Coyote's family was hungry.
+Old Man Coyote wanted to get free food because Old Man Coyote was hungry and Old Man Coyote's family was hungry.
+
+Old Man Coyote's wanting to get free food leads to Old Man Coyote's wanting to fool Owl Chief.
+Old Man Coyote's wanting to get free food leads to Old Man Coyote's visiting Owl Chief.
+Old Man Coyote visits Owl Chief because Old Man Coyote wants to fool Owl Chief.
+Owl Chief's transforming bark into fine meat leads to Owl Chief's giving food to Old_Man_Coyote.
+Old Man Coyote's visiting Owl Chief leads to Owl Chief's giving food to Old_Man_Coyote.
+Owl Chief smokes with Old Man Coyote because Old Man Coyote visits Owl Chief.
+Old Man Coyote takes food home because Owl Chief gave food to Old_Man_Coyote.
+
+Old Man Coyote's wanting to get free food leads to Old Man Coyote's wanting to fool Elk Chief.
+Old Man Coyote's wanting to get free food leads to Old Man Coyote's visiting Elk Chief.
+Old Man Coyote visits Elk Chief because Old Man Coyote wants to fool Elk Chief.
+Elk Chief's transforming things into food leads to Elk Chief's giving food to Old_Man_Coyote.
+Old Man Coyote's visiting Elk Chief leads to Elk Chief's giving food to Old_Man_Coyote.
+Elk Chief smokes with Old Man Coyote because Old Man Coyote visits Elk Chief.
+Old Man Coyote takes food home because Elk Chief gave food to Old_Man_Coyote.
+
+Old Man Coyote's wanting to get free food leads to Old Man Coyote's wanting to fool Condor Chief.
+Old Man Coyote's wanting to get free food leads to Old Man Coyote's visiting Condor Chief.
+Old Man Coyote visits Condor Chief because Old Man Coyote wants to fool Condor Chief.
+Condor Chief's transforming things into food leads to Condor Chief's giving food to Old_Man_Coyote.
+Old Man Coyote's visiting Condor Chief leads to Condor Chief's giving food to Old_Man_Coyote.
+Old Man Coyote takes food home because Condor Chief gave food to Old_Man_Coyote.
+
+Old Man Coyote's wanting to get free food leads to Old Man Coyote's wanting to fool Crow Chief.
+Old Man Coyote's wanting to get free food leads to Old Man Coyote's visiting Crow Chief.
+Old Man Coyote visits Crow Chief because Old Man Coyote wants to fool Crow Chief.
+Crow Chief's transforming things into food leads to Crow Chief's giving food to Old_Man_Coyote.
+Old Man Coyote's visiting Crow Chief leads to Crow Chief's giving food to Old_Man_Coyote.
+Old Man Coyote takes food home because Crow Chief gave food to Old_Man_Coyote.
+
+Owl Chief visits Old Man Coyote because Owl Chief gave food to Old_Man_Coyote.
+Old Man Coyote doesn't give Owl Chief food because Owl Chief visits Old_Man_Coyote.
+Old Man Coyote fools Owl Chief because Owl Chief visits Old_Man_Coyote.
+
+Elk Chief visits Old Man Coyote because Elk Chief gave food to Old_Man_Coyote.
+Old Man Coyote doesn't give Elk Chief food because Elk Chief visits Old_Man_Coyote.
+Old Man Coyote fools Elk Chief because Elk Chief visits Old_Man_Coyote.
+
+Condor Chief visits Old Man Coyote because Condor Chief gave food to Old_Man_Coyote.
+Old Man Coyote gives Condor Chief food because Condor Chief visits Old_Man_Coyote.
+Old Man Coyote fools Owl Chief because Condor Chief visits Old_Man_Coyote.
+Old Man Coyote fools Elk Chief because Condor Chief visits Old_Man_Coyote.
+Old Man Coyote fools Condor Chief because Condor Chief visits Old_Man_Coyote.
+
+Crow Chief visits Old Man Coyote because Crow Chief gave food to Old_Man_Coyote.
+Old Man Coyote gives Crow Chief food because Crow Chief visits Old_Man_Coyote.
+Old Man Coyote fools Owl Chief because Crow Chief visits Old_Man_Coyote.
+Old Man Coyote fools Elk Chief because Crow Chief visits Old_Man_Coyote.
+Old Man Coyote fools Crow Chief because Crow Chief visits Old_Man_Coyote.
+
+The end.

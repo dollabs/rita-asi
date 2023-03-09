@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 12:29:46+08:00", 
+    "instructions": [
+        "Place a dinner plate on the table", 
+        "Place a dinner fork to the left side of the dinner plate that is on the table", 
+        "Place a salad fork to the left side of the dinner fork", 
+        "Place a dinner knife to the right side of the dinner plate", 
+        "Place a salad knife to the right of the dinner knife", 
+        "Place a soup spoon to the right side of the salad knife", 
+        "Place the water glass just in front of soup spoon, salad knife and dinner knife.", 
+        "Place the wine glass to right side of water glass", 
+        "Place another wine glass to the right side of the first wine glass", 
+        "Place a coffee cup next to dinner knife, salad knife and soup spoon", 
+        "Place a plate bread just in front of dinner fork and salad fork", 
+        "Place a butter knife inside the bread plate", 
+        "Place a dessert fork in front of dinner table", 
+        "Place a dessert spoon in front of the dessert fork", 
+        "Place a napkin in the dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table3"
+}

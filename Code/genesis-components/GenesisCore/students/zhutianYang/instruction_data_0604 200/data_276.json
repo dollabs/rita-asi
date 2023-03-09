@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 10:17:39+08:00", 
+    "instructions": [
+        "put plate on the silver platter", 
+        "put napkin on top of the plate", 
+        "put dinner fork to the left of the silver platter", 
+        "put salad fork to the left of the dinner fork", 
+        "put dinner knight to the right of the silver platter", 
+        "put tea spoon to the right of the dinner knife", 
+        "put soup spoon to the right of dinner knife", 
+        "put water glass to the upper right part of the silver platter", 
+        "put wine glass to the right of water glass", 
+        "put another wine glass under the wine glass", 
+        "put coffee cup to the right of the second wine glass", 
+        "put bread plate above the 2 forks", 
+        "put butter knife on the bread plate", 
+        "put dessert fork between the bread plate and the first water glass", 
+        "put dessert spoon below the dessert fork"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table5"
+}

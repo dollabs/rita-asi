@@ -1,0 +1,78 @@
+extends base
+
+block styles
+    link(rel='stylesheet' href='css/map.css')
+    script(src="//cdn.jsdelivr.net/npm/phaser@3.24.1/dist/phaser.min.js")
+
+block content
+    main
+        .background 
+            .containerBox
+                h1 Minecraft 2D Map
+
+            //- .containerBox
+            //-     input.input(type="file" class="jsonFile" name="jsonFile")
+
+            .containerBox
+                .row.infoContrainer
+                    .col-6
+                        h6#trial_name Trial name: 
+                        h6#trial_number Trial number:
+                        h6#trial_condition Trial condition:
+                        h6#trial_date Trial date:  
+
+                    .col-6
+                        h6#subject_id Subject ID:
+                        h6#experiment_name Experiment name:
+                        h6#mission_name Mission name:
+                        h6#testbed_v Testbed version:
+
+            .containerBox
+                .row.infoContrainer.bg 
+                    .col-3
+                        .infoBox 
+                            h6 Mission Timer
+                            div 
+                                p#mission_timer Not started
+
+                    .col-3
+                        .infoBox  
+                            p#triaged-critical Triaged Critical: 0
+                            p#triaged-regular Triaged Regular: 0
+                            p#saved-critical Saved Critical: 0
+                            p#saved-regular Saved Regular: 0
+
+                    .col-3
+                        .infoBox  
+                            h6 Score
+                            p#groundtruth-teamScore Groundtruth Score: 0
+                            p#prediction-teamScore Predicted Score: 0
+
+                    .col-3
+                        .infoBox  
+                            h6 Perturbation
+                            p#perturbation-stat Status: Off
+                            p#perturbation-type Type: N/A
+
+            //- .containerBox
+            //-     div#storyUnderstanding
+            //-         div#su-graph
+           
+            .containerBox 
+                .minecraftMap#map
+                 
+            //- .containerBox
+            //-     .row
+            //-         .col-9
+            //-             .minecraftMap#map
+            //-         .col-3
+            //-             .predictionContrainer
+            //-                 h3 Current Prediction(s)
+            //-                 .prediction#story
+            //-                     p#story1 
+
+
+    script
+        include ../controllers/frontend/2dMap/bundleMap.js
+        //- include ../controllers/frontend/storyUnderstanding.js
+

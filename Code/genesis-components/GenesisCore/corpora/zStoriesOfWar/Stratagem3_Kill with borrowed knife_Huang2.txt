@@ -1,0 +1,37 @@
+Start experiment.
+
+// start declarations
+xx is a person.
+yy is a person.
+zz is a person.
+mm is a regime.
+AA is a person.
+BB is a person.
+CC is a person.
+the DD Dynasty is a regime.
+EE tribe is a regime.
+// end declarations
+
+if xx is royal, then xx may fight against yy.
+if xx is a general, then xx may fight against yy.
+if nobody can defeat mm, then xx may conquer the mm Dynasty.
+if xx believes that yy wants to overturn him, xx may execute yy.
+
+Start story titled "Kill with borrowed knife".
+
+AA is the leader of the EE tribe.
+BB is a general in the DD Dynasty.
+BB is royal.
+CC is the king of the DD Dynasty.
+CC is always suspicious of the royalty of his generals.
+
+AA wanted to overturn the DD Dynasty.
+BB fought against him to protect DD Dynasty.
+AA could not win BB on battle field.
+AA bribed one official in the DD Dynasty, so the official lied to CC;
+CC believed that BB had secret deal with the EE tribe and that BB wanted to turn over the DD Dynasty;
+CC went furious.
+CC executed BB immediately.
+
+BB is dead, so nobody can defeat AA and his tribe. AA conquered the DD Dynasty and created the Qing Dynasty.
+The end.

@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 12:38:01+08:00", 
+    "instructions": [
+        "put the plate on the charger", 
+        "put the napkin on the plate", 
+        "put the dinner fork left of the charger", 
+        "put the salad fork left of the dinner fork", 
+        "put the dinner knife right of the charger with the blade to the left", 
+        "put the tea spoon right of the dinner knife", 
+        "put the soup spoon to the right of the tea spoon", 
+        "put the water glass at one o'clock to the charger", 
+        "put the wine glass to the right of the water glass", 
+        "put the wine glass under the wine glass", 
+        "put the coffee cup at 2 o'clock to the soup spoon", 
+        "put the bread plate at 11 o'clock of the charger", 
+        "put the butter knife on the bread plate pointed right", 
+        "put the dessert fork at 12 o'clock of the charger, tines to the right", 
+        "put the dessert spoon underneath the dessert fork facing left"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table5"
+}

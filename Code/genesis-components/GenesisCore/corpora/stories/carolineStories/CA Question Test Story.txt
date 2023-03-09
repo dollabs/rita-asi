@@ -1,0 +1,14 @@
+Start experiment.
+
+Set right panel to First perspective viewer.
+
+Set bottom panel to Elaboration graph.
+
+Start story titled "Question Test Story".
+
+John and Mary are persons.
+
+Mary is nice.
+John loves Mary.
+
+The end.

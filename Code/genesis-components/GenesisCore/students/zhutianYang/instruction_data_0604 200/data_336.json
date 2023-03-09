@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 10:41:00+08:00", 
+    "instructions": [
+        "Place dinner fork on the left side ", 
+        "Place Knife with blade side facing dinner for on the right side", 
+        "place salad for to the left of dinner fork", 
+        "place salad knife to the right of dinner knife with blade facing forks", 
+        "place soup spoon to the right of the salad knife", 
+        "place dessert spoon to the top with bowl facing left", 
+        "move dessert spoon to the right of soup spoon", 
+        "move dessert spoon to the top with bowl facing left", 
+        "place dinner plate in center", 
+        "place bread place to the top of the forks", 
+        "place butter knife at a 45 on top of bread plate", 
+        "place wine glass above soup spoon", 
+        "place water glass to the left of the wine glass", 
+        "place napkin onto of dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

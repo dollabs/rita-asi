@@ -1,0 +1,277 @@
+(* PAMELA EBNF grammar *)
+
+pamela = defpclass*
+defpclass = <LP> <DEFPCLASS> symbol args option* <RP>
+
+args = <LB> symbol* <RB>
+option = ( meta | inherit | modes | fields | methods | transitions )
+
+meta = <META> <LM> meta-entry+ <RM>
+meta-entry = ( version | icon | depends | doc )
+depends = <DEPENDS> <LB> dep* <RB>
+dep = <LB> symbol string <RB>
+icon = <ICON> string
+version = <VERSION> string
+doc = <DOC> string
+
+inherit = <INHERIT> <LB> symbol+ <RB>
+
+modes = <MODES> ( mode-enum | mode-map )
+mode-enum = <LB> keyword* <RB>
+mode-map = <LM> mode-init* <RM>
+mode-init = keyword cond-expr
+cond-expr = ( TRUE | FALSE |
+              not-expr | and-expr | or-expr | implies-expr |
+              equal-expr | gt-expr | ge-expr | lt-expr | le-expr |
+              call-expr | same-expr | propositions-expr )
+and-expr = <LP> <AND> ( cond-expr | cond-operand )+ <RP>
+or-expr = <LP> <OR> ( cond-expr | cond-operand )+ <RP>
+implies-expr = <LP> <IMPLIES> ( cond-expr | cond-operand )+ <RP>
+not-expr = <LP> <NOT> ( cond-expr | cond-operand )+ <RP>
+equal-expr = <LP> <EQUAL> cond-operand+ <RP>
+gt-expr = <LP> <GT> cond-operand+ <RP>
+ge-expr = <LP> <GE> cond-operand+ <RP>
+lt-expr = <LP> <LT> cond-operand+ <RP>
+le-expr = <LP> <LE> cond-operand+ <RP>
+same-expr = <LP> <SAME> cond-operand+ <RP>
+call-expr = <LP> <CALL> cond-operand+ <RP>
+propositions-expr = <LP> <PROPOSITIONS> <LB> prop-search+ <RB> (<WHERE> cond-expr)? <RP>
+prop-search = <LP> search-constraints? keyword cond-operand+ <RP>
+search-constraints = <LB> (wm  | ltm | recency)* <RB>
+cond-operand = ( literal | mode-ref | symbol-ref )
+mode-ref = <LP> <MODE_OF> symbol-ref keyword <RP>
+wm = <WM>
+ltm = <LTM>
+recency = <LP> <RECENCY> number-ref <RP>
+
+fields = <FIELDS> <LM> field* <RM>
+field = symbol ( <LM> field-init+ <RM> | field-type )
+field-type = ( literal | lvar-ctor | !lvar-ctor pclass-ctor |
+               mode-ref | symbol-ref )
+field-init = ( initial | access | observable | consumer | producer )
+
+initial = <INITIAL> field-type
+access = <ACCESS> keyword
+observable = <OBSERVABLE> boolean
+consumer = <CONSUMER> boolean
+producer = <PRODUCER> boolean
+
+methods = <METHODS> <LB> defpmethod* <RB>
+defpmethod = <LP> <DEFPMETHOD> symbol cond-map? args fn? between-stmt* <RP>
+
+transitions = <TRANSITIONS> <LM> transition* <RM>
+transition = keyword trans-map
+cond-map =  <LM> cond* <RM>
+trans-map =  <LM> trans* <RM>
+cond = ( doc | pre | post | opt-bounds | cost | reward | controllable |
+         primitive | display-name | probability )
+trans = ( doc | pre | post | opt-bounds | cost | reward | probability )
+
+pre = <PRE> ( keyword | cond-expr )
+post = <POST> ( keyword | cond-expr )
+
+display-name = <DISPLAY_NAME> string
+
+fn = ( ask | assert | choose | choose-whenever | delay | dotimes | maintain |
+       optional | parallel | sequence | slack-parallel | slack-sequence |
+       soft-parallel | soft-sequence | tell | try | unless | when | whenever |
+       method-fn )
+
+ask = <LP> <ASK> cond-expr opt-bounds? <RP>
+assert = <LP> <ASSERT> cond-expr opt-bounds? <RP>
+choice = <LP> <CHOICE> choice-opt* fn <RP>
+choose = <LP> <CHOOSE> choose-opt* choice+ <RP>
+choose-whenever = <LP> <CHOOSE_WHENEVER> choose-opt* choice+ <RP>
+delay = <LP> <DELAY> delay-opt*  <RP>
+dotimes = <LP> <DOTIMES> natural fn <RP>
+maintain = <LP> <MAINTAIN> cond-expr opt-bounds? fn <RP>
+optional = <LP> <OPTIONAL> fn-opt* fn <RP>
+parallel = <LP> <PARALLEL> fn-opt* fn+ <RP>
+sequence = <LP> <SEQUENCE> fn-opt* fn+ <RP>
+slack-parallel = <LP> <SLACK_PARALLEL> fn-opt* fn+ <RP>
+slack-sequence = <LP> <SLACK_SEQUENCE> fn-opt* fn+ <RP>
+soft-parallel = <LP> <SOFT_PARALLEL> fn-opt* fn+ <RP>
+soft-sequence = <LP> <SOFT_SEQUENCE> fn-opt* fn+ <RP>
+tell = <LP> <TELL> cond-expr <RP>
+try = <LP> <TRY> opt-bounds? fn <LP> CATCH fn <RP> <RP>
+unless = <LP> <UNLESS> cond-expr opt-bounds? fn <RP>
+when = <LP> <WHEN> cond-expr opt-bounds? fn <RP>
+whenever = <LP> <WHENEVER> cond-expr opt-bounds? fn <RP>
+method-fn = <LP> symbol-ref method-opt* argval* <RP>
+
+between-stmt = (between | between-ends | between-starts)
+between = <LP> <BETWEEN> keyword keyword between-opt+ <RP>
+between-ends = <LP> <BETWEEN_ENDS> keyword keyword between-opt+ <RP>
+between-starts = <LP> <BETWEEN_STARTS> keyword keyword between-opt+ <RP>
+
+between-opt = ( opt-bounds | cost-le | reward-ge )
+fn-opt = ( between-opt | label )
+choose-opt = ( fn-opt | exactly | min | max )
+delay-opt = ( fn-opt | controllable )
+method-opt = ( opt-bounds | label | cost | reward | controllable )
+choice-opt = ( opt-bounds | label | cost | reward | probability | guard |
+               enter | leave )
+
+opt-bounds = <BOUNDS> bounds
+label = <LABEL> keyword
+probability = <PROBABILITY> number-ref
+cost = <COST> number-ref
+reward = <REWARD> number-ref
+cost-le = <COST_LE> number-ref
+reward-ge = <REWARD_GE> number-ref
+guard = <GUARD> cond-expr
+controllable = <CONTROLLABLE> boolean
+primitive = <PRIMITIVE> boolean
+min = MIN integer
+max = MAX integer
+exactly = EXACTLY integer
+enter = <ENTER> fn
+leave = <LEAVE> fn
+
+number-ref = ( number | lvar-ctor | symbol-ref )
+
+lvar-ctor = ( <LP> <LVAR> <RP> | <LP> <LVAR> string lvar-init? <RP> )
+lvar-init = literal | bounds-literal
+
+pclass-ctor = <LP> symbol pclass-ctor-arg* pclass-ctor-option* <RP>
+pclass-ctor-arg = ( string | expr | pclass-arg-keyword | boolean | symbol-ref )
+pclass-ctor-option = ( id | plant-part | interface )
+pclass-arg-keyword = !reserved-pclass-ctor-keyword keyword
+reserved-pclass-ctor-keyword = ( <ID> | <INTERFACE> | <PLANT_PART> ) stop-token
+id = <ID> argval
+plant-part = <PLANT_PART> argval
+interface = <INTERFACE> argval
+
+bounds = bounds-literal | lvar-ctor
+bounds-literal = <LB> expr ( expr | INFINITY ) <RB>
+
+symbol-ref = symbol ( <'.'> symbol )*
+symbol = !reserved-symbol #'[A-Za-z][A-Za-z0-9-_]*'
+reserved-symbol = reserved-string stop-token
+reserved-string = ( <AND> | <ASK> | <ASSERT> | <BETWEEN> | <BETWEEN_ENDS> |
+                    <BETWEEN_STARTS> | <CATCH> | <CHOICE> | <CHOOSE> |
+                    <CHOOSE_WHENEVER> | <DEFPCLASS> | <DEFPMETHOD> | <DELAY> |
+                    <DOTIMES> | <FALSE> | <IMPLIES> | <LVAR> | <MAINTAIN> |
+                    <MODE_OF> | <NOT> | <OPTIONAL> | <OR> | <PARALLEL> |
+                    <SEQUENCE> | <SLACK_PARALLEL> | <SLACK_SEQUENCE> |
+                    <SOFT_PARALLEL> | <SOFT_SEQUENCE> | <TELL> |
+                    <TRUE> | <TRY> | <UNLESS> | <WHEN> | <WHENEVER> )
+
+stop-token = (whitespace | '.' | LP | RP | LB | RB | LM | RM )
+
+literal = ( boolean | string | keyword | number )
+expr-argval = ( string | expr | safe-keyword | boolean | mode-ref | symbol-ref )
+argval = ( string | number | safe-keyword | boolean | mode-ref | symbol-ref )
+safe-keyword = !reserved-keyword keyword
+reserved-keyword = ( <LABEL> | <BOUNDS> | <COST> | <REWARD> | <CONTROLLABLE> )
+                   stop-token
+keyword = #'^:[A-Za-z0-9:*._-]+'
+boolean = ( TRUE | FALSE )
+string = <'"'>  #'[^"]*' <'"'>
+expr = number | lvar-ctor | <LP> ( multiply-expr | divide-expr | add-expr | subtract-expr ) <RP>
+multiply-expr = <STAR> expr+
+divide-expr = <DIV> expr+
+add-expr = <PLUS> expr+
+subtract-expr = <MINUS> expr+
+
+number = ( float | integer )
+float = ( #'[-]?[0-9]+\.[0-9]+' | #'[-]?[0-9]\.[0-9]+E[+-][0-9]+')
+integer = #'[-]?[0-9]+'
+natural = #'[0-9]+'
+
+ACCESS = <':access'>
+AND = <'and'>
+ASK = <'ask'>
+ASSERT = <'assert'>
+BETWEEN = <'between'>
+BETWEEN_ENDS = <'between-ends'>
+BETWEEN_STARTS = <'between-starts'>
+BOUNDS = <':bounds'>
+CALL = <'call'>
+CATCH = <'catch'>
+CHOICE = <'choice'>
+CHOOSE = <'choose'>
+CHOOSE_WHENEVER = <'choose-whenever'>
+CONSUMER = <':consumer'>
+CONTROLLABLE = <':controllable'>
+COST = <':cost'>
+COST_LE = <':cost<='>
+DEFPCLASS = <'defpclass'>
+DEFPMETHOD = <'defpmethod'>
+DELAY = <'delay'>
+DEPENDS = <':depends'>
+DISPLAY_NAME = <':display-name'>
+DOC = <':doc'>
+DOTIMES = <'dotimes'>
+ENTER = <':enter'>
+EQUAL = <'='>
+GT = <'>'>
+GE = <'>='>
+LT = <'<'>
+LE = <'<='>
+EXACTLY = <':exactly'>
+FALSE = <'false'>
+FIELDS = <':fields'>
+GUARD = <':guard'>
+ICON = <':icon'>
+ID = <':id'>
+SAME = <'same'>
+IMPLIES = <'implies'>
+INFINITY = <':infinity'>
+INHERIT = <':inherit'>
+INITIAL = <':initial'>
+INTERFACE = <':interface'>
+LABEL = <':label'>
+LEAVE = <':leave'>
+LTM = <'ltm'>
+LVAR = <'lvar'>
+MAINTAIN = <'maintain'>
+MAX = <':max'>
+META = <':meta'>
+METHODS = <':methods'>
+MIN = <':min'>
+MODES = <':modes'>
+MODE_OF = <'mode-of'>
+NOT = <'not'>
+OBSERVABLE = <':observable'>
+OPTIONAL = <'optional'>
+OR = <'or'>
+PARALLEL = <'parallel'>
+PLANT_PART = <':plant-part'>
+POST = <':post'>
+PRE = <':pre'>
+PRIMITIVE = <':primitive'>
+PROBABILITY = <':probability'>
+PRODUCER = <':producer'>
+PROPOSITIONS = <'propositions'>
+RECENCY = <'recency'>
+REWARD = <':reward'>
+REWARD_GE = <':reward>='>
+SEQUENCE = <'sequence'>
+SLACK_PARALLEL = <'slack-parallel'>
+SLACK_SEQUENCE = <'slack-sequence'>
+SOFT_PARALLEL = <'soft-parallel'>
+SOFT_SEQUENCE = <'soft-sequence'>
+TELL = <'tell'>
+TRANSITIONS = <':transitions'>
+TRUE = <'true'>
+TRY = <'try'>
+UNLESS = <'unless'>
+VERSION = <':version'>
+WHEN = <'when'>
+WHENEVER = <'whenever'>
+WHERE = <'where'>
+WM = <'wm'>
+
+LP = <'('>
+RP = <')'>
+LB = <'['>
+RB = <']'>
+LM = <'{'>
+RM = <'}'>
+STAR = <'*'>
+DIV = <'/'>
+PLUS = <'+'>
+MINUS = <'-'>
+
+whitespace = #'([,\\s]+|;.*\\n)+'

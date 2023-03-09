@@ -1,0 +1,53 @@
+Start description of "Bad parent".
+XX is a person.
+YY is a person.
+XX is YY's parent.
+XX abandons YY.
+The end.
+
+Start description of "Bad parent 2".
+XX is a person. 
+YY is a person.
+XX is YY's parent.
+AA is an action.
+XX's performing AA leads to YY's becoming afraid.
+The end. 
+
+Start description of "Bad parent 3".
+XX is a person. 
+YY is a person.
+XX is YY's parent.
+YY becomes angry with XX.
+The end. 
+
+Start description of "Good parent".
+XX is a person. 
+YY is a person.
+XX is YY's parent.
+XX wants to give food to YY.
+The end. 
+
+Start description of "Bad Wife".
+XX is a person.
+YY is a person.
+ZZ is a person.
+XX is YY's parent.
+ZZ is XX's wife.
+ZZ persuades XX to abandon YY.
+The end. 
+
+Start description of "Bad Wife 2".
+XX is a person.
+YY is a person.
+ZZ is a person.
+XX is YY's parent.
+ZZ is XX's wife.
+ZZ's mistreating YY leads to XX's becoming angry. 
+The end.
+
+Start description of "Understandably Cautious".
+XX is a person.
+YY is a person.
+YY harms XX.
+XX doesn't trust YY.
+The end.

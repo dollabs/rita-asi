@@ -1,0 +1,16 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set left panel to commentary.
+
+Set right panel to blocks.
+
+Set bottom panel to Mental models.
+
+Read knowledge in Basic blocks knowledge.
+
+Insert into text box: Put b1 on b2.
+
+
+

@@ -1,0 +1,10 @@
+Popup Allegiance differences in interpretation popup.
+
+Set all switches to defaults.
+
+Set right panel to results.
+
+Set left panel to inspector.
+
+Insert file Estonia2.
+

@@ -1,0 +1,20 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0157".
+THE HUNTER AND THE WARRIOR WERE CLOSE BROTHERS.
+THEY COULD NOT HELP IT: THE HUNTER AND THE WARRIOR FELL IN LOVE WITH EACH OTHER.
+THE HUNTER TRIED TO SEXUALLY ASSAULT THE WARRIOR.
+THE HUNTER PRODUCED CONFLICTING FEELINGS IN THE WARRIOR.
+THE WARRIOR THREATENED TO KILL THE HUNTER. HE DECIDED TO HIDE IN THE VOLCANO.
+THE WARRIOR PRODUCED CONFLICTING FEELINGS IN THE HUNTER.
+THE END.
+
+
+
+The end.

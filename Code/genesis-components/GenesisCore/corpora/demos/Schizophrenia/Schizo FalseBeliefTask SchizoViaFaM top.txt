@@ -1,0 +1,14 @@
+//Popup
+Popup Schizo FalseBeliefTask SchizoViaFaM popup.
+
+//Set up
+Start experiment.
+Set all switches to defaults.
+Set Personality switch to false.
+Set Concept switch to false.
+Set Show all story elements switch to true.
+Set bottom panel to elaboration graph.
+
+//Content
+Insert file FalseBeliefTask SchizoViaFaM demo.
+Insert question into text box: Why did Sally look for the_marble in the_box?

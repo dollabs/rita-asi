@@ -1,0 +1,63 @@
+/* ------------------------------
+ Generated on Let us make a French salad_0412_121343 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Let us make a French salad".
+Intention: Let us make a French salad.
+The end.
+
+If the intention is "Let us make a French salad".
+Step: Add blueberries in a bowl.
+Step: Add grapes in a bowl.
+Step: Add watermelon in a bowl.
+Step: Add apple cuts if you want.
+The end.
+
+If the problem is "Add blueberries in a bowl".
+Intention: Add blueberries in a bowl.
+The end.
+
+If the intention is "Add blueberries in a bowl".
+Step: Blueberries are in a bowl.
+The end.
+
+If the problem is "Add grapes in a bowl".
+Intention: Add grapes in a bowl.
+The end.
+
+If the intention is "Add grapes in a bowl".
+Step: Grapes are in a bowl.
+The end.
+
+If the problem is "Add watermelon in a bowl".
+Intention: Add watermelon in a bowl.
+The end.
+
+If the intention is "Add watermelon in a bowl".
+Step: Watermelon is in a bowl.
+The end.
+
+/* ------------------------------
+ Generated on Let us make a French salad_0412_121343 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Add apple cuts if you want".
+Intention: Add apple cuts if you want.
+The end.
+
+/* ------------------------------
+ Generated on Let us make a French salad_0412_121343 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Add apple cuts if you want".
+Verify: you want the bowl.
+Step: add apple cuts in the bowl also.
+The end.
+
+
+If the problem is "add apple cuts in the bowl also".
+Intention: add apple cuts in the bowl also.
+The end.
+
+If the intention is "add apple cuts in the bowl also".
+Step: Apple cuts is in the bowl.
+The end.
+

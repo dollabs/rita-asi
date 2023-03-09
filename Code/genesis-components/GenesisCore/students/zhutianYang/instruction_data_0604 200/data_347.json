@@ -1,0 +1,19 @@
+{
+    "accept_time": "2019-06-04 10:41:53+08:00", 
+    "instructions": [
+        "put charger on a plate", 
+        "place fork before the plate", 
+        "place knife after the plate", 
+        "place salad fork before dinner fork", 
+        "place salad knife after dinner knife", 
+        "place soup spoon after salad knife", 
+        "place desert spoon above plate", 
+        "place dessert fork below dessert spoon", 
+        "place bread plate above salad fork", 
+        "place butter knife on bread plate", 
+        "place water glass above salad knife", 
+        "place napkin on plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table4"
+}

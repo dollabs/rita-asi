@@ -1,0 +1,17 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0257".
+EARLIER, THE HUNTER WAS BORN WITH DIVINE PROTECTION.
+THE PRINCESS WOKE UP WHILE THE SONGS OF THE BIRDS COVERED THE SKY.
+IN THE MORNING, THE ARTIST AWOKE IN THE GREAT CITY.
+WHEN THE PRINCESS REALIZED THAT THE HUNTER WAS IN LOVE WITH THE ARTIST, SHE DEDICED TO GO AS FAR AS POSSIBLE.
+
+
+
+The end.

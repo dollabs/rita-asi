@@ -1,0 +1,74 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Rita Asist Belief State (RABS) model  This is what RITA believes
+
+(defpclass SituatedObject [sx sy sz]
+  :meta {:doc "Where the entity is located"}
+  :fields {x sx
+           y sy
+           z sz})
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Situational awareness
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; ToM This is what RITA believes about a team player (onle one at present)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Behavioral model
+
+(defpclass BehavioralModel []
+  :meta {:doc "What we believe about the participants behaviortyype"}
+  :modes {:type1 :type2 :type3}) ; replace with real player types
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; EmotionalState model
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; This is information that is provided ahead of time regarding the participant
+;;; Its usefulness is not clear, but it is fixed starting information
+
+(defpclass EmotionalState [cl tp tired happy afraid distractible oriented]
+  :meta {:doc "What we believe about the participants emotional state"}
+  ;; For now, these are all numeric ranges between 0 and 100
+  :fields {cognitiveLoad cl
+           feelingTimePressured tp
+           tiredness tired
+           happiness happy
+           fear afraid
+           distractibility distractible
+           spatialawareness oriented})
+
+(defpclass ToM [estate pbm]
+  :meta {:doc "What we believe about the participants state of mind"}
+  :fields {emotionalState estate
+           participantBehaviorModel pbm})
+
+(defpclass Participant [sx sy sz ks tom]
+  :meta {:doc "What the participant knows and believes about his himself"}
+  :inherit [SituatedObject]
+  :fields {known ks
+           theory-of-mind tom})
+
+(defpclass Passive-Agent [sx sy sz ks tom]
+  :meta {:doc "What RITA knows and believes about a participant"}
+  :inherit [SituatedObject]
+  :fields {known ks
+           theory-of-mind tom})
+
+(defpclass Agent [sx sy sz ks tom]
+  :meta {:doc "What RITA knows and believes about a participant"}
+  :inherit [SituatedObject]  ; Not situated yet but maybe one day
+  :fields {known ks
+           theory-of-mind tom})
+
+(defpclass BeliefState [rita ed p1 p1tom] ; p2 p3 p4
+  :meta {:doc "Constructor of the Belief State"}
+  :fields {rita-agent (Agent 0 0 0 0 rita)
+           testbed-observer (Passive-Agent 0 0 0 0 ed)
+           participant1 (Participant 0 0 0 0 p1 p1tom) ; These numbers will come from elsewhere
+           ;; participant2 p2
+           ;; participant3 p3
+           ;; participant4 p4
+          })
+
+;;; fin

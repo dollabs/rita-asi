@@ -1,0 +1,47 @@
+Start experiment.
+
+// Not needed
+// Start commonsense knowledge.
+
+XX is an entity.
+YY is a person.
+
+If XX thinks YY becomes best then YY becomes arrogant.
+
+Start description of "Deity".
+XX is a person.
+XX has a dog.
+The end.
+
+Start description of "God/Goddess".
+XX and YY are people.
+ZZ is a thing.
+XX transforms YY into a ZZ.
+Consequently, XX is a deity because XX transforms YY into a ZZ.
+The end.
+
+Start story titled "Arachne".
+
+Arachne is a person.
+Athena is a person.
+
+Athena has a dog.
+
+
+People is an entity.
+Spider is thing.
+
+Arachne is a weaver.
+Athena is a weaver.
+
+People think Arachne becomes best.
+Consequently, Athena becomes angry.
+
+Athena challenges Arachne to a competition.
+Athena makes a beautiful tapestry.
+Arachne makes a beautiful tapestry.
+Athena's ruining of Arachne's tapestry leads to Arachne's becoming upset.
+In order to punish Arachne, Athena transforms Arachne into a spider.
+
+The end.
+

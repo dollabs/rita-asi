@@ -1,0 +1,52 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set use similarity rule matching switch to true.
+
+Set perform goal analysis (ASPIRE) switch to false.
+
+// requires equating torment and annoy, bully and annoy, embarrass and harm, 
+// hate-dislike-loathe (wordnet), harm and harass, annoy and embarrass
+
+XX and YY are persons.
+XX may bully YY because XX is insecure.
+If XX annoys YY, XX angers YY.
+If XX angers YY, YY may hate XX.
+If XX dislikes YY, XX may harm YY.
+If XX harms YY, YY may become sad.
+If XX harms YY, YY may stop harming XX.
+
+Start story titled "High School Conflict".
+
+Matt and Josh are persons.
+
+Matt and Josh are in high school.
+
+Matt is insecure because Matt has low self-esteem.
+
+Matt bullies Josh. 
+
+Josh becomes angry.
+
+Josh makes a plan because Josh loathes Matt.
+
+Josh embarrasses Matt.
+
+Matt is sad.
+
+Matt stops bothering Josh.
+
+The End.
+
+Set left panel to sources at conceptnet knowledge.
+
+Set Use similarity rule matching switch to false.
+
+Set perform goal analysis (ASPIRE) switch to false.
+
+// Matt harasses Josh during class.
+// Matt harasses Josh.
+// Josh embarrasses Matt the next day. <-- interprets Matt as a day
+// Josh embarrasses Matt at school the next day. <-- START can't parse
+// Josh embarrasses Matt at school later. <-- matching (at least structure) doesn't work, worthy of more investigation though

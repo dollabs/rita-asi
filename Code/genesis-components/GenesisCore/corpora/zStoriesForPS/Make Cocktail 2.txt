@@ -1,0 +1,10 @@
+Start experiment.
+// https://www.seriouseats.com/recipes/2008/06/traditional-old-fashioned-recipe.html
+Start story titled "Martini 3".
+
+Place sugar in an Old Fashioned glass.
+Douse it with bitters and add a few drops of water.
+Add whiskey and stir until sugar is dissolved.
+Add several large ice cubes and stir rapidly with a bar spoon.
+Garnish the glass with an orange slice.
+The end.

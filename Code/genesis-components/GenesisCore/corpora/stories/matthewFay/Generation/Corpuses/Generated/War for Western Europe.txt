@@ -1,0 +1,29 @@
+Insert file American Revolution.
+Insert file World War.
+Insert file Afghanistan Civil War.
+
+Clear story memory.
+
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "War for Western Europe".
+
+Portugal is a name.
+Portugal is a character.
+Portugal is similar to Germany.
+
+Spain is a name.
+Spain is a character.
+Spain is similar to America.
+
+Italy is a name.
+Italy is a character.
+Italy is similar to USSR.
+
+Simulate characters.
+Weave character plots.
+
+The end.

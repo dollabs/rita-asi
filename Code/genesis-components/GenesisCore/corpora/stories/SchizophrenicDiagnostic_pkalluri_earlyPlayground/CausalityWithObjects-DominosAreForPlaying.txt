@@ -1,0 +1,57 @@
+Start experiment.
+
+
+
+
+
+//Rules
+xx and zz are dominos.
+oo is an object.
+ppp is a person.
+
+//Prediction
+If xx falls right, then xx becomes flat.
+If zz is upright and zz is right of xx and xx falls right, then zz falls right.
+
+//Pres
+//If ppp pushes xx, then xx can fall right.
+
+//Unused
+//If zz is up and zz is directly right of xx and xx touches zz, then zz may fall right.
+// An abduction rule; note use of "must be"
+//If xx falls then xx must be blue.
+//Xx's being upright enables xx's falling.
+
+
+
+//Story
+
+Start story titled "Dominos".
+
+Domino_a, Domino_b, Domino_c, and Domino_d are dominos.
+
+Then, the story begins.
+
+//Pic 1
+Domino_a, Domino_b, Domino_c, and Domino_d are upright.
+Domino_b is right of Domino_a.
+Domino_c is right of Domino_b.
+Domino_d is right of Domino_c.
+
+//Pic 2
+Domino_a falls right.
+
+//Pic 3
+//Da touches Db.
+Domino_a becomes flat.
+Domino_b falls right.
+
+The end.
+
+
+
+
+
+
+
+

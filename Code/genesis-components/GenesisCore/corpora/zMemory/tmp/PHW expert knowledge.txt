@@ -1,0 +1,10 @@
+
+An iPhone is an entity.
+
+If the problem is "Identify cellphone".
+Intention: Identify cellphone.
+The end.
+
+If the intention is "Identify cellphone".
+Method: Is phone an instance of iPhone.
+The end.

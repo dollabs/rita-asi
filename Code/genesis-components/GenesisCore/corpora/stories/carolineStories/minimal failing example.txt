@@ -1,0 +1,19 @@
+Start experiment.
+
+XX is a person.
+VV is a thing.
+ZZ is a thing.
+
+School is a thing.
+
+If XX thinks about VV, then XX has psych-action about VV.
+If XX has psych-action about VV, then XX may feel scared.
+
+Bunny is a person.
+
+Start story titled "Model Test".
+
+Bunny thinks about school. //show-and-tell.
+Bunny feels scared.
+
+The end.

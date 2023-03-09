@@ -1,0 +1,5058 @@
+[
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASU_MC",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASU_MC"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "ASU_MC",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "/Falcon.prismarine35620",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "ASU_MC"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASU_MC",
+      "uid": "se16974",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "/Falcon.prismarine35620",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASU_MC",
+      "uid": "se16975",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "ASU_MC",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "/Falcon.prismarine35617",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "ASU_MC"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASU_MC",
+      "uid": "se16976",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "/Falcon.prismarine35617",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "prismarine",
+          "subject": "ASU_MC"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "prismarine"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASU_MC",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASU_MC",
+      "uid": "se16977",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "select-tool",
+        "object": "asistmod:item_first_aid",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "ASIST1",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 9,
+        "untriaged-green-victims": 1,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "generated-plan": {
+      "current-state": {},
+      "htn": {},
+      "hypothesis-id": "learned",
+      "hypothesis-rank": 1,
+      "pamela": "(defpclass Top [] :fields {top (Main)})\n(defpclass\n Main\n []\n :fields\n {player (PlanningAgent), missionstatus \"missionstatus\"}\n :methods\n [(defpmethod\n   goal\n   []\n   (sequence\n    (choose\n     (choice\n      (sequence\n       (player.goto-room \"/Falcon.Lobby\")\n       (player.goto-room \"/Falcon.CloakR\")\n       (player.goto-room \"/Falcon.BreakR\")\n       (player.goto-room \"/Falcon.ExecS1\")\n       (player.goto-room \"/Falcon.RoomJ\")\n       (player.arrive missionstatus)))\n     (choice\n      (sequence\n       (player.goto-room \"/Falcon.CloakR\")\n       (player.goto-room \"/Falcon.BreakR\")\n       (player.goto-room \"/Falcon.ExecS1\")\n       (choose\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.ExecS2\")\n          (player.goto-room \"/Falcon.SCR1\")\n          (choose\n           (choice\n            (sequence\n             (player.goto-room \"/Falcon.SCR2\")\n             (player.goto-room \"/Falcon.MCR\")\n             (player.goto-room \"/Falcon.CSNorth\")\n             (player.goto-room \"/Falcon.CSEast\")\n             (player.goto-room \"/Falcon.Terrace\")\n             (player.goto-room \"/Falcon.Room101\")\n             (player.goto-room \"/Falcon.Room103\")\n             (player.goto-room \"/Falcon.Room102\")\n             (player.goto-room \"/Falcon.WomRR\")\n             (player.goto-room \"/Falcon.RoomJ\")\n             (player.arrive missionstatus)))\n           (choice\n            (sequence\n             (player.goto-room \"/Falcon.WomRR\")\n             (player.goto-room \"/Falcon.MenRR\")\n             (player.goto-room \"/Falcon.Room107\")\n             (player.goto-room \"/Falcon.Room110\")\n             (player.goto-room \"/Falcon.Room108\")\n             (player.goto-room \"/Falcon.RoomJ\")\n             (player.arrive missionstatus))))))\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.RoomJ\")\n          (player.arrive missionstatus)))))))))])\n(defpclass\n PlanningAgent\n []\n :methods\n [(defpmethod goto-room [arg1]) (defpmethod arrive [arg1])])\n",
+      "tpn": {
+        "act-101": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-105",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-101"
+        },
+        "act-124": {
+          "args": [
+            "/Falcon.ExecS2"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-133",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-124"
+        },
+        "act-132": {
+          "args": [
+            "/Falcon.SCR1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-136",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-132"
+        },
+        "act-155": {
+          "args": [
+            "/Falcon.SCR2"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-164",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-155"
+        },
+        "act-163": {
+          "args": [
+            "/Falcon.MCR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-172",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-163"
+        },
+        "act-171": {
+          "args": [
+            "/Falcon.CSNorth"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-180",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-171"
+        },
+        "act-179": {
+          "args": [
+            "/Falcon.CSEast"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-188",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-179"
+        },
+        "act-187": {
+          "args": [
+            "/Falcon.Terrace"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-196",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-187"
+        },
+        "act-195": {
+          "args": [
+            "/Falcon.Room101"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-204",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-195"
+        },
+        "act-203": {
+          "args": [
+            "/Falcon.Room103"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-212",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-203"
+        },
+        "act-211": {
+          "args": [
+            "/Falcon.Room102"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-220",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-211"
+        },
+        "act-219": {
+          "args": [
+            "/Falcon.WomRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-228",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-219"
+        },
+        "act-227": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-236",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-227"
+        },
+        "act-235": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-142",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-235"
+        },
+        "act-252": {
+          "args": [
+            "/Falcon.WomRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-261",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-252"
+        },
+        "act-260": {
+          "args": [
+            "/Falcon.MenRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-269",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-260"
+        },
+        "act-268": {
+          "args": [
+            "/Falcon.Room107"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-277",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-268"
+        },
+        "act-276": {
+          "args": [
+            "/Falcon.Room110"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-285",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-276"
+        },
+        "act-28": {
+          "args": [
+            "/Falcon.Lobby"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-37",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-28"
+        },
+        "act-284": {
+          "args": [
+            "/Falcon.Room108"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-293",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-284"
+        },
+        "act-292": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-301",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-292"
+        },
+        "act-300": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-239",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-300"
+        },
+        "act-318": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-327",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-318"
+        },
+        "act-326": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-305",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-326"
+        },
+        "act-36": {
+          "args": [
+            "/Falcon.CloakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-45",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-36"
+        },
+        "act-44": {
+          "args": [
+            "/Falcon.BreakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-53",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-44"
+        },
+        "act-52": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-61",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-52"
+        },
+        "act-60": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-69",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-60"
+        },
+        "act-68": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-15",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-68"
+        },
+        "act-85": {
+          "args": [
+            "/Falcon.CloakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-94",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-85"
+        },
+        "act-93": {
+          "args": [
+            "/Falcon.BreakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-102",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-93"
+        },
+        "na-110": {
+          "constraints": [],
+          "end-node": "node-109",
+          "order": 3,
+          "tpn-type": "null-activity",
+          "uid": "na-110"
+        },
+        "na-113": {
+          "constraints": [],
+          "end-node": "node-108",
+          "tpn-type": "null-activity",
+          "uid": "na-113"
+        },
+        "na-126": {
+          "constraints": [],
+          "end-node": "node-125",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-126"
+        },
+        "na-141": {
+          "constraints": [],
+          "end-node": "node-140",
+          "order": 2,
+          "tpn-type": "null-activity",
+          "uid": "na-141"
+        },
+        "na-144": {
+          "constraints": [],
+          "end-node": "node-139",
+          "tpn-type": "null-activity",
+          "uid": "na-144"
+        },
+        "na-157": {
+          "constraints": [],
+          "end-node": "node-156",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-157"
+        },
+        "na-17": {
+          "constraints": [],
+          "end-node": "node-12",
+          "tpn-type": "null-activity",
+          "uid": "na-17"
+        },
+        "na-241": {
+          "constraints": [],
+          "end-node": "node-139",
+          "tpn-type": "null-activity",
+          "uid": "na-241"
+        },
+        "na-254": {
+          "constraints": [],
+          "end-node": "node-253",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-254"
+        },
+        "na-30": {
+          "constraints": [],
+          "end-node": "node-29",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-30"
+        },
+        "na-307": {
+          "constraints": [],
+          "end-node": "node-108",
+          "tpn-type": "null-activity",
+          "uid": "na-307"
+        },
+        "na-320": {
+          "constraints": [],
+          "end-node": "node-319",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-320"
+        },
+        "na-74": {
+          "constraints": [],
+          "end-node": "node-12",
+          "tpn-type": "null-activity",
+          "uid": "na-74"
+        },
+        "na-87": {
+          "constraints": [],
+          "end-node": "node-86",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-87"
+        },
+        "net-3": {
+          "begin-node": "node-13",
+          "end-node": "node-12",
+          "tpn-type": "network",
+          "uid": "net-3"
+        },
+        "network-id": "net-3",
+        "node-102": {
+          "activities": [
+            "act-101"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-93"
+          ],
+          "tpn-type": "state",
+          "uid": "node-102"
+        },
+        "node-105": {
+          "activities": [
+            "na-110"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-101"
+          ],
+          "tpn-type": "state",
+          "uid": "node-105"
+        },
+        "node-108": {
+          "activities": [
+            "na-74"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-307",
+            "na-113"
+          ],
+          "tpn-type": "c-end",
+          "uid": "node-108"
+        },
+        "node-109": {
+          "activities": [
+            "na-126",
+            "na-320"
+          ],
+          "constraints": [],
+          "end-node": "node-108",
+          "incidence-set": [
+            "na-110"
+          ],
+          "tpn-type": "c-begin",
+          "uid": "node-109"
+        },
+        "node-12": {
+          "activities": [],
+          "constraints": [],
+          "incidence-set": [
+            "na-17",
+            "na-74"
+          ],
+          "tpn-type": "c-end",
+          "uid": "node-12"
+        },
+        "node-125": {
+          "activities": [
+            "act-124"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-126"
+          ],
+          "tpn-type": "state",
+          "uid": "node-125"
+        },
+        "node-13": {
+          "activities": [
+            "na-87",
+            "na-30"
+          ],
+          "constraints": [],
+          "end-node": "node-12",
+          "incidence-set": [],
+          "tpn-type": "c-begin",
+          "uid": "node-13"
+        },
+        "node-133": {
+          "activities": [
+            "act-132"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-124"
+          ],
+          "tpn-type": "state",
+          "uid": "node-133"
+        },
+        "node-136": {
+          "activities": [
+            "na-141"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-132"
+          ],
+          "tpn-type": "state",
+          "uid": "node-136"
+        },
+        "node-139": {
+          "activities": [
+            "na-113"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-241",
+            "na-144"
+          ],
+          "tpn-type": "c-end",
+          "uid": "node-139"
+        },
+        "node-140": {
+          "activities": [
+            "na-254",
+            "na-157"
+          ],
+          "constraints": [],
+          "end-node": "node-139",
+          "incidence-set": [
+            "na-141"
+          ],
+          "tpn-type": "c-begin",
+          "uid": "node-140"
+        },
+        "node-142": {
+          "activities": [
+            "na-144"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-235"
+          ],
+          "tpn-type": "state",
+          "uid": "node-142"
+        },
+        "node-15": {
+          "activities": [
+            "na-17"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-68"
+          ],
+          "tpn-type": "state",
+          "uid": "node-15"
+        },
+        "node-156": {
+          "activities": [
+            "act-155"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-157"
+          ],
+          "tpn-type": "state",
+          "uid": "node-156"
+        },
+        "node-164": {
+          "activities": [
+            "act-163"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-155"
+          ],
+          "tpn-type": "state",
+          "uid": "node-164"
+        },
+        "node-172": {
+          "activities": [
+            "act-171"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-163"
+          ],
+          "tpn-type": "state",
+          "uid": "node-172"
+        },
+        "node-180": {
+          "activities": [
+            "act-179"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-171"
+          ],
+          "tpn-type": "state",
+          "uid": "node-180"
+        },
+        "node-188": {
+          "activities": [
+            "act-187"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-179"
+          ],
+          "tpn-type": "state",
+          "uid": "node-188"
+        },
+        "node-196": {
+          "activities": [
+            "act-195"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-187"
+          ],
+          "tpn-type": "state",
+          "uid": "node-196"
+        },
+        "node-204": {
+          "activities": [
+            "act-203"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-195"
+          ],
+          "tpn-type": "state",
+          "uid": "node-204"
+        },
+        "node-212": {
+          "activities": [
+            "act-211"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-203"
+          ],
+          "tpn-type": "state",
+          "uid": "node-212"
+        },
+        "node-220": {
+          "activities": [
+            "act-219"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-211"
+          ],
+          "tpn-type": "state",
+          "uid": "node-220"
+        },
+        "node-228": {
+          "activities": [
+            "act-227"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-219"
+          ],
+          "tpn-type": "state",
+          "uid": "node-228"
+        },
+        "node-236": {
+          "activities": [
+            "act-235"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-227"
+          ],
+          "tpn-type": "state",
+          "uid": "node-236"
+        },
+        "node-239": {
+          "activities": [
+            "na-241"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-300"
+          ],
+          "tpn-type": "state",
+          "uid": "node-239"
+        },
+        "node-253": {
+          "activities": [
+            "act-252"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-254"
+          ],
+          "tpn-type": "state",
+          "uid": "node-253"
+        },
+        "node-261": {
+          "activities": [
+            "act-260"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-252"
+          ],
+          "tpn-type": "state",
+          "uid": "node-261"
+        },
+        "node-269": {
+          "activities": [
+            "act-268"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-260"
+          ],
+          "tpn-type": "state",
+          "uid": "node-269"
+        },
+        "node-277": {
+          "activities": [
+            "act-276"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-268"
+          ],
+          "tpn-type": "state",
+          "uid": "node-277"
+        },
+        "node-285": {
+          "activities": [
+            "act-284"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-276"
+          ],
+          "tpn-type": "state",
+          "uid": "node-285"
+        },
+        "node-29": {
+          "activities": [
+            "act-28"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-30"
+          ],
+          "tpn-type": "state",
+          "uid": "node-29"
+        },
+        "node-293": {
+          "activities": [
+            "act-292"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-284"
+          ],
+          "tpn-type": "state",
+          "uid": "node-293"
+        },
+        "node-301": {
+          "activities": [
+            "act-300"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-292"
+          ],
+          "tpn-type": "state",
+          "uid": "node-301"
+        },
+        "node-305": {
+          "activities": [
+            "na-307"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-326"
+          ],
+          "tpn-type": "state",
+          "uid": "node-305"
+        },
+        "node-319": {
+          "activities": [
+            "act-318"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-320"
+          ],
+          "tpn-type": "state",
+          "uid": "node-319"
+        },
+        "node-327": {
+          "activities": [
+            "act-326"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-318"
+          ],
+          "tpn-type": "state",
+          "uid": "node-327"
+        },
+        "node-37": {
+          "activities": [
+            "act-36"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-28"
+          ],
+          "tpn-type": "state",
+          "uid": "node-37"
+        },
+        "node-45": {
+          "activities": [
+            "act-44"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-36"
+          ],
+          "tpn-type": "state",
+          "uid": "node-45"
+        },
+        "node-53": {
+          "activities": [
+            "act-52"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-44"
+          ],
+          "tpn-type": "state",
+          "uid": "node-53"
+        },
+        "node-61": {
+          "activities": [
+            "act-60"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-52"
+          ],
+          "tpn-type": "state",
+          "uid": "node-61"
+        },
+        "node-69": {
+          "activities": [
+            "act-68"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-60"
+          ],
+          "tpn-type": "state",
+          "uid": "node-69"
+        },
+        "node-86": {
+          "activities": [
+            "act-85"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-87"
+          ],
+          "tpn-type": "state",
+          "uid": "node-86"
+        },
+        "node-94": {
+          "activities": [
+            "act-93"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-85"
+          ],
+          "tpn-type": "state",
+          "uid": "node-94"
+        }
+      }
+    },
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "generated-plan",
+    "routing-key": "generated-plan"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "generated-plan": {
+      "current-state": {},
+      "htn": {},
+      "hypothesis-id": "opportunistic",
+      "hypothesis-rank": 2,
+      "pamela": "(defpclass Top [] :fields {top (Main)})\n(defpclass\n Main\n []\n :fields\n {player (PlanningAgent), missionstatus \"missionstatus\"}\n :methods\n [(defpmethod\n   goal\n   []\n   (sequence\n    (choose\n     (choice\n      (sequence\n       (player.goto-room \"/Falcon.Lobby\")\n       (choose\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.BreakR\")\n          (player.goto-room \"/Falcon.Terrace\")\n          (player.goto-room \"/Falcon.CSNorth\")\n          (player.goto-room \"/Falcon.CSEast\")\n          (player.goto-room \"/Falcon.ExecS1\")\n          (player.arrive missionstatus)))\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.Cfarm\")\n          (player.goto-room \"/Falcon.BreakR\")\n          (player.goto-room \"/Falcon.ExecS1\")\n          (player.arrive missionstatus)))\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.MenRR\")\n          (player.goto-room \"/Falcon.WomRR\")\n          (player.goto-room \"/Falcon.Room111\")\n          (player.goto-room \"/Falcon.Room109\")\n          (player.goto-room \"/Falcon.Room110\")\n          (player.goto-room \"/Falcon.Room106\")\n          (player.goto-room \"/Falcon.Room105\")\n          (player.goto-room \"/Falcon.CloakR\")\n          (player.goto-room \"/Falcon.RoomJ\")\n          (player.goto-room \"/Falcon.ExecS1\")\n          (player.arrive missionstatus)))\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.WomRR\")\n          (player.goto-room \"/Falcon.RoomJ\")\n          (player.goto-room \"/Falcon.ExecS2\")\n          (player.goto-room \"/Falcon.MenRR\")\n          (player.goto-room \"/Falcon.Room107\")\n          (player.goto-room \"/Falcon.Room105\")\n          (player.goto-room \"/Falcon.Room106\")\n          (player.goto-room \"/Falcon.ExecS1\")\n          (player.arrive missionstatus)))\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.RoomJ\")\n          (player.goto-room \"/Falcon.Room109\")\n          (player.goto-room \"/Falcon.Room110\")\n          (player.goto-room \"/Falcon.Room108\")\n          (player.goto-room \"/Falcon.MenRR\")\n          (player.goto-room \"/Falcon.ExecS1\")\n          (player.arrive missionstatus)))\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.Room107\")\n          (player.goto-room \"/Falcon.MenRR\")\n          (player.goto-room \"/Falcon.Room110\")\n          (player.goto-room \"/Falcon.SCR1\")\n          (player.goto-room \"/Falcon.ExecS2\")\n          (player.goto-room \"/Falcon.CSNorth\")\n          (player.goto-room \"/Falcon.CSEast\")\n          (player.goto-room \"/Falcon.Terrace\")\n          (player.goto-room \"/Falcon.ExecS1\")\n          (player.arrive missionstatus)))\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.CloakR\")\n          (player.goto-room \"/Falcon.Cfarm\")\n          (player.goto-room \"/Falcon.SCR1\")\n          (player.goto-room \"/Falcon.CSEast\")\n          (player.goto-room \"/Falcon.CSNorth\")\n          (player.goto-room \"/Falcon.Terrace\")\n          (player.goto-room \"/Falcon.Room102\")\n          (player.goto-room \"/Falcon.Room101\")\n          (player.goto-room \"/Falcon.Room108\")\n          (player.goto-room \"/Falcon.Room107\")\n          (player.goto-room \"/Falcon.Room106\")\n          (player.goto-room \"/Falcon.Room104\")\n          (player.goto-room \"/Falcon.ExecS1\")\n          (player.arrive missionstatus))))))\n     (choice\n      (sequence\n       (player.goto-room \"/Falcon.Cfarm\")\n       (player.goto-room \"/Falcon.ExecS1\")\n       (player.arrive missionstatus)))\n     (choice\n      (sequence\n       (player.goto-room \"/Falcon.RoomJ\")\n       (player.goto-room \"/Falcon.ExecS2\")\n       (player.goto-room \"/Falcon.ExecS1\")\n       (player.arrive missionstatus)))\n     (choice\n      (sequence\n       (player.goto-room \"/Falcon.CloakR\")\n       (player.goto-room \"/Falcon.RoomJ\")\n       (player.goto-room \"/Falcon.ExecS1\")\n       (player.arrive missionstatus))))))])\n(defpclass\n PlanningAgent\n []\n :methods\n [(defpmethod goto-room [arg1]) (defpmethod arrive [arg1])])\n",
+      "tpn": {
+        "act-1008": {
+          "args": [
+            "/Falcon.CloakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-1017",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-1008"
+        },
+        "act-1016": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-1025",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-1016"
+        },
+        "act-1024": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-1033",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-1024"
+        },
+        "act-1032": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-995",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-1032"
+        },
+        "act-359": {
+          "args": [
+            "/Falcon.Lobby"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-363",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-359"
+        },
+        "act-382": {
+          "args": [
+            "/Falcon.BreakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-391",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-382"
+        },
+        "act-390": {
+          "args": [
+            "/Falcon.Terrace"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-399",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-390"
+        },
+        "act-398": {
+          "args": [
+            "/Falcon.CSNorth"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-407",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-398"
+        },
+        "act-406": {
+          "args": [
+            "/Falcon.CSEast"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-415",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-406"
+        },
+        "act-414": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-423",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-414"
+        },
+        "act-422": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-369",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-422"
+        },
+        "act-439": {
+          "args": [
+            "/Falcon.Cfarm"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-448",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-439"
+        },
+        "act-447": {
+          "args": [
+            "/Falcon.BreakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-456",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-447"
+        },
+        "act-455": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-464",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-455"
+        },
+        "act-463": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-426",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-463"
+        },
+        "act-480": {
+          "args": [
+            "/Falcon.MenRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-489",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-480"
+        },
+        "act-488": {
+          "args": [
+            "/Falcon.WomRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-497",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-488"
+        },
+        "act-496": {
+          "args": [
+            "/Falcon.Room111"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-505",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-496"
+        },
+        "act-504": {
+          "args": [
+            "/Falcon.Room109"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-513",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-504"
+        },
+        "act-512": {
+          "args": [
+            "/Falcon.Room110"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-521",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-512"
+        },
+        "act-520": {
+          "args": [
+            "/Falcon.Room106"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-529",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-520"
+        },
+        "act-528": {
+          "args": [
+            "/Falcon.Room105"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-537",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-528"
+        },
+        "act-536": {
+          "args": [
+            "/Falcon.CloakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-545",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-536"
+        },
+        "act-544": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-553",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-544"
+        },
+        "act-552": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-561",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-552"
+        },
+        "act-560": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-467",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-560"
+        },
+        "act-577": {
+          "args": [
+            "/Falcon.WomRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-586",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-577"
+        },
+        "act-585": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-594",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-585"
+        },
+        "act-593": {
+          "args": [
+            "/Falcon.ExecS2"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-602",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-593"
+        },
+        "act-601": {
+          "args": [
+            "/Falcon.MenRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-610",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-601"
+        },
+        "act-609": {
+          "args": [
+            "/Falcon.Room107"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-618",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-609"
+        },
+        "act-617": {
+          "args": [
+            "/Falcon.Room105"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-626",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-617"
+        },
+        "act-625": {
+          "args": [
+            "/Falcon.Room106"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-634",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-625"
+        },
+        "act-633": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-642",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-633"
+        },
+        "act-641": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-564",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-641"
+        },
+        "act-658": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-667",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-658"
+        },
+        "act-666": {
+          "args": [
+            "/Falcon.Room109"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-675",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-666"
+        },
+        "act-674": {
+          "args": [
+            "/Falcon.Room110"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-683",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-674"
+        },
+        "act-682": {
+          "args": [
+            "/Falcon.Room108"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-691",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-682"
+        },
+        "act-690": {
+          "args": [
+            "/Falcon.MenRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-699",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-690"
+        },
+        "act-698": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-707",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-698"
+        },
+        "act-706": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-645",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-706"
+        },
+        "act-723": {
+          "args": [
+            "/Falcon.Room107"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-732",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-723"
+        },
+        "act-731": {
+          "args": [
+            "/Falcon.MenRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-740",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-731"
+        },
+        "act-739": {
+          "args": [
+            "/Falcon.Room110"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-748",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-739"
+        },
+        "act-747": {
+          "args": [
+            "/Falcon.SCR1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-756",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-747"
+        },
+        "act-755": {
+          "args": [
+            "/Falcon.ExecS2"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-764",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-755"
+        },
+        "act-763": {
+          "args": [
+            "/Falcon.CSNorth"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-772",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-763"
+        },
+        "act-771": {
+          "args": [
+            "/Falcon.CSEast"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-780",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-771"
+        },
+        "act-779": {
+          "args": [
+            "/Falcon.Terrace"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-788",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-779"
+        },
+        "act-787": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-796",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-787"
+        },
+        "act-795": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-710",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-795"
+        },
+        "act-812": {
+          "args": [
+            "/Falcon.CloakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-821",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-812"
+        },
+        "act-820": {
+          "args": [
+            "/Falcon.Cfarm"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-829",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-820"
+        },
+        "act-828": {
+          "args": [
+            "/Falcon.SCR1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-837",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-828"
+        },
+        "act-836": {
+          "args": [
+            "/Falcon.CSEast"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-845",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-836"
+        },
+        "act-844": {
+          "args": [
+            "/Falcon.CSNorth"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-853",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-844"
+        },
+        "act-852": {
+          "args": [
+            "/Falcon.Terrace"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-861",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-852"
+        },
+        "act-860": {
+          "args": [
+            "/Falcon.Room102"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-869",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-860"
+        },
+        "act-868": {
+          "args": [
+            "/Falcon.Room101"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-877",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-868"
+        },
+        "act-876": {
+          "args": [
+            "/Falcon.Room108"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-885",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-876"
+        },
+        "act-884": {
+          "args": [
+            "/Falcon.Room107"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-893",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-884"
+        },
+        "act-892": {
+          "args": [
+            "/Falcon.Room106"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-901",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-892"
+        },
+        "act-900": {
+          "args": [
+            "/Falcon.Room104"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-909",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-900"
+        },
+        "act-908": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-917",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-908"
+        },
+        "act-916": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-799",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-916"
+        },
+        "act-934": {
+          "args": [
+            "/Falcon.Cfarm"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-943",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-934"
+        },
+        "act-942": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-951",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-942"
+        },
+        "act-950": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-921",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-950"
+        },
+        "act-967": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-976",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-967"
+        },
+        "act-975": {
+          "args": [
+            "/Falcon.ExecS2"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-984",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-975"
+        },
+        "act-983": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-992",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-983"
+        },
+        "act-991": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-954",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-991"
+        },
+        "na-1010": {
+          "constraints": [],
+          "end-node": "node-1009",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-1010"
+        },
+        "na-348": {
+          "constraints": [],
+          "end-node": "node-343",
+          "tpn-type": "null-activity",
+          "uid": "na-348"
+        },
+        "na-361": {
+          "constraints": [],
+          "end-node": "node-360",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-361"
+        },
+        "na-368": {
+          "constraints": [],
+          "end-node": "node-367",
+          "order": 1,
+          "tpn-type": "null-activity",
+          "uid": "na-368"
+        },
+        "na-371": {
+          "constraints": [],
+          "end-node": "node-366",
+          "tpn-type": "null-activity",
+          "uid": "na-371"
+        },
+        "na-384": {
+          "constraints": [],
+          "end-node": "node-383",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-384"
+        },
+        "na-428": {
+          "constraints": [],
+          "end-node": "node-366",
+          "tpn-type": "null-activity",
+          "uid": "na-428"
+        },
+        "na-441": {
+          "constraints": [],
+          "end-node": "node-440",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-441"
+        },
+        "na-469": {
+          "constraints": [],
+          "end-node": "node-366",
+          "tpn-type": "null-activity",
+          "uid": "na-469"
+        },
+        "na-482": {
+          "constraints": [],
+          "end-node": "node-481",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-482"
+        },
+        "na-566": {
+          "constraints": [],
+          "end-node": "node-366",
+          "tpn-type": "null-activity",
+          "uid": "na-566"
+        },
+        "na-579": {
+          "constraints": [],
+          "end-node": "node-578",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-579"
+        },
+        "na-647": {
+          "constraints": [],
+          "end-node": "node-366",
+          "tpn-type": "null-activity",
+          "uid": "na-647"
+        },
+        "na-660": {
+          "constraints": [],
+          "end-node": "node-659",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-660"
+        },
+        "na-712": {
+          "constraints": [],
+          "end-node": "node-366",
+          "tpn-type": "null-activity",
+          "uid": "na-712"
+        },
+        "na-725": {
+          "constraints": [],
+          "end-node": "node-724",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-725"
+        },
+        "na-801": {
+          "constraints": [],
+          "end-node": "node-366",
+          "tpn-type": "null-activity",
+          "uid": "na-801"
+        },
+        "na-814": {
+          "constraints": [],
+          "end-node": "node-813",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-814"
+        },
+        "na-923": {
+          "constraints": [],
+          "end-node": "node-343",
+          "tpn-type": "null-activity",
+          "uid": "na-923"
+        },
+        "na-936": {
+          "constraints": [],
+          "end-node": "node-935",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-936"
+        },
+        "na-956": {
+          "constraints": [],
+          "end-node": "node-343",
+          "tpn-type": "null-activity",
+          "uid": "na-956"
+        },
+        "na-969": {
+          "constraints": [],
+          "end-node": "node-968",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-969"
+        },
+        "na-997": {
+          "constraints": [],
+          "end-node": "node-343",
+          "tpn-type": "null-activity",
+          "uid": "na-997"
+        },
+        "net-334": {
+          "begin-node": "node-344",
+          "end-node": "node-343",
+          "tpn-type": "network",
+          "uid": "net-334"
+        },
+        "network-id": "net-334",
+        "node-1009": {
+          "activities": [
+            "act-1008"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-1010"
+          ],
+          "tpn-type": "state",
+          "uid": "node-1009"
+        },
+        "node-1017": {
+          "activities": [
+            "act-1016"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-1008"
+          ],
+          "tpn-type": "state",
+          "uid": "node-1017"
+        },
+        "node-1025": {
+          "activities": [
+            "act-1024"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-1016"
+          ],
+          "tpn-type": "state",
+          "uid": "node-1025"
+        },
+        "node-1033": {
+          "activities": [
+            "act-1032"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-1024"
+          ],
+          "tpn-type": "state",
+          "uid": "node-1033"
+        },
+        "node-343": {
+          "activities": [],
+          "constraints": [],
+          "incidence-set": [
+            "na-923",
+            "na-997",
+            "na-348",
+            "na-956"
+          ],
+          "tpn-type": "c-end",
+          "uid": "node-343"
+        },
+        "node-344": {
+          "activities": [
+            "na-361",
+            "na-936",
+            "na-1010",
+            "na-969"
+          ],
+          "constraints": [],
+          "end-node": "node-343",
+          "incidence-set": [],
+          "tpn-type": "c-begin",
+          "uid": "node-344"
+        },
+        "node-360": {
+          "activities": [
+            "act-359"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-361"
+          ],
+          "tpn-type": "state",
+          "uid": "node-360"
+        },
+        "node-363": {
+          "activities": [
+            "na-368"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-359"
+          ],
+          "tpn-type": "state",
+          "uid": "node-363"
+        },
+        "node-366": {
+          "activities": [
+            "na-348"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-566",
+            "na-712",
+            "na-801",
+            "na-647",
+            "na-469",
+            "na-428",
+            "na-371"
+          ],
+          "tpn-type": "c-end",
+          "uid": "node-366"
+        },
+        "node-367": {
+          "activities": [
+            "na-441",
+            "na-482",
+            "na-814",
+            "na-725",
+            "na-660",
+            "na-579",
+            "na-384"
+          ],
+          "constraints": [],
+          "end-node": "node-366",
+          "incidence-set": [
+            "na-368"
+          ],
+          "tpn-type": "c-begin",
+          "uid": "node-367"
+        },
+        "node-369": {
+          "activities": [
+            "na-371"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-422"
+          ],
+          "tpn-type": "state",
+          "uid": "node-369"
+        },
+        "node-383": {
+          "activities": [
+            "act-382"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-384"
+          ],
+          "tpn-type": "state",
+          "uid": "node-383"
+        },
+        "node-391": {
+          "activities": [
+            "act-390"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-382"
+          ],
+          "tpn-type": "state",
+          "uid": "node-391"
+        },
+        "node-399": {
+          "activities": [
+            "act-398"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-390"
+          ],
+          "tpn-type": "state",
+          "uid": "node-399"
+        },
+        "node-407": {
+          "activities": [
+            "act-406"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-398"
+          ],
+          "tpn-type": "state",
+          "uid": "node-407"
+        },
+        "node-415": {
+          "activities": [
+            "act-414"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-406"
+          ],
+          "tpn-type": "state",
+          "uid": "node-415"
+        },
+        "node-423": {
+          "activities": [
+            "act-422"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-414"
+          ],
+          "tpn-type": "state",
+          "uid": "node-423"
+        },
+        "node-426": {
+          "activities": [
+            "na-428"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-463"
+          ],
+          "tpn-type": "state",
+          "uid": "node-426"
+        },
+        "node-440": {
+          "activities": [
+            "act-439"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-441"
+          ],
+          "tpn-type": "state",
+          "uid": "node-440"
+        },
+        "node-448": {
+          "activities": [
+            "act-447"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-439"
+          ],
+          "tpn-type": "state",
+          "uid": "node-448"
+        },
+        "node-456": {
+          "activities": [
+            "act-455"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-447"
+          ],
+          "tpn-type": "state",
+          "uid": "node-456"
+        },
+        "node-464": {
+          "activities": [
+            "act-463"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-455"
+          ],
+          "tpn-type": "state",
+          "uid": "node-464"
+        },
+        "node-467": {
+          "activities": [
+            "na-469"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-560"
+          ],
+          "tpn-type": "state",
+          "uid": "node-467"
+        },
+        "node-481": {
+          "activities": [
+            "act-480"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-482"
+          ],
+          "tpn-type": "state",
+          "uid": "node-481"
+        },
+        "node-489": {
+          "activities": [
+            "act-488"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-480"
+          ],
+          "tpn-type": "state",
+          "uid": "node-489"
+        },
+        "node-497": {
+          "activities": [
+            "act-496"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-488"
+          ],
+          "tpn-type": "state",
+          "uid": "node-497"
+        },
+        "node-505": {
+          "activities": [
+            "act-504"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-496"
+          ],
+          "tpn-type": "state",
+          "uid": "node-505"
+        },
+        "node-513": {
+          "activities": [
+            "act-512"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-504"
+          ],
+          "tpn-type": "state",
+          "uid": "node-513"
+        },
+        "node-521": {
+          "activities": [
+            "act-520"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-512"
+          ],
+          "tpn-type": "state",
+          "uid": "node-521"
+        },
+        "node-529": {
+          "activities": [
+            "act-528"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-520"
+          ],
+          "tpn-type": "state",
+          "uid": "node-529"
+        },
+        "node-537": {
+          "activities": [
+            "act-536"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-528"
+          ],
+          "tpn-type": "state",
+          "uid": "node-537"
+        },
+        "node-545": {
+          "activities": [
+            "act-544"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-536"
+          ],
+          "tpn-type": "state",
+          "uid": "node-545"
+        },
+        "node-553": {
+          "activities": [
+            "act-552"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-544"
+          ],
+          "tpn-type": "state",
+          "uid": "node-553"
+        },
+        "node-561": {
+          "activities": [
+            "act-560"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-552"
+          ],
+          "tpn-type": "state",
+          "uid": "node-561"
+        },
+        "node-564": {
+          "activities": [
+            "na-566"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-641"
+          ],
+          "tpn-type": "state",
+          "uid": "node-564"
+        },
+        "node-578": {
+          "activities": [
+            "act-577"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-579"
+          ],
+          "tpn-type": "state",
+          "uid": "node-578"
+        },
+        "node-586": {
+          "activities": [
+            "act-585"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-577"
+          ],
+          "tpn-type": "state",
+          "uid": "node-586"
+        },
+        "node-594": {
+          "activities": [
+            "act-593"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-585"
+          ],
+          "tpn-type": "state",
+          "uid": "node-594"
+        },
+        "node-602": {
+          "activities": [
+            "act-601"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-593"
+          ],
+          "tpn-type": "state",
+          "uid": "node-602"
+        },
+        "node-610": {
+          "activities": [
+            "act-609"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-601"
+          ],
+          "tpn-type": "state",
+          "uid": "node-610"
+        },
+        "node-618": {
+          "activities": [
+            "act-617"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-609"
+          ],
+          "tpn-type": "state",
+          "uid": "node-618"
+        },
+        "node-626": {
+          "activities": [
+            "act-625"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-617"
+          ],
+          "tpn-type": "state",
+          "uid": "node-626"
+        },
+        "node-634": {
+          "activities": [
+            "act-633"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-625"
+          ],
+          "tpn-type": "state",
+          "uid": "node-634"
+        },
+        "node-642": {
+          "activities": [
+            "act-641"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-633"
+          ],
+          "tpn-type": "state",
+          "uid": "node-642"
+        },
+        "node-645": {
+          "activities": [
+            "na-647"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-706"
+          ],
+          "tpn-type": "state",
+          "uid": "node-645"
+        },
+        "node-659": {
+          "activities": [
+            "act-658"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-660"
+          ],
+          "tpn-type": "state",
+          "uid": "node-659"
+        },
+        "node-667": {
+          "activities": [
+            "act-666"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-658"
+          ],
+          "tpn-type": "state",
+          "uid": "node-667"
+        },
+        "node-675": {
+          "activities": [
+            "act-674"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-666"
+          ],
+          "tpn-type": "state",
+          "uid": "node-675"
+        },
+        "node-683": {
+          "activities": [
+            "act-682"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-674"
+          ],
+          "tpn-type": "state",
+          "uid": "node-683"
+        },
+        "node-691": {
+          "activities": [
+            "act-690"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-682"
+          ],
+          "tpn-type": "state",
+          "uid": "node-691"
+        },
+        "node-699": {
+          "activities": [
+            "act-698"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-690"
+          ],
+          "tpn-type": "state",
+          "uid": "node-699"
+        },
+        "node-707": {
+          "activities": [
+            "act-706"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-698"
+          ],
+          "tpn-type": "state",
+          "uid": "node-707"
+        },
+        "node-710": {
+          "activities": [
+            "na-712"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-795"
+          ],
+          "tpn-type": "state",
+          "uid": "node-710"
+        },
+        "node-724": {
+          "activities": [
+            "act-723"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-725"
+          ],
+          "tpn-type": "state",
+          "uid": "node-724"
+        },
+        "node-732": {
+          "activities": [
+            "act-731"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-723"
+          ],
+          "tpn-type": "state",
+          "uid": "node-732"
+        },
+        "node-740": {
+          "activities": [
+            "act-739"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-731"
+          ],
+          "tpn-type": "state",
+          "uid": "node-740"
+        },
+        "node-748": {
+          "activities": [
+            "act-747"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-739"
+          ],
+          "tpn-type": "state",
+          "uid": "node-748"
+        },
+        "node-756": {
+          "activities": [
+            "act-755"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-747"
+          ],
+          "tpn-type": "state",
+          "uid": "node-756"
+        },
+        "node-764": {
+          "activities": [
+            "act-763"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-755"
+          ],
+          "tpn-type": "state",
+          "uid": "node-764"
+        },
+        "node-772": {
+          "activities": [
+            "act-771"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-763"
+          ],
+          "tpn-type": "state",
+          "uid": "node-772"
+        },
+        "node-780": {
+          "activities": [
+            "act-779"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-771"
+          ],
+          "tpn-type": "state",
+          "uid": "node-780"
+        },
+        "node-788": {
+          "activities": [
+            "act-787"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-779"
+          ],
+          "tpn-type": "state",
+          "uid": "node-788"
+        },
+        "node-796": {
+          "activities": [
+            "act-795"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-787"
+          ],
+          "tpn-type": "state",
+          "uid": "node-796"
+        },
+        "node-799": {
+          "activities": [
+            "na-801"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-916"
+          ],
+          "tpn-type": "state",
+          "uid": "node-799"
+        },
+        "node-813": {
+          "activities": [
+            "act-812"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-814"
+          ],
+          "tpn-type": "state",
+          "uid": "node-813"
+        },
+        "node-821": {
+          "activities": [
+            "act-820"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-812"
+          ],
+          "tpn-type": "state",
+          "uid": "node-821"
+        },
+        "node-829": {
+          "activities": [
+            "act-828"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-820"
+          ],
+          "tpn-type": "state",
+          "uid": "node-829"
+        },
+        "node-837": {
+          "activities": [
+            "act-836"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-828"
+          ],
+          "tpn-type": "state",
+          "uid": "node-837"
+        },
+        "node-845": {
+          "activities": [
+            "act-844"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-836"
+          ],
+          "tpn-type": "state",
+          "uid": "node-845"
+        },
+        "node-853": {
+          "activities": [
+            "act-852"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-844"
+          ],
+          "tpn-type": "state",
+          "uid": "node-853"
+        },
+        "node-861": {
+          "activities": [
+            "act-860"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-852"
+          ],
+          "tpn-type": "state",
+          "uid": "node-861"
+        },
+        "node-869": {
+          "activities": [
+            "act-868"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-860"
+          ],
+          "tpn-type": "state",
+          "uid": "node-869"
+        },
+        "node-877": {
+          "activities": [
+            "act-876"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-868"
+          ],
+          "tpn-type": "state",
+          "uid": "node-877"
+        },
+        "node-885": {
+          "activities": [
+            "act-884"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-876"
+          ],
+          "tpn-type": "state",
+          "uid": "node-885"
+        },
+        "node-893": {
+          "activities": [
+            "act-892"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-884"
+          ],
+          "tpn-type": "state",
+          "uid": "node-893"
+        },
+        "node-901": {
+          "activities": [
+            "act-900"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-892"
+          ],
+          "tpn-type": "state",
+          "uid": "node-901"
+        },
+        "node-909": {
+          "activities": [
+            "act-908"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-900"
+          ],
+          "tpn-type": "state",
+          "uid": "node-909"
+        },
+        "node-917": {
+          "activities": [
+            "act-916"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-908"
+          ],
+          "tpn-type": "state",
+          "uid": "node-917"
+        },
+        "node-921": {
+          "activities": [
+            "na-923"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-950"
+          ],
+          "tpn-type": "state",
+          "uid": "node-921"
+        },
+        "node-935": {
+          "activities": [
+            "act-934"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-936"
+          ],
+          "tpn-type": "state",
+          "uid": "node-935"
+        },
+        "node-943": {
+          "activities": [
+            "act-942"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-934"
+          ],
+          "tpn-type": "state",
+          "uid": "node-943"
+        },
+        "node-951": {
+          "activities": [
+            "act-950"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-942"
+          ],
+          "tpn-type": "state",
+          "uid": "node-951"
+        },
+        "node-954": {
+          "activities": [
+            "na-956"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-991"
+          ],
+          "tpn-type": "state",
+          "uid": "node-954"
+        },
+        "node-968": {
+          "activities": [
+            "act-967"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-969"
+          ],
+          "tpn-type": "state",
+          "uid": "node-968"
+        },
+        "node-976": {
+          "activities": [
+            "act-975"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-967"
+          ],
+          "tpn-type": "state",
+          "uid": "node-976"
+        },
+        "node-984": {
+          "activities": [
+            "act-983"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-975"
+          ],
+          "tpn-type": "state",
+          "uid": "node-984"
+        },
+        "node-992": {
+          "activities": [
+            "act-991"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-983"
+          ],
+          "tpn-type": "state",
+          "uid": "node-992"
+        },
+        "node-995": {
+          "activities": [
+            "na-997"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-1032"
+          ],
+          "tpn-type": "state",
+          "uid": "node-995"
+        }
+      }
+    },
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "generated-plan",
+    "routing-key": "generated-plan"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Right Entrance-b",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "state",
+      "subject": "/Falcon.Lobby",
+      "values": "visited"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "next-room-to-visit",
+      "agent-belief": 0.6315789156673374,
+      "bounds": [
+        0,
+        500
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "/Falcon.CloakR",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-visit": "all-rooms"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASIST1",
+      "uid": "se16978"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "ASIST1",
+      "values": "Lobby"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Right Entrance-b",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "enter-room",
+        "object": "Lobby",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "mode",
+      "subject": "Right Entrance-b",
+      "values": {
+        "closed": 0.1,
+        "locked": 0.1,
+        "open": 0.8
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "ASIST1",
+      "values": "North Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "ASIST1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "next-room-to-visit",
+      "agent-belief": 0.6315789156673374,
+      "bounds": [
+        0,
+        500
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "/Falcon.CloakR",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-visit": "all-rooms"
+        }
+      ],
+      "state": true,
+      "subject": "ASIST1",
+      "uid": "se16978"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "ASIST1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Cloak room door?",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "ASIST1",
+      "values": "Cloak room"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Cloak room door?",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "enter-room",
+        "object": "Cloak room",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "mode",
+      "subject": "Cloak room door?",
+      "values": {
+        "closed": 0.1,
+        "locked": 0.1,
+        "open": 0.8
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "opportunistic-entering",
+      "hypothesis-rank": 1,
+      "object": "Cloak room",
+      "reason": 0,
+      "state": true,
+      "subject": "ASIST1",
+      "uid": "se16980",
+      "using": "Cloak room door?"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Cloak room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Cloak room door?",
+          "subject": "ASIST1"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Cloak room",
+          "subject": "ASIST1"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "ASIST1",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": true,
+      "subject": "ASIST1",
+      "uid": "se16979",
+      "using": "Cloak room door?"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "ASIST1",
+      "values": "Cloak room door?"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Cloak room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Cloak room door?",
+          "subject": "ASIST1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASIST1",
+      "uid": "se16981",
+      "using": "Cloak room door?"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "ASIST1",
+      "values": "North Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Cloak room door?",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "enter-corridor",
+        "object": "North Corridor",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "mode",
+      "subject": "Cloak room door?",
+      "values": {
+        "closed": 0.1,
+        "locked": 0.1,
+        "open": 0.8
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Cloak room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Cloak room door?",
+          "subject": "ASIST1"
+        }
+      ],
+      "state": true,
+      "subject": "ASIST1",
+      "uid": "se16981",
+      "using": "Cloak room door?"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "ASIST1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Break room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Break room entrance",
+          "subject": "playername"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Break room",
+          "subject": "playername"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "playername",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "playername",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "playername",
+      "uid": "se16982",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "opportunistic-entering",
+      "hypothesis-rank": 1,
+      "object": "Break room",
+      "reason": 2,
+      "state": "unknown",
+      "subject": "playername",
+      "uid": "se16983",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "ASIST1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "ASIST1",
+      "values": "Break room entrance"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "state",
+      "subject": "/Falcon.BreakR",
+      "values": "visited"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "next-room-to-visit",
+      "agent-belief": 0.8484848484848485,
+      "bounds": [
+        0,
+        500
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "/Falcon.ExecS1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-visit": "all-rooms"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASIST1",
+      "uid": "se16984"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "ASIST1",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2077.0-60.0-150.0-block_victim_2-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area",
+          "subject": "ASIST1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "ASIST1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASIST1",
+      "uid": "se16985",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2077.0-60.0-150.0-block_victim_2-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area",
+          "subject": "ASIST1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASIST1",
+      "uid": "se16986",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "ASIST1",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 27,
+        "untriaged-green-victims": 3,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "ASIST1",
+      "values": "Break room"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "opportunistic-entering",
+      "hypothesis-rank": 1,
+      "object": "Break room",
+      "reason": 2,
+      "state": true,
+      "subject": "playername",
+      "uid": "se16983",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Break room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Break room entrance",
+          "subject": "playername"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Break room",
+          "subject": "playername"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "playername",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "playername",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": true,
+      "subject": "playername",
+      "uid": "se16982",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "ASIST1",
+      "values": [
+        "victim at  2082.0 60.0 147.0 block_victim_1 in Open Break Area"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "ASIST1",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2082.0-60.0-147.0-block_victim_1-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2082.0 60.0 147.0 block_victim_1 in Open Break Area",
+          "subject": "ASIST1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2082.0 60.0 147.0 block_victim_1 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "ASIST1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASIST1",
+      "uid": "se16987",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2082.0-60.0-147.0-block_victim_1-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2082.0 60.0 147.0 block_victim_1 in Open Break Area",
+          "subject": "ASIST1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2082.0 60.0 147.0 block_victim_1 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASIST1",
+      "uid": "se16988",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2082.0-60.0-147.0-block_victim_1-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2082.0 60.0 147.0 block_victim_1 in Open Break Area",
+          "subject": "ASIST1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2082.0 60.0 147.0 block_victim_1 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": true,
+      "subject": "ASIST1",
+      "uid": "se16988",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2082.0-60.0-147.0-block_victim_1-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2082.0 60.0 147.0 block_victim_1 in Open Break Area",
+          "subject": "ASIST1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2082.0 60.0 147.0 block_victim_1 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "ASIST1"
+        }
+      ],
+      "state": true,
+      "subject": "ASIST1",
+      "uid": "se16987",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "ASU_MC",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 18,
+        "untriaged-green-victims": 2,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2082.0 60.0 147.0 block_victim_1 in Open Break Area",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "ASIST1",
+      "values": [
+        "victim at  2077.0 60.0 145.0 block_victim_1 in Open Break Area"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "ASIST1",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2077.0-60.0-145.0-block_victim_1-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2077.0 60.0 145.0 block_victim_1 in Open Break Area",
+          "subject": "ASIST1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2077.0 60.0 145.0 block_victim_1 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "ASIST1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASIST1",
+      "uid": "se16989",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2077.0-60.0-145.0-block_victim_1-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2077.0 60.0 145.0 block_victim_1 in Open Break Area",
+          "subject": "ASIST1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2077.0 60.0 145.0 block_victim_1 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASIST1",
+      "uid": "se16990",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2077.0-60.0-145.0-block_victim_1-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2077.0 60.0 145.0 block_victim_1 in Open Break Area",
+          "subject": "ASIST1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2077.0 60.0 145.0 block_victim_1 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": true,
+      "subject": "ASIST1",
+      "uid": "se16990",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2077.0-60.0-145.0-block_victim_1-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2077.0 60.0 145.0 block_victim_1 in Open Break Area",
+          "subject": "ASIST1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2077.0 60.0 145.0 block_victim_1 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "ASIST1"
+        }
+      ],
+      "state": true,
+      "subject": "ASIST1",
+      "uid": "se16989",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "ASU_MC",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 9,
+        "untriaged-green-victims": 1,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2077.0 60.0 145.0 block_victim_1 in Open Break Area",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "ASIST1",
+      "values": [
+        "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "ASIST1",
+      "values": "Break room entrance"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Break room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Break room entrance",
+          "subject": "ASIST1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASIST1",
+      "uid": "se16991",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "ASIST1",
+      "values": "North Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Break room entrance",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Break room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Break room entrance",
+          "subject": "ASIST1"
+        }
+      ],
+      "state": true,
+      "subject": "ASIST1",
+      "uid": "se16991",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "ASIST1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "ASIST1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "7f3f34d1-d845-4da0-89ef-b00a7ee8ebeb",
+    "prediction-stats": {
+      "aggregate-stats": {
+        "breakdown": {
+          "false": 413,
+          "true": 794,
+          "unknown": 52
+        },
+        "total": 1259
+      },
+      "aggregate-stats-detail": {
+        "MissionTracker--goto-room": {
+          "counts": {
+            "false": 134,
+            "true": 10
+          },
+          "probability": {
+            "false": 0.9305555555555556,
+            "true": 0.06944444444444443
+          },
+          "totals": 144
+        },
+        "StateEstimation--enter-room": {
+          "counts": {
+            "false": 179,
+            "true": 234,
+            "unknown": 33
+          },
+          "probability": {
+            "false": 0.4013452914798206,
+            "true": 0.5246636771300448,
+            "unknown": 0.07399103139013453
+          },
+          "totals": 446
+        },
+        "StateEstimation--exit-room": {
+          "counts": {
+            "true": 412,
+            "unknown": 3
+          },
+          "probability": {
+            "true": 0.9927710843373494,
+            "unknown": 0.007228915662650602
+          },
+          "totals": 415
+        },
+        "StateEstimation--next-room-to-visit": {
+          "counts": {
+            "false": 7,
+            "true": 35,
+            "unknown": 2
+          },
+          "probability": {
+            "false": 0.1590909090909091,
+            "true": 0.7954545454545455,
+            "unknown": 0.04545454545454545
+          },
+          "totals": 44
+        },
+        "StateEstimation--triage-victim": {
+          "counts": {
+            "false": 93,
+            "true": 103,
+            "unknown": 14
+          },
+          "probability": {
+            "false": 0.4428571428571429,
+            "true": 0.4904761904761905,
+            "unknown": 0.06666666666666667
+          },
+          "totals": 210
+        }
+      },
+      "mission-stats": {
+        "breakdown": {
+          "false": 7,
+          "true": 9
+        },
+        "total": 16
+      },
+      "mission-stats-detail": {
+        "StateEstimation--enter-room": {
+          "counts": {
+            "true": 2
+          },
+          "probability": {
+            "true": 1.0
+          },
+          "totals": 2
+        },
+        "StateEstimation--exit-room": {
+          "counts": {
+            "true": 2
+          },
+          "probability": {
+            "true": 1.0
+          },
+          "totals": 2
+        },
+        "StateEstimation--next-room-to-visit": {
+          "counts": {
+            "false": 1,
+            "true": 1
+          },
+          "probability": {
+            "false": 0.5,
+            "true": 0.5
+          },
+          "totals": 2
+        },
+        "StateEstimation--triage-victim": {
+          "counts": {
+            "false": 6,
+            "true": 4
+          },
+          "probability": {
+            "false": 0.6,
+            "true": 0.4
+          },
+          "totals": 10
+        }
+      },
+      "unhandled-timeouts": 0
+    },
+    "received-routing-key": "prediction-stats",
+    "routing-key": "prediction-stats"
+  }
+]

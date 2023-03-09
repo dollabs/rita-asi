@@ -1,0 +1,17 @@
+xx is a person.
+yy is an entity.
+
+If xx is trickster and yy is an entity, then xx may want to fool yy.
+
+Start description of "Successful trickster".
+xx is a person.
+yy is an entity.
+xx's wanting to fool yy leads to xx's fooling yy.
+The end.
+
+Start description of "Failed trickster".
+xx is a person.
+yy is an entity.
+zz is an entity.
+xx's wanting to fool yy leads to yy's discovering xx.
+The end.

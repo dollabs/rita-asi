@@ -1,0 +1,18 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0166".
+BECAUSE THE PRINCESS WAS GREEDY, THE PRINCESS ABDUCTED THE HUNTER AND TOOK HIM TO THE FOREST.
+THE HUNTER WAS ABLE TO GET LOOSE.
+IN ORDER TO SAVE HIS LIFE, HE DECIDED TO HIDE.
+THE HUNTER WENT TO THE JAIL.
+THE END.
+
+
+
+The end.

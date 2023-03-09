@@ -1,0 +1,39 @@
+; Pamela code with a single sequence of a choice and parallel node.
+
+(defpclass plant []
+           :meta {:doc "The Plant API"}
+
+           :methods [(defpmethod bounded
+                                 {:doc    "Bounded"
+                                  :bounds [1 5]} [])
+                     (defpmethod unbounded
+                                 {:doc "Unbounded"}
+                                 [])
+                     ])
+
+(defpclass tpn [plant]
+           :meta {:doc "Simple Parallel with 2 Activities"}
+           :fields {plnt (plant)}
+           :methods [(defpmethod main
+                                 {:doc "Simple Parallel TPN"}
+                                 []
+
+                                 (sequence
+                                   (parallel
+                                     (plnt.bounded)
+                                     (plnt.unbounded))
+                                   (choose
+                                     (choice (plnt.bounded))
+                                     (choice (plnt.unbounded)))
+                                   (choose
+                                     (choice (plnt.bounded))
+                                     (choice (plnt.unbounded)))
+                                   )
+
+                                 )])
+;  pamela -i parallel-and-choice.pamela -o parallel-and-choice.json -c main:tpn:main tpn
+(defpclass main []
+           :fields {plnt (plant)
+                    tpn  (tpn plnt)}
+           :methods [(defpmethod main []
+                                 (tpn.main))])

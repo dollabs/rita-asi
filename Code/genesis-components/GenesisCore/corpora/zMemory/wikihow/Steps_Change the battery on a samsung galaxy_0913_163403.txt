@@ -1,0 +1,138 @@
+/* ------------------------------
+ Generated on 0913_163403 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Change the battery on a samsung galaxy".
+Intention: Change the battery on a samsung galaxy.
+The end.
+
+If the intention is "Change the battery on a samsung galaxy".
+Step: Turn the device off.
+Step: Remove the battery.
+Step: Replace the battery.
+The end.
+
+// ------------ Step 1: Turn the device off
+If the problem is "Turn the device off".
+Intention: Turn the device off.
+The end.
+
+// ------------ Step 2: Remove the battery
+If the problem is "Remove the battery".
+Intention: Remove the battery.
+The end.
+
+// ------------ Step 3: Replace the battery
+If the problem is "Replace the battery".
+Intention: Replace the battery.
+The end.
+
+/* ------------------------------
+ Generated on 0913_163403 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Turn the device off".
+Intention: Turn the device off.
+The end.
+
+If the intention is "Turn the device off".
+Step: Press and hold the Power button....
+Step: Tap on the “Power Off” or “Shut Off” option....
+The end.
+
+// ------------ Step 1: Press and hold the Power button...
+If the problem is "Press and hold the Power button...".
+Intention: Press and hold the Power button....
+The end.
+
+If the intention is "Press and hold the Power button...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Tap on the “Power Off” or “Shut Off” option...
+If the problem is "Tap on the “Power Off” or “Shut Off” option...".
+Intention: Tap on the “Power Off” or “Shut Off” option....
+The end.
+
+If the intention is "Tap on the “Power Off” or “Shut Off” option...".
+Method: Assume successful.
+The end.
+
+/* ------------------------------
+ Generated on 0913_163403 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Remove the battery".
+Intention: Remove the battery.
+The end.
+
+If the intention is "Remove the battery".
+Step: Remove the second plate.
+Step: Remove the battery.
+The end.
+
+// ------------ Step 1: Remove the second plate
+If the problem is "Remove the second plate".
+Intention: Remove the second plate.
+The end.
+
+If the intention is "Remove the second plate".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Remove the battery
+If the problem is "Remove the battery".
+Intention: Remove the battery.
+The end.
+
+If the intention is "Remove the battery".
+Method: Assume successful.
+The end.
+
+/* ------------------------------
+ Generated on 0913_163403 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Replace the battery".
+Intention: Replace the battery.
+The end.
+
+If the intention is "Replace the battery".
+Step: Get the new battery.
+Step: Insert the new battery.
+Step: Put the back plate on again....
+Step: Turn on your phone by null.
+The end.
+
+// ------------ Step 1: Get the new battery
+If the problem is "Get the new battery".
+Intention: Get the new battery.
+The end.
+
+If the intention is "Get the new battery".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Insert the new battery
+If the problem is "Insert the new battery".
+Intention: Insert the new battery.
+The end.
+
+If the intention is "Insert the new battery".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Put the back plate on again...
+If the problem is "Put the back plate on again...".
+Intention: Put the back plate on again....
+The end.
+
+If the intention is "Put the back plate on again...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Turn on your phone by null
+If the problem is "Turn on your phone by null".
+Intention: Turn on your phone by null.
+The end.
+
+If the intention is "Turn on your phone by null".
+Method: Assume successful.
+The end.
+

@@ -1,0 +1,31 @@
+Insert file Beowulf.
+Insert file Simple Hamlet.
+Insert file Hansel and Gretel.
+
+Clear story memory.
+
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "Hansel without Gretel".
+
+Father is a name.
+Father is a character.
+Father is similar to Hansels_Father.
+Father is similar to Ophelia.
+
+Thanatos is a name.
+Thanatos is a character.
+Thanatos is similar to the witch.
+
+Hansil is a name.
+Hansil is a character.
+Hansil is similar to Hansel.
+Hansil is similar to the danes. 
+
+Simulate characters.
+Weave character plots.
+
+The end.

@@ -1,0 +1,34 @@
+Clear story memory.
+
+Insert file General commonsense knowledge.
+
+// Pause.
+
+Insert file General reflective knowledge.
+
+Start story titled "Othello".
+
+Othello is person. 
+Othello is a general.  
+Othello is weak and foolish.
+
+Desdemona is an honest woman.
+Iago is a cruel and ambitious person.
+Iago is Othello's friend and ensign.
+Cassio is a loyal, weak, alcoholic person.
+Cassio is Othello's lieutenant.
+Othello loves Desdemona.
+
+Iago plots against Othello. 
+Othello marries Desdemona.
+Iago plots against Othello and Desdemona. 
+Othello becomes jealous and suspicious of Desdemona. 
+Othello tells Iago that Othello plans to kill Desdemona. 
+
+Othello kills Desdemona.
+Emilia tells Othello the truth about Iago. 
+Othello wounds Iago.
+Othello kills himself. 
+Iago kills Emilia.
+
+The end.

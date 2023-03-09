@@ -1,0 +1,3233 @@
+{
+    "map": "test4.csv",
+    "time_start": "T01512",
+    "time_finish": "T01533",
+    "duration": 121,
+    "steps": {
+        "0": {
+            "time": "T01512",
+            "x": 0.5,
+            "y": 227.0,
+            "z": 10.5,
+            "yaw": -121.34999,
+            "cell": "(1,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 3.113727230907683,
+                "y": 228.25533058502538,
+                "z": 9.0,
+                "type": "dirt",
+                "prop_snowy": false,
+                "prop_variant": "dirt",
+                "inRange": true,
+                "distance": 3.035548448562622
+            }
+        },
+        "1": {
+            "time": "T01513",
+            "x": 0.5,
+            "y": 227.0,
+            "z": 10.5,
+            "yaw": -165.90001,
+            "cell": "(1,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.8766566499908206,
+                "y": 228.36673222852644,
+                "z": 9.0,
+                "type": "dirt",
+                "prop_snowy": false,
+                "prop_variant": "dirt",
+                "inRange": true,
+                "distance": 1.5671677589416504
+            }
+        },
+        "2": {
+            "time": "T01513",
+            "x": 0.5,
+            "y": 227.0,
+            "z": 10.5,
+            "yaw": -128.55008,
+            "cell": "(1,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.3825417922164887,
+                "y": 228.36075324236634,
+                "z": 9.0,
+                "type": "dirt",
+                "prop_snowy": false,
+                "prop_variant": "dirt",
+                "inRange": true,
+                "distance": 2.4209859371185303
+            }
+        },
+        "3": {
+            "time": "T01513",
+            "x": 0.5,
+            "y": 227.0,
+            "z": 10.5,
+            "yaw": -40.95008,
+            "cell": "(1,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.3453757818661856,
+                "y": 228.0853933699594,
+                "z": 12.0,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 1.802904486656189
+            }
+        },
+        "4": {
+            "time": "T01513",
+            "x": 0.5,
+            "y": 227.0,
+            "z": 10.5,
+            "yaw": -8.250082,
+            "cell": "(1,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.7175092436453941,
+                "y": 228.14508936742342,
+                "z": 12.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.5883482694625854
+            }
+        },
+        "5": {
+            "time": "T01513",
+            "x": 1.3236762418455963,
+            "y": 227.0,
+            "z": 10.380640850381539,
+            "yaw": -8.250082,
+            "cell": "(2,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.5584933003951118,
+                "y": 228.11194744003677,
+                "z": 12.0,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 1.7133536338806152
+            }
+        },
+        "6": {
+            "time": "T01513",
+            "x": 1.7781307387514467,
+            "y": 227.0,
+            "z": 10.320160781558826,
+            "yaw": 7.649918,
+            "cell": "(2,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.6128247133014625,
+                "y": 227.27172550460259,
+                "z": 19.0,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 8.764044761657715
+            }
+        },
+        "7": {
+            "time": "T01514",
+            "x": 1.6382985192905064,
+            "y": 227.0,
+            "z": 11.383149529888886,
+            "yaw": 5.6999183,
+            "cell": "(2,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.8785176214862291,
+                "y": 227.76583552757586,
+                "z": 19.0,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 7.604772567749023
+            }
+        },
+        "8": {
+            "time": "T01514",
+            "x": 1.5137138556710632,
+            "y": 227.0,
+            "z": 11.699999988079071,
+            "yaw": 5.6999183,
+            "cell": "(1,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.7855388246211271,
+                "y": 227.6937222081465,
+                "z": 19.0,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 7.394473075866699
+            }
+        },
+        "9": {
+            "time": "T01514",
+            "x": 1.3606982108451888,
+            "y": 227.0,
+            "z": 12.289637374596413,
+            "yaw": 5.6999183,
+            "cell": "(1,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.6515152455064678,
+                "y": 227.79210422316558,
+                "z": 19.0,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.609089374542236
+            }
+        },
+        "10": {
+            "time": "T01514",
+            "x": 1.3000000119209285,
+            "y": 227.0,
+            "z": 13.090446782965735,
+            "yaw": 5.6999183,
+            "cell": "(1,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.7316898562820113,
+                "y": 227.89707892629633,
+                "z": 19.0,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.771076679229736
+            }
+        },
+        "11": {
+            "time": "T01514",
+            "x": 1.28496171902643,
+            "y": 227.0,
+            "z": 13.765860514686969,
+            "yaw": -57.90008,
+            "cell": "(1,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.9002663551498988,
+                "y": 227.0,
+                "z": 14.154875679391424,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.775370478630066
+            }
+        },
+        "12": {
+            "time": "T01514",
+            "x": 1.28496171902643,
+            "y": 227.0,
+            "z": 13.768947300277858,
+            "yaw": -38.550106,
+            "cell": "(1,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.7669166642499912,
+                "y": 227.0,
+                "z": 15.847953444562474,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.6793556213378906
+            }
+        },
+        "13": {
+            "time": "T01514",
+            "x": 1.28496171902643,
+            "y": 227.0,
+            "z": 13.768947300277858,
+            "yaw": -13.050106,
+            "cell": "(2,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.86238496930132,
+                "y": 227.0,
+                "z": 15.825831147126484,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.6793556213378906
+            }
+        },
+        "14": {
+            "time": "T01514",
+            "x": 1.7040786712457696,
+            "y": 227.0,
+            "z": 13.671827844009302,
+            "yaw": -13.050106,
+            "cell": "(2,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.1860336164693335,
+                "y": 227.0,
+                "z": 15.750833988293927,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.6793556213378906
+            },
+            "reward_v": 1,
+            "new_v": 1
+        },
+        "15": {
+            "time": "T01514",
+            "x": 2.329999714868707,
+            "y": 227.0,
+            "z": 13.530265039321336,
+            "yaw": 7.499894,
+            "cell": "(3,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.0894356800729494,
+                "y": 227.0,
+                "z": 16.05862252546826,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.011070728302002
+            },
+            "reward_v": 1
+        },
+        "16": {
+            "time": "T01514",
+            "x": 2.584836472655614,
+            "y": 227.0,
+            "z": 14.491396197255128,
+            "yaw": 7.7998943,
+            "cell": "(3,15)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.254439023302456,
+                "y": 227.0,
+                "z": 17.052866107599478,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.0487194061279297
+            },
+            "reward_v": 1
+        },
+        "17": {
+            "time": "T01515",
+            "x": 2.5163158345852468,
+            "y": 227.0,
+            "z": 15.344675712406486,
+            "yaw": 1.7998946,
+            "cell": "(3,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.433684502151041,
+                "y": 227.0,
+                "z": 17.979518629708664,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.011070489883423
+            },
+            "reward_v": 1
+        },
+        "18": {
+            "time": "T01515",
+            "x": 2.504028361279187,
+            "y": 227.0,
+            "z": 16.201423944428686,
+            "yaw": -54.300106,
+            "cell": "(3,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 3.0,
+                "y": 228.1273249910662,
+                "z": 16.55386590490277,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "east",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 0.7828996777534485
+            },
+            "reward_v": 1
+        },
+        "19": {
+            "time": "T01515",
+            "x": 2.667859987325181,
+            "y": 227.0,
+            "z": 16.369017905007233,
+            "yaw": -72.1501,
+            "cell": "(3,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 227.47276228475138,
+                "z": 17.826472651351434,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 4.660791873931885
+            },
+            "reward_v": 1
+        },
+        "20": {
+            "time": "T01515",
+            "x": 3.114713753966697,
+            "y": 227.0,
+            "z": 16.696557632066146,
+            "yaw": -75.1501,
+            "cell": "(4,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 227.76420757831735,
+                "z": 17.505647756431053,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.877701997756958
+            },
+            "reward_v": 1
+        },
+        "21": {
+            "time": "T01515",
+            "x": 4.19260582859847,
+            "y": 227.0,
+            "z": 16.69999998807907,
+            "yaw": -78.15011,
+            "cell": "(5,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 227.99716996353106,
+                "z": 17.27200729654135,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.759028673171997
+            },
+            "reward_v": 1
+        },
+        "22": {
+            "time": "T01515",
+            "x": 4.787273695182552,
+            "y": 227.0,
+            "z": 16.782554427463275,
+            "yaw": 34.499893,
+            "cell": "(5,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.035886236274802,
+                "y": 227.0,
+                "z": 17.604112385628714,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.9656908512115479
+            },
+            "reward_v": 1
+        },
+        "23": {
+            "time": "T01520",
+            "x": 4.730639939222662,
+            "y": 227.0,
+            "z": 17.308419916160226,
+            "yaw": 6.149897,
+            "cell": "(5,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.551121887880459,
+                "y": 227.36394739996413,
+                "z": 19.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.028810977935791
+            },
+            "reward_v": 1,
+            "reward_vv": 1,
+            "new_vv": 1
+        },
+        "24": {
+            "time": "T01520",
+            "x": 4.72172115188956,
+            "y": 227.0,
+            "z": 17.40720329412927,
+            "yaw": 6.149897,
+            "cell": "(5,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.551634592332393,
+                "y": 227.3677222331446,
+                "z": 19.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.0227136611938477
+            },
+            "reward_v": 1,
+            "reward_vv": 1
+        },
+        "25": {
+            "time": "T01520",
+            "x": 4.633389408935925,
+            "y": 227.0,
+            "z": 18.27292440230972,
+            "yaw": -65.7001,
+            "cell": "(5,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 6.911758971939674,
+                "y": 227.20572273033412,
+                "z": 19.0,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 2.7784504890441895
+            },
+            "reward_v": 1,
+            "reward_vv": 1
+        },
+        "26": {
+            "time": "T01521",
+            "x": 5.469815162743073,
+            "y": 227.0,
+            "z": 17.652072723376264,
+            "yaw": -128.85008,
+            "cell": "(6,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 227.95448441462838,
+                "z": 16.399617701819995,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.0863893032073975
+            },
+            "reward_v": 1,
+            "reward_vv": 1
+        },
+        "27": {
+            "time": "T01521",
+            "x": 5.635660061562117,
+            "y": 227.0,
+            "z": 17.518886649175556,
+            "yaw": -129.30008,
+            "cell": "(6,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 228.0174451405705,
+                "z": 16.335039367275325,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.9042032957077026
+            },
+            "reward_v": 1,
+            "reward_vv": 1
+        },
+        "28": {
+            "time": "T01521",
+            "x": 5.957740276061306,
+            "y": 227.0,
+            "z": 17.23626676703014,
+            "yaw": -136.35007,
+            "cell": "(6,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 228.16883187500574,
+                "z": 16.05046700685416,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.4369454383850098
+            },
+            "reward_v": 1,
+            "reward_vv": 1
+        },
+        "29": {
+            "time": "T01521",
+            "x": 6.254931681883903,
+            "y": 227.0,
+            "z": 16.925472895571755,
+            "yaw": -139.20007,
+            "cell": "(7,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 228.3157773713969,
+                "z": 16.06877710479953,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 0.9689321517944336
+            },
+            "reward_v": 1,
+            "reward_vv": 1
+        },
+        "30": {
+            "time": "T01521",
+            "x": 6.398895414042136,
+            "y": 227.0,
+            "z": 16.765161643475736,
+            "yaw": -139.20007,
+            "cell": "(7,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 228.38797014902983,
+                "z": 16.07231900445746,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 0.7390021681785583
+            },
+            "reward_v": 1,
+            "reward_vv": 1
+        },
+        "31": {
+            "time": "T01521",
+            "x": 6.699999988079071,
+            "y": 227.0,
+            "z": 15.680760681430957,
+            "yaw": -155.40007,
+            "cell": "(7,15)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 228.41674771263385,
+                "z": 15.025483974424551,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 0.7487984299659729
+            },
+            "reward_v": 1,
+            "reward_vv": 1
+        },
+        "32": {
+            "time": "T01521",
+            "x": 6.699999988079071,
+            "y": 227.0,
+            "z": 14.719415956066438,
+            "yaw": -155.40007,
+            "cell": "(7,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 228.41674771263385,
+                "z": 13.868340631582415,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 0.7487984299659729
+            },
+            "reward_v": 1,
+            "reward_vv": 1
+        },
+        "33": {
+            "time": "T01521",
+            "x": 6.699999988079071,
+            "y": 227.0,
+            "z": 13.73908074429465,
+            "yaw": -155.40007,
+            "cell": "(7,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 228.39667283357494,
+                "z": 12.818410696479459,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 0.8152768611907959
+            },
+            "reward_v": 1,
+            "reward_vv": 1
+        },
+        "34": {
+            "time": "T01521",
+            "x": 6.612092599098686,
+            "y": 227.0,
+            "z": 12.53847825046821,
+            "yaw": -192.45004,
+            "cell": "(7,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 6.268446294598622,
+                "y": 227.0,
+                "z": 10.97648526329085,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.2559385299682617
+            },
+            "reward_v": 1,
+            "reward_vv": 1
+        },
+        "35": {
+            "time": "T01521",
+            "x": 6.606849267400637,
+            "y": 227.0,
+            "z": 12.493782604494651,
+            "yaw": -229.05003,
+            "cell": "(7,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.77797168803919,
+                "y": 227.875,
+                "z": 11.772502274652581,
+                "type": "chest",
+                "prop_facing": "north",
+                "NBTTagCompound": {
+                    "x": 5,
+                    "y": 227,
+                    "z": 11,
+                    "id": "minecraft:chest"
+                },
+                "inRange": true,
+                "distance": 1.3203274011611938
+            },
+            "reward_v": 1,
+            "reward_vv": 1
+        },
+        "36": {
+            "time": "T01521",
+            "x": 6.606849267400637,
+            "y": 227.0,
+            "z": 12.48045811420425,
+            "yaw": -225.00009,
+            "cell": "(7,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.025751719122816,
+                "y": 227.0,
+                "z": 10.890848906893392,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.7660670280456543
+            },
+            "reward_v": 2,
+            "new_v": 1,
+            "reward_vv": 1
+        },
+        "37": {
+            "time": "T01521",
+            "x": 6.606849267400637,
+            "y": 227.0,
+            "z": 12.48045811420425,
+            "yaw": -224.8501,
+            "cell": "(7,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.042549285279596,
+                "y": 227.0,
+                "z": 10.891366787775153,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.7562012672424316
+            },
+            "reward_v": 2,
+            "reward_vv": 1
+        },
+        "38": {
+            "time": "T01521",
+            "x": 6.538099727846518,
+            "y": 227.0,
+            "z": 12.410619016644798,
+            "yaw": -224.5501,
+            "cell": "(6,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.0,
+                "y": 227.02713316661433,
+                "z": 10.848143171449314,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.71003794670105
+            },
+            "reward_v": 2,
+            "reward_vv": 1
+        },
+        "39": {
+            "time": "T01522",
+            "x": 6.300000011920929,
+            "y": 227.0,
+            "z": 11.514471138178493,
+            "yaw": -154.95007,
+            "cell": "(6,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.470596965240207,
+                "y": 227.0237619920183,
+                "z": 9.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.192432165145874
+            },
+            "reward_v": 2,
+            "reward_vv": 1
+        },
+        "40": {
+            "time": "T01522",
+            "x": 5.759635740297888,
+            "y": 227.0,
+            "z": 11.200805316573781,
+            "yaw": -130.80008,
+            "cell": "(6,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.346555607491638,
+                "y": 227.0,
+                "z": 9.530405139277507,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.4794814586639404
+            },
+            "reward_v": 2,
+            "reward_vv": 1
+        },
+        "41": {
+            "time": "T01522",
+            "x": 6.28135053185257,
+            "y": 227.0,
+            "z": 10.616058729866808,
+            "yaw": -121.35007,
+            "cell": "(7,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.0,
+                "y": 227.09486088466141,
+                "z": 8.95864116628988,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.342319965362549
+            },
+            "reward_v": 2,
+            "reward_vv": 1
+        },
+        "42": {
+            "time": "T01522",
+            "x": 7.303456214939835,
+            "y": 227.0,
+            "z": 10.099215742796126,
+            "yaw": -55.500065,
+            "cell": "(8,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.0625,
+                "y": 227.5761565543775,
+                "z": 11.2434175968006,
+                "type": "ender_chest",
+                "prop_facing": "north",
+                "NBTTagCompound": {
+                    "x": 9,
+                    "y": 227,
+                    "z": 11,
+                    "id": "minecraft:ender_chest"
+                },
+                "inRange": true,
+                "distance": 2.20912504196167
+            },
+            "reward_v": 2,
+            "reward_vv": 1
+        },
+        "43": {
+            "time": "T01522",
+            "x": 7.5806626181120915,
+            "y": 227.0,
+            "z": 10.282278372886637,
+            "yaw": -57.000065,
+            "cell": "(8,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.0625,
+                "y": 227.7779885368795,
+                "z": 11.245095180185855,
+                "type": "ender_chest",
+                "prop_facing": "north",
+                "NBTTagCompound": {
+                    "x": 9,
+                    "y": 227,
+                    "z": 11,
+                    "id": "minecraft:ender_chest"
+                },
+                "inRange": true,
+                "distance": 1.7819805145263672
+            },
+            "reward_v": 2,
+            "reward_vv": 1
+        },
+        "44": {
+            "time": "T01523",
+            "x": 8.118909874798494,
+            "y": 227.0,
+            "z": 10.63012317614757,
+            "yaw": -58.350067,
+            "cell": "(8,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 10.0,
+                "y": 227.25807772426347,
+                "z": 11.78946577505833,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.595651626586914
+            },
+            "reward_v": 2,
+            "reward_vv": 2,
+            "new_vv": 1
+        },
+        "45": {
+            "time": "T01523",
+            "x": 8.485146292157793,
+            "y": 227.0,
+            "z": 10.855853217635964,
+            "yaw": -58.350067,
+            "cell": "(9,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 10.0,
+                "y": 227.52323542726322,
+                "z": 11.789479103546801,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.090294599533081
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "46": {
+            "time": "T01523",
+            "x": 9.369676409826479,
+            "y": 227.0,
+            "z": 11.40103390064598,
+            "yaw": -58.350067,
+            "cell": "(10,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 10.0,
+                "y": 228.2357058406309,
+                "z": 11.789514916776373,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 0.7324160933494568
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "47": {
+            "time": "T01523",
+            "x": 9.523558490870295,
+            "y": 227.0,
+            "z": 11.495879216108598,
+            "yaw": -58.350067,
+            "cell": "(10,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 10.0,
+                "y": 228.269169727972,
+                "z": 11.782690454082,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 0.6575249433517456
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "48": {
+            "time": "T01523",
+            "x": 9.583109203540905,
+            "y": 227.0,
+            "z": 11.529606396184429,
+            "yaw": -138.60005,
+            "cell": "(10,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.653353271383924,
+                "y": 227.0,
+                "z": 9.899309220457791,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.4792568683624268
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "49": {
+            "time": "T01523",
+            "x": 9.583109203540905,
+            "y": 227.0,
+            "z": 11.529606396184429,
+            "yaw": -199.50005,
+            "cell": "(10,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.46835455298676,
+                "y": 227.18233874029312,
+                "z": 8.1875,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 3.805157423019409
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "50": {
+            "time": "T01523",
+            "x": 9.552100879886373,
+            "y": 227.0,
+            "z": 11.436641441510185,
+            "yaw": -198.45004,
+            "cell": "(9,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.48672386731513,
+                "y": 227.3163829822233,
+                "z": 8.1875,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 3.5182676315307617
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "51": {
+            "time": "T01523",
+            "x": 9.322844326678497,
+            "y": 227.0,
+            "z": 10.739057982286223,
+            "yaw": -198.15004,
+            "cell": "(9,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.486404420062717,
+                "y": 227.63265806389853,
+                "z": 8.1875,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 2.6646883487701416
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "52": {
+            "time": "T01523",
+            "x": 8.98663712586586,
+            "y": 227.0,
+            "z": 9.726109645444868,
+            "yaw": -199.05005,
+            "cell": "(9,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.456080338012104,
+                "y": 228.14481868177785,
+                "z": 8.1875,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 1.4897547960281372
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "53": {
+            "time": "T01523",
+            "x": 8.635964488886472,
+            "y": 227.0,
+            "z": 9.207281708717346,
+            "yaw": -198.90005,
+            "cell": "(8,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.270976489693753,
+                "y": 228.31154477725065,
+                "z": 8.1875,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 0.9748266339302063
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "54": {
+            "time": "T01523",
+            "x": 8.416905916081644,
+            "y": 227.0,
+            "z": 8.692418044744025,
+            "yaw": -178.80005,
+            "cell": "(8,8)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.53198776987014,
+                "y": 227.48535596825138,
+                "z": 3.1875,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": false,
+                "distance": 5.52586555480957
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "55": {
+            "time": "T01523",
+            "x": 8.427193376254193,
+            "y": 227.0,
+            "z": 7.860310652098985,
+            "yaw": -178.80005,
+            "cell": "(8,7)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.522537602401295,
+                "y": 227.68350069696965,
+                "z": 3.1875,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": false,
+                "distance": 4.5608744621276855
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "56": {
+            "time": "T01523",
+            "x": 8.437480836426742,
+            "y": 227.0,
+            "z": 6.576450312885685,
+            "yaw": -178.80005,
+            "cell": "(8,6)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.507703634772255,
+                "y": 227.9150380113204,
+                "z": 3.1875,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 3.4332573413848877
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "57": {
+            "time": "T01523",
+            "x": 8.44776829659929,
+            "y": 227.0,
+            "z": 5.702805714512745,
+            "yaw": -178.80005,
+            "cell": "(8,5)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.500347175076161,
+                "y": 228.0921641472177,
+                "z": 3.1875,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 2.570629835128784
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "58": {
+            "time": "T01523",
+            "x": 8.458055280633173,
+            "y": 227.0,
+            "z": 4.850550778174219,
+            "yaw": -178.35005,
+            "cell": "(8,4)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.502535256399709,
+                "y": 228.25630955271362,
+                "z": 3.1875,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 1.4933236837387085
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "59": {
+            "time": "T01523",
+            "x": 8.472700876900829,
+            "y": 227.0,
+            "z": 3.77272756395093,
+            "yaw": -178.20006,
+            "cell": "(8,3)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.487369930085158,
+                "y": 228.52301624636286,
+                "z": 3.1875,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 0.3821874260902405
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "60": {
+            "time": "T01524",
+            "x": 8.481437293016254,
+            "y": 227.0,
+            "z": 3.487500011920928,
+            "yaw": -175.05005,
+            "cell": "(9,3)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.795312979208548,
+                "y": 227.0,
+                "z": 1.4554662522498618,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.6166462898254395
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "61": {
+            "time": "T01524",
+            "x": 8.512499988079073,
+            "y": 227.0,
+            "z": 2.6815375681823745,
+            "yaw": -162.45004,
+            "cell": "(9,2)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.06392151817469,
+                "y": 227.62684252876346,
+                "z": 0.9375,
+                "type": "chest",
+                "prop_facing": "north",
+                "NBTTagCompound": {
+                    "x": 9,
+                    "y": 227,
+                    "z": 0,
+                    "id": "minecraft:chest"
+                },
+                "inRange": true,
+                "distance": 2.0813684463500977
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "62": {
+            "time": "T01524",
+            "x": 8.703037649536448,
+            "y": 227.0,
+            "z": 1.86884587366857,
+            "yaw": -162.00005,
+            "cell": "(9,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.225548986416028,
+                "y": 227.875,
+                "z": 0.27580337141837263,
+                "type": "chest",
+                "prop_facing": "north",
+                "NBTTagCompound": {
+                    "x": 9,
+                    "y": 227,
+                    "z": 0,
+                    "id": "minecraft:chest"
+                },
+                "inRange": true,
+                "distance": 1.640964388847351
+            },
+            "reward_v": 2,
+            "reward_vv": 2
+        },
+        "63": {
+            "time": "T01524",
+            "x": 9.214050834380158,
+            "y": 227.0,
+            "z": 1.2375000119209278,
+            "yaw": -147.45004,
+            "cell": "(9,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.826529859103818,
+                "y": 227.0,
+                "z": 0.27789725730751524,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.9799919128417969
+            },
+            "reward_v": 3,
+            "new_v": 1,
+            "reward_vv": 2
+        },
+        "64": {
+            "time": "T01524",
+            "x": 9.34830410570544,
+            "y": 227.0,
+            "z": 1.0271900178855204,
+            "yaw": -147.45004,
+            "cell": "(10,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 10.003936191109734,
+                "y": 227.14306512915772,
+                "z": 0.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.8051352500915527
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "65": {
+            "time": "T01524",
+            "x": 9.551371594355288,
+            "y": 227.0,
+            "z": 0.7090814019452814,
+            "yaw": -147.45004,
+            "cell": "(10,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 10.00396868274991,
+                "y": 227.715188005266,
+                "z": 0.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.1058768033981323
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "66": {
+            "time": "T01524",
+            "x": 10.352171002367621,
+            "y": 227.0,
+            "z": 0.30000001192092784,
+            "yaw": -147.45004,
+            "cell": "(11,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 10.659716123770533,
+                "y": 228.11354041156076,
+                "z": 0.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 0.6190036535263062
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "67": {
+            "time": "T01524",
+            "x": 10.566210526784332,
+            "y": 227.0,
+            "z": 0.30000001192092784,
+            "yaw": -120.30004,
+            "cell": "(11,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 11.670566952094633,
+                "y": 227.0,
+                "z": 0.5195600888356391,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.9728684425354004
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "68": {
+            "time": "T01525",
+            "x": 10.601050038270545,
+            "y": 227.0,
+            "z": 0.30000001192092784,
+            "yaw": -16.95005,
+            "cell": "(11,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.32965443980381,
+                "y": 227.0,
+                "z": 1.6775321209979759,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.113713502883911
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "69": {
+            "time": "T01525",
+            "x": 10.601050038270545,
+            "y": 227.0,
+            "z": 0.30000001192092784,
+            "yaw": 58.79995,
+            "cell": "(11,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.072320665539143,
+                "y": 227.0,
+                "z": 1.211648261008065,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.1409451961517334
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "70": {
+            "time": "T01525",
+            "x": 10.604125156863017,
+            "y": 227.0,
+            "z": 0.30000001192092784,
+            "yaw": 43.94995,
+            "cell": "(11,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 10.227134199505791,
+                "y": 227.046061451369,
+                "z": 3.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.147920608520508
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "71": {
+            "time": "T01525",
+            "x": 10.662140823765082,
+            "y": 227.0,
+            "z": 0.37897659838199504,
+            "yaw": -36.300045,
+            "cell": "(11,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 12.598244990026297,
+                "y": 227.46634620994922,
+                "z": 3.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.456758499145508
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "72": {
+            "time": "T01525",
+            "x": 11.498076645430157,
+            "y": 227.0,
+            "z": 1.4634128665310306,
+            "yaw": -48.30005,
+            "cell": "(12,2)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 13.0,
+                "y": 228.0980329033955,
+                "z": 2.6730483724018144,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.997859239578247
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "73": {
+            "time": "T01525",
+            "x": 12.012660457171929,
+            "y": 227.0,
+            "z": 1.6635991995360526,
+            "yaw": -88.35005,
+            "cell": "(12,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 13.0,
+                "y": 228.42627608010793,
+                "z": 1.6920050299337457,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "east",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 1.006566047668457
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "74": {
+            "time": "T01525",
+            "x": 12.296399102906916,
+            "y": 227.0,
+            "z": 1.3630616780598326,
+            "yaw": -77.55005,
+            "cell": "(13,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.054178929530607,
+                "y": 227.0,
+                "z": 2.4341983166340926,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 4.9644975662231445
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "75": {
+            "time": "T01525",
+            "x": 12.65920680270775,
+            "y": 227.0,
+            "z": 1.4944829257574013,
+            "yaw": -77.70005,
+            "cell": "(13,2)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.335329424576866,
+                "y": 227.0,
+                "z": 2.449814749946369,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.040156841278076
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "76": {
+            "time": "T01525",
+            "x": 13.128205328478394,
+            "y": 227.0,
+            "z": 1.5989091721155901,
+            "yaw": -81.15005,
+            "cell": "(14,2)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 18.0,
+                "y": 227.23623687523303,
+                "z": 2.104633296445839,
+                "type": "dirt",
+                "prop_snowy": false,
+                "prop_variant": "dirt",
+                "inRange": false,
+                "distance": 4.916162490844727
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "77": {
+            "time": "T01525",
+            "x": 14.127488315727113,
+            "y": 227.0,
+            "z": 1.699999988079072,
+            "yaw": -85.35005,
+            "cell": "(15,2)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.01415786255733,
+                "y": 227.25965365920604,
+                "z": 2.0,
+                "type": "dirt",
+                "prop_snowy": false,
+                "prop_variant": "dirt",
+                "inRange": false,
+                "distance": 4.876017093658447
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "78": {
+            "time": "T01525",
+            "x": 15.201389721133635,
+            "y": 227.0,
+            "z": 1.7220420206133533,
+            "yaw": -91.05006,
+            "cell": "(16,2)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 20.99230538918255,
+                "y": 227.0,
+                "z": 1.6181431778404012,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.806708812713623
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "79": {
+            "time": "T01525",
+            "x": 16.064038815653404,
+            "y": 227.0,
+            "z": 1.7076983281579126,
+            "yaw": -95.25005,
+            "cell": "(17,2)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.706127430745266,
+                "y": 227.0,
+                "z": 0.5622358515088748,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.514955997467041
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "80": {
+            "time": "T01525",
+            "x": 17.344299436885635,
+            "y": 227.0,
+            "z": 1.5255813598292396,
+            "yaw": -99.45005,
+            "cell": "(18,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 23.0625,
+                "y": 227.1324612229733,
+                "z": 0.5891828946010157,
+                "type": "chest",
+                "prop_facing": "north",
+                "NBTTagCompound": {
+                    "x": 23,
+                    "y": 227,
+                    "z": 0,
+                    "id": "minecraft:chest"
+                },
+                "inRange": false,
+                "distance": 5.982259750366211
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "81": {
+            "time": "T01525",
+            "x": 18.409754589748864,
+            "y": 227.0,
+            "z": 1.3537876664991337,
+            "yaw": -98.55005,
+            "cell": "(19,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 23.0625,
+                "y": 227.40008411373103,
+                "z": 0.679557079291586,
+                "type": "chest",
+                "prop_facing": "north",
+                "NBTTagCompound": {
+                    "x": 23,
+                    "y": 227,
+                    "z": 0,
+                    "id": "minecraft:chest"
+                },
+                "inRange": false,
+                "distance": 4.857038497924805
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "82": {
+            "time": "T01525",
+            "x": 19.478779299203918,
+            "y": 227.0,
+            "z": 1.2058024799184857,
+            "yaw": -97.20005,
+            "cell": "(20,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 23.0625,
+                "y": 227.63188782324397,
+                "z": 0.7533191036587427,
+                "type": "chest",
+                "prop_facing": "north",
+                "NBTTagCompound": {
+                    "x": 23,
+                    "y": 227,
+                    "z": 0,
+                    "id": "minecraft:chest"
+                },
+                "inRange": true,
+                "distance": 3.744884729385376
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "83": {
+            "time": "T01525",
+            "x": 20.121169696388698,
+            "y": 227.0,
+            "z": 1.1240584836064276,
+            "yaw": -97.20005,
+            "cell": "(21,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 23.0625,
+                "y": 227.86805555592215,
+                "z": 0.7526279886381492,
+                "type": "chest",
+                "prop_facing": "north",
+                "NBTTagCompound": {
+                    "x": 23,
+                    "y": 227,
+                    "z": 0,
+                    "id": "minecraft:chest"
+                },
+                "inRange": true,
+                "distance": 2.849823474884033
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "84": {
+            "time": "T01525",
+            "x": 21.190904136657622,
+            "y": 227.0,
+            "z": 0.9812856708164015,
+            "yaw": -99.00005,
+            "cell": "(22,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 23.0625,
+                "y": 227.655208829888,
+                "z": 0.6722475486892495,
+                "type": "chest",
+                "prop_facing": "north",
+                "NBTTagCompound": {
+                    "x": 23,
+                    "y": 227,
+                    "z": 0,
+                    "id": "minecraft:chest"
+                },
+                "inRange": true,
+                "distance": 1.9382842779159546
+            },
+            "reward_v": 3,
+            "reward_vv": 2
+        },
+        "85": {
+            "time": "T01530",
+            "x": 22.178782104069576,
+            "y": 227.0,
+            "z": 0.8211670548600927,
+            "yaw": -101.85006,
+            "cell": "(23,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 24.0,
+                "y": 227.343477849235,
+                "z": 0.4390701232458573,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.133406400680542
+            },
+            "reward_v": 4,
+            "new_v": 1,
+            "reward_vv": 2
+        },
+        "86": {
+            "time": "T01530",
+            "x": 23.132764036460603,
+            "y": 227.0,
+            "z": 0.6241861661346175,
+            "yaw": -27.900059,
+            "cell": "(23,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 21.0,
+                "y": 227.2277760166194,
+                "z": 2.616881086997197,
+                "type": "dirt",
+                "prop_snowy": false,
+                "prop_variant": "dirt",
+                "inRange": true,
+                "distance": 3.2338526248931885
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "87": {
+            "time": "T01530",
+            "x": 23.132764036460603,
+            "y": 227.0,
+            "z": 0.6241861661346175,
+            "yaw": 72.14994,
+            "cell": "(23,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 18.86112993324831,
+                "y": 227.0176061354872,
+                "z": 2.0,
+                "type": "dirt",
+                "prop_snowy": false,
+                "prop_variant": "dirt",
+                "inRange": false,
+                "distance": 4.7652268409729
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "88": {
+            "time": "T01530",
+            "x": 23.16474215562531,
+            "y": 227.0,
+            "z": 0.5315503259570815,
+            "yaw": 109.049934,
+            "cell": "(23,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 20.870797051286853,
+                "y": 229.08814924212348,
+                "z": 0.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.400810956954956
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "89": {
+            "time": "T01530",
+            "x": 22.725028366113218,
+            "y": 227.0,
+            "z": 0.3000000119209284,
+            "yaw": 96.14994,
+            "cell": "(22,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.80616402682914,
+                "y": 229.1770174603642,
+                "z": 0.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.8565542697906494
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "90": {
+            "time": "T01530",
+            "x": 21.56991147518206,
+            "y": 227.0,
+            "z": 0.3000000119209284,
+            "yaw": 0.8999397,
+            "cell": "(22,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 21.53995607934268,
+                "y": 227.0,
+                "z": 2.2166911548808637,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.5097813606262207
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "91": {
+            "time": "T01530",
+            "x": 21.56991147518206,
+            "y": 227.0,
+            "z": 0.3000000119209284,
+            "yaw": 0.8999397,
+            "cell": "(21,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 21.560039196318723,
+                "y": 227.0,
+                "z": 2.2068645012344317,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.5021250247955322
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "92": {
+            "time": "T01530",
+            "x": 20.737671269995563,
+            "y": 227.0,
+            "z": 0.3028183127753431,
+            "yaw": -1.6500603,
+            "cell": "(20,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 20.64759690448247,
+                "y": 227.23973372962095,
+                "z": 2.0,
+                "type": "dirt",
+                "prop_snowy": false,
+                "prop_variant": "dirt",
+                "inRange": true,
+                "distance": 2.18611216545105
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "93": {
+            "time": "T01530",
+            "x": 19.8139049867788,
+            "y": 227.0,
+            "z": 0.3029089479126671,
+            "yaw": 8.39994,
+            "cell": "(19,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.2496672641492,
+                "y": 227.9665730506263,
+                "z": 2.0,
+                "type": "dirt",
+                "prop_snowy": false,
+                "prop_variant": "dirt",
+                "inRange": true,
+                "distance": 1.8614320755004883
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "94": {
+            "time": "T01530",
+            "x": 19.212966732606002,
+            "y": 227.0,
+            "z": 0.49666423343456767,
+            "yaw": -2.1000595,
+            "cell": "(19,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.268193542806465,
+                "y": 228.2547995155085,
+                "z": 2.0,
+                "type": "dirt",
+                "prop_snowy": false,
+                "prop_variant": "dirt",
+                "inRange": true,
+                "distance": 1.5480438470840454
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "95": {
+            "time": "T01531",
+            "x": 19.25884505216755,
+            "y": 227.0,
+            "z": 1.135349395493709,
+            "yaw": -4.20006,
+            "cell": "(19,2)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.564784714937474,
+                "y": 227.0,
+                "z": 5.299463309727791,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.287765979766846
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "96": {
+            "time": "T01531",
+            "x": 19.349773474560326,
+            "y": 227.0,
+            "z": 2.404774043369247,
+            "yaw": -3.6000597,
+            "cell": "(19,3)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.62360582139899,
+                "y": 227.0,
+                "z": 6.752957109947655,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 4.648233890533447
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "97": {
+            "time": "T01531",
+            "x": 19.414455557504333,
+            "y": 227.0,
+            "z": 3.481524119329579,
+            "yaw": -2.8500595,
+            "cell": "(19,4)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.636481984299255,
+                "y": 227.0,
+                "z": 7.939921012587609,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 4.748789310455322
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "98": {
+            "time": "T01531",
+            "x": 19.438152733891705,
+            "y": 227.0,
+            "z": 4.168416363151359,
+            "yaw": -2.7000594,
+            "cell": "(19,5)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.614316321676874,
+                "y": 227.31029524368742,
+                "z": 8.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.8668012619018555
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "99": {
+            "time": "T01531",
+            "x": 19.447375836483637,
+            "y": 227.0,
+            "z": 4.8122523000600825,
+            "yaw": -1.6500591,
+            "cell": "(20,5)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.53113539247018,
+                "y": 227.4720702650934,
+                "z": 8.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.3891730308532715
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "100": {
+            "time": "T01531",
+            "x": 20.279379519722177,
+            "y": 227.0,
+            "z": 4.799428727444921,
+            "yaw": -1.5000591,
+            "cell": "(21,5)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 20.607651493390154,
+                "y": 227.0,
+                "z": 9.295528966549877,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 4.782923698425293
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "101": {
+            "time": "T01531",
+            "x": 21.183648893323582,
+            "y": 227.0,
+            "z": 5.237206467941759,
+            "yaw": -1.5000591,
+            "cell": "(22,6)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 21.464066684887527,
+                "y": 227.0,
+                "z": 9.88013465152217,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 4.782923698425293
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "102": {
+            "time": "T01531",
+            "x": 21.965637204710877,
+            "y": 227.0,
+            "z": 6.20536080408042,
+            "yaw": 0.4499408,
+            "cell": "(22,7)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 21.907431163287193,
+                "y": 227.0,
+                "z": 10.985580641090433,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 4.854098320007324
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "103": {
+            "time": "T01531",
+            "x": 22.26238503902744,
+            "y": 227.0,
+            "z": 6.880556025882475,
+            "yaw": 5.249941,
+            "cell": "(23,7)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 21.248347243584544,
+                "y": 227.0,
+                "z": 12.249051705686462,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.705122470855713
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "104": {
+            "time": "T01531",
+            "x": 23.24909078551811,
+            "y": 227.0,
+            "z": 7.079858243406655,
+            "yaw": 12.59994,
+            "cell": "(24,7)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 21.832820198040466,
+                "y": 227.0,
+                "z": 12.53579873588691,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.806717872619629
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "105": {
+            "time": "T01531",
+            "x": 23.555101450784303,
+            "y": 227.0,
+            "z": 7.336707717280015,
+            "yaw": 16.49994,
+            "cell": "(24,8)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 21.639435471833643,
+                "y": 227.0,
+                "z": 12.138986782934758,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.418123245239258
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "106": {
+            "time": "T01531",
+            "x": 23.699999988079075,
+            "y": 227.0,
+            "z": 8.40558307899806,
+            "yaw": 32.24994,
+            "cell": "(24,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 21.113462409836423,
+                "y": 227.0,
+                "z": 12.321149547473247,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 4.9644975662231445
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "107": {
+            "time": "T01531",
+            "x": 23.699999988079075,
+            "y": 227.0,
+            "z": 9.239764762995552,
+            "yaw": 52.799942,
+            "cell": "(24,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 20.0,
+                "y": 227.44976185820366,
+                "z": 11.2185389929856,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.352851867675781
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "108": {
+            "time": "T01531",
+            "x": 23.699999988079075,
+            "y": 227.0,
+            "z": 9.239764762995552,
+            "yaw": 77.84994,
+            "cell": "(23,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.1875,
+                "y": 227.48669457347796,
+                "z": 10.607681054882184,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "east",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": false,
+                "distance": 4.751428604125977
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "109": {
+            "time": "T01531",
+            "x": 23.285904491566654,
+            "y": 227.0,
+            "z": 9.366601346583437,
+            "yaw": 72.449936,
+            "cell": "(23,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.1875,
+                "y": 227.61227852592611,
+                "z": 10.73543373687831,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "east",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 4.271618366241455
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "110": {
+            "time": "T01531",
+            "x": 22.8014024876802,
+            "y": 227.0,
+            "z": 9.991170120650503,
+            "yaw": 72.449936,
+            "cell": "(22,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.8163899667448,
+                "y": 227.89994892744753,
+                "z": 11.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.052215576171875
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "111": {
+            "time": "T01531",
+            "x": 21.672590250362184,
+            "y": 227.0,
+            "z": 10.489257920567237,
+            "yaw": 77.09994,
+            "cell": "(22,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.23931725325231,
+                "y": 227.97485831978514,
+                "z": 11.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.568634510040283
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "112": {
+            "time": "T01531",
+            "x": 21.559693673705937,
+            "y": 227.0,
+            "z": 10.519483466719745,
+            "yaw": 78.14994,
+            "cell": "(21,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.1875,
+                "y": 227.98579611228905,
+                "z": 10.984961795912323,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "east",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 2.499237298965454
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "113": {
+            "time": "T01531",
+            "x": 21.464395852026815,
+            "y": 227.0,
+            "z": 10.544997337845938,
+            "yaw": 79.64994,
+            "cell": "(21,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.1875,
+                "y": 228.00767242794478,
+                "z": 10.901774012603287,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "east",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 2.3663597106933594
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "114": {
+            "time": "T01531",
+            "x": 21.36933902437931,
+            "y": 227.0,
+            "z": 10.1621696061793,
+            "yaw": 81.14994,
+            "cell": "(21,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.1875,
+                "y": 228.01383341265722,
+                "z": 10.70280103793682,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "east",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 2.3201377391815186
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "115": {
+            "time": "T01531",
+            "x": 21.45456740797617,
+            "y": 227.0,
+            "z": 10.72869835525053,
+            "yaw": 80.699936,
+            "cell": "(21,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.1875,
+                "y": 228.00621880533677,
+                "z": 10.917031780225736,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "east",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 2.34928297996521
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "116": {
+            "time": "T01531",
+            "x": 20.534511971691803,
+            "y": 227.0,
+            "z": 10.260804890729476,
+            "yaw": 80.699936,
+            "cell": "(20,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.1875,
+                "y": 228.25055053811872,
+                "z": 10.481517409360366,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "east",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 1.4140892028808594
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "117": {
+            "time": "T01531",
+            "x": 20.300000011920925,
+            "y": 227.0,
+            "z": 10.474196729823676,
+            "yaw": 85.19994,
+            "cell": "(20,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.17120657952104,
+                "y": 227.0,
+                "z": 10.747102614097628,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.5325043201446533
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "118": {
+            "time": "T01532",
+            "x": 19.87109563729154,
+            "y": 227.0,
+            "z": 10.544605929823808,
+            "yaw": 85.79995,
+            "cell": "(19,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.50177896166436,
+                "y": 227.0,
+                "z": 10.759984176320357,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.568352699279785
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "119": {
+            "time": "T01532",
+            "x": 18.61911876534649,
+            "y": 227.0,
+            "z": 10.61749783406846,
+            "yaw": 87.749954,
+            "cell": "(18,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.442150294476017,
+                "y": 227.0,
+                "z": 10.742443286427392,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.568352460861206
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "120": {
+            "time": "T01532",
+            "x": 17.75740800634908,
+            "y": 227.0,
+            "z": 10.652249688074074,
+            "yaw": 87.749954,
+            "cell": "(17,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 14.364794118241312,
+                "y": 227.0,
+                "z": 10.785714330059633,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.568352460861206
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "121": {
+            "time": "T01532",
+            "x": 16.51086328812117,
+            "y": 227.0,
+            "z": 10.942830314702885,
+            "yaw": 53.849957,
+            "cell": "(16,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.0,
+                "y": 227.76943498372904,
+                "z": 12.04661241936896,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.0553598403930664
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "122": {
+            "time": "T01532",
+            "x": 15.52426325045276,
+            "y": 227.0,
+            "z": 11.161660808713332,
+            "yaw": 17.549957,
+            "cell": "(16,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.0,
+                "y": 228.07508927360038,
+                "z": 12.819852379741116,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.8224650621414185
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "123": {
+            "time": "T01532",
+            "x": 15.52426325045276,
+            "y": 227.0,
+            "z": 11.161660808713332,
+            "yaw": 17.549957,
+            "cell": "(15,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.0,
+                "y": 228.09451971847793,
+                "z": 12.760724529848723,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.7574795484542847
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "124": {
+            "time": "T01532",
+            "x": 15.490842298010893,
+            "y": 227.0,
+            "z": 11.41111379778488,
+            "yaw": -1.2000433,
+            "cell": "(15,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.630944401577105,
+                "y": 227.0,
+                "z": 18.082817662075158,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.866998195648193
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "125": {
+            "time": "T01532",
+            "x": 15.494938494975276,
+            "y": 227.0,
+            "z": 11.78842893898709,
+            "yaw": -1.2000433,
+            "cell": "(16,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.699999423702769,
+                "y": 227.07280730141682,
+                "z": 19.0,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 7.177900791168213
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "126": {
+            "time": "T01532",
+            "x": 15.504670399113156,
+            "y": 227.0,
+            "z": 12.416421880923476,
+            "yaw": -2.4000435,
+            "cell": "(16,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.780663084994195,
+                "y": 227.2915278462131,
+                "z": 19.0,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.72194242477417
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "127": {
+            "time": "T01532",
+            "x": 15.525935409462608,
+            "y": 227.0,
+            "z": 13.491217705117746,
+            "yaw": -2.5500436,
+            "cell": "(16,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.771687004954204,
+                "y": 227.5082771543919,
+                "z": 19.0,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.625211238861084
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "128": {
+            "time": "T01532",
+            "x": 15.534651679790176,
+            "y": 227.0,
+            "z": 14.139471370612736,
+            "yaw": -46.650043,
+            "cell": "(16,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 18.222706720047416,
+                "y": 227.0,
+                "z": 16.35749825731796,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.8261141777038574
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "129": {
+            "time": "T01532",
+            "x": 15.534651679790176,
+            "y": 227.0,
+            "z": 14.174806836708738,
+            "yaw": -44.250046,
+            "cell": "(16,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.369615914747936,
+                "y": 227.0,
+                "z": 17.665402834532305,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.260749816894531
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "130": {
+            "time": "T01532",
+            "x": 15.580275801813759,
+            "y": 227.0,
+            "z": 14.264653342585104,
+            "yaw": -27.750046,
+            "cell": "(16,15)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.09780391025657,
+                "y": 227.0,
+                "z": 18.261348232703398,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.430770397186279
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "131": {
+            "time": "T01532",
+            "x": 15.977110947221577,
+            "y": 227.0,
+            "z": 15.350153981041013,
+            "yaw": -18.000046,
+            "cell": "(16,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.110699628068044,
+                "y": 227.18722695817868,
+                "z": 19.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.081573009490967
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "132": {
+            "time": "T01532",
+            "x": 16.30060734596814,
+            "y": 227.0,
+            "z": 16.375953850858902,
+            "yaw": -17.250046,
+            "cell": "(16,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.093032961474716,
+                "y": 227.60884340363688,
+                "z": 19.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.921642303466797
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "133": {
+            "time": "T01532",
+            "x": 16.496168773575093,
+            "y": 227.0,
+            "z": 17.21401702363653,
+            "yaw": -6.300045,
+            "cell": "(17,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.693363946592285,
+                "y": 228.07247309371556,
+                "z": 19.0,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 1.8784054517745972
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "134": {
+            "time": "T01532",
+            "x": 16.496168773575093,
+            "y": 227.0,
+            "z": 17.21401702363653,
+            "yaw": -6.300045,
+            "cell": "(17,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.698986511686602,
+                "y": 228.13792380611497,
+                "z": 19.0,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 1.6538630723953247
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "135": {
+            "time": "T01532",
+            "x": 16.618925895962114,
+            "y": 227.0,
+            "z": 18.467624615862658,
+            "yaw": 0.5999551,
+            "cell": "(17,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.6133622405652,
+                "y": 228.48332235145298,
+                "z": 19.0,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 0.5496683120727539
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "136": {
+            "time": "T01532",
+            "x": 16.563455920599537,
+            "y": 227.0,
+            "z": 18.69999998807907,
+            "yaw": 3.8999553,
+            "cell": "(16,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.425316013591083,
+                "y": 227.0,
+                "z": 20.307757734917843,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.2850089073181152
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "137": {
+            "time": "T01532",
+            "x": 16.30000001192093,
+            "y": 227.0,
+            "z": 19.399080093176607,
+            "yaw": 3.599955,
+            "cell": "(16,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.192858159357513,
+                "y": 227.0,
+                "z": 21.10298938519087,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.3535475730895996
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "138": {
+            "time": "T01532",
+            "x": 16.30000001192093,
+            "y": 227.0,
+            "z": 19.399080093176607,
+            "yaw": 3.599955,
+            "cell": "(16,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.200686017487012,
+                "y": 227.0,
+                "z": 22.2611668449734,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.428150177001953
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "139": {
+            "time": "T01532",
+            "x": 16.284626482520252,
+            "y": 227.0,
+            "z": 21.353078548942676,
+            "yaw": 62.999954,
+            "cell": "(16,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 13.804455132132821,
+                "y": 227.0,
+                "z": 21.31077312146188,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.9627206325531006
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "140": {
+            "time": "T01532",
+            "x": 16.284626482520252,
+            "y": 227.0,
+            "z": 21.353078548942676,
+            "yaw": -0.3000473,
+            "cell": "(16,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.250655409356373,
+                "y": 227.0,
+                "z": 23.83361268961451,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.113713502883911
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "141": {
+            "time": "T01532",
+            "x": 16.284626482520252,
+            "y": 227.0,
+            "z": 21.356194839112227,
+            "yaw": -52.350044,
+            "cell": "(16,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.687034260703822,
+                "y": 227.0,
+                "z": 22.437936461632127,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.400273323059082
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "142": {
+            "time": "T01533",
+            "x": 16.284626482520252,
+            "y": 227.0,
+            "z": 21.356194839112227,
+            "yaw": -145.95004,
+            "cell": "(16,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.66590079818393,
+                "y": 227.0,
+                "z": 19.538901056164043,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.4642090797424316
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "143": {
+            "time": "T01533",
+            "x": 16.38382194077913,
+            "y": 227.0,
+            "z": 20.737193798060503,
+            "yaw": -171.30005,
+            "cell": "(16,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.82443348326003,
+                "y": 227.0,
+                "z": 17.858605786042954,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.1544876098632812
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "144": {
+            "time": "T01533",
+            "x": 16.47944562053371,
+            "y": 227.0,
+            "z": 20.116254896669734,
+            "yaw": -171.30005,
+            "cell": "(17,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.888672017884836,
+                "y": 227.0,
+                "z": 17.44063813151819,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.1544876098632812
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "145": {
+            "time": "T01533",
+            "x": 16.511894242903566,
+            "y": 227.0,
+            "z": 19.904573597775617,
+            "yaw": -171.30005,
+            "cell": "(17,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.795085707045352,
+                "y": 227.0,
+                "z": 16.702398518203875,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.4119794368743896
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "146": {
+            "time": "T01533",
+            "x": 16.51249998807907,
+            "y": 227.0,
+            "z": 18.61900382705005,
+            "yaw": -175.95004,
+            "cell": "(17,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.738465710189868,
+                "y": 227.0,
+                "z": 15.42637419189974,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.587247371673584
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "147": {
+            "time": "T01533",
+            "x": 16.523210972608794,
+            "y": 227.0,
+            "z": 18.15178965911806,
+            "yaw": -206.10004,
+            "cell": "(16,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.0,
+                "y": 228.20861945227193,
+                "z": 17.183282760314764,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.8022167682647705
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "148": {
+            "time": "T01533",
+            "x": 16.499720804454554,
+            "y": 227.0,
+            "z": 17.897764802754352,
+            "yaw": -240.45004,
+            "cell": "(16,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 14.1875,
+                "y": 228.02869189006753,
+                "z": 16.54958001292653,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "east",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 2.619392156600952
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "149": {
+            "time": "T01533",
+            "x": 16.45503272408628,
+            "y": 227.0,
+            "z": 17.71999224560715,
+            "yaw": -242.55005,
+            "cell": "(16,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 14.1875,
+                "y": 228.04298250952505,
+                "z": 16.385535803107626,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "east",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 2.556087017059326
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "150": {
+            "time": "T01533",
+            "x": 15.56471772171298,
+            "y": 227.0,
+            "z": 16.717017287543207,
+            "yaw": -268.2,
+            "cell": "(15,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 13.311069173280972,
+                "y": 227.0,
+                "z": 16.646124316816273,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.776392936706543
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "151": {
+            "time": "T01533",
+            "x": 15.315333097561368,
+            "y": 227.0,
+            "z": 16.710854768907815,
+            "yaw": -265.5,
+            "cell": "(15,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 11.3476988451557,
+                "y": 227.0,
+                "z": 16.245859744879386,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.287765979766846
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "152": {
+            "time": "T01533",
+            "x": 14.858456154062626,
+            "y": 227.0,
+            "z": 16.48750001192093,
+            "yaw": -264.6,
+            "cell": "(14,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 10.626799021780311,
+                "y": 227.0,
+                "z": 16.136755374473342,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.372138023376465
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "153": {
+            "time": "T01533",
+            "x": 13.629119656568474,
+            "y": 227.0,
+            "z": 16.482879075221717,
+            "yaw": -267.3,
+            "cell": "(13,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.132851196090321,
+                "y": 227.0,
+                "z": 16.294389283333985,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 4.782923698425293
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "154": {
+            "time": "T01533",
+            "x": 12.767765184443798,
+            "y": 227.0,
+            "z": 16.4823540301295,
+            "yaw": -270.74997,
+            "cell": "(12,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.0,
+                "y": 227.44520319659992,
+                "z": 16.549200015708163,
+                "type": "dirt",
+                "prop_snowy": false,
+                "prop_variant": "dirt",
+                "inRange": true,
+                "distance": 3.7418222427368164
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "155": {
+            "time": "T01533",
+            "x": 11.86778870158586,
+            "y": 227.0,
+            "z": 16.48773742618505,
+            "yaw": -253.49997,
+            "cell": "(12,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.0,
+                "y": 227.13070570483305,
+                "z": 15.107444770750043,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.365644931793213
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "156": {
+            "time": "T01533",
+            "x": 11.687547226814415,
+            "y": 227.0,
+            "z": 16.878465175351696,
+            "yaw": -239.54999,
+            "cell": "(11,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.547344984537688,
+                "y": 227.0,
+                "z": 13.45397629512086,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 4.964498043060303
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "157": {
+            "time": "T01533",
+            "x": 11.440625605742763,
+            "y": 227.0,
+            "z": 17.188868416373495,
+            "yaw": -220.19998,
+            "cell": "(11,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.993051558980973,
+                "y": 227.0,
+                "z": 13.182235764735857,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.002024173736572
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        },
+        "158": {
+            "time": "T01533",
+            "x": 11.283689729242887,
+            "y": 227.0,
+            "z": 17.323349658626572,
+            "yaw": -212.24998,
+            "cell": "(11,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.83273437541985,
+                "y": 227.0,
+                "z": 13.296963324724164,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.002024173736572
+            },
+            "reward_v": 4,
+            "reward_vv": 2
+        }
+    },
+    "reward_v": 4,
+    "reward_vv": 2,
+    "score_total": 6
+}

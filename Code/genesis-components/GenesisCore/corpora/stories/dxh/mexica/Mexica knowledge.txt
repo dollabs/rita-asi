@@ -1,0 +1,45 @@
+xx, yy, and zz are persons.
+
+
+// INJURY
+
+If xx strikes head then xx is harmed.
+xx may be harmed because xx fell down.
+xx cures xx's injuries presumably because xx is harmed.
+
+If xx cuts yy's jugular, then yy becomes dead.
+
+
+// LOVE, HATE, JEALOUSY
+
+If xx realizes that yy is interested in zz, then yy likes zz.
+If xx feels a deep hatred for yy, then xx hates yy.
+
+If xx likes yy and zz becomes jealous, then zz can like yy.
+xx may hate yy because yy attacks xx.
+
+
+
+// xx may become jealous of yy because xx 
+
+
+
+
+// OTHER
+
+If xx will never forget this, then xx is grateful.
+
+
+
+
+
+// DETRITUS
+
+// xx cures yy's injuries using a special plant enables xx cures yy's injuries.
+// bug with If xx strikes y''s head then yy is harmed.
+
+
+// Start description of "Healed injury".
+// xx and yy are persons.
+// yy's being harmed leads to xx's curing yy's injuries.
+// The end.

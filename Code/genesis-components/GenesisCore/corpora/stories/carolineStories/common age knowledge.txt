@@ -1,0 +1,94 @@
+// This is essentially noting what a 3 year old knows
+
+VV is a thing.
+WW is a person.
+XX is a person.
+YY is a physical-thing.
+ZZ is a psych-thing.
+AA is a physical-thing.
+BB is a psych-thing.
+
+
+//show-and-tell is a thing.
+school is a thing.
+
+//DEFINING EMOTION
+Emotion is a kind of psych-thing.
+Negative-emotion is a kind of emotion.
+Positive-emotion is a kind of emotion.
+Scared is a kind of negative-emotion.
+Great is a kind of positive-emotion.
+
+CC is an emotion.
+
+//phys --> phys: YY --> AA
+//psych --> psych: ZZ --> BB
+//psych --> phys: ZZ --> AA
+
+//XX may believe that YY causes AA.
+
+//Physical-action is a kind of thing.
+
+// PHYSICAL ACTION --> CONTACT
+If XX has a physical-action in VV, then XX contacts VV.
+If XX has a physical-action on VV, then XX contacts VV.
+If XX has a physical-action with VV, then XX contacts VV.
+
+// ACTION --> PHYSICAL-ACTION
+If XX runs in VV, then XX has a physical-action in VV.
+If XX runs on VV, then XX has a physical-action on VV.
+
+If XX reads VV, then XX has a physical-action with VV.
+If XX plays with VV, then XX has a physical-action with VV.
+If XX roller skates, then XX has a physical-action.
+
+// FOR BUNNY STORY
+If XX eats VV, then XX has a physical-action with VV.
+
+
+//If XX runs in VV, then XX contacts VV.
+//If XX contacts VV, then XX yells at Harvey.
+
+//If XX runs on VV, then XX contacts VV.
+//If XX plays with VV, then XX contacts VV.
+
+//If XX contacts VV, then XX may have itchy spots.
+//If XX has itchy spots, then XX becomes sick.
+//If XX has itchy spots, then XX has a sickness.
+
+//DEFINING PSYCH ACTIONS
+
+// change to contemplates ??
+If XX thinks about VV, then XX has a psych-action about VV.
+//If XX thinks about VV, then XX may feel a positive-emotion.
+If XX has a psych-action about VV, then XX may feel CC.
+
+//If XX contemplates VV, then XX has psych-action.//has psych-action with VV.
+//If XX contemplates VV, then XX may feel a positive-emotion.
+//If XX has a psych-action, then XX can feels CC.
+//XX may feel CC because XX has a psych-action.
+//If XX has emotion, then XX may feel negative-emotion.
+
+
+
+If XX feels negative-emotion, then XX has a negative-psych-action.
+If XX feels positive-emotion, then XX has a positive-psych-action.
+
+
+// DEFINING SICKNESSES
+
+//Feeling is a kind of psych-thing.
+Sickness is a kind of physical-thing.
+Sickness is a kind of psych-thing.
+//Contact is a kind of physical-action.
+
+Physical-sickness is a kind of sickness.
+Psych-sickness is a kind of sickness.
+Itchy spots is a kind of physical-sickness.
+//Stomach_aches is a kind of physical-sickness.
+Nausea is a kind of physical-sickness.
+
+If XX contacts VV, then XX may have a physical-sickness.
+
+Bambi is a deer. Bambi is a boy.
+Bunny is a girl.

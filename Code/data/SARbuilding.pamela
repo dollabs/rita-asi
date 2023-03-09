@@ -1,0 +1,218 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Building model for SAR - Testbed v0.2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; A Building contains Corridors
+
+(defpclass Building [c1 c2 c3]
+  :meta {:doc "The SAR building"}
+  :fields {corridor1 c1
+           corridor2 c2
+           corridor3 c3})
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; A corridor contains Rooms
+
+(defpclass Corridor [cname]
+  :meta {:doc "A Corridor"}
+  :fields {myName cname})
+
+(defpclass MainCorridor [cname
+                         ;; Connected corridors
+                         nc sc
+                         ;; Rooms
+                         ra rb rc rd re rf rg rh ri rj rk]
+  :inherit [Corridor]
+  :fields {c1cx nc
+           c2cx sc
+           racx ra
+           rbcx rb
+           rccx rc
+           rdcx rd
+           recx re
+           rfcx rf
+           rgcx rg
+           rhcx rh
+           ricx ri
+           rjcx rj
+           rkcx rk})
+
+(defpclass SouthCorridor [cname mc ra rb rc rd]
+  :inherit [Corridor]
+  :fields {c1cx mc
+           racx ra
+           rbcx rb
+           rccx rc
+           rdcx rd})
+
+(defpclass NorthCorridor [cname mc ra rb rc rd]
+  :inherit [Corridor]
+  :fields {c1cx mc
+           racx ra
+           rbcx rb
+           rccx rc
+           rdcx rd})
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; A room has Doors, Patients
+
+(defpclass Room [rname cx]
+  :meta {:doc "A Single Door Room"}
+  :modes [:unvisited :being-triaged :triaged]
+  :fields {name rname
+           doorcx cx})
+
+(defpclass TwoDoorRoom [rname cx cx2]
+  :meta {:doc "A Two Door Room"}
+  :inherit [Room]
+  :fields {doorcx2 cx2})
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; A room has Doors, Patients
+
+(defpclass Portal [pname cx fromx fromy tox toy]
+  :fields {myName pname
+           connection cx               ; shared lvar representing the connection
+           fromX fromx
+           fromY fromy
+           toX tox
+           toY toy}
+  :fields {myName pname})
+
+(defpclass Door [pname cx fromx fromy tox toy]
+  :meta {:doc "A Door"}
+  :modes [:open :closed :locked]
+  :inherit [Portal]
+  :methods [(defpmethod open-door
+              {:pre :closed :post :open
+               :doc "opens the door"} [])
+            (defpmethod close-door
+              {:pre :open :post :closed
+               :doc "closes the door"} [])
+            (defpmethod lock-door
+              {:pre :closed :post :locked
+               :doc "locks the door"} [])
+            (defpmethod unlock-door
+              {:pre :locked :post :closed
+               :doc "unlocks the door"} [])
+            (defpmethod walk-through-door
+              {:pre :open
+               :doc "passes through the door"} [])])
+
+(defpclass DoorlessEntrance [pname cx fromx fromy tox toy]
+  :meta {:doc "A walk-in entrance withoyt a door"}
+  :inherit [Portal]
+  :methods [(defpmethod walk-into-corridor
+              {:doc "passes from one corridor into another"} [])])
+
+(defpclass CorridorJoin [pname cx fromx fromy tox toy]
+  :meta {:doc "A Corridor Join, like a door for corridoors"}
+  :inherit [Portal]
+  :methods [(defpmethod walk-into-corridor
+              {:doc "passes from one corridor into another"} [])])
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Main class - the builder
+
+(defpclass SAR []
+  :meta {:doc "Constructor of the SAR scenario"}
+  :fields {
+           ;; Connections
+           missionRoom (lvar "MissionRoomDoor")
+           maleRestroom (lvar "MaleRestRoomDoor")
+           femaleRestroom (lvar "FemaleRestRoomDoor")
+           r1 (lvar "Room 1 door")
+           r2 (lvar "Room 2 door")
+           r3 (lvar "Room 3 door")
+           r4 (lvar "Room 4 door")
+           r5 (lvar "Room 5 door")
+           r6 (lvar "Room 6 door")
+           r7a (lvar "Room 7 door 1")
+           r7b (lvar "Room 7 door 2")
+           r8 (lvar "Room 8 door")
+           r9 (lvar "Room 9 door")
+           r10 (lvar "Room 10 door")
+           r11 (lvar "Room 11 door")
+           r12a (lvar "Room 12 door 1")
+           r12b (lvar "Room 12 door 2")
+           r13 (lvar "Room 13 door")
+           r14 (lvar "Room 14 door")
+           r15 (lvar "Room 15 door")
+
+           ncm (lvar "North Corridor Entrance")
+           scm (lvar "South Corridor Entrance")
+           ncs (lvar "North Corridors")
+           scs (lvar "South Corridors")
+
+           ;; Doors and corridoor joins
+           ;; Doors
+           missionRoomDoor (Door "Mission room door" missionRoom -2190 166 -2190 169) ; fromX fromY toX toY
+           maleRestroomDoor (DoorlessEntrance "Male restroom entrance" maleRestroom -2182 168 -2185 168)
+           femaleRestroomDoor (DoorlessEntrance "Female restroom entrance" femaleRestroom -2180 166 -2178 166)
+           r1Door (Door "Door to room 1" r1 -2185 162 -2182 162)
+           r2Door (Door "Door to room 2" r2 -2179 162 2176 162)
+           r3Door (Door "Door to room 3" r3 -2172 161 -2172 164)
+           r4Door (Door "Door to room 4" r4 -2172 153 -2172 156)
+           r5Door (Door "Door to room 5" r5 -2160 149 -2163 149)
+           r6Door (Door "Door to room 6" r6 -2157 149 -2154 149)
+           r7aDoor (Door "Door to room 7" r7a -2165 165 -2162 165)
+           r7bDoor (Door "Door to room 7" r7b -2155 165 -2158 165)
+           r8Door (Door "Door to room 8" r8 -2145 165 -2148 165)
+           r9Door (Door "Door to room 9" r9 -2165 171 -2168 171)
+           r10Door (Door "Door to room 10" r10 -2162 171 -2165 171)
+           r11Door (Door "Door to room 11" r11 -2144 171 -2147 171)
+           r12aDoor (Door "Door to room 12" r12a -2167 187 -2170 187)
+           r12bDoor (Door "Door to room 12" r12b -2159 187 -2162 187)
+           r13Door (Door "Door to room 13" r13 -2156 187 -2153 187)
+           r14Door (Door "Door to room 13" r14 -2145 187 -2148 187)
+
+           ;; Corridor Joins
+           ncCorridorEntrance (CorridorJoin "North corridor" ncm -2176 171 -2171 171)
+           ncCorridors        (CorridorJoin "North corridors" ncs -2176 171 -2171 171)
+           scCorridorEntrance (CorridorJoin "South corridor" scm -2176 162 -2171 162)
+           scCorridors        (CorridorJoin "South corridor" scs -2176 162 -2171 162)
+
+           ;; Rooms on the main corridoor
+           missionRoomRoom (Room "Mission room" missionRoom)
+           maleRestroomRoom (Room "Male restoom" maleRestroom)
+           femaleRestroomRoom (Room "Female restoom" femaleRestroom)
+           room1 (Room "Room 1" r1)
+           room2 (Room "Room 2" r2)
+           room7 (TwoDoorRoom "Room 7" r7a r7b)
+           room8 (Room "Room 8" r8)
+           room9 (Room "Room 9" r9)
+           room10 (Room "Room 10" r10)
+           room11 (Room "Room 11" r11)
+
+           ;; Rooms on the south
+           room3 (Room "Room 3" r3)
+           room4 (Room "Room 4" r4)
+           room5 (Room "Room 5" r5)
+           room6 (Room "Room 6" r6)
+           room15 (Room "Room 6" r15)
+
+           ;; Rooms on the north
+           room12 (TwoDoorRoom "Room 12" r12a r12b)
+           room13 (Room "Room 13" r13)
+           room14 (Room "Room 14" r14)
+
+           ;; The building
+          ;; mainEntCorridor (MainCorridor "Main entrance corridor"
+          ;;                            nc sc missionRoom maleRestroom femaleRestroom
+          ;;                            r1 r2 r7a r7b r8 r9 r10 r11)
+          ;; mainWECorridor (MainWECorridor "Main west-east corridor"
+          ;;                            nc sc missionRoom maleRestroom femaleRestroom
+           ;;                           r1 r2 r7a r7b r8 r9 r10 r11)
+           ;;northNSCorridor (NorthNSCorridor "North north-south corridor" mc r12a r12b r13 r14)
+           ;;northWECorridor (NorthWECorridor "North west-east corridor" mc r12a r12b r13 r14)
+           ;;southNSCorridor (SouthNSCorridor "South north-south corridor" mc r3 r4 r5 r6)
+           ;;southWECorridor (SouthWECorridor "South west-east corridor" mc r3 r4 r5 r6)
+
+           ;;building (Building mainEntCorridor mainWECorridor
+           ;;                   northNSCorridor northWECorridor
+           ;;                   southNSCorridor southWECorridor)
+  })
+
+;;; Fin

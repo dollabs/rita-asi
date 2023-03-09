@@ -1,0 +1,31 @@
+// Screwed up because dereferencer doesn't see that not eating and eating are the same.
+// See story viewer and rule viewer
+
+Start experiment.
+
+xx, yy, zz, ax are persons.
+aa is a action.
+God is an entity.
+If xx persuades yy to perform aa, then yy may believe xx.
+If God demands that xx perform aa and xx performs aa, then xx is a sinner.
+
+Start description of "Sin".
+xx is a person.  yy is a person.
+aa is an action.
+// Not omitted
+God demands that xx not perform aa.
+xx performs aa.
+The end.
+
+Start story titled "Adam and Eve".
+Adam, Eve, God, and Serpent are persons.
+Fruit, tree are things.
+// Not omitted
+God demands that Adam and Eve not eat fruit.
+Serpent persuades Eve to eat fruit.
+Eve believes the Serpent.
+Eve eats the fruit.
+Eve persuades Adam to eat the fruit.
+Adam believes Eve.
+Adam eats the fruit.
+The end.

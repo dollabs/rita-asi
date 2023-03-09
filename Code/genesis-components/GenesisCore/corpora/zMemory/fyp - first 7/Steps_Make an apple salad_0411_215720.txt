@@ -1,0 +1,71 @@
+/* ------------------------------
+ Generated on Make an apple salad_0411_215720 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make an apple salad".
+Intention: Make an apple salad.
+The end.
+
+If the intention is "Make an apple salad".
+Step: Place the apple from the green cup into the bowl.
+Step: Place the watermelon from the red cup into the bowl.
+Step: Place the grapes from the purple cup in the bowl.
+Step: Place blueberries from the blue cup in the bowl.
+Step: Pour the salad dressing in white bottle on the bowl.
+The end.
+
+If the problem is "Place the apple from the green cup into the bowl".
+Intention: Place the apple from the green cup into the bowl.
+The end.
+
+If the intention is "Place the apple from the green cup into the bowl".
+Step: The apple moves from the green cup to the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make an apple salad_0411_215720 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Place the watermelon from the red cup into the bowl".
+Intention: Place the watermelon from the red cup into the bowl.
+The end.
+
+If the intention is "Place the watermelon from the red cup into the bowl".
+Step: The watermelon moves from the red cup to the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make an apple salad_0411_215720 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Place the grapes from the purple cup in the bowl".
+Intention: Place the grapes from the purple cup in the bowl.
+The end.
+
+If the intention is "Place the grapes from the purple cup in the bowl".
+Step: The grapes move from the purple cup to table.
+The end.
+
+/* ------------------------------
+ Generated on Make an apple salad_0411_215720 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Place blueberries from the blue cup in the bowl".
+Intention: Place blueberries from the blue cup in the bowl.
+The end.
+
+If the intention is "Place blueberries from the blue cup in the bowl".
+Step: Blueberries move from the blue cup to table.
+The end.
+
+/* ------------------------------
+ Generated on Make an apple salad_0411_215720 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Pour the salad dressing in white bottle on the bowl".
+Intention: Pour the salad dressing in white bottle on the bowl.
+The end.
+
+If the intention is "Pour the salad dressing in white bottle on the bowl".
+Step: The salad dressing is on the bowl.
+The end.
+

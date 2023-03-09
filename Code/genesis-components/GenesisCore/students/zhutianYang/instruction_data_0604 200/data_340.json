@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 10:33:05+08:00", 
+    "instructions": [
+        "Put Dinner Fork on the lower left side.", 
+        "Put Dinner Knife on the lower right side.", 
+        "Put the Salad Fork on the left side of the Dinner Fork.", 
+        "Put the Salad Knife on the right side of the Dinner Knife.", 
+        "Pput the Soup Spoon on the right side of the Salad Knife.", 
+        ".Put the Dessert spoon near the center top horizontally with the bowl facing the left.", 
+        "Put the Dessert Spoon to the right of the Soup Spoon vertically with the bowl on top.", 
+        "Put the Dessert Spoon at the center top horizontally with the bowl to the left.", 
+        "Put Dinner Plate in the center bottom between the Dinner Fork and Dinner Knife.", 
+        "Put Bread Plate above Salad Fork and Dinner Fork and to the left of the Dessert Spoon.", 
+        "Put Bread Knife diagonally on the upper left corner of the Bread Plate with the blade on the left.", 
+        "Put Wine Glass above Soup Spoon.", 
+        "Put Water Glass to the right of Dessert Spoon and to upper left of Wine Glass.", 
+        "Put Napkin vertically on center of Dinner Plate."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

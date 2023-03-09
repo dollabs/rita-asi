@@ -1,0 +1,16 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0250".
+THE WARRIOR APPRECIATED THE HUNTER'S FRIENDSHIP. WHY DID THE HUNTER FALL IN LOVE WITH HIM? THE WARRIOR WAS MAD!
+THE WARRIOR THREATENED TO KILL THE HUNTER. HE DECIDED TO HIDE IN THE VOLCANO.
+THE END.
+
+
+
+The end.

@@ -1,0 +1,199 @@
+Start experiment.
+
+Set bottom panel to elaboration graph.
+
+Set left panel to Inspector.
+
+Set right panel to Summary.
+
+Set bottom panel to Elaboration graph.
+
+Insert file General commonsense knowledge.
+
+// In General commonsense knowledge
+// Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+// Eastern
+
+WW, XX, YY, and ZZ are persons.
+
+YY may kill WW because YY wants to kill WW.
+
+XX may kill YY because YY angers XX.
+
+YY may murder WW because YY wants to become king and because WW is the king and because YY is WW's successor.
+
+Start description of "Revenge".
+xx is an entity.
+yy is a entity.
+xx's harming yy leads to yy's harming xx.
+The end.
+
+// Machiavellian
+
+WW, XX, YY, and ZZ are persons.
+
+If XX is an enemy of ZZ and YY is an enemy of ZZ, then XX may be a friend of YY.
+
+If XX is an enemy of ZZ and YY is an enemy of ZZ, then YY may be a friend of XX.
+
+A godfather is a kind of king.
+
+Start story titled "Crime story".
+
+Note that Vito is a name.
+Note that Maria is a name.
+Note that Alegra is a name.
+Note that Michael is a name.
+Note that Fabiano is a name.
+Note that Antonio is a name.
+Note that Dominico is a name.
+Note that Luciano is a name.
+Note that fortune teller is a name.
+
+Note that Bronx is a name.
+Note that Drug dealing is a name. 
+
+America and Italy are countries.
+
+Bronx is a community and drug dealing is a crime.
+
+Fabiano, Michael, Antonio, Dominico,  Luciano, and Vito are criminals. 
+
+Maria and Alegra are wives.
+
+Maria is Fabiano's wife.
+
+Alegra is Michael's wife.
+
+Maria is evil and greedy.
+
+Vito is a godfather, and Fabiano is Vito's successor.
+
+Vito is an enemy of Luciano.
+
+Fabiano is brave.
+
+Fabiano defeats Luciano.
+
+Vito becomes happy because Fabiano defeats Luciano.
+
+The fortune teller is weird.
+
+The fortune teller works at night.
+
+The fortune teller uses tarrot cards.
+
+Fabiano tells fortune teller to speak.
+
+Fabiano talks with the fortune teller.
+
+Drug dealing is a crime.
+
+Fortune teller predicts that drug dealing will go to Bronx.
+
+The fortune teller predicts that Fabiano will become chief of staff of godfather.
+
+The fortune teller predicts that Fabiano will become godfather.
+
+The fortune teller astonishes Fabiano.
+
+Vito executes Luciano.
+
+Fabiano becomes chief of staff of Luciano.
+
+Vito rewarded Fabiano because Vito became happy.
+
+Maria wants Fabiano to become godfather.
+
+Fabiano is weak and vulnerable.
+
+Maria persuades Fabiano to want to become the godfather because Maria is greedy.
+
+Fabiano loves Maria.
+
+Fabiano wants to please Maria.
+
+Fabiano wants to become godfather because Maria persuaded Fabiano to want to become the godfather.
+
+Maria plots to murder Vito with Fabiano.
+
+Fabiano invites Vito to dinner.
+
+Vito compliments Fabiano.
+
+Vito goes to bed.
+
+In order to murder Vito, Fabiano enters the kitchen, Fabiano murders the cooks, and Fabiano poisons Vito's food.
+
+Fabiano becomes godfather.
+
+Antonio and Dominico work for Fabiano.
+
+Antonio and Dominico become afraid.
+
+Antonio and Dominico flee.
+
+Fabiano's murdering Vito leads to Michael's fleeing to Italy.
+
+In order to flee to Italy, Michael drives to the airport, Michael bribes pilot, and Michael boards an airplane.
+
+Michael's fleeing to Italy leads to Fabiano's murdering Alegra.
+
+Fabiano faints when playing golf.
+
+Maria says he faints often.
+
+Everyone talks about Fabiano's fainting.
+
+Fabiano's murdering Vito leads to Maria's becoming distraught.
+
+Maria has bad dreams.
+
+Maria thinks god will punish her.
+
+Maria tries to pray but Maria cannot pray.
+
+Maria talks to priest.
+
+Priest scares Maria.
+
+Maria kills herself.
+
+Drug dealing goes to Bronx.
+
+Michael's family enters Bronx.
+
+Michael curses Fabiano.
+	
+Fabiano refuses to surrender.
+
+Michael kills Fabiano.
+
+Police arrest Fabiano.
+
+Police release Fabiano because Fabiano bribes judge.
+
+The end.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

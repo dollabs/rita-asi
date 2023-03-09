@@ -1,0 +1,52 @@
+Prospero is a person.
+Miranda is a person.
+Ariel is a person.
+Caliban is a person.
+Sycorax is a person.
+Alonso is a person.
+Sebastian is a person.
+Antonio is a person.
+Ferdinand is a person.
+
+Antonio is Prospero's brother.
+Prospero is Antonio's brother.
+Antonio is the duke.
+
+Miranda is Prospero's daughter.
+Prospero is Miranda's parent.
+
+Sebastian is Alonso's brother.
+Alonso is Sebastian's brother.
+Alonso is the king.
+
+//Ferdinand is Alonso's son.
+Alonso is Ferdinand's parent.
+
+Antonio banishes Prospero.
+Antonio banishes Miranda.
+
+Prospero befriends Ariel.
+
+Caliban attacks Miranda.
+Prospero enslaves Caliban.
+
+Prospero creates a tempest.
+
+Ferdinand is lost at sea.
+Miranda finds Ferdinand.
+Miranda loves Ferdinand.
+Ferdinand loves Miranda.
+Miranda wants to marry Ferdinand.
+Ferdinand wants to marry Miranda.
+
+Antonio wants to kill Alonso.
+Antonio convinces Sebastian to kil Alonso.
+Sebastian wants to kill Alonso.
+
+Ferdinand marries Miranda.
+Miranda marries Ferdinand.
+
+Alonso finds Ferdinand.
+Alonso thanks Prospero.
+
+Prospero forgives Antonio.

@@ -1,0 +1,210 @@
+<project name="GenesisCore" default="dist" basedir="."> 
+
+  <property name="build" value="ant_build"/>
+  <property name="dist" value="dist"/>
+  <property name="docs" value="docs"/>
+  <property name="jars"  value="jars"/>
+
+  <property name="source" value="source"/>
+  <property name="students" value="students"/>
+  <property name="memories" value="memories"/>
+  <property name="corpora" value="corpora"/>
+  <property name="test" value="test"/>
+  <property name="sign" value="signed"/>
+
+  <property name="junit.output.dir" value="junit"/>
+
+  <!--property name="remote" value="login.csail.mit.edu:/afs/csail/group/genesis"/>
+  <property name="remote-javadoc" value="${remote}/www/data/javadoc"/-->
+  
+  <path id="all-jars">
+    <fileset dir="${jars}">
+      <include name="**/*.jar"/>
+    </fileset>
+    <fileset file="../propagators/dist/propagators.jar"/>
+  </path>
+  
+  <path id="all-sources">
+    <pathelement location="${source}"/>
+    <pathelement location="${students}"/>
+    <pathelement location="${memories}"/>
+    <pathelement location="${corpora}"/>
+	<pathelement location="${test}"/>
+  </path>
+
+  <target name="prepare">
+    <mkdir dir="${build}"/>
+    <mkdir dir="${dist}"/> 
+    <mkdir dir="${docs}"/>
+	<mkdir dir="${sign}"/>
+  </target>
+
+  <target name="propagators">
+    <ant antfile="../propagators/build.xml" target="jar"
+		 inheritAll="false" useNativeBasedir="true"/>
+  </target>
+
+  <target name="compile" depends="prepare" >
+    <javac destdir="${build}"
+		   classpathref="all-jars"
+		   includeantruntime="false"
+		   encoding="UTF-8">
+      <src refid="all-sources"/>
+    </javac>
+  </target>
+
+  <target name="javadoc" depends="prepare">
+    <javadoc destdir="${docs}" encoding="UTF-8"
+			 classpathref="all-jars">
+      <sourcepath refid="all-sources"/>
+    </javadoc>
+    <jar jarfile="${dist}/genesis-javadoc.jar"
+		 duplicate="preserve">
+      <fileset dir="${docs}"/>
+    </jar>
+  </target>
+  
+  <target name="jar" depends="prepare,compile">
+    <jar jarfile="${dist}/genesis.jar">
+      <!-- Include both source and class files in output jar -->
+	  <fileset dir="${source}"/>
+	  <fileset dir="${students}"/>
+	  <fileset dir="${memories}"/>
+	  <fileset dir="${corpora}"/>
+	  <fileset dir="${build}"/>
+	  <fileset dir="${test}"/>
+    </jar>
+  </target>
+
+  <target name="dist" depends="jar,javadoc"/>
+
+  <target name="clean"> 
+    <delete dir="${build}"/> 
+    <delete dir="${dist}"/> 
+    <delete dir="${docs}"/>
+	<delete dir="${junit.output.dir}"/>
+  </target> 
+
+  <target name="upload-javadoc">
+    <exec dir="." os="Linux" executable="rsync"
+		  failifexecutionfails="true">
+      <arg value="-avz"/>
+      <arg value="--delete"/>
+      <arg value="${docs}/"/>
+      <arg value="${remote-javadoc}/genesis"/>
+    </exec>
+  </target>
+
+  <!-- JUnit stuff -->
+  
+
+  
+  <path id="junit.classpath">
+	<!-- All compiled class/runtime jars should be under this folder -->
+	<path refid="all-jars"/>
+    <fileset dir="../propagators/lib">
+      <include name="**/*.jar"/>
+    </fileset>
+    <fileset dir="${dist}">
+      <include name="**/*.jar"/>
+    </fileset>
+  </path>
+
+  <target name="clear-junit">
+	<delete dir="${junit.output.dir}"/>
+  </target>
+
+  <target name="junit-test-all" depends="jar,clear-junit">
+    <mkdir dir="${junit.output.dir}"/>
+    <junit fork="yes" printsummary="on">
+      <formatter type="xml"/>
+      <test name="test.AllTests" todir="${junit.output.dir}"/>
+      <classpath refid="junit.classpath"/>
+    </junit>
+  </target>
+
+  <target name="junit-test" depends="jar,clear-junit">
+    <mkdir dir="${junit.output.dir}"/>
+    <junit fork="yes" printsummary="on">
+      <formatter type="xml"/>
+      <test name="test.QuickTests" todir="${junit.output.dir}"/>
+      <classpath refid="junit.classpath"/>
+    </junit>
+  </target>
+  
+  <!-- Target: Generate JUnit report. -->
+  <target name="junit-html-report">
+    <junitreport todir="${junit.output.dir}">
+      <fileset dir="${junit.output.dir}">
+        <include name="TEST-*.xml"/>
+      </fileset>
+      <report format="frames" todir="${junit.output.dir}"/>
+    </junitreport>    
+  </target>
+
+  <target name="test" depends="junit-test,junit-html-report"/>
+  <target name="test-all" 
+		  depends="junit-test-all,junit-html-report"/>
+
+  <!-- JNLP stuff -->
+  <target name="sign" depends="propagators,jar" >
+	<signjar destDir="${sign}" lazy="yes"
+			 alias="test" keystore="server.keystore"
+			 digestalg="SHA1"
+			 storepass="password"
+			 internalsf="true">
+	  <path>
+		<path refid="junit.classpath"/>
+	  </path>
+	  <flattenmapper />
+	</signjar>
+  </target>
+  
+
+  <taskdef name="jnlp" 
+		   classname="org.jugbb.ant.jws.JNLPTask" 
+		   classpath="jars/ant/jugbbant-1.7.jar"/>
+
+  <target name="webstart-test" depends="sign">
+	<jnlp 
+		title="Genesis" 
+		vendor="The Genesis Group"
+		homepage="http://fimfinder.net"
+		description="Story Understanding"
+		folderwithsignedjars="${sign}"
+		codebase="http://fimfinder.net/genesisWebStart"
+		createdesktopshortcut="false"
+		createmenuentry="false"
+		javaversion="1.6+"
+		javamaxheapsize="1024m"
+		associatewithfileextensions="txt"
+		associatewithmimetype="text/x-sql"
+		jnlpfilename="genesis.jnlp"
+		mainclass="utils.PathFinder"
+		offlineallowed="true"
+		jnlpversion="6.0+"/>
+  </target>
+
+  <target name="webstart" depends="sign">
+	<jnlp 
+		title="Genesis" 
+		vendor="The Genesis Group"
+		homepage="http://fimfinder.net"
+		description="Story Understanding"
+		folderwithsignedjars="${sign}"
+		codebase="http://fimfinder.net/genesisWebStart"
+		createdesktopshortcut="false"
+		createmenuentry="false"
+		javaversion="1.6+"
+		javamaxheapsize="1024m"
+		associatewithfileextensions="txt"
+		associatewithmimetype="text/x-sql"
+		jnlpfilename="genesis.jnlp"
+		mainclass="genesis.Genesis"
+		offlineallowed="true"
+		jnlpversion="6.0+"/>
+  </target>
+
+<!-- iconhref="some-remote-image" -->
+</project>
+

@@ -1,0 +1,10 @@
+pp is a person.
+qq is a person.
+mm is a marble.
+cc is a container.
+//dd is a container.
+
+If pp puts mm in cc and pp exits, then pp believes mm is in cc.
+If pp puts mm in cc, then mm is in cc.
+If pp searches for mm and pp believes mm is in cc, then pp looks for mm in cc.
+//If pp believes mm is in cc and pp searches for mm, then pp searches for mm in cc.

@@ -1,0 +1,4 @@
+
+// learned rule at 0906_053518
+if xx Find a yy, then yy is on the table.
+ 

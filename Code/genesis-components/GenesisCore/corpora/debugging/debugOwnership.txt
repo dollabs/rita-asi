@@ -1,0 +1,20 @@
+Insert file Start experiment.
+
+xx is an entity.  yy is an entity.  zz is an entity.
+
+If xx loves yy's computer and xx loves yy's telephone, then Patrick uses zz's computer.
+
+Patrick and Boris are people.
+
+Start story titled "Ownership".
+
+// Patrick owns the computer.  Patrick loves  the computer.
+
+// John loves Mary.
+
+Patrick loves his computer.
+
+Patrick loves Boris's telephone.
+
+The end.
+

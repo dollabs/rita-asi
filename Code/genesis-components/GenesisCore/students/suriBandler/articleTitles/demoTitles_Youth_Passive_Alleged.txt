@@ -1,0 +1,47 @@
+Start experiment.
+
+Set left panel to commentary.
+
+ Set perform goal analysis switch to true.
+
+ Set use similarity rule matching switch to true.
+
+Start story titled "Alleged and Youth".
+
+Child is killed by alleged terrorist.
+
+The end.
+
+Pause. 
+
+Start experiment.
+
+Start story titled "Youth hurting Youth".
+
+Child murders kid.
+
+The end.
+
+Pause. 
+
+Start experiment.
+
+Start story titled "Youth achievement".
+
+Kid wins prize.
+
+The end.
+
+Pause. 
+
+Start experiment.
+
+Start story titled "Adult helps kid".
+
+Teacher saves kid.
+
+The end.
+
+Set Perform goal analysis switch to false.
+
+Set Use similarity rule matching switch to false.

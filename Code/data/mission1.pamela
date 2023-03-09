@@ -1,0 +1,776 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Rita Asist Belief State (RABS) model  This is what RITA believes
+
+(defpclass SituatedObject []
+  :meta {:doc "Where the entity is located"}
+  :fields {x 0
+           y 0
+           z 0
+           motion_x 0
+           motion_y 0
+           motion_z 0
+           yaw 0
+           pitch 0
+           space {:observable false}})
+
+(defpclass RectangularVolume [iblx ibly iblz itrx itry itrz vname]
+  :fields {bl-x iblx
+           bl-y ibly
+           bl-z iblz
+           tr-x itrx
+           tr-y itry
+           tr-z itrz
+           v-name vname})
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Situational awareness
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; ToM This is what RITA believes about a team player (onle one at present)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Behavioral model
+
+(defpclass BehavioralModel []
+  :meta {:doc "What we believe about the participants behaviortyype"}
+  :modes [:type1 :type2 :type3]) ; replace with real player types
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; EmotionalState model
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; This is information that is provided ahead of time regarding the participant
+;;; Its usefulness is not clear, but it is fixed starting information
+
+(defpclass EmotionalState [cl tp tired happy afraid distractible oriented]
+  :meta {:doc "What we believe about the participants emotional state"}
+  ;; For now, these are all numeric ranges between 0 and 100
+  :fields {cognitiveLoad cl
+           feelingTimePressured tp
+           tiredness tired
+           happiness happy
+           fear afraid
+           distractibility distractible
+           spatialawareness oriented})
+
+(defpclass ToM [estate ;pbm
+               ]
+  :meta {:doc "What we believe about the participants state of mind"}
+  :fields {emotionalState estate
+           ;;participantBehaviorModel pbm
+           })
+
+(defpclass Participant [pname ks tom]
+  :meta {:doc "What the participant knows and believes about his himself"}
+  :inherit [SituatedObject]
+  :fields {pname pname
+           known ks
+           theory-of-mind tom}
+  :modes [:open :closed :locked]
+  :methods [(defpmethod open-door
+              {
+               ;; :pre
+               ;; (and
+               ;;  (:close-to self door)
+               ;;  (= door :closed)
+               ;;  (:connects-with door self.place)
+               ;;  (:connects-with door anotherplace)
+               ;;  (not (= self-place anotherplace))
+               ;;  (:desire (= self.place anotherplace)))
+               :post :open
+               :doc "opens the door"}
+              []
+              ;;(door.open-door)
+              )
+            (defpmethod close-door
+              {:pre :open :post :closed
+               :doc "closes the door"} [])
+            (defpmethod lock-door
+              {:pre :closed :post :locked
+               :doc "locks the door"} [])
+            (defpmethod unlock-door
+              {:pre :locked :post :closed
+               :doc "unlocks the door"} [])
+            (defpmethod walk-through-door
+              {:pre :open
+               :doc "passes through the door"} [])]
+  )
+
+(defpclass Passive-Agent [ks]
+  :meta {:doc "What RITA knows and believes about a participant"}
+  :inherit [SituatedObject]
+  :fields {known ks})
+
+(defpclass Agent [ks]
+  :meta {:doc "What RITA knows and believes about a participant"}
+  :inherit [SituatedObject]  ; Not situated yet but maybe one day
+  :fields {known ks})
+
+(defpclass BeliefState [rita ed pname p1 p1tom] ; p2 p3 p4
+  :meta {:doc "Constructor of the Belief State"}
+  :fields {rita-agent       (Agent rita :id "agentBeliefState.rita")
+           testbed-observer (Passive-Agent ed :id "agentBeliefState.observer")
+           participant1     (Participant pname p1 p1tom :id "agentBeliefState.participant1") ; These numbers will come from elsewhere
+           ;; participant2 p2
+           ;; participant3 p3
+           ;; participant4 p4
+          })
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Participant model
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; This is information that is provided ahead of time regarding the participant
+;;; Its usefulness is not clear, but it is fixed starting information
+
+(defpclass ParticipantProfile [name age gender culture minecraft-proficiency
+                               gamer-proficiency training-proficiency spatial-ability]
+  :meta {:doc "What we know about the participant a-priori - provided information"}
+
+  :fields {pname name                         ; Name as a String, eg "Fred"
+           page age                           ; age in years
+           pgender gender                     ; :male or :female
+           cultural culture                   ; Cultural affiliation a keyword
+           pmcprof minecraft-proficiency      ; Proficiency in minecraft (0 100)
+           pgamerprof gamer-proficiency       ; General Gamer Proficiency (0 100)
+           ptprof training-proficiency        ; Training proficiency (0 100) or however that is provided
+           pspatial-ability spatial-ability}) ; Special ability (0 100) or however that is provided
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Building model for SAR - Testbed v0.2
+
+    ;;        [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+    ;;      []                        []                                                                []
+    ;;      []                        []                                                                []
+    ;;      []                        []                   Left corridor WE                             []
+    ;;      []                        []                                                                []
+    ;;      []                        []        [][][][][][][][][]  [][][][][]  [][][][][][][][][][][][]
+    ;;      []      [][][][]  [][][][][]        []            []      [][][]      [][][]                []
+    ;;      []    []        []        []        []            []      [][][]      [][][]                []
+    ;;      []    []        []        []        []            []        [][]      [][][]                []
+    ;;      []    [][][][]  []        []        []  Room 201  [] Room 203 []        [][]                []
+    ;;      []    []        []        []                      []          [] Room 205 []   Room 207     []
+    ;;      []    [][][][]  []  [][][][]        [][]          []          []                            []
+    ;;      []    []  W     []  M     []        [][][]        []          []          []                []
+    ;;      []    []  Room  []  Room  []   SN   [][][][][][][][][][][][][][][][][][][][][][][]      [][][]
+    ;;      []    []        []        []corridor[] R  []                                []              []
+    ;;      []    []        []        [] Left   [] o  []                                []              []
+    ;;      []    []        []        []        [] o  []                                []              []
+    ;;      []    [][][][]  []  [][][][]        [] m  []       Room 208                 []  Room 8      []
+    ;;      []    [][]      []      [][]             J[]                                []              []
+    ;;      []    [][]  [][][][][]  [][]        []  [][][][]              [][]          []            [][]
+    ;; S    []    [][]              [][]        [][][][][][]            [][][]          []          [][][]
+    ;; T    [][][][]                [][]        [][][][][][][][]  [][][][][][][][]  [][][][][]  [][][][]
+    ;; A    []                                                                                         []
+    ;; G                                                                                                []
+    ;; I                                                  Center corridor                               []
+    ;; N    []                                                                                          []
+    ;; G    [][][][]              [][][]        [][][][]  [][][]  [][][][][][][][][][][][][][][][]  [][]
+    ;;      []    []              []  []        [][][]      []      [][][][][][][][][][][][][]          []
+    ;; A    []    []              []  []        [][]        []        [][]            [][][][]          []
+    ;; R    []    []  [][][][][]  []  []        []          []          []              []              []
+    ;; E    []    []      []      []  []   NS   []          []          []              []              []
+    ;; A    []    [][][]  []  [][][]  []corridor[] Room 209 [] Room 211 []  Room 213    [] Room 215     []
+    ;;      []            []          [] Right  []          []          []              []              []
+    ;;      []    E1      []     E2   []                    []          []              []              []
+    ;;      []            []          []        [][][][][][][][][][][][][][][][][][]  [][][][]  [][][][][]
+    ;;      []            []          []        []                        []            []              []
+    ;;      []            []          []        []                        []            []              []
+    ;;      []            []          []        []     Room 216           [] Room 218   [] Room 220     []
+    ;;      []            []          []        []                        []            []              []
+    ;;      []            []          []        []                        []            []              []
+    ;;      []            []          []        []        [][][][][]      []          [][][]            []
+    ;;      []            []          []        []        [][][][][]      []        [][][][][]          []
+    ;;      []            []          []        [][]  [][][][][][][][]  [][][][]  [][][][][][]  [][][][]
+    ;;      []            []          []                                                                []
+    ;;      []            []          []                                                                []
+    ;;      []            []          []                      Right Corridor WE                         []
+    ;;      []            []          []                                                                []
+    ;;        [][][][][][][][][][][][]  [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; A Building contains Corridors
+
+(defpclass Building [c1 c2 c3 c4 c5]
+  :meta {:doc "The SAR building"}
+  :fields {corridor1 c1
+           corridor2 c2
+           corridor3 c3
+           corridor3 c4
+           corridor3 c5})
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; A corridor contains Rooms
+
+;; (defpclass Corridor [cname]
+;;   :meta {:doc "A Corridor"}
+;;   :inherit [RectangularVolume])
+;;   :fields {myName cname})
+
+(defpclass Illumination [] :modes [:dark :light])
+
+(defpclass CenterCorridor [iblx ibly iblz itrx itry itrz vname
+
+                         ;; Connected corridors
+                         ncsn scns
+                         ;; Rooms
+                         ra rb rc rd re rf rg rh ri rj rk]
+  :inherit [RectangularVolume]
+  :fields {c1cx ncsn
+           c2cx scns
+           racx ra
+           rbcx rb
+           rccx rc
+           rdcx rd
+           recx re
+           rfcx rf
+           rgcx rg
+           rhcx rh
+           ricx ri
+           rjcx rj
+           rkcx rk})
+
+(defpclass LeftCorridorSN [iblx ibly iblz itrx itry itrz vname
+                           cc scnc ra rb]
+  :inherit [RectangularVolume]
+  :fields {c1cx cc
+           c2cx scnc
+           racx ra
+           rbcx rb})
+
+(defpclass LeftCorridorWE [iblx ibly iblz itrx itry itrz vname
+                           scwe ra rb]
+  :inherit [RectangularVolume]
+  :fields {c1cx scwe
+           racx ra
+           rbcx rb})
+
+(defpclass RightCorridorNS [iblx ibly iblz itrx itry itrz vname
+                            cc ncsn]
+  :inherit [RectangularVolume]
+  :fields {c1cx cc
+           c1cx ncsn})
+
+(defpclass RightCorridorWE [iblx ibly iblz itrx itry itrz vname
+                            ncwe ra rb rc rd]
+  :inherit [RectangularVolume]
+  :fields {c1cx ncwe
+           racx ra
+           rbcx rb
+           rccx rc
+           rdcx rd})
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; A room has Doors, Victims
+
+
+(defpclass Room [iblx ibly iblz itrx itry itrz vname
+                 cx]
+  :meta {:doc "A Single Door Room"}
+  :inherit [RectangularVolume]
+  :modes [:unvisited :visited]
+  :fields {doorcx cx})
+
+(defpclass TwoDoorRoom [iblx ibly iblz itrx itry itrz vname
+                        cx cx2]
+  :meta {:doc "A Two Door Room"}
+  :inherit [Room]
+  :fields {doorcx cx
+           doorcx2 cx2})
+
+(defpclass ThreeDoorRoom [iblx ibly iblz itrx itry itrz vname
+                          cx cx2 cx3]
+  :meta {:doc "A Three Door Room"}
+  :inherit [Room]
+  :fields {doorcx cx
+           doorcx2 cx2
+           doorcx3 cx3})
+
+(defpclass Entrance-Commands [] :modes [:enter :leave :lock :unlock :open :close])
+
+(defpclass Portal [iblx ibly iblz itrx itry itrz vname
+                   cx]
+  :inherit [RectangularVolume]
+  :fields {connection cx})               ; shared lvar representing the connection
+
+
+(defpclass Door-commands [] :modes [:open :close :lock :unlock :leave :enter])
+
+(defpclass Door [iblx ibly iblz itrx itry itrz vname
+                 cx]
+  :meta {:doc "A Door"}
+  :modes [:open :closed :locked]
+  :inherit [Portal]
+  :methods [(defpmethod open
+              {:pre (and :closed (= command (mode-of Door-commands :open)))
+               :post :open
+               :doc "opens the door"}
+              [command])
+            (defpmethod close
+              {:pre (and :open (= command (mode-of Door-commands :close)))
+               :post :closed
+               :doc "closes the door"}
+              [command])
+            (defpmethod enter
+              {:pre (and :open (or (= command (mode-of Door-commands :leave))
+                                   (= command (mode-of Door-commands :enter))))
+               :doc "Enters the doorway"}
+              [command])
+            (defpmethod lock
+              {:pre (and :closed (= command (mode-of Door-commands :lock)))
+               :post :locked
+               :doc "locks the door"}
+              [command])
+            (defpmethod unlock
+              {:pre (and :locked (= command (mode-of Door-commands :unlock)))
+               :post :closed
+               :doc "unlocks the door"}
+              [command])])
+
+(defpclass DoorlessEntrance [iblx ibly iblz itrx itry itrz vname
+                             cx]
+  :meta {:doc "A walk-in entrance without a door"}
+  :inherit [Portal]
+  :methods [(defpmethod walk-into-corridor
+              {:pre (or (= command (mode-of Door-commands :enter))
+                        (= command (mode-of Door-commands :leave)))
+               :doc "Enter through a doorless entrance"}
+              [command])])
+
+(defpclass CorridorJoin [iblx ibly iblz itrx itry itrz vname
+                         cx]
+  :meta {:doc "A Corridor Join, like a door for corridoors"}
+  :inherit [Portal]
+  :methods [(defpmethod walk-into-corridor
+              {:pre (or (= command (mode-of Door-commands :enter))
+                        (= command (mode-of Door-commands :leave)))
+               :doc "passes from one corridor into another"}
+              [command])])
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Interesting objects found in the minecraft world
+
+(defpclass Minecraft-object-furnace        [iblx ibly iblz itrx itry itrz vname]    :inherit [RectangularVolume])
+(defpclass Minecraft-object-dispenser      [iblx ibly iblz itrx itry itrz vname]    :inherit [RectangularVolume])
+(defpclass Minecraft-object-wall_sign      [iblx ibly iblz itrx itry itrz vname]    :inherit [RectangularVolume])
+(defpclass Minecraft-object-crafting_table [iblx ibly iblz itrx itry itrz vname]    :inherit [RectangularVolume])
+(defpclass Minecraft-object-chest          [iblx ibly iblz itrx itry itrz vname]    :inherit [RectangularVolume])
+(defpclass Minecraft-object-wooden_button  [iblx ibly iblz itrx itry itrz vname]    :inherit [RectangularVolume])
+(defpclass Minecraft-object-stone_button   [iblx ibly iblz itrx itry itrz vname]    :inherit [RectangularVolume])
+(defpclass Minecraft-object-ladder         [iblx ibly iblz itrx itry itrz vname]    :inherit [RectangularVolume])
+(defpclass Minecraft-object-flower_pot     [iblx ibly iblz itrx itry itrz vname]    :inherit [RectangularVolume])
+
+(defpclass Victim-commands [] :modes [:triage])
+
+;;; Victim types
+(defpclass Minecraft-object-cauldron       [iblx ibly iblz itrx itry itrz vname]     :inherit [RectangularVolume]
+  :modes [:awaiting-triage :triaged :dead]
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :triaged
+               :doc "triage"}
+              [command])])
+
+(defpclass Minecraft-object-wool           [iblx ibly iblz itrx itry itrz vname]    :inherit [RectangularVolume]
+  :modes [:awaiting-triage :triaged :dead]
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :triaged
+               :doc "triage"}
+              [command])])
+
+(defpclass Minecraft-object-anvil          [iblx ibly iblz itrx itry itrz vname]    :inherit [RectangularVolume]
+  :modes [:awaiting-triage :triaged :dead]
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :triaged
+               :doc "triage"}
+              [command])])
+
+(defpclass Minecraft-object-lever          [iblx ibly iblz itrx itry itrz vname cx] :inherit [RectangularVolume]
+  :modes [:on :off :failed]
+  :fields {connections cx}
+  :methods [(defpmethod switch
+              {:pre (and :off (or (= command :on) (= command :off)))
+               ;; +++ won't parse +++ :post command
+               :doc "switch"}
+              [command])])
+
+(defpclass Light                           [iblx ibly iblz itrx itry itrz vname cx] :inherit [RectangularVolume]
+  :modes [:dark :light :failed]
+  :fields {connections cx})
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Center class - the builder
+
+(defpclass Main []
+  :meta {:doc "Constructor of the SAR scenario"}
+  :fields {
+           ;; Corridor Connections
+           RNS-RWE	(lvar "Intersection from right south-north corridor to right west-east corridor")
+           CC-RNS	(lvar "Intersection from center corridor to right south-north corridor")
+           CC-LSN	(lvar "Intersection between center corridor and left north-south corridor")
+           LSN-LWE	(lvar "Intersection between left north-south corridor and left west-east corridor")
+           ;; Doors
+           CC-R215	(lvar "Door from center corridor to room 215")
+           RWE-R220	(lvar "Door from right west-east corridor to room 220")
+           R220-R215	(lvar "Door between room 220 and room 215")
+           CC-R210	(lvar "Door from center corridor to room 210")
+           R205-R207	(lvar "Door from room 205 to room 207")
+           R218-R213	(lvar "Door between room 218 and room 213")
+           CC-R208a	(lvar "Door from center corridor to room 208a")
+           RWE-R218	(lvar "Door from right west-east corridor to room 218")
+           LWE-R205	(lvar "Door from left west-east corridor to room 205")
+           RWE-R216a	(lvar "Door from right west-east to room 216a")
+           LWE-R203	(lvar "Door from left west-east corridor to room 203")
+           CC-R211	(lvar "Door from center corridor room 211")
+           CC-R208b	(lvar "Door from center corridor to room 208b")
+           CC-R209	(lvar "Door from center corridor to room 209")
+           RWE-R216b	(lvar "Door from right west-east corridor to room 216b")
+           LSN-RJ	(lvar "Door from left north-south corridor to room J")
+           LSN-R201	(lvar "Door from left north-south corridor to room 201")
+           R2Int-door	(lvar "Internal door in room 2")
+           R1Int-door1	(lvar "Internal door in room 1a")
+           R1Int-door2	(lvar "Internal door in room 1b")
+           ;; Double Doors
+           SADoor	(lvar "Door from staging area into the test building.")
+           ;; Doorless Entrances
+           MensRoom	(lvar "Entrance to mens room")
+           WomensRoom	(lvar "Entrance to womens room")
+           E0-Entrance	(lvar "Entrance to elevator 0")
+           E1-Entrance	(lvar "Entrance to elevator 1")
+
+           ;; Corridor Connections
+           RNS-RWEEntrance (CorridorJoin -2171 186 28 -2171 189 29 "Corridor Intersection RNS-RWE" RNS-RWE) ; Intersection from right south-north corridor to right west-east corridor
+           CC-RNSEntrance  (CorridorJoin -2175 169 28 -2172 169 29 "Corridor Intersection CC-RNS" CC-RNS)   ; Intersection from center corridor to right south-north corridor
+           CC-LSNEntrance  (CorridorJoin -2175 164 28 -2172 164 29 "Corridor Intersection CC-LSN" CC-LSN)   ; Intersection between center corridor and left north-south corridor
+           LSN-LWEEntrance (CorridorJoin -2171 144 28 -2171 147 29 "Corridor Intersection LSN-SWE" LSN-LWE) ; Intersection between left north-south corridor and left west-east corridor
+
+           ;; Doors
+           CC-R215Door       (Door -2146 169 28 -2146 169 29 "Door between CC-R215" CC-R215)         ; Door from center corridor to room 215
+           RWE-R220Door	     (Door -2148 185 28 -2148 185 29 "Door between RWE-R220" RWE-R220)       ; Door from right west-east corridor to room 220
+           R220-R215Door     (Door -2148 177 28 -2148 177 29 "Door between R220-R215" R220-R215)     ; Door between room 220 and room 215
+           CC-R210Door       (Door -2148 164 28 -2148 164 29 "Door between CC-R210" CC-R210)	     ; Door from center corridor to room 210
+           R205-R207Door     (Door -2152 154 28 -2152 154 29 "Door between R205-R207" R205-R207)     ; Door from room 205 to room 207
+           R218-R213Door     (Door -2153 177 28	-2153 177 29 "Door between R218-R213" R218-R213)     ; Door between room 218 and room 213
+           CC-R208aDoor	     (Door -2154 164 28 -2154 164 29 "Door between CC-R208a" CC-R208a) 	     ; Door from center corridor to room 208a
+           RWE-R218Door	     (Door -2155 185 28 -2155 185 29 "Door between RWE-R218" RWE-R218)       ; Door from right west-east corridor to room 218
+           LWE-R205Door	     (Door -2156 148 28 -2156 148 29 "Door between LWE-R205" LWE-R205)       ; Door from left west-east corridor to room 205
+           RWE-R216aDoor     (Door -2160 185 28	-2160 185 29 "Door between RWE-R216a" RWE-R216a)     ; Door from right west-east to room 216a
+           LWE-R203Door	     (Door -2162 148 28 -2162 148 29 "Door between LWE-R203" LWE-R203)       ; Door from left west-east corridor to room 203
+           CC-R211Door	     (Door -2163 169 28 -2163 169 29 "Door between CC-R211" CC-R211)         ; Door from center corridor room 211
+           CC-R208bDoor	     (Door -2163 164 28 -2163 164 29 "Door between CC-R208b" CC-R208b)       ; Door from center corridor to room 208b
+           CC-R209Door	     (Door -2167 169 28 -2167 169 29 "Door between CC-R209" CC-R209)         ; Door from center corridor to room 209
+           RWE-R216bDoor     (Door -2169 185 28 -2169 185 29 "Door between RWE-R216b" RWE-R216b)     ; Door from right west-east corridor to room 216b
+           LSN-RJDoor	     (Door -2171 161 28 -2171 161 29 "Door between LSN-RJ" LSN-RJ)           ; Door from left north-south corridor to room J
+           LSN-R201Door	     (Door -2171 153 28 -2171 153 29 "Door between LSN-R201" LSN-R201)       ; Door from left north-south corridor to room 201
+           R2Int-doorDoor    (Door -2180 153 28 -2180 153 29 "Room 2 Internal door" R2Int-door)      ; Internal door in room 2
+           R1Int-door1Door   (Door -2182 152 28 -2182 152 29 "Room 1 Internal door #1" R1Int-door1)  ; Internal door in room 1a
+           R1Int-door2Door   (Door -2183 153 28	-2183 153 29 "Room 1 Internal door #2" R1Int-door2)  ; Internal door in room 1b
+           SADoorDoor	     (Door -2188 166 28 -2188 167 29 "Staging Area Door" SADoor)  	     ; Door from staging room into the test building.
+
+           ;; Doorless Entrances
+           WomensRoomDoor    (DoorlessEntrance -2184 164 28 -2181 164 29 "Room 1 Entrance"  WomensRoom) ; Entrance to womens room
+           MensRoomDoor      (DoorlessEntrance -2180 164 28 -2177 164 29 "Room 2 Entrance" MensRoom)    ; Entrance to mens room
+           E0-EntranceDoor   (DoorlessEntrance -2184 169 28 -2184 169 29 "Elevator 0" E0-Entrance)
+           E1-EntranceDoor   (DoorlessEntrance -2180 169 28 -2180 169 29 "Mens Room" E1-Entrance)
+
+           ;; Rooms
+           WomRR       (ThreeDoorRoom -2186 150	28 -2182 163 31 "Womens rest room" WomensRoom R1Int-door1 R1Int-door2)
+           MenRR       (TwoDoorRoom -2181 150 28 -2177 163 31   "Mens rest room"   MensRoom R2Int-door)
+           E0          (Room -2186 170 28 -2182 176 31          "Elevator 0"       E0-Entrance)
+           E1          (Room -2187 170 28 -2181 176 31          "Elevator 1"       E1-Entrance)
+           RoomJ       (Room -2170 157 28 -2169 163 31          "Room J"           LSN-RJ)
+           Room201     (Room -2170 149 28 -2165 155 31          "Room 201"         LSN-R201)
+           Room203     (Room -2163 149 28 -2159	155 31          "Room 203"         LWE-R203)
+           Room205     (Room -2157 149 28 -2153 155 31          "Room 205"         LWE-R205)
+           Room208     (TwoDoorRoom -2168 157 28 -2152 163 31   "Room 208"         CC-R208a CC-R208b)
+           Room210     (Room -2150 157 28 -2144	163 31          "Room 210"         CC-R210)
+           Room209     (Room -2169 170 28 -2166 176 31          "Room 209"         CC-R209)
+           Room211     (Room -2164 170 28 -2160 176 31          "Room 211"         CC-R211)
+           Room213     (Room -2158 170 28 -2152 176 31          "Room 213"         R218-R213)
+           Room215     (Room -2150 170 28 -2144 176 31          "Room 215"         CC-R215)
+           Room216     (TwoDoorRoom -2170 178 28 -2159 184 31   "Room 216"         RWE-R216a RWE-R216b)
+           Room218     (TwoDoorRoom -2157 178 28 -2152 184 31   "Room 218"         R218-R213 RWE-R218)
+           Room220     (Room -2150 178 28 -2144 184 31          "Room 220"         RWE-R220)
+           Room207     (Room -2151 149 28 -2144 155 31          "Room 207"         R205-R207)
+           StagingArea (Room -2199 148 28 -2189 185 31          "Staging Area"     SADoor)
+
+           ;; Corridors
+           Center		(CenterCorridor -2187 165 28 -2144 168 31 "Center Corridor" SADoor CC-RNS CC-LSN
+                                                                                CC-R215 CC-R210 CC-R208a CC-R211 CC-R208b
+                                                                                CC-R209 MensRoom WomensRoom E0-Entrance E1-Entrance)
+           RightWE	(RightCorridorWE -2170 186 28 -2144 189 31 "Right Corridor West-East" RNS-RWE RWE-R220 RWE-R218 RWE-R216a RWE-R216b)
+           RightNS	(RightCorridorNS -2175 170 28 -2172 189 31 "Right Corridor South-North" CC-RNS RNS-RWE)
+           LeftWE	(LeftCorridorWE -2170 144 28 -2144 147 31 "Left Corridor West-East" LSN-LWE LWE-R203 LWE-R205)
+           LeftSN	(LeftCorridorSN -2175 144 28 -2172 163 31 "Left Corridor North-SouthS" CC-LSN LSN-LWE LSN-RJ LSN-R201)
+
+           ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+           ;; *** Autogenerated from the minecraft world ***
+
+           ;; Minecraft objects of type  :lever
+           ;; Switch connections
+           SAlight      (lvar "Staging area light") ; Switch at [-2190 169 29] is in staging area
+           lever43167 (Minecraft-object-lever -2190 169 29 -2190 169 29 "Staging area light" SAlight) ; Staging area lights
+           salamp (Light -2190 169 30 -2190 169 30 "Staging area light" SAlight)        ; Staging area lights
+
+           RJlight      (lvar "Room J light")       ; Switch at [-2169 161 29] is in Room J
+           lever43162 (Minecraft-object-lever -2169 161 29 -2169 161 29 "Room J light switch" RJlight)
+           rJlamp (Light -2169 161 30 -2169 161 30 "Room J light" RJlight)
+
+           R201light    (lvar "Room 201 light")     ; Switch at [-2169 154 29] is in Room 201
+           lever43163 (Minecraft-object-lever -2169 154 29 -2169 154 29 "Room 201 light switch" R201light) ;
+           r201lamp (Light -2169 154 30 -2169 154 30 "Room 201 light" R201light)
+
+           R203light    (lvar "Room 203 light")     ; Switch at [-2160 151 29] is in Room 203
+           lever43156 (Minecraft-object-lever -2160 151 29 -2160 151 29 "Room 203 light switch" R203light)
+           r203lamp (Light -2160 151 30 -2160 151 30 "Room 203 light" R203light)
+
+           R205light    (lvar "Room 205 light")     ; Switch at [-2155 151 29] is in Room 205
+           lever43154 (Minecraft-object-lever -2155 151 29 -2155 151 29 "Room 205 light switch" R205light)
+           r205lamp (Light -2155 151 30 -2155 151 30 "Room 205 light" R205light)
+
+           R208light1   (lvar "Room 208 light")     ; Switch at [-2156 163 29] is in Room 208
+           lever43155 (Minecraft-object-lever -2156 163 29 -2156 163 29 "Room 208 light switch" R208light1)
+           r208lamp (Light -2156 163 30 -2156 163 30 "Room 208 light" R208light1)
+
+           R208light2   (lvar "Room 208 light")     ; Switch at [-2165 163 29] is in Room 208
+           lever43159 (Minecraft-object-lever -2165 163 29 -2165 163 29 "Room 208 light switch" R208light2)
+           r208lamp (Light -2165 163 30 -2165 163 30 "Room 208 light" R208light2)
+
+           R210light    (lvar "Room 210 light")     ; Switch at [-2144 161 29] is in Room 210
+           lever43148 (Minecraft-object-lever -2144 161 29 -2144 161 29 "Room 210 light switch" R210light)
+           r210lamp (Light -2144 161 30 -2144 161 30 "Room 210 light" R210light)
+
+           R209light    (lvar "Room 209 light")     ; Switch at [-2169 171 29] is in Room 209
+           lever43161 (Minecraft-object-lever -2169 171 29 -2169 171 29 "Room 209 light switch" R209light)
+           r209lamp (Light -2169 171 30 -2169 171 30 "Room 209 light" R209light)
+
+           R211light    (lvar "Room 211 light")      ; Switch at [-2161 171 29] is in Room 211
+           lever43158 (Minecraft-object-lever -2161 171 29 -2161 171 29 "Room 211 light switch" R211light)
+           r211lamp (Light -2161 171 30 -2161 171 30 "Room 211 light" R211light)
+
+           R215light     (lvar "Room 215 light")      ; Switch at [-2148 170 29] is in Room 215
+           lever43149 (Minecraft-object-lever -2148 170 29 -2148 170 29 "Room 215 light switch" R215light)
+           r215lamp (Light -2148 170 30 -2148 170 30 "Room 215 light" R215light)
+
+           R216light1    (lvar "Room 216 light")      ; Switch at [-2167 184 29] is in Room 216
+           lever43160 (Minecraft-object-lever -2167 184 29 -2167 184 29 "Room 216 light" R216light1)
+           r216lamp (Light -2167 184 30 -2167 184 30 "lever" R216light1)
+
+           R216light2    (lvar "Room 216 light")      ; Switch at [-2161 184 29] is in Room 216
+           lever43157 (Minecraft-object-lever -2161 184 29 -2161 184 29 "Room 216 light switch" R216light2)
+           r216lamp (Light -2161 184 30 -2161 184 30 "Room 216 light" R216light2)
+
+           R218light   (lvar "Room 218 light")      ; Switch at [-2153 183 29] is in Room 218
+           lever43153 (Minecraft-object-lever -2153 183 29 -2153 183 29 "Room 218 light switch" R218light)
+           r218lamp (Light -2153 183 30 -2153 183 30 "Room 218 light" R218light)
+
+           R213Light    (lvar "Room 213 light")     ; Switch at [-2152 172 29] is in Room 213
+           lever43152 (Minecraft-object-lever -2152 172 29 -2152 172 29 "Room 213 light switch" R213Light)
+           r213lamp (Light -2152 172 30 -2152 172 30 "Room 213 light" R213Light)
+
+           R220light   (lvar "Room 220 light")      ; Switch at [-2149 183 29] is in Room 220
+           lever43150 (Minecraft-object-lever -2149 183 29 -2149 183 29 "Room 220 light switch" R220light)
+           r220lamp (Light -2149 183 30 -2149 183 30 "Room 220 light" R220light)
+
+           R207light   (lvar "Room 207 light")      ; Switch at [-2151 149 29] is in Room 207
+           lever43151 (Minecraft-object-lever -2151 149 29 -2151 149 29 "Room 207 light switch" R207light)
+           r207lamp (Light -2151 149 30 -2151 149 30 "Room 207 light" R207light)
+
+           Clights      (lvar "Corridor lights")
+           lever43164 (Minecraft-object-lever -2178 168 29 -2178 168 29 "Corridor lights switch" Clights) ; Corridoor Lights
+           lever43165 (Minecraft-object-lever -2186 168 29 -2186 168 29 "Corridor lights switch" Clights) ; Corridoor lights
+           lever43166 (Minecraft-object-lever -2186 165 29 -2186 165 29 "Corridor lights switch" Clights) ; Room 1 electric door?
+           cclamp      (Light -2178 168 30 -2178 168 30 "Center Corridor lights" Clights)
+           rightWElamp (Light -2155 187 30 -2155 187 30 "Right WE Corridor lights" Clights)
+           rightNSlamp (Light -2174 180 30 -2174 180 30 "Right NS Corridor lights" Clights)
+           leftWElamp  (Light -2155 146 30 -2155 146 30 "Left WE Corridor lights" Clights)
+           leftSNlamp  (Light -2174 155 30 -2174 155 30 "Left SN Corridor lights" Clights)
+
+           ;; Minecraft objects of type  :wool
+           wool43116 (Minecraft-object-wool -2144 176 28 -2144 176 28 "wool")
+           wool43117 (Minecraft-object-wool -2144 149 28 -2144 149 28 "wool")
+           wool43118 (Minecraft-object-wool -2145 179 28 -2145 179 28 "wool")
+           wool43119 (Minecraft-object-wool -2145 162 28 -2145 162 28 "wool")
+           wool43120 (Minecraft-object-wool -2145 155 28 -2145 155 28 "wool")
+           wool43121 (Minecraft-object-wool -2149 181 28 -2149 181 28 "wool")
+           wool43122 (Minecraft-object-wool -2150 172 28 -2150 172 28 "wool")
+           wool43123 (Minecraft-object-wool -2150 157 28 -2150 157 28 "wool")
+           wool43124 (Minecraft-object-wool -2151 151 28 -2151 151 28 "wool")
+           wool43125 (Minecraft-object-wool -2153 171 28 -2153 171 28 "wool")
+           wool43126 (Minecraft-object-wool -2153 159 28 -2153 159 28 "wool")
+           wool43127 (Minecraft-object-wool -2154 178 28 -2154 178 28 "wool")
+           wool43128 (Minecraft-object-wool -2155 176 28 -2155 176 28 "wool")
+           wool43129 (Minecraft-object-wool -2157 154 28 -2157 154 28 "wool")
+           wool43130 (Minecraft-object-wool -2159 179 28 -2159 179 28 "wool")
+           wool43131 (Minecraft-object-wool -2159 155 28 -2159 155 28 "wool")
+           wool43132 (Minecraft-object-wool -2160 175 28 -2160 175 28 "wool")
+           wool43133 (Minecraft-object-wool -2165 182 28 -2165 182 28 "wool")
+           wool43134 (Minecraft-object-wool -2165 153 28 -2165 153 28 "wool")
+           wool43135 (Minecraft-object-wool -2168 155 28 -2168 155 28 "wool")
+           wool43136 (Minecraft-object-wool -2169 176 28 -2169 176 28 "wool")
+           wool43137 (Minecraft-object-wool -2170 157 28 -2170 157 28 "wool")
+           wool43138 (Minecraft-object-wool -2177 156 28 -2177 156 28 "wool")
+           wool43139 (Minecraft-object-wool -2177 152 28 -2177 152 28 "wool")
+           wool43140 (Minecraft-object-wool -2180 173 28 -2180 173 28 "wool")
+           wool43141 (Minecraft-object-wool -2183 171 28 -2183 171 28 "wool")
+           wool43142 (Minecraft-object-wool -2183 151 28 -2183 151 28 "wool")
+           wool43143 (Minecraft-object-wool -2190 176 28 -2190 176 28 "wool")
+           wool43144 (Minecraft-object-wool -2190 175 28 -2190 175 28 "wool")
+           wool43145 (Minecraft-object-wool -2190 174 28 -2190 174 28 "wool")
+           wool43146 (Minecraft-object-wool -2191 174 28 -2191 174 28 "wool")
+           wool43147 (Minecraft-object-wool -2192 174 28 -2192 174 28 "wool")
+           ;; Minecraft objects of type  :cauldron
+           cauldron43100 (Minecraft-object-cauldron -2144 170 28 -2144 170 28 "cauldron")
+           cauldron43101 (Minecraft-object-cauldron -2150 178 28 -2150 178 28 "cauldron")
+           cauldron43102 (Minecraft-object-cauldron -2150 163 28 -2150 163 28 "cauldron")
+           cauldron43103 (Minecraft-object-cauldron -2152 182 28 -2152 182 28 "cauldron")
+           cauldron43104 (Minecraft-object-cauldron -2152 176 28 -2152 176 28 "cauldron")
+           cauldron43105 (Minecraft-object-cauldron -2152 162 28 -2152 162 28 "cauldron")
+           cauldron43106 (Minecraft-object-cauldron -2157 149 28 -2157 149 28 "cauldron")
+           cauldron43107 (Minecraft-object-cauldron -2160 163 28 -2160 163 28 "cauldron")
+           cauldron43108 (Minecraft-object-cauldron -2164 170 28 -2164 170 28 "cauldron")
+           cauldron43109 (Minecraft-object-cauldron -2167 184 28 -2167 184 28 "cauldron")
+           cauldron43110 (Minecraft-object-cauldron -2167 161 28 -2167 161 28 "cauldron")
+           cauldron43111 (Minecraft-object-cauldron -2169 154 28 -2169 154 28 "cauldron")
+           cauldron43112 (Minecraft-object-cauldron -2170 175 28 -2170 175 28 "cauldron")
+           cauldron43113 (Minecraft-object-cauldron -2170 162 28 -2170 162 28 "cauldron")
+           cauldron43114 (Minecraft-object-cauldron -2179 159 28 -2179 159 28 "cauldron")
+           cauldron43115 (Minecraft-object-cauldron -2183 159 28 -2183 159 28 "cauldron")
+           ;; Minecraft objects of type  :anvil
+           anvil43219 (Minecraft-object-anvil -2177 151 28 -2177 151 28 "anvil")
+           anvil43220 (Minecraft-object-anvil -2185 153 28 -2185 153 28 "anvil")
+           anvil43221 (Minecraft-object-anvil -2185 151 28 -2185 151 28 "anvil")
+
+           ;; Minecraft objects of type  :furnace
+           furnace43068 (Minecraft-object-furnace -2169 184 28 -2169 184 28 "furnace")
+           ;; Minecraft objects of type  :dispenser
+           dispenser43069 (Minecraft-object-dispenser -2181 163 28 -2181 163 28 "dispenser")
+           ;; Minecraft objects of type  :wall_sign
+           wall_sign43070 (Minecraft-object-wall_sign -2145 168 29 -2145 168 29 "wall_sign")
+           wall_sign43071 (Minecraft-object-wall_sign -2147 176 29 -2147 176 29 "wall_sign")
+           wall_sign43072 (Minecraft-object-wall_sign -2149 186 29 -2149 186 29 "wall_sign")
+           wall_sign43073 (Minecraft-object-wall_sign -2149 178 29 -2149 178 29 "wall_sign")
+           wall_sign43074 (Minecraft-object-wall_sign -2149 165 29 -2149 165 29 "wall_sign")
+           wall_sign43075 (Minecraft-object-wall_sign -2152 178 29 -2152 178 29 "wall_sign")
+           wall_sign43076 (Minecraft-object-wall_sign -2153 153 29 -2153 153 29 "wall_sign")
+           wall_sign43077 (Minecraft-object-wall_sign -2155 165 29 -2155 165 29 "wall_sign")
+           wall_sign43078 (Minecraft-object-wall_sign -2155 147 29 -2155 147 29 "wall_sign")
+           wall_sign43079 (Minecraft-object-wall_sign -2156 186 29 -2156 186 29 "wall_sign")
+           wall_sign43080 (Minecraft-object-wall_sign -2161 186 29 -2161 186 29 "wall_sign")
+           wall_sign43081 (Minecraft-object-wall_sign -2161 147 29 -2161 147 29 "wall_sign")
+           wall_sign43082 (Minecraft-object-wall_sign -2162 168 29 -2162 168 29 "wall_sign")
+           wall_sign43083 (Minecraft-object-wall_sign -2164 165 29 -2164 165 29 "wall_sign")
+           wall_sign43084 (Minecraft-object-wall_sign -2166 168 29 -2166 168 29 "wall_sign")
+           wall_sign43085 (Minecraft-object-wall_sign -2170 186 29 -2170 186 29 "wall_sign")
+           wall_sign43086 (Minecraft-object-wall_sign -2170 184 28 -2170 184 28 "wall_sign")
+           wall_sign43087 (Minecraft-object-wall_sign -2170 181 28 -2170 181 28 "wall_sign")
+           wall_sign43088 (Minecraft-object-wall_sign -2170 180 28 -2170 180 28 "wall_sign")
+           wall_sign43089 (Minecraft-object-wall_sign -2170 178 28 -2170 178 28 "wall_sign")
+           wall_sign43090 (Minecraft-object-wall_sign -2172 160 29 -2172 160 29 "wall_sign")
+           wall_sign43091 (Minecraft-object-wall_sign -2172 152 29 -2172 152 29 "wall_sign")
+           wall_sign43092 (Minecraft-object-wall_sign -2179 168 29 -2179 168 29 "wall_sign")
+           wall_sign43093 (Minecraft-object-wall_sign -2179 163 30 -2179 163 30 "wall_sign")
+           wall_sign43094 (Minecraft-object-wall_sign -2181 175 28 -2181 175 28 "wall_sign")
+           wall_sign43095 (Minecraft-object-wall_sign -2183 168 29 -2183 168 29 "wall_sign")
+           wall_sign43096 (Minecraft-object-wall_sign -2183 163 30 -2183 163 30 "wall_sign")
+           wall_sign43097 (Minecraft-object-wall_sign -2184 175 28 -2184 175 28 "wall_sign")
+           wall_sign43098 (Minecraft-object-wall_sign -2190 168 30 -2190 168 30 "wall_sign")
+           wall_sign43099 (Minecraft-object-wall_sign -2192 167 28 -2192 167 28 "wall_sign")
+           ;; Minecraft objects of type  :crafting_table
+           crafting_table43168 (Minecraft-object-crafting_table -2162 178 28 -2162 178 28 "crafting_table")
+           ;; Minecraft objects of type  :chest
+           chest43169 (Minecraft-object-chest -2144 157 30 -2144 157 30 "chest")
+           chest43170 (Minecraft-object-chest -2147 176 28 -2147 176 28 "chest")
+           chest43171 (Minecraft-object-chest -2148 176 29 -2148 176 29 "chest")
+           chest43172 (Minecraft-object-chest -2148 176 28 -2148 176 28 "chest")
+           chest43173 (Minecraft-object-chest -2159 180 31 -2159 180 31 "chest")
+           chest43174 (Minecraft-object-chest -2159 178 30 -2159 178 30 "chest")
+           chest43175 (Minecraft-object-chest -2159 178 28 -2159 178 28 "chest")
+           chest43176 (Minecraft-object-chest -2160 181 28 -2160 181 28 "chest")
+           chest43177 (Minecraft-object-chest -2160 180 28 -2160 180 28 "chest")
+           chest43178 (Minecraft-object-chest -2160 176 30 -2160 176 30 "chest")
+           chest43179 (Minecraft-object-chest -2163 157 28 -2163 157 28 "chest")
+           chest43180 (Minecraft-object-chest -2165 152 28 -2165 152 28 "chest")
+           chest43181 (Minecraft-object-chest -2168 184 29 -2168 184 29 "chest")
+           chest43182 (Minecraft-object-chest -2168 184 28 -2168 184 28 "chest")
+           chest43183 (Minecraft-object-chest -2168 176 30 -2168 176 30 "chest")
+           chest43184 (Minecraft-object-chest -2169 184 29 -2169 184 29 "chest")
+           chest43185 (Minecraft-object-chest -2169 159 28 -2169 159 28 "chest")
+           ;; Minecraft objects of type  :wooden_button
+           wooden_button43186 (Minecraft-object-wooden_button -2178 150 29 -2178 150 29 "wooden_button")
+           wooden_button43187 (Minecraft-object-wooden_button -2184 150 29 -2184 150 29 "wooden_button")
+           ;; Minecraft objects of type  :stone_button
+           stone_button43188 (Minecraft-object-stone_button -2144 176 29 -2144 176 29 "stone_button")
+           stone_button43189 (Minecraft-object-stone_button -2144 149 29 -2144 149 29 "stone_button")
+           stone_button43190 (Minecraft-object-stone_button -2145 179 29 -2145 179 29 "stone_button")
+           stone_button43191 (Minecraft-object-stone_button -2145 162 29 -2145 162 29 "stone_button")
+           stone_button43192 (Minecraft-object-stone_button -2145 155 29 -2145 155 29 "stone_button")
+           stone_button43193 (Minecraft-object-stone_button -2149 181 29 -2149 181 29 "stone_button")
+           stone_button43194 (Minecraft-object-stone_button -2150 172 29 -2150 172 29 "stone_button")
+           stone_button43195 (Minecraft-object-stone_button -2150 157 29 -2150 157 29 "stone_button")
+           stone_button43196 (Minecraft-object-stone_button -2151 151 29 -2151 151 29 "stone_button")
+           stone_button43197 (Minecraft-object-stone_button -2153 171 29 -2153 171 29 "stone_button")
+           stone_button43198 (Minecraft-object-stone_button -2153 159 29 -2153 159 29 "stone_button")
+           stone_button43199 (Minecraft-object-stone_button -2154 178 29 -2154 178 29 "stone_button")
+           stone_button43200 (Minecraft-object-stone_button -2155 176 29 -2155 176 29 "stone_button")
+           stone_button43201 (Minecraft-object-stone_button -2157 154 29 -2157 154 29 "stone_button")
+           stone_button43202 (Minecraft-object-stone_button -2159 179 29 -2159 179 29 "stone_button")
+           stone_button43203 (Minecraft-object-stone_button -2159 155 29 -2159 155 29 "stone_button")
+           stone_button43204 (Minecraft-object-stone_button -2160 175 29 -2160 175 29 "stone_button")
+           stone_button43205 (Minecraft-object-stone_button -2165 182 29 -2165 182 29 "stone_button")
+           stone_button43206 (Minecraft-object-stone_button -2165 153 29 -2165 153 29 "stone_button")
+           stone_button43207 (Minecraft-object-stone_button -2168 155 29 -2168 155 29 "stone_button")
+           stone_button43208 (Minecraft-object-stone_button -2169 176 29 -2169 176 29 "stone_button")
+           stone_button43209 (Minecraft-object-stone_button -2170 157 29 -2170 157 29 "stone_button")
+           stone_button43210 (Minecraft-object-stone_button -2177 156 29 -2177 156 29 "stone_button")
+           stone_button43211 (Minecraft-object-stone_button -2177 152 29 -2177 152 29 "stone_button")
+           stone_button43212 (Minecraft-object-stone_button -2178 159 29 -2178 159 29 "stone_button")
+           stone_button43213 (Minecraft-object-stone_button -2180 173 29 -2180 173 29 "stone_button")
+           stone_button43214 (Minecraft-object-stone_button -2183 171 29 -2183 171 29 "stone_button")
+           stone_button43215 (Minecraft-object-stone_button -2183 151 29 -2183 151 29 "stone_button")
+           stone_button43216 (Minecraft-object-stone_button -2184 159 29 -2184 159 29 "stone_button")
+           ;; Minecraft objects of type  :ladder
+           ladder43217 (Minecraft-object-ladder -2169 158 29 -2169 158 29 "ladder")
+           ladder43218 (Minecraft-object-ladder -2169 158 28 -2169 158 28 "ladder")
+           ;; Minecraft objects of type  :flower_pot
+           flower_pot43222 (Minecraft-object-flower_pot -2144 189 28 -2144 189 28 "flower_pot")
+           flower_pot43223 (Minecraft-object-flower_pot -2144 186 28 -2144 186 28 "flower_pot")
+           flower_pot43224 (Minecraft-object-flower_pot -2144 184 28 -2144 184 28 "flower_pot")
+           flower_pot43225 (Minecraft-object-flower_pot -2144 178 28 -2144 178 28 "flower_pot")
+           flower_pot43226 (Minecraft-object-flower_pot -2144 168 28 -2144 168 28 "flower_pot")
+           flower_pot43227 (Minecraft-object-flower_pot -2144 165 28 -2144 165 28 "flower_pot")
+           flower_pot43228 (Minecraft-object-flower_pot -2144 159 29 -2144 159 29 "flower_pot")
+           flower_pot43229 (Minecraft-object-flower_pot -2147 152 29 -2147 152 29 "flower_pot")
+           flower_pot43230 (Minecraft-object-flower_pot -2150 162 29 -2150 162 29 "flower_pot")
+           flower_pot43231 (Minecraft-object-flower_pot -2152 161 29 -2152 161 29 "flower_pot")
+           flower_pot43232 (Minecraft-object-flower_pot -2154 181 29 -2154 181 29 "flower_pot")
+           flower_pot43233 (Minecraft-object-flower_pot -2156 173 29 -2156 173 29 "flower_pot")
+           flower_pot43234 (Minecraft-object-flower_pot -2156 159 29 -2156 159 29 "flower_pot")
+           flower_pot43235 (Minecraft-object-flower_pot -2160 155 29 -2160 155 29 "flower_pot")
+           flower_pot43236 (Minecraft-object-flower_pot -2162 173 29 -2162 173 29 "flower_pot")
+           flower_pot43237 (Minecraft-object-flower_pot -2166 180 29 -2166 180 29 "flower_pot")
+           flower_pot43238 (Minecraft-object-flower_pot -2167 157 29 -2167 157 29 "flower_pot")
+           flower_pot43239 (Minecraft-object-flower_pot -2168 152 29 -2168 152 29 "flower_pot")
+           flower_pot43240 (Minecraft-object-flower_pot -2170 174 29 -2170 174 29 "flower_pot")
+           flower_pot43241 (Minecraft-object-flower_pot -2175 189 28 -2175 189 28 "flower_pot")
+           flower_pot43242 (Minecraft-object-flower_pot -2175 144 28 -2175 144 28 "flower_pot")
+
+           ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+           ;;; Instantiate the participants
+           ;;; Player emotional states
+
+           p1estate (EmotionalState 0 20 20 50 0 50 100)
+           p1ToM (ToM p1estate)
+           rita (ParticipantProfile "Rita"       0 :asist-assistant    :robot     0  0  0  0)
+           observer (ParticipantProfile "Ed"     0 :testbed-observer   :robot     0  0  0  0)
+           p1   (ParticipantProfile "Player396" 18 :male               :american 50 50 80 80)
+           ;;theTeam (TheTeam p1estate)
+           ;;+++ where do we get the Player name from in the running system+++
+           agentBeliefState (BeliefState rita observer "Player396" p1 p1ToM)})
+
+;;; Fin

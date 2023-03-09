@@ -1,0 +1,17 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0251".
+A BAD SPIRIT TOOK THE PRINCESS' SOUL, LEADING THE PRINCESS TO GET INTENSELY JEALOUS OF THE HUNTER. THE PRINCESS HATED THE HUNTER.
+CLEARLY, THE PRINCESS HATED THE HUNTER. HE DECIDED TO RUN AWAY AT ONCE.
+THE HUNTER DECIDED TO GO TO THE VOLCANO.
+THE END.
+
+
+
+The end.

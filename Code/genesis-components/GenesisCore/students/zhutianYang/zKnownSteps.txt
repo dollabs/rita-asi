@@ -1,0 +1,7 @@
+xx is yy
+xx is on table
+xx is on yy
+Nothing is on xx
+xx is above yy
+xx is inside yy
+xx is tilted

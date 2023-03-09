@@ -1,0 +1,12 @@
+Start experiment.
+// https://www.esquire.com/food-drink/drinks/recipes/a3880/old-fashioned-drink-recipe/
+Start story titled "Martini 2".
+
+Place the sugar cube in an Old Fashioned glass.
+Wet it with two drops of Angostura bitters.
+Crush the sugar with a wooden spoon.
+Add a large ice cube.
+Pour in the rye.
+Serve with a stirring rod and garnish using an orange slice.
+
+The end.

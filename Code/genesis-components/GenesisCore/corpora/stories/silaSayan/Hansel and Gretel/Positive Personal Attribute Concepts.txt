@@ -1,0 +1,38 @@
+Start description of "Friendly".
+XX is a person.
+XX wants friends.
+Evidently, XX triggers "friendly". 
+The end.
+
+Start description of "Resourceful".
+XX is a person.
+XX makes a plan.
+Evidently, XX triggers "resourceful".
+The end. 
+
+Start description of "Caring".
+XX is a person.
+YY is a person.
+XX becomes relieved because YY is safe.
+Evidently, XX triggers "caring". 
+The end.
+
+Start description of "Nice".
+XX is a person.
+YY is a person.
+XX wants to help YY.
+Evidently, XX triggers "nice".
+The end. 
+
+Start description of "Generous".
+XX is a person.
+EE is anything.
+XX needs EE.
+XX shares EE.
+Evidently, XX triggers "generous".
+The end.
+
+Start description of "Hardworking".
+XX is a person.
+XX works for long hours.
+The end.

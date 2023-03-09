@@ -1,0 +1,19 @@
+{
+    "accept_time": "2019-06-04 13:34:56+08:00", 
+    "instructions": [
+        "Put the charger on the table", 
+        "Put the dinner fork on the left hand side of the charger", 
+        "Put the dinner knife on the right hand side of the charger", 
+        "Put a salad fork on the left hand side on the dinner fork", 
+        "put a salad knife on the right hand side of the dinner knife", 
+        "put a soup spoon on the right hand side of the salad knife", 
+        "Put a desert spoon above the charger laying horizontally", 
+        "Put a dessert fork under the desert spoon laying horizontally", 
+        "Put a bread plate above the charger on the left side of the dessert spoon and a dinner plate on the charger", 
+        "put a butter knife on the bread plate", 
+        "Put a water glass above the salad knife", 
+        "Put a napkin on top of the charger and plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table4"
+}

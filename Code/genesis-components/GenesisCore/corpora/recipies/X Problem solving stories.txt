@@ -1,0 +1,721 @@
+xx is a variable.
+yy is a variable.
+zz is a story.
+vv is a variable.
+
+// Start of Lu murder example
+
+// Example of insight, which links problem to intentions (and possibly results);
+If the question is "Did xx cause yy".
+// Success: I solved "xx caused yy".
+Failure: I did not solve "xx caused yy".
+Intention: Establish that a path leads from xx to yy. 
+The end.
+
+// Example of approach, which links intention, to conditions and methods:
+If the intention is "Establish that a path leads from xx to yy".
+// Success: I confirm "A path leads from xx to yy" by searching.
+// Failure: I cannot confirm "A path leads from xx to yy".
+Condition: Verify that xx is in the story.
+Condition: Verify that yy is in the story.
+Method: Search for a path from xx to yy.
+The end.
+
+// Example of checker, which links condition to method (or question):
+If the condition is "Verify that xx is in the story".
+Check: Look for xx in the story.
+Solve: Do I believe xx.
+The end.
+
+// Example of grounder, which links method description to execution:
+If the method is "Search for a path from xx to yy".
+// Success: I note "A path leads from xx to yy".
+Execute: Call "findPath" with xx with yy.
+The end.
+
+If the intention is "I find consequences for xx".
+// Success: I solved xx by searching forwards for consequences.
+Condition: Verify that xx is in the story.
+Method: I search forward from xx.
+The end.
+
+If the question is "Is xx in the story".
+// Success: I solved "Is xx in the story".
+Failure: I did not solve "Is xx in the story".
+Intention: I find xx.
+The end.
+
+If the question is "Do I believe xx".
+// Success: I solved "Do I believe xx".
+Intention: Establish that I believe xx.
+Consequence: Insert xx into the story.
+The end.
+
+// Example of result, which links consequence to method 
+If the consequence is "Insert xx into the story".
+Method: Insert xx into the story.
+The end.
+
+
+If the intention is "Establish that I believe xx".
+// Success: I found xx in beliefs.
+Method: Look for xx in beliefs.
+The end.
+
+If the method is "Look for xx in beliefs".
+// Success: I note "I believe xx".
+Execute: Call "isBelief" with xx.
+The end.
+
+If the intention is "I find recipe for xx".
+// Success: I solved xx by scanning for recipe for xx.
+Condition: Verify that xx is in the story.
+Method: I find recipe for xx.
+The end.
+
+If the intention is "I find xx".
+// Success: I found xx by scanning for xx.
+Failure: I could not find xx.
+Method: Look for xx in the story.
+The end.
+
+If the method is "Look for xx in the story".
+// Success: I found xx by scanning for xx.
+// Success: I believe xx.
+Execute: Call "inStory" with xx.
+The end.
+
+If the question is "Do I believe xx".
+// Success: I solved "Do I believe xx".
+Failure: I did not solve "Do I believe xx".
+Intention: I ask human if I believe xx.
+Consequence: Insert xx into the story.
+The end.
+
+If the intention is "I ask human if I believe xx".
+// Success: Human says I believe xx.
+Method: I ask xx.
+The end.
+
+If the method is "I ask xx".
+// Success: I note "I believe xx".
+Execute: Call "askAboutBelief" with xx.
+The end.
+
+If the method is "Insert xx into the story".
+Execute: Call "insert" with xx.
+The end.
+
+// End of Lu murder, strange additions follow...
+
+
+If the question is "How do you know that xx has the most connections".
+Intention: I explain why xx has the most connections.
+The end.
+
+If the intention is "I explain why xx has the most connections".
+Method: I explain why xx has the most connections.
+The end.
+
+If the method is "I explain why xx has the most connections".
+Execute: Call "explainMostConnected" with xx.
+The end.
+
+If the question is "Who has the most connections".
+Intention: I find the most connections.
+The end.
+
+If the intention is "I find the most connections".
+Method: I find the most connections.
+The end.
+
+If the method is "I find the most connections".
+Execute: Call "findMostConnected".
+The end.
+
+
+// ...end of strange additions.
+
+If the question is "Did xx".
+// Success: I solved "Did xx".
+Failure: I did not solve "Did xx".
+Intention: I find xx.
+The end.
+
+If the question is "How did xx".
+// Success: I solved "How did xx".
+Failure: I did not solve "How did xx".
+Intention: I find recipe for xx.
+The end.
+
+If the method is "I find recipe for xx".
+Execute: Call "findRecipe" with xx.
+The end.
+
+If the question is "Why did xx".
+// Success: I solved "Why did xx".
+Failure: I did not solve "Why did xx".
+Intention: I explain xx.
+The end.
+
+If the intention is "I explain xx".
+// Success: I solved xx by searching backwards for causes.
+Condition: Verify that xx is in the story.
+Method: I explain xx.
+The end.
+
+If the method is "I Explain xx".
+Execute: Call "explain" with xx.
+The end.
+
+If the question is "What happened after xx".
+// Success: I solved "What happened after xx".
+Failure: I did not solve "What happened after xx".
+Intention: I find consequences for xx.
+The end.
+
+If the question is "What happened before xx".
+// Success: I solved "What happened before xx".
+Failure: I did not solve "What happened before xx".
+Question: Why did xx.
+The end.
+
+
+If the method is "I search forward from xx".
+Execute: Call "findConsequences" with xx.
+The end.
+
+// Summary
+
+If the question is "Write a summary".
+Intention: I write a summary.
+The end.
+
+If the intention is "I write a summary".
+Method: I write a summary. 
+The end.
+
+If the method is "I write a summary".
+Execute: Call "summarize".
+The end.
+
+// Unexplained
+
+If the question is "What is unexplained".
+Intention: I look for unexplained element.
+The end.
+
+If the intention is "I look for unexplained element".
+Method: I look for unexplained element. 
+The end.
+
+If the method is "I look for unexplained element".
+Execute: Call "unexplained".
+The end.
+
+// Time order
+
+If the question is "Did xx before yy".
+Intention: Show that yy is after xx.
+Question: Did xx cause yy.
+Contradiction: Did yy before xx.
+The end.
+
+
+If the question is "Did xx after yy".
+Intention: Show that xx is after yy.
+Question: Did yy cause xx.
+Contradiction: Did xx before yy.
+The end.
+
+If the intention is "Show that xx is after yy".
+Condition: Verify that xx is in the story.
+Condition: Verify that yy is in the story.
+Method: I check that xx is after yy.
+The end.
+
+If the method is "I check that xx is after yy".
+Execute: Call "isInOrder" with yy with xx.
+The end.
+
+/////
+
+// What if, work in progress, not available as of 13 Jan 2017
+
+If the question is "What would happen if you suppose xx".
+Intention: What would happen if you suppose xx.
+The end.
+
+If the intention is "What would happen if you suppose xx". 
+Method: What would happen if you suppose xx.
+The end.
+
+If the method is "What would happen if you suppose xx".
+Execute: Call "whatIf" with xx.
+The end.
+
+/////
+
+// What is the story about
+
+If the question is "What is the story about".
+Intention: Explain concepts.
+The end.
+
+If the intention is "Explain concepts".
+Method: List concepts.
+The end.
+
+If the method is "List concepts".
+Execute: Call "listConcepts".
+The end.
+
+/*
+
+//// DXH material
+
+xx is a variable.
+yy is a variable.
+zz is a story.
+vv is a variable.
+
+
+// Question
+If the question is "What is xx's personality type".
+Intention: Establish that xx eats meat.
+The end.
+
+// Approach
+If the intention is "Establish that xx eats meat". 
+Condition: xx steals a bicycle.
+Consequence: Insert "xx's personality type is thief" into the story.
+The end.
+
+
+// Checker
+If the condition is "xx steals bicycle".
+Method: "xx steals bicycle" is in the story.
+The end.
+
+
+// Executor
+If the method is "xx is in the story".
+Success: I believe xx.
+Execute: Call "inStory" with xx.
+The end.
+
+// Executor
+If the method is "Insert xx into the story".
+Execute: Call "insert" with xx.
+The end.
+
+*/
+
+//// Blocks world
+
+If the problem is "Assemble candle".
+Intention: Assemble candle.
+The end.
+
+If the problem is "Replace battery in candle".
+Intention: Replace battery in candle.
+The end.
+
+If the problem is "Replace candle battery".
+Intention: Replace battery in candle.
+The end.
+
+If the intention is "Replace battery in candle".
+ Step: Classify parts.
+ Step: Expose battery.
+ Step: Remove old battery.
+ Step: Replace candle battery.
+ Step: Replace bulb cage. 
+ Step: Inspect candle assembly.
+The end.
+
+If the intention is "Assemble candle".
+Step: Classify parts.
+Step: Install base.
+Step: Install battery.
+Step: Install bulb cage.
+Step: Inspect candle assembly.
+The end.
+
+
+If the step is "Classify parts".
+Solve: Classify parts. 
+The end.
+
+If the problem is "Classify parts".
+Intention: Classify parts.
+The end.
+
+// Must not use "The base is b8" because that screws up classification of "base".
+
+If the intention is "Classify parts".
+Step: B8 is known as the base.
+Step: B2 is known as the battery.
+Step: B4 is known as the battery replacement.
+Step: B7 is known as the bulb cage.
+The end.
+
+If the step is "Install base".
+Check: The base lies on the table.
+Solve: Put the base on the table.
+The end.
+
+If the step is "Inspect candle assembly".
+Solve: Inspect candle assembly.
+The end.
+
+If the problem is "Inspect candle assembly".
+Intention: Inspect candle assembly.
+The end.
+
+If the intention is "Inspect candle assembly".
+Step: The base lies on the table.
+Step: The battery replacement lies on the base.
+Step: The bulb cage lies on the battery replacement.
+The end.
+
+If the step is "Inspect candle".
+Solve: Inspect candle.
+The end.
+
+If the problem is "Inspect candle".
+Intention: Inspect candle.
+The end.
+
+If the intention is "Inspect candle".
+Step: The base lies on the table.
+Step: The battery replacement lies on the base.
+Step: The bulb cage lies on the battery replacement.
+The end.
+
+If the step is "Install battery".
+Check: The battery lies on the base.
+Solve: Put the battery on the base.
+The end.
+
+If the step is "Install bulb cage".
+Check: The bulb cage lies on the battery.
+Solve: Put the bulb cage on the battery.
+The end.
+
+If the step is "Replace bulb cage".
+Check: The bulb cage lies on the battery replacement.
+Solve: Put the bulb cage on the battery replacement.
+The end.
+
+If the step is "Replace candle battery".
+Check: The battery replacement lies on the base.
+Solve: Put the battery replacement on the base.
+The end.
+
+If the step is "Remove old battery".
+Check: The battery lies on the table.
+Solve: Put the battery on the table.
+The end.
+
+If the step is "Expose battery".
+Check: The bulb cage lies on the table.
+Solve: Put the bulb cage on the table.
+The end.
+
+If the step is "The xx is yy".
+Check: The xx is yy.
+The end.
+
+If the method is "The xx is yy".
+Execute: Call "jdRemember" with xx with yy.
+The end.
+
+If the problem is "Put xx on yy".
+Intention: Put xx on yy.
+The end.
+
+If the intention is "Put xx on yy".
+Condition: There is space for xx on yy.
+Condition: Verify that nothing is on xx.
+Condition: xx is light.
+Condition: Atlas is parked.
+Method: Move xx to yy.
+The end.
+
+If the intention is "Put xx on yy".
+Condition: There is space for xx on yy.
+Condition: Verify that nothing is on xx.
+Condition: xx is heavy.
+Condition: Bolt is parked.
+Request: Put xx on yy.
+The end.
+
+If the condition is "There is space for xx on yy".
+Check: Verify that there is space for xx on yy.
+Instantiate: zz is supported by yy.
+Solve: Get rid of zz.
+The end.
+
+If the method is "Verify that there is space for xx on yy".
+Execute: Call "jdFindSpace" with xx with yy.
+The end.
+
+If the condition is "xx lies on yy".
+Check: xx lies on yy.
+Solve: Put xx on yy.
+The end.
+
+If the condition is "Verify that xx lies on yy".
+Check: Verify that xx lies on yy.
+Solve: Put xx on yy.
+The end.
+
+If the method is "Verify that xx lies on yy".
+Execute: Call "jdSupportedBy" with yy with xx.
+The end.
+
+
+If the method is "xx lies on yy".
+Execute: Call "jdSupportedBy" with yy with xx.
+The end.
+
+If the condition is "Bolt is parked".
+Method: Park Bolt.
+The end.
+
+If the method is "Park Bolt".
+Execute: Call "jdParkFastHand".
+The end.
+
+If the condition is "Atlas is parked".
+Method: Park Atlas.
+The end.
+
+If the method is "Park Atlas".
+Execute: Call "jdParkStrongHand".
+The end.
+
+If the condition is "xx is light".
+Method: Verify that xx is light.
+The end.
+
+If the method is "Verify that xx is light".
+Execute: Call "jdIsLight" with xx.
+The end.
+
+If the condition is "xx is heavy".
+Method: Verify that xx is heavy.
+The end.
+
+If the method is "Verify that xx is heavy".
+Execute: Call "jdIsHeavy" with xx.
+The end.
+
+If the condition is "xx is tall".
+Method: xx is tall.
+The end.
+
+If the method is "xx is tall".
+Execute: Call "jdIsTall" with xx.
+The end.
+
+If the condition is "Verify that nothing is on xx".
+Check: Verify that nothing is on xx.
+Instantiate: yy is supported by xx.
+Solve: Get rid of yy.
+The end.
+
+If the method is "Verify that nothing is on xx".
+Execute: Call "jdHasClearTop" with xx.
+The end.
+
+If the intention is "Get rid of yy".
+Condition: Verify that nothing is on yy.
+Condition: yy is light.
+Condition: Atlas is parked.
+Method: Move yy to table.
+The end.
+
+If the intention is "Get rid of yy".
+Condition: Verify that nothing is on yy.
+Condition: yy is heavy.
+Condition: Bolt is parked.
+Request: Put yy on table.
+The end.
+
+If the problem is "Clear the top of xx".
+Intention: Clear the top of xx.
+The end.
+
+If the intention is "Clear the top of xx".
+Check: Clear the top of xx.
+The end.
+
+If the condition is "Clear the top of xx".
+Check: Verify that nothing is on xx.
+Instantiate: yy is supported by xx.
+Solve: Get rid of yy.
+The end.
+
+
+
+If the problem is "Get rid of yy".
+Intention: Get rid of yy.
+The end.
+
+If the method is "Move xx to yy".
+Execute: Call "jdPutOnWithSpeed" with xx with yy.
+The end.
+
+If the request is "Put xx on yy".
+Communicate: Put xx on yy.
+The end.
+
+
+If the method is "Make space for xx on yy".
+Execute: Call "jdFindSpace" with xx with yy.
+The end.
+
+If the problem is "Bind xx to a base".
+Intention: Bind xx to a base.
+The end.
+
+If the intention is "Bind xx to a base".
+Method: Bind xx to a base.
+The end.
+
+If the method is "Bind xx to a base".
+Execute: Call "jdBind" with xx with base.
+The end.
+
+If the problem is "yy is supported by xx".
+Intention: yy is supported by xx.
+The end.
+
+If the intention is "yy is supported by xx".
+Method: yy is supported by xx.
+The end.
+
+If the method is "yy is supported by xx".
+Execute: Call "jdSupported" with xx with yy.
+The end.
+
+/////
+
+If the problem is "Replace cellphone battery".
+Intention: Replace battery in cellphone.
+The end.
+
+If the problem is "Replace battery in cellphone".
+Intention: Replace battery in cellphone.
+The end.
+
+If the intention is "Replace battery in cellphone".
+ Step: Identify cellphone parts.
+ Step: Disassemble cellphone.
+ Step: Install replacement battery.
+ Step: Reassemble cellphone.
+ Step: Inspect cellphone.
+ Step: Test cellphone.
+The end.
+
+If the step is "Disassemble cellphone".
+Solve: Disassemble cellphone. 
+The end.
+
+If the step is "Inspect cellphone".
+Solve: Inspect cellphone.
+The end.
+
+If the problem is "Inspect cellphone".
+Intention: Inspect cellphone.
+The end.
+
+If the intention is "Inspect cellphone".
+Step: Verify that the replacement battery lies on the cellphone.
+Step: Verify that the cellphone cover lies on the replacement battery.
+The end.
+
+If the problem is "Disassemble cellphone".
+Intention: Disassemble cellphone.
+The end.
+
+If the intention is "Disassemble cellphone".
+Step: Remove cellphone cover.
+Step: Remove suspect battery.
+The end.
+
+If the step is "Remove cellphone cover".
+Solve: Put the cellphone cover on the table.
+The end.
+
+If the step is "Remove suspect battery".
+Solve: Put the suspect battery on the table.
+The end.
+
+If the step is "Install replacement battery".
+Check: The replacement battery lies on the cellphone.
+Solve: Put the replacement battery on the cellphone.
+The end.
+
+If the step is "Reassemble cellphone".
+Check: The cellphone cover lies on the replacement battery.
+Solve: Put the cellphone cover on the replacement battery.
+The end.
+
+If the step is "Identify cellphone parts".
+Solve: Identify cellphone parts. 
+The end.
+
+If the problem is "Identify cellphone parts".
+Intention: Identify cellphone parts.
+The end.
+
+If the intention is "Identify cellphone parts".
+Step: B1 is known as the cellphone.
+Step: B2 is known as the suspect battery.
+Step: B4 is known as the replacement battery.
+Step: B7 is known as the cellphone cover.
+The end.
+
+If the step is "xx is known as yy".
+Check: xx is known as yy.
+The end.
+
+If the method is "xx is known as yy".
+Execute: Call "jdRemember" with xx with yy.
+The end.
+
+If the step is "Test cellphone".
+Solve: Test cellphone.
+The end.
+
+If the problem is "Test cellphone".
+Intention: Test cellphone.
+The end.
+
+If the intention is "Test cellphone".
+Method: Exercise cellphone.
+The end.
+
+If the method is "Exercise cellphone".
+Execute: Call "jdTestCellPhone".
+The end.
+
+
+
+/*
+Story in 4 acts:
+1. Disassembly
+1.1: Remove back plate from phone
+1.2: Remove old battery from phone and put on the table
+2. Replacement
+2.1 Pick up the new battery from table
+3. Reassembly
+3.1 Put back plate back on the phone.
+4. Test
+4.1 Attempt to power up the phone,
+4.2 if the phone boots up, success, if not failure. 
+*/
+

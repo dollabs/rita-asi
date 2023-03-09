@@ -1,0 +1,13 @@
+Start experiment.
+// https://www.thekitchn.com/how-to-make-a-classic-old-fashioned-cocktail-240338
+Start story titled "Martini 1".
+
+Put the bourbon and Angostura bitters in a mixing glass.
+Add the ice and stir with a bar spoon for 10 seconds.
+
+Strain the cocktail into a rocks glass over one large ice cube.
+
+Pare an orange peel and express its oil to the old fashioned glass.
+Rub the peel around the rim of the glass and drop the peel into the glass.
+
+The end.

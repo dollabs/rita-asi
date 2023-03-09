@@ -1,0 +1,32 @@
+/* ------------------------------
+ Generated on Let us make cereals for breakfast_0411_212011 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Let us make cereals for breakfast".
+Intention: Let us make cereals for breakfast.
+The end.
+
+If the intention is "Let us make cereals for breakfast".
+Step: Put cereal in the bowl.
+Step: We add milk into the bowl of cereal.
+The end.
+
+If the problem is "Put cereal in the bowl".
+Intention: Put cereal in the bowl.
+The end.
+
+If the intention is "Put cereal in the bowl".
+Step: Cereal is in the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Let us make cereals for breakfast_0411_212011 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "We add milk into the bowl of cereal".
+Intention: We add milk into the bowl of cereal.
+The end.
+
+If the intention is "We add milk into the bowl of cereal".
+Step: Milk is in the bowl.
+The end.
+

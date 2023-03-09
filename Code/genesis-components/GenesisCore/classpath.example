@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="students"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="src" path="memories"/>
+	<classpathentry kind="src" path="source"/>
+	<classpathentry kind="src" path="corpora"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Propagators"/>
+	<classpathentry kind="lib" path="jars/google-gson-2.2.2/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jars/ant/jugbbant-1.7.jar"/>
+	<classpathentry kind="lib" path="jars/apache/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="jars/frame/ArisBasicFrame.jar"/>
+	<classpathentry kind="lib" path="jars/frame/BasicSwing.jar"/>
+	<classpathentry kind="lib" path="jars/guava/guava-16.0.jar"/>
+	<classpathentry kind="lib" path="jars/jeromq/jeromq-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="jars/jung/collections-generic-4.01.jar"/>
+	<classpathentry kind="lib" path="jars/jung/colt-1.2.0.jar"/>
+	<classpathentry kind="lib" path="jars/jung/concurrent-1.3.4.jar"/>
+	<classpathentry kind="lib" path="jars/jung/j3d-core-1.3.1.jar"/>
+	<classpathentry kind="lib" path="jars/jung/jung-3d-2.0.1.jar"/>
+	<classpathentry kind="lib" path="jars/jung/jung-3d-demos-2.0.1.jar"/>
+	<classpathentry kind="lib" path="jars/jung/jung-algorithms-2.0.1.jar"/>
+	<classpathentry kind="lib" path="jars/jung/jung-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="jars/jung/jung-graph-impl-2.0.1.jar"/>
+	<classpathentry kind="lib" path="jars/jung/jung-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="jars/jung/jung-jai-2.0.1.jar"/>
+	<classpathentry kind="lib" path="jars/jung/jung-jai-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="jars/jung/jung-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="jars/jung/jung-visualization-2.0.1.jar"/>
+	<classpathentry kind="lib" path="jars/jung/vecmath-1.3.1.jar"/>
+	<classpathentry kind="lib" path="jars/junit/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="jars/miscellaneous/edu.mit.jwi_2.1.5_jdk.jar"/>
+	<classpathentry kind="lib" path="jars/miscellaneous/jai_codec.jar"/>
+	<classpathentry kind="lib" path="jars/miscellaneous/jai_core.jar"/>
+	<classpathentry kind="lib" path="jars/miscellaneous/javassist.jar"/>
+	<classpathentry kind="lib" path="jars/miscellaneous/jgraphx.jar"/>
+	<classpathentry kind="lib" path="jars/miscellaneous/TableLayout.jar"/>
+	<classpathentry kind="lib" path="jars/textToSpeech/cmulex.jar"/>
+	<classpathentry kind="lib" path="jars/textToSpeech/en_us.jar"/>
+	<classpathentry kind="lib" path="jars/xstream-1.2.2/lib/xstream-1.4.3.jar"/>
+	<!-- [add a classpathentry pointing to your local copy of jfxrt.jar] -->
+	<classpathentry kind="output" path="bin"/>
+</classpath>

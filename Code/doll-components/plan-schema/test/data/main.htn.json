@@ -1,0 +1,555 @@
+{
+  "hedge-58": {
+    "end-node": "hem-25",
+    "type": "edge",
+    "uid": "hedge-58"
+  },
+  "hedge-60": {
+    "display-name": "1",
+    "end-node": "hem-31",
+    "type": "edge",
+    "uid": "hedge-60"
+  },
+  "hedge-62": {
+    "display-name": "1",
+    "end-node": "hem-34",
+    "type": "edge",
+    "uid": "hedge-62"
+  },
+  "hedge-64": {
+    "end-node": "hpt-28",
+    "type": "edge",
+    "uid": "hedge-64"
+  },
+  "hedge-65": {
+    "end-node": "henpt-29",
+    "type": "edge",
+    "uid": "hedge-65"
+  },
+  "hedge-66": {
+    "display-name": "3",
+    "end-node": "hem-36",
+    "type": "edge",
+    "uid": "hedge-66"
+  },
+  "hedge-68": {
+    "end-node": "hpt-30",
+    "type": "edge",
+    "uid": "hedge-68"
+  },
+  "hedge-69": {
+    "end-node": "henpt-23",
+    "type": "edge",
+    "uid": "hedge-69"
+  },
+  "hedge-70": {
+    "display-name": "2",
+    "end-node": "hem-41",
+    "type": "edge",
+    "uid": "hedge-70"
+  },
+  "hedge-72": {
+    "display-name": "1",
+    "end-node": "hem-44",
+    "type": "edge",
+    "uid": "hedge-72"
+  },
+  "hedge-74": {
+    "end-node": "hpt-38",
+    "type": "edge",
+    "uid": "hedge-74"
+  },
+  "hedge-75": {
+    "end-node": "henpt-39",
+    "type": "edge",
+    "uid": "hedge-75"
+  },
+  "hedge-76": {
+    "display-name": "3",
+    "end-node": "hem-46",
+    "type": "edge",
+    "uid": "hedge-76"
+  },
+  "hedge-78": {
+    "end-node": "hpt-40",
+    "type": "edge",
+    "uid": "hedge-78"
+  },
+  "hedge-79": {
+    "end-node": "henpt-24",
+    "type": "edge",
+    "uid": "hedge-79"
+  },
+  "hedge-80": {
+    "display-name": "3",
+    "end-node": "hem-51",
+    "type": "edge",
+    "uid": "hedge-80"
+  },
+  "hedge-82": {
+    "display-name": "1",
+    "end-node": "hem-54",
+    "type": "edge",
+    "uid": "hedge-82"
+  },
+  "hedge-84": {
+    "end-node": "hpt-48",
+    "type": "edge",
+    "uid": "hedge-84"
+  },
+  "hedge-85": {
+    "end-node": "henpt-49",
+    "type": "edge",
+    "uid": "hedge-85"
+  },
+  "hedge-86": {
+    "display-name": "3",
+    "end-node": "hem-56",
+    "type": "edge",
+    "uid": "hedge-86"
+  },
+  "hedge-88": {
+    "end-node": "hpt-50",
+    "type": "edge",
+    "uid": "hedge-88"
+  },
+  "hem-25": {
+    "args": [],
+    "display-name": "Main",
+    "edges": [
+      "hedge-60",
+      "hedge-70",
+      "hedge-80"
+    ],
+    "incidence-set": [
+      "hedge-58"
+    ],
+    "network": "net-59",
+    "type": "htn-expanded-method",
+    "uid": "hem-25"
+  },
+  "hem-31": {
+    "args": [],
+    "display-name": "Toggle Switch",
+    "edges": [
+      "hedge-62",
+      "hedge-66"
+    ],
+    "incidence-set": [],
+    "network": "net-61",
+    "type": "htn-expanded-method",
+    "uid": "hem-31"
+  },
+  "hem-34": {
+    "args": [],
+    "display-name": "Turn On Switch",
+    "edges": [],
+    "incidence-set": [],
+    "network": "net-63",
+    "type": "htn-expanded-method",
+    "uid": "hem-34"
+  },
+  "hem-36": {
+    "args": [],
+    "display-name": "Turn Off Switch",
+    "edges": [],
+    "incidence-set": [],
+    "network": "net-67",
+    "type": "htn-expanded-method",
+    "uid": "hem-36"
+  },
+  "hem-41": {
+    "args": [],
+    "display-name": "Toggle Switch",
+    "edges": [
+      "hedge-72",
+      "hedge-76"
+    ],
+    "incidence-set": [],
+    "network": "net-71",
+    "type": "htn-expanded-method",
+    "uid": "hem-41"
+  },
+  "hem-44": {
+    "args": [],
+    "display-name": "Turn On Switch",
+    "edges": [],
+    "incidence-set": [],
+    "network": "net-73",
+    "type": "htn-expanded-method",
+    "uid": "hem-44"
+  },
+  "hem-46": {
+    "args": [],
+    "display-name": "Turn Off Switch",
+    "edges": [],
+    "incidence-set": [],
+    "network": "net-77",
+    "type": "htn-expanded-method",
+    "uid": "hem-46"
+  },
+  "hem-51": {
+    "args": [],
+    "display-name": "Toggle Switch",
+    "edges": [
+      "hedge-82",
+      "hedge-86"
+    ],
+    "incidence-set": [],
+    "network": "net-81",
+    "type": "htn-expanded-method",
+    "uid": "hem-51"
+  },
+  "hem-54": {
+    "args": [],
+    "display-name": "Turn On Switch",
+    "edges": [],
+    "incidence-set": [],
+    "network": "net-83",
+    "type": "htn-expanded-method",
+    "uid": "hem-54"
+  },
+  "hem-56": {
+    "args": [],
+    "display-name": "Turn Off Switch",
+    "edges": [],
+    "incidence-set": [],
+    "network": "net-87",
+    "type": "htn-expanded-method",
+    "uid": "hem-56"
+  },
+  "henpt-21": {
+    "display-name": "main",
+    "edges": [
+      "hedge-58"
+    ],
+    "incidence-set": [],
+    "type": "htn-expanded-nonprimitive-task",
+    "uid": "henpt-21"
+  },
+  "henpt-22": {
+    "display-name": "Toggle Switch",
+    "edges": [
+      "hedge-69"
+    ],
+    "incidence-set": [],
+    "name": "toggle-switch",
+    "type": "htn-expanded-nonprimitive-task",
+    "uid": "henpt-22"
+  },
+  "henpt-23": {
+    "display-name": "Toggle Switch",
+    "edges": [
+      "hedge-79"
+    ],
+    "incidence-set": [
+      "hedge-69"
+    ],
+    "name": "toggle-switch",
+    "type": "htn-expanded-nonprimitive-task",
+    "uid": "henpt-23"
+  },
+  "henpt-24": {
+    "display-name": "Toggle Switch",
+    "edges": [],
+    "incidence-set": [
+      "hedge-79"
+    ],
+    "name": "toggle-switch",
+    "type": "htn-expanded-nonprimitive-task",
+    "uid": "henpt-24"
+  },
+  "henpt-27": {
+    "display-name": "Turn On Switch",
+    "edges": [
+      "hedge-64"
+    ],
+    "incidence-set": [],
+    "name": "turn-on-switch",
+    "type": "htn-expanded-nonprimitive-task",
+    "uid": "henpt-27"
+  },
+  "henpt-29": {
+    "display-name": "Turn Off Switch",
+    "edges": [
+      "hedge-68"
+    ],
+    "incidence-set": [
+      "hedge-65"
+    ],
+    "name": "turn-off-switch",
+    "type": "htn-expanded-nonprimitive-task",
+    "uid": "henpt-29"
+  },
+  "henpt-37": {
+    "display-name": "Turn On Switch",
+    "edges": [
+      "hedge-74"
+    ],
+    "incidence-set": [],
+    "name": "turn-on-switch",
+    "type": "htn-expanded-nonprimitive-task",
+    "uid": "henpt-37"
+  },
+  "henpt-39": {
+    "display-name": "Turn Off Switch",
+    "edges": [
+      "hedge-78"
+    ],
+    "incidence-set": [
+      "hedge-75"
+    ],
+    "name": "turn-off-switch",
+    "type": "htn-expanded-nonprimitive-task",
+    "uid": "henpt-39"
+  },
+  "henpt-47": {
+    "display-name": "Turn On Switch",
+    "edges": [
+      "hedge-84"
+    ],
+    "incidence-set": [],
+    "name": "turn-on-switch",
+    "type": "htn-expanded-nonprimitive-task",
+    "uid": "henpt-47"
+  },
+  "henpt-49": {
+    "display-name": "Turn Off Switch",
+    "edges": [
+      "hedge-88"
+    ],
+    "incidence-set": [
+      "hedge-85"
+    ],
+    "name": "turn-off-switch",
+    "type": "htn-expanded-nonprimitive-task",
+    "uid": "henpt-49"
+  },
+  "hpt-28": {
+    "display-name": "Delay",
+    "edges": [
+      "hedge-65"
+    ],
+    "incidence-set": [
+      "hedge-64"
+    ],
+    "name": "delay",
+    "type": "htn-primitive-task",
+    "uid": "hpt-28"
+  },
+  "hpt-30": {
+    "display-name": "Delay",
+    "edges": [],
+    "incidence-set": [
+      "hedge-68"
+    ],
+    "name": "delay",
+    "type": "htn-primitive-task",
+    "uid": "hpt-30"
+  },
+  "hpt-33": {
+    "args": [],
+    "argsmap": {},
+    "display-name": "Turn On",
+    "edges": [],
+    "incidence-set": [],
+    "name": "turn-on",
+    "plant-part": "psw1",
+    "plantid": "switchedcircuit",
+    "type": "htn-primitive-task",
+    "uid": "hpt-33"
+  },
+  "hpt-35": {
+    "args": [],
+    "argsmap": {},
+    "display-name": "Turn Off",
+    "edges": [],
+    "incidence-set": [],
+    "name": "turn-off",
+    "plant-part": "psw1",
+    "plantid": "switchedcircuit",
+    "type": "htn-primitive-task",
+    "uid": "hpt-35"
+  },
+  "hpt-38": {
+    "display-name": "Delay",
+    "edges": [
+      "hedge-75"
+    ],
+    "incidence-set": [
+      "hedge-74"
+    ],
+    "name": "delay",
+    "type": "htn-primitive-task",
+    "uid": "hpt-38"
+  },
+  "hpt-40": {
+    "display-name": "Delay",
+    "edges": [],
+    "incidence-set": [
+      "hedge-78"
+    ],
+    "name": "delay",
+    "type": "htn-primitive-task",
+    "uid": "hpt-40"
+  },
+  "hpt-43": {
+    "args": [],
+    "argsmap": {},
+    "display-name": "Turn On",
+    "edges": [],
+    "incidence-set": [],
+    "name": "turn-on",
+    "plant-part": "psw1",
+    "plantid": "switchedcircuit",
+    "type": "htn-primitive-task",
+    "uid": "hpt-43"
+  },
+  "hpt-45": {
+    "args": [],
+    "argsmap": {},
+    "display-name": "Turn Off",
+    "edges": [],
+    "incidence-set": [],
+    "name": "turn-off",
+    "plant-part": "psw1",
+    "plantid": "switchedcircuit",
+    "type": "htn-primitive-task",
+    "uid": "hpt-45"
+  },
+  "hpt-48": {
+    "display-name": "Delay",
+    "edges": [
+      "hedge-85"
+    ],
+    "incidence-set": [
+      "hedge-84"
+    ],
+    "name": "delay",
+    "type": "htn-primitive-task",
+    "uid": "hpt-48"
+  },
+  "hpt-50": {
+    "display-name": "Delay",
+    "edges": [],
+    "incidence-set": [
+      "hedge-88"
+    ],
+    "name": "delay",
+    "type": "htn-primitive-task",
+    "uid": "hpt-50"
+  },
+  "hpt-53": {
+    "args": [],
+    "argsmap": {},
+    "display-name": "Turn On",
+    "edges": [],
+    "incidence-set": [],
+    "name": "turn-on",
+    "plant-part": "psw1",
+    "plantid": "switchedcircuit",
+    "type": "htn-primitive-task",
+    "uid": "hpt-53"
+  },
+  "hpt-55": {
+    "args": [],
+    "argsmap": {},
+    "display-name": "Turn Off",
+    "edges": [],
+    "incidence-set": [],
+    "name": "turn-off",
+    "plant-part": "psw1",
+    "plantid": "switchedcircuit",
+    "type": "htn-primitive-task",
+    "uid": "hpt-55"
+  },
+  "net-57": {
+    "display-name": "main",
+    "rootnodes": [
+      "henpt-21"
+    ],
+    "type": "htn-network",
+    "uid": "net-57"
+  },
+  "net-59": {
+    "display-name": "Main",
+    "rootnodes": [
+      "henpt-22"
+    ],
+    "type": "htn-network",
+    "uid": "net-59"
+  },
+  "net-61": {
+    "display-name": "Toggle Switch",
+    "rootnodes": [
+      "henpt-27"
+    ],
+    "type": "htn-network",
+    "uid": "net-61"
+  },
+  "net-63": {
+    "display-name": "Turn On Switch",
+    "rootnodes": [
+      "hpt-33"
+    ],
+    "type": "htn-network",
+    "uid": "net-63"
+  },
+  "net-67": {
+    "display-name": "Turn Off Switch",
+    "rootnodes": [
+      "hpt-35"
+    ],
+    "type": "htn-network",
+    "uid": "net-67"
+  },
+  "net-71": {
+    "display-name": "Toggle Switch",
+    "rootnodes": [
+      "henpt-37"
+    ],
+    "type": "htn-network",
+    "uid": "net-71"
+  },
+  "net-73": {
+    "display-name": "Turn On Switch",
+    "rootnodes": [
+      "hpt-43"
+    ],
+    "type": "htn-network",
+    "uid": "net-73"
+  },
+  "net-77": {
+    "display-name": "Turn Off Switch",
+    "rootnodes": [
+      "hpt-45"
+    ],
+    "type": "htn-network",
+    "uid": "net-77"
+  },
+  "net-81": {
+    "display-name": "Toggle Switch",
+    "rootnodes": [
+      "henpt-47"
+    ],
+    "type": "htn-network",
+    "uid": "net-81"
+  },
+  "net-83": {
+    "display-name": "Turn On Switch",
+    "rootnodes": [
+      "hpt-53"
+    ],
+    "type": "htn-network",
+    "uid": "net-83"
+  },
+  "net-87": {
+    "display-name": "Turn Off Switch",
+    "rootnodes": [
+      "hpt-55"
+    ],
+    "type": "htn-network",
+    "uid": "net-87"
+  },
+  "network": "net-57"
+}

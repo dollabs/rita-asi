@@ -1,0 +1,19 @@
+{
+    "accept_time": "2019-06-04 10:13:25+08:00", 
+    "instructions": [
+        "&lt;div&gt;Put the Charger on the table.&lt;/div&gt;", 
+        "Put the Dinner Fork on the left of the Charger.", 
+        "Put the Dinner Knife on the right of the Charger.", 
+        "Put the salad fork on the left of the dinner fork", 
+        "Put the Salad Knife on the right of the Dinner Knife.", 
+        "Put the Soup Spoon on the right of the Salad Knife.", 
+        "Put the Dessert Spoon above the Charger with the handle pointing to the right.", 
+        "Put the Dessert Fork below the Dessert Spoon with the tines pointing to the right.", 
+        "Put the Dinner Plate on top of the Charger.", 
+        "Put the Bread Plate above the Dinner and Salad Forks.", 
+        "Put the Butter Knife on the Bread Plate with the handle pointing to the 4:00 o'clock position.", 
+        "Put the Water Glass above the two Dinner and Salad Knives."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table4"
+}

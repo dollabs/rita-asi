@@ -1,0 +1,81 @@
+# DISTRIBUTION STATEMENT C: U.S. Government agencies and their contractors.
+# Other requests shall be referred to DARPA’s Public Release Center via email at prc@darpa.mil.
+
+# To pull latest and greatest images
+#  `docker-compose -f docker-compose.asist.yml pull`
+
+# To launch
+#  `docker-compose -f docker-compose.asist.yml up`
+
+# To stop and remove containers:
+#  `docker-compose -f docker-compose.asist.yml down`
+
+# When not running as part of asist testbed, possibly for release testing or other use cases,
+# create the network as:
+#   `docker network create asist_net`
+
+version: '3'
+
+networks:
+  asist_net:
+   external: true
+
+services:
+  mongo:
+    image: mongo:4.2
+    # ports:
+    # - 27017:27017 # Uncomment to expose mongo-port on host
+    volumes:
+      - ${HOST_DIRECTORY}${SERVICE_LOGS_DIR}/mongo_data_db${DB_DATA_DIR}:/data/db
+    networks:
+      - asist_net
+
+  rabbitmq:
+    image: gitlab.asist.aptima.com:5050/asist/testbed/ta1_doll_rita_rabbitmq:${RITA_VER}
+    networks:
+      - asist_net
+    ports: #https://www.rabbitmq.com/networking.html
+#      - 6369:4369/tcp # epmd
+      - ${RMQ_PORT}:5672/tcp
+#      - 16671-16672:15671-15672/tcp
+#      - 26672:25672/tcp
+
+  clojure:
+    image: gitlab.asist.aptima.com:5050/asist/testbed/ta1_doll_rita_clojure:${RITA_VER}
+    depends_on:
+      - rabbitmq
+      - mongo
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - MONGODB_HOST=mongo
+      - MQTT_HOST
+      - TEST_MODE
+    volumes:
+      - ${HOST_DIRECTORY}${SERVICE_LOGS_DIR}/clojure_service_logs${SERVICE_LOGS_TAG}:/Applications/logs
+      - ${HOST_DIRECTORY}${SERVICE_LOGS_DIR}/runtime-learned-models:/Applications/doll-components/runtime-learned-models
+    networks:
+      - asist_net
+
+  tailer:
+    image: gitlab.asist.aptima.com:5050/asist/testbed/ta1_doll_rita_tailer:${RITA_VER}
+    depends_on:
+      - rabbitmq
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+    volumes:
+      - ${HOST_DIRECTORY}${SERVICE_LOGS_DIR}/tailer_service_logs${SERVICE_LOGS_TAG}:/Applications/logs
+    networks:
+      - asist_net
+
+  mqt2rmq:
+    image: gitlab.asist.aptima.com:5050/asist/testbed/ta1_doll_rita_mqt2rmq:${RITA_VER}
+    depends_on:
+      - rabbitmq
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      #External MQTT Host specified via environment file.
+      - MQTT_HOST
+    volumes:
+      - ${HOST_DIRECTORY}${SERVICE_LOGS_DIR}/mqt2rmq_service_logs${SERVICE_LOGS_TAG}:/Applications/logs
+    networks:
+      - asist_net

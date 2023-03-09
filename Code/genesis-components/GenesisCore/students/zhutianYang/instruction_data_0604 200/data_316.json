@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 10:27:54+08:00", 
+    "instructions": [
+        "put the fork on the left side of the table", 
+        "but the knife on the right side of the table with its blade facing left", 
+        "put the salad fork to the left of the dinner fork", 
+        "but the salad knife to the right of the dinner knife", 
+        "put the soup spoon to the right of the salad knife", 
+        "put the dessert spoon at the top of the table with its bowl facing left", 
+        "put the dessert spoon next to the soup spoon with its bowl facing up", 
+        "put the dessert spoon on top of the table with its bowl facing left", 
+        "put the dinner plate on the table", 
+        "put the bread plate on the table above the forks", 
+        "but the butter knife on the bread plate with its blade facing down", 
+        "put the wine glass on the top right of the table", 
+        "put the water glass on the top right of the table", 
+        "put the napkin on the dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

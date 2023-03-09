@@ -1,0 +1,10 @@
+// Note idiom that sets up experiments and gives each a name; must be first sentence read.
+
+Run what-if experiments A, B.
+
+Assume if experiment A: Insert file Part1.
+
+Assume if experiment B: Insert file Part2.
+
+
+

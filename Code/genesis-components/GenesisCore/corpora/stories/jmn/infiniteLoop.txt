@@ -1,0 +1,23 @@
+//Infinite recursive loop
+//based on a bug found with InferEnterExit2, June 2016
+
+Start experiment.
+
+Start common sense knowledge.
+xx is a person.
+If xx falls asleep, then xx enters the scene. //To fix infinite loop, change "enters the scene" to "loses consciousness"
+//If xx awakens, then xx enters the scene.
+
+
+Start story titled "Infinite Loop".
+
+David plays frisbee. //infer David enters
+David falls asleep. //infer David exits
+Alice is lonely. //David doesn't observe
+
+David awakens. //ideally, use this to infer David enters again.
+               //Currently, infer David enters -> stuck in a loop
+
+Alice is happy. //David should observe, but currently doesn't
+
+The end.

@@ -1,0 +1,130 @@
+Start experiment.
+
+Set bottom panel to Elaboration graph.
+
+Start story titled "Bambi Story".
+
+Bambi is a deer. Bambi is a boy.
+
+Bambi likes to prance and run in lots of different places.
+Running is fun for Bambi.
+//Then on Monday morning, Bambi runs in the pine grove.
+Then, the time is Monday morning.
+Bambi runs in the pine grove.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+//Then on Monday afternoon, Bambi runs in the pine trees. //new line cedar trees
+Then, the time is Monday afternoon.
+Bambi runs in the pine trees.
+Bambi plays on the rope swing.
+Bambi feels great.
+Bambi does not have any itchy spots.
+//Then on Tuesday morning, Bambi gets excited.
+Then, the time is Tuesday morning.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi runs in the grass.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+//Then on Tuesday afternoon, Bambi reads a book. //new line - and
+Then, the time is Tuesday afternoon.
+Bambi reads a book.
+Bambi runs in the rock bed. //through rock bed
+Bambi feels great.
+Bambi does not have any itchy spots.
+//Then on Wednesday morning, Bambi runs in the marsh.
+Then, the time is Wednesday morning.
+Bambi runs in the marsh.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+//Then on Wednesday afternoon, Bambi runs in the apple orchard. //new line - and
+Then, the time is Wednesday afternoon.
+Bambi runs in the apple orchard.
+Bambi plays with a truck. //through apple... with his toy truck
+Bambi feels great.
+Bambi does not have any itchy spots.
+//Then on Thursday morning, Bambi gets excited.
+Then, the time is Thursday morning.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi runs in the leaves.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+//Then on Thursday afternoon, Bambi plays jump rope. //new line - and
+Then, the time is Thursday afternoon.
+Bambi plays jump rope.
+Bambi runs in the sand.
+Bambi feels great.
+Bambi does not have any itchy spots.
+//Then on Friday morning, Bambi runs in the bushes.
+Then, the time is Friday morning.
+Bambi runs in the bushes.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+//Then on Friday afternoon, Bambi runs in the playground. //new line - and
+Then, the time is Friday afternoon.
+Bambi runs in the playground.
+Bambi roller skates. //through playground
+Bambi feels great.
+Bambi does not have any itchy spots.
+//Then on Saturday morning, Bambi gets excited.
+Then, the time is Saturday morning.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi runs in the grass.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+//Then on Saturday afternoon, Bambi gets his hair brushed. //new line - and
+Then, the time is Saturday afternoon.
+Bambi gets his hair brushed.
+Bambi runs in the blueberry patch. //through blueberry patch
+Bambi feels great.
+Bambi does not have any itchy spots.
+//Then on Sunday morning, Bambi runs in the garden. //through garden
+Then, the time is Sunday morning.
+Bambi runs in the garden.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi has itchy spots. // on his legs.  removed for effect matching purposes
+Then, on the next day Bambi's spots were all gone.
+Have fun Bambi.
+
+The end.
+
+//Set left panel to Commentary.  Set right panel to Mental models.
+
+//Pause.
+
+// ask question 16 times.
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?
+
+//Insert question into text box: Did bambi have itchy spots because bambi runs in the cattails or bambi roller skates?

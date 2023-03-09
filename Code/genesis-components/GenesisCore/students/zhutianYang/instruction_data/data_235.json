@@ -1,0 +1,20 @@
+{
+    "instructions": [
+        "Move the dinner plate to the bottom of the table cloth",
+        "Move the dinner fork to the left of the dinner plate with its prongs pointing to the top of the table", 
+        "Move the salad fork to the left of the dinner fork with prongs in the same direction",
+        "Move the dinner knife to the right of the plate",
+        "Move the salad knife to the right of the dinner knife",
+        "Move the soup spoon to the right of the salad knife",
+        "Move the water glass to the right of the plate and in front of the dinner knife",
+        "Move the wine glass to the right of the water glass",
+        "Move the second wine glass to the right of the first wine glass",
+        "Move the coffee cup to the right of the soup spoon",
+        "Move the bread plate above the dinner fork",
+        "Put the butter knife on the bread plate with blade facing away from dinner plate",
+        "Move dessert fork in front of dinner plate with prongs facing water glass",
+        "Move dessert fork in front of dinner plate and in front of dessert spoon",
+        "Move napkin onto dinner plate"
+    ],
+    "video_name": "table3"
+}

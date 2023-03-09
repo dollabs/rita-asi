@@ -1,0 +1,20 @@
+Should have an API method to find relationship between two 
+non-directly-connected nodes. e.g. for A-B-C, what if we 
+want the relationship between A and C? Then return that 
+there is a path from A to B to C. This is useful for e.g.
+rel(harm, slap) which is the empty set, though there is
+surely a path from one to the other.
+
+is there a way to visualize this stuff? that would be cool!
+
+Do a bfs on network to find relatedness between 2 words
+
+Genesis goal:
++ "x harms y, y hits x"
++ "x slaps y, y embarasses x"
+- "x hugs y, y hurts x"
+Is the following an example of revenge?
+? "x kills y, y hugs x"
+[Genesis should say yes/no]
+
+A way to gather related concepts by an edge (over/under) threshold

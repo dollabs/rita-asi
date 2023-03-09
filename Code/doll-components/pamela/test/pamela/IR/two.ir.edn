@@ -1,0 +1,5 @@
+{two
+ {:args [],
+  :meta {:doc "Second", :version "0.2.0"},
+  :modes {:c true, :d true},
+  :type :pclass}}

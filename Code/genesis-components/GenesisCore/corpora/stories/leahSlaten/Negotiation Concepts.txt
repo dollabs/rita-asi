@@ -1,0 +1,48 @@
+XX, YY, and WW are entities.
+
+Start description of "Goal Resolved".
+XX, YY, and WW are entities.
+XX is concerned about YY.
+XX is not concerned about YY.
+The end.
+
+Start description of "Protectionism".
+XX, YY, and WW are entities.
+WW is a country.
+XX and YY are companies.
+YY is from WW.
+XX is a competitor of YY.
+XX's wanting to increase YY's sales leads to XX's being angry at WW.
+The end.
+
+Start description of "Fighting about land".
+XX, YY, and WW are entities.
+XX's wanting XX to control WW leads to XX's disliking YY.
+YY's wanting YY to control WW leads to XX's disliking YY.
+The end.
+
+Start description of "Mutual gains".
+AA, BB, XX, and YY are entities.
+XX must not equal YY.
+AA must not equal BB.
+XX is concerned about AA.
+YY is concerned about BB.
+//XX and YY may compromise.
+The end.
+
+Start description of "Safety".
+XX and YY are entities.
+XX attacked YY.
+Consequently, YY is concerned about safety.
+XX removed its troops.
+The end.
+
+Start description of "Sovereignty".
+XX used to control WW.
+XX is concerned about sovereignty.
+The end.
+
+Start description of "Respecting values".
+XX values AA.
+YY gives AA to XX.
+The end.

@@ -1,0 +1,36 @@
+Start experiment.
+
+// start declarations
+xx is a person.
+yy is a person.
+zz is a person.
+mm is a regime.
+Huang is a person.
+Yuan is a person.
+Chong is a person.
+the Ming Dynasty is a regime.
+Mongolia tribe is a regime.
+// end declarations
+
+if xx is royal, then xx may fight against yy.
+if xx is a general, then xx may fight against yy.
+if nobody can defeat mm, then xx may conquer the mm Dynasty.
+if xx believes that yy wants to overturn him, xx may execute yy.
+
+Start story titled "Kill with borrowed knife".
+
+Huang is the leader of the Mongolia tribe.
+He wanted to overturn the Ming Dynasty.
+Yuan is a general in the Ming Dynasty.
+He fought against him to protect Ming Dynasty.
+Huang could not win Yuan on battle field.
+Therefore, Huang planned to kill Yuan.
+Chong is the king of Ming Dynasty.
+He is always suspicious of the royalty of his generals.
+So Huang bribed one secretary of the Ming Dynasty to let him lie to Chong.
+Secretary made the Chong believe that Yuan had secret deal with the Mongolia tribe and that Yuan wanted to turn over the Ming Dynasty.
+Chong believed in what the secretary said and went furious.
+He executed Yuan immediately.
+Yuan is dead, so nobody can defeat Huang and his tribe.
+Huang conquered the Ming Dynasty and created the Qing Dynasty.
+The end.

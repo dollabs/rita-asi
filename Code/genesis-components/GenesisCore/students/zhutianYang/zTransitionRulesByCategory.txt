@@ -1,0 +1,53 @@
+xx is a person.
+yy and zz are things.
+
+// CONTACT = True   +   Verb takes 2 arguments
+// --------------
+If xx forgets to take yy from zz, then zz has yy's contact.
+If xx puts yy in zz, then zz has yy's contact.
+If xx puts yy into zz, then zz has yy's contact.
+If xx inserts yy into zz, then zz has yy's contact.
+
+
+// CONTACT = True   +    Verb takes 1 arguments
+// --------------
+If xx buys yy, then xx has yy's contact.
+If xx founds yy, then xx has yy's contact.
+If xx makes yy, then xx has yy's contact.
+If xx joins yy, then yy has xx's contact.
+
+
+// CONTACT = False   +    Verb takes 2 arguments
+// --------------
+If xx collects yy from zz, then zz doesn't have yy's contact.
+If xx removes yy from zz, then zz doesn't have yy's contact.
+If xx eats yy in zz, then zz doesn't have yy's contact.
+If xx takes out yy from zz, then zz has yy's contact.
+
+
+// CONTACT = False   +    Verb takes 1 arguments
+// --------------
+If xx leaves yy, then yy doesn't have xx's contact.
+
+
+// Abstract
+// --------------
+If xx stops working, then xx has problem's contact.
+If xx starts working, then xx doesn't have problem's contact.
+If xx removes the cover from yy, then yy has air's contact.
+If xx slides down the cover from yy, then yy has air's contact.
+If xx places the cover on yy, then yy doesn't have air's contact.
+If xx installs the cover of yy, then yy doesn't have air's contact.
+If xx puts the cover on yy, then yy doesn't have air's contact.
+If xx slides up the cover of yy, then yy doesn't have air's contact.
+
+
+// Engineering
+// --------------
+If xx recharges yy, then yy has power's contact.
+If xx gets wet, then xx has water's contact.
+
+
+// Emotions
+// --------------
+If kk is happy, then kk has happiness's contact.

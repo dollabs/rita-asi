@@ -1,0 +1,80 @@
+Start Negotiation Rules.
+
+XX, WW, and YY are entities.
+XX is not the same as YY.
+
+AA is a kind of place.
+
+//fighting over land
+If XX controls AA, then XX wants XX to control AA.
+If XX wants XX to control AA and YY wants YY to control AA, then XX dislikes YY.
+If XX gives AA to YY, then YY controls AA.
+
+//sovereignty
+If YY controls WW after XX controls WW, then XX is concerned about sovereignty.
+If XX is concerned about sovereignty and YY gives WW to XX, then XX is not concerned about sovereignty.
+
+//other concerns
+If XX is concerned about YY and XX gets YY, then XX is not concerned about YY.
+
+//safety
+If YY attacked XX, then XX is concerned about safety.
+If XX is concerned about safety and YY removes YY's troops, then XX is not concerned about safety.
+
+//negotiation
+//IS THERE A WAY TO INDICATE THAT THIS IS MUTUAL RATHER THAN INSERTING DOUBLE ELEMENTS?
+If XX dislikes YY, then XX needs to negotiate with YY.
+//WHY DOES THIS BIND TO "TO"?
+If XX dislikes YY, then YY may give apologies to XX.
+// HOW CAN WW MATCH TO "wants XX to control WW"?
+//If XX wants WW and YY wants WW, then XX needs to negotiate with YY.
+If XX wants wants XX to control WW and YY wants wants YY to control WW, then XX needs to negotiate with YY.
+
+//companies
+AA is an entity.
+If XX is a company and XX sells AA, then XX sells products.
+If XX sells AA and YY sells AA, then XX is a competitor of YY.
+//If XX is a company, then XX sells products.
+If XX sells products, then XX wants to increase sales.
+//If XX wants to increase sales and YY wants to increase sales, then XX dislikes YY.
+If XX is a competitor of YY, then XX dislikes YY.
+
+//companies vs countries
+//WHY DOES THIS NOT MATCH?
+If XX is a country and YY is a company and XX dislikes YY, then YY loses to XX.
+If YY loses to XX, then YY wants to negotiate with XX.
+If YY loses to XX, then XX wins to YY.
+
+//protectionism
+If XX is a country and YY is a company and YY comes from XX, then XX wants to increase sales for YY.
+//maybe write a thing to make the country match all the company's inferences?
+If XX wants to increase sales for YY and WW is a competitor of YY, then XX dislikes WW.
+
+//values
+//If XX values WW and YY gives WW to XX and XX dislikes WW, then XX forgives YY.
+//WHY CANT THERE BE A CONJUNCTION OF 3 THINGS?!
+If XX values WW and YY gives WW to XX, then XX likes YY.
+If XX likes YY and XX dislikes YY, then XX forgives YY.
+//If YY wants to negotiate with XX, then the sky is blue.
+
+//satisfaction
+//Satisfied is the opposite of dissatisfied.
+//If XX is concerned about YY and XX is not concerned about YY, then XX is satisfied.
+//If XX is satisfied and YY is satisfied and XX needs to negotiate with YY, then the negotiation is successful.
+//If XX is not satisfied or YY is not satisfied, then the negotiation is not successful.
+
+//teams
+If XX is concerned about YY, then XX may strike.
+If XX work for YY, then XX becomes angry.
+If XX strikes to YY, then XX becomes angry.
+If XX strikes to YY, then YY needs to negotiate with XX.
+
+//personal stuff
+If XX likes YY and WW gives YY to XX, then WW establishes a relationship with XX.
+//If YY needs to negotiate with XX and YY establishes a relationship with XX, then the negotiation is going well.
+//If YY needs to negotiate with XX and YY uses a mediator, then the negotiation is going well.
+//WHY CANT IT ADD BOTH OF THESE
+If YY uses a mediator, then the negotiation is going well.
+If YY establishes a relationship with XX, then the negotiation is going well.
+//If the negotiation is going well, it may be because YY uses a mediator.
+//If the negotiation is going well, it may be because YY establishes a relationship with XX.

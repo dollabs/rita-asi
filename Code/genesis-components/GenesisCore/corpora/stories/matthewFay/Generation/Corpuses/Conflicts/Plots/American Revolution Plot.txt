@@ -1,0 +1,28 @@
+Britain is a country.
+America is a country.
+France is a country.
+
+America was a colony of Britain.
+Britain wanted to tax America.
+Britain taxed America.
+
+America resisted Britain because Britain taxed America.
+America left Britain.
+Britain invaded America.
+Britain attacked America.
+America attacked Britain.
+America attacked Britain because Britain invaded America.
+//America attacked Britain's troops.
+//America attacked Britain's troops because Britain invaded America.
+France wanted to help America.
+France wanted to help America because Britain invaded America.
+//France gave money to America.
+//France gave money to America because France wanted to help America.
+France gave weapons to America.
+France gave weapons to America because France wanted to help America.
+//France gave ships to America.
+//France gave ships to America because France wanted to help America.
+Then, America attacked Britain's troops.
+America defeated Britain.
+America defeated Britain because France helped America.
+America becomes independent.

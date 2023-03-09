@@ -1,0 +1,53 @@
+Start experiment.
+
+Insert file General commonsense knowledge.
+
+Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+Insert file Contradictions.
+
+Start story titled "Demo Basics".
+
+Austin is a person.
+
+David is a person.
+
+Chase is a person.
+
+Pat is a person.
+
+
+Chase is sad.
+
+Chase is angry.
+
+Chase is happy.
+
+Chase is afraid.
+
+Chase is upset.
+
+Chase is lonely.
+
+Chase is filthy.
+
+
+Austin is a happy camper.
+
+Austin is a sad loser.
+
+
+David likes Austin.
+
+David hates Pat.
+
+David screams.
+
+David kills.
+
+David gets hurt.
+
+
+The End.

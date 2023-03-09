@@ -1,0 +1,19 @@
+{
+    "accept_time": "2019-06-04 11:28:31+08:00", 
+    "instructions": [
+        "Place the silver charger at the bottom center of the table cloth.", 
+        "Place the dinner fork on the left hand side of the charger centered with the plate.", 
+        "Place the dinner knife directly opposite to the dinner fork on the right hand side of the charger.", 
+        "The salad fork is placed directly to the left of and centered with the dinner fork. ", 
+        "The salad knife is to be placed directly to the right of the dinner knife lined up with it.", 
+        "The soup spoon is placed directly to the right of and centered with the salad knife.", 
+        "The dessert spoon is placed right above the charger pointing towards the left side of the plate.", 
+        "The dessert fork is then placed with the prongs facing towards the right hand side of the charger.", 
+        "The bread plate is placed to the left hand side of the table directly above the forks.", 
+        "The butter knife is place in the center of the bread plate at a 45 degree angle away from charger..", 
+        "The dinner glass is placed on the right hand side of the table directly across from the bread plate.", 
+        "The napkin is folded into a fan and placed directly in the center of the dinner plate."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table4"
+}

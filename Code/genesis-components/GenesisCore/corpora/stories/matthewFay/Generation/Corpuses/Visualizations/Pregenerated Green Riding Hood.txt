@@ -1,0 +1,23 @@
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "Green Riding Hood".
+
+Green is a name.
+Green is a person.
+
+Grandpa is a name.
+Grandpa is a person.
+
+The Forest is a name.
+The Forest is a place.
+
+Green is Grandpa's grandchild.
+Grandpa lives in the forest.
+Green wants to visit Grandpa.
+Green travels into the forest.
+Green visits Grandpa.
+
+The end.

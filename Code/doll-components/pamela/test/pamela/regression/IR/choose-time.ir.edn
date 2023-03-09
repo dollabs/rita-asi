@@ -1,0 +1,31 @@
+{choose-time
+ {:args [],
+  :meta {:doc "choose example with time bounds", :version "0.2.0"},
+  :methods
+  {example
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :choose,
+       :body
+       [{:type :choice,
+         :body [{:type :delay, :body nil}],
+         :temporal-constraints [{:type :bounds, :value [1 100]}]}
+        {:type :choice,
+         :body [{:type :delay, :body nil}],
+         :temporal-constraints [{:type :bounds, :value [101 200]}]}
+        {:type :choice,
+         :body [{:type :delay, :body nil}],
+         :temporal-constraints [{:type :bounds, :value [201 300]}]}]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Example",
+     :doc "choose based on time",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}]},
+  :type :pclass}}

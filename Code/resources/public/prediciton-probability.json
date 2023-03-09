@@ -1,0 +1,63 @@
+{
+ "StateEstimation--enter-room": {
+  "counts": {
+   "false": 2995,
+   "true": 2754,
+   "unknown": 10
+  },
+  "probability": {
+   "false": 0.520055565202292,
+   "true": 0.47820802222608094,
+   "unknown": 0.0019179133103183737
+  },
+  "totals": 5759
+ },
+ "StateEstimation--exit-room": {
+  "counts": {
+   "false": 37,
+   "true": 5883,
+   "unknown": 1
+  },
+  "probability": {
+   "false": 0.006285034822490233,
+   "true": 0.9935821651748016,
+   "unknown": 0.0009671179883945841
+  },
+  "totals": 5921
+ },
+ "StateEstimation--next-room-to-visit": {
+  "counts": {
+   "false": 186,
+   "true": 1984,
+   "unknown": 140
+  },
+  "probability": {
+   "false": 0.08051948051948052,
+   "true": 0.8588744588744589,
+   "unknown": 0.06060606060606061
+  },
+  "totals": 2310
+ },
+ "StateEstimation--set-switch-state": {
+  "counts": {
+   "false": 22
+  },
+  "probability": {
+   "false": 1.0
+  },
+  "totals": 22
+ },
+ "StateEstimation--triage-victim": {
+  "counts": {
+   "false": 2571,
+   "true": 4698,
+   "unknown": 28
+  },
+  "probability": {
+   "false": 0.352336576675346,
+   "true": 0.6438262299575168,
+   "unknown": 0.0038371933671371796
+  },
+  "totals": 7297
+ }
+}

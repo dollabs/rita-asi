@@ -1,0 +1,4657 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Note: Green sentences are parsed into triples and constructed into trees. Red sentences cannot be parsed.</h1>
+		<pre>Number of sentences: 500.0
+Number of sentences parsed: 406.0
+Average length of sentence: 13.458
+Portion of translatable sentence: 0.812
+</pre>
+<h1>Index: 1&nbsp;&nbsp;&nbsp; File: data_16.json&nbsp;&nbsp;&nbsp; Video: 4</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the charger on the table at the bottom</h3></font>
+<p> [you put+1 charger+781456] [put+1 on+1 table+781458] [put+1 at+2 bottom+781457]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        ON (
+            (table)) 
+        AT (
+            (bottom)))) 
+</pre>
+<font color='red'><h3> # 2.0&nbsp;&nbsp;&nbsp; place the dinner fork to the left of the charger, its tines facing up</h3></font>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; place the dinner knife to the right of the charger, its blade facing charger</h3></font>
+<p> [you place+1 dinner_knife+781517] [place+1 to_the_right_of+1 charger+781518] [place+1 with+2 blade+781512] [blade+781512 related-to+3 dinner_knife+781517] [blade+781512 face+2 charger+781514]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (charger)) 
+        WITH (
+            OF (
+                (blade) 
+                (dinner_knife))))) [
+FACE (
+    OF (
+        (blade) 
+        (dinner_knife)) 
+    (
+        OBJECT (
+            (charger))))]
+</pre>
+<font color='red'><h3> # 4.0&nbsp;&nbsp;&nbsp; place the salad fork to the left of the dinner fork, its tines facing up</h3></font>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; place the salad knife to the right of the dinner knife, its blade facing left</h3></font>
+<p> [you place+1 salad_knife+781633] [place+1 to_the_right_of+1 dinner_knife+781634] [place+1 with+2 blade+781628] [blade+781628 related-to+3 salad_knife+781633] [blade+781628 face+2 left+781630]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)) 
+        WITH (
+            OF (
+                (blade) 
+                (salad_knife))))) [
+FACE (
+    OF (
+        (blade) 
+        (salad_knife)) 
+    (
+        OBJECT (
+            (left))))]
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; place the soup spoon to the right of the salad knife, its bowl pointing to the top</h3></font>
+<p> [you place+1 soup_spoon+781664] [place+1 to_the_right_of+1 salad_knife+781665] [place+1 with+2 bowl+781658] [bowl+781658 related-to+3 soup_spoon+781664] [bowl+781658 point+2 null] [point+2 to+4 top+781661]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (salad_knife)) )) [
+POINT (
+    OF (
+        (bowl) 
+        (soup_spoon)) 
+    (
+        TO (
+            (top))))]
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; place the dessert spoon above the charger, d, with its bowl to the left</h3></font>
+<p> [you place+1 dessert_spoon] [place+1 above+1 charger_d] [place+1 with+2 bowl_to_the_left] [bowl_to_the_left related-to+3 dessert_spoon]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (charger_d)) 
+        WITH (
+            OF (
+                (bowl_to_the_left) 
+                (dessert_spoon))))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; place the desert fork between the dessert spoon and charger, its tines to the right</h3></font>
+<p> [you place+1 fork+781674] [place+1 between+1 dessert_spoon] [place+1 between+2 charger] [place+1 with+3 tines+781677] [place+1 to+4 right+781675] [fork+781674 has_property+5 desert] [tines+781677 related-to+6 fork+781674]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (fork)) 
+        BETWEEN (
+            (dessert_spoon)) 
+        BETWEEN (
+            (charger))  
+        TO (
+            (right)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; place the bread plate above the salad fork and to the left of the dessert spoon d</h3></font>
+<p> [bread_plate above+1 salad_fork] [bread_plate to_the_left_of+2 dessert_spoon_d]</p>
+<pre>ABOVE (
+    (bread_plate) 
+    (salad_fork)) 
+TO_THE_LEFT_OF (
+    (bread_plate) 
+    (dessert_spoon_d)) 
+(place) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; place the butter knife diagonally on the bread plate with the blade facing away from the charger</h3></font>
+<p> [you place+1 butter_knife+781693] [place+1 has_modifier+1 diagonally] [place+1 on+2 bread_plate+781699] [place+1 with+3 blade+781698] [butter_knife+781693 face_away+2 null] [face_away+2 from+4 charger+781695]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate))  
+        MANNER (
+            (diagonally)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; place the water glass above the salad knife and to the right of the dessert fork</h3></font>
+<p> [you place+1 water_glass+781708] [place+1 above+1 salad_knife+781710] [place+1 to_the_right_of+2 dessert_fork+781709]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dessert_fork)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; place the napkin in the center of the plate on the charger</h3></font>
+<p> [you place+1 napkin+781714] [place+1 in+1 center+781717] [place+1 on+2 charger+781715] [center+781717 related-to+3 plate+781716] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            CENTER (
+                (plate))) 
+        ON (
+            (charger)))) 
+</pre>
+<br><br><h1>Index: 2&nbsp;&nbsp;&nbsp; File: data_83.json&nbsp;&nbsp;&nbsp; Video: 2</h1><font color='red'><h3> # 1.0&nbsp;&nbsp;&nbsp; Place the fork on the left side of the table cloth with the tines facing up</h3></font>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Place the dinner knife on the right side of the table cloth</h3></font>
+<p> [you place+1 dinner_knife+781758] [place+1 on+1 side+781760] [side+781760 related-to+2 tablecloth+781759] [side+781760 has_property+3 right] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            RIGHT_SIDE (
+                (tablecloth))))) 
+</pre>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; place the salad fork to the left of the dinner fork with the tines pointing up</h3></font>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; place the salad knife to the right of the dinner knife with the blade facing the forks</h3></font>
+<p> [you place+1 salad_knife+781855] [place+1 to_the_right_of+1 dinner_knife+781856] [place+1 with+2 blade+781852] [blade+781852 face+2 forks+781853]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (forks))))]
+</pre>
+<font color='red'><h3> # 5.0&nbsp;&nbsp;&nbsp; place the soup spoon to the right of the salad knife with the bowl facing upward</h3></font>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; place the dessert spoon at the top of the table cloth with the bowl pointing left</h3></font>
+<p> [you place+1 dessert_spoon+781955] [place+1 at+1 top+781957] [place+1 with+2 bowl+781951] [top+781957 related-to+3 tablecloth+781956] [bowl+781951 point+2 left+781952] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        AT (
+            TOP (
+                (tablecloth))) )) [
+POINT (
+    (bowl) 
+    (
+        OBJECT (
+            (left))))]
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; place the dessert spoon next to the soup spoon with the bowl pointing up</h3></font>
+<p> [you place+1 dessert_spoon+781983] [place+1 next_to+1 soup_spoon+781984] [place+1 with+2 bowl_pointing_up]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        NEXT_TO (
+            (soup_spoon)) )) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Place the dessert spoon at the top center of the table cloth with the bowl pointing left</h3></font>
+<p> [you place+1 dessert_spoon+782004] [place+1 at+1 center+782006] [place+1 with+2 bowl+782001] [center+782006 related-to+3 tablecloth+782005] [center+782006 has_property+4 top] [bowl+782001 point+2 left] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        AT (
+            CENTER (
+                (tablecloth))) )) [
+POINT (
+    (bowl) 
+    (
+        OBJECT (
+            (left))))]
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; place the dinner plate in the center of the table cloth under the dessert spoon</h3></font>
+<p> [you place+1 dinner_plate+782010] [place+1 in+1 center+782013] [place+1 under+2 dessert_spoon+782011] [center+782013 related-to+3 tablecloth+782012] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        IN (
+            CENTER (
+                (tablecloth))) 
+        UNDER (
+            (dessert_spoon)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; place the bread plate to the left of the dessert spoon</h3></font>
+<p> [you place+1 bread_plate+782015] [place+1 to_the_left_of+1 dessert_spoon+782016]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        TO_THE_LEFT_OF (
+            (dessert_spoon)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; place the butter knife diagonally on the bread plate</h3></font>
+<p> [you place+1 butter_knife+782018] [place+1 has_modifier+1 diagonally] [place+1 on+2 bread_plate+782019]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) 
+        MANNER (
+            (diagonally)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; place the wine glass above the soup spoon </h3></font>
+<p> [you place+1 wine_glass+782021] [place+1 above+1 soup_spoon+782022]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ABOVE (
+            (soup_spoon)))) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; place the water glass next to the dessert spoon on the right side of the table cloth.</h3></font>
+<p> [you place+1 water_glass+782033] [place+1 next_to+1 dessert_spoon+782036] [place+1 on+2 side+782035] [side+782035 related-to+3 tablecloth+782034] [side+782035 has_property+4 right] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        NEXT_TO (
+            (dessert_spoon)) 
+        ON (
+            RIGHT_SIDE (
+                (tablecloth))))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; place the napkin in the middle of the dinner plate</h3></font>
+<p> [you place+1 napkin+782039] [place+1 in+1 middle+782041] [middle+782041 related-to+2 dinner_plate+782040] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            MIDDLE (
+                (dinner_plate))))) 
+</pre>
+<br><br><h1>Index: 3&nbsp;&nbsp;&nbsp; File: data_17.json&nbsp;&nbsp;&nbsp; Video: 1</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the dinner plate on the table cloth, in the center but towards the bottom</h3></font>
+<p> [you put+1 dinner_plate+782045] [put+1 on+1 tablecloth+782048] [put+1 in+2 center+782047] [put+1 towards+3 bottom+782046]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            (tablecloth)) 
+        IN (
+            (center)) 
+        TOWARDS (
+            (bottom)))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the salad plate on top of the dinner plate</h3></font>
+<p> [you put+1 salad_plate+782052] [put+1 on_top_of+1 dinner_plate+782053]</p>
+<pre>ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (salad_plate)))) 
+    (dinner_plate)) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; put the napkin on top of the salad plate </h3></font>
+<p> [you put+1 napkin+782057] [put+1 on_top_of+1 salad_plate+782058]</p>
+<pre>ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (napkin)))) 
+    (salad_plate)) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; put the wine glass on the top right corner of the table cloth</h3></font>
+<p> [you put+1 wine_glass+782067] [put+1 on+1 corner+782069] [corner+782069 related-to+2 tablecloth+782068] [corner+782069 has_property+3 top] [corner+782069 has_property+4 right] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ON (
+            CORNER (
+                (tablecloth))))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the water glass to the right of the wine glass and a little bit lower than the wine glass</h3></font>
+<p> [put+1 to_the_right_of+1 wine_glass+782090] [you put+1 water_glass+782089] [put+1 to_the_right_of+2 bit+782085] [bit+782085 has_property+3 little] [bit+782085 is+2 lower] [bit+782085 has_property+2 lower] [is+2 than+4 wine_glass+782087] [lower has_root low] [lower has_attribute comparative] [lower has_sign <]</p>
+<pre>TO_THE_RIGHT_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (water_glass)) 
+            TO_THE_RIGHT_OF (
+                (bit)))) 
+    (wine_glass)) 
+ROLES (
+    (bit) 
+    (wine_glass)) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the salad fork to the left of the dinner plate with the tines pointing upwards</h3></font>
+<p> [you put+1 salad+782091] [fork+782094 point+2 null] [point+2 has_modifier+1 upwards] [fork+782094 to_the_left_of+2 dinner_plate+782093] [fork+782094 with+3 tines+782092]</p>
+<pre>TO_THE_LEFT_OF (
+    (fork) 
+    (dinner_plate)) 
+WITH (
+    (fork) 
+    (tines)) 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad)))) 
+POINT (
+    (fork) 
+    (
+        MANNER (
+            (upwards)))) 
+</pre>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; put the dinner fork between the salad fork and the dinner plate tines facing upwards</h3></font>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; put the dinner knife to the right of the dinner plate with the blade facing towards the plate</h3></font>
+<p> [you put+1 dinner_knife+782124] [put+1 to_the_right_of+1 dinner_plate+782127] [put+1 with+2 blade_facing+782126] [put+1 towards+3 plate+782125]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_plate))  
+        TOWARDS (
+            (plate)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; put the soup spoon to the right of the dinner knife, its bowl facing up</h3></font>
+<p> [you put_up+1 soup_spoon+782136] [put_up+1 to_the_right_of+1 dinner_knife+782139] [put_up+1 with+2 bowl_facing+782138] [bowl_facing+782138 related-to+3 soup_spoon+782136]</p>
+<pre>PUT_UP (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)) )) 
+</pre>
+<br><br><h1>Index: 4&nbsp;&nbsp;&nbsp; File: data_56.json&nbsp;&nbsp;&nbsp; Video: 3</h1><font color='red'><h3> # 1.0&nbsp;&nbsp;&nbsp; Place the dinner plate on the lower side of the table cloth, and slightly to the left</h3></font>
+<font color='red'><h3> # 2.0&nbsp;&nbsp;&nbsp; Place the dinner fork directly to the left of the dinner plate with its tines pointed upward</h3></font>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; Place the salad fork, tines upward, to the left of the dinner fork, aligned to the centers of both forks</h3></font>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; Place the dinner knife directly to the right of the dinner plate, with its blade facing the dinner plate</h3></font>
+<p> [you place+1 dinner_knife+791864] [place+1 has_modifier+1 directly] [place+1 to_the_right_of+2 dinner_plate+791871] [place+1 with+3 blade+791870] [blade+791870 related-to+4 dinner_knife+791864] [dinner_knife+791864 face+2 dinner_plate+791865]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_plate)) 
+        WITH (
+            OF (
+                (blade) 
+                (dinner_knife))) 
+        MANNER (
+            (directly)))) 
+</pre>
+<font color='red'><h3> # 5.0&nbsp;&nbsp;&nbsp; Place the salad knife directly to the right of and slightly above the dinner knife, its blade toward the dinner plate</h3></font>
+<font color='red'><h3> # 6.0&nbsp;&nbsp;&nbsp; Place the soup spoon, bowl upward, directly to the right of the salad knife</h3></font>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; Place the water glass above and slightly to the right of the dinner plate</h3></font>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Place the wine glass directly to the right of the water glass</h3></font>
+<p> [you place+1 wine_glass+802919] [place+1 has_modifier+1 directly] [place+1 to_the_right_of+2 water_glass+802920]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)) 
+        MANNER (
+            (directly)))) 
+</pre>
+<font color='red'><h3> # 9.0&nbsp;&nbsp;&nbsp; Place the second wine glass above and slightly to the right of the soup spoon</h3></font>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; Place the coffee cup directly to the right of the soup spoon</h3></font>
+<p> [you place+1 coffee_cup+805942] [place+1 has_modifier+1 directly] [place+1 to_the_right_of+2 soup_spoon+805943]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        TO_THE_RIGHT_OF (
+            (soup_spoon)) 
+        MANNER (
+            (directly)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; Place the bread plate directly above the dinner fork</h3></font>
+<p> [you place+1 bread_plate+805945] [place+1 has_modifier+1 directly] [place+1 above+2 dinner_fork+805946]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (dinner_fork)) 
+        MANNER (
+            (directly)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; Place the butter knife, blade facing left, diagonally across the upper right side of the bread plate</h3></font>
+<p> [you place+1 butter_knife_blade+805961] [right_side+805966 has_property+1 upper] [right_side+805966 related-to+2 bread_plate+805965] [butter_knife_blade+805961 face+2 left+805964] [face+2 has_modifier+3 diagonally] [face+2 across+4 right_side+805966] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife_blade)))) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; Place the dessert fork horizontally above the dinner plate, with the tines toward the right</h3></font>
+<p> [you place+1 dessert_fork+805970] [place+1 has_modifier+1 horizontally] [place+1 above+2 dinner_plate+805973] [place+1 with+3 tines+805972] [place+1 toward+4 right+805971]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (dinner_plate))  
+        TOWARD (
+            (right)) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; Place the dessert spoon horizontally above the dessert fork, with the bowl to the left</h3></font>
+<p> [you place+1 dessert_spoon+805981] [place+1 has_modifier+1 horizontally] [place+1 above+2 dessert_fork+805984] [place+1 with+3 bowl+805983] [place+1 to+4 left+805982]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (dessert_fork))  
+        TO (
+            (left)) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; Place the napkin vertically across the center of the plate </h3></font>
+<p> [you place+1 napkin+805987] [place+1 has_modifier+1 vertically] [place+1 across+2 center+805989] [center+805989 related-to+3 plate+805988] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ACROSS (
+            CENTER (
+                (plate))) 
+        MANNER (
+            (vertically)))) 
+</pre>
+<br><br><h1>Index: 5&nbsp;&nbsp;&nbsp; File: data_143.json&nbsp;&nbsp;&nbsp; Video: 5</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the plate in the middle of the charger</h3></font>
+<p> [you put+1 plate+805992] [put+1 in+1 middle+805994] [middle+805994 related-to+2 charger+805993] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (plate)) 
+        IN (
+            MIDDLE (
+                (charger))))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Put the napkin on the plate</h3></font>
+<p> [you put+1 napkin+805996] [put+1 on+1 plate+805997]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)))) 
+</pre>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; Put the dinner fork to the left of the charger vertically, tines pointing upward</h3></font>
+<font color='red'><h3> # 4.0&nbsp;&nbsp;&nbsp; Put the salad fork to the left of the charger and left of the dinner fork, next to the dinner fork, tines pointing upward.</h3></font>
+<font color='red'><h3> # 5.0&nbsp;&nbsp;&nbsp; Put the dinner knife to the right of the charger horizontally, blade pointing upward.</h3></font>
+<font color='red'><h3> # 6.0&nbsp;&nbsp;&nbsp; Put the tea spoon to the right of the dinner knife horizontally, bowl pointing upward.</h3></font>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; Put the soup spoon next and to the right of the tea spoon, bowl upward, horizontally.</h3></font>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Put the water glass to the upper right side of the charger.</h3></font>
+<p> [you put+1 water_glass+806460] [put+1 to+1 side+806462] [side+806462 related-to+2 charger+806461] [side+806462 has_property+3 upper] [side+806462 has_property+4 right] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO (
+            RIGHT_SIDE (
+                (charger))))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; Put the wine glass to the right of the water glass.</h3></font>
+<p> [you put+1 wine_glass+806475] [put+1 to_the_right_of+1 water_glass+806476]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; Put the wine glass above the tea spoon and soup spoon.</h3></font>
+<p> [put+1 above+1 tea_spoon+806498] [you put+1 wine_glass+806496] [put+1 above+2 soup_spoon+806497]</p>
+<pre>ABOVE (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (wine_glass)) 
+            ABOVE (
+                (soup_spoon)))) 
+    (tea_spoon)) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; Put the coffee cup to the right of the wine glass.</h3></font>
+<p> [you put+1 coffee_cup+806507] [put+1 to_the_right_of+1 wine_glass+806508]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)))) 
+</pre>
+<font color='red'><h3> # 12.0&nbsp;&nbsp;&nbsp; Put the bread plate to the upper left of the charger, parallel to the coffee cup.</h3></font>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; Put the butter knife on the bread plate horizontally.</h3></font>
+<p> [you put+1 butter_knife+806535] [put+1 has_modifier+1 horizontally] [put+1 on+2 bread_plate+806536]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<font color='red'><h3> # 14.0&nbsp;&nbsp;&nbsp; Put the dessert fork between the bread plate and water glass vertically above the charger, tines pointing to the water glass.</h3></font>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; Put the dessert spoon above the charger, to the left of the water glass, bowl pointing to the bread plate.</h3></font>
+<p> [you put+1 dessert_spoon+806772] [put+1 above+1 charger+806775] [put+1 to_the_left_of+2 water_glass_bowl_pointing+806774] [put+1 to+3 bread_plate+806773]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (charger)) 
+        TO_THE_LEFT_OF (
+            (water_glass_bowl_pointing)) 
+        TO (
+            (bread_plate)))) 
+</pre>
+<br><br><h1>Index: 6&nbsp;&nbsp;&nbsp; File: data_114.json&nbsp;&nbsp;&nbsp; Video: 1</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the dinner plate on the bottom center of the table cloth</h3></font>
+<p> [you put+1 dinner_plate+806780] [put+1 on+1 bottom_center+806782] [bottom_center+806782 related-to+2 tablecloth+806781] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            OF (
+                (bottom_center) 
+                (tablecloth))))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Set the salad plate on the dinner plate</h3></font>
+<p> [you set+1 salad_plate+806784] [set+1 on+1 dinner_plate+806785]</p>
+<pre>SET (
+    (you) 
+    (
+        OBJECT (
+            (salad_plate)) 
+        ON (
+            (dinner_plate)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; Place the napkin in the center of the salad plate</h3></font>
+<p> [you place+1 napkin+806788] [place+1 in+1 center+806790] [center+806790 related-to+2 salad_plate+806789] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            CENTER (
+                (salad_plate))))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; Place the wine glass on the top right corner of the table cloth</h3></font>
+<p> [you place+1 wine_glass+806793] [place+1 on+1 corner+806795] [corner+806795 related-to+2 tablecloth+806794] [corner+806795 has_property+3 top] [corner+806795 has_property+4 right] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ON (
+            CORNER (
+                (tablecloth))))) 
+</pre>
+<font color='red'><h3> # 5.0&nbsp;&nbsp;&nbsp; Place the water glass diaganolly down from the wine glass on the right side</h3></font>
+<font color='red'><h3> # 6.0&nbsp;&nbsp;&nbsp; Place the salad fork on the bottom left side of the table cloth with the prongs pointing upward</h3></font>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; Place the dinner fork on the right of the salad fork with the prongs pointing upward</h3></font>
+<font color='red'><h3> # 8.0&nbsp;&nbsp;&nbsp; Place the dinner knife closely to the right side of the plate with the blade pointing upward</h3></font>
+<font color='red'><h3> # 9.0&nbsp;&nbsp;&nbsp; Place the soup spoon to the right of the dinner knife with the bowl placing upward</h3></font>
+<br><br><h1>Index: 7&nbsp;&nbsp;&nbsp; File: data_236.json&nbsp;&nbsp;&nbsp; Video: 1</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Place the dinner plate on the table cloth so that it touches the bottom edge while remaining </h3></font>
+<p> [place+1 has_purpose+2 while+3] [you place+1 dinner_plate+807027] [place+1 on+1 tablecloth+807028] [touch+2 while+3 remain+3] [dinner_plate+807027 touch+2 bottom_edge+807030] [dinner_plate+807027 remain+3 null] [touch+2 has_comp so_that] [while+3 is_clausal yes] [has_purpose+2 is_clausal yes]</p>
+<pre>MEANS (
+    (
+        PLACE (
+            (you) 
+            (
+                OBJECT (
+                    (dinner_plate)) 
+                ON (
+                    (tablecloth))))) 
+    WHILE (
+        TOUCH (
+            (dinner_plate) 
+            (
+                OBJECT (
+                    (bottom_edge)))) 
+        REMAIN (
+            (dinner_plate) 
+            (
+</pre>
+<font color='red'><h3> # 2.0&nbsp;&nbsp;&nbsp; Center the salad plate on the dinner plate.</h3></font>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; Center the napkin on the salad plate.</h3></font>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; Set the wine glass to the top right of the dinner plate so that it touches the table cloth edge.</h3></font>
+<p> [set+1 has_purpose+2 touch+2] [you set+1 wine_glass+807156] [set+1 to+1 top_right+807158] [dinner_plate+807157 touch+2 tablecloth_edge+807160] [top_right+807158 related-to+3 dinner_plate+807157] [touch+2 has_comp so_that] [has_purpose+2 is_clausal yes] [related-to+3 is_pp yes]</p>
+<pre>MEANS (
+    (
+        SET (
+            (you) 
+            (
+                OBJECT (
+                    (wine_glass)) 
+                TO (
+                    OF (
+                        (top_right) 
+                        (dinner_plate)))))) 
+    TOUCH (
+        (dinner_plate) 
+        (
+            OBJECT (
+                (tablecloth_edge))))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; Set the water glass to the lower right of the wine glass.</h3></font>
+<p> [you set+1 water_glass+807176] [set+1 to+1 right+807178] [right+807178 related-to+2 wine_glass+807177] [right+807178 has_property+3 lower] [related-to+2 is_pp yes] [lower has_root low] [lower has_attribute comparative] [lower has_sign <]</p>
+<pre>SET (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO (
+            OF (
+                (right) 
+                (wine_glass))))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; Place the salad fork on the left side of the dinner plate with the prongs pointing up.</h3></font>
+<p> [you place+1 salad_fork+807274] [place+1 on+1 left_side+807276] [place+1 with+2 prongs_pointing_up] [left_side+807276 related-to+3 dinner_plate+807275] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left_side) 
+                (dinner_plate))) )) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; Place the dinner fork to the right of the salad fork with the prongs pointed up.</h3></font>
+<p> [you place+1 dinner_fork+807350] [place+1 to_the_right_of+1 salad+807347] [fork+807349 with+2 prongs+807348] [fork+807349 point+2 null] [point+2 up+3 salad+807347]</p>
+<pre>WITH (
+    (fork) 
+    (prongs)) 
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_RIGHT_OF (
+            (salad)))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Set the dinner knife to the right of the dinner plate with the blade facing the dinner plate.</h3></font>
+<p> [you set+1 dinner_knife+807365] [set+1 to_the_right_of+1 dinner_plate+807366] [set+1 with+2 blade+807362] [blade+807362 face+2 dinner_plate+807363]</p>
+<pre>SET (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_plate)) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (dinner_plate))))]
+</pre>
+<font color='red'><h3> # 9.0&nbsp;&nbsp;&nbsp; Set the soup spoon the right of the dinner knife.</h3></font>
+<br><br><h1>Index: 8&nbsp;&nbsp;&nbsp; File: data_191.json&nbsp;&nbsp;&nbsp; Video: 2</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the dinner fork on the left of the table cloth, vertically.</h3></font>
+<p> [you put+1 dinner_fork+807392] [put+1 has_modifier+1 vertically] [put+1 on+2 left+807394] [left+807394 related-to+3 tablecloth+807393] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        ON (
+            OF (
+                (left) 
+                (tablecloth))) 
+        MANNER (
+            (vertically)))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Put the dinner knife on the right side of the tablecloth, vertically.</h3></font>
+<p> [you put+1 dinner_knife+807402] [put+1 has_modifier+1 vertically] [put+1 on+2 side+807404] [side+807404 related-to+3 tablecloth+807403] [side+807404 has_property+4 right] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            RIGHT_SIDE (
+                (tablecloth))) 
+        MANNER (
+            (vertically)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; Put the salad fork on the left of the dinner fork.</h3></font>
+<p> [you put+1 salad_fork+807420] [put+1 on+1 left+807422] [left+807422 related-to+2 dinner_fork+807421] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left) 
+                (dinner_fork))))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; Put the salad knife on the left of the dinner knife.</h3></font>
+<p> [you put+1 salad_knife+807434] [put+1 on+1 left+807436] [left+807436 related-to+2 dinner_knife+807435] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        ON (
+            OF (
+                (left) 
+                (dinner_knife))))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; Put the soup spoon on the right of the salad knife.</h3></font>
+<p> [you put+1 soup_spoon+807452] [put+1 on+1 right+807454] [right+807454 related-to+2 salad_knife+807453] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right) 
+                (salad_knife))))) 
+</pre>
+<font color='red'><h3> # 6.0&nbsp;&nbsp;&nbsp; Put the dessert spoon at the top of the tablecloth, horizontally, pointing left.</h3></font>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; Put the dessert spoon vertically on the tablecloth, right of the soup spoon.</h3></font>
+<p> [you put+1 dessert_spoon+807480] [put+1 has_modifier+1 vertically] [put+1 on+2 tablecloth_right+807482] [tablecloth_right+807482 related-to+3 soup_spoon+807481] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ON (
+            OF (
+                (tablecloth_right) 
+                (soup_spoon))) 
+        MANNER (
+            (vertically)))) 
+</pre>
+<font color='red'><h3> # 8.0&nbsp;&nbsp;&nbsp; Put the dessert spoon at the top of the tablecloth, horizontal and pointing left.</h3></font>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; Put the dinner plate on the table cloth, right under the dessert spoon.</h3></font>
+<p> [you put+1 dinner_plate+807499] [put+1 on+1 tablecloth_right+807501] [put+1 under+2 dessert_spoon+807500]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            (tablecloth_right)) 
+        UNDER (
+            (dessert_spoon)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; Put the bread plate to the left of the bowl of the dessert spoon.</h3></font>
+<p> [you put+1 bread_plate+807517] [put+1 to_the_left_of+1 bowl+807519] [put+1 of+2 dessert_spoon+807518]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        TO_THE_LEFT_OF (
+            (bowl)) 
+        OF (
+            (dessert_spoon)))) 
+</pre>
+<font color='red'><h3> # 11.0&nbsp;&nbsp;&nbsp; Put the butter knife on the top left of the bread plate diagonally with the blade facing down.</h3></font>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; Put the wine glass above the soup spoon.</h3></font>
+<p> [you put+1 wine_glass+807957] [put+1 above+1 soup_spoon+807958]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ABOVE (
+            (soup_spoon)))) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; Put the water glass between the wine glass and dessert spoon.</h3></font>
+<p> [you put+1 water_glass+807978] [put+1 between+1 wine_glass+807980] [put+1 between+2 dessert_spoon+807979]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        BETWEEN (
+            (wine_glass)) 
+        BETWEEN (
+            (dessert_spoon)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; Put the napkin on the dinner plate.</h3></font>
+<p> [you put+1 napkin+807985] [put+1 on+1 dinner_plate+807986]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (dinner_plate)))) 
+</pre>
+<br><br><h1>Index: 9&nbsp;&nbsp;&nbsp; File: data_200.json&nbsp;&nbsp;&nbsp; Video: 3</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Place the dinner plate toward the bottom of the table cloth.</h3></font>
+<p> [you place+1 dinner_plate+807994] [place+1 toward+1 bottom+807996] [bottom+807996 related-to+2 tablecloth+807995] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        TOWARD (
+            BOTTOM (
+                (tablecloth))))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Place the dinner fork closely to left side of the plate</h3></font>
+<p> [you place+1 dinner_fork+808003] [place+1 has_modifier+1 closely] [place+1 to+2 side+808005] [side+808005 related-to+3 plate+808004] [side+808005 has_property+4 left] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO (
+            LEFT_SIDE (
+                (plate))) 
+        MANNER (
+            (closely)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; Place the salad fork closely to the left of the dinner fork</h3></font>
+<p> [you place+1 salad_fork+808007] [place+1 has_modifier+1 closely] [place+1 to_the_left_of+2 dinner_fork+808008]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_fork)) 
+        MANNER (
+            (closely)))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; Place the dinner knife close to the right of the plate</h3></font>
+<p> [you place+1 dinner_knife+808010] [right+808014 related-to+1 plate+808013] [dinner_knife+808010 is+2 close] [dinner_knife+808010 has_property+2 close] [is+2 to+2 right+808014] [related-to+1 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; Place the salad knife to the right of the dinner knife</h3></font>
+<p> [you place+1 salad_knife+808016] [place+1 to_the_right_of+1 dinner_knife+808017]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; Place the soup spoon to the left of the salad knife</h3></font>
+<p> [you place+1 soup_spoon+808019] [place+1 to_the_left_of+1 salad_knife+808020]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_LEFT_OF (
+            (salad_knife)))) 
+</pre>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; Place the water glass on the top right side of the plate, but not past the dinner knife.</h3></font>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Place the wine glass to the right of the water glass and above the spoon.</h3></font>
+<p> [glass+808075 to_the_right_of+1 water+808074] [glass+808077 above+2 spoon+808076]</p>
+<pre>TO_THE_RIGHT_OF (
+    (glass) 
+    (water)) 
+ABOVE (
+    (glass) 
+    (spoon)) 
+(place) 
+(wine) 
+</pre>
+<font color='red'><h3> # 9.0&nbsp;&nbsp;&nbsp; Place the second wine glass to the right but slightly below the first wine glass.</h3></font>
+<font color='red'><h3> # 10.0&nbsp;&nbsp;&nbsp; Place the coffee cup to the right of the spoon and directly below the second wine glass.</h3></font>
+<font color='red'><h3> # 11.0&nbsp;&nbsp;&nbsp; Place the bread plate above and to the left of the dinner plate, and directly above the forks.</h3></font>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; Place the butter knife on the top right corner of the bread plate, its blade pointing upper left</h3></font>
+<p> [you place+1 butter_knife+817872] [place+1 on+1 right_corner+817874] [place+1 with+2 blade+817866] [right_corner+817874 related-to+3 bread_plate+817873] [right_corner+817874 has_property+4 top] [left+817868 has_property+5 upper] [blade+817866 related-to+6 bread_plate+817873] [blade+817866 point+2 left+817868] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            OF (
+                (right_corner) 
+                (bread_plate))) )) [
+POINT (
+    OF (
+        (blade) 
+        (bread_plate)) 
+    (
+        OBJECT (
+            (left))))]
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; Place the dessert fork immediately above the dinner plate, with the tines facing the water glass.</h3></font>
+<p> [you place+1 dessert_fork+817880] [place+1 has_modifier+1 immediately] [place+1 above+2 dinner_plate+817884] [place+1 with+3 tines+817883] [dessert_fork+817880 face+2 water_glass]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (dinner_plate))  
+        MANNER (
+            (immediately)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; Place the dessert spoon above the dessert fork, aligned to its two ends, with the bowl of the spoon facing the bread plate.</h3></font>
+<p> [place+818541 face+1 bread_plate+818552] [ends+818551 has_quantity+1 two] [ends+818551 related-to+2 dessert_spoon+818543] [dessert_spoon+818543 above+3 dessert_fork+818542] [dessert_spoon+818543 align+2 place+818541] [align+2 to+4 ends+818551] [align+2 with+5 bowl+818549] [align+2 of+6 spoon+818548]</p>
+<pre>ABOVE (
+    (dessert_spoon) 
+    (dessert_fork)) 
+FACE (
+    (place) 
+    (
+        OBJECT (
+            (bread_plate)))) 
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; Place the napkin in the center of the dinner plate so that it is parallel with the dinner and salad forks.</h3></font>
+<p> [is+2 with+3 dinner+818594] [place+1 has_purpose+2 is+2] [you place+1 napkin+818587] [place+1 in+1 center+818589] [dinner_plate+818588 is+2 parallel] [dinner_plate+818588 has_property+2 parallel] [is+2 with+4 salad_forks+818593] [center+818589 related-to+5 dinner_plate+818588] [is+2 has_comp so_that] [has_purpose+2 is_clausal yes] [related-to+5 is_pp yes]</p>
+<pre>WITH (
+    PROPERTY (
+        (dinner_plate) 
+        (
+            OBJECT (
+                (parallel)) 
+            WITH (
+                (salad_forks)))) 
+    (dinner)) 
+MEANS (
+    (
+        PLACE (
+            (you) 
+            (
+                OBJECT (
+                    (napkin)) 
+                IN (
+                    CENTER (
+                        (dinner_plate)))))) 
+    PROPERTY (
+        (dinner_plate) 
+        (
+            OBJECT (
+                (parallel)) 
+            WITH (
+                (salad_forks))))) 
+</pre>
+<br><br><h1>Index: 10&nbsp;&nbsp;&nbsp; File: data_7.json&nbsp;&nbsp;&nbsp; Video: 5</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the plate in the center of the charger.</h3></font>
+<p> [you put+1 plate+818602] [put+1 in+1 center+818604] [center+818604 related-to+2 charger+818603] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (plate)) 
+        IN (
+            CENTER (
+                (charger))))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Put the napkin vertically in the middle of the plate</h3></font>
+<p> [you put+1 napkin+818607] [put+1 has_modifier+1 vertically] [put+1 in+2 middle+818609] [middle+818609 related-to+3 plate+818608] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            MIDDLE (
+                (plate))) 
+        MANNER (
+            (vertically)))) 
+</pre>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; Put the fork on the left of charger with its tines pointing up</h3></font>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; Put the salad fork on left of dinner fork</h3></font>
+<p> [you put+1 salad_fork+818620] [put+1 on+1 left+818622] [left+818622 related-to+2 dinner_fork+818621] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left) 
+                (dinner_fork))))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; Put the dinner knife on right of charger with its blade facing the charger</h3></font>
+<p> [you put+1 dinner_knife+818629] [put+1 on+1 right+818631] [put+1 with+2 blade+818623] [right+818631 related-to+3 charger+818630] [blade+818623 related-to+4 charger+818630] [blade+818623 face+2 charger+818625] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            OF (
+                (right) 
+                (charger))) 
+        WITH (
+            OF (
+                (blade) 
+                (charger))))) [
+FACE (
+    OF (
+        (blade) 
+        (charger)) 
+    (
+        OBJECT (
+            (charger))))]
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; Put tea spoon on right side of knife.</h3></font>
+<p> [you put+1 tea_spoon+818647] [put+1 on+1 side+818649] [side+818649 related-to+2 knife+818648] [side+818649 has_property+3 right] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (tea_spoon)) 
+        ON (
+            RIGHT_SIDE (
+                (knife))))) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; Put soup spoon on right side of tea spoon.</h3></font>
+<p> [you put+1 soup_spoon+818669] [put+1 on+1 right_side+818671] [right_side+818671 related-to+2 tea_spoon+818670] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right_side) 
+                (tea_spoon))))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Place the water glass slightly above the space between knife and charger.</h3></font>
+<p> [you place+1 water_glass+818688] [place+1 has_modifier+1 slightly] [place+1 above+2 space+818691] [place+1 between+3 knife+818690] [place+1 between+4 charger+818689]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (space)) 
+        BETWEEN (
+            (knife)) 
+        BETWEEN (
+            (charger)) 
+        MANNER (
+            (slightly)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; Place the wine glass slightly to right of water glass.</h3></font>
+<p> [you place+1 wine_glass+818707] [place+1 has_modifier+1 slightly] [place+1 to+2 right+818709] [right+818709 related-to+3 water_glass+818708] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO (
+            OF (
+                (right) 
+                (water_glass))) 
+        MANNER (
+            (slightly)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; Place second wine glass slightly below the first wine glass.</h3></font>
+<p> [you place+1 wine_glass+818714] [place+1 has_modifier+1 slightly] [place+1 below+2 wine_glass+818715] [wine_glass+818714 has_property+3 second] [wine_glass+818715 has_property+4 first]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        BELOW (
+            (wine_glass)) 
+        MANNER (
+            (slightly)))) 
+</pre>
+<font color='red'><h3> # 11.0&nbsp;&nbsp;&nbsp; Set the coffee cup slightly above and to the right of soup spoon.</h3></font>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; Place the bread plate above the forks.</h3></font>
+<p> [you place+1 bread_plate+818749] [place+1 above+1 forks+818750]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (forks)))) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; Place the butter knife horizontally across the middle of bread plate.</h3></font>
+<p> [you place+1 butter_knife+818762] [place+1 has_modifier+1 horizontally] [place+1 across+2 middle+818764] [middle+818764 related-to+3 bread_plate+818763] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ACROSS (
+            OF (
+                (middle) 
+                (bread_plate))) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; Place the dessert fork horizontally above charger, its tines pointing toward the glasses</h3></font>
+<p> [you place+1 dessert_fork+818765] [place+1 has_modifier+1 horizontally] [place+1 above+2 charger] [place+1 with+3 tines+818771] [tines+818771 related-to+4 dessert_fork+818765] [dessert_fork+818765 point+2 null] [point+2 toward+5 glasses+818767]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (charger)) 
+        WITH (
+            OF (
+                (tines) 
+                (dessert_fork))) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; Place the dessert spoon below dessert fork, pointing toward bread plate.</h3></font>
+<p> [you place+1 dessert_spoon+818815] [place+1 below+1 dessert_fork+818812] [dessert_fork+818812 point+2 null] [point+2 toward+2 bread_plate+818814]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        BELOW (
+            (dessert_fork)))) 
+</pre>
+<br><br><h1>Index: 11&nbsp;&nbsp;&nbsp; File: data_187.json&nbsp;&nbsp;&nbsp; Video: 2</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; place the dinner fork on the left side of the table cloth with the prongs facing upwards</h3></font>
+<p> [you place+1 dinner_fork+818819] [place+1 has_modifier+1 upwards] [place+1 on+2 left_side+818822] [place+1 with+3 prongs_facing+818820] [left_side+818822 related-to+4 tablecloth+818821] [related-to+4 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        ON (
+            OF (
+                (left_side) 
+                (tablecloth)))  
+        MANNER (
+            (upwards)))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; place the knife on the right side of the table cloth with the blade facing the fork</h3></font>
+<p> [you place+1 knife+818827] [place+1 on+1 side+818829] [place+1 with+2 blade+818823] [side+818829 related-to+3 tablecloth+818828] [side+818829 has_property+4 right] [blade+818823 face+2 fork+818824] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (knife)) 
+        ON (
+            RIGHT_SIDE (
+                (tablecloth))) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (fork))))]
+</pre>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; place the salad fork to the left of the dinner fork with the prongs facing upward</h3></font>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; place the salad knife to the right of the dinner knife with the blade facing the left side</h3></font>
+<p> [you place+1 salad_knife+818945] [place+1 to_the_right_of+1 dinner_knife+818946] [place+1 with+2 blade+818942] [side+818943 has_property+3 left] [blade+818942 face+2 side+818943]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (side))))]
+</pre>
+<font color='red'><h3> # 5.0&nbsp;&nbsp;&nbsp; place the soup spoon to the right of the salad knife with the bowl facing upward</h3></font>
+<font color='red'><h3> # 6.0&nbsp;&nbsp;&nbsp; place the dessert spoon at the top of the table cloth with the bowl horizontally facing the forks</h3></font>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; place the dessert spoon to the right of the soup spoon with the bowl facing upward </h3></font>
+<font color='red'><h3> # 8.0&nbsp;&nbsp;&nbsp; place the dessert spoon at the top of the table cloth with the bowl horizontally facing the forks</h3></font>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; place the dinner plate in between the forks and knives </h3></font>
+<p> [you place+1 dinner_plate+819140] [place+1 between+1 forks+819142] [place+1 between+2 knives+819141]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        BETWEEN (
+            (forks)) 
+        BETWEEN (
+            (knives)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; place the bread plate above the forks</h3></font>
+<p> [you place+1 bread_plate+819144] [place+1 above+1 forks+819145]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (forks)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; place the butter knife on top of the bread plate with the blade facing the forks</h3></font>
+<p> [you place+1 butter_knife+819157] [place+1 on_top_of+1 bread_plate+819158] [place+1 with+2 blade+819154] [blade+819154 face+2 forks+819155]</p>
+<pre>ON_TOP_OF (
+    PLACE (
+        (you) 
+        (
+            OBJECT (
+                (butter_knife)) 
+            WITH (
+                (blade)))) 
+    (bread_plate)) 
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (forks)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; place the wine glass above the soup spoon</h3></font>
+<p> [you place+1 wine_glass+782021] [place+1 above+1 soup_spoon+782022]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ABOVE (
+            (soup_spoon)))) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; place the water glass above the dinner knife </h3></font>
+<p> [you place+1 water_glass+819162] [place+1 above+1 dinner_knife+819163]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (dinner_knife)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; place the napkin on top of the dinner plate</h3></font>
+<p> [you place+1 napkin+819165] [place+1 on_top_of+1 dinner_plate+819166]</p>
+<pre>ON_TOP_OF (
+    PLACE (
+        (you) 
+        (
+            OBJECT (
+                (napkin)))) 
+    (dinner_plate)) 
+</pre>
+<br><br><h1>Index: 12&nbsp;&nbsp;&nbsp; File: data_30.json&nbsp;&nbsp;&nbsp; Video: 3</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the dinner plate at the bottom centre of the table cloth</h3></font>
+<p> [you put+1 dinner_plate+819171] [put+1 at+1 bottom_centre+819173] [bottom_centre+819173 related-to+2 tablecloth+819172] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        AT (
+            OF (
+                (bottom_centre) 
+                (tablecloth))))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the dinner fork to the left of the dinner plate</h3></font>
+<p> [you put+1 dinner_fork+819177] [put+1 to_the_left_of+1 dinner_plate+819178]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_plate)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; put the salad fork to the left of the dinner fork</h3></font>
+<p> [you put+1 salad_fork+819184] [put+1 to_the_left_of+1 dinner_fork+819185]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_fork)))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; put the dinner knife to the right of the dinner plate</h3></font>
+<p> [you put+1 dinner_knife+819187] [put+1 to_the_right_of+1 dinner_plate+819188]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_plate)))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the salad knife to the right of the dinner knife</h3></font>
+<p> [you put+1 salad_knife+819192] [put+1 to_the_right_of+1 dinner_knife+819193]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the soup spoon to the right of the salad knife</h3></font>
+<p> [you put+1 soup_spoon+819199] [put+1 to_the_right_of+1 salad_knife+819200]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (salad_knife)))) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; put the water glass above the dinner knife</h3></font>
+<p> [you put+1 water_glass+819204] [put+1 above+1 dinner_knife+819205]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (dinner_knife)))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; put the wine glass to the right of the water glass</h3></font>
+<p> [you put+1 wine_glass+819211] [put+1 to_the_right_of+1 water_glass+819212]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; put the wine glass to the right of the wine glass</h3></font>
+<p> [you put+1 wine_glass+819218] [put+1 to_the_right_of+1 wine_glass+819218]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; put the coffee cup to the right of the soup spoon</h3></font>
+<p> [you put+1 coffee_cup+819222] [put+1 to_the_right_of+1 soup_spoon+819223]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        TO_THE_RIGHT_OF (
+            (soup_spoon)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; put the bread plate above the dinner fork</h3></font>
+<p> [you put+1 bread_plate+819229] [put+1 above+1 dinner_fork+819230]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (dinner_fork)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; put the butter knife on the bread plate, pointing top left</h3></font>
+<p> [you put+1 butter_knife+819254] [put+1 on+1 bread_plate+819252] [left+819253 has_property+2 top] [bread_plate+819252 point+2 left+819253]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)))) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; put the dessert fork above the dinner plate, pointing right</h3></font>
+<p> [you put+1 dessert_fork+819266] [put+1 above+1 dinner_plate+819265] [dinner_plate+819265 point+2 right]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (dinner_plate)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; put the dessert spoon above the dessert fork, pointing left</h3></font>
+<p> [you put+1 dessert_spoon+819291] [put+1 above+1 dessert_fork+819289] [dessert_fork+819289 point+2 left+819290]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (dessert_fork)))) 
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; put the napkin on the dinner plate</h3></font>
+<p> [you put+1 napkin+819293] [put+1 on+1 dinner_plate+819294]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (dinner_plate)))) 
+</pre>
+<br><br><h1>Index: 13&nbsp;&nbsp;&nbsp; File: data_67.json&nbsp;&nbsp;&nbsp; Video: 3</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the dinner plate at the bottom of the table cloth in the center</h3></font>
+<p> [you put+1 dinner_plate+819298] [put+1 at+1 bottom+819301] [put+1 in+2 center+819299] [bottom+819301 related-to+3 tablecloth+819300] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        AT (
+            BOTTOM (
+                (tablecloth))) 
+        IN (
+            (center)))) 
+</pre>
+<font color='red'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the dinner fork on the left side of the dinner plate with the tines pointing up</h3></font>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; put the salad fork on the left side of the dinner fork with the tines pointing up</h3></font>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; put the dinner knife at the right side of the plate with the blade up</h3></font>
+<p> [you put_up+1 dinner_knife+819449] [put_up+1 at+1 side+819452] [put_up+1 with+2 blade+819450] [side+819452 related-to+3 plate+819451] [side+819452 has_property+4 right] [related-to+3 is_pp yes]</p>
+<pre>PUT_UP (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        AT (
+            RIGHT_SIDE (
+                (plate))) )) 
+</pre>
+<font color='red'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the salad knife on the right side of the dinner knife with the blade up</h3></font>
+<font color='red'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the soup spoon on the right side of the salad knife with the bowl up</h3></font>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; put the water glass above the dinner knife and the dinner plate</h3></font>
+<p> [put+1 above+1 dinner_knife+819511] [you put+1 water_glass+819509] [put+1 above+2 dinner_plate+819510]</p>
+<pre>ABOVE (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (water_glass)) 
+            ABOVE (
+                (dinner_plate)))) 
+    (dinner_knife)) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; put the wine glass to the right of the water glass</h3></font>
+<p> [you put+1 wine_glass+819211] [put+1 to_the_right_of+1 water_glass+819212]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; put the wine glass to the right of the wine glass</h3></font>
+<p> [you put+1 wine_glass+819218] [put+1 to_the_right_of+1 wine_glass+819218]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; put the coffee cup to the right of the soup spoon</h3></font>
+<p> [you put+1 coffee_cup+819222] [put+1 to_the_right_of+1 soup_spoon+819223]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        TO_THE_RIGHT_OF (
+            (soup_spoon)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; put the bread plate above the forks</h3></font>
+<p> [you put+1 bread_plate+819515] [put+1 above+1 forks+819516]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (forks)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; put the butter knife on the bread plate diagonally with the blade facing upper left</h3></font>
+<p> [you put+1 butter_knife+819533] [put+1 has_modifier+1 diagonally] [put+1 on+2 bread_plate+819530] [put+1 with+3 blade+819534] [left+819531 has_property+4 upper] [bread_plate+819530 face+2 left+819531]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate))  
+        MANNER (
+            (diagonally)))) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; put the dessert fork horizontally above the plate, with its tines to the right</h3></font>
+<p> [you put+1 dessert_fork+819541] [put+1 has_modifier+1 horizontally] [put+1 above+2 plate+819545] [put+1 with+3 tines+819544] [put+1 to+4 right+819542] [tines+819544 related-to+5 dessert_fork+819541]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (plate)) 
+        WITH (
+            OF (
+                (tines) 
+                (dessert_fork))) 
+        TO (
+            (right)) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; put the dessert spoon horizontally above the dessert fork, with its bowl to the left</h3></font>
+<p> [you put+1 dessert_spoon+819554] [put+1 has_modifier+1 horizontally] [put+1 above+2 dessert_fork+819558] [put+1 with+3 bowl+819557] [put+1 to+4 left+819555] [bowl+819557 related-to+5 dessert_spoon+819554]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (dessert_fork)) 
+        WITH (
+            OF (
+                (bowl) 
+                (dessert_spoon))) 
+        TO (
+            (left)) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; put the napkin on the plate</h3></font>
+<p> [you put+1 napkin+819560] [put+1 on+1 plate+819561]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)))) 
+</pre>
+<br><br><h1>Index: 14&nbsp;&nbsp;&nbsp; File: data_31.json&nbsp;&nbsp;&nbsp; Video: 5</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the plate on the charger</h3></font>
+<p> [you put+1 plate+819563] [put+1 on+1 charger+819564]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (plate)) 
+        ON (
+            (charger)))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Place the napkin on the plate</h3></font>
+<p> [you place+1 napkin+819566] [place+1 on+1 plate+819567]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; Place the dinner fork to the left of the charger with its prong facing upwards</h3></font>
+<p> [you place+1 dinner_fork+819572] [place+1 has_modifier+1 upwards] [place+1 to_the_left_of+2 charger+819575] [place+1 with+3 prong_facing+819574] [prong_facing+819574 related-to+4 dinner_fork+819572]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_LEFT_OF (
+            (charger))  
+        MANNER (
+            (upwards)))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; Place the salad fork to the left of the dinner fork with its prong facing upwards</h3></font>
+<p> [you place+1 salad_fork+819583] [place+1 has_modifier+1 upwards] [place+1 to_the_left_of+2 dinner_fork+819586] [place+1 with+3 prong_facing+819585] [prong_facing+819585 related-to+4 salad_fork+819583]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_fork)) 
+        WITH (
+            OF (
+                (prong_facing) 
+                (salad_fork))) 
+        MANNER (
+            (upwards)))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; Place the dinner knife to the right of the charger with its blade facing upwards</h3></font>
+<p> [you place+1 dinner_knife+819590] [place+1 has_modifier+1 upwards] [place+1 to_the_right_of+2 charger+819593] [place+1 with+3 blade_facing+819592] [blade_facing+819592 related-to+4 dinner_knife+819590]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (charger))  
+        MANNER (
+            (upwards)))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; Place the tea spoon to the right of the dinner knife with its bowl facing upwards</h3></font>
+<p> [you place+1 tea_spoon+819598] [place+1 has_modifier+1 upwards] [place+1 to_the_right_of+2 dinner_knife+819601] [place+1 with+3 bowl_facing+819600] [bowl_facing+819600 related-to+4 tea_spoon+819598]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (tea_spoon)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife))  
+        MANNER (
+            (upwards)))) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; Place the soup spoon to the right of the tea spoon with its bowl facing upwards</h3></font>
+<p> [you place+1 soup_spoon+819609] [place+1 has_modifier+1 upwards] [place+1 to_the_right_of+2 tea_spoon+819612] [place+1 with+3 bowl_facing+819611] [bowl_facing+819611 related-to+4 soup_spoon+819609]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (tea_spoon)) 
+        WITH (
+            OF (
+                (bowl_facing) 
+                (soup_spoon))) 
+        MANNER (
+            (upwards)))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Place the water glass above the dinner knife</h3></font>
+<p> [you place+1 water_glass+819616] [place+1 above+1 dinner_knife+819617]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (dinner_knife)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; Place the wine glass to the right of the water glass and above the soup spoon</h3></font>
+<p> [you place+1 wine_glass+819626] [place+1 to_the_right_of+1 water_glass+819628] [place+1 above+2 soup_spoon+819627]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)) 
+        ABOVE (
+            (soup_spoon)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; Place another wine glass between the wine glass and the soup spoon</h3></font>
+<p> [wine_glass+819632 has_property+1 another] [wine_glass+819632 between+2 wine_glass+819631]</p>
+<pre>BETWEEN (
+    (wine_glass) 
+    (wine_glass)) 
+(place) 
+(soup_spoon) 
+</pre>
+<font color='red'><h3> # 11.0&nbsp;&nbsp;&nbsp; Place the coffee cup to the right of, and above the soup spoon</h3></font>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; Place the bread plate above the dinner and salad forks</h3></font>
+<p> [bread_plate+819672 above+1 dinner+819671]</p>
+<pre>ABOVE (
+    (bread_plate) 
+    (dinner)) 
+(place) 
+(salad_forks) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; Place the butter knife horizontally on the bread plate with its bowl facing right.</h3></font>
+<p> [you place+1 butter_knife+819710] [place+1 has_modifier+1 horizontally] [place+1 on+2 bread_plate+819717] [place+1 with+3 bowl+819716] [bowl+819716 related-to+4 butter_knife+819710] [butter_knife+819710 face+2 right+819711]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) 
+        WITH (
+            OF (
+                (bowl) 
+                (butter_knife))) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; Place the dessert fork horizontally between the bread plate and the water glass</h3></font>
+<p> [you place+1 dessert_fork+819726] [place+1 has_modifier+1 horizontally] [place+1 between+2 bread_plate+819728] [place+1 between+3 water_glass+819727]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        BETWEEN (
+            (bread_plate)) 
+        BETWEEN (
+            (water_glass)) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; Place the dessert spoon horizontally below the dessert fork.</h3></font>
+<p> [you place+1 dessert_spoon+819733] [place+1 has_modifier+1 horizontally] [place+1 below+2 dessert_fork+819734]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        BELOW (
+            (dessert_fork)) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<br><br><h1>Index: 15&nbsp;&nbsp;&nbsp; File: data_237.json&nbsp;&nbsp;&nbsp; Video: 1</h1><font color='red'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the dinner plate on the table cloth, d and a little toward the bottom edge of the cloth</h3></font>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Place the salad plate on top of the dinner plate in the very center of the plate</h3></font>
+<p> [you place+1 salad_plate+819789] [place+1 on_top_of+1 dinner_plate+819792] [place+1 in+2 center+819791] [center+819791 related-to+3 plate+819790] [related-to+3 is_pp yes]</p>
+<pre>ON_TOP_OF (
+    PLACE (
+        (you) 
+        (
+            OBJECT (
+                (salad_plate)) 
+            IN (
+                CENTER (
+                    (plate))))) 
+    (dinner_plate)) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; Place the folded napkin onto the salad plate, with the folded triangle pointing downwards</h3></font>
+<p> [somebody fold+1 napkin+819797] [somebody fold+2 triangle_pointing+819798] [you place+3 napkin+819797] [place+3 has_modifier+1 downwards] [place+3 onto+2 salad_plate+819799] [place+3 with+3 triangle_pointing+819798] [napkin+819797 has_property+4 folded] [triangle_pointing+819798 has_property+5 folded] [napkin+819797 is_topic yes] [fold+1 has_surface_subject napkin+819797] [triangle_pointing+819798 is_topic yes] [fold+2 has_surface_subject triangle_pointing+819798]</p>
+<pre>ONTO (
+    PLACE (
+        (you) 
+        (
+            OBJECT (
+                (napkin)) 
+            WITH (
+                (triangle_pointing)) 
+            MANNER (
+                (downwards)))) 
+    (salad_plate)) 
+FOLD (
+    (somebody) 
+    (
+        OBJECT (
+            (napkin)))) 
+FOLD (
+    (somebody) 
+    (
+        OBJECT (
+            (triangle_pointing)))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; Place the wine glass in the top right corner of the table cloth, slightly away from the corner</h3></font>
+<p> [you place+1 wine_glass+819815] [place+1 has_modifier+1 slightly] [place+1 in+2 right_corner+819817] [place+1 away+3 from_the_corner] [right_corner+819817 related-to+4 tablecloth+819816] [right_corner+819817 has_property+5 top] [related-to+4 is_pp yes]</p>
+<pre>AWAY (
+    PLACE (
+        (you) 
+        (
+            OBJECT (
+                (wine_glass)) 
+            IN (
+                OF (
+                    (right_corner) 
+                    (tablecloth))) 
+            MANNER (
+                (slightly)))) 
+    (from_the_corner)) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; Place the water glass next to the wine glass, slightly below to the right of the wine glass</h3></font>
+<p> [you place+1 water_glass+819826] [place+1 has_modifier+1 below+819829] [place+1 next_to+2 wine_glass+819828] [place+1 to_the_right_of+3 wine_glass+819827] [below+819829 has_intensifier+4 slightly]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        NEXT_TO (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)) 
+        MANNER (
+            (below)))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; Place the salad fork to the left side of the table cloth, at the height of the plate</h3></font>
+<p> [you place+1 salad_fork+819838] [place+1 to+1 side+819842] [place+1 at+2 height+819840] [side+819842 related-to+3 tablecloth+819841] [side+819842 has_property+4 left] [height+819840 related-to+5 plate+819839] [related-to+3 is_pp yes] [related-to+5 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO (
+            LEFT_SIDE (
+                (tablecloth))) 
+        AT (
+            OF (
+                (height) 
+                (plate))))) 
+</pre>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; place the dinner fork, tines up, between the salad fork and the dinner plate</h3></font>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; place the knife, blade facing the plate, close to the right side of the plate</h3></font>
+<p> [place+830619 face+1 plate+830620] [place+830619 is-a+2 knife_blade+830625] [right_side+830624 related-to+1 plate+830623] [plate+830620 is+3 close] [plate+830620 has_property+3 close] [is+3 to+2 right_side+830624] [plate+830620 has_rel_clause+3 is+3] [related-to+1 is_pp yes]</p>
+<pre>FACE (
+    (place) 
+    (
+        OBJECT (
+            (plate)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; place the soup spoon between the knife and the edge of the cloth, below the glasses</h3></font>
+<p> [spoon+830630 between+1 knife+830629] [edge+830633 related-to+2 cloth+830632] [edge+830633 below+3 glasses+830631] [related-to+2 is_pp yes]</p>
+<pre>BETWEEN (
+    (spoon) 
+    (knife)) 
+BELOW (
+    EDGE (
+        (cloth)) 
+    (glasses)) 
+(place) 
+(soup) 
+</pre>
+<br><br><h1>Index: 16&nbsp;&nbsp;&nbsp; File: data_11.json&nbsp;&nbsp;&nbsp; Video: 3</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Place the dinner plate at the bottom center of the table cloth.</h3></font>
+<p> [you place+1 dinner_plate+830643] [place+1 at+1 bottom_center+830645] [bottom_center+830645 related-to+2 tablecloth+830644] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_plate)) 
+</pre>
+<font color='red'><h3> # 2.0&nbsp;&nbsp;&nbsp; Place the dinner fork to the left of the dinner plate with the tines pointing upward.</h3></font>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; Place the salad fork to the left of the dinner fork, parallel to the dinner fork.</h3></font>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; Place the dinner knife to the right of the dinner plate with the blade pointing up.</h3></font>
+<p> [you place+1 dinner_knife+830867] [place+1 to_the_right_of+1 dinner_plate+830868] [place+1 with+2 blade_pointing_up]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_knife)) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; Place the salad knife to the right of the dinner knife, with the tips of the blades at the same level.</h3></font>
+<p> [you place+1 salad_knife+830886] [place+1 to_the_right_of+1 dinner_knife+830890] [place+1 with+2 tips+830889] [place+1 at+3 level+830887] [tips+830889 related-to+4 blades+830888] [level+830887 has_property+5 the_same] [related-to+4 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (salad_knife)) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; Place the soup spoon to the right of the salad knife, with the bowl pointing up.</h3></font>
+<p> [you place+1 soup_spoon+830946] [place+1 to_the_right_of+1 salad_knife+830947] [place+1 with+2 bowl_pointing_up]</p>
+<pre>PLACE (
+    (you) 
+    (soup_spoon)) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; Place the water glass above the dinner knife and slightly to the left. </h3></font>
+<p> [place+1 above+1 dinner_knife+830971] [you place+1 water_glass+830970] [place+1 above+2 to_the_left]</p>
+<pre>ABOVE (
+    PLACE (
+        (you) 
+        (water_glass)) 
+    (dinner_knife)) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Place the wine glass to the right of the water glass so that it is above soup spoon.</h3></font>
+<p> [place+1 has_purpose+2 be+2] [you place+1 wine_glass+831003] [place+1 to_the_right_of+1 water_glass+831004] [wine_glass+831003 be+2 null] [be+2 above+3 soup_spoon+831007] [be+2 has_comp so_that] [has_purpose+2 is_clausal yes]</p>
+<pre>MEANS (
+    (
+        PLACE (
+            (you) 
+            (wine_glass))) 
+    BE (
+        (wine_glass) 
+        (
+            ABOVE (
+                (soup_spoon))))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; Place another wine glass to the right of the first wine glass, d at bottom of the first glass.</h3></font>
+<p> [you place+1 wine_glass] [place+1 to_the_right_of+1 wine_glass_d] [place+1 at+2 bottom] [wine_glass has_property+3 another] [wine_glass_d has_property+4 first] [bottom related-to+5 first_glass] [related-to+5 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (wine_glass)) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; Place the coffee cup to the right of the spoon and below the second wine glass. </h3></font>
+<p> [you place+1 coffee_cup+831019] [place+1 to_the_right_of+1 spoon+831021] [place+1 below+2 wine_glass+831020] [wine_glass+831020 has_property+3 second]</p>
+<pre>TO_THE_RIGHT_OF (
+    (coffee_cup) 
+    (spoon)) 
+BELOW (
+    (coffee_cup) 
+    (wine_glass)) 
+(place) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; Place the bread plate just above the forks, d on the dinner fork.</h3></font>
+<p> [you place+1 bread_plate] [place+1 has_modifier+1 just] [place+1 above+2 forks_d] [place+1 on+3 dinner_fork]</p>
+<pre>PLACE (
+    (you) 
+    (bread_plate)) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; Put the butter knife across the top right of the bread plate, with its blade at the top and handle to the right.</h3></font>
+<p></p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ACROSS (
+            OF (
+                (right) 
+                (bread))) 
+        ACROSS (
+            (plate)) 
+        WITH (
+            OF (
+                (blade) 
+                (bread))) 
+        AT (
+            (top)) 
+        AT (
+            (handle)) 
+        TO (
+            (right)))) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; Place the dessert fork above the dinner plate with the tines pointing to the right.</h3></font>
+<p> [you place+1 dessert_fork+831059] [place+1 above+1 dinner_plate+831060] [place+1 with+2 tines+831057] [tines+831057 point+2 to_the_right]</p>
+<pre>PLACE (
+    (you) 
+    (dessert_fork)) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; Place the dessert spoon above the dessert fork with the bowl pointing to the left.</h3></font>
+<p> [you place+1 dessert_spoon+831113] [place+1 above+1 dessert_fork+831114] [place+1 with+2 bowl+831109] [bowl+831109 point+2 null] [point+2 to+3 left+831111]</p>
+<pre>PLACE (
+    (you) 
+    (dessert_spoon)) 
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; Place the napkin vertically on the dinner plate.</h3></font>
+<p> [you place+1 napkin+831119] [place+1 has_modifier+1 vertically] [place+1 on+2 dinner_plate+831120]</p>
+<pre>PLACE (
+    (you) 
+    (napkin)) 
+</pre>
+<br><br><h1>Index: 17&nbsp;&nbsp;&nbsp; File: data_124.json&nbsp;&nbsp;&nbsp; Video: 4</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the charger in the center of the table, aligned with the bottom edge.</h3></font>
+<p> [you put+1 charger+831165] [put+1 in+1 center+831166] [center+831166 related-to+2 table+831161] [somebody align+2 table+831161] [align+2 with+3 bottom_edge+831163] [related-to+2 is_pp yes] [table+831161 is_topic yes] [align+2 has_surface_subject table+831161] [align+2 has_voice passive] [align+2 passive_aux be]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        IN (
+            CENTER (
+                (table))))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Put the Dinner Fork to the left of the Charger, aligned vertically. with the tines facing up.</h3></font>
+<p> [you put+1 dinner+831173] [fork+831175 to_the_left_of+1 charger+831174] [fork+831175 align+2 dinner+831173] [align+2 has_modifier+2 vertically]</p>
+<pre>TO_THE_LEFT_OF (
+    (fork) 
+    (charger)) 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; Put the Dinner Knife to the right of the plate with the blade facing in towards the plate.</h3></font>
+<p> [you put_in+1 dinner_knife+831192] [put_in+1 to_the_right_of+1 plate+831195] [put_in+1 with+2 blade_facing+831194] [put_in+1 towards+3 plate+831193]</p>
+<pre>PUT_IN (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (plate))  
+        TOWARDS (
+            (plate)))) 
+</pre>
+<font color='red'><h3> # 4.0&nbsp;&nbsp;&nbsp; Place the Salad Fork to the left of the Dinner Fork with the tines facing upward.</h3></font>
+<font color='red'><h3> # 5.0&nbsp;&nbsp;&nbsp; Place the salad knife to the right of the Dinner Knife with the blade facing in towards the plate.</h3></font>
+<font color='red'><h3> # 6.0&nbsp;&nbsp;&nbsp; Place the Soup Spoon to the right of the Salad Knife, with the bowl of the spoon facing upward.</h3></font>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; Place the Dessert Spoon d above the plate with the bowl facing left.</h3></font>
+<p> [place+831511 face+1 left] [place+831511 is-a+2 dessert_spoon_d] [is-a+2 above+1 plate+831515] [is-a+2 with+2 bowl+831514]</p>
+<pre>FACE (
+    (place) 
+    (
+        OBJECT (
+            (left)))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Center the Dessert Fork above the plate and below the Dessert Spoon, with the tines facing right.</h3></font>
+<p> [center face+1 right] [dessert_fork+831531 face+2 right] [dessert_fork+831531 above+1 plate+831530] [dessert_fork+831531 below+2 dessert_spoon] [dessert_fork+831531 with+3 tines+831529] [face+1 has_conjunction and] [face+2 has_conjunction and]</p>
+<pre>ABOVE (
+    (dessert_fork) 
+    (plate)) 
+BELOW (
+    (dessert_fork) 
+    (dessert_spoon)) 
+WITH (
+    (dessert_fork) 
+    (tines)) 
+FACE (
+    (center) 
+    (
+        OBJECT (
+            (right)))) 
+FACE (
+    (dessert_fork) 
+    (
+        OBJECT (
+            (right)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; Place the Bread Plate to the left of the dessert spoon and above the Salad fork.</h3></font>
+<p> [bread_plate+831547 to_the_left_of+1 dessert_spoon+831546] [bread_plate+831547 above+2 salad_fork+831545]</p>
+<pre>PLACE (
+    (you) 
+    (bread_plate)) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; Place the butter knife diagonally across the bread plate with the blade facing left</h3></font>
+<p> [you place+1 butter_knife+831560] [place+1 has_modifier+1 diagonally] [place+1 across+2 bread_plate+831565] [place+1 with+3 blade+831564] [butter_knife+831560 face+2 left+831561]</p>
+<pre>PLACE (
+    (you) 
+    (butter_knife)) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; Place the water glass above the Salad Knife and to the right of the Dessert Fork. </h3></font>
+<p> [you place+1 water_glass+831585] [place+1 above+1 salad_knife+831587] [place+1 to_the_right_of+2 dessert_fork+831586]</p>
+<pre>PLACE (
+    (you) 
+    (water_glass)) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; Place the napkin in the center of the plate.</h3></font>
+<p> [you place+1 napkin+831595] [place+1 in+1 center+831597] [center+831597 related-to+2 plate+831596] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (napkin)) 
+</pre>
+<br><br><h1>Index: 18&nbsp;&nbsp;&nbsp; File: data_28.json&nbsp;&nbsp;&nbsp; Video: 4</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the charger on the table, aligned to the bottom of the table cloth.</h3></font>
+<p> [you put+1 charger+831633] [put+1 on+1 table+831628] [bottom+831632 related-to+2 tablecloth+831631] [somebody align+2 table+831628] [align+2 to+3 bottom+831632] [related-to+2 is_pp yes] [table+831628 is_topic yes] [align+2 has_surface_subject table+831628] [align+2 has_voice passive] [align+2 passive_aux be]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        ON (
+            (table)))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Put the dinner fork to the left of the charger</h3></font>
+<p> [you put+1 dinner_fork+831637] [put+1 to_the_left_of+1 charger+831638]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_LEFT_OF (
+            (charger)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; Put the dinner knife to the right of the charger with the blade facing the charger.</h3></font>
+<p> [you put+1 dinner_knife+831653] [put+1 to_the_right_of+1 charger+831654] [put+1 with+2 blade+831650] [blade+831650 face+2 charger+831651]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (charger)) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (charger))))]
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; Put the salad fork to the left of the dinner fork, d in height to the dinner fork</h3></font>
+<p> [you put+1 salad_fork] [put+1 to_the_left_of+1 dinner_fork_d] [put+1 in+2 height] [put+1 to+3 dinner_fork]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_fork_d)) 
+        IN (
+            (height)) 
+        TO (
+            (dinner_fork)))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the salad knife to the right of the dinner knife with the blade facing the dinner knife.</h3></font>
+<p> [you put+1 salad_knife+831681] [put+1 to_the_right_of+1 dinner_knife+831682] [put+1 with+2 blade+831678] [blade+831678 face+2 dinner_knife+831679]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (dinner_knife))))]
+</pre>
+<font color='red'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the soup spoon to the right of the salad knife, d in height to the knife.</h3></font>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; Put the dessert spoon horizontally above the charger, with the bowl of the spoon to the left </h3></font>
+<p> [you put+1 dessert_spoon+831715] [put+1 has_modifier+1 horizontally] [put+1 above+2 charger+831719] [put+1 with+3 bowl+831718] [put+1 of+4 spoon+831717] [put+1 to+5 left+831716]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (charger))  
+        OF (
+            (spoon)) 
+        TO (
+            (left)) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Put the dessert fork below the dessert spoon with the prongs facing right.</h3></font>
+<p> [you put+1 dessert_fork+831776] [put+1 below+1 dessert_spoon+831777] [put+1 with+2 prongs+831773] [prongs+831773 face+2 right+831774]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        BELOW (
+            (dessert_spoon)) )) [
+FACE (
+    (prongs) 
+    (
+        OBJECT (
+            (right))))]
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; Put the bread plate to the upper left of the dinner plate.</h3></font>
+<p> [you put+1 bread_plate+831789] [put+1 to+1 left+831791] [left+831791 related-to+2 dinner_plate+831790] [left+831791 has_property+3 upper] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        TO (
+            OF (
+                (left) 
+                (dinner_plate))))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; Put the butter knife on the bread plate at a 45-degree angle with the blade pointing to the upper left.</h3></font>
+<p> [you put+1 butter_knife+831834] [put+1 on+1 bread_plate] [put+1 at+2 45-degree_angle+831835] [put+1 with+3 blade+831830] [left+831832 has_property+4 upper] [blade+831830 point+2 null] [point+2 to+5 left+831832]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) 
+        AT (
+            (degree_angle)) )) [
+POINT (
+    (blade) 
+    (
+        TO (
+            (left))))]
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; Put the water glass to the upper right of the plate, just above the salad knife.</h3></font>
+<p> [you put+1 water_glass+831854] [put+1 has_modifier+1 just] [put+1 to+2 right+831857] [put+1 above+3 salad_knife+831855] [right+831857 related-to+4 plate+831856] [right+831857 has_property+5 upper] [related-to+4 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO (
+            OF (
+                (right) 
+                (plate))) 
+        ABOVE (
+            (salad_knife)) 
+        MANNER (
+            (just)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; Put the napkin on the center of the plate.</h3></font>
+<p> [you put+1 napkin+831865] [put+1 on+1 center+831867] [center+831867 related-to+2 plate+831866] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            CENTER (
+                (plate))))) 
+</pre>
+<br><br><h1>Index: 19&nbsp;&nbsp;&nbsp; File: data_131.json&nbsp;&nbsp;&nbsp; Video: 4</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the charger in the bottom center of the table cloth</h3></font>
+<p> [you put+1 charger+831872] [put+1 in+1 bottom_center+831874] [bottom_center+831874 related-to+2 tablecloth+831873] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        IN (
+            OF (
+                (bottom_center) 
+                (tablecloth))))) 
+</pre>
+<font color='red'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the fork to the left of the charger with the tines facing up</h3></font>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; put the knife to the right of the charger with the point facing up and the blade facing the charger</h3></font>
+<font color='red'><h3> # 4.0&nbsp;&nbsp;&nbsp; put the salad fork to the left of the dinner fork with the tines facing up</h3></font>
+<font color='red'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the salad knife to the left of and parallel to the dinner knife</h3></font>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the soup spoon to the left of the salad knife with the handle facing down</h3></font>
+<p> [you put_down+1 soup_spoon+832046] [put_down+1 to_the_left_of+1 salad_knife+832048] [put_down+1 with+2 handle_facing+832047]</p>
+<pre>PUT_DOWN (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_LEFT_OF (
+            (salad_knife)) )) 
+</pre>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; put the dessert spoon above the center of the charger, perpendicular to the other silverware, pointing left</h3></font>
+<font color='red'><h3> # 8.0&nbsp;&nbsp;&nbsp; put the dessert fork above the charger and below the dessert spoon with the tines facing right</h3></font>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; put the bread plate above the salad fork and to the left of the dessert spoon</h3></font>
+<p> [you put+1 bread_plate+832098] [put+1 above+1 salad_fork+832100] [put+1 to_the_left_of+2 dessert_spoon+832099]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dessert_spoon)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; put the butter diagonally on the bread plate with the tip pointing to the top left corner of the table cloth</h3></font>
+<p> [you put+1 butter+832127] [put+1 has_modifier+1 diagonally] [put+1 on+2 bread_plate+832135] [put+1 with+3 tip+832134] [corner+832131 has_property+4 left] [corner+832131 has_property+5 top] [corner+832131 related-to+6 tablecloth+832130] [butter+832127 point+2 null] [point+2 to+7 corner+832131] [related-to+6 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter)) 
+        ON (
+            (bread_plate))  
+        MANNER (
+            (diagonally)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; put the water glass above the salad knife and to the right of the dessert fork</h3></font>
+<p> [you put+1 water_glass+832144] [put+1 above+1 salad_knife+832146] [put+1 to_the_right_of+2 dessert_fork+832145]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dessert_fork)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; put the napkin on the center of the plate </h3></font>
+<p> [you put+1 napkin+832149] [put+1 on+1 center+832151] [center+832151 related-to+2 plate+832150] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            CENTER (
+                (plate))))) 
+</pre>
+<br><br><h1>Index: 20&nbsp;&nbsp;&nbsp; File: data_218.json&nbsp;&nbsp;&nbsp; Video: 5</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the plate on the charger</h3></font>
+<p> [you put+1 plate+832153] [put+1 on+1 charger+832154]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (plate)) 
+        ON (
+            (charger)))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the napkin on the plate</h3></font>
+<p> [you put+1 napkin+819560] [put+1 on+1 plate+819561]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; place the dinner fork to the left of the charger</h3></font>
+<p> [you place+1 dinner_fork+832156] [place+1 to_the_left_of+1 charger+832157]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_fork)) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; place the salad fork to the left of the dinner fork</h3></font>
+<p> [you place+1 salad_fork+832159] [place+1 to_the_left_of+1 dinner_fork+832160]</p>
+<pre>PLACE (
+    (you) 
+    (salad_fork)) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; place the dinner knife to the right of the charger, with the blade facing the charger</h3></font>
+<p> [you place+1 dinner_knife+832167] [place+1 to_the_right_of+1 charger+832168] [place+1 with+2 blade+832164] [blade+832164 face+2 charger+832165]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_knife)) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; place the tea spoon to the right of the dinner knife</h3></font>
+<p> [you place+1 tea_spoon+832170] [place+1 to_the_right_of+1 dinner_knife+832171]</p>
+<pre>PLACE (
+    (you) 
+    (tea_spoon)) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; place the soup spoon to the right of the tea spoon</h3></font>
+<p> [you place+1 soup_spoon+832173] [place+1 to_the_right_of+1 tea_spoon+832174]</p>
+<pre>PLACE (
+    (you) 
+    (soup_spoon)) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; place the water glass above the dinner knife</h3></font>
+<p> [you place+1 water_glass+819162] [place+1 above+1 dinner_knife+819163]</p>
+<pre>PLACE (
+    (you) 
+    (water_glass)) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; place the wine glass to the right of the water glass</h3></font>
+<p> [you place+1 wine_glass+832180] [place+1 to_the_right_of+1 water_glass+832181]</p>
+<pre>PLACE (
+    (you) 
+    (wine_glass)) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; place the wine glass bellow the wine glass, above the spoons</h3></font>
+<p> [you place+1 wine+832183] [glass+832184 bellow+2 wine_glass+832186] [bellow+2 above+1 spoons+832187]</p>
+<pre>PLACE (
+    (you) 
+    (wine)) 
+BELLOW (
+    (glass) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ABOVE (
+            (spoons)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; place the coffee cup to the right of the wine glass</h3></font>
+<p> [you place+1 coffee_cup+832189] [place+1 to_the_right_of+1 wine_glass+832190]</p>
+<pre>PLACE (
+    (you) 
+    (coffee_cup)) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; place the bread plate above the forks</h3></font>
+<p> [you place+1 bread_plate+819144] [place+1 above+1 forks+819145]</p>
+<pre>PLACE (
+    (you) 
+    (bread_plate)) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; place the butter knife on the bread plate with the blade facing the left</h3></font>
+<p> [you place+1 butter_knife+832205] [place+1 on+1 bread_plate+832206] [place+1 with+2 blade+832202] [blade+832202 face+2 left+832203]</p>
+<pre>PLACE (
+    (you) 
+    (butter_knife)) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; place the desert fork above the charger with the tines facing the right</h3></font>
+<p> [you place+1 fork+832214] [place+1 above+1 charger+832215] [place+1 with+2 tines+832211] [fork+832214 has_property+3 desert] [tines+832211 face+2 right+832212]</p>
+<pre>PLACE (
+    (you) 
+    (fork)) 
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; place the dessert spoon below the dessert fork, with the bowl facing the left</h3></font>
+<p> [you place+1 dessert_spoon+832252] [place+1 below+1 dessert_fork+832253] [place+1 with+2 bowl+832249] [bowl+832249 face+2 left+832250]</p>
+<pre>PLACE (
+    (you) 
+    (dessert_spoon)) 
+</pre>
+<br><br><h1>Index: 21&nbsp;&nbsp;&nbsp; File: data_12.json&nbsp;&nbsp;&nbsp; Video: 2</h1><font color='red'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the dinner fork at the bottom left of the table cloth</h3></font>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the dinner knife at the bottom right of the table cloth, its blade facing left</h3></font>
+<p> [you put+1 dinner_knife+832276] [put+1 at+1 bottom_right+832278] [put+1 with+2 blade+832270] [bottom_right+832278 related-to+3 tablecloth+832277] [blade+832270 related-to+4 tablecloth+832277] [blade+832270 face+2 left+832272] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        AT (
+            OF (
+                (bottom_right) 
+                (tablecloth))) )) [
+FACE (
+    OF (
+        (blade) 
+        (tablecloth)) 
+    (
+        OBJECT (
+            (left))))]
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; put the salad fork on the left of the fork</h3></font>
+<p> [you put+1 salad_fork+832283] [put+1 on+1 left+832285] [left+832285 related-to+2 fork+832284] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left) 
+                (fork))))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; put the salad knife on the right of the knife, its blade facing left</h3></font>
+<p> [you put+1 salad_knife+832300] [put+1 on+1 right+832302] [put+1 with+2 blade+832294] [right+832302 related-to+3 knife+832301] [blade+832294 related-to+4 knife+832301] [blade+832294 face+2 left+832296] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        ON (
+            OF (
+                (right) 
+                (knife))) 
+        WITH (
+            OF (
+                (blade) 
+                (knife))))) [
+FACE (
+    OF (
+        (blade) 
+        (knife)) 
+    (
+        OBJECT (
+            (left))))]
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the soup spoon on the right of the salad knife</h3></font>
+<p> [you put+1 soup_spoon+832309] [put+1 on+1 right+832311] [right+832311 related-to+2 salad_knife+832310] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right) 
+                (salad_knife))))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the dessert spoon at the top center of the table cloth, its bowl pointing left</h3></font>
+<p> [you put+1 dessert_spoon+832334] [put+1 at+1 center+832336] [put+1 with+2 bowl+832328] [center+832336 related-to+3 tablecloth+832335] [center+832336 has_property+4 top] [bowl+832328 related-to+5 tablecloth+832335] [bowl+832328 point+2 left+832330] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        AT (
+            CENTER (
+                (tablecloth))) 
+        WITH (
+            OF (
+                (bowl) 
+                (tablecloth))))) [
+POINT (
+    OF (
+        (bowl) 
+        (tablecloth)) 
+    (
+        OBJECT (
+            (left))))]
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; move the dessert spoon to the right of the soup spoon, its bowl pointing up</h3></font>
+<p> [you move+1 dessert_spoon+832371] [move+1 to_the_right_of+1 soup_spoon+832373] [move+1 with+2 bowl_pointing_up] [bowl_pointing_up related-to+3 dessert_spoon+832371]</p>
+<pre>MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        TO_THE_RIGHT_OF (
+            (soup_spoon)) )) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; move the dessert spoon back to the top center of the table cloth, its bowl pointing left</h3></font>
+<p> [you move+1 dessert_spoon+832539] [back+832544 to+1 top_center+832543] [back+832544 with+2 bowl_pointing+832541] [bowl_pointing+832541 related-to+3 tablecloth+832542] [top_center+832543 related-to+4 tablecloth+832542] [back+832544 leave+2 dessert_spoon+832539] [related-to+4 is_pp yes]</p>
+<pre>TO (
+    (back) 
+    OF (
+        (top_center) 
+        (tablecloth))) 
+WITH (
+    (back) 
+    OF (
+        (bowl_pointing) 
+        (tablecloth))) 
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; put the dinner plate between the forks and the knives</h3></font>
+<p> [you put+1 dinner_plate+832547] [put+1 between+1 forks+832549] [put+1 between+2 knives+832548]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        BETWEEN (
+            (forks)) 
+        BETWEEN (
+            (knives)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; put the bread plate on the top left of the table cloth, above the forks</h3></font>
+<p> [you put+1 bread+832550] [bread+832550 related-to+1 tablecloth+832554] [plate+832552 on+2 top+832551] [plate+832552 leave+2 bread+832550] [leave+2 above+3 forks+832555] [related-to+1 is_pp yes]</p>
+<pre>ON (
+    (plate) 
+    (top)) 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            OF (
+                (bread) 
+                (tablecloth))))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; put the butter knife diagonally on the bread plate, its blate pointing down left</h3></font>
+<p> [you put+1 butter_knife+832565] [put+1 has_modifier+1 diagonally] [put+1 on+2 bread_plate] [put+1 with+3 blate] [blate related-to+4 butter_knife+832565] [butter_knife+832565 point+2 null] [point+2 down+5 left]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) 
+        WITH (
+            OF (
+                (blate) 
+                (butter_knife))) 
+        MANNER (
+            (diagonally)))) 
+</pre>
+<font color='red'><h3> # 12.0&nbsp;&nbsp;&nbsp; put the wine glass above the soup sppon</h3></font>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; put the water glass above the knives</h3></font>
+<p> [you put+1 water_glass+832571] [put+1 above+1 knives+832572]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (knives)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; put the napkin on the dinner plate</h3></font>
+<p> [you put+1 napkin+819293] [put+1 on+1 dinner_plate+819294]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (dinner_plate)))) 
+</pre>
+<br><br><h1>Index: 22&nbsp;&nbsp;&nbsp; File: data_146.json&nbsp;&nbsp;&nbsp; Video: 4</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the charger in the bottom center side of the table</h3></font>
+<p> [you put+1 charger+832581] [put+1 in+1 bottom_center_side+832583] [bottom_center_side+832583 related-to+2 table+832582] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        IN (
+            OF (
+                (bottom_center_side) 
+                (table))))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the dinner fork on the left side of the charger</h3></font>
+<p> [you put+1 dinner_fork+832590] [put+1 on+1 side+832592] [side+832592 related-to+2 charger+832591] [side+832592 has_property+3 left] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        ON (
+            LEFT_SIDE (
+                (charger))))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; put the dinner knife on the right side of the charger</h3></font>
+<p> [you put+1 dinner_knife+832595] [put+1 on+1 side+832597] [side+832597 related-to+2 charger+832596] [side+832597 has_property+3 right] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            RIGHT_SIDE (
+                (charger))))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; put the salad fork on the left side of the dinner fork</h3></font>
+<p> [you put+1 salad_fork+832606] [put+1 on+1 left_side+832608] [left_side+832608 related-to+2 dinner_fork+832607] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left_side) 
+                (dinner_fork))))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the salad knife on the right side of the dinner knife</h3></font>
+<p> [you put+1 salad_knife+832615] [put+1 on+1 side+832617] [side+832617 related-to+2 dinner_knife+832616] [side+832617 has_property+3 right] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        ON (
+            OF (
+                (side) 
+                (dinner_knife))))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the soup spoon on the right side of the salad knife</h3></font>
+<p> [you put+1 soup_spoon+832626] [put+1 on+1 right_side+832628] [right_side+832628 related-to+2 salad_knife+832627] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right_side) 
+                (salad_knife))))) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; put the dessert spoon on the top side of the charger with the bowl pointing left</h3></font>
+<p> [you put+1 dessert_spoon+832645] [put+1 on+1 side+832647] [put+1 with+2 bowl+832641] [side+832647 related-to+3 charger+832646] [side+832647 has_property+4 top] [bowl+832641 point+2 left+832642] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ON (
+            SIDE (
+                (charger))) )) [
+POINT (
+    (bowl) 
+    (
+        OBJECT (
+            (left))))]
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; put the dessert fork between the dessert spoon and the charger with the prongs pointing right</h3></font>
+<p> [you put+1 dessert_fork+832657] [put+1 between+1 dessert_spoon+832659] [put+1 between+2 charger+832658] [put+1 with+3 prongs_pointing_right]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        BETWEEN (
+            (dessert_spoon)) 
+        BETWEEN (
+            (charger)) )) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; put the bread plate above the forks</h3></font>
+<p> [you put+1 bread_plate+819515] [put+1 above+1 forks+819516]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (forks)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; put the butter knife on the bread plate diagonally with blade pointing top left</h3></font>
+<p> [you put+1 butter_knife+832684] [put+1 has_modifier+1 diagonally] [put+1 on+2 bread_plate+832681] [put+1 with+3 blade+832685] [left+832682 has_property+4 top] [bread_plate+832681 point+2 left+832682]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate))  
+        MANNER (
+            (diagonally)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; put the water glass above the knifes</h3></font>
+<p> [you put+1 water_glass] [put+1 above+1 knifes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (knifes)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; put the napkin on the plate</h3></font>
+<p> [you put+1 napkin+819560] [put+1 on+1 plate+819561]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)))) 
+</pre>
+<br><br><h1>Index: 23&nbsp;&nbsp;&nbsp; File: data_111.json&nbsp;&nbsp;&nbsp; Video: 1</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the dinner plate on the table cloth</h3></font>
+<p> [you put+1 dinner_plate+832687] [put+1 on+1 tablecloth+832688]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            (tablecloth)))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the salad plate on the dinner plate</h3></font>
+<p> [you put+1 salad_plate+832692] [put+1 on+1 dinner_plate+832693]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_plate)) 
+        ON (
+            (dinner_plate)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; put the napkin on the salad plate</h3></font>
+<p> [you put+1 napkin+832697] [put+1 on+1 salad_plate+832698]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (salad_plate)))) 
+</pre>
+<font color='red'><h3> # 4.0&nbsp;&nbsp;&nbsp; put the wine glass on the table cloth, up and more on the right than the plate</h3></font>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the water glass next to the wine glass, slightly down</h3></font>
+<p> [you put_down+1 water_glass+832704] [put_down+1 has_modifier+1 slightly] [put_down+1 next_to+2 wine_glass+832705]</p>
+<pre>PUT_DOWN (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        NEXT_TO (
+            (wine_glass)) 
+        MANNER (
+            (slightly)))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the salad fork on the left of the plates</h3></font>
+<p> [you put+1 salad_fork+832710] [put+1 on+1 left+832712] [left+832712 related-to+2 plates+832711] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left) 
+                (plates))))) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; put the dinner fork between the salad fork and the dinner plate</h3></font>
+<p> [you put+1 dinner_fork+832720] [put+1 between+1 salad+832723] [put+1 between+2 fork+832722] [put+1 between+3 dinner_plate+832721]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        BETWEEN (
+            (salad)) 
+        BETWEEN (
+            (fork)) 
+        BETWEEN (
+            (dinner_plate)))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; put the dinner knife on the right of the dinner plate</h3></font>
+<p> [you put+1 dinner_knife+832726] [put+1 on+1 right+832728] [right+832728 related-to+2 dinner_plate+832727] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            OF (
+                (right) 
+                (dinner_plate))))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; put the soup spoon on the right of the dinner knife</h3></font>
+<p> [you put+1 soup_spoon+832733] [put+1 on+1 right+832735] [right+832735 related-to+2 dinner_knife+832734] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right) 
+                (dinner_knife))))) 
+</pre>
+<br><br><h1>Index: 24&nbsp;&nbsp;&nbsp; File: data_185.json&nbsp;&nbsp;&nbsp; Video: 1</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; move the dinner plate to the center of the table cloth</h3></font>
+<p> [you move+1 dinner_plate+832738] [move+1 to+1 center+832740] [center+832740 related-to+2 tablecloth+832739] [related-to+2 is_pp yes]</p>
+<pre>MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        TO (
+            CENTER (
+                (tablecloth))))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the salad plate in the center of the dinner plate</h3></font>
+<p> [you put+1 salad_plate+832745] [put+1 in+1 center+832747] [center+832747 related-to+2 dinner_plate+832746] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_plate)) 
+        IN (
+            CENTER (
+                (dinner_plate))))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; put the napkin in the center of the salad plate</h3></font>
+<p> [you put+1 napkin+832752] [put+1 in+1 center+832754] [center+832754 related-to+2 salad_plate+832753] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            CENTER (
+                (salad_plate))))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; put the wine glass to the top right corner of the table cloth</h3></font>
+<p> [you put+1 wine_glass+832763] [put+1 to+1 corner+832765] [corner+832765 related-to+2 tablecloth+832764] [corner+832765 has_property+3 top] [corner+832765 has_property+4 right] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO (
+            CORNER (
+                (tablecloth))))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the water glass to the bottom right of the wine glass</h3></font>
+<p> [you put+1 water_glass+832774] [put+1 to+1 bottom_right+832776] [bottom_right+832776 related-to+2 wine_glass+832775] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO (
+            OF (
+                (bottom_right) 
+                (wine_glass))))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the salad fork to the left of the dinner plate</h3></font>
+<p> [you put+1 salad_fork+832780] [put+1 to_the_left_of+1 dinner_plate+832781]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_plate)))) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; put the dinner fork to the right of the salad fork</h3></font>
+<p> [you put+1 dinner_fork+832787] [put+1 to_the_right_of+1 salad_fork+832788]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_RIGHT_OF (
+            (salad_fork)))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; put the dinner knife to the right of the dinner plate</h3></font>
+<p> [you put+1 dinner_knife+819187] [put+1 to_the_right_of+1 dinner_plate+819188]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_plate)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; put the soup spoon to the right of the knife</h3></font>
+<p> [you put+1 soup_spoon+832792] [put+1 to_the_right_of+1 knife+832793]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (knife)))) 
+</pre>
+<br><br><h1>Index: 25&nbsp;&nbsp;&nbsp; File: data_8.json&nbsp;&nbsp;&nbsp; Video: 2</h1><font color='red'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the dinner fork on the left of the table cloth with its tine pointing upward.</h3></font>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the dinner fork to the right of the table cloth with its blade pointing towards the fork</h3></font>
+<p> [you put+1 dinner_fork+832825] [put+1 to_the_right_of+1 tablecloth+832826] [put+1 with+2 blade+832819] [blade+832819 related-to+3 dinner_fork+832825] [blade+832819 point+2 null] [point+2 towards+4 fork+832822]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_RIGHT_OF (
+            (tablecloth)) 
+        WITH (
+            OF (
+                (blade) 
+                (dinner_fork))))) [
+POINT (
+    OF (
+        (blade) 
+        (dinner_fork)) 
+    (
+        TOWARDS (
+            (fork))))]
+</pre>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; put the salad fork to the left of the dinner fork with its tines pointing upward.</h3></font>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; put the salad knife to the right of the dinner knife</h3></font>
+<p> [you put+1 salad_knife+819192] [put+1 to_the_right_of+1 dinner_knife+819193]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)))) 
+</pre>
+<font color='red'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the soup spoon to the right of the salad knife with its bowl pointing upward.</h3></font>
+<font color='red'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the desert spoon on the top of the table cloth with its bowl pointing leftwards </h3></font>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; move the dessert spoon to the right of the soup spoon with its bowl pointing upward</h3></font>
+<font color='red'><h3> # 8.0&nbsp;&nbsp;&nbsp; move the dessert spoon to the top of the table cloth and rotate 90 degrees conterclockwise</h3></font>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; place the diner plate between the dinner fork and the dinner knife</h3></font>
+<p> [plate+833060 between+1 dinner+833059]</p>
+<pre>BETWEEN (
+    (plate) 
+    (dinner)) 
+(place) 
+(diner) 
+(fork) 
+(dinner_knife) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; put the bread plate on top of the salad fork and to the left of the dessert spoon</h3></font>
+<p> [you put+1 bread_plate+833071] [put+1 on_top_of+1 salad_fork+833073] [put+1 to_the_left_of+2 dessert_spoon+833072]</p>
+<pre>ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (bread_plate)) 
+            TO_THE_LEFT_OF (
+                (dessert_spoon)))) 
+    (salad_fork)) 
+</pre>
+<font color='red'><h3> # 11.0&nbsp;&nbsp;&nbsp; put the butter knife on top of the bread plate, pointing downward and to the left</h3></font>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; put the wine glass on top of the soup spoon</h3></font>
+<p> [you put+1 wine_glass+833240] [put+1 on_top_of+1 soup_spoon+833241]</p>
+<pre>ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (wine_glass)))) 
+    (soup_spoon)) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; put the water glass to the left of the wine glass and to the right of the dessert spoon</h3></font>
+<p> [you put+1 water_glass+833250] [put+1 to_the_left_of+1 wine_glass+833252] [put+1 to_the_right_of+2 dessert_spoon+833251]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO_THE_LEFT_OF (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (dessert_spoon)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; put the napkin on top of the dinner plate</h3></font>
+<p> [you put+1 napkin+833254] [put+1 on_top_of+1 dinner_plate+833255]</p>
+<pre>ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (napkin)))) 
+    (dinner_plate)) 
+</pre>
+<br><br><h1>Index: 26&nbsp;&nbsp;&nbsp; File: data_188.json&nbsp;&nbsp;&nbsp; Video: 1</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the dinner plate at the bottom side of the table cloth</h3></font>
+<p> [you put+1 dinner_plate+833260] [put+1 at+1 bottom_side+833262] [bottom_side+833262 related-to+2 tablecloth+833261] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        AT (
+            OF (
+                (bottom_side) 
+                (tablecloth))))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Put the salad plate in the center of the dinner plate.</h3></font>
+<p> [you put+1 salad_plate+833274] [put+1 in+1 center+833276] [center+833276 related-to+2 dinner_plate+833275] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_plate)) 
+        IN (
+            CENTER (
+                (dinner_plate))))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; Put the napkin in the center of the salad plate</h3></font>
+<p> [you put+1 napkin+833281] [put+1 in+1 center+833283] [center+833283 related-to+2 salad_plate+833282] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            CENTER (
+                (salad_plate))))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; Put the wine glass at the upper right hand corner of the table cloth</h3></font>
+<p> [you put+1 wine_glass+833292] [put+1 at+1 hand_corner+833294] [hand_corner+833294 related-to+2 tablecloth+833293] [hand_corner+833294 has_property+3 upper] [hand_corner+833294 has_property+4 right] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        AT (
+            OF (
+                (hand_corner) 
+                (tablecloth))))) 
+</pre>
+<font color='red'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the water glass to the right, and slightly below the wine glass.</h3></font>
+<font color='red'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the salad fork on the far left side of the dinner plate, with the tines pointing up</h3></font>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; Put the dinner fork between the dinner plate and salad fork, with the tines pointing up</h3></font>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; put the dinner knife directly to the right of the dinner plate, pointing toward the wine glass</h3></font>
+<p> [you put+1 dinner_knife+833528] [put+1 has_modifier+1 directly] [put+1 to_the_right_of+2 dinner_plate_pointing+833530] [put+1 toward+3 wine_glass+833529]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_plate_pointing)) 
+        TOWARD (
+            (wine_glass)) 
+        MANNER (
+            (directly)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; Put the soup spoon to the right of the dinner knife, pointing toward the water glass</h3></font>
+<p> [you put+1 soup_spoon+833539] [put+1 to_the_right_of+1 dinner_knife_pointing+833541] [put+1 toward+2 water_glass+833540]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife_pointing)) 
+        TOWARD (
+            (water_glass)))) 
+</pre>
+<br><br><h1>Index: 27&nbsp;&nbsp;&nbsp; File: data_235.json&nbsp;&nbsp;&nbsp; Video: 3</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Move the dinner plate to the bottom of the table cloth</h3></font>
+<p> [you move+1 dinner_plate+833544] [move+1 to+1 bottom+833546] [bottom+833546 related-to+2 tablecloth+833545] [related-to+2 is_pp yes]</p>
+<pre>MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        TO (
+            BOTTOM (
+                (tablecloth))))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Move the dinner fork to the left of the dinner plate with its prongs pointing to the top of the table</h3></font>
+<p> [you move+1 dinner_fork+833580] [move+1 to_the_left_of+1 dinner_plate+833581] [move+1 with+2 prongs+833572] [top+833577 related-to+3 table+833576] [prongs+833572 related-to+4 dinner_fork+833580] [prongs+833572 point+2 null] [point+2 to+5 top+833577] [related-to+3 is_pp yes]</p>
+<pre>MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_plate)) 
+        WITH (
+            OF (
+                (prongs) 
+                (dinner_fork))))) [
+POINT (
+    OF (
+        (prongs) 
+        (dinner_fork)) 
+    (
+        TO (
+            TOP (
+                (table)))))]
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; Move the salad fork to the left of the dinner fork with prongs in the same direction</h3></font>
+<p> [you move+1 salad_fork+833585] [move+1 to_the_left_of+1 dinner_fork+833588] [move+1 with+2 prongs+833587] [move+1 in+3 direction+833586] [direction+833586 has_property+4 the_same]</p>
+<pre>MOVE (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_fork))  
+        IN (
+            (direction)))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; Move the dinner knife to the right of the plate</h3></font>
+<p> [you move+1 dinner_knife+833590] [move+1 to_the_right_of+1 plate+833591]</p>
+<pre>MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (plate)))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; Move the salad knife to the right of the dinner knife</h3></font>
+<p> [you move+1 salad_knife+833593] [move+1 to_the_right_of+1 dinner_knife+833594]</p>
+<pre>MOVE (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; Move the soup spoon to the right of the salad knife</h3></font>
+<p> [you move+1 soup_spoon+833596] [move+1 to_the_right_of+1 salad_knife+833597]</p>
+<pre>MOVE (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (salad_knife)))) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; Move the water glass to the right of the plate and in front of the dinner knife</h3></font>
+<p> [glass+833603 to_the_right_of+1 plate+833602] [glass+833603 in_front_of+2 dinner_knife+833601]</p>
+<pre>TO_THE_RIGHT_OF (
+    (glass) 
+    (plate)) 
+IN_FRONT_OF (
+    (glass) 
+    (dinner_knife)) 
+(move) 
+(water) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Move the wine glass to the right of the water glass</h3></font>
+<p> [you move+1 wine_glass+833609] [move+1 to_the_right_of+1 water_glass+833610]</p>
+<pre>MOVE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; Move the second wine glass to the right of the first wine glass</h3></font>
+<p> [you move+1 wine_glass+833618] [move+1 to_the_right_of+1 wine_glass+833619] [wine_glass+833618 has_property+2 second] [wine_glass+833619 has_property+3 first]</p>
+<pre>MOVE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; Move the coffee cup to the right of the soup spoon</h3></font>
+<p> [you move+1 coffee_cup+833621] [move+1 to_the_right_of+1 soup_spoon+833622]</p>
+<pre>MOVE (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        TO_THE_RIGHT_OF (
+            (soup_spoon)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; Move the bread plate above the dinner fork</h3></font>
+<p> [you move+1 bread_plate+833624] [move+1 above+1 dinner_fork+833625]</p>
+<pre>MOVE (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (dinner_fork)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; Put the butter knife on the bread plate with blade facing away from dinner plate</h3></font>
+<p> [you put+1 butter_knife+833644] [put+1 on+1 bread_plate+833645] [put+1 with+2 blade+833640] [blade+833640 face_away+2 null] [face_away+2 from+3 dinner_plate+833642]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) )) [
+FACE_AWAY (
+    (blade) 
+    (null))]
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; Move dessert fork in front of dinner plate with prongs facing water glass</h3></font>
+<p> [you move+1 dessert_fork+833666] [move+1 in_front_of+1 dinner_plate+833667] [move+1 with+2 prongs+833663] [prongs+833663 face+2 water_glass+833664]</p>
+<pre>IN_FRONT_OF (
+    MOVE (
+        (you) 
+        (
+            OBJECT (
+                (dessert_fork)) 
+            WITH (
+                (prongs)))) 
+    (dinner_plate)) 
+FACE (
+    (prongs) 
+    (
+        OBJECT (
+            (water_glass)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; Move dessert fork in front of dinner plate and in front of dessert spoon</h3></font>
+<p> [fork+833672 in_front_of+1 dinner_plate+833671] [fork+833672 in_front_of+2 dessert_spoon+833670]</p>
+<pre>IN_FRONT_OF (
+    (fork) 
+    (dinner_plate)) 
+IN_FRONT_OF (
+    (fork) 
+    (dessert_spoon)) 
+(move_dessert) 
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; Move napkin onto dinner plate</h3></font>
+<p> [you move+1 napkin+833674] [move+1 onto+1 dinner_plate+833675]</p>
+<pre>ONTO (
+    MOVE (
+        (you) 
+        (
+            OBJECT (
+                (napkin)))) 
+    (dinner_plate)) 
+</pre>
+<br><br><h1>Index: 28&nbsp;&nbsp;&nbsp; File: data_29.json&nbsp;&nbsp;&nbsp; Video: 5</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the dinner plate on the charger </h3></font>
+<p> [you put+1 dinner_plate+833677] [put+1 on+1 charger+833678]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            (charger)))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the napkin on the dinner plate </h3></font>
+<p> [you put+1 napkin+819293] [put+1 on+1 dinner_plate+819294]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (dinner_plate)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; place the dinner fork on the left hand side of the dinner plate </h3></font>
+<p> [you place+1 dinner_fork+833687] [place+1 on+1 hand_side+833689] [hand_side+833689 related-to+2 dinner_plate+833688] [hand_side+833689 has_property+3 left] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_fork)) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; place the salad fork on the left hand side of the dinner fork</h3></font>
+<p> [you place+1 salad_fork+833700] [place+1 on+1 hand_side+833702] [hand_side+833702 related-to+2 dinner_fork+833701] [hand_side+833702 has_property+3 left] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (salad_fork)) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; place the dinner knife on the right hand side of the dinner plate </h3></font>
+<p> [you place+1 dinner_knife+833709] [place+1 on+1 hand_side+833711] [hand_side+833711 related-to+2 dinner_plate+833710] [hand_side+833711 has_property+3 right] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_knife)) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; place the tea spoon on the right hand side of the dinner knife</h3></font>
+<p> [you place+1 tea_spoon+833720] [place+1 on+1 hand_side+833722] [hand_side+833722 related-to+2 dinner_knife+833721] [hand_side+833722 has_property+3 right] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (tea_spoon)) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; place the soup spoon on the right hand side of the tea spoon</h3></font>
+<p> [you place+1 soup_spoon+833733] [place+1 on+1 hand_side+833735] [hand_side+833735 related-to+2 tea_spoon+833734] [hand_side+833735 has_property+3 right] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (soup_spoon)) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; place the water glass above the dinner plate </h3></font>
+<p> [you place+1 water_glass+833739] [place+1 above+1 dinner_plate+833740]</p>
+<pre>PLACE (
+    (you) 
+    (water_glass)) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; place the wine glass on right hand side of the water glass</h3></font>
+<p> [you place+1 wine_glass+833751] [place+1 on+1 hand_side+833753] [hand_side+833753 related-to+2 water_glass+833752] [hand_side+833753 has_property+3 right] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (wine_glass)) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; place the wine glass above the soup spoon</h3></font>
+<p> [you place+1 wine_glass+782021] [place+1 above+1 soup_spoon+782022]</p>
+<pre>PLACE (
+    (you) 
+    (wine_glass)) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; place the coffee cup on the right hand side of the wine glass</h3></font>
+<p> [you place+1 coffee_cup+833762] [place+1 on+1 hand_side+833764] [hand_side+833764 related-to+2 wine_glass+833763] [hand_side+833764 has_property+3 right] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (coffee_cup)) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; put the bread plate on the left hand side of the  dinner plate </h3></font>
+<p> [you put+1 bread_plate+833784] [put+1 on+1 hand_side+833786] [hand_side+833786 related-to+2 dinner_plate+833785] [hand_side+833786 has_property+3 left] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ON (
+            (left_hand_side)))) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; place the butter knife on top of the bread plate, pointing towards right hand side</h3></font>
+<p> [you place+1 butter_knife+833829] [place+1 on_top_of+1 bread_plate+833826] [hand_side+833828 has_property+2 right] [bread_plate+833826 point+2 null] [point+2 towards+3 hand_side+833828]</p>
+<pre>ON_TOP_OF (
+    PLACE (
+        (you) 
+        (butter_knife)) 
+    (bread_plate)) 
+POINT (
+    (bread_plate) 
+    (
+        TOWARDS (
+            (right_hand_side)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; place the dessert fork between the water glass and bread plate, pointing towards right hand side</h3></font>
+<p> [place+833861 point+1 null] [point+1 towards+1 hand_side+833867] [dessert_fork+833863 point+2 null] [point+2 towards+2 hand_side+833867] [glass+833864 point+3 null] [point+3 towards+3 hand_side+833867] [bread_plate+833865 point+4 null] [point+4 towards+4 hand_side+833867] [dessert_fork+833863 between+5 water+833862] [hand_side+833867 has_property+6 right] [point+1 has_conjunction and] [point+2 has_conjunction and] [point+3 has_conjunction and] [point+4 has_conjunction and]</p>
+<pre>BETWEEN (
+    (dessert_fork) 
+    (water)) 
+POINT (
+    (place) 
+    (
+        TOWARDS (
+            (right_hand_side)))) 
+POINT (
+    (dessert_fork) 
+    (
+        TOWARDS (
+            (right_hand_side)))) 
+POINT (
+    (glass) 
+    (
+        TOWARDS (
+            (right_hand_side)))) 
+POINT (
+    (bread_plate) 
+    (
+        TOWARDS (
+            (right_hand_side)))) 
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; place the dessert spoon between dinner plate and dessert fork, pointing left hand side</h3></font>
+<p> [place+833887 point+1 hand_side+833891] [dessert_spoon+833889 point+2 hand_side+833891] [dessert_fork+833890 point+3 hand_side+833891] [dessert_spoon+833889 between+1 dinner_plate+833888] [hand_side+833891 has_property+2 left] [point+1 has_conjunction and] [point+2 has_conjunction and] [point+3 has_conjunction and]</p>
+<pre>BETWEEN (
+    (dessert_spoon) 
+    (dinner_plate)) 
+POINT (
+    (place) 
+    (
+        OBJECT (
+            (left_hand_side)))) 
+POINT (
+    (dessert_spoon) 
+    (
+        OBJECT (
+            (left_hand_side)))) 
+POINT (
+    (dessert_fork) 
+    (
+        OBJECT (
+            (left_hand_side)))) 
+</pre>
+<br><br><h1>Index: 29&nbsp;&nbsp;&nbsp; File: data_22.json&nbsp;&nbsp;&nbsp; Video: 5</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the plate in the middle of the charger</h3></font>
+<p> [you put+1 plate+805992] [put+1 in+1 middle+805994] [middle+805994 related-to+2 charger+805993] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (plate)) 
+        IN (
+            MIDDLE (
+                (charger))))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Put the napkin in the middle of the plate</h3></font>
+<p> [you put+1 napkin+833894] [put+1 in+1 middle+833896] [middle+833896 related-to+2 plate+833895] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            MIDDLE (
+                (plate))))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; put the dinner fork on the left side of the charger with the prongs facing upwards</h3></font>
+<p> [you put+1 dinner_fork+833906] [put+1 has_modifier+1 upwards] [put+1 on+2 left_side+833909] [put+1 with+3 prongs_facing+833907] [left_side+833909 related-to+4 charger+833908] [related-to+4 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        ON (
+            OF (
+                (left_side) 
+                (charger)))  
+        MANNER (
+            (upwards)))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; put the salad fork on the left side of the dinner fork with the prongs facing upwards</h3></font>
+<p> [you put+1 salad_fork+833926] [put+1 has_modifier+1 upwards] [put+1 on+2 left_side+833929] [put+1 with+3 prongs_facing+833927] [left_side+833929 related-to+4 dinner_fork+833928] [related-to+4 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left_side) 
+                (dinner_fork)))  
+        MANNER (
+            (upwards)))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the dinner knife on the right side of the charger with the blade facing upwards</h3></font>
+<p> [you put+1 dinner_knife+833937] [put+1 has_modifier+1 upwards] [put+1 on+2 right_side+833940] [put+1 with+3 blade_facing+833938] [right_side+833940 related-to+4 charger+833939] [related-to+4 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            OF (
+                (right_side) 
+                (charger)))  
+        MANNER (
+            (upwards)))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the tea spoon on the right side of the dinner knife with the bowl facing upwards</h3></font>
+<p> [you put+1 tea_spoon+833950] [put+1 has_modifier+1 upwards] [put+1 on+2 right_side+833953] [put+1 with+3 bowl_facing+833951] [right_side+833953 related-to+4 dinner_knife+833952] [related-to+4 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (tea_spoon)) 
+        ON (
+            OF (
+                (right_side) 
+                (dinner_knife)))  
+        MANNER (
+            (upwards)))) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; put the soup spoon on the right side of the tea spoon with the bowl facing upwards</h3></font>
+<p> [you put+1 soup_spoon+833970] [put+1 has_modifier+1 upwards] [put+1 on+2 right_side+833973] [put+1 with+3 bowl_facing+833971] [right_side+833973 related-to+4 tea_spoon+833972] [related-to+4 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right_side) 
+                (tea_spoon)))  
+        MANNER (
+            (upwards)))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; put the water glass above the charger towards the right side</h3></font>
+<p> [you put+1 water_glass+833980] [put+1 above+1 charger+833982] [put+1 towards+2 side+833981] [side+833981 has_property+3 right]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (charger)) 
+        TOWARDS (
+            (side)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; put the wine glass on the right side of the water glass above the tea spoon</h3></font>
+<p> [you put+1 wine_glass+833994] [put+1 on+1 right_side+833997] [put+1 above+2 tea_spoon+833995] [right_side+833997 related-to+3 water_glass+833996] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ON (
+            OF (
+                (right_side) 
+                (water_glass))) 
+        ABOVE (
+            (tea_spoon)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; put the wine glass above the soup spoon, right below the other wine glass</h3></font>
+<p> [you put+1 wine_glass+834010] [put+1 above+1 soup_spoon_right+834012] [put+1 below+2 wine_glass+834011] [wine_glass+834011 has_property+3 other]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ABOVE (
+            (soup_spoon_right)) 
+        BELOW (
+            (wine_glass)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; put the the coffee cup above the soup spoon to the right of the wine glass</h3></font>
+<p> [you put+1 coffee_cup+834019] [put+1 above+1 soup_spoon+834021] [put+1 to_the_right_of+2 wine_glass+834020]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        ABOVE (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; put the bread plate above the charger towards the left side</h3></font>
+<p> [you put+1 bread_plate+834028] [put+1 above+1 charger+834030] [put+1 towards+2 side+834029] [side+834029 has_property+3 left]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (charger)) 
+        TOWARDS (
+            (side)))) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; put the butter knife on the bread plate with the blade facing left</h3></font>
+<p> [you put+1 butter_knife+834045] [put+1 on+1 bread_plate+834046] [put+1 with+2 blade+834042] [blade+834042 face+2 left+834043]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (left))))]
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; put the dessert fork above the charger next to the bread plate with the prongs facing right</h3></font>
+<p> [you put+1 dessert_fork+834065] [put+1 above+1 charger+834067] [put+1 next_to+2 bread_plate+834066] [put+1 with+3 prongs+834061] [prongs+834061 face+2 right+834062]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (charger)) 
+        NEXT_TO (
+            (bread_plate)) )) [
+FACE (
+    (prongs) 
+    (
+        OBJECT (
+            (right))))]
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; put the dessert spoon below the dessert fork with the bowl facing left</h3></font>
+<p> [you put+1 dessert_spoon+834096] [put+1 below+1 dessert_fork+834097] [put+1 with+2 bowl+834093] [bowl+834093 face+2 left+834094]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        BELOW (
+            (dessert_fork)) )) [
+FACE (
+    (bowl) 
+    (
+        OBJECT (
+            (left))))]
+</pre>
+<br><br><h1>Index: 30&nbsp;&nbsp;&nbsp; File: data_18.json&nbsp;&nbsp;&nbsp; Video: 1</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the dinner plate on the table cloth</h3></font>
+<p> [you put+1 dinner_plate+832687] [put+1 on+1 tablecloth+832688]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            (tablecloth)))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the salad plate on the dinner plate</h3></font>
+<p> [you put+1 salad_plate+832692] [put+1 on+1 dinner_plate+832693]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_plate)) 
+        ON (
+            (dinner_plate)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; put a napkin on the salad plate</h3></font>
+<p> [you put+1 napkin+834101] [put+1 on+1 salad_plate+834102]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (salad_plate)))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; put a wine glass on the top right hand corner of the table cloth</h3></font>
+<p> [you put+1 wine_glass+834113] [put+1 on+1 hand_corner+834115] [hand_corner+834115 related-to+2 tablecloth+834114] [hand_corner+834115 has_property+3 top] [hand_corner+834115 has_property+4 right] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ON (
+            OF (
+                (hand_corner) 
+                (tablecloth))))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the water glass on the bottom right hand corner of the wine glass</h3></font>
+<p> [you put+1 water_glass+834136] [put+1 on+1 bottom_right_hand_corner+834138] [bottom_right_hand_corner+834138 related-to+2 wine_glass+834137] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ON (
+            OF (
+                (bottom_right_hand_corner) 
+                (wine_glass))))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; put a salad fork on the left of the dinner plate, with the head pointing to the top</h3></font>
+<p> [you put+1 salad_fork+834151] [put+1 on+1 left+834153] [put+1 with+2 head+834146] [left+834153 related-to+3 dinner_plate+834152] [head+834146 point+2 null] [point+2 to+4 top+834148] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left) 
+                (dinner_plate))) )) [
+POINT (
+    (head) 
+    (
+        TO (
+            (top))))]
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; put a dinner fork on the right of the salad fork with the head pointing to the top</h3></font>
+<p> [you put+1 dinner_fork+834171] [put+1 on+1 right+834173] [put+1 with+2 head+834166] [right+834173 related-to+3 salad_fork+834172] [head+834166 point+2 null] [point+2 to+4 top+834168] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        ON (
+            OF (
+                (right) 
+                (salad_fork))) )) [
+POINT (
+    (head) 
+    (
+        TO (
+            (top))))]
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; put a dinner knife on the right of the dinner plate, with the head pointing to the top</h3></font>
+<p> [you put+1 dinner_knife+834179] [put+1 on+1 right+834181] [put+1 with+2 head+834174] [right+834181 related-to+3 dinner_plate+834180] [head+834174 point+2 null] [point+2 to+4 top+834176] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            OF (
+                (right) 
+                (dinner_plate))) )) [
+POINT (
+    (head) 
+    (
+        TO (
+            (top))))]
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; put the soup spoon on the right of the dinner knife, with the head pointing to the top</h3></font>
+<p> [you put+1 soup_spoon+834194] [put+1 on+1 right+834196] [put+1 with+2 head+834189] [right+834196 related-to+3 dinner_knife+834195] [head+834189 point+2 null] [point+2 to+4 top+834191] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right) 
+                (dinner_knife))) )) [
+POINT (
+    (head) 
+    (
+        TO (
+            (top))))]
+</pre>
+<br><br><h1>Index: 31&nbsp;&nbsp;&nbsp; File: data_79.json&nbsp;&nbsp;&nbsp; Video: 3</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Place the dinner plate on the lower portion of the table</h3></font>
+<p> [you place+1 dinner_plate+834199] [place+1 on+1 portion+834201] [place+1 of+2 table+834200] [portion+834201 has_property+3 lower] [lower has_root low] [lower has_attribute comparative] [lower has_sign <]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_plate)) 
+</pre>
+<font color='red'><h3> # 2.0&nbsp;&nbsp;&nbsp; place the dinner fork to the left of the plate, tines pointing up</h3></font>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; place the salad fork to the left of the dinner fork in the same orientation</h3></font>
+<p> [you place+1 salad_fork+834212] [place+1 to_the_left_of+1 dinner_fork+834214] [place+1 in+2 orientation+834213] [orientation+834213 has_property+3 the_same]</p>
+<pre>PLACE (
+    (you) 
+    (salad_fork)) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; place the dinner knife to the right of the dinner plate with the blade facing left, vertically</h3></font>
+<p> [you place+1 dinner_knife+834224] [place+1 to_the_right_of+1 dinner_plate+834225] [place+1 with+2 blade+834221] [blade+834221 face+2 left+834222] [face+2 has_modifier+3 vertically]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_knife)) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; place the salad knife to the right of the dinner knife in the same orientation</h3></font>
+<p> [you place+1 salad_knife+834228] [place+1 to_the_right_of+1 dinner_knife+834230] [place+1 in+2 orientation+834229] [orientation+834229 has_property+3 the_same]</p>
+<pre>PLACE (
+    (you) 
+    (salad_knife)) 
+</pre>
+<font color='red'><h3> # 6.0&nbsp;&nbsp;&nbsp; place the soup spoon to the right of the salad knife, bowl pointing up</h3></font>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; place the water glass to the upper right of the dinner place above the dinner knife</h3></font>
+<p> [you place+1 water_glass+834429] [place+1 to+1 right+834432] [place+1 above+2 dinner_knife+834430] [right+834432 related-to+3 dinner_place+834431] [right+834432 has_property+4 upper] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (water_glass)) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; place the wine glass to the right of the water glass</h3></font>
+<p> [you place+1 wine_glass+832180] [place+1 to_the_right_of+1 water_glass+832181]</p>
+<pre>PLACE (
+    (you) 
+    (wine_glass)) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; place another wine glass to the right of the previous wine glass</h3></font>
+<p> [you place+1 wine_glass+834434] [place+1 to_the_right_of+1 wine_glass+834435] [wine_glass+834434 has_property+2 another] [wine_glass+834435 has_property+3 previous]</p>
+<pre>PLACE (
+    (you) 
+    (wine_glass)) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; place a coffee cup to the right of the soup spoon</h3></font>
+<p> [you place+1 coffee_cup+834437] [place+1 to_the_right_of+1 soup_spoon+834438]</p>
+<pre>PLACE (
+    (you) 
+    (coffee_cup)) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; place the bread plate above the dinner fork</h3></font>
+<p> [you place+1 bread_plate+834440] [place+1 above+1 dinner_fork+834441]</p>
+<pre>PLACE (
+    (you) 
+    (bread_plate)) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; place the butter knife on top of the bread plate</h3></font>
+<p> [you place+1 butter_knife+834443] [place+1 on_top_of+1 bread_plate+834444]</p>
+<pre>ON_TOP_OF (
+    PLACE (
+        (you) 
+        (butter_knife)) 
+    (bread_plate)) 
+</pre>
+<font color='red'><h3> # 13.0&nbsp;&nbsp;&nbsp; place the desert fork above the dinner plate, tines laying horizontally pointing right</h3></font>
+<font color='red'><h3> # 14.0&nbsp;&nbsp;&nbsp; place the dessert spoon perpendicular to the dessert fork, above it with the bowl pointing left</h3></font>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; place the napkin in the middle of the dinner plate</h3></font>
+<p> [you place+1 napkin+782039] [place+1 in+1 middle+782041] [middle+782041 related-to+2 dinner_plate+782040] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (napkin)) 
+</pre>
+<br><br><h1>Index: 32&nbsp;&nbsp;&nbsp; File: data_249.json&nbsp;&nbsp;&nbsp; Video: 4</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the charger on the table cloth</h3></font>
+<p> [you put+1 charger+834581] [put+1 on+1 tablecloth+834582]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        ON (
+            (tablecloth)))) 
+</pre>
+<font color='red'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the fork on the left of the charger with its tines facing upwards.</h3></font>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; Put the fork on the left of the charger with its tines facing upwards.</h3></font>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; place a salad fork on the left of the charger and a dinner knife on the right.</h3></font>
+<p> [left+834595 related-to+1 charger+834594] [fork+834596 on+2 left+834595] [dinner_knife+834598 on+3 right+834597] [related-to+1 is_pp yes]</p>
+<pre>ON (
+    (fork) 
+    OF (
+        (left) 
+        (charger))) 
+ON (
+    (dinner_knife) 
+    (right)) 
+(place) 
+(salad) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; Place a salad fork on the left of the first fork.</h3></font>
+<p> [you place+1 salad_fork+834608] [place+1 on+1 left+834610] [fork+834609 has_property+2 first] [left+834610 related-to+3 fork+834609] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (salad_fork)) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; Place another dinner knife and a soup soup on the right of the charger.</h3></font>
+<p> [you place+1 dinner_knife+834621] [place+1 on+1 right+834624] [you place+2 soup_soup+834622] [place+2 on+2 right+834624] [dinner_knife+834621 has_property+3 another] [right+834624 related-to+4 charger+834623] [place+1 has_conjunction and] [place+2 has_conjunction and] [related-to+4 is_pp yes]</p>
+<pre>ON (
+    (soup_soup) 
+    OF (
+        (right) 
+        (charger))) 
+(place) 
+(dinner_knife) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; place a soup spoon next to the dinner knife with its bowl facing the top.</h3></font>
+<p> [you place+1 soup_spoon+834661] [place+1 next_to+1 dinner_knife+834662] [place+1 with+2 bowl+834656] [bowl+834656 related-to+3 soup_spoon+834661] [bowl+834656 face+2 top+834658]</p>
+<pre>PLACE (
+    (you) 
+    (soup_spoon)) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Place a desert spoon above the charger with its bowl facing left.</h3></font>
+<p> [you place+1 spoon+834683] [place+1 above+1 charger+834684] [place+1 with+2 bowl+834678] [spoon+834683 has_property+3 desert] [bowl+834678 related-to+4 spoon+834683] [bowl+834678 face+2 left+834680]</p>
+<pre>PLACE (
+    (you) 
+    (spoon)) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; Place a desert fork below the desert spoon with its tines facing right.</h3></font>
+<p> [you place+1 fork+834696] [place+1 below+1 desert_spoon] [place+1 with+2 tines+834693] [fork+834696 has_property+3 desert] [tines+834693 related-to+4 fork+834696] [tines+834693 face+2 right]</p>
+<pre>PLACE (
+    (you) 
+    (fork)) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; Place a bread plate to the left of the charger above the forks.</h3></font>
+<p> [you place+1 bread_plate+834704] [place+1 to_the_left_of+1 charger+834706] [place+1 above+2 forks+834705]</p>
+<pre>PLACE (
+    (you) 
+    (bread_plate)) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; Place a butter knife cross on the bread place with its blade pointing downwards.</h3></font>
+<p> [you place+1 butter_knife_cross+834733] [place+1 has_modifier+1 downwards] [place+1 on+2 bread_place+834736] [place+1 with+3 blade_pointing+834735] [blade_pointing+834735 related-to+4 butter_knife_cross+834733]</p>
+<pre>PLACE (
+    (you) 
+    (butter_knife_cross)) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; Place a water glass on the right of the charger above the knives and the soup spoon.</h3></font>
+<p> [right+834748 related-to+1 charger+834747] [water_glass+834749 on+2 right+834748] [water_glass+834749 above+3 knives+834746] [related-to+1 is_pp yes]</p>
+<pre>ON (
+    (water_glass) 
+    OF (
+        (right) 
+        (charger))) 
+ABOVE (
+    (water_glass) 
+    (knives)) 
+(place) 
+(soup_spoon) 
+</pre>
+<br><br><h1>Index: 33&nbsp;&nbsp;&nbsp; File: data_43.json&nbsp;&nbsp;&nbsp; Video: 3</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the dinner plate on the table toward the bottom middle</h3></font>
+<p> [you put+1 dinner_plate+834755] [put+1 on+1 table+834757] [put+1 toward+2 bottom_middle+834756]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            (table)) 
+        TOWARD (
+            (bottom_middle)))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the fork head up to the left of the plate</h3></font>
+<p> [you put_up+1 fork_head+834761] [put_up+1 to_the_left_of+1 plate+834762]</p>
+<pre>PUT_UP (
+    (you) 
+    (
+        OBJECT (
+            (fork_head)) 
+        TO_THE_LEFT_OF (
+            (plate)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; put the salad fork head up to the left of the dinner fork</h3></font>
+<p> [you put+1 salad_fork_head_up] [put+1 to_the_left_of+1 dinner_fork+834783]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork_head_up)) 
+        TO_THE_LEFT_OF (
+            (dinner_fork)))) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; put the dinner knife to the right of the plate</h3></font>
+<p> [you put+1 dinner_knife+834785] [put+1 to_the_right_of+1 plate+834786]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (plate)))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the salad knife to the left of the dinner knife</h3></font>
+<p> [you put+1 salad_knife+834790] [put+1 to_the_left_of+1 dinner_knife+834791]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_LEFT_OF (
+            (dinner_knife)))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the soup spoon to the right of the salad knife</h3></font>
+<p> [you put+1 soup_spoon+819199] [put+1 to_the_right_of+1 salad_knife+819200]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (salad_knife)))) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; put the water glass to the upper right of the dinner plate</h3></font>
+<p> [you put+1 water_glass+834796] [put+1 to+1 right+834798] [right+834798 related-to+2 dinner_plate+834797] [right+834798 has_property+3 upper] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO (
+            OF (
+                (right) 
+                (dinner_plate))))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; put the wine glass to the right of the water glass</h3></font>
+<p> [you put+1 wine_glass+819211] [put+1 to_the_right_of+1 water_glass+819212]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; put the wine glass to the right of the wine glass</h3></font>
+<p> [you put+1 wine_glass+819218] [put+1 to_the_right_of+1 wine_glass+819218]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; put the coffee cup to the right of the soup spoon</h3></font>
+<p> [you put+1 coffee_cup+819222] [put+1 to_the_right_of+1 soup_spoon+819223]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        TO_THE_RIGHT_OF (
+            (soup_spoon)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; put the bread plate above the dinner fork</h3></font>
+<p> [you put+1 bread_plate+819229] [put+1 above+1 dinner_fork+819230]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (dinner_fork)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; put the bread knife on the bread plate at the upper right corner, pointing upper left</h3></font>
+<p> [you put+1 bread_knife+834822] [put+1 on+1 bread_plate+834823] [put+1 at+2 corner+834819] [left+834820 has_property+3 upper] [corner+834819 has_property+4 right] [corner+834819 has_property+5 upper] [corner+834819 point+2 left+834820]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_knife)) 
+        ON (
+            (bread_plate)) 
+        AT (
+            (corner)))) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; put the dessert fork horizontally above the dinner plate, with the prongs to the right </h3></font>
+<p> [you put+1 dessert_fork+834829] [put+1 has_modifier+1 horizontally] [put+1 above+2 dinner_plate+834832] [put+1 with+3 prongs+834831] [put+1 to+4 right+834830]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (dinner_plate))  
+        TO (
+            (right)) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; put the dessert spoon horizontally above the dessert fork, with the head to the left </h3></font>
+<p> [you put+1 dessert_spoon+834840] [put+1 has_modifier+1 horizontally] [put+1 above+2 dessert_fork+834843] [put+1 with+3 head+834842] [put+1 to+4 left+834841]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (dessert_fork))  
+        TO (
+            (left)) 
+        MANNER (
+            (horizontally)))) 
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; put the napkin vertically on the plate</h3></font>
+<p> [you put+1 napkin+834845] [put+1 has_modifier+1 vertically] [put+1 on+2 plate+834846]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)) 
+        MANNER (
+            (vertically)))) 
+</pre>
+<br><br><h1>Index: 34&nbsp;&nbsp;&nbsp; File: data_15.json&nbsp;&nbsp;&nbsp; Video: 1</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the dinner plate in the middle of the table cloth, towards the bottom</h3></font>
+<p> [you put+1 dinner_plate+834850] [put+1 in+1 middle+834853] [put+1 towards+2 bottom+834851] [middle+834853 related-to+3 tablecloth+834852] [related-to+3 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        IN (
+            MIDDLE (
+                (tablecloth))) 
+        TOWARDS (
+            (bottom)))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the salad plate on top of the dinner plate</h3></font>
+<p> [you put+1 salad_plate+782052] [put+1 on_top_of+1 dinner_plate+782053]</p>
+<pre>ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (salad_plate)))) 
+    (dinner_plate)) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; put the napkin on top of the salad plate</h3></font>
+<p> [you put+1 napkin+782057] [put+1 on_top_of+1 salad_plate+782058]</p>
+<pre>ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (napkin)))) 
+    (salad_plate)) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; put the wine glass on the top right hand side of the table cloth</h3></font>
+<p> [you put+1 wine_glass+834864] [put+1 on+1 hand_side+834866] [hand_side+834866 related-to+2 tablecloth+834865] [hand_side+834866 has_property+3 top] [hand_side+834866 has_property+4 right] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ON (
+            (right_hand_side)))) 
+</pre>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; put the water glass to the bottom right of the wine glass</h3></font>
+<p> [you put+1 water_glass+832774] [put+1 to+1 bottom_right+832776] [bottom_right+832776 related-to+2 wine_glass+832775] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO (
+            OF (
+                (bottom_right) 
+                (wine_glass))))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; put the salad fork on the left of the dinner plate</h3></font>
+<p> [you put+1 salad_fork+834871] [put+1 on+1 left+834873] [left+834873 related-to+2 dinner_plate+834872] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left) 
+                (dinner_plate))))) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; put the dinner fork on the right of the salad fork</h3></font>
+<p> [you put+1 dinner_fork+834880] [put+1 on+1 right+834882] [right+834882 related-to+2 salad_fork+834881] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        ON (
+            OF (
+                (right) 
+                (salad_fork))))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; put the dinner knife on the right of the dinner plate</h3></font>
+<p> [you put+1 dinner_knife+832726] [put+1 on+1 right+832728] [right+832728 related-to+2 dinner_plate+832727] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            OF (
+                (right) 
+                (dinner_plate))))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; put the soup spoon on the right of the dinner knife</h3></font>
+<p> [you put+1 soup_spoon+832733] [put+1 on+1 right+832735] [right+832735 related-to+2 dinner_knife+832734] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right) 
+                (dinner_knife))))) 
+</pre>
+<br><br><h1>Index: 35&nbsp;&nbsp;&nbsp; File: data_58.json&nbsp;&nbsp;&nbsp; Video: 2</h1><font color='red'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the dinner fork on the left lower side of the table cloth with the tines pointing up</h3></font>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; put the dinner knife on the right lower side of the table cloth with the blade facing up</h3></font>
+<p> [you put+1 dinner_knife+834921] [put+1 on+1 side+834923] [put+1 with+2 blade_facing_up] [side+834923 related-to+3 tablecloth+834922] [side+834923 has_property+4 right] [side+834923 has_property+5 lower] [related-to+3 is_pp yes] [lower has_root low] [lower has_attribute comparative] [lower has_sign <]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            RIGHT_SIDE (
+                (tablecloth))) )) 
+</pre>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; place the salad fork to the left of and parallel to the dinner fork</h3></font>
+<font color='red'><h3> # 4.0&nbsp;&nbsp;&nbsp; place the salad knife to the right of and parallel to the dinner knife</h3></font>
+<font color='red'><h3> # 5.0&nbsp;&nbsp;&nbsp; place the soup spoon to the right of and parallel to the salad knife</h3></font>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; place the dessert spoon on the top center, with the bowl facing to the left</h3></font>
+<p> [you place+1 dessert_spoon+835016] [place+1 on+1 top_center+835019] [place+1 with+2 bowl_facing+835018] [place+1 to+3 left+835017]</p>
+<pre>PLACE (
+    (you) 
+    (dessert_spoon)) 
+</pre>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; move the dessert spoon to the left of and parallel to the soup spoon </h3></font>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Place the dessert spoon in the top center with the bowl facing left</h3></font>
+<p> [you place+1 dessert_spoon+835075] [place+1 in+1 center+835076] [place+1 with+2 bowl+835072] [center+835076 has_property+3 top] [bowl+835072 face+2 left+835073]</p>
+<pre>PLACE (
+    (you) 
+    (dessert_spoon)) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; place the dinner plate on the bottom, between the dinner fork and the dinner knife</h3></font>
+<p> [you place+1 dinner_plate+835081] [place+1 on+1 bottom+835085] [place+1 between+2 dinner+835084] [place+1 between+3 fork+835083] [place+1 between+4 dinner_knife+835082]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_plate)) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; place the bread plate on the top left corner above the forks and left of the dessert spoon</h3></font>
+<p> [bread_plate+835189 on+1 top_left+835188] [corner+835191 above+2 forks+835190] [left+835193 related-to+3 dessert_spoon+835192] [related-to+3 is_pp yes]</p>
+<pre>ON (
+    (bread_plate) 
+    (top_left)) 
+ABOVE (
+    (corner) 
+    (forks)) 
+(place) 
+OF (
+    (left) 
+    (dessert_spoon)) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; place the butter knife on the top of the bread plate with the blade facing downward and left</h3></font>
+<p> [you place+1 butter_knife+835235] [place+1 has_modifier+1 downward] [place+1 on+2 top+835238] [place+1 with+3 blade_facing+835236] [you leave+2 null] [top+835238 related-to+4 bread_plate+835237] [leave+2 has_conjunction and] [related-to+4 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (butter_knife)) 
+LEAVE (
+    (you) 
+    (
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; place the wine glass above the soup spoon</h3></font>
+<p> [you place+1 wine_glass+782021] [place+1 above+1 soup_spoon+782022]</p>
+<pre>PLACE (
+    (you) 
+    (wine_glass)) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; place the water glass above the dinner plate and left of the wine glass</h3></font>
+<p> [water_glass+835246 above+1 dinner_plate+835245] [left+835248 related-to+2 wine_glass+835247] [related-to+2 is_pp yes]</p>
+<pre>ABOVE (
+    (water_glass) 
+    (dinner_plate)) 
+(place) 
+OF (
+    (left) 
+    (wine_glass)) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; place the napkin in the center of the dinner plate </h3></font>
+<p> [you place+1 napkin+835251] [place+1 in+1 center+835253] [center+835253 related-to+2 dinner_plate+835252] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (napkin)) 
+</pre>
+<br><br><h1>Index: 36&nbsp;&nbsp;&nbsp; File: data_182.json&nbsp;&nbsp;&nbsp; Video: 2</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; place the dinner fork on the left bottom corner of the table cloth</h3></font>
+<p> [you place+1 dinner_fork+835262] [place+1 on+1 bottom_corner+835264] [bottom_corner+835264 related-to+2 tablecloth+835263] [bottom_corner+835264 has_property+3 left] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_fork)) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; place the dinner knife on the right bottom corner of the table cloth</h3></font>
+<p> [you place+1 dinner_knife+835271] [place+1 on+1 bottom_corner+835273] [bottom_corner+835273 related-to+2 tablecloth+835272] [bottom_corner+835273 has_property+3 right] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_knife)) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; place the salad fork to the immediate left of the dinner fork</h3></font>
+<p> [you place+1 salad_fork+835280] [place+1 to+1 left+835282] [left+835282 related-to+2 dinner_fork+835281] [left+835282 has_property+3 immediate] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (salad_fork)) 
+</pre>
+<font color='green'><h3> # 4.0&nbsp;&nbsp;&nbsp; place the salad knife to the immediate right of the dinner knife</h3></font>
+<p> [you place+1 salad_knife+835287] [place+1 to+1 right+835289] [right+835289 related-to+2 dinner_knife+835288] [right+835289 has_property+3 immediate] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (salad_knife)) 
+</pre>
+<font color='red'><h3> # 5.0&nbsp;&nbsp;&nbsp; place the soup spoon immediately right of the salad knife</h3></font>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; place the dessert spoon at the top center of the table cloth, with its bowl facing towards the left</h3></font>
+<p> [you place+1 dessert_spoon+835321] [place+1 at+1 top_center+835326] [place+1 with+2 bowl_facing+835324] [place+1 towards+3 left+835322] [top_center+835326 related-to+4 tablecloth+835325] [bowl_facing+835324 related-to+5 tablecloth+835325] [related-to+4 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (dessert_spoon)) 
+</pre>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; move the dessert spoon to the immediate right of the soup spoon and oriented vertically</h3></font>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; move the dessert spoon to the top center of the table cloth, with its bowl pointed to the left</h3></font>
+<p> [you move+1 dessert+835363] [spoon+835368 to+1 center+835367] [spoon+835368 with+2 bowl+835365] [bowl+835365 related-to+3 tablecloth+835366] [center+835367 has_property+4 top] [center+835367 related-to+5 tablecloth+835366] [spoon+835368 point+2 dessert+835363] [point+2 to+6 left+835370] [related-to+5 is_pp yes]</p>
+<pre>TO (
+    (spoon) 
+    CENTER (
+        (tablecloth))) 
+WITH (
+    (spoon) 
+    OF (
+        (bowl) 
+        (tablecloth))) 
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dessert)))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; place the dinner plate in the center of the table cloth</h3></font>
+<p> [you place+1 dinner_plate+835373] [place+1 in+1 center+835375] [center+835375 related-to+2 tablecloth+835374] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_plate)) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; place the bread plate above the salad fork and to the left of the dessert spoon</h3></font>
+<p> [bread_plate+835380 above+1 salad_fork+835379] [bread_plate+835380 to_the_left_of+2 dessert_spoon+835378]</p>
+<pre>ABOVE (
+    (bread_plate) 
+    (salad_fork)) 
+TO_THE_LEFT_OF (
+    (bread_plate) 
+    (dessert_spoon)) 
+(place) 
+</pre>
+<font color='red'><h3> # 11.0&nbsp;&nbsp;&nbsp; put the butter knife on the bread plate with its blade pointed 45 degrees to the lower left</h3></font>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; place the wine glass directly above the soup spoon on the table cloth</h3></font>
+<p> [you place+1 wine_glass+835405] [place+1 has_modifier+1 directly] [place+1 above+2 soup_spoon+835407] [place+1 on+3 tablecloth+835406]</p>
+<pre>PLACE (
+    (you) 
+    (wine_glass)) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; place the water glass to the right of the dessert spoon and the left of the wine glass</h3></font>
+<p> [place+1 to_the_right_of+1 dessert_spoon+835420] [you place+1 water_glass+835417] [place+1 to_the_right_of+2 left+835419] [left+835419 related-to+3 wine_glass+835418] [related-to+3 is_pp yes]</p>
+<pre>TO_THE_RIGHT_OF (
+    PLACE (
+        (you) 
+        (water_glass)) 
+    (dessert_spoon)) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; place the napkin on top of the dinner plate</h3></font>
+<p> [you place+1 napkin+819165] [place+1 on_top_of+1 dinner_plate+819166]</p>
+<pre>ON_TOP_OF (
+    PLACE (
+        (you) 
+        (napkin)) 
+    (dinner_plate)) 
+</pre>
+<br><br><h1>Index: 37&nbsp;&nbsp;&nbsp; File: data_157.json&nbsp;&nbsp;&nbsp; Video: 4</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; put the charger on the center bottom of the table cloth</h3></font>
+<p> [you put+1 charger+835425] [put+1 on+1 center_bottom+835427] [center_bottom+835427 related-to+2 tablecloth+835426] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        ON (
+            OF (
+                (center_bottom) 
+                (tablecloth))))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; place the dinner fork to the left of the charger with tines pointing towards the top of the table cloth</h3></font>
+<p> [you place+1 dinner_fork] [place+1 to_the_left_of+1 charger+835448] [place+1 with+2 tines] [top+835446 related-to+3 tablecloth+835445] [tines point+2 null] [point+2 towards+4 top+835446] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_fork)) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; place the dinner knife to the right of the charger with it's tip pointing to the top of the table cloth</h3></font>
+<p> [you place+1 dinner+835466] [knife+835469 is-a+2 tip+835461] [knife+835469 to_the_right_of+1 charger+835468] [knife+835469 with+2 dinner+835466] [top+835465 related-to+3 tablecloth+835464] [tip+835461 point+3 null] [point+3 to+4 top+835465] [tip+835461 has_rel_clause+3 point+3] [related-to+3 is_pp yes]</p>
+<pre>TO_THE_RIGHT_OF (
+    (knife) 
+    (charger)) 
+WITH (
+    (knife) 
+    (dinner)) 
+PLACE (
+    (you) 
+    (dinner)) 
+CLASSIFICATION (
+    (tip) 
+    (knife)) 
+</pre>
+<font color='red'><h3> # 4.0&nbsp;&nbsp;&nbsp; place the salad fork to the left of the dinner fork with tines point to the top of the table cloth</h3></font>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; place the salad knife to the right of the dinner knife with it's tip pointing to the top of the table cloth</h3></font>
+<p> [you place+1 salad+835516] [knife+835519 is-a+2 tip+835511] [knife+835519 to_the_right_of+1 dinner_knife+835518] [knife+835519 with+2 salad+835516] [top+835515 related-to+3 tablecloth+835514] [tip+835511 point+3 null] [point+3 to+4 top+835515] [tip+835511 has_rel_clause+3 point+3] [related-to+3 is_pp yes]</p>
+<pre>TO_THE_RIGHT_OF (
+    (knife) 
+    (dinner_knife)) 
+WITH (
+    (knife) 
+    (salad)) 
+PLACE (
+    (you) 
+    (salad)) 
+CLASSIFICATION (
+    (tip) 
+    (knife)) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; place the soup spoon to the right of the salad knife, head pointing to the top of the table cloth</h3></font>
+<p> [you place+1 soup_spoon+835638] [place+1 to_the_right_of+1 salad_knife_head+835635] [salad_knife_head+835635 point+2 to_the_top]</p>
+<pre>PLACE (
+    (you) 
+    (soup_spoon)) 
+</pre>
+<font color='red'><h3> # 7.0&nbsp;&nbsp;&nbsp; place the dessert spoon above the charger, perpendicular to the other utensils, head pointing left</h3></font>
+<font color='red'><h3> # 8.0&nbsp;&nbsp;&nbsp; place the dessert fork directly below the dessert spoon, perpendicular to the other utensils, head pointing right</h3></font>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; place the bread plate to the left of the dessert spoon</h3></font>
+<p> [you place+1 bread_plate+782015] [place+1 to_the_left_of+1 dessert_spoon+782016]</p>
+<pre>PLACE (
+    (you) 
+    (bread_plate)) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; place the butter knife on the bread plate with its tip pointing toward 10 o'clock</h3></font>
+<p> [you place+1 butter_knife+836514] [place+1 on+1 bread_plate] [place+1 with+2 tip+836511] [tip+836511 related-to+3 butter_knife+836514] [tip+836511 point+2 null] [point+2 toward+4 10_o'clock]</p>
+<pre>PLACE (
+    (you) 
+    (butter_knife)) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; place the water glass above the salad knife</h3></font>
+<p> [you place+1 water_glass+836520] [place+1 above+1 salad_knife+836521]</p>
+<pre>PLACE (
+    (you) 
+    (water_glass)) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; place the napkin in the center of the charger</h3></font>
+<p> [you place+1 napkin+836524] [place+1 in+1 center+836526] [center+836526 related-to+2 charger+836525] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (napkin)) 
+</pre>
+<br><br><h1>Index: 38&nbsp;&nbsp;&nbsp; File: data_74.json&nbsp;&nbsp;&nbsp; Video: 5</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the plate on the charger.</h3></font>
+<p> [you put+1 plate+819563] [put+1 on+1 charger+819564]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (plate)) 
+        ON (
+            (charger)))) 
+</pre>
+<font color='green'><h3> # 2.0&nbsp;&nbsp;&nbsp; Put the napkin on the plate.</h3></font>
+<p> [you put+1 napkin+805996] [put+1 on+1 plate+805997]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)))) 
+</pre>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; Put the dinner fork on the left side of the plate with the prongs turned up</h3></font>
+<p> [you put+1 dinner+836533] [fork+836537 on+1 side+836536] [fork+836537 with+2 prongs+836534] [side+836536 has_property+3 left] [side+836536 related-to+4 plate+836535] [fork+836537 turn+2 null] [turn+2 up+5 dinner+836533] [related-to+4 is_pp yes]</p>
+<pre>ON (
+    (fork) 
+    LEFT_SIDE (
+        (plate))) 
+WITH (
+    (fork) 
+    (prongs)) 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner)))) 
+</pre>
+<font color='red'><h3> # 4.0&nbsp;&nbsp;&nbsp; Put the salad fork on the left side on the dinner fork, their bottoms on the same level.</h3></font>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; Put the dinner knife on the right side of the dinner plate with the blade towards the dinner plate</h3></font>
+<p> [you put+1 dinner_knife+836650] [put+1 on+1 side+836654] [put+1 with+2 blade+836652] [put+1 towards+3 dinner_plate+836651] [side+836654 related-to+4 dinner_plate+836653] [side+836654 has_property+5 right] [related-to+4 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            RIGHT_SIDE (
+                (dinner_plate)))  
+        TOWARDS (
+            (dinner_plate)))) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; Put the tea spoon on the right side of the knife</h3></font>
+<p> [you put+1 tea_spoon+836661] [put+1 on+1 side+836663] [side+836663 related-to+2 knife+836662] [side+836663 has_property+3 right] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (tea_spoon)) 
+        ON (
+            RIGHT_SIDE (
+                (knife))))) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; Put the soup spoon on the right side of the tea spoon</h3></font>
+<p> [you put+1 soup_spoon+836672] [put+1 on+1 right_side+836674] [right_side+836674 related-to+2 tea_spoon+836673] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right_side) 
+                (tea_spoon))))) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Put the water glass on the top right side of the plate</h3></font>
+<p> [you put+1 water_glass+836683] [put+1 on+1 side+836685] [side+836685 related-to+2 plate+836684] [side+836685 has_property+3 top] [side+836685 has_property+4 right] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ON (
+            RIGHT_SIDE (
+                (plate))))) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; Put the wine glass on the right side on the water glass</h3></font>
+<p> [you put+1 wine_glass+836694] [put+1 on+1 right_side+836696] [put+1 on+2 water_glass+836695]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ON (
+            (right_side)) 
+        ON (
+            (water_glass)))) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; Put another wine glass under the first wine glass</h3></font>
+<p> [you put+1 wine_glass+836702] [put+1 under+1 wine_glass+836703] [wine_glass+836702 has_property+2 another] [wine_glass+836703 has_property+3 first]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        UNDER (
+            (wine_glass)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; Put the coffee cup on the right side of the wine glass</h3></font>
+<p> [you put+1 coffee_cup+836710] [put+1 on+1 right_side+836712] [right_side+836712 related-to+2 wine_glass+836711] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        ON (
+            OF (
+                (right_side) 
+                (wine_glass))))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; Put the bread plate on the top left side of the plate</h3></font>
+<p> [you put+1 bread_plate+836721] [put+1 on+1 side+836723] [side+836723 related-to+2 plate+836722] [side+836723 has_property+3 top] [side+836723 has_property+4 left] [related-to+2 is_pp yes]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ON (
+            LEFT_SIDE (
+                (plate))))) 
+</pre>
+<font color='green'><h3> # 13.0&nbsp;&nbsp;&nbsp; Put the butter knife on top of the bread plate with the blade facing down and pointing to the left</h3></font>
+<p> [you put_down+1 butter_knife+836738] [put_down+1 on_top_of+1 bread_plate+836740] [put_down+1 with+2 blade_facing+836739] [you point+2 null] [point+2 to+3 left+836742] [point+2 has_conjunction and]</p>
+<pre>ON_TOP_OF (
+    PUT_DOWN (
+        (you) 
+        (
+            OBJECT (
+                (butter_knife)) 
+            WITH (
+                (blade_facing)))) 
+    (bread_plate)) 
+POINT (
+    (you) 
+    (
+        TO (
+            (left)))) 
+</pre>
+<font color='green'><h3> # 14.0&nbsp;&nbsp;&nbsp; Put the dessert fork above the dinner plate with the prongs facing right</h3></font>
+<p> [you put+1 dessert_fork+836757] [put+1 above+1 dinner_plate+836758] [put+1 with+2 prongs+836754] [prongs+836754 face+2 right+836755]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (dinner_plate)) )) [
+FACE (
+    (prongs) 
+    (
+        OBJECT (
+            (right))))]
+</pre>
+<font color='green'><h3> # 15.0&nbsp;&nbsp;&nbsp; Put the dessert spoon above the dinner plate and below the dessert fork with the handle facing right</h3></font>
+<p> [you put+1 dessert_spoon+836801] [put+1 above+1 dinner_plate+836803] [put+1 below+2 dessert_fork+836802] [put+1 with+3 handle_facing_right]</p>
+<pre>PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (dinner_plate)) 
+        BELOW (
+            (dessert_fork)) )) 
+</pre>
+<br><br><h1>Index: 39&nbsp;&nbsp;&nbsp; File: data_229.json&nbsp;&nbsp;&nbsp; Video: 4</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Place the charger on the table cloth and near its bottom</h3></font>
+<p> [you place+1 charger+836807] [place+1 on+1 tablecloth+836810] [place+1 near+2 bottom+836809] [bottom+836809 related-to+3 charger+836807]</p>
+<pre>PLACE (
+    (you) 
+    (charger)) 
+</pre>
+<font color='red'><h3> # 2.0&nbsp;&nbsp;&nbsp; Place the dinner fork, with the tines pointing up, on the left side of the charger</h3></font>
+<font color='green'><h3> # 3.0&nbsp;&nbsp;&nbsp; Place the dinner knife, with the blade facing the charger, on the right side of the charger</h3></font>
+<p> [you place+1 dinner_knife+836868] [place+1 with+1 blade+836863] [side+836867 has_property+2 right] [side+836867 related-to+3 charger+836866] [blade+836863 face+2 charger+836866] [face+2 on+4 side+836867] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (dinner_knife)) 
+</pre>
+<font color='red'><h3> # 4.0&nbsp;&nbsp;&nbsp; Place the salad fork, with the tines pointing up, on the left side of the dinner fork </h3></font>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; Place the salad knife, with the blade facing the charger, on the right side of the dinner knife</h3></font>
+<p> [you place+1 salad_knife+837021] [place+1 with+1 blade+837015] [side+837020 has_property+2 right] [side+837020 related-to+3 dinner_knife+837019] [blade+837015 face+2 charger+837018] [face+2 on+4 side+837020] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (salad_knife)) 
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; Place the soup spoon, with the bowl pointing up, on the right side of the salad knife</h3></font>
+<p> [you place+1 soup_spoon+837044] [place+1 with+1 bowl_pointing_up] [place+1 on+2 right_side+837046] [right_side+837046 related-to+3 salad_knife+837045] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (soup_spoon)) 
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; Place the dessert spoon, with the bowl pointing towards the dinner fork, above the charger</h3></font>
+<p> [you place+1 dessert_spoon+837051] [place+1 with+1 bowl_pointing+837054] [place+1 towards+2 dinner_fork+837053] [place+1 above+3 charger+837052]</p>
+<pre>PLACE (
+    (you) 
+    (dessert_spoon)) 
+</pre>
+<font color='green'><h3> # 8.0&nbsp;&nbsp;&nbsp; Place the dessert fork, with tines pointing to the dinner knife, between the charger and dessert spoon</h3></font>
+<p> [you place+1 dessert_fork+837078] [place+1 with+1 tines] [tines point+2 null] [point+2 to+2 dinner_knife+837077] [point+2 between+3 charger+837076] [point+2 between+4 dessert_spoon]</p>
+<pre>PLACE (
+    (you) 
+    (dessert_fork)) 
+</pre>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; Place the bread plate above the salad and dinner fork</h3></font>
+<p> [bread_plate+837082 above+1 salad+837081]</p>
+<pre>ABOVE (
+    (bread_plate) 
+    (salad)) 
+(place) 
+(dinner_fork) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; Place the butter knife, with the blade facing the top left corner of the table cloth, on the bread plate </h3></font>
+<p> [you place+1 butter_knife+837168] [place+1 with+1 blade+837163] [left_corner+837166 has_property+2 top] [left_corner+837166 related-to+3 tablecloth+837165] [blade+837163 face+2 left_corner+837166] [face+2 on+4 bread_plate+837167] [related-to+3 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (butter_knife)) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; Place the water glass above the dinner and salad knives</h3></font>
+<p> [place+1 above+1 dinner+837177] [you place+1 water_glass+837175] [place+1 above+2 salad_knives+837176]</p>
+<pre>ABOVE (
+    PLACE (
+        (you) 
+        (water_glass)) 
+    (dinner)) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; Place the napkin on the middle of the plate</h3></font>
+<p> [you place+1 napkin+837180] [place+1 on+1 middle+837182] [middle+837182 related-to+2 plate+837181] [related-to+2 is_pp yes]</p>
+<pre>PLACE (
+    (you) 
+    (napkin)) 
+</pre>
+<br><br>
+</body>
+</html>

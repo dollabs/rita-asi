@@ -1,0 +1,59 @@
+Start experiment.
+
+Eats-Sinew is a name.
+
+Start commonsense knowledge.
+XX and YY are tribes.
+AA, BB, and CC are persons.
+VV is a place.
+XX owns VV.
+
+If XX and YY are enemies and AA is XX, then AA may destroy WW.
+If XX and YY are enemies and BB is YY, then XX may capture BB.
+If BB believes he is XX and BB is YY, then BB may become upset.
+If XX makes peace with YY, then YY makes peace with XX.
+
+Start description of "Peace between enemies".
+XX is a tribe.
+YY is a tribe.
+XX and YY are enemies.
+XX makes peace with YY.
+The end.
+
+Start story titled "How the Sioux and Crow made Peace".
+
+Sioux is a tribe.
+Crow is a tribe.
+Crow and Sioux are enemies.
+
+Crow camp is a place.
+Crow own Crow camp.
+Sioux camp is a place.
+Sioux own Sioux camp.
+
+Eats-Sinew is a person.
+Eats-Sinew is Crow.
+
+Sioux warriors are Sioux.
+
+The young men were hunting buffalo.
+Because the young men were hunting buffalo, they were not at camp.
+Sioux warriors destroy the Crow camp because young men were not at camp.
+Eats-Sinew is captured by Sioux because Sioux warriors destroyed the Crow camp.
+
+Eats-Sinew grows up in the Sioux camp because Eats-Sinew was captured by Sioux.
+Eats-Sinew believes he is Sioux because Eats-Sinew grew up in the Sioux camp.
+Sioux like Eats-Sinew because Eats-Sinew grew up in the Sioux camp.
+Because Eats-Sinew grew up in the Sioux camp, Eats-Sinew has Sioux family.
+
+Eats-Sinew discovers he is Crow.
+Eats-Sinew becomes upset.
+Because Eats-Sinew becomes upset, Eats-Sinew goes to the Crow camp.
+Because Eats-Sinew goes to Crow camp, Eats-Sinew talks to the Crow.
+Eats-Sinew goes to Sioux camp because Eats-Sinew has Sioux family.
+Because Eats-Sinew goes to Sioux camp, Eats-Sinew talks to the Sioux.
+Eats-Sinew bridges tribes because Eats-Sinew talks to the Crow.
+Eats-Sinew bridges tribes because Eats-Sinew talks to the Sioux.
+Crow make peace with Sioux because Eats-Sinew bridges tribes.
+
+The end.

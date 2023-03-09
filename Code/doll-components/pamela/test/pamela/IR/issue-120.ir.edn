@@ -1,0 +1,188 @@
+{issue-120
+ {:args [],
+  :methods
+  {action
+   [{:args [],
+     :betweens [],
+     :body nil,
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Action",
+     :post true,
+     :pre true,
+     :primitive true,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}],
+   ex-choose-1
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :choose,
+       :body
+       [{:type :choice,
+         :body
+         [{:type :method-fn,
+           :method-ref {:type :symbol-ref, :names [this action]},
+           :args [],
+           :temporal-constraints [{:type :bounds, :value [1 10]}]}]}
+        {:type :choice,
+         :body
+         [{:type :method-fn,
+           :method-ref {:type :symbol-ref, :names [this action]},
+           :args [],
+           :temporal-constraints [{:type :bounds, :value [1 20]}]}]}
+        {:type :choice,
+         :body
+         [{:type :method-fn,
+           :method-ref {:type :symbol-ref, :names [this action]},
+           :args [],
+           :temporal-constraints
+           [{:type :bounds, :value [1 30]}]}]}]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Ex Choose 1",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}],
+   ex-choose-2
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :choose,
+       :body
+       [{:type :choice,
+         :body
+         [{:type :method-fn,
+           :method-ref {:type :symbol-ref, :names [this action]},
+           :args []}],
+         :temporal-constraints [{:type :bounds, :value [2 10]}]}
+        {:type :choice,
+         :body
+         [{:type :method-fn,
+           :method-ref {:type :symbol-ref, :names [this action]},
+           :args []}],
+         :temporal-constraints [{:type :bounds, :value [2 20]}]}
+        {:type :choice,
+         :body
+         [{:type :method-fn,
+           :method-ref {:type :symbol-ref, :names [this action]},
+           :args []}],
+         :temporal-constraints [{:type :bounds, :value [2 30]}]}]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Ex Choose 2",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}],
+   ex-parallel
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :parallel,
+       :body
+       [{:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this action]},
+         :args [],
+         :temporal-constraints [{:type :bounds, :value [3 10]}]}
+        {:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this action]},
+         :args [],
+         :temporal-constraints [{:type :bounds, :value [3 20]}]}
+        {:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this action]},
+         :args [],
+         :temporal-constraints [{:type :bounds, :value [3 30]}]}]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Ex Parallel",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}],
+   ex-sequence
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :sequence,
+       :body
+       [{:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this action]},
+         :args [],
+         :temporal-constraints [{:type :bounds, :value [4 10]}]}
+        {:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this action]},
+         :args [],
+         :temporal-constraints [{:type :bounds, :value [3 20]}]}
+        {:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this action]},
+         :args [],
+         :temporal-constraints [{:type :bounds, :value [4 30]}]}]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Ex Sequence",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}],
+   main
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :method-fn,
+       :method-ref {:type :symbol-ref, :names [this top-level]},
+       :args []}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Main",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}],
+   top-level
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :sequence,
+       :body
+       [{:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this ex-choose-1]},
+         :args []}
+        {:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this ex-choose-2]},
+         :args []}
+        {:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this ex-parallel]},
+         :args []}
+        {:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this ex-sequence]},
+         :args []}]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Top Level",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}]},
+  :type :pclass}}

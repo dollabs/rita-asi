@@ -1,0 +1,2 @@
+if xx fights against yy, then xx is yy's enemy.
+if xx fights against yy, then yy is xx's enemy.

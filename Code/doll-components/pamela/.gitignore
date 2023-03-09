@@ -1,0 +1,82 @@
+# Project specific files
+/data
+/dev-resources
+/logs
+/pom.xml
+/resources/public/js/compiled
+/resources/public/downloads
+/test/pamela/*.txt
+/test/pamela/*.png
+/*.diff
+
+# auto generated documentation
+/doc/clj
+
+/grammar/dev-resources
+/grammar/logs
+/grammar/test
+/grammar/target
+/grammar/index.html
+
+# Ignore files suffixed with .old
+*.old
+
+# Emacs backup files
+*~
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.coverage
+
+# Vagrant
+*.vagrant
+
+# Berksfile
+*.lock
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Java
+/lib
+/pom.xml
+*.class
+
+# Clojure
+classes
+/target
+.lein-*
+.nrepl*
+
+# LibreOffice locks
+.~lock.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# idea files
+.idea/

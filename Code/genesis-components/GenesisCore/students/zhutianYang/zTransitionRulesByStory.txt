@@ -1,0 +1,31 @@
+// Alice
+If xx forgets to take out yy from kk, then kk has yy's contact.
+If xx puts yy in oo, then oo has yy's contact.
+If xx stops working, then xx has problem's contact.
+If xx removes the cover of yy, then yy has air's contact.
+If xx collects oo from yy, then yy doesn't have oo's contact.
+// If xx removes oo from yy, then yy doesn't have oo's contact.
+If xx buys nn, then xx has nn's contact.
+If xx inserts nn into yy, then yy has nn's contact.
+If xx installs the cover of yy, then yy doesn't have air's contact.
+If xx recharges yy, then yy has power's contact.
+If yy starts working, then yy doesn't have problem's contact.
+
+
+// Bob
+If xx founds nn, then xx has nn's contact.
+If xx slides down the cover of yy, then yy has air's contact.
+If xx removes oo from yy, then yy doesn't have oo's contact.
+If xx puts nn into yy, then yy has nn's contact.
+If xx slides up the cover of yy, then yy doesn't have air's contact.
+If kk is happy, then kk has happiness's contact.
+
+// Carl
+If oo leaves yy, then yy doesn't have oo's contact.
+If nn joins yy, then yy has nn's contact.
+
+// David
+If xx eats all oo in yy, then yy doesn't have oo's contact.
+
+// Eager
+// If xx puts nn in yy, then yy has nn's contact.

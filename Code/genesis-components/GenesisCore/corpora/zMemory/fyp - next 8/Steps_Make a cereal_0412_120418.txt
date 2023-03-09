@@ -1,0 +1,32 @@
+/* ------------------------------
+ Generated on Make a cereal_0412_120418 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a cereal".
+Intention: Make a cereal.
+The end.
+
+If the intention is "Make a cereal".
+Step: Put the crackers into the bowl.
+Step: Pour milk into the bowl.
+The end.
+
+If the problem is "Put the crackers into the bowl".
+Intention: Put the crackers into the bowl.
+The end.
+
+If the intention is "Put the crackers into the bowl".
+Step: Crackers are in bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make a cereal_0412_120418 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Pour milk into the bowl".
+Intention: Pour milk into the bowl.
+The end.
+
+If the intention is "Pour milk into the bowl".
+Step: Milk is in the bowl.
+The end.
+

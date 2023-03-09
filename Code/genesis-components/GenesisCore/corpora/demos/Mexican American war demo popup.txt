@@ -1,0 +1,16 @@
+<h1>What you will see</h1>
+
+<p>Genesis will read a story describing the Mexican-American war. This summary of the war is plain, brief, and high-level, but resembles an elementary school textbook chapter summary or something similar. There is one goal explicitly stated in the story – "The United States wants to gain land" – but Genesis is not told how this relates to any of the other story events. The story does not contain any rules, so without ASPIRE and ConceptNet, Genesis is not able to make any causal connections. Instead, it sees the story as a sequence of unconnected events.</p>
+
+
+<p>ASPIRE events and connections are represented in the elaboration graph using magenta: any casual connection formed by ASPIRE is drawn with a magenta line, and any inferred event that ASPIRE added to the story is shown in a magenta box. If the formation of an ASPIRE casual connection required ConceptNet knowledge, it is dotted.</p>
+
+
+<p>ASPIRE and ConceptNet allow Genesis to connect the United States’ ambition and greed to its actions taken against Mexico. Genesis' English generation of some of its inferred events is not perfect, but the main ideas are salient. ASPIRE helps Genesis connect the United States’ ambition to its desire to "conquer [its] opponent," which it completes when it triumphs by capturing Mexico City. Conquering its opponent allows it to accomplish its goal of gaining land. Similarly, Genesis understands that the United States "conquers [a] nation" by winning the war, and its goal of conquering a nation stemmed from its greed. Conquering a nation also helps it gain land. The country’s greed makes it want to get something, and this goal is accomplished when the United States gains land, an example of an ASPIRE inference enabling it to make an additional inference. Genesis was able to make all of these connections and inferences without any user-specified rules; instead, it’s relying just on its commonsense to connect the United States’ traits, goals, and actions.</p>
+
+
+<p>The ConceptNet Knowledge pane in the sources tab provides human-readable justifications behind ConceptNet-assisted connections.</p>
+
+<h1>Reference</h1>
+
+The example is from the MEng thesis of Bryan Williams.

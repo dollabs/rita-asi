@@ -1,0 +1,21 @@
+Both perspectives.
+Show both perspectives.
+
+Insert file HintingTask knowledge.
+
+First perspective.
+Set Healthy button to true.
+Start story titled "Healthy".
+Insert file HintingTask plot.
+The end.
+
+Second perspective.
+Set Hyper-presumption button to true.
+Start story titled "Schizophrenic via Hyper-presumption".
+Insert file HintingTask plot.
+The end.
+
+
+
+
+

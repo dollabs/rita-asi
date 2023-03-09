@@ -1,0 +1,28 @@
+Insert file Start experiment.
+
+First perspective.
+Start story titled "First".
+John, Mary, Bill, and Sarah are entities.
+
+John sees Mary.
+Mary sees John.
+Bill hugs Sarah.
+
+The end.
+
+Second perspective.
+
+Start story titled "Second".
+Matt, Emily, Bill, and Sarah are entities.
+
+Matt sees Emily.
+Emily sees Matt.
+Bill hugs Sarah.
+Then, Bill hugs Sarah.
+
+The end.
+
+
+
+
+

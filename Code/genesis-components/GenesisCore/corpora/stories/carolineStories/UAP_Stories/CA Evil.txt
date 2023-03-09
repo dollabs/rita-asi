@@ -1,0 +1,10 @@
+XX is a person.
+YY is a person.
+
+With probability of 0.6 XX poisons YY because XX is evil and YY is a person.
+With probability of 0.8 XX plans to kill YY because XX is evil and YY is a person.
+With probability of 0.9 XX kills YY because XX is evil and YY is a person.
+With probability of 0.9 XX murders YY because XX is evil and YY is a person.
+With probability of 0.8 XX plots to murder YY because XX is evil and YY is a person.
+With probability of 0.55 XX steals from YY because XX is evil and YY is a person.
+

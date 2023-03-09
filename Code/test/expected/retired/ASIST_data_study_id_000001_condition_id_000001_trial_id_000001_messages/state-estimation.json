@@ -1,0 +1,2743 @@
+[
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "select-tool",
+        "object": "Dog Lead",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "K_Fuse",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 9,
+        "untriaged-green-victims": 1,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Staging Area"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "select-tool",
+        "object": "Dog Lead",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Staging Area"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Staging Area"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "stone_button",
+        "wool"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "Staging Area Door"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Staging Area Door",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16974",
+      "using": "Staging Area Door"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "open",
+        "object": "Staging Area Door",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "switch"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16975"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Center Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "open",
+        "object": "Staging Area Door",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "enter-corridor",
+        "object": "Center Corridor",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "mode",
+      "subject": "Staging Area Door",
+      "values": {
+        "closed": 0.1,
+        "locked": 0.1,
+        "open": 0.8
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "K_Fuse",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 18,
+        "untriaged-green-victims": 2,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim g",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim g",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim g"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16976",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Elevator 1"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "open",
+        "object": "Elevator 1 entrance",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "Elevator 1 entrance"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Elevator 1 entrance",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16977",
+      "using": "Elevator 1 entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "lever"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Center Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "open",
+        "object": "Elevator 1 entrance",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "Elevator 1 entrance"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Elevator 1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Elevator 1 entrance",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Elevator 1",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16978",
+      "using": "Elevator 1 entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "Corridor lights switch"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "switch"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16979"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Center Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "open",
+        "object": "Elevator 2 entrance",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "Corridor lights switch"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "lever"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "switch"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "lever",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "lever",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "lever"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16980"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "Womens Room Entrance"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Womens rest room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens Room Entrance",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Womens rest room",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16981",
+      "using": "Womens Room Entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "Womens Room Entrance"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Womens rest room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens Room Entrance",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Womens rest room",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16982",
+      "using": "Womens Room Entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "K_Fuse",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 27,
+        "untriaged-green-victims": 3,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Womens rest room"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "open",
+        "object": "Womens Room Entrance",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Womens rest room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens Room Entrance",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Womens rest room",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": true,
+      "subject": "K_Fuse",
+      "uid": "se16982",
+      "using": "Womens Room Entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "cauldron",
+        "stone_button"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "Womens Room Entrance"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens Room Entrance",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16983",
+      "using": "Womens Room Entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "switch"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "lever",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "lever",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "lever"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16984"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "Corridor lights switch"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Center Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "open",
+        "object": "Womens Room Entrance",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "switch"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16985"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "Staging Area Door"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Staging Area Door",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Staging Area Door",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Staging Area"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Staging Area Door"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16986",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Staging Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Staging Area Door",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Staging Area",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16987",
+      "using": "Staging Area Door"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Staging Area"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "open",
+        "object": "Staging Area Door",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "enter-room",
+        "object": "Staging Area",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "mode",
+      "subject": "Staging Area Door",
+      "values": {
+        "closed": 0.1,
+        "locked": 0.1,
+        "open": 0.8
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Staging Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Staging Area Door",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Staging Area",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": true,
+      "subject": "K_Fuse",
+      "uid": "se16987",
+      "using": "Staging Area Door"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "Staging Area Door"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Staging Area Door",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16988",
+      "using": "Staging Area Door"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "switch"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16989"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Center Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "open",
+        "object": "Staging Area Door",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "enter-corridor",
+        "object": "Center Corridor",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "mode",
+      "subject": "Staging Area Door",
+      "values": {
+        "closed": 0.1,
+        "locked": 0.1,
+        "open": 0.8
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "Corridor lights switch"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "K_Fuse",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 45,
+        "untriaged-green-victims": 5,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "stone_button"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Mens rest room"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "cauldron"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "Mens Room Entrance"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Mens Room Entrance",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16990",
+      "using": "Mens Room Entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Center Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "switch"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16991"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 18",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 18",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 18"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16992",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Center Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "open",
+        "object": "Elevator 2 entrance",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Mens rest room"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "cauldron",
+        "stone_button"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Center Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "Corridor Intersection CC-LSN"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor North-SouthS",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corridor Intersection CC-LSN",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Left Corridor North-SouthS",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16993",
+      "using": "Corridor Intersection CC-LSN"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "Door between CC-R209"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R209",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R209",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 209"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R209"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16994",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 209",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R209",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 209",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16995",
+      "using": "Door between CC-R209"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "open",
+        "object": "Door between CC-R209",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R209",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R209",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 209"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R209"
+        }
+      ],
+      "state": true,
+      "subject": "K_Fuse",
+      "uid": "se16994",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Room 209"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "open",
+        "object": "Door between CC-R209",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "K_Fuse",
+      "values": {
+        "action": "enter-room",
+        "object": "Room 209",
+        "subject": "K_Fuse"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "mode",
+      "subject": "Door between CC-R209",
+      "values": {
+        "closed": 0.1,
+        "locked": 0.1,
+        "open": 0.8
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "switch"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 209 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 209 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 209 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16996"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "chest"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Room 209"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "K_Fuse",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 63,
+        "untriaged-green-victims": 7,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "K_Fuse",
+      "values": "Room 216"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "flower_pot"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "victim e"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "chest"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "chest",
+        "chest",
+        "furnace",
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "Room 216 light",
+        "cauldron"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "flower_pot"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim e",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim e",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim e"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16997",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "Room 216 light switch"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "chest"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "chest"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "K_Fuse",
+      "values": "switch"
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 216 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 216 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 216 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "K_Fuse",
+      "uid": "se16998"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "K_Fuse",
+      "values": [
+        "victim 11"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "3749faec-574b-4f6e-b198-dbd846b33702",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  }
+]

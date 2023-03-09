@@ -1,0 +1,110 @@
+// Need this because otherwise victim and child match as both have threads that define them as person.
+// Effect here is to force use of primed thread, that is, the first one.
+A victim is a victim. A child is a child. xx is an entity. yy is an entity. The author is an entity. Scientists are entities. Society is an entity. We are an entity.
+
+Start description of "Role Doubt".
+xx and yy are entities.
+xx alleges yy's role.
+Consequently, xx casts doubt on yy's role.
+The end.
+
+
+Start description of "Object of doubt".
+The author says that yy is alleged.
+Consequently, the author casts doubt on yy's label.
+The end.
+
+
+Start description of "Decrease Credibility".
+xx and yy are entities.
+xx says that yy alleges something.
+Consequently, xx decreases yy's credibility.
+The end.
+
+
+If xx alleges yy, then xx casts doubt on yy.
+
+
+Start description of "Passivity".
+xx uses passivity for yy.
+Consequently, xx decreases yy's agency.
+The end.
+
+
+Start description of "Blame".
+xx and yy are entities.
+xx says that yy commits an inequity.
+Consequently, xx blames yy.
+The end.
+
+
+Start description of "Retribution".
+xx and yy are entities.
+xx says that yy commits an inequity against a malefactor.
+Consequently, xx mitigates blame against yy.
+The end.
+
+Start description of "Misguided Kindness".
+xx and yy are entities. 
+xx says that yy carries out a kindness against a malefactor.
+Consequently, xx casts doubt on yy's intentions.
+The end.
+
+Start description of "Kindness".
+xx and yy are entities. 
+xx says that yy carries out a kindness.
+Consequently, xx casts admiration on yy's intentions.
+The end.
+
+
+If xx uses passivity for yy, then xx decreases yy's agency.
+
+If xx decreases yy's agency, then xx mitigates yy's blame.
+
+If xx says that yy commits an inequity, then xx blames yy.
+
+If xx alleges yy, then xx casts doubt on yy.
+
+If xx is repeated, then xx is emphasized.
+
+Start description of "Childhood".
+xx and yy are entities.
+xx refers to yy as a youth.
+Consequently, xx invokes yy's childhood.
+The end.
+
+Start description of "Victimhood".
+xx is an entity.
+yy is a entity.
+xx refers to yy as a victim.
+Consequently, xx elicits sympathy for yy.
+The end.
+
+Start description of "Repetition".
+xx is an entity.
+yy is a person.
+xx refers to yy as a victim repeatedly.
+Consequently, xx increases sympathy for yy.
+The end.
+
+Start description of "Passivity".
+xx is an entity.
+yy is an entity.
+xx refers to yy as a victim and xx labels yy as passivity's object.
+Consequently, xx increases sympathy for yy.
+The end.
+
+If xx refers to yy as a victim, then xx elicits sympathy for yy.
+
+
+Start description of "Increase Sympathy". 
+xx and yy are entities. 
+xx invokes yy's childhood. 
+xx elicits sympathy for yy.
+Consequently, xx increases sympathy for yy. 
+The end.
+
+
+
+
+

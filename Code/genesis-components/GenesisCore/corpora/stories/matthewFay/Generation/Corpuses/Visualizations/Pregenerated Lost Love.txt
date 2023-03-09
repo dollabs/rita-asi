@@ -1,0 +1,24 @@
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "Lost Love".
+
+Jacob is a name.
+Jacob is a person.
+
+Maria is a name.
+Maria is a person.
+
+Jacob is a duke.
+Maria is lost.
+Jacob finds Maria.
+Jacob loves Maria.
+Maria loves Jacob.
+Jacob wants to marry Maria.
+Maria wants to marry Jacob.
+Maria marries Jacob.
+Jacob marries Maria.
+
+The end.

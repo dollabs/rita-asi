@@ -1,0 +1,25 @@
+/**
+ * American Civil War 1861-1865
+ */
+The Confederacy is a country.
+The Union is a country.
+The Confederacy was a region of the United States.
+The Union was a region of the United States.
+
+The Union disliked slavery.
+The Union disliked the Confederacy.
+The Union disliked the Confederacy because the Confederacy possessed slaves.
+The Confederacy disliked the Union.
+The Confederacy left the United States.
+The Confederacy left the United States because the Confederacy disliked the Union.
+The Union wanted the Confederacy to stay in the United States.
+
+The Union attacked the Confederacy.
+Then, The Confederacy attacked the Union.
+The Confederacy attacked the Union because the Union attacked the Confederacy.
+
+The Union was stronger than the Confederacy.
+The Union defeated the Confederacy.
+The Union controlled the Confederacy.
+The Union controlled the Confederacy because the Union defeated the Confederacy.
+The Union forced the Confederacy to return to the United States.

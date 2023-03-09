@@ -1,0 +1,13 @@
+Start experiment.
+
+Start story titled "test2".
+
+Philip is a person.  
+
+Susan is a person.
+
+Philip hates Susan.
+
+Susan Dies.
+
+The End.

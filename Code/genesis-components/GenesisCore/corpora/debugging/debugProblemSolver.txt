@@ -1,0 +1,56 @@
+Start experiment.
+
+Peter, Paul, and Mary are persons.
+
+If xx hits yy, then xx harms yy.
+
+If xx damages yy, then yy may dislike xx.
+
+If xx angers yy, then yy may hit xx.
+
+If xx insults yy and xx knows yy, then xx angers yy.
+
+If xx talks to yy then xx knows yy.
+
+If xx harms yy then xx damages yy.
+
+If xx hits yy then xx slanders yy.
+
+If xx slanders yy then xx may irritate yy.
+
+If xx irritates yy then yy becomes unhappy.
+
+Start story titled "Test Problem Solver".
+
+Paul talks to Peter.
+
+Paul insults Peter.
+
+Peter hits Paul.
+
+Paul dislikes Peter.
+
+Peter irritates Paul.
+
+The end.
+
+Set left panel to Commentary.  Set right panel to Mental models. 
+
+Insert question into text box: Why did Peter hit Paul? Pause.
+
+Set left panel to Commentary.  Set right panel to Mental models. 
+
+Insert question into text box: Did Peter hit Paul? Pause.
+
+Set left panel to Commentary.  Set right panel to Mental models. 
+
+Set left panel to Commentary.  Set right panel to Mental models. 
+
+Set left panel to Commentary.  Set right panel to Mental models. 
+
+Insert question into text box: Did "Peter hit Paul" happen? Pause.
+
+Set left panel to Commentary.  Set right panel to Mental models. 
+
+Insert question into text box: What happened after Peter hit Paul.
+

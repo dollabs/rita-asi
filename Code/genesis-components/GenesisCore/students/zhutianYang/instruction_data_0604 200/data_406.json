@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 11:31:52+08:00", 
+    "instructions": [
+        "We place a dinner fork on the table on the bottom left corner ", 
+        "We now place a dinner knife on the on the table with the blade pointing in. ", 
+        "Now we place the salad fork next to the dinner fork with the prongs lined up", 
+        "Now place your salad for to the left of the dinner fork face the same way", 
+        "Now place the soup spoon to the right of the salad fork with the bowl facing up", 
+        "Place a dessert spoon at the top middle of the table with the bowl facing left", 
+        "Now move the dessert spoon with the bowl facing up next to the soup spoon.", 
+        "Move the dessert spoon back to its original spot", 
+        "Now place a dinner plate between the dinner fork and knife", 
+        "Place a bread plate at the top left of the table touching the dessert spoon.", 
+        "Place a butter knife on the bread plate", 
+        "Place a wine glass above the soup spoon", 
+        "Place a water glass between the wine glass and the dessert spoon", 
+        "Add a napkin to the food plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

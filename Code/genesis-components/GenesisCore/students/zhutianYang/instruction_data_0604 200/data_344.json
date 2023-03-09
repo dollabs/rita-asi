@@ -1,0 +1,16 @@
+{
+    "accept_time": "2019-06-04 10:48:02+08:00", 
+    "instructions": [
+        "put the plate on the table cloth", 
+        "put the salad plate on dinner plate", 
+        "put the napkin on the salad plate", 
+        "put the wine glass on near the plate", 
+        "put the water glass on near the wine glass", 
+        "put teh salas fork on bottom of the cloth", 
+        "put the dinner fork on near the salad fork", 
+        "put the dinner knife on oppsite side fo the dinner fork", 
+        "put the soup spoon on near the dinner knife"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table1"
+}

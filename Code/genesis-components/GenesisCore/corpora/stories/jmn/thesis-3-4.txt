@@ -1,0 +1,55 @@
+//Les Mis 3.4 (Thesis), 1/31/2017
+
+Start experiment.
+
+Set Agent focused button to true.
+
+Start common sense knowledge.
+Jean Valjean is a name.
+Inspector Javert is a name.
+Officer Pachino is a name.
+
+Jean Valjean, Inspector Javert, and Officer Pachino are persons.
+
+xx is a person.
+If xx commits a crime, then xx is criminal.
+If xx repents, then xx is not criminal.
+
+Start story titled "Les Mis 3.4".
+Inspector Javert and Officer Pachino enter the scene.
+Jean Valjean commits a crime.
+Inspector Javert and Officer Pachino exit the scene.
+Then, Jean Valjean repents.
+The end.
+
+//Insert into text box: Why does Jean Valjean disagree with Inspector Javert?
+Insert into text box: Why does Inspector Javert disagree with Officer Pachino?
+
+
+/*
+Start common sense knowledge.
+xx is a person.
+//If story is over and xx commits a crime, then xx is a criminal.
+//If story is over and xx repents, then xx is not a criminal.
+If story is over and xx repents, then xx sings.
+
+Jean Valjean is a name.
+Inspector Javert is a name.
+
+Jean Valjean and Inspector Javert are persons.
+
+Start story titled "thesis 3.4".
+
+Inspector Javert patrols the city.
+Jean Valjean commits a crime.
+Inspector Javert exits the scene.
+Jean Valjean repents.
+Story is over.
+Then, Inspector Javert enters the scene.
+Jean Valjean enters the scene.
+Story is over.
+The end.
+
+
+Insert into text box: Why does Jean Valjean disagree with Inspector Javert?
+*/

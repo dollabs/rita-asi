@@ -1,0 +1,68 @@
+Start description of "Weak 2".
+XX is a person.
+XX becomes ashamed. 
+The end. 
+
+//Start description of "Nice 2".
+//XX is a person.
+//YY is a person.
+//XX isn't YY's relation.
+//XX doesn't want to harm YY.
+//The end. 
+
+Start description of "Bad Husband".
+XX is a person.
+YY is a person.
+AA is an action.
+XX is YY's husband.
+XX's performing AA leads to YY's feeling lonely. 
+The end. 
+
+Start description of "Harsh".
+XX is a person.
+YY is a person.
+XX reprimands YY.
+The end. 
+
+Start description of "Cruel 1".
+XX is a person.
+YY is a person.
+XX locks YY in a room. 
+The end. 
+
+Start description of "Cruel 2".
+XX is a person.
+YY is a person.
+XX starves YY.
+The end. 
+
+Start description of "Hateful".
+XX is a person.
+YY is a person.
+XX hates YY.
+//how do I say with no reason? 
+The end.
+
+Start description of "Violent".
+XX is a person.
+YY is a person.
+XX attacks YY.
+The end.
+
+Start description of "Scary".
+XX is a person.
+XX needs to eat humans.
+The end.
+
+Start description of "Friendly".
+XX is a person.
+XX wants friends. 
+The end. 
+
+Start description of "Vicious".
+XX is a person.
+YY is a person.
+XX insults YY.
+The end.
+
+

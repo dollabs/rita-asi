@@ -1,0 +1,12 @@
+// All moved to western personality type
+
+/*
+
+// self-serving bias by adding clause xx is American. infer insanity only when culture is American.
+If xx isn't American and xx kills yy then xx must be insane.
+
+// accommodate situation for westerners. self-serving bias.
+If xx is American and xx becomes angry, then xx becomes violent. 
+If xx becomes violent, then xx may kill yy.
+
+*/

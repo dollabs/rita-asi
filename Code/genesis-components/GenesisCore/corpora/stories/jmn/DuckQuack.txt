@@ -1,0 +1,22 @@
+Start experiment.
+
+Start story titled "Duck test".
+A duck is a duck.
+A box is a box.
+//A table is a table.
+An animal is an animal.
+
+A duck quacks.
+A box explodes.
+The end.
+
+
+Insert into text box: Did duck quack? //should be yes
+Insert into text box: Did box quack? //should be no
+Insert into text box: Did table quack? //should be no
+Insert into text box: Did duck squeal? //should be no
+
+Insert into text box: Did animal quack? //should be yes
+
+//Insert into text box: Did box explode? //should be yes
+//Insert into text box: Did table explode? //should be no

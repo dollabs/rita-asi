@@ -1,0 +1,60 @@
+//Les Mis 2.4 (Thesis), 2/1/2017
+
+Start experiment.
+
+Start common sense knowledge.
+xx is a person.
+yy is a person.
+
+If xx falls asleep, then xx loses consciousness.
+If xx dies, then xx loses consciousness.
+If xx regains consciousness, then xx awakens.
+
+Inspector Javert is a name.
+Jean Valjean is a name.
+Marius is a name.
+Enjolras is a name.
+Thenardier is a name.
+Grandfather is a name.
+
+Inspector Javert and Jean Valjean are persons.
+Marius, Enjolras, Thenardier, and Grandfather are persons.
+
+Start story titled "Les Mis 2.4".
+
+At the barricade, Marius fights in the uprising with Enjolras.
+Enjolras gets injured.
+
+	// Enjolras doesn't observe
+	Enjolras dies.
+	Marius gets injured.
+	
+		// Marius doesn't observe
+		Marius loses consciousness.
+		Jean Valjean carries Marius into the sewer toward safety.
+		Jean Valjean rests.
+		Marius is covered in mud.
+				
+			// JV doesn't observe
+			Jean Valjean falls asleep. //JV becomes unconscious
+			
+			// new scene, Thenardier enters
+			Then, Thenardier steals valuable ring from Marius.
+			Jean Valjean snores.
+			
+		Then, Jean Valjean awakens.
+		Marius is covered in filth.
+		Thenardier exits the scene.
+		Jean Valjean continues carrying Marius.
+		Jean Valjean leaves Marius on Grandfather's doorstep.
+		Jean Valjean exits the scene.
+
+//		// new scene, Grandfather enters.
+//		Then, Grandfather discovers Marius.
+
+	Then, Marius regains consciousness.
+//	Grandfather is happy.
+	Marius is grateful.
+	Marius wants to know the identity of his rescuer.
+
+The end.

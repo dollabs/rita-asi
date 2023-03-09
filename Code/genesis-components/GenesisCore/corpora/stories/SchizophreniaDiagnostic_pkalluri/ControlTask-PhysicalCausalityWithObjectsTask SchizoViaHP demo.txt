@@ -1,0 +1,16 @@
+Both perspectives.
+Show both perspectives.
+
+Insert file ControlTask-PhysicalCausalityWithObjectsTask knowledge.
+
+First perspective.
+Set Healthy button to true.
+Start story titled "Healthy".
+Insert file ControlTask-PhysicalCausalityWithObjectsTask plot.
+The end.
+
+Second perspective.
+Set Hyper-presumption button to true.
+Start story titled "Schizophrenic via Hyper-presumption".
+Insert file ControlTask-PhysicalCausalityWithObjectsTask plot.
+The end.

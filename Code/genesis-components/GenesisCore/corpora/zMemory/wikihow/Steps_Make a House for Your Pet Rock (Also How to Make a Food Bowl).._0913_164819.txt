@@ -1,0 +1,10 @@
+/* ------------------------------
+ Generated on 0913_164819 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a House for Your Pet Rock (Also How to Make a Food Bowl)..".
+Intention: Make a House for Your Pet Rock (Also How to Make a Food Bowl)...
+The end.
+
+If the intention is "Make a House for Your Pet Rock (Also How to Make a Food Bowl)..".
+The end.
+

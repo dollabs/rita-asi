@@ -1,0 +1,12 @@
+Start commonsense knowledge.
+
+XX is a person.
+XX may ignore advice because XX is reckless.
+
+Start reflective knowledge.
+
+Start description of "being reckless".
+XX is a person.
+XX ignores advice.
+
+The end.

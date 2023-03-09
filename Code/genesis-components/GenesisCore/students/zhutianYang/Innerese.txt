@@ -1,0 +1,1 @@
+(rel peel (ent you-3780) (seq roles (fun object (ent eggs-3782)) (fun under (ent water-3785))))

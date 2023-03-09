@@ -1,0 +1,74 @@
+//Les Mis 1, 6/11, 6/16
+
+Start experiment.
+
+Start common sense knowledge.
+xx is a person.
+yy is a person.
+If xx repents, then xx is not a criminal.
+If xx commits a crime, then xx is a criminal.
+If xx is a policeman and xx believes that yy is a criminal, then xx wants to arrest yy.
+//or: xx may try to arrest yy because xx is a policeman and xx believes that yy is a criminal.
+If xx repents and xx becomes a good person, then xx is not a criminal.
+If yy is in danger and xx tries to save yy, then xx tries to do a good deed. 
+If xx tries to arrest yy, then xx tries to stop yy.
+xx may try to arrest yy because xx wants to arrest yy.
+If xx tries to do a good deed and yy tries to stop xx, then xx is annoyed.
+If xx is a policeman, then xx wants to catch criminals. //remove
+
+
+Javert is a name.
+Jean Valjean is a name.
+Cosette is a name.
+
+Start story titled "Les Mis 1".
+Javert, Jean Valjean, and Cosette are persons.
+Javert is a policeman.
+
+Javert and Jean Valjean enters the scene.
+Jean Valjean commits a crime.
+	//Infer from Javert's obs: Javert believes that Jean Valjean is a criminal.
+	//Infer from rule: Javert wants to arrest Jean Valjean.
+Javert and Jean Valjean exit the scene.
+
+
+Then, Jean Valjean enters the scene.
+Jean Valjean repents.
+Jean Valjean becomes a good person.
+	//Infer from rule: Jean Valjean is not a criminal.
+	//Infer from JV's obs: Jean Valjean believes that Jean Valjean is not a criminal.
+	//Infer from Javert's obs: Javert believes that Jean Valjean is a criminal. => Javert wants to arrest JV.
+Jean Valjean exits the scene.
+
+
+
+Then, Cosette enters the scene.
+Javert and Jean Valjean enter the scene.
+Cosette is in danger.
+Jean Valjean tries to save Cosette.
+	//Infer from rule: JV tries to do a good deed.
+Javert tries to arrest Jean Valjean.
+	//Infer from rule: Javert tries to stop Jean Valjean.
+	//Infer from MAY rule: Javert tries to arrest Jean Valjean because Javert wants to arrest Jean Valjean.
+	//Infer from rule: Jean Valjean is annoyed.
+Javert and Jean Valjean exit the scene.
+Cosette exits the scene.
+
+
+The end.
+
+//Desired outcome:
+//Why is Jean Valjean annoyed?
+//    JV is annoyed because JV tries to do a good deed and Javert tries to stop JV.
+//Why does Javert try to stop/arrest JV?
+//    Javert tries to stop JV because Javert believes that JV is a criminal.
+//Why does Javert believe that JV is a criminal?
+//    Javert believes that JV is a criminal because Javert observes that JV commits a crime. (and Javert does not see that JV repents and turns his life around)
+
+//rule: If xx believes zz and yy believes not zz, then xx and yy disagree.
+// Why do Javert and JV disagree?
+//    Javert and JV disagree because Javert believes "JV is a criminal" and JV believes not "JV is a criminal".
+
+//or: If xx believes qq is zz and yy believes qq is not zz, then xx and yy disagree about qq.
+// Why do Javert and JV disagree about JV?
+//    Javert and JV disagree about JV because Javert believes JV is a criminal and JV believes JV is not a criminal.

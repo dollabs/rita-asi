@@ -1,0 +1,39 @@
+If the intention is "xx becomes dead".
+Condition: Check "You cannot kill xx".
+Step: Ask "who may make xx become dead".
+The end.
+
+If the intention is "who may make xx become dead".
+Condition: Check "King does not trust xx".
+Step: King kill xx.
+The end.
+
+If the intention is "King kills xx".
+Condition: King believes that xx is disloyal.
+Step: Happen "King kills xx".
+The end.
+
+If the intention is "King believes that xx is disloyal".
+Condition: Check "King trust the Official".
+Step: Official make King believe that xx is disloyal.
+The end.
+
+If the intention is "Official make King believe that xx is disloyal".
+Condition: Check "Official is corrupted".
+Step: yy bribe Official.
+The end.
+
+If the intention is "xx bribes Official".
+Condition: Check "You have the money".
+Step: Happen "xx Bribes Official".
+The end.
+
+// to be learned
+// If king trusts yuan, then I will make king distrust yuan.
+//If the intention is "King does not trust xx".
+//Step: I make king distrust xx.
+//The end.
+
+//If the intention is "I make king distrust xx".
+//Step: Happen "yy spreads rumor about xx that xx is disloyal".
+//The end.

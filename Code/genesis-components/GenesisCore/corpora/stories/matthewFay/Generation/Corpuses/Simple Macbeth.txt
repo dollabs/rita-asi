@@ -1,0 +1,30 @@
+Start Experiment.
+
+First perspective.
+
+Start story titled "Simple Macbeth".
+
+Macbeth is a person.
+
+Duncan is a person.
+
+Macduff is a person.
+
+Macbeth is Duncan's successor.
+
+Duncan is the king.
+
+Macduff is Duncan's friend.
+
+Macbeth kills Duncan.
+
+Macbeth becomes the king.
+
+Macbeth scares away Macduff.
+
+Macduff attacks Macbeth.
+Macduff kills Macbeth.
+
+Macbeth dies.
+
+The end.

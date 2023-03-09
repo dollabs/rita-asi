@@ -1,0 +1,33 @@
+Start experiment.
+
+Set right panel to mental models.
+
+xx, yy, and zz are persons.
+
+David, Emily, and Peter are persons.
+
+// Personality traits defined.  Be careful in naming.  
+// Some don't work because of START wierdness, personality-x for example.
+
+personality-l is a kind of personality trait.
+
+personality-m is a kind of personality trait.
+
+Start story titled "Mental model testing".
+
+// Works with or without entry
+
+// David enters.
+
+// Emily enters.
+
+// Note that personalities contain different abduction rules for shouting.
+
+David thinks like personality-l.
+
+Emily thinks like personality-m.
+
+Peter shouts.
+
+The end.
+

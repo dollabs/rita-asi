@@ -1,0 +1,89 @@
+MAIN GOALS:
+1. retell story from a character's POV
+2. answer WHY questions from mental models
+3. reconciliation / conflict resolution
+4. infer entrances/exits
+
+NEXT STEPS:
+- finish July2016 refactor:
+    - restore TELL functionality
+    - infer Enter/Exit in EnterExit3a instead of "Bobby enters the kitchen."
+    - restore DID OBSERVE question-answering functionality
+    - should characters in a container be able to observe others entering/exiting?
+
+- Fix False Belief story as demo
+
+- from 4/26 discussion: look into:
+	 method of representing 1-way observations: is within earshot of (Dylan)
+	 maybe a lot of the processing is on demand, e.g. only do it if asked "Does Emily know that Bobby is in the kitchen?"
+
+- fix TODOs in Les Mis 2
+- enable questions in Les Mis 2 (esp. "Why do Javert and JV disagree?" (reconciliation))
+- Instantiate different mental models with different rules (see Mental model sample)
+	- Javert's rule: "If xx is a criminal, then xx cannot stop being a criminal."
+- refactor Observations to answer DID questions from Actor.mentalModel
+- see entity properties <- to see if I should use Entity instead of Actor
+- fix TODOs (in ObservationsFactory, JessicasExpert, ...)
+
+- answer "What does Javert think/believe?"
+- answer "Who observed that [event]?"
+
+MISC
+- test "Did Macbeth murder Duncan because Duncan is a king"
+- read Winograd's thesis scenario
+- read Dyer paper
+- think about this from 8/10/2015: "Problem w genesis: it can't read stories told in show-dont-tell style"
+
+- Make this work:
+If xx is happy and yy is happy, then xx and yy clap.
+//
+A becomes happy
+B becomes happy
+//A,B clap
+A stops being happy
+C becomes happy
+//B,C clap (not A,C)
+C stops being happy
+B stops being happy
+A becomes happy
+D becomes happy
+//A,D clap
+/*
+Q: When B was happy, was D happy? -> NO
+//
+How to achieve this? Ideas:
+hack: Genesis rereads with if-then rule
+temporal mental model
+assume elaboration graph is correct timeline
+assume story is correct timeline
+*/
+
+ADMISSIBLE -> CONSISTENT:
+- tell story with less explanation (eg see "Tell story as Jean Valjean" for over-explaining)
+- fix JessicasDisplay to display text output (ie DidQuestion answers & story retelling)
+- improve DID questions to answer yellow-box questions with "Yes, inferred from [event]"
+- write first-to-third-person tense-changer (start with simple name/pronouncs replace). See: 
+	- Sila's filtering
+	- Sila's educational storytelling (what level of spoonfeeding)
+	- Mpfay's thing where the story tells itself given good character sketches)
+- removed unused files (and references to them): Actor, Observations, ObservationsFactory, JessicasDisplay
+
+STORIES TO WRITE/TEST:
+- a story from a play, s.t. enter/exit are valid
+- "anyone lived..." with "Anyone is a person"
+- false-belief test
+	- child's mental model is objective model of world; child is same as reader/Genesis/objective observer
+*- Les Mis, following scenario in my slides
+- gift of the Magi
+
+DISPLAY:
+*- fix JessicasDisplay
+- display both label and table in GUI
+- table formatting
+	- resizing (see GridLayout?)
+	- colored cells
+	- pin left column (or create row labels)
+
+WIKI:
+- FAQ
+- make TableView template classes

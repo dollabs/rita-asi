@@ -1,0 +1,19 @@
+{
+    "instructions": [
+        "place the dinner fork on the left bottom corner of the table cloth",
+        "place the dinner knife on the right bottom corner of the table cloth",
+        "place the salad fork to the immediate left of the dinner fork",
+        "place the salad knife to the immediate right of the dinner knife",
+        "place the soup spoon immediately right of the salad knife",
+        "place the dessert spoon at the top center of the table cloth, with its bowl facing towards the left",
+        "move the dessert spoon to the immediate right of the soup spoon and oriented vertically",
+        "move the dessert spoon to the top center of the table cloth, with its bowl pointed to the left",
+        "place the dinner plate in the center of the table cloth",
+        "place the bread plate above the salad fork and to the left of the dessert spoon",
+        "put the butter knife on the bread plate with its blade pointed 45 degrees to the lower left",
+        "place the wine glass directly above the soup spoon on the table cloth",
+        "place the water glass to the right of the dessert spoon and the left of the wine glass",
+        "place the napkin on top of the dinner plate"
+    ],
+    "video_name": "table2"
+}

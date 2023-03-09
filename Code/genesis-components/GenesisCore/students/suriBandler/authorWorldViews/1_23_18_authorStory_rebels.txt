@@ -1,0 +1,108 @@
+Start experiment.
+
+// Need this because otherwise victim and child match as both have threads that define them as person.
+// Effect here is to force use of primed thread, that is, the first one.
+A victim is a victim. A child is a child.
+
+Start description of "Agency and Passivity".
+xx and yy are entities.
+xx uses passivity for yy.
+Consequently, xx decreases yy's agency.
+The end.
+
+// Using refers to instead of calls to ensure that entities do not become what they are called.
+
+Start description of "Childhood".
+xx and yy are entities.
+xx refers to yy as a youth.
+Consequently, xx invokes yy's childhood.
+The end.
+
+Start description of "Victimhood".
+xx is an entity.
+yy is a person.
+xx refers to yy as a victim.
+Consequently, xx invokes sympathy for yy.
+The end.
+
+Start description of "Role Doubt".
+xx and yy are entities.
+xx alleges yy's role.
+Consequently, xx casts doubt on yy's role.
+The end.
+
+
+Start description of "Object of Doubt".
+The author says that yy is alleged.
+Consequently, the author casts doubt on yy's label.
+The end.
+
+
+Start description of "Decrease Credibility".
+xx and yy are entities.
+xx says that yy alleges something.
+Consequently, xx decreases yy's credibility.
+The end.
+
+
+
+Start description of "Blame".
+xx and yy are entities.
+xx says yy commits a negative action.
+Consequently, xx blames yy.
+The end.
+
+
+
+If xx decreases yy's agency, then xx decreases yy's blame.
+
+//If xx says that yy alleges something then xx decreases yy's credibility.
+
+If xx says yy commits a negative action, then xx blames yy.
+
+If xx alleges yy, then xx casts doubt on yy.
+
+If xx refers to yy as a victim, then xx invokes sympathy for yy.
+
+If xx invokes yy's childhood and xx invokes sympathy for yy, then xx increases sympathy for yy.
+
+Start story titled "Analysis of Sympathy".
+
+// Using youth instead of child just makes start generate a little nicer.
+// Otherwise get "The author refers to a child as him
+// So, a work around
+
+// But! Making all of these entities must break some matching, because doubt and decrease attention do not work.
+
+
+
+The author refers to the young freedom fighters as a victim.
+Author says that the regime commits a negative action.
+The author refers to Max as a youth.
+The author refers to Max as a victim.
+Author says that the regime commits a negative action.
+Author uses passivity for the young freedom fighters.
+The author refers to two barbarians as a victim.
+The author says that the young freedom fighters commit a negative action.
+The author refers to Mark as a victim.
+Author says that the regime commits a negative action.
+The author says the regime alleges something.
+The regime alleges the boys to deserve to die therefore.
+The author says the regime alleges something.
+The author says terrorists are alleged.
+The regime alleges the boy's role as terrorists.
+The author refers to teenager as a youth.
+
+The author refers to the boys as a youth.
+The author refers to teenager as a youth.
+The author refers to Mark as a youth.
+The author refers to the young freedom fighters as a youth.
+The author refers to the boys as a youth.
+The author refers to Max as a youth.
+The author refers to Max as a victim.
+The author refers to Mark as a youth.
+The author refers to Mark as a victim.
+The author refers to the young freedom fighters as a youth.
+The author refers to the young freedom fighters as a victim.
+
+The end.

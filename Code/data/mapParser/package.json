@@ -1,0 +1,11 @@
+{
+  "name": "pamela-map-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parsePamela.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thao Phuong",
+  "license": "ISC"
+}

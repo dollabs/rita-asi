@@ -1,0 +1,15 @@
+Start experiment.
+
+Set right panel to mental models.
+
+Set bottom panel to elaboration graph.
+
+Set left panel to Onsets.
+
+Set Find concept onsets while reading switch to true.
+
+Insert file Macbeth2 common.
+
+
+
+

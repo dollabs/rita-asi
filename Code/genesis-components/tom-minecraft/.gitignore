@@ -1,0 +1,25 @@
+gridworld/__pycache__/
+gridworld/algorithms/__pycache__/
+gridworld/algorithms/rl/__pycache__/
+gridworld/recordingsMP4/
+gridworld/recordingsMalmo/
+!gridworld/recordingsMalmo/Recording replay.ipynb
+gridworld/recordings/
+!gridworld/recordings/test_replayer_RMQ/
+gridworld/maps/12by12/
+gridworld/mission_records/
+gridworld/experiments/
+
+gridworld/recordings/**/*.json
+gridworld/plots/**/*.gif
+gridworld/plots/**/*.csv
+gridworld/**/*.png
+gridworld/**/*.txt
+gridworld/**/*.tgz
+
+rita/__pycache__/
+
+**/.DS_Store
+**/__pycache__/
+
+.idea/

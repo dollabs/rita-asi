@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../css/favicon.ico">
+  
+  <title>Representation - Innerese - Genesis Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Representation - Innerese";
+    var mkdocs_page_input_path = "innerese.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Genesis Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Genesis</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="..">Genesis System</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../contribute/">Contribute to Documentation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../past/">Past</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../current.md">Current</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../future.md">Future</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Fundamentals</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <a class="current" href="./">Representation - Innerese</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#innerese">Innerese</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#the-entity-class">The Entity class</a></li>
+        
+            <li><a class="toctree-l4" href="#the-function-class">The Function class</a></li>
+        
+            <li><a class="toctree-l4" href="#the-relation-class">The Relation class</a></li>
+        
+            <li><a class="toctree-l4" href="#the-sequence-class">The Sequence class</a></li>
+        
+            <li><a class="toctree-l4" href="#innerese-is-an-implementation-of-role-frames">Innerese is an implementation of Role frames.</a></li>
+        
+            <li><a class="toctree-l4" href="#innerese-can-be-constructed-from-english">Innerese can be constructed from English</a></li>
+        
+            <li><a class="toctree-l4" href="#innerese-can-be-externalized-into-english">Innerese can be externalized into English</a></li>
+        
+            <li><a class="toctree-l4" href="#innerese-can-be-constructed-using-constructors-and-jfactory">Innerese can be constructed using constructors and JFactory</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../stories/">Writing Stories</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../inference/">Inference by Rules</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../concept-patterns/">Concept Patterns</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../mental-model/">Mental Models</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../classification/">Classification</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Genesis Interface</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../genesis-controls/">Controls</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../gui-subsystems/">Subsystems</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Consciousness</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../core/">Genesis Core</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../wire/">Box and Wire</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../problem-solver/">Problem Solver</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Mental Experts</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../hypothetical-reasoner/">Hypothetical Reasoner</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story reteller.md">Story Reteller</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-summarizer/">Story Summarizer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-aligner/">Story Aligner</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Knowledge Base</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../concept-net/">Commonsense - ConceptNet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../wikihow/">Procedural Knowledge - WikiHow</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../atomic/">Inference Rules - ATOMIC</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../personalities/">Personalities</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Knowledge Generators</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../recipe-learners/">Recipe Learners</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-aligner/">Story Aligner</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Tips for Users</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../tips-genesese/">Writing Parsable English</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../tips-eclipse/">Debugging in Eclipse</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../commentary/">Using Commentary</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Demonstrations</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../demo-macbeth2/">Culture Differences</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Genesis Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Fundamentals &raquo;</li>
+        
+      
+    
+    <li>Representation - Innerese</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="innerese">Innerese</h1>
+<p>Innerese is the semantic structure used by Genesis System. It is based on what linguists call "thematic role frames," or role frames for short.</p>
+<p>There are four classes of Innerese frames:</p>
+<ul>
+<li>The <code>Entity</code> class. A entity is usually a physical physical object. (So called so as not to conflict with Java’s <code>Object</code> class)</li>
+<li>The <code>Function</code> class. A function suggests the thematic role served by certain frame.</li>
+<li>The <code>Relation</code> class. A relation indicates how one frame is connected to another frame.</li>
+<li>The <code>Sequence</code> class. A sequence contains any number of frames.</li>
+</ul>
+<p>The class heritage is:</p>
+<pre><code>       Entity
+       __|__
+      /     \
+ function  sequence
+     |
+ relation
+</code></pre>
+
+<p>A <code>Entity</code> instance has no internal structure. <code>Function</code>, <code>Relation</code>, and <code>Sequence</code> consists of nested sequences of frames.</p>
+<h2 id="the-entity-class">The <code>Entity</code> class</h2>
+<p>The most fundamental class is the <code>Entity</code> class. Every instance of <code>Entity</code> has a unique name and bundle of threads. Because entities have threads, so do functions, relations, and sequences. Instances of <code>Entity</code> has no internal structure.</p>
+<p>To create a new entity, identified as both a ball and a baseball, you execute the following:</p>
+<pre><code>Entity x = new Entity (&quot;ball&quot;);
+x.addType(&quot;baseball&quot;);
+</code></pre>
+
+<p>Then, you can inspect the result via print statements:</p>
+<pre><code>Mark.say(x)
+Mark.say(&quot;----&quot;)
+Mark.say(x.toXML);
+</code></pre>
+
+<p>The results:</p>
+<pre><code>&gt;&gt;&gt; (ent baseball-0)
+&gt;&gt;&gt; ----
+&gt;&gt;&gt; &lt;entity&gt;
+&lt;name&gt;baseball-0&lt;/name&gt;
+&lt;bundle&gt;&lt;thread&gt;entity ball baseball&lt;/thread&gt;&lt;/bundle&gt;
+&lt;/entity&gt;
+</code></pre>
+
+<p>The first thread of possibly many threads in the thread bundle is considered the primed thread. Whenever you add a type to a entity, using the <code>addType</code> method, that new type goes to the end of the primed thread.</p>
+<p>The <code>isA</code> predicate tests for class membership by checking all the threads. Hence
+<code>x.isA("ball")</code> returns <code>true</code>, but <code>x.isA("person")</code> returns <code>false</code>.</p>
+<h2 id="the-function-class">The <code>Function</code> class</h2>
+<p>The Function class represents Jackendoff’s places and path elements. The Function class provides <code>getSubject</code> and <code>setSubject</code> accessors. The subject is to be filled with an instance of Entity or its subclass.</p>
+<p>To construct a function that represents the top of a table:</p>
+<pre><code>Entity e = new Entity(&quot;table&quot;);
+Function f = new Function(&quot;top&quot;, e);
+Mark.say(f);
+Mark.say(f.getSubject());
+</code></pre>
+
+<p>The results:</p>
+<pre><code>&gt;&gt;&gt; (fun top (ent table-1))
+&gt;&gt;&gt; (ent table-1)
+</code></pre>
+
+<h2 id="the-relation-class">The <code>Relation</code> class</h2>
+<p>The <code>Relation</code> class simply adds an object slot to the <code>Function</code> class, with <code>getObject</code> and <code>setObject</code> accessors.</p>
+<pre><code>Entity d = new Entity(&quot;door&quot;);
+Entity w = new Entity(&quot;window&quot;);
+Relation r = new Relation(&quot;between&quot;, d, w);
+Mark.say(r);
+Mark.say(r.getSubject());
+Mark.say(r.getObject());
+</code></pre>
+
+<p>The results:</p>
+<pre><code>&gt;&gt;&gt; (rel between (ent door-4) (ent window-5))
+&gt;&gt;&gt; (ent door-4)
+&gt;&gt;&gt; (ent window-5)
+</code></pre>
+
+<h2 id="the-sequence-class">The <code>Sequence</code> class</h2>
+<p>An Innerese representation of a sentence may consists of a sequence of relations. A relation may exists between an entity and a sequence of functions.</p>
+<p>Sequences can appear when Genesis produces role frames from English.</p>
+<p>For example, Given <em>John killed Peter with a knife</em>, Genesis produces a
+sequence containing two roles, one for the object, Peter, and one for the instrument, the knife.</p>
+<pre><code>Sequence roles = new Sequence(&quot;roles&quot;);
+roles.addElement(new Function(&quot;object&quot;, new Entity(&quot;Peter&quot;)));
+roles.addElement(new Function(&quot;with&quot;, new Entity(&quot;knife&quot;)));
+Relation k = new Relation(&quot;kill&quot;, new Entity(&quot;John&quot;), roles);
+Mark.say(roles);
+Mark.say(k);
+</code></pre>
+
+<p>The results:</p>
+<pre><code>&gt;&gt;&gt; (seq roles
+        (fun object
+            (ent Peter-8))
+        (fun with
+            (ent knife-10)))
+&gt;&gt;&gt; (rel kill
+        (ent John-12)
+        (seq roles
+            (fun object
+                (ent Peter-8))
+            (fun with
+                (ent knife-10))))
+</code></pre>
+
+<h2 id="innerese-is-an-implementation-of-role-frames">Innerese is an implementation of Role frames.</h2>
+<p>Much of what Genesis reads ends up in what linguists call thematic role frames, role frames for short, which consist of an actor along with an act or property and optionally various entities that fill varous roles in the act.</p>
+<p>Thus, in <em>John killed Peter with a knife</em>, <code>John</code> is the <em>actor</em>, <code>kill</code> is the <em>act</em>, and <code>Peter</code> is the <em>object</em>. The <code>knife</code> entity, marked by a <code>with</code> preposition, fills what linguists would call the <em>instrument</em> role.</p>
+<p>In Genesis, role frames are implemented thusly: the actor entity is the subject (<code>John</code>) of a relation, whose <em>type</em> indicates the act or property involved (<code>kill</code>).</p>
+<p>All the role fillers, such as the object and instrument roles, are collected into a sequence that becomes the object of the relation.</p>
+<p>Each role mentioned in the sequence is embedded in a function indicating something about the role played. For example, the object role is embedded in an <code>object</code> function; the instrument role is embedded in the <code>with</code> function.</p>
+<h3 id="innerese-can-be-visualized-as-nested-frames">Innerese can be visualized as nested "frames"</h3>
+<p>The printed linear form of entities, functions, relations and sequences is far from transparent. Accordingly, when such instances are presented in a GUI they appear in a form conceived by Keith Bonawitz.</p>
+<p>Here is a Bonowitz rendering of the role frame for <em>John killed Peter with a knife</em>.</p>
+<blockquote>
+<p><img alt="innerese-kill" src="../imgs/innerese-kill.png" />
+<!-- <img src="imgs/innerese-kill.png" width="200"> --></p>
+</blockquote>
+<p>Note the color coding: entities in gray, functions in blue, relatioins in red, sequences in black.</p>
+<p>Also note that when you hove over various parts of the diagram, you see the various threads Genesis associates with each entity.</p>
+<p>Next, you see a more complicated example in which two role frames are embedded in a stucture that ties antecedents (here only one) to consequents, <em>John killed Peter with a knife because Peter murdered John's father</em>.</p>
+<blockquote>
+<p><img alt="innerese-cause" src="../imgs/innerese-cause.png" />
+<!-- <img src="imgs/innerese-cause.png" width="200"> --></p>
+</blockquote>
+<h2 id="innerese-can-be-constructed-from-english">Innerese can be constructed from English</h2>
+<p>You generally do not have to ever construct Innerese yourself. Genesis does it for you by translating from English using Genesis Translator:</p>
+<pre><code>String sentence = &quot;John marries Mary because John loves money&quot;;
+Translator translator = Translator.getTranslator();
+Entity entity = translator.translate(sentence);
+Mark.say(entity);
+</code></pre>
+
+<p>The results:</p>
+<pre><code>&gt;&gt;&gt; (seq semantic-interpretation
+        (rel cause
+            (seq conjuction
+                (rel love
+                    (ent john-93)
+                    (seq roles
+                        (fun object
+                            (ent money-103)))))
+            (rel marry
+                (ent john-93)
+                (seq roles
+                    (fun object
+                        (ent mary-100))))))
+</code></pre>
+
+<h2 id="innerese-can-be-externalized-into-english">Innerese can be externalized into English</h2>
+<p>Genesis also features an English generator. The following thus produces the same English that is provided:</p>
+<pre><code>Generator generator = Generator.getGenerator();
+Mark.say(generator.generate(translator.translate(sentence).getElements().get(0)));
+</code></pre>
+
+<p>The results:</p>
+<pre><code>John marries Mary because John loves money.
+</code></pre>
+
+<h2 id="innerese-can-be-constructed-using-constructors-and-jfactory">Innerese can be constructed using constructors and JFactory</h2>
+<p>To construct an Innerese frame yourself based on the above definitions can be tedious and error prone. Fortunately there are convenience constructors that help. For example, The following shows how to create a role frame and how to add an additional role to an existing role frame:</p>
+<pre><code>Relation rf = Constructors.makeRoleFrame(John, &quot;kill&quot;);
+Mark.say(rf);
+rf = Constructors.makeRoleFrame(John, &quot;kill&quot;, Peter);
+Mark.say(rf);
+rf = Constructors.addRole(rf, &quot;with&quot;, knife);
+Mark.say(rf);
+</code></pre>
+
+<pre><code>--&gt;
+&gt;&gt;&gt; (rel kill
+        (ent John-14)
+        (seq roles))
+&gt;&gt;&gt; (rel kill
+        (ent John-14)
+        (seq roles
+            (fun object (ent Peter-15))))
+&gt;&gt;&gt; (rel kill
+        (ent John-14)
+        (seq roles
+            (fun object
+                (ent Peter-15))
+            (fun with
+                (ent knife-17))))
+</code></pre>
+
+<p>The following shows how to create a role frame involving a path object:</p>
+<pre><code>Entity tree = new Entity(&quot;tree&quot;);
+
+// Create a place relative to entity
+Function place = JFactory.createPlace(&quot;top&quot;, tree);
+
+// Create a path element using place
+Function pathElement = JFactory.createPathElement(&quot;from&quot;, place);
+
+// Create a path using path element
+Sequence path = JFactory.createPath();
+path.addElement(pathElement);
+
+// reate a trajectory using Use path
+Entity trajectory = JFactory.createTrajectory(bird, &quot;fly&quot;, path);
+
+// Create another path element
+Function origin = JFactory.createPathElement(&quot;to&quot;, JFactory.createPlace(&quot;at&quot;, new Entity(&quot;rock&quot;)));
+
+// Add it to the path
+JFactory.addPathElement(path, origin);
+
+// Have a look
+Mark.say(&quot;Amended trajectory role frame: &quot; + trajectory);
+</code></pre>
+
+<pre><code>(rel fly
+    (ent bird-16)
+    (seq roles
+        (fun object
+            (seq path
+                (fun from
+                    (fun top
+                        (ent tree-44)))
+                (fun to
+                    (fun at
+                        (ent rock-71)))))))
+</code></pre>
+
+<hr />
+<p>This version is edited by Zhutian Yang, on 5 August 2019</p>
+<p><a href="https://groups.csail.mit.edu/genesis/Documentation/frames.pdf">An older version</a> is authored by Patrick H. Winston, in May 2015</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../stories/" class="btn btn-neutral float-right" title="Writing Stories">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../past/" class="btn btn-neutral" title="Past"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Maintained by the Gensis Group, Computer Science and Artificial Intelligence Lab, MIT. <br>
+
+  Any questions? Contact Yang at <a href="mailto:ztyang@mit.edu">ztyang@mit.edu</a> or Dylan at <a href="mailto:dxh@mit.edu">dxh@mit.edu</a>
+
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../past/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../stories/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

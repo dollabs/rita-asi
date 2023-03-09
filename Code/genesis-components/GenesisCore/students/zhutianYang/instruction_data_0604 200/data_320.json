@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 10:18:33+08:00", 
+    "instructions": [
+        "Place the dinner fork on the left with the prong pointed vertically ", 
+        "Place the knife several inches to the right of the fork, blade pointed up and vertically oriented", 
+        "Place the salad fork to the immediate left of the dinner fork with the prongs aligned evenly", 
+        "Please the salad knife to the immediate right of the dinner knife with the blades aligned vertically", 
+        "Pleace the soup spoon to the right of the salad knife, with the bowl of the spoon pointed up", 
+        "Place the dessert spoon above other flatware, oriented horizontally with bowl to the left", 
+        "Place the dessert spoon to the right of the soup spoon, oriented vertically", 
+        "Place the dessert spoon horizontally and above and between the other flatware ", 
+        "Place the dinner plate between the dinner fork and knife, and under the dessert spoon", 
+        "Place the bread plate to the left of the dessert spoon, above the forks", 
+        "Place the bread knife diagonally and on the upper left in the bread plate", 
+        "Place the wine glass directly above the soup spoon with the cup up", 
+        "place the water glass to the right of the dessert spoon handle, and about an inch above the handle", 
+        "Place the napkin in the plate center, vertically aligned"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

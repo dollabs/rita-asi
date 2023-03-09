@@ -1,0 +1,10 @@
+xx and zz are dominos.
+oo is an object.
+ppp is a person.
+
+//Prediction
+If xx falls right, then xx becomes flat.
+If zz is upright and zz is right of xx and xx falls right, then zz falls right.
+
+//Presumption
+//If ppp pushes xx, then xx can fall right.

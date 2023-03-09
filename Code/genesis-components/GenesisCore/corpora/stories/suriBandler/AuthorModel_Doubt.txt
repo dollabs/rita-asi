@@ -1,0 +1,27 @@
+// Need this because otherwise victim and child match as both have threads that define them as person.
+// Effect here is to force use of primed thread, that is, the first one.
+A victim is a victim. A child is a child.
+
+Start description of "Role Doubt".
+xx and yy are entities.
+xx alleges yy's role.
+Consequently, xx casts doubt on yy's role.
+The end.
+
+
+Start description of "Object of doubt".
+The author says that yy is alleged.
+Consequently, the author casts doubt on yy's label.
+The end.
+
+
+Start description of "Decrease Credibility".
+xx and yy are entities.
+xx says that yy alleges something.
+Consequently, xx decreases yy's credibility.
+The end.
+
+
+//If xx says that yy alleges something then xx decreases yy's credibility.
+
+If xx alleges yy, then xx casts doubt on yy.

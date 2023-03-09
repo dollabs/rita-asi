@@ -1,0 +1,29 @@
+Start experiment.
+
+xx and yy are persons.
+
+/*
+Start description of "Revenge".
+xx's harming yy leads to yy's harming xx.
+The end.
+*/
+
+Start description of "Revenge".
+xx's harming yy leads to yy's harming xx.
+Sometimes, yy is mean.
+Consequently, yy becomes exonerated.
+The end.
+
+Lady Macbeth, Lady Macduff, Macbeth, Macduff, and Duncan are persons.
+
+Start story titled "Macbeth".
+
+Macbeth harms Duncan because Macbeth Murders Duncan.
+Macbeth harms Macduff because Macbeth harms Duncan.
+Macbeth angers Macduff because Macbeth harms Macduff.
+Macduff wants to kill Macbeth because Macbeth angers Macduff.
+Macduff kills Macbeth because Macduff wants to kill Macbeth.
+Macduff harms Macbeth because Macduff kills Macbeth.
+Macduff is mean.
+
+The end.

@@ -1,0 +1,21 @@
+Start experiment.
+
+// Set so all reasons are shown:
+Set use first-found deduction only switch to false.
+
+xx is a person.
+
+Paul is a person.
+
+If xx eats pretzels then xx is happy.
+
+if xx drinks beer then xx is happy.
+
+Start story titled "Demonstration".
+
+Paul ate pretzels and drank beer.
+
+The end.
+
+// Reset for general use:
+Set use first-found deduction only switch to true.

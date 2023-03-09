@@ -1,0 +1,16 @@
+// Additional commonsense knowledge for Lost in translation
+
+// yy assists xx because xx helps yy. 
+
+If zz is an enemy of xx and yy is a friend of zz and yy assists xx, then yy angers zz. 
+
+If zz is an enemy of xx and yy assists xx, then yy angers zz. 
+
+If yy angers zz, then zz may harm yy.
+
+If xx is an ally of yy then xx is yy's friend.
+
+If I am an ally of yy then I am yy's friend.
+
+If xx helps yy then yy may assist xx.
+

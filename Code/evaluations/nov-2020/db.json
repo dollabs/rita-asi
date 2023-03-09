@@ -1,0 +1,2914 @@
+{
+ "Trial-100": {
+  "experiment_id": "c1478dcd-8e08-4fe4-9dab-dfe47ab55b95",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-100_Team-na_Member-45_Vers-1.csv",
+  "eyetracking-starttime": 2770000,
+  "eyetracking-stoptime": 3727983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-100_Team-na_Member-45_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-100_Team-na_Member-45_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600118955692,
+  "metadata-stoptime": 1600119913570,
+  "trial_id": "a6007aad-f756-48d3-b084-c43b6bd1e788"
+ },
+ "Trial-101": {
+  "experiment_id": "c1478dcd-8e08-4fe4-9dab-dfe47ab55b95",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-101_Team-na_Member-45_Vers-1.csv",
+  "eyetracking-starttime": 4171000,
+  "eyetracking-stoptime": 5044999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-101_Team-na_Member-45_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-101_Team-na_Member-45_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600120356354,
+  "metadata-stoptime": 1600121231090,
+  "trial_id": "daef0e98-8a33-48ce-97ee-a1efd6458c52"
+ },
+ "Trial-102": {
+  "experiment_id": "c1478dcd-8e08-4fe4-9dab-dfe47ab55b95",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-102_Team-na_Member-45_Vers-1.csv",
+  "eyetracking-starttime": 5399016,
+  "eyetracking-stoptime": 6255999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-102_Team-na_Member-45_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-102_Team-na_Member-45_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600121584504,
+  "metadata-stoptime": 1600122441858,
+  "trial_id": "5775a701-d8a2-47ca-9c46-6dc2d33a4496"
+ },
+ "Trial-103": {
+  "experiment_id": "9f8e2f21-ac2b-4b16-be99-293ce161ce02",
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-103_Team-na_Member-46_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-103_Team-na_Member-46_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600124138432,
+  "metadata-stoptime": 1600125071045,
+  "trial_id": "fb0ff313-9bdb-4fd2-89ac-b3c600d0b9fe"
+ },
+ "Trial-104": {
+  "experiment_id": "9f8e2f21-ac2b-4b16-be99-293ce161ce02",
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-104_Team-na_Member-46_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-104_Team-na_Member-46_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600125709423,
+  "metadata-stoptime": 1600126637091,
+  "trial_id": "113cb320-7260-4a83-bb4c-59735fdae33e"
+ },
+ "Trial-105": {
+  "experiment_id": "9f8e2f21-ac2b-4b16-be99-293ce161ce02",
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-105_Team-na_Member-46_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-105_Team-na_Member-46_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600127075846,
+  "metadata-stoptime": 1600128021339,
+  "trial_id": "3fa4ce5d-9c45-44aa-a371-d6d6837aa7d8"
+ },
+ "Trial-106": {
+  "experiment_id": "f7f3f5b6-835d-4523-8f79-68fd5199ae89",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-106_Team-na_Member-47_Vers-1.csv",
+  "eyetracking-starttime": 2560000,
+  "eyetracking-stoptime": 3438983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-106_Team-na_Member-47_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-106_Team-na_Member-47_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600200840251,
+  "metadata-stoptime": 1600201718807,
+  "trial_id": "bfa9f0ba-f592-4bbc-a18f-a5cd9343b5b2"
+ },
+ "Trial-107": {
+  "experiment_id": "f7f3f5b6-835d-4523-8f79-68fd5199ae89",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-107_Team-na_Member-47_Vers-1.csv",
+  "eyetracking-starttime": 4029000,
+  "eyetracking-stoptime": 4835999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-107_Team-na_Member-47_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-107_Team-na_Member-47_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600202308613,
+  "metadata-stoptime": 1600203117205,
+  "trial_id": "2f7fbfd4-e02d-4073-a06c-552b9e3e5fda"
+ },
+ "Trial-108": {
+  "experiment_id": "f7f3f5b6-835d-4523-8f79-68fd5199ae89",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-108_Team-na_Member-47_Vers-1.csv",
+  "eyetracking-starttime": 5125016,
+  "eyetracking-stoptime": 5943999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-108_Team-na_Member-47_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-108_Team-na_Member-47_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600203405353,
+  "metadata-stoptime": 1600204223595,
+  "trial_id": "90159579-fb3f-4910-9f10-3d3f4cf631c7"
+ },
+ "Trial-109": {
+  "experiment_id": "6200bd4d-47e3-4733-87e1-a5b8f64aa55c",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-109_Team-na_Member-48_Vers-1.csv",
+  "eyetracking-starttime": 3168016,
+  "eyetracking-stoptime": 4061999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-109_Team-na_Member-48_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-109_Team-na_Member-48_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600212283344,
+  "metadata-stoptime": 1600213178286,
+  "trial_id": "a9eeba04-3bee-487b-a5ee-d62865a6c423"
+ },
+ "Trial-110": {
+  "experiment_id": "6200bd4d-47e3-4733-87e1-a5b8f64aa55c",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-110_Team-na_Member-48_Vers-1.csv",
+  "eyetracking-starttime": 4573016,
+  "eyetracking-stoptime": 5475999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-110_Team-na_Member-48_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-110_Team-na_Member-48_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600213688681,
+  "metadata-stoptime": 1600214592136,
+  "trial_id": "194f37ce-7a7e-480c-864c-5e0b297f6ae7"
+ },
+ "Trial-111": {
+  "experiment_id": "6200bd4d-47e3-4733-87e1-a5b8f64aa55c",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-111_Team-na_Member-48_Vers-1.csv",
+  "eyetracking-starttime": 5879016,
+  "eyetracking-stoptime": 6764999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-111_Team-na_Member-48_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-111_Team-na_Member-48_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600214993388,
+  "metadata-stoptime": 1600215880582,
+  "trial_id": "0b627eac-7ec4-45fc-a0ad-a2f4a0d4c2d2"
+ },
+ "Trial-112": {
+  "experiment_id": "094baa13-c72f-4a8a-8805-2f46895e8e42",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-112_Team-na_Member-49_Vers-1.csv",
+  "eyetracking-starttime": 2239000,
+  "eyetracking-stoptime": 3131983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-112_Team-na_Member-49_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-112_Team-na_Member-49_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600291075116,
+  "metadata-stoptime": 1600291968637,
+  "trial_id": "0c9b2b79-9168-4c2c-abff-ae4114e7a916"
+ },
+ "Trial-113": {
+  "experiment_id": "094baa13-c72f-4a8a-8805-2f46895e8e42",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-113_Team-na_Member-49_Vers-1.csv",
+  "eyetracking-starttime": 3602000,
+  "eyetracking-stoptime": 4480983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-113_Team-na_Member-49_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-113_Team-na_Member-49_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600292438328,
+  "metadata-stoptime": 1600293316902,
+  "trial_id": "77485d2c-0622-4ebf-a351-93fd8688c55d"
+ },
+ "Trial-114": {
+  "experiment_id": "094baa13-c72f-4a8a-8805-2f46895e8e42",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-114_Team-na_Member-49_Vers-1.csv",
+  "eyetracking-starttime": 4850000,
+  "eyetracking-stoptime": 5756983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-114_Team-na_Member-49_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-114_Team-na_Member-49_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600293685575,
+  "metadata-stoptime": 1600294593361,
+  "trial_id": "b2e71dad-ce20-49d9-b98a-f9ea05735840"
+ },
+ "Trial-115": {
+  "experiment_id": "97b284ed-3cca-48c2-a30a-276a88a1e7bf",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-115_Team-na_Member-50_Vers-1.csv",
+  "eyetracking-starttime": 3184583,
+  "eyetracking-stoptime": 4048566,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-115_Team-na_Member-50_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-115_Team-na_Member-50_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600387951327,
+  "metadata-stoptime": 1600388815119,
+  "trial_id": "6d2d2196-5b9e-42a2-ae77-dc251a422050"
+ },
+ "Trial-116": {
+  "experiment_id": "97b284ed-3cca-48c2-a30a-276a88a1e7bf",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-116_Team-na_Member-50_Vers-1.csv",
+  "eyetracking-starttime": 4662583,
+  "eyetracking-stoptime": 5499566,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-116_Team-na_Member-50_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-116_Team-na_Member-50_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600389429266,
+  "metadata-stoptime": 1600390266305,
+  "trial_id": "c12651bd-21f5-41ad-b00d-724734b1571e"
+ },
+ "Trial-117": {
+  "experiment_id": "97b284ed-3cca-48c2-a30a-276a88a1e7bf",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-117_Team-na_Member-50_Vers-1.csv",
+  "eyetracking-starttime": 5930583,
+  "eyetracking-stoptime": 6753566,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-117_Team-na_Member-50_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-117_Team-na_Member-50_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600390697703,
+  "metadata-stoptime": 1600391520093,
+  "trial_id": "0e8e17c2-5655-44f1-836a-0711236f8e67"
+ },
+ "Trial-118": {
+  "experiment_id": "40099987-6493-4667-b8a9-cab51e1cb9da",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-118_Team-na_Member-51_Vers-1.csv",
+  "eyetracking-starttime": 2106000,
+  "eyetracking-stoptime": 2965983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-118_Team-na_Member-51_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-118_Team-na_Member-51_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600449150070,
+  "metadata-stoptime": 1600450010380,
+  "trial_id": "bdd1be07-6e78-4c66-b66f-da7cb35cff92"
+ },
+ "Trial-119": {
+  "experiment_id": "40099987-6493-4667-b8a9-cab51e1cb9da",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-119_Team-na_Member-51_Vers-1.csv",
+  "eyetracking-starttime": 3255000,
+  "eyetracking-stoptime": 4079983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-119_Team-na_Member-51_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-119_Team-na_Member-51_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600450299602,
+  "metadata-stoptime": 1600451124556,
+  "trial_id": "b7054b1a-dfd1-4960-9c46-d9c04d4d70ad"
+ },
+ "Trial-120": {
+  "experiment_id": "40099987-6493-4667-b8a9-cab51e1cb9da",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-120_Team-na_Member-51_Vers-1.csv",
+  "eyetracking-starttime": 4319000,
+  "eyetracking-stoptime": 5141983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-120_Team-na_Member-51_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-120_Team-na_Member-51_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600451363388,
+  "metadata-stoptime": 1600452186941,
+  "trial_id": "c3705c30-4142-4d32-a76a-66edb9374dbb"
+ },
+ "Trial-121": {
+  "experiment_id": "bc9b99c9-0127-42c8-8915-897dbc407c13",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-121_Team-na_Member-52_Vers-1.csv",
+  "eyetracking-starttime": 2905016,
+  "eyetracking-stoptime": 4007999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-121_Team-na_Member-52_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-121_Team-na_Member-52_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600475139778,
+  "metadata-stoptime": 1600476242525,
+  "trial_id": "e9faf7ad-3ad9-4afb-a139-6b9dab621329"
+ },
+ "Trial-122": {
+  "experiment_id": "bc9b99c9-0127-42c8-8915-897dbc407c13",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-122_Team-na_Member-52_Vers-1.csv",
+  "eyetracking-starttime": 4619016,
+  "eyetracking-stoptime": 5724999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-122_Team-na_Member-52_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-122_Team-na_Member-52_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600476853795,
+  "metadata-stoptime": 1600478081460,
+  "trial_id": "c97ffe02-6498-484a-b163-030610ea6f2a"
+ },
+ "Trial-123": {
+  "experiment_id": "bc9b99c9-0127-42c8-8915-897dbc407c13",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-123_Team-na_Member-52_Vers-1.csv",
+  "eyetracking-starttime": 6236016,
+  "eyetracking-stoptime": 7338999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-123_Team-na_Member-52_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-123_Team-na_Member-52_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600478470863,
+  "metadata-stoptime": 1600479679475,
+  "trial_id": "e993e549-8e24-4c1a-a41f-4029c377c03d"
+ },
+ "Trial-124": {
+  "experiment_id": "998bf7fb-99ea-44ea-a51a-ecbe49e0e054",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-124_Team-na_Member-53_Vers-1.csv",
+  "eyetracking-starttime": 3212000,
+  "eyetracking-stoptime": 4213999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-124_Team-na_Member-53_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-124_Team-na_Member-53_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600539003843,
+  "metadata-stoptime": 1600540005854,
+  "trial_id": "ead1105a-3f1c-417c-b457-7e43fc0ddc81"
+ },
+ "Trial-126": {
+  "experiment_id": "998bf7fb-99ea-44ea-a51a-ecbe49e0e054",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-126_Team-na_Member-53_Vers-1.csv",
+  "eyetracking-starttime": 6196016,
+  "eyetracking-stoptime": 7164999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-126_Team-na_Member-53_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-126_Team-na_Member-53_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600541987604,
+  "metadata-stoptime": 1600542955883,
+  "trial_id": "e573d292-6e36-41ee-a42e-962c60daf918"
+ },
+ "Trial-127": {
+  "experiment_id": "e97dbfac-edd4-4f97-af35-c068b125d805",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-127_Team-na_Member-54_Vers-1.csv",
+  "eyetracking-starttime": 3116016,
+  "eyetracking-stoptime": 4052999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-127_Team-na_Member-54_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-127_Team-na_Member-54_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600625814712,
+  "metadata-stoptime": 1600626751140,
+  "trial_id": "7827f8ba-871f-4bc8-aff2-36755164968c"
+ },
+ "Trial-128": {
+  "experiment_id": "e97dbfac-edd4-4f97-af35-c068b125d805",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-128_Team-na_Member-54_Vers-1.csv",
+  "eyetracking-starttime": 4737016,
+  "eyetracking-stoptime": 5634999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-128_Team-na_Member-54_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-128_Team-na_Member-54_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600627435454,
+  "metadata-stoptime": 1600628332770,
+  "trial_id": "6d8487d5-e707-4af5-9e5c-33f5bcd176c4"
+ },
+ "Trial-129": {
+  "experiment_id": "e97dbfac-edd4-4f97-af35-c068b125d805",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-129_Team-na_Member-54_Vers-1.csv",
+  "eyetracking-starttime": 6087015,
+  "eyetracking-stoptime": 7078998,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-129_Team-na_Member-54_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-129_Team-na_Member-54_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600628784806,
+  "metadata-stoptime": 1600629777267,
+  "trial_id": "aecfca91-cae3-499f-9777-82f28c8ad2d3"
+ },
+ "Trial-130": {
+  "experiment_id": "2e3c7342-01b2-4487-b649-d15c19767f1c",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-130_Team-na_Member-55_Vers-1.csv",
+  "eyetracking-starttime": 2648000,
+  "eyetracking-stoptime": 3520983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-130_Team-na_Member-55_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-130_Team-na_Member-55_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600723636347,
+  "metadata-stoptime": 1600724509774,
+  "trial_id": "0fa850fd-45ae-4f10-a962-26c7c03fe4fe"
+ },
+ "Trial-131": {
+  "experiment_id": "2e3c7342-01b2-4487-b649-d15c19767f1c",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-131_Team-na_Member-55_Vers-1.csv",
+  "eyetracking-starttime": 3991000,
+  "eyetracking-stoptime": 4831983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-131_Team-na_Member-55_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-131_Team-na_Member-55_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600724979491,
+  "metadata-stoptime": 1600725819544,
+  "trial_id": "4619b41c-4621-46c2-a4d5-4521e3d74768"
+ },
+ "Trial-132": {
+  "experiment_id": "2e3c7342-01b2-4487-b649-d15c19767f1c",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-132_Team-na_Member-55_Vers-1.csv",
+  "eyetracking-starttime": 5034000,
+  "eyetracking-stoptime": 5857983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-132_Team-na_Member-55_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-132_Team-na_Member-55_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600726022411,
+  "metadata-stoptime": 1600726846049,
+  "trial_id": "37d49a9f-0cc7-4e80-af7b-9db39c91ad4e"
+ },
+ "Trial-133": {
+  "experiment_id": "8e246037-87ef-4809-8e0b-56ccd7ae8cc9",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-133_Team-na_Member-56_Vers-1.csv",
+  "eyetracking-starttime": 2414000,
+  "eyetracking-stoptime": 3253983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-133_Team-na_Member-56_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-133_Team-na_Member-56_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600804566683,
+  "metadata-stoptime": 1600805406981,
+  "trial_id": "01ebfe8d-0006-4131-b50a-44447020b476"
+ },
+ "Trial-134": {
+  "experiment_id": "8e246037-87ef-4809-8e0b-56ccd7ae8cc9",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-134_Team-na_Member-56_Vers-1.csv",
+  "eyetracking-starttime": 3783000,
+  "eyetracking-stoptime": 4583983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-134_Team-na_Member-56_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-134_Team-na_Member-56_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600805935409,
+  "metadata-stoptime": 1600806736876,
+  "trial_id": "044159de-5c38-4d4d-abe1-ac5eb8a8254b"
+ },
+ "Trial-135": {
+  "experiment_id": "8e246037-87ef-4809-8e0b-56ccd7ae8cc9",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-135_Team-na_Member-56_Vers-1.csv",
+  "eyetracking-starttime": 4921000,
+  "eyetracking-stoptime": 5724983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-135_Team-na_Member-56_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-135_Team-na_Member-56_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600807074407,
+  "metadata-stoptime": 1600807878053,
+  "trial_id": "bad0c3d6-2965-4ca8-a176-fcb94232b291"
+ },
+ "Trial-136": {
+  "experiment_id": "cc0b1176-826b-45e5-8ae4-a46e066c03c4",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-136_Team-na_Member-57_Vers-1.csv",
+  "eyetracking-starttime": 3361000,
+  "eyetracking-stoptime": 4343999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-136_Team-na_Member-57_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-136_Team-na_Member-57_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600990862569,
+  "metadata-stoptime": 1600991850055,
+  "trial_id": "76e2b9a8-5866-4d21-a4c9-fb576379493e"
+ },
+ "Trial-137": {
+  "experiment_id": "cc0b1176-826b-45e5-8ae4-a46e066c03c4",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-137_Team-na_Member-57_Vers-1.csv",
+  "eyetracking-starttime": 4894016,
+  "eyetracking-stoptime": 5792999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-137_Team-na_Member-57_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-137_Team-na_Member-57_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600992394581,
+  "metadata-stoptime": 1600993299080,
+  "trial_id": "9b5389d9-430e-45da-9978-b567d5b4b746"
+ },
+ "Trial-138": {
+  "experiment_id": "cc0b1176-826b-45e5-8ae4-a46e066c03c4",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-138_Team-na_Member-57_Vers-1.csv",
+  "eyetracking-starttime": 6287016,
+  "eyetracking-stoptime": 7224999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-138_Team-na_Member-57_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-138_Team-na_Member-57_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600993788261,
+  "metadata-stoptime": 1600994731394,
+  "trial_id": "5594fae0-8e6c-4b5f-baf0-5fe3b221fecd"
+ },
+ "Trial-139": {
+  "experiment_id": "674732cf-567d-4e28-af1b-2e56e621f1bc",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-139_Team-na_Member-58_Vers-1.csv",
+  "eyetracking-starttime": 2132000,
+  "eyetracking-stoptime": 2938983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-139_Team-na_Member-58_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-139_Team-na_Member-58_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601054080155,
+  "metadata-stoptime": 1601054892076,
+  "trial_id": "88274042-4537-499e-8164-47bce9e6fe49"
+ },
+ "Trial-140": {
+  "experiment_id": "674732cf-567d-4e28-af1b-2e56e621f1bc",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-140_Team-na_Member-58_Vers-1.csv",
+  "eyetracking-starttime": 3284000,
+  "eyetracking-stoptime": 4099983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-140_Team-na_Member-58_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-140_Team-na_Member-58_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601055231599,
+  "metadata-stoptime": 1601056053442,
+  "trial_id": "ed86df91-62b8-4dd5-ad2d-4f8b4517cbed"
+ },
+ "Trial-141": {
+  "experiment_id": "674732cf-567d-4e28-af1b-2e56e621f1bc",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-141_Team-na_Member-58_Vers-1.csv",
+  "eyetracking-starttime": 4385000,
+  "eyetracking-stoptime": 5184983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-141_Team-na_Member-58_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-141_Team-na_Member-58_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601056332806,
+  "metadata-stoptime": 1601057138512,
+  "trial_id": "4a3f8047-7705-42b5-9e8f-759edca546be"
+ },
+ "Trial-142": {
+  "experiment_id": "c721de6f-a430-4681-ba1f-43b943fd24c7",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-142_Team-na_Member-59_Vers-1.csv",
+  "eyetracking-starttime": 2100000,
+  "eyetracking-stoptime": 2970983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-142_Team-na_Member-59_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-142_Team-na_Member-59_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601074073224,
+  "metadata-stoptime": 1601074949158,
+  "trial_id": "8bf58f33-adef-4f32-a75b-b3fca510a8b0"
+ },
+ "Trial-143": {
+  "experiment_id": "c721de6f-a430-4681-ba1f-43b943fd24c7",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-143_Team-na_Member-59_Vers-1.csv",
+  "eyetracking-starttime": 3355000,
+  "eyetracking-stoptime": 4191983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-143_Team-na_Member-59_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-143_Team-na_Member-59_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601075328710,
+  "metadata-stoptime": 1601076170191,
+  "trial_id": "d1efc365-62f8-4bab-9183-e97e91aa6abc"
+ },
+ "Trial-144": {
+  "experiment_id": "c721de6f-a430-4681-ba1f-43b943fd24c7",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-144_Team-na_Member-59_Vers-1.csv",
+  "eyetracking-starttime": 4533000,
+  "eyetracking-stoptime": 5351983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-144_Team-na_Member-59_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-144_Team-na_Member-59_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601076505980,
+  "metadata-stoptime": 1601077330696,
+  "trial_id": "2bd857e9-9672-487b-a83d-5fcf407e4f6f"
+ },
+ "Trial-145": {
+  "experiment_id": "c84a4c47-67a6-4533-92fb-110ed42e1276",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-145_Team-na_Member-60_Vers-1.csv",
+  "eyetracking-starttime": 2938016,
+  "eyetracking-stoptime": 3916999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-145_Team-na_Member-60_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-145_Team-na_Member-60_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601080688209,
+  "metadata-stoptime": 1601081671251,
+  "trial_id": "4d4d76a6-a273-4e72-96cb-d334a89a39a9"
+ },
+ "Trial-146": {
+  "experiment_id": "c84a4c47-67a6-4533-92fb-110ed42e1276",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-146_Team-na_Member-60_Vers-1.csv",
+  "eyetracking-starttime": 4397016,
+  "eyetracking-stoptime": 5285999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-146_Team-na_Member-60_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-146_Team-na_Member-60_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601082146899,
+  "metadata-stoptime": 1601083041438,
+  "trial_id": "5b9d1412-7440-4b8e-a80e-df7258b4c0a9"
+ },
+ "Trial-147": {
+  "experiment_id": "c84a4c47-67a6-4533-92fb-110ed42e1276",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-147_Team-na_Member-60_Vers-1.csv",
+  "eyetracking-starttime": 5838016,
+  "eyetracking-stoptime": 6731999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-147_Team-na_Member-60_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-147_Team-na_Member-60_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601083587502,
+  "metadata-stoptime": 1601084487425,
+  "trial_id": "97515c05-c40b-4e46-a0b9-49bdebddb53d"
+ },
+ "Trial-148": {
+  "experiment_id": "25e037c2-b5d4-4009-b8bc-853dfe433a44",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-148_Team-na_Member-61_Vers-1.csv",
+  "eyetracking-starttime": 2261000,
+  "eyetracking-stoptime": 3177983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-148_Team-na_Member-61_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-148_Team-na_Member-61_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601160604234,
+  "metadata-stoptime": 1601161525796,
+  "trial_id": "fea57f43-9c32-431b-afcd-72496e1a0aba"
+ },
+ "Trial-149": {
+  "experiment_id": "25e037c2-b5d4-4009-b8bc-853dfe433a44",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-149_Team-na_Member-61_Vers-1.csv",
+  "eyetracking-starttime": 3560000,
+  "eyetracking-stoptime": 4445999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-149_Team-na_Member-61_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-149_Team-na_Member-61_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601161902962,
+  "metadata-stoptime": 1601162793775,
+  "trial_id": "67a0d176-3a00-4106-99cc-689d4030276e"
+ },
+ "Trial-150": {
+  "experiment_id": "25e037c2-b5d4-4009-b8bc-853dfe433a44",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-150_Team-na_Member-61_Vers-1.csv",
+  "eyetracking-starttime": 4788016,
+  "eyetracking-stoptime": 5630999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-150_Team-na_Member-61_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-150_Team-na_Member-61_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601163130776,
+  "metadata-stoptime": 1601163979001,
+  "trial_id": "a25a09ec-0f15-4525-9729-55ad8d13543e"
+ },
+ "Trial-151": {
+  "experiment_id": "8f465b14-165e-41ba-a96b-d1d89c851935",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-151_Team-na_Member-62_Vers-1.csv",
+  "eyetracking-starttime": 2426000,
+  "eyetracking-stoptime": 3268983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-151_Team-na_Member-62_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-151_Team-na_Member-62_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601240025281,
+  "metadata-stoptime": 1601240863625,
+  "trial_id": "777f0ce7-dcea-457a-8dec-80112373e720"
+ },
+ "Trial-152": {
+  "experiment_id": "8f465b14-165e-41ba-a96b-d1d89c851935",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-152_Team-na_Member-62_Vers-1.csv",
+  "eyetracking-starttime": 3957000,
+  "eyetracking-stoptime": 4787999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-152_Team-na_Member-62_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-152_Team-na_Member-62_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601241556656,
+  "metadata-stoptime": 1601242392412,
+  "trial_id": "4a42339d-5270-4447-b631-6f8fd733295e"
+ },
+ "Trial-153": {
+  "experiment_id": "8f465b14-165e-41ba-a96b-d1d89c851935",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-153_Team-na_Member-62_Vers-1.csv",
+  "eyetracking-starttime": 5058016,
+  "eyetracking-stoptime": 5913999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-153_Team-na_Member-62_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-153_Team-na_Member-62_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601242657177,
+  "metadata-stoptime": 1601243518162,
+  "trial_id": "1cd8ae26-7d99-4690-82ac-6163a62f2a8a"
+ },
+ "Trial-154": {
+  "experiment_id": "73c1baf4-b1d3-4c51-bf4e-79840f47dd6a",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-154_Team-na_Member-63_Vers-1.csv",
+  "eyetracking-starttime": 2185000,
+  "eyetracking-stoptime": 3057983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-154_Team-na_Member-63_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-154_Team-na_Member-63_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601328191865,
+  "metadata-stoptime": 1601329070486,
+  "trial_id": "681d7511-4bd1-443b-8e91-fccca3147741"
+ },
+ "Trial-155": {
+  "experiment_id": "73c1baf4-b1d3-4c51-bf4e-79840f47dd6a",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-155_Team-na_Member-63_Vers-1.csv",
+  "eyetracking-starttime": 3305000,
+  "eyetracking-stoptime": 4164999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-155_Team-na_Member-63_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-155_Team-na_Member-63_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601329311327,
+  "metadata-stoptime": 1601330176999,
+  "trial_id": "35d6a055-d1b3-4e45-bdd2-ba637646db86"
+ },
+ "Trial-156": {
+  "experiment_id": "73c1baf4-b1d3-4c51-bf4e-79840f47dd6a",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-156_Team-na_Member-63_Vers-1.csv",
+  "eyetracking-starttime": 4323016,
+  "eyetracking-stoptime": 4974999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-156_Team-na_Member-63_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-156_Team-na_Member-63_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601330330100,
+  "metadata-stoptime": 1601331166767,
+  "trial_id": "5f710642-88e4-468d-8920-1ef9faf77f6f"
+ },
+ "Trial-157": {
+  "experiment_id": "9a1ffd28-0fd3-4546-a5d2-7361c726c408",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-157_Team-na_Member-64_Vers-1.csv",
+  "eyetracking-starttime": 3055000,
+  "eyetracking-stoptime": 3980983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-157_Team-na_Member-64_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-157_Team-na_Member-64_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601334610382,
+  "metadata-stoptime": 1601335541261,
+  "trial_id": "79974050-55c8-4a61-9550-2a5c96fa5096"
+ },
+ "Trial-158": {
+  "experiment_id": "9a1ffd28-0fd3-4546-a5d2-7361c726c408",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-158_Team-na_Member-64_Vers-1.csv",
+  "eyetracking-starttime": 4684000,
+  "eyetracking-stoptime": 5563999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-158_Team-na_Member-64_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-158_Team-na_Member-64_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601336240287,
+  "metadata-stoptime": 1601337124585,
+  "trial_id": "66b711ee-8b87-4ee3-adfb-a8ceb510d88a"
+ },
+ "Trial-159": {
+  "experiment_id": "9a1ffd28-0fd3-4546-a5d2-7361c726c408",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-159_Team-na_Member-64_Vers-1.csv",
+  "eyetracking-starttime": 5894016,
+  "eyetracking-stoptime": 6769999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-159_Team-na_Member-64_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-159_Team-na_Member-64_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601337450173,
+  "metadata-stoptime": 1601338330409,
+  "trial_id": "39556641-35f1-477d-b792-ad6418d1e3e8"
+ },
+ "Trial-160": {
+  "experiment_id": "a6dec73c-3468-48a4-8e9c-c0aae7745f51",
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-160_Team-na_Member-65_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-160_Team-na_Member-65_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601410624321,
+  "metadata-stoptime": 1601411466740,
+  "trial_id": "bbbd487f-0ea8-4236-b1c3-0ca3231ffb29"
+ },
+ "Trial-161": {
+  "experiment_id": "a6dec73c-3468-48a4-8e9c-c0aae7745f51",
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-161_Team-na_Member-65_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-161_Team-na_Member-65_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601411954173,
+  "metadata-stoptime": 1601412783940,
+  "trial_id": "19873746-0814-44be-9407-1bbaafebd669"
+ },
+ "Trial-162": {
+  "experiment_id": "a6dec73c-3468-48a4-8e9c-c0aae7745f51",
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-162_Team-na_Member-65_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-162_Team-na_Member-65_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601413066712,
+  "metadata-stoptime": 1601413915384,
+  "trial_id": "4396ebe6-626b-48ca-beb2-d472185e8629"
+ },
+ "Trial-163": {
+  "experiment_id": "046d21ec-2b39-412a-8473-4d9686544fdb",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-163_Team-na_Member-66_Vers-1.csv",
+  "eyetracking-starttime": 2802000,
+  "eyetracking-stoptime": 3651983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-163_Team-na_Member-66_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-163_Team-na_Member-66_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601423679794,
+  "metadata-stoptime": 1601424534134,
+  "trial_id": "d3bf8ae0-a868-456f-a09b-b58a5d77da01"
+ },
+ "Trial-164": {
+  "experiment_id": "046d21ec-2b39-412a-8473-4d9686544fdb",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-164_Team-na_Member-66_Vers-1.csv",
+  "eyetracking-starttime": 4310000,
+  "eyetracking-stoptime": 5167983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-164_Team-na_Member-66_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-164_Team-na_Member-66_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601425187327,
+  "metadata-stoptime": 1601426050016,
+  "trial_id": "37947f00-ce7f-40b9-92a7-2850959f5901"
+ },
+ "Trial-165": {
+  "experiment_id": "046d21ec-2b39-412a-8473-4d9686544fdb",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-165_Team-na_Member-66_Vers-1.csv",
+  "eyetracking-starttime": 5536000,
+  "eyetracking-stoptime": 6419983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-165_Team-na_Member-66_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-165_Team-na_Member-66_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601426413473,
+  "metadata-stoptime": 1601427302861,
+  "trial_id": "59c7062e-94a2-4f17-baa4-56a24ad0568e"
+ },
+ "Trial-169": {
+  "experiment_id": "7cea8243-ba8d-4254-af6a-48cd9759bfbe",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-169_Team-na_Member-68_Vers-1.csv",
+  "eyetracking-starttime": 2647016,
+  "eyetracking-stoptime": 3602999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-169_Team-na_Member-68_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-169_Team-na_Member-68_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601594666122,
+  "metadata-stoptime": 1601595626988,
+  "trial_id": "c77af615-83e2-4cc4-8d5f-8339514866e3"
+ },
+ "Trial-170": {
+  "experiment_id": "7cea8243-ba8d-4254-af6a-48cd9759bfbe",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-170_Team-na_Member-68_Vers-1.csv",
+  "eyetracking-starttime": 4135015,
+  "eyetracking-stoptime": 5049999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-170_Team-na_Member-68_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-170_Team-na_Member-68_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601596154208,
+  "metadata-stoptime": 1601597073856,
+  "trial_id": "2e975a6f-0491-4c9a-b576-f8a9b6d8fc00"
+ },
+ "Trial-171": {
+  "experiment_id": "7cea8243-ba8d-4254-af6a-48cd9759bfbe",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-171_Team-na_Member-68_Vers-1.csv",
+  "eyetracking-starttime": 5547015,
+  "eyetracking-stoptime": 6413998,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-171_Team-na_Member-68_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-171_Team-na_Member-68_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601597566206,
+  "metadata-stoptime": 1601598438351,
+  "trial_id": "06757476-729c-4895-bd48-13e4816fe13e"
+ },
+ "Trial-172": {
+  "experiment_id": "59b6e60d-bd3d-4069-bf99-4a4bb957207b",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-172_Team-na_Member-69_Vers-1.csv",
+  "eyetracking-starttime": 2610000,
+  "eyetracking-stoptime": 3502983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-172_Team-na_Member-69_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-172_Team-na_Member-69_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601596524190,
+  "metadata-stoptime": 1601597422034,
+  "trial_id": "7a1428da-a372-477c-aa3e-4aa78611f9c6"
+ },
+ "Trial-173": {
+  "experiment_id": "59b6e60d-bd3d-4069-bf99-4a4bb957207b",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-173_Team-na_Member-69_Vers-1.csv",
+  "eyetracking-starttime": 4095000,
+  "eyetracking-stoptime": 5038983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-173_Team-na_Member-69_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-173_Team-na_Member-69_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601598008937,
+  "metadata-stoptime": 1601598958620,
+  "trial_id": "7ecb59e5-cdae-48ce-8b71-c39853be9f73"
+ },
+ "Trial-174": {
+  "experiment_id": "59b6e60d-bd3d-4069-bf99-4a4bb957207b",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-174_Team-na_Member-69_Vers-1.csv",
+  "eyetracking-starttime": 5250000,
+  "eyetracking-stoptime": 6089983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-174_Team-na_Member-69_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-174_Team-na_Member-69_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601599164613,
+  "metadata-stoptime": 1601600009358,
+  "trial_id": "52fa9179-8f9f-448f-856e-038d00ce7680"
+ },
+ "Trial-175": {
+  "experiment_id": "84dd5526-9dda-48d7-ad06-fe78d52ba87d",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-175_Team-na_Member-70_Vers-1.csv",
+  "eyetracking-starttime": 2171000,
+  "eyetracking-stoptime": 3008983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-175_Team-na_Member-70_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-175_Team-na_Member-70_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601658489796,
+  "metadata-stoptime": 1601659333451,
+  "trial_id": "a73c5499-ae04-4f5a-b333-614e22c32321"
+ },
+ "Trial-176": {
+  "experiment_id": "84dd5526-9dda-48d7-ad06-fe78d52ba87d",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-176_Team-na_Member-70_Vers-1.csv",
+  "eyetracking-starttime": 3535000,
+  "eyetracking-stoptime": 4342999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-176_Team-na_Member-70_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-176_Team-na_Member-70_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601659853966,
+  "metadata-stoptime": 1601660667873,
+  "trial_id": "8a173d3b-0f24-4f71-a94b-2bd662fc961f"
+ },
+ "Trial-177": {
+  "experiment_id": "84dd5526-9dda-48d7-ad06-fe78d52ba87d",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-177_Team-na_Member-70_Vers-1.csv",
+  "eyetracking-starttime": 4561016,
+  "eyetracking-stoptime": 5347999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-177_Team-na_Member-70_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-177_Team-na_Member-70_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601660880165,
+  "metadata-stoptime": 1601661672100,
+  "trial_id": "05e93dd9-8673-4931-b4de-94e9d5674b8c"
+ },
+ "Trial-178": {
+  "experiment_id": "6198f555-c06b-4355-a53e-5747f1b8cff5",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-178_Team-na_Member-71_Vers-1.csv",
+  "eyetracking-starttime": 2584000,
+  "eyetracking-stoptime": 3480999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-178_Team-na_Member-71_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-178_Team-na_Member-71_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601684877210,
+  "metadata-stoptime": 1601685779490,
+  "trial_id": "68846a0c-da7a-4021-851a-633212b59a52"
+ },
+ "Trial-179": {
+  "experiment_id": "6198f555-c06b-4355-a53e-5747f1b8cff5",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-179_Team-na_Member-71_Vers-1.csv",
+  "eyetracking-starttime": 3927016,
+  "eyetracking-stoptime": 4828999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-179_Team-na_Member-71_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-179_Team-na_Member-71_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601686219997,
+  "metadata-stoptime": 1601687127661,
+  "trial_id": "9fdbdc5c-425e-4d6e-874e-54a37ddf4bf3"
+ },
+ "Trial-180": {
+  "experiment_id": "6198f555-c06b-4355-a53e-5747f1b8cff5",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-180_Team-na_Member-71_Vers-1.csv",
+  "eyetracking-starttime": 5142016,
+  "eyetracking-stoptime": 6008999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-180_Team-na_Member-71_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-180_Team-na_Member-71_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601687435533,
+  "metadata-stoptime": 1601688306548,
+  "trial_id": "552d9cb1-8b11-4d26-ab30-3b9f8c51156b"
+ },
+ "Trial-181": {
+  "experiment_id": "76d2d501-de3e-4db5-b6d1-ab0a7cfef2e0",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-181_Team-na_Member-72_Vers-1.csv",
+  "eyetracking-starttime": 2717016,
+  "eyetracking-stoptime": 3655999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-181_Team-na_Member-72_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-181_Team-na_Member-72_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601748534216,
+  "metadata-stoptime": 1601749478400,
+  "trial_id": "1a4a1fab-be3e-4e8b-bab1-3a4d53b2cd9e"
+ },
+ "Trial-182": {
+  "experiment_id": "76d2d501-de3e-4db5-b6d1-ab0a7cfef2e0",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-182_Team-na_Member-72_Vers-1.csv",
+  "eyetracking-starttime": 4183015,
+  "eyetracking-stoptime": 5124999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-182_Team-na_Member-72_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-182_Team-na_Member-72_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601750000549,
+  "metadata-stoptime": 1601750947679,
+  "trial_id": "80d07e68-1c45-497e-af5c-b38f59ad76e1"
+ },
+ "Trial-183": {
+  "experiment_id": "76d2d501-de3e-4db5-b6d1-ab0a7cfef2e0",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-183_Team-na_Member-72_Vers-1.csv",
+  "eyetracking-starttime": 5483016,
+  "eyetracking-stoptime": 6474999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-183_Team-na_Member-72_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-183_Team-na_Member-72_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601751299796,
+  "metadata-stoptime": 1601752296897,
+  "trial_id": "d99facb6-ddb8-4309-b536-466245beca23"
+ },
+ "Trial-184": {
+  "experiment_id": "46858caa-b3e8-43af-9310-fc815f4f79ce",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-184_Team-na_Member-73_Vers-1.csv",
+  "eyetracking-starttime": 2253000,
+  "eyetracking-stoptime": 3201983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-184_Team-na_Member-73_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-184_Team-na_Member-73_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601765261895,
+  "metadata-stoptime": 1601766215839,
+  "trial_id": "df4e447c-4585-4a32-9994-0d563f6fd2cf"
+ },
+ "Trial-185": {
+  "experiment_id": "46858caa-b3e8-43af-9310-fc815f4f79ce",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-185_Team-na_Member-73_Vers-1.csv",
+  "eyetracking-starttime": 3505000,
+  "eyetracking-stoptime": 4388983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-185_Team-na_Member-73_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-185_Team-na_Member-73_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601766513795,
+  "metadata-stoptime": 1601767402419,
+  "trial_id": "df4c833d-daaf-4c56-bc6c-f556db6394a7"
+ },
+ "Trial-186": {
+  "experiment_id": "46858caa-b3e8-43af-9310-fc815f4f79ce",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-186_Team-na_Member-73_Vers-1.csv",
+  "eyetracking-starttime": 4703000,
+  "eyetracking-stoptime": 5520983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-186_Team-na_Member-73_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-186_Team-na_Member-73_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601767711301,
+  "metadata-stoptime": 1601768534552,
+  "trial_id": "0a8e9b06-4906-41f5-b4e2-c9552b1ec496"
+ },
+ "Trial-187": {
+  "experiment_id": "f5a2345c-a630-4a45-927e-a4dbd21c4026",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-187_Team-na_Member-74_Vers-1.csv",
+  "eyetracking-starttime": 2236000,
+  "eyetracking-stoptime": 3123983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-187_Team-na_Member-74_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-187_Team-na_Member-74_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601834256564,
+  "metadata-stoptime": 1601835149631,
+  "trial_id": "6778dcd2-2e92-4c3b-a53d-845aac8b0871"
+ },
+ "Trial-188": {
+  "experiment_id": "f5a2345c-a630-4a45-927e-a4dbd21c4026",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-188_Team-na_Member-74_Vers-1.csv",
+  "eyetracking-starttime": 3636000,
+  "eyetracking-stoptime": 4535983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-188_Team-na_Member-74_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-188_Team-na_Member-74_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601835655907,
+  "metadata-stoptime": 1601836561265,
+  "trial_id": "3ad13e7d-82d9-4ae3-a3b3-9462ff08c63e"
+ },
+ "Trial-189": {
+  "experiment_id": "f5a2345c-a630-4a45-927e-a4dbd21c4026",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-189_Team-na_Member-74_Vers-1.csv",
+  "eyetracking-starttime": 4779000,
+  "eyetracking-stoptime": 5343766,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-189_Team-na_Member-74_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-189_Team-na_Member-74_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601836799198,
+  "metadata-stoptime": 1601837480308,
+  "trial_id": "bd7a9e34-d11c-4d21-85a9-671e9cf351f8"
+ },
+ "Trial-190": {
+  "experiment_id": "36bb2071-8c25-43c9-b7aa-525bf788b59a",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-190_Team-na_Member-75_Vers-1.csv",
+  "eyetracking-starttime": 2650000,
+  "eyetracking-stoptime": 3625983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-190_Team-na_Member-75_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-190_Team-na_Member-75_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601845039409,
+  "metadata-stoptime": 1601846020713,
+  "trial_id": "c974b574-a83e-4087-b7b8-725dd0149c6d"
+ },
+ "Trial-191": {
+  "experiment_id": "36bb2071-8c25-43c9-b7aa-525bf788b59a",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-191_Team-na_Member-75_Vers-1.csv",
+  "eyetracking-starttime": 4199000,
+  "eyetracking-stoptime": 5137983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-191_Team-na_Member-75_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-191_Team-na_Member-75_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601846588661,
+  "metadata-stoptime": 1601847533013,
+  "trial_id": "987277e8-60e8-4a47-a2be-c8c496b78e9e"
+ },
+ "Trial-192": {
+  "experiment_id": "36bb2071-8c25-43c9-b7aa-525bf788b59a",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-192_Team-na_Member-75_Vers-1.csv",
+  "eyetracking-starttime": 5601000,
+  "eyetracking-stoptime": 6481983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-192_Team-na_Member-75_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-192_Team-na_Member-75_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601847990928,
+  "metadata-stoptime": 1601848876525,
+  "trial_id": "ec9241b9-4c96-4bcc-981f-97f8822b3659"
+ },
+ "Trial-193": {
+  "experiment_id": "ba669d42-ce7a-48ef-8fc3-d1f7cfa90604",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-193_Team-na_Member-76_Vers-1.csv",
+  "eyetracking-starttime": 2581000,
+  "eyetracking-stoptime": 3441983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-193_Team-na_Member-76_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-193_Team-na_Member-76_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601933268304,
+  "metadata-stoptime": 1601934134220,
+  "trial_id": "9cf723b2-5aca-4d17-94fe-25161f38944e"
+ },
+ "Trial-194": {
+  "experiment_id": "ba669d42-ce7a-48ef-8fc3-d1f7cfa90604",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-194_Team-na_Member-76_Vers-1.csv",
+  "eyetracking-starttime": 3882000,
+  "eyetracking-stoptime": 4722999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-194_Team-na_Member-76_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-194_Team-na_Member-76_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601934569252,
+  "metadata-stoptime": 1601935414889,
+  "trial_id": "70680c8d-dbbe-49d0-ac56-a379de4a4a48"
+ },
+ "Trial-195": {
+  "experiment_id": "ba669d42-ce7a-48ef-8fc3-d1f7cfa90604",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-195_Team-na_Member-76_Vers-1.csv",
+  "eyetracking-starttime": 4981016,
+  "eyetracking-stoptime": 5796999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-195_Team-na_Member-76_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-195_Team-na_Member-76_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601935668037,
+  "metadata-stoptime": 1601936489093,
+  "trial_id": "f6079914-4f70-41e3-bb13-1d6fe0b60cbc"
+ },
+ "Trial-196": {
+  "experiment_id": "862efc10-1c74-4912-8fff-ab6aeb3dd0cb",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-196_Team-na_Member-77_Vers-1.csv",
+  "eyetracking-starttime": 2990000,
+  "eyetracking-stoptime": 3961983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-196_Team-na_Member-77_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-196_Team-na_Member-77_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601939555256,
+  "metadata-stoptime": 1601940531581,
+  "trial_id": "b62b2717-df35-474a-aad0-22b77b5aa722"
+ },
+ "Trial-197": {
+  "experiment_id": "862efc10-1c74-4912-8fff-ab6aeb3dd0cb",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-197_Team-na_Member-77_Vers-1.csv",
+  "eyetracking-starttime": 4373000,
+  "eyetracking-stoptime": 5295983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-197_Team-na_Member-77_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-197_Team-na_Member-77_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601940937621,
+  "metadata-stoptime": 1601941865554,
+  "trial_id": "54018948-5f2a-493e-bfe4-cecd32562373"
+ },
+ "Trial-198": {
+  "experiment_id": "862efc10-1c74-4912-8fff-ab6aeb3dd0cb",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-198_Team-na_Member-77_Vers-1.csv",
+  "eyetracking-starttime": 5543000,
+  "eyetracking-stoptime": 6439983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-198_Team-na_Member-77_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-198_Team-na_Member-77_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1601942107729,
+  "metadata-stoptime": 1601943010019,
+  "trial_id": "a2da3858-042e-4a4f-b2a3-15fcd1c54e72"
+ },
+ "Trial-199": {
+  "experiment_id": "22a9c4bc-3da2-4209-b42c-11cb27d41985",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-199_Team-na_Member-78_Vers-1.csv",
+  "eyetracking-starttime": 2875016,
+  "eyetracking-stoptime": 3897999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-199_Team-na_Member-78_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-199_Team-na_Member-78_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602027075337,
+  "metadata-stoptime": 1602028103789,
+  "trial_id": "817ac3f7-6a88-4351-b615-0b96d522cf78"
+ },
+ "Trial-200": {
+  "experiment_id": "22a9c4bc-3da2-4209-b42c-11cb27d41985",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-200_Team-na_Member-78_Vers-1.csv",
+  "eyetracking-starttime": 4510016,
+  "eyetracking-stoptime": 5482999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-200_Team-na_Member-78_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-200_Team-na_Member-78_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602028710317,
+  "metadata-stoptime": 1602029688527,
+  "trial_id": "d1302c03-215a-4a83-b2a3-8a70f8d94ed0"
+ },
+ "Trial-201": {
+  "experiment_id": "22a9c4bc-3da2-4209-b42c-11cb27d41985",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-201_Team-na_Member-78_Vers-1.csv",
+  "eyetracking-starttime": 5939015,
+  "eyetracking-stoptime": 6882998,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-201_Team-na_Member-78_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-201_Team-na_Member-78_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602030139951,
+  "metadata-stoptime": 1602031089209,
+  "trial_id": "34b4ee76-8706-44ce-8961-12dcc0d69fbd"
+ },
+ "Trial-202": {
+  "experiment_id": "9aec826c-7e25-42d7-b774-0970dfc84265",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-202_Team-na_Member-79_Vers-1.csv",
+  "eyetracking-starttime": 2419000,
+  "eyetracking-stoptime": 3410983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-202_Team-na_Member-79_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-202_Team-na_Member-79_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602028597274,
+  "metadata-stoptime": 1602029595330,
+  "trial_id": "1bfe9284-2be5-46a9-bd7c-50ac447a0867"
+ },
+ "Trial-203": {
+  "experiment_id": "9aec826c-7e25-42d7-b774-0970dfc84265",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-203_Team-na_Member-79_Vers-1.csv",
+  "eyetracking-starttime": 4175000,
+  "eyetracking-stoptime": 5078999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-203_Team-na_Member-79_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-203_Team-na_Member-79_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602030354324,
+  "metadata-stoptime": 1602031263300,
+  "trial_id": "786a80de-8089-4dc3-b6b9-191c238a4741"
+ },
+ "Trial-204": {
+  "experiment_id": "9aec826c-7e25-42d7-b774-0970dfc84265",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-204_Team-na_Member-79_Vers-1.csv",
+  "eyetracking-starttime": 5454016,
+  "eyetracking-stoptime": 6316999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-204_Team-na_Member-79_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-204_Team-na_Member-79_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602031633143,
+  "metadata-stoptime": 1602032501032,
+  "trial_id": "45b823b1-dbc6-4a6f-bd9e-7ae26a3242be"
+ },
+ "Trial-205": {
+  "experiment_id": "dc8b8e13-abcb-4f00-a6b0-271bf38a1c8c",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-205_Team-na_Member-80_Vers-1.csv",
+  "eyetracking-starttime": 2332000,
+  "eyetracking-stoptime": 3328983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-205_Team-na_Member-80_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-205_Team-na_Member-80_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602105617475,
+  "metadata-stoptime": 1602106619377,
+  "trial_id": "5cdc106b-3139-4e38-bdf8-d3bffbb4afe9"
+ },
+ "Trial-206": {
+  "experiment_id": "dc8b8e13-abcb-4f00-a6b0-271bf38a1c8c",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-206_Team-na_Member-80_Vers-1.csv",
+  "eyetracking-starttime": 3806000,
+  "eyetracking-stoptime": 4697983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-206_Team-na_Member-80_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-206_Team-na_Member-80_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602107090962,
+  "metadata-stoptime": 1602107988404,
+  "trial_id": "dfbb283f-d162-46ac-8bf9-747b9b917b8d"
+ },
+ "Trial-207": {
+  "experiment_id": "dc8b8e13-abcb-4f00-a6b0-271bf38a1c8c",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-207_Team-na_Member-80_Vers-1.csv",
+  "eyetracking-starttime": 5238000,
+  "eyetracking-stoptime": 6127983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-207_Team-na_Member-80_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-207_Team-na_Member-80_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602108523094,
+  "metadata-stoptime": 1602109418305,
+  "trial_id": "8377a4fe-0edc-488b-8514-ce4ae9beab85"
+ },
+ "Trial-208": {
+  "experiment_id": "27f37c08-830e-497e-b438-2e12a99367ca",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-208_Team-na_Member-81_Vers-1.csv",
+  "eyetracking-starttime": 2742000,
+  "eyetracking-stoptime": 3609983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-208_Team-na_Member-81_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-208_Team-na_Member-81_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602284191291,
+  "metadata-stoptime": 1602285065231,
+  "trial_id": "010689c1-dac0-45e6-a7df-ef80df15d64c"
+ },
+ "Trial-209": {
+  "experiment_id": "27f37c08-830e-497e-b438-2e12a99367ca",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-209_Team-na_Member-81_Vers-1.csv",
+  "eyetracking-starttime": 4097000,
+  "eyetracking-stoptime": 4942999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-209_Team-na_Member-81_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-209_Team-na_Member-81_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602285546578,
+  "metadata-stoptime": 1602286397474,
+  "trial_id": "a8b6a1c3-beb4-4075-84c9-b517013fcddc"
+ },
+ "Trial-210": {
+  "experiment_id": "27f37c08-830e-497e-b438-2e12a99367ca",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-210_Team-na_Member-81_Vers-1.csv",
+  "eyetracking-starttime": 5176016,
+  "eyetracking-stoptime": 5903999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-210_Team-na_Member-81_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-210_Team-na_Member-81_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602286626092,
+  "metadata-stoptime": 1602287442563,
+  "trial_id": "5c87e9b8-5521-40d0-bc2c-6ce8049f3a0d"
+ },
+ "Trial-211": {
+  "experiment_id": "559d8b8b-f53f-4f5c-85ce-953cdf46cde4",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-211_Team-na_Member-82_Vers-1.csv",
+  "eyetracking-starttime": 2638016,
+  "eyetracking-stoptime": 3569999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-211_Team-na_Member-82_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-211_Team-na_Member-82_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602289632500,
+  "metadata-stoptime": 1602290569731,
+  "trial_id": "f765a7f7-d22b-4bf1-af13-433d49433575"
+ },
+ "Trial-212": {
+  "experiment_id": "559d8b8b-f53f-4f5c-85ce-953cdf46cde4",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-212_Team-na_Member-82_Vers-1.csv",
+  "eyetracking-starttime": 4048016,
+  "eyetracking-stoptime": 5004999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-212_Team-na_Member-82_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-212_Team-na_Member-82_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602291042514,
+  "metadata-stoptime": 1602292004447,
+  "trial_id": "4861c8b7-1f38-4cf6-a0a6-e89e11eaf186"
+ },
+ "Trial-213": {
+  "experiment_id": "559d8b8b-f53f-4f5c-85ce-953cdf46cde4",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-213_Team-na_Member-82_Vers-1.csv",
+  "eyetracking-starttime": 5324015,
+  "eyetracking-stoptime": 6301998,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-213_Team-na_Member-82_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-213_Team-na_Member-82_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602292318273,
+  "metadata-stoptime": 1602293301438,
+  "trial_id": "4691728e-6b59-46c0-830e-f3c6faaa039a"
+ },
+ "Trial-214": {
+  "experiment_id": "a9040e3c-4a63-4efe-9b89-b4865ede903d",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-214_Team-na_Member-83_Vers-1.csv",
+  "eyetracking-starttime": 2667000,
+  "eyetracking-stoptime": 3523999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-214_Team-na_Member-83_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-214_Team-na_Member-83_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602352838624,
+  "metadata-stoptime": 1602353701297,
+  "trial_id": "c92fe967-f647-43b5-b393-da8f912cfd36"
+ },
+ "Trial-215": {
+  "experiment_id": "a9040e3c-4a63-4efe-9b89-b4865ede903d",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-215_Team-na_Member-83_Vers-1.csv",
+  "eyetracking-starttime": 3797016,
+  "eyetracking-stoptime": 4639999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-215_Team-na_Member-83_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-215_Team-na_Member-83_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602353969511,
+  "metadata-stoptime": 1602354816763,
+  "trial_id": "a85e66a7-e28d-4809-8424-bad3b3a391c4"
+ },
+ "Trial-216": {
+  "experiment_id": "a9040e3c-4a63-4efe-9b89-b4865ede903d",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-216_Team-na_Member-83_Vers-1.csv",
+  "eyetracking-starttime": 4889016,
+  "eyetracking-stoptime": 5720999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-216_Team-na_Member-83_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-216_Team-na_Member-83_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602355061536,
+  "metadata-stoptime": 1602355898086,
+  "trial_id": "97fecfa6-1a29-49ab-9e84-8d66d4354385"
+ },
+ "Trial-217": {
+  "experiment_id": "a797bf22-3dd2-46e6-be13-6b29a1a7c42d",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-217_Team-na_Member-84_Vers-1.csv",
+  "eyetracking-starttime": 2110000,
+  "eyetracking-stoptime": 3024983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-217_Team-na_Member-84_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-217_Team-na_Member-84_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602369731074,
+  "metadata-stoptime": 1602370650733,
+  "trial_id": "4bd3f56d-90ca-4429-9887-b25dafdbc002"
+ },
+ "Trial-218": {
+  "experiment_id": "a797bf22-3dd2-46e6-be13-6b29a1a7c42d",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-218_Team-na_Member-84_Vers-1.csv",
+  "eyetracking-starttime": 3375000,
+  "eyetracking-stoptime": 4229983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-218_Team-na_Member-84_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-218_Team-na_Member-84_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602370995727,
+  "metadata-stoptime": 1602371855794,
+  "trial_id": "a353278c-d28a-4f8f-861c-2087a797c944"
+ },
+ "Trial-219": {
+  "experiment_id": "a797bf22-3dd2-46e6-be13-6b29a1a7c42d",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-219_Team-na_Member-84_Vers-1.csv",
+  "eyetracking-starttime": 4552000,
+  "eyetracking-stoptime": 5377983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-219_Team-na_Member-84_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-219_Team-na_Member-84_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602372172718,
+  "metadata-stoptime": 1602373004174,
+  "trial_id": "4b7445ff-0d4a-4b8d-8d4d-ff562e24fb90"
+ },
+ "Trial-220": {
+  "experiment_id": "e23613b8-39e0-4e2b-a037-33b3c933ff1e",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-220_Team-na_Member-85_Vers-1.csv",
+  "eyetracking-starttime": 2715016,
+  "eyetracking-stoptime": 3656999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-220_Team-na_Member-85_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-220_Team-na_Member-85_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602439302342,
+  "metadata-stoptime": 1602440249244,
+  "trial_id": "d0466e0a-c5c3-4002-bb63-17699b39bfa7"
+ },
+ "Trial-221": {
+  "experiment_id": "e23613b8-39e0-4e2b-a037-33b3c933ff1e",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-221_Team-na_Member-85_Vers-1.csv",
+  "eyetracking-starttime": 4154015,
+  "eyetracking-stoptime": 5070999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-221_Team-na_Member-85_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-221_Team-na_Member-85_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602440741642,
+  "metadata-stoptime": 1602441663480,
+  "trial_id": "54b14514-6bf8-4e8a-bc6f-d25d598a948a"
+ },
+ "Trial-222": {
+  "experiment_id": "e23613b8-39e0-4e2b-a037-33b3c933ff1e",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-222_Team-na_Member-85_Vers-1.csv",
+  "eyetracking-starttime": 5404016,
+  "eyetracking-stoptime": 6428999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-222_Team-na_Member-85_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-222_Team-na_Member-85_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602441991023,
+  "metadata-stoptime": 1602443020986,
+  "trial_id": "86afde3f-447b-4026-8fd4-3f00527171b3"
+ },
+ "Trial-223": {
+  "experiment_id": "ef77f304-0352-45ad-94c7-d0fd2b657512",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-223_Team-na_Member-86_Vers-1.csv",
+  "eyetracking-starttime": 2862000,
+  "eyetracking-stoptime": 3764983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-223_Team-na_Member-86_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-223_Team-na_Member-86_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602450188327,
+  "metadata-stoptime": 1602451097139,
+  "trial_id": "1fe62c39-fbb2-45bb-a73b-d5f50c299222"
+ },
+ "Trial-224": {
+  "experiment_id": "ef77f304-0352-45ad-94c7-d0fd2b657512",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-224_Team-na_Member-86_Vers-1.csv",
+  "eyetracking-starttime": 4302000,
+  "eyetracking-stoptime": 5180983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-224_Team-na_Member-86_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-224_Team-na_Member-86_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602451628175,
+  "metadata-stoptime": 1602452512170,
+  "trial_id": "9e6a1b58-81f8-43a3-aab3-3ac43d805aaa"
+ },
+ "Trial-225": {
+  "experiment_id": "ef77f304-0352-45ad-94c7-d0fd2b657512",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-225_Team-na_Member-86_Vers-1.csv",
+  "eyetracking-starttime": 5551000,
+  "eyetracking-stoptime": 6473983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-225_Team-na_Member-86_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-225_Team-na_Member-86_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602452877772,
+  "metadata-stoptime": 1602453805076,
+  "trial_id": "a22e16f1-739d-4160-b8cf-69fd6420d734"
+ },
+ "Trial-226": {
+  "experiment_id": "9fc4fa57-4e9b-4a09-a249-18e8e87b4cea",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-226_Team-na_Member-87_Vers-1.csv",
+  "eyetracking-starttime": 2499000,
+  "eyetracking-stoptime": 3351983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-226_Team-na_Member-87_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-226_Team-na_Member-87_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602543530189,
+  "metadata-stoptime": 1602544388385,
+  "trial_id": "b0891128-f972-47a4-9765-672d6619e752"
+ },
+ "Trial-227": {
+  "experiment_id": "9fc4fa57-4e9b-4a09-a249-18e8e87b4cea",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-227_Team-na_Member-87_Vers-1.csv",
+  "eyetracking-starttime": 3834000,
+  "eyetracking-stoptime": 4683999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-227_Team-na_Member-87_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-227_Team-na_Member-87_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602544865473,
+  "metadata-stoptime": 1602545720003,
+  "trial_id": "eda8d62e-10a0-42f5-a78a-fe0448571527"
+ },
+ "Trial-228": {
+  "experiment_id": "9fc4fa57-4e9b-4a09-a249-18e8e87b4cea",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-228_Team-na_Member-87_Vers-1.csv",
+  "eyetracking-starttime": 5257016,
+  "eyetracking-stoptime": 6085999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-228_Team-na_Member-87_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-228_Team-na_Member-87_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602546288035,
+  "metadata-stoptime": 1602547121966,
+  "trial_id": "9a74a4fd-cfaf-4415-a5b3-b4a58acfe75b"
+ },
+ "Trial-229": {
+  "experiment_id": "7174c81f-a7c1-46f8-adf2-4fe3569b5f0a",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-229_Team-na_Member-88_Vers-1.csv",
+  "eyetracking-starttime": 2214000,
+  "eyetracking-stoptime": 3096983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-229_Team-na_Member-88_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-229_Team-na_Member-88_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602618986730,
+  "metadata-stoptime": 1602619874097,
+  "trial_id": "d1464f2f-4765-49fe-af17-afa6de750453"
+ },
+ "Trial-230": {
+  "experiment_id": "7174c81f-a7c1-46f8-adf2-4fe3569b5f0a",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-230_Team-na_Member-88_Vers-1.csv",
+  "eyetracking-starttime": 3717000,
+  "eyetracking-stoptime": 4548999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-230_Team-na_Member-88_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-230_Team-na_Member-88_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602620489688,
+  "metadata-stoptime": 1602621326413,
+  "trial_id": "9c3fab0e-3c9c-4d09-a6b2-a75fb584789c"
+ },
+ "Trial-231": {
+  "experiment_id": "7174c81f-a7c1-46f8-adf2-4fe3569b5f0a",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-231_Team-na_Member-88_Vers-1.csv",
+  "eyetracking-starttime": 4884016,
+  "eyetracking-stoptime": 5737999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-231_Team-na_Member-88_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-231_Team-na_Member-88_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602621656923,
+  "metadata-stoptime": 1602622515318,
+  "trial_id": "284b843d-c07b-408d-960f-8796e227056d"
+ },
+ "Trial-232": {
+  "experiment_id": "1874ba1a-3bf2-4569-9569-8c91ecef4b5a",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-232_Team-na_Member-89_Vers-1.csv",
+  "eyetracking-starttime": 2141000,
+  "eyetracking-stoptime": 3033999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-232_Team-na_Member-89_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-232_Team-na_Member-89_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602630938115,
+  "metadata-stoptime": 1602631836004,
+  "trial_id": "94682363-1064-4623-9840-e4c45196023e"
+ },
+ "Trial-233": {
+  "experiment_id": "1874ba1a-3bf2-4569-9569-8c91ecef4b5a",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-233_Team-na_Member-89_Vers-1.csv",
+  "eyetracking-starttime": 3350016,
+  "eyetracking-stoptime": 4228999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-233_Team-na_Member-89_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-233_Team-na_Member-89_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602632146812,
+  "metadata-stoptime": 1602633031319,
+  "trial_id": "93adccd2-eecf-4328-a8ef-44c9a30efbed"
+ },
+ "Trial-234": {
+  "experiment_id": "1874ba1a-3bf2-4569-9569-8c91ecef4b5a",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-234_Team-na_Member-89_Vers-1.csv",
+  "eyetracking-starttime": 4637016,
+  "eyetracking-stoptime": 5489999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-234_Team-na_Member-89_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-234_Team-na_Member-89_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602633433814,
+  "metadata-stoptime": 1602634291708,
+  "trial_id": "7c302148-ad90-4ee9-b23e-7357c18922b2"
+ },
+ "Trial-235": {
+  "experiment_id": "5a9d1008-112f-45a2-9bd2-0ad8a6c6b9d9",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-235_Team-na_Member-90_Vers-1.csv",
+  "eyetracking-starttime": 2412000,
+  "eyetracking-stoptime": 3376983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-235_Team-na_Member-90_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-235_Team-na_Member-90_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602633104261,
+  "metadata-stoptime": 1602634074302,
+  "trial_id": "e2b9e538-b866-4007-bcc4-fbfe7599030f"
+ },
+ "Trial-236": {
+  "experiment_id": "5a9d1008-112f-45a2-9bd2-0ad8a6c6b9d9",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-236_Team-na_Member-90_Vers-1.csv",
+  "eyetracking-starttime": 4216000,
+  "eyetracking-stoptime": 5152983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-236_Team-na_Member-90_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-236_Team-na_Member-90_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602634909087,
+  "metadata-stoptime": 1602635850818,
+  "trial_id": "1598e65f-2899-4dee-987b-7c7c7d73a1b1"
+ },
+ "Trial-237": {
+  "experiment_id": "5a9d1008-112f-45a2-9bd2-0ad8a6c6b9d9",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-237_Team-na_Member-90_Vers-1.csv",
+  "eyetracking-starttime": 5412000,
+  "eyetracking-stoptime": 6286983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-237_Team-na_Member-90_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-237_Team-na_Member-90_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602636104835,
+  "metadata-stoptime": 1602636983794,
+  "trial_id": "b4d51567-1eb9-4639-a3b3-94c64d377f7f"
+ },
+ "Trial-238": {
+  "experiment_id": "b88d2fdf-0562-4b65-9ba3-b2217039abeb",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-238_Team-na_Member-91_Vers-1.csv",
+  "eyetracking-starttime": 2327000,
+  "eyetracking-stoptime": 3190983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-238_Team-na_Member-91_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-238_Team-na_Member-91_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602710334175,
+  "metadata-stoptime": 1602711203440,
+  "trial_id": "d1feee19-1c42-41a2-8158-b0d445f536b1"
+ },
+ "Trial-239": {
+  "experiment_id": "b88d2fdf-0562-4b65-9ba3-b2217039abeb",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-239_Team-na_Member-91_Vers-1.csv",
+  "eyetracking-starttime": 3613000,
+  "eyetracking-stoptime": 4469999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-239_Team-na_Member-91_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-239_Team-na_Member-91_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602711619936,
+  "metadata-stoptime": 1602712481581,
+  "trial_id": "fe2ae66b-0145-431f-9d95-7271687afc0c"
+ },
+ "Trial-240": {
+  "experiment_id": "b88d2fdf-0562-4b65-9ba3-b2217039abeb",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-240_Team-na_Member-91_Vers-1.csv",
+  "eyetracking-starttime": 4780016,
+  "eyetracking-stoptime": 5605999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-240_Team-na_Member-91_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-240_Team-na_Member-91_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602712786771,
+  "metadata-stoptime": 1602713618762,
+  "trial_id": "36bf0653-0ee6-4d3d-8db8-4d5842d6de26"
+ },
+ "Trial-241": {
+  "experiment_id": "eee14247-ed77-4eec-bfd3-435326129f90",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-241_Team-na_Member-92_Vers-1.csv",
+  "eyetracking-starttime": 2549016,
+  "eyetracking-stoptime": 3449999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-241_Team-na_Member-92_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-241_Team-na_Member-92_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602803966918,
+  "metadata-stoptime": 1602804872770,
+  "trial_id": "753e4c70-4f65-480e-977d-c5aca5aaf4d9"
+ },
+ "Trial-242": {
+  "experiment_id": "eee14247-ed77-4eec-bfd3-435326129f90",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-242_Team-na_Member-92_Vers-1.csv",
+  "eyetracking-starttime": 3797016,
+  "eyetracking-stoptime": 4731999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-242_Team-na_Member-92_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-242_Team-na_Member-92_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602805213851,
+  "metadata-stoptime": 1602806154629,
+  "trial_id": "5917a4d1-e89b-4a67-a46a-1e71bfbe5591"
+ },
+ "Trial-243": {
+  "experiment_id": "eee14247-ed77-4eec-bfd3-435326129f90",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-243_Team-na_Member-92_Vers-1.csv",
+  "eyetracking-starttime": 5182015,
+  "eyetracking-stoptime": 6108998,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-243_Team-na_Member-92_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-243_Team-na_Member-92_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602806598915,
+  "metadata-stoptime": 1602807531177,
+  "trial_id": "90c4a645-8d49-4363-bd57-8ef524f1bc32"
+ },
+ "Trial-244": {
+  "experiment_id": "a5a36524-443d-426c-b110-25536335a027",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-244_Team-na_Member-93_Vers-1.csv",
+  "eyetracking-starttime": 2552000,
+  "eyetracking-stoptime": 3420983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-244_Team-na_Member-93_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-244_Team-na_Member-93_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602868984720,
+  "metadata-stoptime": 1602869858571,
+  "trial_id": "a4e6b2b2-3c7d-4fb1-8cae-26a9594b4fc6"
+ },
+ "Trial-245": {
+  "experiment_id": "a5a36524-443d-426c-b110-25536335a027",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-245_Team-na_Member-93_Vers-1.csv",
+  "eyetracking-starttime": 3872000,
+  "eyetracking-stoptime": 4697983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-245_Team-na_Member-93_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-245_Team-na_Member-93_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602870304852,
+  "metadata-stoptime": 1602871135884,
+  "trial_id": "08658ca3-8bd8-41db-8282-2b401633288d"
+ },
+ "Trial-246": {
+  "experiment_id": "a5a36524-443d-426c-b110-25536335a027",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-246_Team-na_Member-93_Vers-1.csv",
+  "eyetracking-starttime": 5128000,
+  "eyetracking-stoptime": 5957983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-246_Team-na_Member-93_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-246_Team-na_Member-93_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602871560204,
+  "metadata-stoptime": 1602872395558,
+  "trial_id": "52e10607-6c99-46e3-8fa6-553ca3a8631a"
+ },
+ "Trial-247": {
+  "experiment_id": "b420765c-271f-4280-a2c7-e08304e8bccb",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-247_Team-na_Member-94_Vers-1.csv",
+  "eyetracking-starttime": 2802000,
+  "eyetracking-stoptime": 3703983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-247_Team-na_Member-94_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-247_Team-na_Member-94_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602889390016,
+  "metadata-stoptime": 1602890296277,
+  "trial_id": "1d5d7d42-2de2-4346-b776-a944b2869751"
+ },
+ "Trial-248": {
+  "experiment_id": "b420765c-271f-4280-a2c7-e08304e8bccb",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-248_Team-na_Member-94_Vers-1.csv",
+  "eyetracking-starttime": 4211000,
+  "eyetracking-stoptime": 5110999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-248_Team-na_Member-94_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-248_Team-na_Member-94_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602890797941,
+  "metadata-stoptime": 1602891703325,
+  "trial_id": "fb0d1007-2606-489e-b91c-8fee3d5da792"
+ },
+ "Trial-249": {
+  "experiment_id": "b420765c-271f-4280-a2c7-e08304e8bccb",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-249_Team-na_Member-94_Vers-1.csv",
+  "eyetracking-starttime": 5516016,
+  "eyetracking-stoptime": 6369999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-249_Team-na_Member-94_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-249_Team-na_Member-94_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602892084179,
+  "metadata-stoptime": 1602892962543,
+  "trial_id": "1d063a3d-8339-4141-9af5-7bcfd63d0946"
+ },
+ "Trial-250": {
+  "experiment_id": "a294675b-db4c-4ea8-be4a-338f0fac2684",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-250_Team-na_Member-95_Vers-1.csv",
+  "eyetracking-starttime": 2262016,
+  "eyetracking-stoptime": 3218999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-250_Team-na_Member-95_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-250_Team-na_Member-95_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602894268120,
+  "metadata-stoptime": 1602895230462,
+  "trial_id": "f2a23e9a-1c4c-4b2f-86b0-d8ea7beb2a7e"
+ },
+ "Trial-251": {
+  "experiment_id": "a294675b-db4c-4ea8-be4a-338f0fac2684",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-251_Team-na_Member-95_Vers-1.csv",
+  "eyetracking-starttime": 3630016,
+  "eyetracking-stoptime": 4572999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-251_Team-na_Member-95_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-251_Team-na_Member-95_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602895636573,
+  "metadata-stoptime": 1602896584196,
+  "trial_id": "d153fc09-78cb-4592-93ef-634eb1b55321"
+ },
+ "Trial-252": {
+  "experiment_id": "a294675b-db4c-4ea8-be4a-338f0fac2684",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-252_Team-na_Member-95_Vers-1.csv",
+  "eyetracking-starttime": 4883015,
+  "eyetracking-stoptime": 5806998,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-252_Team-na_Member-95_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-252_Team-na_Member-95_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602896889316,
+  "metadata-stoptime": 1602897817857,
+  "trial_id": "fd591e5c-3e11-469b-94fb-fda5ad71292e"
+ },
+ "Trial-253": {
+  "experiment_id": "f0649367-3313-4e8e-b3c3-a673b4ce2237",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-253_Team-na_Member-96_Vers-1.csv",
+  "eyetracking-starttime": 2240016,
+  "eyetracking-stoptime": 3112999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-253_Team-na_Member-96_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-253_Team-na_Member-96_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602975428208,
+  "metadata-stoptime": 1602976306431,
+  "trial_id": "21868e1c-9ea4-4941-8408-731568e753a6"
+ },
+ "Trial-254": {
+  "experiment_id": "f0649367-3313-4e8e-b3c3-a673b4ce2237",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-254_Team-na_Member-96_Vers-1.csv",
+  "eyetracking-starttime": 3488016,
+  "eyetracking-stoptime": 4311999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-254_Team-na_Member-96_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-254_Team-na_Member-96_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602976676591,
+  "metadata-stoptime": 1602977505641,
+  "trial_id": "8bd0b901-76e8-4c7f-a5ff-d688ae354726"
+ },
+ "Trial-255": {
+  "experiment_id": "f0649367-3313-4e8e-b3c3-a673b4ce2237",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-255_Team-na_Member-96_Vers-1.csv",
+  "eyetracking-starttime": 4567016,
+  "eyetracking-stoptime": 5370999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-255_Team-na_Member-96_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-255_Team-na_Member-96_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1602977755876,
+  "metadata-stoptime": 1602978564333,
+  "trial_id": "131ce08a-0146-49b0-be1f-f0e61f1ca64b"
+ },
+ "Trial-256": {
+  "experiment_id": "600e3022-912b-47f2-a772-12c4080e1743",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-256_Team-na_Member-97_Vers-1.csv",
+  "eyetracking-starttime": 2092000,
+  "eyetracking-stoptime": 2999983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-256_Team-na_Member-97_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-256_Team-na_Member-97_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603043267679,
+  "metadata-stoptime": 1603044180705,
+  "trial_id": "4f394d40-5e32-40a8-be26-80124ec4a391"
+ },
+ "Trial-257": {
+  "experiment_id": "600e3022-912b-47f2-a772-12c4080e1743",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-257_Team-na_Member-97_Vers-1.csv",
+  "eyetracking-starttime": 3812000,
+  "eyetracking-stoptime": 4686999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-257_Team-na_Member-97_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-257_Team-na_Member-97_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603044987211,
+  "metadata-stoptime": 1603045867571,
+  "trial_id": "99659730-f661-4dd6-83b4-0c04e783e734"
+ },
+ "Trial-258": {
+  "experiment_id": "600e3022-912b-47f2-a772-12c4080e1743",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-258_Team-na_Member-97_Vers-1.csv",
+  "eyetracking-starttime": 4904016,
+  "eyetracking-stoptime": 5789999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-258_Team-na_Member-97_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-258_Team-na_Member-97_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603046079557,
+  "metadata-stoptime": 1603046940603,
+  "trial_id": "10a832df-c0e0-4664-a243-bcf6845e51e7"
+ },
+ "Trial-259": {
+  "experiment_id": "b69e1d6b-07dd-4a78-be1d-ea6a2ff47b29",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-259_Team-na_Member-98_Vers-1.csv",
+  "eyetracking-starttime": 2339000,
+  "eyetracking-stoptime": 3150983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-259_Team-na_Member-98_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-259_Team-na_Member-98_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603053686545,
+  "metadata-stoptime": 1603054503585,
+  "trial_id": "b6113639-838b-42e9-8239-444d75f79dc9"
+ },
+ "Trial-260": {
+  "experiment_id": "b69e1d6b-07dd-4a78-be1d-ea6a2ff47b29",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-260_Team-na_Member-98_Vers-1.csv",
+  "eyetracking-starttime": 3523000,
+  "eyetracking-stoptime": 4336983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-260_Team-na_Member-98_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-260_Team-na_Member-98_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603054870032,
+  "metadata-stoptime": 1603055689587,
+  "trial_id": "947b1b6b-4a77-4517-a397-dc8c86e55cdb"
+ },
+ "Trial-261": {
+  "experiment_id": "b69e1d6b-07dd-4a78-be1d-ea6a2ff47b29",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-261_Team-na_Member-98_Vers-1.csv",
+  "eyetracking-starttime": 4624000,
+  "eyetracking-stoptime": 5453983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-261_Team-na_Member-98_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-261_Team-na_Member-98_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603055971617,
+  "metadata-stoptime": 1603056806104,
+  "trial_id": "c35afd93-0d0a-4646-a8f4-02b7940f05ce"
+ },
+ "Trial-262": {
+  "experiment_id": "8a773c59-4583-4387-94e0-330732408bf8",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-262_Team-na_Member-99_Vers-1.csv",
+  "eyetracking-starttime": 2403000,
+  "eyetracking-stoptime": 3370983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-262_Team-na_Member-99_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-262_Team-na_Member-99_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603142581189,
+  "metadata-stoptime": 1603143554670,
+  "trial_id": "e1d39cda-46dd-4844-b232-bb0b5d5df399"
+ },
+ "Trial-263": {
+  "experiment_id": "8a773c59-4583-4387-94e0-330732408bf8",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-263_Team-na_Member-99_Vers-1.csv",
+  "eyetracking-starttime": 3822000,
+  "eyetracking-stoptime": 4778983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-263_Team-na_Member-99_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-263_Team-na_Member-99_Vers-2.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-263_Team-na_Member-99_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603143999923,
+  "metadata-stoptime": 1603144961908,
+  "trial_id": "16d45256-0a37-4ed9-8dab-e70529fedd7a"
+ },
+ "Trial-264": {
+  "experiment_id": "8a773c59-4583-4387-94e0-330732408bf8",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-264_Team-na_Member-99_Vers-1.csv",
+  "eyetracking-starttime": 5213000,
+  "eyetracking-stoptime": 6304983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-264_Team-na_Member-99_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-264_Team-na_Member-99_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603145391050,
+  "metadata-stoptime": 1603146487862,
+  "trial_id": "437b5ef4-a25d-4a45-b8df-9f2be5379f90"
+ },
+ "Trial-265": {
+  "experiment_id": "12f8b62a-73ba-4210-808a-3744a6633b1f",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-265_Team-na_Member-100_Vers-1.csv",
+  "eyetracking-starttime": 2311000,
+  "eyetracking-stoptime": 3268983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-265_Team-na_Member-100_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-265_Team-na_Member-100_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603148077629,
+  "metadata-stoptime": 1603149040434,
+  "trial_id": "b13a4906-ff36-48ec-ab39-26a1920294c9"
+ },
+ "Trial-266": {
+  "experiment_id": "12f8b62a-73ba-4210-808a-3744a6633b1f",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-266_Team-na_Member-100_Vers-1.csv",
+  "eyetracking-starttime": 3560000,
+  "eyetracking-stoptime": 4446983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-266_Team-na_Member-100_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-266_Team-na_Member-100_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603149327115,
+  "metadata-stoptime": 1603150219219,
+  "trial_id": "b0dffbd4-a7a1-4965-a0e6-aa95ef1947f6"
+ },
+ "Trial-267": {
+  "experiment_id": "12f8b62a-73ba-4210-808a-3744a6633b1f",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-267_Team-na_Member-100_Vers-1.csv",
+  "eyetracking-starttime": 4743000,
+  "eyetracking-stoptime": 5601983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-267_Team-na_Member-100_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-267_Team-na_Member-100_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603150509420,
+  "metadata-stoptime": 1603151373726,
+  "trial_id": "1980b7e1-9904-4956-af1e-b69a906b1af2"
+ },
+ "Trial-268": {
+  "experiment_id": "2972c3b8-5c6b-4486-ab6e-a01419bad4df",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-268_Team-na_Member-101_Vers-1.csv",
+  "eyetracking-starttime": 2542000,
+  "eyetracking-stoptime": 3502983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-268_Team-na_Member-101_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-268_Team-na_Member-101_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603224154472,
+  "metadata-stoptime": 1603225120858,
+  "trial_id": "c76233f0-df34-4626-85cc-bbbf22521cfd"
+ },
+ "Trial-269": {
+  "experiment_id": "2972c3b8-5c6b-4486-ab6e-a01419bad4df",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-269_Team-na_Member-101_Vers-1.csv",
+  "eyetracking-starttime": 4245000,
+  "eyetracking-stoptime": 5177999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-269_Team-na_Member-101_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-269_Team-na_Member-101_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603225857623,
+  "metadata-stoptime": 1603226795859,
+  "trial_id": "099ae37e-2ac8-4b9e-9476-36b10420df2a"
+ },
+ "Trial-270": {
+  "experiment_id": "2972c3b8-5c6b-4486-ab6e-a01419bad4df",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-270_Team-na_Member-101_Vers-1.csv",
+  "eyetracking-starttime": 5612016,
+  "eyetracking-stoptime": 6529999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-270_Team-na_Member-101_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-270_Team-na_Member-101_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603227214510,
+  "metadata-stoptime": 1603228148126,
+  "trial_id": "11aeb776-59e5-43f8-ba31-18e8c5e58688"
+ },
+ "Trial-271": {
+  "experiment_id": "7fa3a9d1-0826-4a39-922c-dfc9589d74d1",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-271_Team-na_Member-102_Vers-1.csv",
+  "eyetracking-starttime": 3018016,
+  "eyetracking-stoptime": 3992999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-271_Team-na_Member-102_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-271_Team-na_Member-102_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603236350951,
+  "metadata-stoptime": 1603237331257,
+  "trial_id": "60e32946-c7a9-4fc2-9fe4-0f737d8d27dc"
+ },
+ "Trial-272": {
+  "experiment_id": "7fa3a9d1-0826-4a39-922c-dfc9589d74d1",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-272_Team-na_Member-102_Vers-1.csv",
+  "eyetracking-starttime": 4268016,
+  "eyetracking-stoptime": 5236999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-272_Team-na_Member-102_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-272_Team-na_Member-102_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603237601450,
+  "metadata-stoptime": 1603238575320,
+  "trial_id": "af18ef82-a979-4e3f-9db0-e92081515141"
+ },
+ "Trial-273": {
+  "experiment_id": "7fa3a9d1-0826-4a39-922c-dfc9589d74d1",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-273_Team-na_Member-102_Vers-1.csv",
+  "eyetracking-starttime": 5518016,
+  "eyetracking-stoptime": 6708999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-273_Team-na_Member-102_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-273_Team-na_Member-102_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1603238851367,
+  "metadata-stoptime": 1603240169055,
+  "trial_id": "a6cd8455-666c-411f-8231-d01309b24b0e"
+ },
+ "Trial-43": {
+  "experiment_id": "1740f0e9-db2d-4832-a79e-81a99f457d81",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-43_Team-na_Member-26_Vers-1.csv",
+  "eyetracking-starttime": 3481000,
+  "eyetracking-stoptime": 4350983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-43_Team-na_Member-26_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-43_Team-na_Member-26_Vers-2.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-43_Team-na_Member-26_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598401505467,
+  "metadata-stoptime": 1598402374563,
+  "trial_id": "651d06b9-faea-4b06-9594-a6218fb72954"
+ },
+ "Trial-44": {
+  "experiment_id": "1740f0e9-db2d-4832-a79e-81a99f457d81",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-44_Team-na_Member-26_Vers-1.csv",
+  "eyetracking-starttime": 5065000,
+  "eyetracking-stoptime": 5972983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-44_Team-na_Member-26_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-44_Team-na_Member-26_Vers-2.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-44_Team-na_Member-26_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598403088201,
+  "metadata-stoptime": 1598403996489,
+  "trial_id": "45193955-5c44-4f40-b114-9c7c0e332873"
+ },
+ "Trial-45": {
+  "experiment_id": "1740f0e9-db2d-4832-a79e-81a99f457d81",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-45_Team-na_Member-26_Vers-1.csv",
+  "eyetracking-starttime": 6380000,
+  "eyetracking-stoptime": 7248983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-45_Team-na_Member-26_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-45_Team-na_Member-26_Vers-2.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-45_Team-na_Member-26_Vers-3.metadata"
+  ],
+  "trial_id": "d46c111c-2b09-466c-9fbc-61a131b41593"
+ },
+ "Trial-46": {
+  "experiment_id": "72cdc0c6-08c5-4903-beed-97d2759098b8",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-46_Team-na_Member-27_Vers-1.csv",
+  "eyetracking-starttime": 2716000,
+  "eyetracking-stoptime": 3657983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-46_Team-na_Member-27_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-46_Team-na_Member-27_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598476695235,
+  "metadata-stoptime": 1598477636938,
+  "trial_id": "abfbf90e-d254-432d-83df-62e5df4d24d7"
+ },
+ "Trial-47": {
+  "experiment_id": "72cdc0c6-08c5-4903-beed-97d2759098b8",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-47_Team-na_Member-27_Vers-1.csv",
+  "eyetracking-starttime": 4206000,
+  "eyetracking-stoptime": 6391167,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-47_Team-na_Member-27_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-47_Team-na_Member-27_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598478184580,
+  "metadata-stoptime": 1598479110226,
+  "trial_id": "e08bd378-7d17-4079-9430-948bb3bbb8a9"
+ },
+ "Trial-48": {
+  "experiment_id": "72cdc0c6-08c5-4903-beed-97d2759098b8",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-48_Team-na_Member-27_Vers-1.csv",
+  "eyetracking-starttime": 5487000,
+  "eyetracking-stoptime": 6351983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-48_Team-na_Member-27_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-48_Team-na_Member-27_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598479466237,
+  "metadata-stoptime": 1598480331611,
+  "trial_id": "d09abfff-503b-42f6-934c-fbdc26a70b68"
+ },
+ "Trial-49": {
+  "experiment_id": "c7f20df5-78ee-47ac-81fc-d584c089f8b9",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-49_Team-na_Member-28_Vers-1.csv",
+  "eyetracking-starttime": 3070016,
+  "eyetracking-stoptime": 3986999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-49_Team-na_Member-28_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-49_Team-na_Member-28_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598559009996,
+  "metadata-stoptime": 1598559925922,
+  "trial_id": "2abe5b9f-2d69-412a-95a7-a12808d62424"
+ },
+ "Trial-50": {
+  "experiment_id": "c7f20df5-78ee-47ac-81fc-d584c089f8b9",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-50_Team-na_Member-28_Vers-1.csv",
+  "eyetracking-starttime": 4990016,
+  "eyetracking-stoptime": 5893999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-50_Team-na_Member-28_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-50_Team-na_Member-28_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598560928796,
+  "metadata-stoptime": 1598561833130,
+  "trial_id": "39009cb0-15b5-4a3a-9851-bd374e3407a0"
+ },
+ "Trial-51": {
+  "experiment_id": "c7f20df5-78ee-47ac-81fc-d584c089f8b9",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-51_Team-na_Member-28_Vers-1.csv",
+  "eyetracking-starttime": 6405015,
+  "eyetracking-stoptime": 7317998,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-51_Team-na_Member-28_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-51_Team-na_Member-28_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598562343768,
+  "metadata-stoptime": 1598563257696,
+  "trial_id": "b42857e5-8835-4abb-a358-67bb7d312cf9"
+ },
+ "Trial-52": {
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-52_Team-na_Member-29_Vers-1.csv",
+  "eyetracking-starttime": 4196016,
+  "eyetracking-stoptime": 5078999
+ },
+ "Trial-53": {
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-53_Team-na_Member-29_Vers-1.csv",
+  "eyetracking-starttime": 5710016,
+  "eyetracking-stoptime": 6561999
+ },
+ "Trial-54": {
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-54_Team-na_Member-29_Vers-1.csv",
+  "eyetracking-starttime": 6946016,
+  "eyetracking-stoptime": 7819999
+ },
+ "Trial-55": {
+  "experiment_id": "061d4ea9-e579-4155-b77d-a6c4581dde8b",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-55_Team-na_Member-30_Vers-1.csv",
+  "eyetracking-starttime": 2537000,
+  "eyetracking-stoptime": 3424983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-55_Team-na_Member-30_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-55_Team-na_Member-30_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598635487957,
+  "metadata-stoptime": 1598636375476,
+  "trial_id": "00efb266-b7c5-4b13-9a98-18c46141151c"
+ },
+ "Trial-56": {
+  "experiment_id": "061d4ea9-e579-4155-b77d-a6c4581dde8b",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-56_Team-na_Member-30_Vers-1.csv",
+  "eyetracking-starttime": 3862000,
+  "eyetracking-stoptime": 4696983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-56_Team-na_Member-30_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-56_Team-na_Member-30_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598636812669,
+  "metadata-stoptime": 1598637720537,
+  "trial_id": "470110c1-f6ff-43a0-b785-e867db6af70e"
+ },
+ "Trial-57": {
+  "experiment_id": "061d4ea9-e579-4155-b77d-a6c4581dde8b",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-57_Team-na_Member-30_Vers-1.csv",
+  "eyetracking-starttime": 5088000,
+  "eyetracking-stoptime": 5887983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-57_Team-na_Member-30_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-57_Team-na_Member-30_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598638038710,
+  "metadata-stoptime": 1598644533021,
+  "trial_id": "924a9999-f7db-46f3-b77c-62ec2bc10590"
+ },
+ "Trial-58": {
+  "experiment_id": "e064b7b5-b702-485a-b88a-92cb27fc8844",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-58_Team-na_Member-31_Vers-1.csv",
+  "eyetracking-starttime": 2429000,
+  "eyetracking-stoptime": 3321983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-58_Team-na_Member-31_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-58_Team-na_Member-31_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598821793107,
+  "metadata-stoptime": 1598822685644,
+  "trial_id": "72bbd924-3ff6-45fe-b393-94e2a96b2b41"
+ },
+ "Trial-59": {
+  "experiment_id": "e064b7b5-b702-485a-b88a-92cb27fc8844",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-59_Team-na_Member-31_Vers-1.csv",
+  "eyetracking-starttime": 4300000,
+  "eyetracking-stoptime": 5262983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-59_Team-na_Member-31_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-59_Team-na_Member-31_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598823664178,
+  "metadata-stoptime": 1598824627012,
+  "trial_id": "7745a9e8-a027-45fd-a169-80a37d6fdc11"
+ },
+ "Trial-60": {
+  "experiment_id": "e064b7b5-b702-485a-b88a-92cb27fc8844",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-60_Team-na_Member-31_Vers-1.csv",
+  "eyetracking-starttime": 5597000,
+  "eyetracking-stoptime": 6532983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-60_Team-na_Member-31_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-60_Team-na_Member-31_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598824960612,
+  "metadata-stoptime": 1598825897179,
+  "trial_id": "6a86fef8-7c76-4c4a-8267-6e26bf73f0c7"
+ },
+ "Trial-61": {
+  "experiment_id": "0581c2c5-ecac-4466-aad0-29307ca3d8f9",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-61_Team-na_Member-32_Vers-1.csv",
+  "eyetracking-starttime": 3123000,
+  "eyetracking-stoptime": 4027983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-61_Team-na_Member-32_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-61_Team-na_Member-32_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598915213628,
+  "metadata-stoptime": 1598916119038,
+  "trial_id": "604cfa73-fb5b-4201-8a4a-a814b461963d"
+ },
+ "Trial-62": {
+  "experiment_id": "0581c2c5-ecac-4466-aad0-29307ca3d8f9",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-62_Team-na_Member-32_Vers-1.csv",
+  "eyetracking-starttime": 4771000,
+  "eyetracking-stoptime": 5656999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-62_Team-na_Member-32_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-62_Team-na_Member-32_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598916862160,
+  "metadata-stoptime": 1598917748028,
+  "trial_id": "66ddaf1b-d9b6-4c4c-8ca2-d234739ac704"
+ },
+ "Trial-63": {
+  "experiment_id": "0581c2c5-ecac-4466-aad0-29307ca3d8f9",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-63_Team-na_Member-32_Vers-1.csv",
+  "eyetracking-starttime": 6024016,
+  "eyetracking-stoptime": 6867999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-63_Team-na_Member-32_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-63_Team-na_Member-32_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598918114464,
+  "metadata-stoptime": 1598918959249,
+  "trial_id": "4a5c68e7-2f61-48c3-93be-f716e90e5362"
+ },
+ "Trial-64": {
+  "experiment_id": "495336b6-f2e6-4c79-ac73-43f23a4e91bc",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-64_Team-na_Member-33_Vers-1.csv",
+  "eyetracking-starttime": 2684000,
+  "eyetracking-stoptime": 3602983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-64_Team-na_Member-33_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconHard-StaticMap_Trial-64_Team-na_Member-33_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598909149078,
+  "metadata-stoptime": 1598910067940,
+  "trial_id": "dc6d8a73-0e6e-4cc9-a6ee-719d0bdd9ceb"
+ },
+ "Trial-65": {
+  "experiment_id": "495336b6-f2e6-4c79-ac73-43f23a4e91bc",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-65_Team-na_Member-33_Vers-1.csv",
+  "eyetracking-starttime": 4392000,
+  "eyetracking-stoptime": 5279983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-65_Team-na_Member-33_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconMed-StaticMap_Trial-65_Team-na_Member-33_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598910856896,
+  "metadata-stoptime": 1598911911512,
+  "trial_id": "451380b8-ab30-40a2-8c3e-74c70300cbf7"
+ },
+ "Trial-66": {
+  "experiment_id": "495336b6-f2e6-4c79-ac73-43f23a4e91bc",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-66_Team-na_Member-33_Vers-1.csv",
+  "eyetracking-starttime": 5533000,
+  "eyetracking-stoptime": 6318983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-66_Team-na_Member-33_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-NoTriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-66_Team-na_Member-33_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1598911998252,
+  "metadata-stoptime": 1598912899328,
+  "trial_id": "d506b182-3f75-45e9-ba6b-3a261e830c96"
+ },
+ "Trial-67": {
+  "experiment_id": "eec5295e-a584-4903-9a51-7c09806a2549",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-67_Team-na_Member-34_Vers-1.csv",
+  "eyetracking-starttime": 2933016,
+  "eyetracking-stoptime": 3778999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-67_Team-na_Member-34_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-67_Team-na_Member-34_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599081307434,
+  "metadata-stoptime": 1599082153316,
+  "trial_id": "22cae2ed-246e-466d-a061-050f29f4c8c4"
+ },
+ "Trial-68": {
+  "experiment_id": "eec5295e-a584-4903-9a51-7c09806a2549",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-68_Team-na_Member-34_Vers-1.csv",
+  "eyetracking-starttime": 4605016,
+  "eyetracking-stoptime": 5408999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-68_Team-na_Member-34_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-68_Team-na_Member-34_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599082979746,
+  "metadata-stoptime": 1599083784125,
+  "trial_id": "1be358ef-4841-45e2-bcff-658ce941f36f"
+ },
+ "Trial-69": {
+  "experiment_id": "eec5295e-a584-4903-9a51-7c09806a2549",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-69_Team-na_Member-34_Vers-1.csv",
+  "eyetracking-starttime": 5830015,
+  "eyetracking-stoptime": 6626998,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-69_Team-na_Member-34_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-69_Team-na_Member-34_Vers-2.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-69_Team-na_Member-34_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599084204857,
+  "metadata-stoptime": 1599085002716,
+  "trial_id": "719fcee9-9802-48cb-9612-3b8352c4ef86"
+ },
+ "Trial-70": {
+  "experiment_id": "535a43ca-3526-471a-9efd-cf6c390a5ffa",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-70_Team-na_Member-35_Vers-1.csv",
+  "eyetracking-starttime": 2609000,
+  "eyetracking-stoptime": 3515983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-70_Team-na_Member-35_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-70_Team-na_Member-35_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599163043769,
+  "metadata-stoptime": 1599163950784,
+  "trial_id": "3f62efdd-98b3-497b-9be7-0d37108445fd"
+ },
+ "Trial-71": {
+  "experiment_id": "535a43ca-3526-471a-9efd-cf6c390a5ffa",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-71_Team-na_Member-35_Vers-1.csv",
+  "eyetracking-starttime": 4126000,
+  "eyetracking-stoptime": 5033999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-71_Team-na_Member-35_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-71_Team-na_Member-35_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599164561240,
+  "metadata-stoptime": 1599165469635,
+  "trial_id": "1cac4b6c-1010-4a7e-bff8-fe08074035eb"
+ },
+ "Trial-72": {
+  "experiment_id": "535a43ca-3526-471a-9efd-cf6c390a5ffa",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-72_Team-na_Member-35_Vers-1.csv",
+  "eyetracking-starttime": 5379016,
+  "eyetracking-stoptime": 6247999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-72_Team-na_Member-35_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-72_Team-na_Member-35_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599165814549,
+  "metadata-stoptime": 1599166683208,
+  "trial_id": "48115916-42b3-409f-8c66-1c9468d0320a"
+ },
+ "Trial-73": {
+  "experiment_id": "13d1606a-3a57-4729-98bb-bc734508fb5c",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-73_Team-na_Member-36_Vers-1.csv",
+  "eyetracking-starttime": 2254000,
+  "eyetracking-stoptime": 3142983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-73_Team-na_Member-36_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-73_Team-na_Member-36_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599178936794,
+  "metadata-stoptime": 1599179825773,
+  "trial_id": "771fd476-2864-4b15-adaf-6b2f33017cce"
+ },
+ "Trial-74": {
+  "experiment_id": "13d1606a-3a57-4729-98bb-bc734508fb5c",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconMedium-StaticMap_Trial-74_Team-na_Member-36_Vers-1.csv",
+  "eyetracking-starttime": 3902000,
+  "eyetracking-stoptime": 4813983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-74_Team-na_Member-36_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-74_Team-na_Member-36_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599180584525,
+  "metadata-stoptime": 1599181496916,
+  "trial_id": "77f844fe-3f56-44da-8ddb-f050c339eee6"
+ },
+ "Trial-75": {
+  "experiment_id": "13d1606a-3a57-4729-98bb-bc734508fb5c",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-75_Team-na_Member-36_Vers-1.csv",
+  "eyetracking-starttime": 5361000,
+  "eyetracking-stoptime": 6233983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-75_Team-na_Member-36_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-75_Team-na_Member-36_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599182043319,
+  "metadata-stoptime": 1599182916318,
+  "trial_id": "3b168745-5bb4-4f26-abdb-01a000cb38b1"
+ },
+ "Trial-76": {
+  "experiment_id": "0b4c8351-9fec-4ff7-84f3-34e381335747",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-76_Team-na_Member-37_Vers-1.csv",
+  "eyetracking-starttime": 2269000,
+  "eyetracking-stoptime": 3088983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-76_Team-na_Member-37_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-76_Team-na_Member-37_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599239804901,
+  "metadata-stoptime": 1599240624779,
+  "trial_id": "93a64b13-2d57-41d5-8afe-1d0746fbd33d"
+ },
+ "Trial-77": {
+  "experiment_id": "0b4c8351-9fec-4ff7-84f3-34e381335747",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-77_Team-na_Member-37_Vers-1.csv",
+  "eyetracking-starttime": 3448000,
+  "eyetracking-stoptime": 4235983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-77_Team-na_Member-37_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-77_Team-na_Member-37_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599240983392,
+  "metadata-stoptime": 1599241772079,
+  "trial_id": "17416548-7c82-406e-af80-f9a9c30df5c8"
+ },
+ "Trial-78": {
+  "experiment_id": "0b4c8351-9fec-4ff7-84f3-34e381335747",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-78_Team-na_Member-37_Vers-1.csv",
+  "eyetracking-starttime": 4450000,
+  "eyetracking-stoptime": 5092983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-78_Team-na_Member-37_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-78_Team-na_Member-37_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599241986265,
+  "metadata-stoptime": 1599242782158,
+  "trial_id": "2973edfb-e68d-4774-8045-205f7657622e"
+ },
+ "Trial-79": {
+  "experiment_id": "c98c2708-b5e4-432b-a12f-8769aece08e5",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-StaticMap_Trial-79_Team-na_Member-38_Vers-1.csv",
+  "eyetracking-starttime": 3602016,
+  "eyetracking-stoptime": 4554999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-79_Team-na_Member-38_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconMed-StaticMap_Trial-79_Team-na_Member-38_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599415476835,
+  "metadata-stoptime": 1599416429597,
+  "trial_id": "c3144442-c2bb-4090-99ce-aea6474bdcd7"
+ },
+ "Trial-80": {
+  "experiment_id": "c98c2708-b5e4-432b-a12f-8769aece08e5",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-80_Team-na_Member-38_Vers-1.csv",
+  "eyetracking-starttime": 5152016,
+  "eyetracking-stoptime": 6078999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-80_Team-na_Member-38_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconEasy-StaticMap_Trial-80_Team-na_Member-38_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599417027236,
+  "metadata-stoptime": 1599417953644,
+  "trial_id": "8fc03a08-9ef5-4f2f-8d21-e1bf097be000"
+ },
+ "Trial-81": {
+  "experiment_id": "c98c2708-b5e4-432b-a12f-8769aece08e5",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-81_Team-na_Member-38_Vers-1.csv",
+  "eyetracking-starttime": 6579016,
+  "eyetracking-stoptime": 7529999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-81_Team-na_Member-38_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageNoSignal_CondWin-FalconHard-StaticMap_Trial-81_Team-na_Member-38_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599418454423,
+  "metadata-stoptime": 1599419405407,
+  "trial_id": "136bf377-180c-40e6-b3b3-577b339735ac"
+ },
+ "Trial-82": {
+  "experiment_id": "89134f88-ea28-4839-bde7-2302627a6e30",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-82_Team-na_Member-39_Vers-1.csv",
+  "eyetracking-starttime": 2922833,
+  "eyetracking-stoptime": 3831816,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-82_Team-na_Member-39_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-82_Team-na_Member-39_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599514681607,
+  "metadata-stoptime": 1599515590524,
+  "trial_id": "7e8eda57-7318-4c14-bc9c-721441520f26"
+ },
+ "Trial-83": {
+  "experiment_id": "89134f88-ea28-4839-bde7-2302627a6e30",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-83_Team-na_Member-39_Vers-1.csv",
+  "eyetracking-starttime": 4250884,
+  "eyetracking-stoptime": 5170867,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-83_Team-na_Member-39_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-83_Team-na_Member-39_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599516041442,
+  "metadata-stoptime": 1599516961323,
+  "trial_id": "154c9f13-934b-41f4-8e18-74424edf37b1"
+ },
+ "Trial-84": {
+  "experiment_id": "89134f88-ea28-4839-bde7-2302627a6e30",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-84_Team-na_Member-39_Vers-1.csv",
+  "eyetracking-starttime": 5502883,
+  "eyetracking-stoptime": 6419867,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-84_Team-na_Member-39_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-84_Team-na_Member-39_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599517292887,
+  "metadata-stoptime": 1599518210748,
+  "trial_id": "5a0942df-4486-4e39-887c-8eb20657c6fd"
+ },
+ "Trial-85": {
+  "experiment_id": "14334236-9fa5-4745-a409-38460804a6a6",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-85_Team-na_Member-40_Vers-1.csv",
+  "eyetracking-starttime": 3936000,
+  "eyetracking-stoptime": 4929999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-85_Team-na_Member-40_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-85_Team-na_Member-40_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599608954597,
+  "metadata-stoptime": 1599609948348,
+  "trial_id": "e91e31cf-2823-407e-9a73-2051794b8827"
+ },
+ "Trial-86": {
+  "experiment_id": "14334236-9fa5-4745-a409-38460804a6a6",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-86_Team-na_Member-40_Vers-1.csv",
+  "eyetracking-starttime": 5620016,
+  "eyetracking-stoptime": 6592999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-86_Team-na_Member-40_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-86_Team-na_Member-40_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599610638199,
+  "metadata-stoptime": 1599611611045,
+  "trial_id": "d343d450-bd31-4502-ab22-8aa74089a076"
+ },
+ "Trial-87": {
+  "experiment_id": "14334236-9fa5-4745-a409-38460804a6a6",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-87_Team-na_Member-40_Vers-1.csv",
+  "eyetracking-starttime": 7079016,
+  "eyetracking-stoptime": 8011999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-87_Team-na_Member-40_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-87_Team-na_Member-40_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599612097568,
+  "metadata-stoptime": 1599613030379,
+  "trial_id": "629b17f4-11e5-491d-9a43-063d0c1701b4"
+ },
+ "Trial-88": {
+  "experiment_id": "0f650e52-6077-4650-9d56-15e55b87dd07",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-88_Team-na_Member-41_Vers-1.csv",
+  "eyetracking-starttime": 1000000,
+  "eyetracking-stoptime": 999983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-88_Team-na_Member-41_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-StaticMap_Trial-88_Team-na_Member-41_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599783544832,
+  "metadata-stoptime": 1599784401892,
+  "trial_id": "f8c53e56-cae3-48f7-aed0-d99ada024a5a"
+ },
+ "Trial-89": {
+  "experiment_id": "0f650e52-6077-4650-9d56-15e55b87dd07",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-89_Team-na_Member-41_Vers-1.csv",
+  "eyetracking-starttime": 1784000,
+  "eyetracking-stoptime": 2720983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-89_Team-na_Member-41_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-89_Team-na_Member-41_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599784887167,
+  "metadata-stoptime": 1599785823992,
+  "trial_id": "42b7bc5e-5764-4f15-bbdc-fd256668da11"
+ },
+ "Trial-90": {
+  "experiment_id": "0f650e52-6077-4650-9d56-15e55b87dd07",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-90_Team-na_Member-41_Vers-1.csv",
+  "eyetracking-starttime": 3020016,
+  "eyetracking-stoptime": 3908999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-90_Team-na_Member-41_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-StaticMap_Trial-90_Team-na_Member-41_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599786122838,
+  "metadata-stoptime": 1599787012045,
+  "trial_id": "f3efef40-5a3b-4194-a3fe-b4b040431a8c"
+ },
+ "Trial-91": {
+  "experiment_id": "550b4b02-0536-49f9-b20f-47e30f08d1bd",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-91_Team-na_Member-42_Vers-1.csv",
+  "eyetracking-starttime": 2486000,
+  "eyetracking-stoptime": 3425983,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-91_Team-na_Member-42_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-91_Team-na_Member-42_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599864564552,
+  "metadata-stoptime": 1599865504417,
+  "trial_id": "7e5a640f-f5dd-4d8e-ab2c-c63176918404"
+ },
+ "Trial-92": {
+  "experiment_id": "550b4b02-0536-49f9-b20f-47e30f08d1bd",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-92_Team-na_Member-42_Vers-1.csv",
+  "eyetracking-starttime": 3794000,
+  "eyetracking-stoptime": 4739999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-92_Team-na_Member-42_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-92_Team-na_Member-42_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599865872853,
+  "metadata-stoptime": 1599866818628,
+  "trial_id": "1e61d1af-7bf2-4626-879e-092cbf4be02e"
+ },
+ "Trial-93": {
+  "experiment_id": "550b4b02-0536-49f9-b20f-47e30f08d1bd",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-93_Team-na_Member-42_Vers-1.csv",
+  "eyetracking-starttime": 5082016,
+  "eyetracking-stoptime": 6008999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-93_Team-na_Member-42_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-93_Team-na_Member-42_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599867160318,
+  "metadata-stoptime": 1599868088143,
+  "trial_id": "de9c5620-29bf-4cc1-a874-54625d97441c"
+ },
+ "Trial-94": {
+  "experiment_id": "bfc891ee-0620-4a51-b2b9-0761a455580b",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-94_Team-na_Member-43_Vers-1.csv",
+  "eyetracking-starttime": 3514000,
+  "eyetracking-stoptime": 4428999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-94_Team-na_Member-43_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-94_Team-na_Member-43_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599933883687,
+  "metadata-stoptime": 1599934798612,
+  "trial_id": "e5d03fb2-e710-4b31-b6e6-d7ce7d198ed4"
+ },
+ "Trial-95": {
+  "experiment_id": "bfc891ee-0620-4a51-b2b9-0761a455580b",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-95_Team-na_Member-43_Vers-1.csv",
+  "eyetracking-starttime": 4920016,
+  "eyetracking-stoptime": 5901999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-95_Team-na_Member-43_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-95_Team-na_Member-43_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599935289752,
+  "metadata-stoptime": 1599936271573,
+  "trial_id": "0ff3e12a-7fc0-4503-b8a3-ac0c3a99e2f4"
+ },
+ "Trial-96": {
+  "experiment_id": "bfc891ee-0620-4a51-b2b9-0761a455580b",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-96_Team-na_Member-43_Vers-1.csv",
+  "eyetracking-starttime": 6349016,
+  "eyetracking-stoptime": 7314999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-96_Team-na_Member-43_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-96_Team-na_Member-43_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1599936719423,
+  "metadata-stoptime": 1599937684810,
+  "trial_id": "28a6147a-c86e-4b3d-9fd8-461150da40b8"
+ },
+ "Trial-97": {
+  "experiment_id": "4cd82b90-486e-4bbb-becf-27b8acc2123b",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconHard-StaticMap_Trial-97_Team-na_Member-44_Vers-1.csv",
+  "eyetracking-starttime": 3325000,
+  "eyetracking-stoptime": 4296999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-97_Team-na_Member-44_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-97_Team-na_Member-44_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600021901699,
+  "metadata-stoptime": 1600022873383,
+  "trial_id": "b95f2d1f-7ceb-47df-9f97-390aa9a2ae0f"
+ },
+ "Trial-98": {
+  "experiment_id": "4cd82b90-486e-4bbb-becf-27b8acc2123b",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconMedium-DynamicMap_Trial-98_Team-na_Member-44_Vers-1.csv",
+  "eyetracking-starttime": 4715016,
+  "eyetracking-stoptime": 5634999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-98_Team-na_Member-44_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-98_Team-na_Member-44_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600023292452,
+  "metadata-stoptime": 1600024211261,
+  "trial_id": "787a2486-0624-47e4-8574-865f2a8c9275"
+ },
+ "Trial-99": {
+  "experiment_id": "4cd82b90-486e-4bbb-becf-27b8acc2123b",
+  "eyetracking": "HSRData_SensorEyeTracking_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-99_Team-na_Member-44_Vers-1.csv",
+  "eyetracking-starttime": 6027016,
+  "eyetracking-stoptime": 6964999,
+  "metadata": [
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-99_Team-na_Member-44_Vers-1.metadata",
+   "HSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-99_Team-na_Member-44_Vers-3.metadata"
+  ],
+  "metadata-starttime": 1600024603709,
+  "metadata-stoptime": 1600025541750,
+  "trial_id": "e88e503e-001d-4226-a8f2-f83a149babb0"
+ }
+}

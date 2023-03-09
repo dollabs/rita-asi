@@ -1,0 +1,8 @@
+xx is a person.
+
+If xx shouts, then xx must be excited.
+
+Start story titled "Personality M".
+
+The end.
+

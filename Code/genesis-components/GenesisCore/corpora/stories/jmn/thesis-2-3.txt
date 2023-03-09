@@ -1,0 +1,44 @@
+//Les Mis 2.3 (Thesis), copied from 2.2 on 1/10/2017
+
+Start experiment.
+
+Start common sense knowledge.
+xx is a person.
+yy is a person.
+
+If xx commits a crime, then xx becomes criminal.
+If xx is a policeman and yy becomes criminal, then xx wants to arrest yy.
+If xx repents, then xx stops being criminal.
+If a tree falls in the forest, then the tree makes noise.
+If xx laughs, then xx is happy.
+If xx punishes the inmates, then the inmates become unhappy.
+If the inmates work, then the inmates become tired.
+
+Inspector Javert is a name.
+Jean Valjean is a name.
+Inspector Javert and Jean Valjean are persons.
+
+Start story titled "Les Mis 2.3".
+Scene shifts to the bakery.
+Inspector Javert and Jean Valjean enter the bakery.
+Inspector Javert is a policeman.
+Jean Valjean commits a crime.
+Jean Valjean exits the bakery.  Jean Valjean enters the prison.
+Inspector Javert laughs.
+Inspector Javert exits the bakery.
+
+Scene shifts to the prison.
+Inspector Javert enters the prison.
+Inspector Javert punishes the inmates.
+
+Scene shifts to the forest.
+Jean Valjean exits the prison.  Jean Valjean enters the house.
+A tree falls in the forest.
+
+Scene shifts to the prison.
+The inmates work.
+
+Scene shifts to the house.
+Jean Valjean repents.
+
+The end.

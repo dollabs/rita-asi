@@ -1,0 +1,22 @@
+Start commonsense knowledge.
+
+XX, YY, ZZ are persons.
+
+XX becomes survival-conscious because XX is hungry. 
+XX becomes survival-conscious because XX is starving.
+XX becomes survival-conscious because XX doesn't want to starve.
+XX becomes survival-conscious because XX becomes cold and afraid. 
+XX becomes survival-conscious because XX becomes lost in the forest. 
+ 
+XX becomes survival-conscious because XX becomes pregnant.
+XX becomes survival-conscious because XX wants to survive. 
+XX becomes survival-conscious because XX wants to ensure YY's safety.
+
+
+If XX traps YY, then YY becomes trapped. 
+If YY becomes trapped, then YY becomes survival-conscious.
+
+XX may want to murder YY because XX becomes survival-conscious.
+XX may want to eat YY because XX becomes survival-conscious.
+
+

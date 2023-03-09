@@ -1,0 +1,11 @@
+John is a person.
+
+Mary is a person.
+
+// Why can't concepts be here?  Why do they have to be in i.txt?
+
+Start story titled "Suspicious ideas".
+
+I believe John dislikes Mary.
+
+The end.

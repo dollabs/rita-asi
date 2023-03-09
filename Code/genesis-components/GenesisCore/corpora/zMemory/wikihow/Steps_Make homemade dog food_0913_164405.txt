@@ -1,0 +1,230 @@
+/* ------------------------------
+ Generated on 0913_164405 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make homemade dog food".
+Intention: Make homemade dog food.
+The end.
+
+If the intention is "Make homemade dog food".
+Step: Gather your supplies.
+Step: Make your eggshell powder.
+Step: Get the rice.
+Step: Add the remain ingredients.
+Step: Turn down the heat.
+Step: Allow the food to cool.
+Step: Learn why your dog may need a vegetarian/vegan diet....
+Step: Boil the water in a large stockpot on medium-high heat....
+Step: Remove from heat....
+Step: Add the peanut butter.
+Step: Add remain ingredients before meal.
+Step: Boil the potatoes.
+Step: Add the oats.
+Step: Cook the meat.
+Step: Add the meat to the oats to the potatoes.
+Step: Balanced dog vitamins is balanced.
+Step: Provide the necessary vitamins.
+Step: Feed a balanced diet to your dog.
+Step: Make small changes to the recipes.
+Step: Avoid toxic foods.
+Step: Allow foods in moderation only.
+Step: Look for the health's signs.
+The end.
+
+// ------------ Step 1: Gather your supplies
+If the problem is "Gather your supplies".
+Intention: Gather your supplies.
+The end.
+
+If the intention is "Gather your supplies".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Make your eggshell powder
+If the problem is "Make your eggshell powder".
+Intention: Make your eggshell powder.
+The end.
+
+If the intention is "Make your eggshell powder".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Get the rice
+If the problem is "Get the rice".
+Intention: Get the rice.
+The end.
+
+If the intention is "Get the rice".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Add the remain ingredients
+If the problem is "Add the remain ingredients".
+Intention: Add the remain ingredients.
+The end.
+
+If the intention is "Add the remain ingredients".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Turn down the heat
+If the problem is "Turn down the heat".
+Intention: Turn down the heat.
+The end.
+
+If the intention is "Turn down the heat".
+Method: Assume successful.
+The end.
+
+// ------------ Step 6: Allow the food to cool
+If the problem is "Allow the food to cool".
+Intention: Allow the food to cool.
+The end.
+
+If the intention is "Allow the food to cool".
+Method: Assume successful.
+The end.
+
+// ------------ Step 7: Learn why your dog may need a vegetarian/vegan diet...
+If the problem is "Learn why your dog may need a vegetarian/vegan diet...".
+Intention: Learn why your dog may need a vegetarian/vegan diet....
+The end.
+
+If the intention is "Learn why your dog may need a vegetarian/vegan diet...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 8: Boil the water in a large stockpot on medium-high heat...
+If the problem is "Boil the water in a large stockpot on medium-high heat...".
+Intention: Boil the water in a large stockpot on medium-high heat....
+The end.
+
+If the intention is "Boil the water in a large stockpot on medium-high heat...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 9: Remove from heat...
+If the problem is "Remove from heat...".
+Intention: Remove from heat....
+The end.
+
+If the intention is "Remove from heat...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 10: Add the peanut butter
+If the problem is "Add the peanut butter".
+Intention: Add the peanut butter.
+The end.
+
+If the intention is "Add the peanut butter".
+Method: Assume successful.
+The end.
+
+// ------------ Step 11: Add remain ingredients before meal
+If the problem is "Add remain ingredients before meal".
+Intention: Add remain ingredients before meal.
+The end.
+
+If the intention is "Add remain ingredients before meal".
+Method: Assume successful.
+The end.
+
+// ------------ Step 12: Boil the potatoes
+If the problem is "Boil the potatoes".
+Intention: Boil the potatoes.
+The end.
+
+If the intention is "Boil the potatoes".
+Method: Assume successful.
+The end.
+
+// ------------ Step 13: Add the oats
+If the problem is "Add the oats".
+Intention: Add the oats.
+The end.
+
+If the intention is "Add the oats".
+Method: Assume successful.
+The end.
+
+// ------------ Step 14: Cook the meat
+If the problem is "Cook the meat".
+Intention: Cook the meat.
+The end.
+
+If the intention is "Cook the meat".
+Method: Assume successful.
+The end.
+
+// ------------ Step 15: Add the meat to the oats to the potatoes
+If the problem is "Add the meat to the oats to the potatoes".
+Intention: Add the meat to the oats to the potatoes.
+The end.
+
+If the intention is "Add the meat to the oats to the potatoes".
+Method: Assume successful.
+The end.
+
+// ------------ Step 16: Balanced dog vitamins is balanced
+If the problem is "Balanced dog vitamins is balanced".
+Intention: Balanced dog vitamins is balanced.
+The end.
+
+If the intention is "Balanced dog vitamins is balanced".
+Method: Assume successful.
+The end.
+
+// ------------ Step 17: Provide the necessary vitamins
+If the problem is "Provide the necessary vitamins".
+Intention: Provide the necessary vitamins.
+The end.
+
+If the intention is "Provide the necessary vitamins".
+Method: Assume successful.
+The end.
+
+// ------------ Step 18: Feed a balanced diet to your dog
+If the problem is "Feed a balanced diet to your dog".
+Intention: Feed a balanced diet to your dog.
+The end.
+
+If the intention is "Feed a balanced diet to your dog".
+Method: Assume successful.
+The end.
+
+// ------------ Step 19: Make small changes to the recipes
+If the problem is "Make small changes to the recipes".
+Intention: Make small changes to the recipes.
+The end.
+
+If the intention is "Make small changes to the recipes".
+Method: Assume successful.
+The end.
+
+// ------------ Step 20: Avoid toxic foods
+If the problem is "Avoid toxic foods".
+Intention: Avoid toxic foods.
+The end.
+
+If the intention is "Avoid toxic foods".
+Method: Assume successful.
+The end.
+
+// ------------ Step 21: Allow foods in moderation only
+If the problem is "Allow foods in moderation only".
+Intention: Allow foods in moderation only.
+The end.
+
+If the intention is "Allow foods in moderation only".
+Step: Foods are on moderation.
+The end.
+
+// ------------ Step 22: Look for the health's signs
+If the problem is "Look for the health's signs".
+Intention: Look for the health's signs.
+The end.
+
+If the intention is "Look for the health's signs".
+Method: Assume successful.
+The end.
+

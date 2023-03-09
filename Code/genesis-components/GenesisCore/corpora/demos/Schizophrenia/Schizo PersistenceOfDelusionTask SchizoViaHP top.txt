@@ -1,0 +1,26 @@
+//Popup
+Popup Schizo PersistenceOfDelusionTask SchizoViaHP popup.
+
+//Setup
+Start experiment.
+Set all switches to defaults.
+Set Personality switch to false.
+Set Concept switch to false.
+//Set Show all story elements switch to true.
+Set bottom panel to elaboration graph.
+
+//Content
+Insert file PersistenceOfDelusionTask SchizoViaHP demo.
+Insert question into text box: Why do I feel scared?
+
+
+
+
+
+
+
+
+
+
+
+

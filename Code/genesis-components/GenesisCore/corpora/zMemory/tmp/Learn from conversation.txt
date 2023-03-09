@@ -1,0 +1,19 @@
+Set expert teaches novice button to true.
+
+Set Use features when matching switch to false.
+
+Set Split names with underscores switch to false.
+
+Set left panel to Commentary.
+
+Set right panel to Blocks.
+
+Set bottom panel to Mental models.
+
+Insert question into text box: Do you know how to assemble small tower? Pause.
+
+Insert into text box: you need to construct small tower. Pause.
+
+Insert into text box: to construct small tower, you need to find materials at home, build the tower, and polish the tower. Pause.
+
+Insert into text box: yes. Pause.

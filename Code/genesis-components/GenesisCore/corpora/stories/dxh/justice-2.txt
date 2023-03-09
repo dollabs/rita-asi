@@ -1,0 +1,10 @@
+Insert file Start experiment.
+Insert file General commonsense knowledge.
+
+Start story titled "Jack and Jill"
+
+Jill is a person.
+Jack is a person.
+Greg is a person.
+
+Jill kills Jack.

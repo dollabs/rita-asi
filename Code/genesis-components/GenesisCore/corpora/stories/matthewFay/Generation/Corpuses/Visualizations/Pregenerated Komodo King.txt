@@ -1,0 +1,39 @@
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "Komodo King".
+
+Kimba is a name.
+Kimba is a character.
+Kimba is a komodo dragon.
+
+Skar is a name.
+Skar is a character.
+Skar is a komodo dragon.
+
+Mufas is a name.
+Mufas is a character.
+Mufas is a komodo dragon.
+
+The Lounge Lands is a name.
+The Lounge Lands is a country.
+
+Mufas is the king.
+Mufas rules the Lounge Lands.
+Skar is Mufas's brother.
+Skar is Mufas's successor.
+Mufas is Kimba's parent.
+Skar kills Mufas.
+Skar becomes King.
+Skar scares away Kimba.
+Skar poisons Kimba.
+Kimba runs away.
+Kimba returns.
+Kimba attacks Skar.
+Kimba kills Skar.
+Skar dies.
+Kimba dies.
+
+The end.

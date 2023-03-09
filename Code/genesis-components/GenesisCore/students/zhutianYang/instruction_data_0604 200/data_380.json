@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 11:12:59+08:00", 
+    "instructions": [
+        "place Dinner Plate  on to the table in the center towards the closest edge", 
+        "place the dinner fork directly to the left of the dinner plate", 
+        "place the salad fork directly left of the dinner plate", 
+        "place the dinner knife directly right of the dinner plate", 
+        "place the salad knife directly left of the dinner knife", 
+        "place the soup spoon directly to the right of the salad knife", 
+        "pace the water glass directly 45 degrees to the right next to the dinner plate", 
+        "place the wine glass directly to the right of the water glass", 
+        "place another wine glass next to the one just placed down", 
+        "place the coffee cup to the right of the soup spoon", 
+        "place the bread plate 45 degrees to the left of the dinner plate", 
+        "place the butter knife at a 45 degree angle on the top right of the bread knife", 
+        "place the dessert fork horizontally above the dinner plate", 
+        "place the dessert spoon horizontally above the dessert fork", 
+        "place the napkin in the center of the dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table3"
+}

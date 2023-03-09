@@ -1,0 +1,30 @@
+Insert file Simple Hamlet.
+
+Clear story memory.
+
+Start Experiment.
+
+//Used Names
+//David, Malcom, Hughes, George, John, Maria, Jacob, Sally, King Fred, Andrea, Green, Grandpa, Kimba, Shadow
+
+Start Story Titled, "Komodo King".
+
+Kimba is a name.
+Kimba is a character.
+Kimba is a Komodo Dragon.
+Kimba is similar to Hamlet.
+
+Skar is a name.
+Skar is a character.
+Skar is a Komodo Dragon.
+Skar is similar to Claudius.
+
+Mufas is name.
+Mufas is a character.
+Mufas is a Komodo Dragon.
+Mufas is similar to King Hamlet.
+
+Simulate characters.
+Weave character plots.
+
+The end.

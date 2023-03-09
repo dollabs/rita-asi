@@ -1,0 +1,10 @@
+ppp is a person.
+ooo is a thing.
+lll is a thing.
+
+If ppp tries to reach ooo, then ppp must want to reach ooo. //abduction from reaching
+If ppp wants to reach ooo and ppp fails to reach ooo then ppp may try to reach again. //explanation of standing on box
+If ppp wants to reach ooo and ppp fails to reach ooo then ppp may grab lll. //presumption from grabbing object
+If ppp wants to go into the rain, ppp can grab an umbrella.
+If ppp wants to go into the rain and ppp grabs an umbrella, then ppp goes into the rain.
+If ppp fails to reach ooo then ppp must try to reach ooo.

@@ -1,0 +1,82 @@
+Learn Turkish
+
+Steps
+Method 1
+Mastering the Turkish Alphabet
+1
+Pronounce most Turkish consonants like you would in English. The Turkish language uses a modified Latin alphabet that includes all but 3 letters found in the English alphabet. The Turkish alphabet does not include q, w, or x. Most of the other letters are pronounced the same as in English, with a few exceptions.[2]
+A Turkish c is pronounced somewhat like the j in the English word jar.
+A Turkish g is always pronounced like the g in the English word garden.
+A Turkish j is pronounced somewhat like the s in the English word pleasure.
+A Turkish r is sometimes pronounced like the r in the English word red, although its pronunciation varies depending on its position within a word.
+A Turkish y is always pronounced like the y in the English word yellow.
+2
+Make the proper sound for Turkish vowels. Although the letters may look similar, Turkish vowels have a different sound than their English counterparts. They also have only one sound, as opposed to the short and long sounds of English vowels.[3]
+A Turkish a is pronounced somewhat like the u in the English word sun.
+A Turkish e is pronounced somewhat like the e in the English word egg.
+A Turkish i is pronounced somewhat like the i in the English word internet. Note that in Turkish, you also place a dot over the capital letter: İ.
+A Turkish o is pronounced somewhat like the o in the English word orange.
+A Turkish u is pronounced somewhat like the oo in the English word book.
+3
+Learn how to pronounce letters that are unique to Turkish. There are 6 letters in the Turkish alphabet that are not included in the English alphabet, for a total of 29 letters. There are 3 additional consonants not found in English: ç, ǧ, and ş. There are also 3 vowels not found in English: ı, ö, and ü.[4]
+ǧ is a soft g. It always follows a vowel. If it follows an a, ı, o, or u, it lengthens the sound of that vowel. If it follows e, i, ö, or ü, then it sounds like the y in the English word yellow.
+ç sounds like the ch in the English word chat.
+ş sounds like the sh in the English word shoe.
+ı sounds like the i in the English word cousin.
+ö sounds like the ure in the English word cure.
+ü sounds like the u in the English word cute.
+4
+Classify vowels as front or back, open or closed, and rounded or unrounded. Vowel harmony, a fundamental part of the Turkish language, is based on these 3 factors. Each describes how you physically produce the sound of each vowel using your tongue and mouth.[5]
+Vowels are rounded or unrounded depending on whether you round your lips to pronounce the vowel sound. e, i, a, and ı are unrounded vowels. o, ö, ü, and u are rounded vowels.
+Vowels are either front or back vowels depending on where you put your tongue in your mouth to make the vowel sound. e, i, ö, and ü are front vowels. a, ı, o, and u are back vowels.
+Vowels are open or closed depending on how much space you leave between your tongue and the roof of your mouth when making the vowel sound. e, a, ö, and o are open vowels. ı, i, ü, and u are closed vowels.
+5
+Use â, î, and û to distinguish words that have the same spelling. There are many loanwords from other languages in Turkish, particularly from Arabic. If these words have the same spelling as another word that already exists in Turkish, these letters are used.[6]
+For example, kar means "snow," while kâr means "profit."
+Method 2
+Understanding Basic Grammar and Sentence Structure
+1
+Use a suffix with a pronoun to convey a state of being. Unlike English, there is no verb in Turkish that means "to be." Rather, you add the "personal suffix" that corresponds to the pronoun to the object noun. There are 5 suffixes for first and second person singular, first and second person singular, and third person plural. There is no suffix for third person singular.[7]
+First person singular: Ben öğretmenim. (I am a teacher.)
+Second person singular: Sen öğretmensin. (You are a teacher.)
+First person plural: Biz öğretmeniz. (We are teachers.)
+Second person plural: Siz öğretmensiniz. (You all are teachers.) Note that like many European languages, such as Spanish and French, this form is also used as a polite, formal form of address – typically with elders or people in a position of authority.
+Third person plural: Onlar öğretmenler. (They are teachers.)
+2
+Omit the leading pronoun when using the personal suffix. Since there is a different personal suffix for each pronoun, you can tell what the pronoun is by the suffix used. For this reason, the leading pronoun is usually left off the sentence to avoid redundancy.[8]
+For example, you would typically simply say "öğretmenim" to mean "I am a teacher."
+3
+Add suffixes to change the grammatical features of a root word. While you may add a suffix to a word in English, you may add multiple suffixes to a root word in the Turkish language. These suffixes indicate mood, negation, passivity, plurality, possession, questioning, and many other features. All of these suffixes can make for some long, intimidating words – but they aren't so scary if you know how to break them down.[9]
+Unlike German, long words in Turkish aren't combinations of distinct words. Rather, they consist of a root word with various suffixes that describe that root word, ultimately making the root word more precise.
+For example, if you take the word ev (meaning "house") and add suffixes, you end up with evimdekilerden, which means "some of the ones in my house."
+4
+Harmonize suffix vowels with the final vowel of the root word. Vowels in suffix match the final vowel of the root word in terms of being front or back, open or closed, and rounded or unrounded. The goal is to say a word with the least amount of oral movement possible. This enables words to flow more smoothly.[10]
+For example, the suffix -siz means without. To say "without meat," add this suffix to the Turkish word et. The result is etsiz. To say "without salt," harmonize the suffix -siz with the Turkish word tuz: tuzsuz.
+As another example, consider the suffix -ler, which makes words plural. There are two forms, -ler and -lar. Which one you use depends on the last vowel of the root word. Gözler means eyes while telefonlar means telephones.
+Don't be intimidated by vowel harmony. Even if you use the wrong vowel, people will still understand you. When in doubt, simply go with the vowel sound that seems easiest to say.
+5
+Change consonants when pronunciation changes. Sometimes adding a suffix to a word will change the pronunciation of the final consonant of the root word. The reason for this change is to make the word easier to say. Since Turkish is written phonetically, if your pronunciation of the root word changes, you must also change the letter to match the pronunciation.[11]
+When you add a suffix to a word so that the consonant is then surrounded by vowels, change a p to a b, a ç to a c, a t to a d, or a k to a g or ğ.
+For example, in the Turkish word kitap (meaning "book"), the p would change to a b if you added the suffix -im: Benim kitabım ("my book").
+If the root word is only a single syllable, you generally won't change the final consonant. Consonants never change in proper nouns and words that are loan words from other languages.
+6
+Place the verb at the end of any sentence. The Turkish language uses the subject-object-verb word order in sentences. While this word order is used in many other languages, such as German and Japanese, it may be more of a challenge for native English speakers.[12]
+For example, if you wanted to say "the boy threw the ball to the dog" in Turkish, you would say "oğlan topu köpeğe attı." The literal translation would be the boy (oğlan) the ball (topu) to the dog (köpeğe) threw (attı).
+7
+In addition to dictionaries, there are also grammar and writing guides available, as well as a regular journal put out by the organization about developments in the Turkish language.
+Method 3
+Immersing Yourself in the Language
+1
+Listen to Turkish music often. The Turkish language uses harmonizing vowels, and some of these sounds may be strange to your ears, particularly if you are a native English speaker. Listening to Turkish music enables you to hear the fluidity and musicality of the language. Once you can hear this, you will be able to understand and pronounce words better.[14]
+You can find music videos for Turkish songs on video sites, such as YouTube. Turkish music is also available on popular music streaming services.
+2
+Read children's books in Turkish. Children's books are designed to help beginners learn to read, and will include basic vocabulary in simple, easy to read sentences. The pictures in a children's book put the words in context so you can better understand the meaning of unfamiliar words.
+If you're a Harry Potter fan, you might consider buying the series in Turkish. Since the books gradually increase in difficulty, they can help you learn to read while also enjoying familiar material.
+3
+Follow the latest world news in Turkish. There are a number of Turkish websites that offer articles and videos about current events in Turkey and the rest of the world. These articles give you a glimpse into Turkish social and political affairs, while also helping you practice your reading or listening skills.
+4
+Explore Turkish social media groups and online forums. Social media and forums allow you to connect with native speakers in Turkey, as well as others around the world who are learning the language. If you search for "Türkçe" you'll have a better chance of finding forums and groups that actually use the Turkish language.
+When chatting with people online, safeguard your privacy. Be cautious revealing any personal information about yourself until you're sure you can trust the person.
+5
+Plan a visit to Turkey or Northern Cyprus. If it is within your means to do so, a trip to Turkey or Northern Cyprus will give you a chance to fully immerse yourself in the language. This is especially true if you travel outside the major cities, where fewer people speak English.[15]
+If you are entering a mosque, get a lightweight shawl or scarf that you can use to cover your hair (for female-identifying individuals) and wear long sleeves and long pants (for all genders).

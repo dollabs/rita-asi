@@ -1,0 +1,25 @@
+Set expert teaches novice button to true.
+
+Set blocks world button to true.
+
+Set Use features when matching switch to false.
+
+Set Split names with underscores switch to false.
+
+Set left panel to Commentary.
+
+Set right panel to Blocks.
+
+Set bottom panel to Mental models.
+
+Insert question into text box: Do you know how to say goodbye?
+
+Insert into text box: read how Yang says goodbye.
+
+Insert into text box: read how Jin says goodbye.
+
+Insert into text box: yes.
+
+Insert into text box: you apply the first method if you are Yang.
+
+Insert into text box: if you are Jin, you apply the second method.

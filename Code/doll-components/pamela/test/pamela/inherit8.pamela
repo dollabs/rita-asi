@@ -1,0 +1,42 @@
+;; Copyright © 2016 Dynamic Object Language Labs Inc.
+;;
+;; This software is licensed under the terms of the
+;; Apache License, Version 2.0 which can be found in
+;; the file LICENSE at the root of this distribution.
+
+;; Acknowledgement and Disclaimer:
+;; This material is based upon work supported by the Army Contracting
+;; and DARPA under contract No. W911NF-15-C-0005.
+;; Any opinions, findings and conclusions or recommendations expressed
+;; in this material are those of the author(s) and do necessarily reflect the
+;; views of the Army Contracting Command and DARPA.
+
+;; inheritance example: superclass member disambiguation
+
+(defpclass a []
+  :fields {temperature 25})
+
+(defpclass b []
+  :fields {temperature 20})
+
+(defpclass c []
+  :inherit [a b]
+
+  ;; inherited fields
+  ;; NOTE: the question is do we "pick one" -or- do we make each
+  ;; of the superclass members accessible?
+
+  :methods [(defpmethod print-temperature
+              {:doc "Displays the current temperature"}
+              []
+              (sequence
+
+                (print "temperature" temperature)
+
+                ;; the following apply iff we support all superclass members
+                ;(print "a temperature" this.a.temperature)  ; We don't support references to super classes. TODO Should we?
+                ;(print "b temperature" this.b.temperature)
+                ))
+            (defpmethod print
+              {:doc "Displays label and value"}
+              [label value])])

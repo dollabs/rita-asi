@@ -1,0 +1,17 @@
+Sally is a person.
+Anne is a person.
+The_marble is a marble.
+the_box is a box.
+the_jar is a jar.
+
+Sally enters.
+Sally puts The_marble in the_box.
+Sally exits.
+
+Anne enters.
+Anne removes The_marble from the_box.
+Anne puts The_marble in the_jar.
+Anne exits.
+
+Sally enters.
+Sally searches for The_marble.

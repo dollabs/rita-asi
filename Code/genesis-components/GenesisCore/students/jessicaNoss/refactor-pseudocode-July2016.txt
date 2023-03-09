@@ -1,0 +1,51 @@
+NOTE: to compare with code from before refactor, run this:
+git diff acb5882d2613331075234d9d7432805f53218f6d HEAD -- source/expert/JessicasExpert.java
+
+
+ObservationsExpert
+
+HashMap containersToNames
+
+for line in story:
+    if enter:
+        process entry (person, room)
+    elif exit:
+        process exit (person, room)
+    else: #event
+        if "in [room]":
+            if room != current room:
+                close current-room MMs
+                open new-room MMs
+        record event to all open MMs //happens automatically (?)
+         
+         
+process entry(person, room):
+    move person into room (in containersToNames)
+    if current room == room:
+        person. open mental model
+        
+process exit(person, room):
+    move person into room (in containersToNames)
+    if current room == room:
+        person. open mental model
+        
+        
+// functions to adapt from old ObservationsFactory:
+processExitEveryone(container) //everyone in the container exits that container
+processEntry(character, container) //the character enters the container
+processExit(character, container) //the character exits the container
+recordEvent(increment) //equivalent of observationsFactory.addEvent(increment)
+getActorByName(name)
+
+isExitPlace
+isPresentInScene
+isSceneShift //detects "In the kitchen, ..."
+^ simpler: sentence "The scene shifts to the kitchen." or "The scene is in the kitchen."; check that new location != currentContainer
+
+//beyond basic:
+- add a consciousness flag to restore loseConsciousness/awaken functionality
+- characters in a container should be able to observe others entering/exiting (maybe)
+- do I need Actors?
+- restore Tell functionality (may require Actors for mapping entities to mental models? <- nope!)
+- test Everyone Exits
+- fix jmn things in MentalModel.java

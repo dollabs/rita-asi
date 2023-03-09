@@ -1,0 +1,47 @@
+Set Genesis advises human button to true.
+
+Set Use features when matching switch to false.
+
+Set Split names with underscores switch to false.
+
+Set left panel to Commentary.
+
+Set right panel to Blocks.
+
+Set bottom panel to Mental models.
+
+Insert question into text box: How do I make Yuan become dead?
+
+Insert into text box: No.
+
+Insert into text box: King may kill Yuan.
+
+Insert into text box: No, he doesn't. pause.
+
+// Insert into text box: Yes, he does. pause.
+
+// Insert into text box: Then, Official can kill Yuan. pause.
+
+// Insert into text box: If king trusts yuan, then I will make king distrust yuan. pause.
+
+// Insert into text box: If I make king distrust yuan, then king will not trust yuan. pause.
+
+Insert into text box: I don't know.
+
+Insert into text box: Yes.
+
+// Insert into text box: King believes that Yuan is disloyal. pause.
+
+Insert into text box: I don't know.
+
+Insert into text box: Yes.
+
+Insert into text box: Yes.
+
+// Insert into text box: Official makes King believe that Yuan is disloyal. pause.
+
+Insert into text box: Someone bribes Official. pause.
+
+Insert into text box: No, he is corrupted. pause.
+
+Insert into text box: I can bribe Official. pause.

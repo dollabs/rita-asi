@@ -1,0 +1,55 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Learn concept button to true.
+Set left panel to commentary.
+// Set right panel to Z Story Aligner Gallery.
+Set right panel to source.
+Both perspectives.
+
+xx, yy, and zz are persons.
+mm and nn are things.
+vv and uu are variables.
+ss and tt are animals.
+
+appetites is an entity.
+productivity is an entity.
+pounds is a measure.
+feet is a measure.
+seventy-five is five.
+
+Show both perspectives.
+
+If xx produces twice as much as mm on nn, then the productivity of nn doubles the productivity of mm.
+If ss eats half as much as tt, then the appetite of tt doubles the appetite of ss.
+if xx eats vv in total, then the appetites total vv.
+if xx weaves vv in uu, then the productivity totals vv.
+
+First perspective.
+Start story titled "Compensation to the farmer".
+// 今有牛、马、羊食人苗。苗主责之粟五斗。羊主曰：“我羊食半马。”马主曰：“我马食半牛。”今欲衰偿之，问各出几何？
+A cow, a horse, and a sheep ate the farmer's plants.
+In total, they ate seventy-five pounds.
+The farmer asked for compensations from the owners of the animals.
+The owners measured the quantity eaten by their animals.
+The sheep ate half as much as the horse.
+The horse ate half as much as the cow.
+Each owners will pay in proportion to the amount of plants eaten by his animal.
+Calculate the amount of money charged to each owner.
+The end.
+
+Second perspective.
+Start story titled "Productivity of the weaver".
+
+// 今有女子善织，日自倍，五日织五尺。问日织几何？
+A girl is an expert weaver.
+//Every day, the girl produces twice as much as the previous day.
+On the second day, the girl produces twice as much as the first day.
+On the third day, the girl produces twice as much as the second day.
+On the fourth day, the girl produces twice as much as the third day.
+On the fifth day, the girl produces twice as much as the fourth day.
+She weaved five feet in five days.
+Calculate the amount of clothes she weaves every day.
+The end.

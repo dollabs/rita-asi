@@ -1,0 +1,17 @@
+Start experiment.
+
+Start story titled "Then it happened again".
+
+John is nice.
+
+John loves Mary.
+
+Mary loves John.
+
+Then, John loves Mary.
+
+Mary loves John.
+
+The end.
+
+

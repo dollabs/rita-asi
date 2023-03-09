@@ -1,0 +1,102 @@
+
+
+(defpclass Top [] :fields {top (Main)})
+
+(defpclass
+ Main
+ []
+ :fields
+ {player (PlanningAgent), missionstatus "missionstatus"}
+ :methods
+ [(defpmethod
+   goal
+   []
+   (sequence
+    (choose
+     (choice
+      (sequence
+       (player.goto-room "/Falcon.CSEast")
+       (player.goto-room "/Falcon.CSNorth")
+       (player.goto-room "/Falcon.Terrace")
+       (player.arrive missionstatus)))
+     (choice
+      (sequence
+       (player.goto-room "/Falcon.MCR")
+       (player.goto-room "/Falcon.SCR2")
+       (player.goto-room "/Falcon.CSEast")
+       (player.goto-room "/Falcon.CSNorth")
+       (player.goto-room "/Falcon.Terrace")
+       (player.arrive missionstatus)))
+     (choice
+      (sequence
+       (player.goto-room "/Falcon.SCR2")
+       (player.goto-room "/Falcon.MCR")
+       (choose
+        (choice
+         (sequence
+          (player.goto-room "/Falcon.CSEast")
+          (player.goto-room "/Falcon.CSNorth")
+          (player.goto-room "/Falcon.Terrace")
+          (player.arrive missionstatus)))
+        (choice
+         (sequence
+          (player.goto-room "/Falcon.Room101")
+          (player.goto-room "/Falcon.Room108")
+          (player.goto-room "/Falcon.CSEast")
+          (player.goto-room "/Falcon.CSNorth")
+          (player.goto-room "/Falcon.Terrace")
+          (player.arrive missionstatus))))))
+     (choice
+      (sequence
+       (player.goto-room "/Falcon.Room108")
+       (player.goto-room "/Falcon.Room101")
+       (player.goto-room "/Falcon.MCR")
+       (player.goto-room "/Falcon.SCR2")
+       (player.goto-room "/Falcon.CSNorth")
+       (player.goto-room "/Falcon.CSEast")
+       (player.goto-room "/Falcon.Terrace")
+       (player.arrive missionstatus)))
+     (choice
+      (sequence
+       (player.goto-room "/Falcon.Room101")
+       (choose
+        (choice
+         (sequence
+          (player.goto-room "/Falcon.MCR")
+          (choose
+           (choice
+            (sequence
+             (player.goto-room "/Falcon.CSEast")
+             (player.goto-room "/Falcon.CSNorth")
+             (player.goto-room "/Falcon.Terrace")
+             (player.arrive missionstatus)))
+           (choice
+            (sequence
+             (player.goto-room "/Falcon.SCR2")
+             (player.goto-room "/Falcon.CSEast")
+             (player.goto-room "/Falcon.CSNorth")
+             (player.goto-room "/Falcon.Terrace")
+             (player.arrive missionstatus))))))
+        (choice
+         (sequence
+          (player.goto-room "/Falcon.SCR2")
+          (choose
+           (choice
+            (sequence
+             (player.goto-room "/Falcon.MCR")
+             (player.goto-room "/Falcon.CSEast")
+             (player.goto-room "/Falcon.CSNorth")
+             (player.goto-room "/Falcon.Terrace")
+             (player.arrive missionstatus)))
+           (choice
+            (sequence
+             (player.goto-room "/Falcon.CSNorth")
+             (player.goto-room "/Falcon.CSEast")
+             (player.goto-room "/Falcon.Terrace")
+             (player.arrive missionstatus))))))))))))])
+
+(defpclass
+ PlanningAgent
+ []
+ :methods
+ [(defpmethod goto-room [arg1]) (defpmethod arrive [arg1])])

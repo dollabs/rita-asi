@@ -1,0 +1,62 @@
+Start experiment.
+
+
+
+
+
+//Rules
+ppp is a person.
+nnn is a thing.
+ooo is a thing.
+lll is a thing.
+aaa is an action.
+
+
+//Prediction
+If ppp tries to reach ooo, then ppp must want to reach ooo. //abduction from reaching
+If ppp wants to reach ooo and ppp fails to reach ooo then ppp may try to reach again. //explanation of standing on box
+If ppp wants to reach ooo and ppp fails to reach ooo then ppp may grab lll. //presumption from grabbing object
+If ppp wants to go into the rain, ppp can grab an umbrella.
+If ppp wants to go into the rain and ppp grabs an umbrella, then ppp goes into the rain.
+If ppp fails to reach ooo then ppp must try to reach ooo.
+
+//Unused
+//Ppp's standing near ooo enables ppp's trying to reach ooo.
+//If ppp tries to reach ooo then ppp may stand near ooo. //explanation of standing
+//
+//If ppp tries to reach ooo, then ppp may fail to reach ooo.
+//ppp's trying to reach ooo enables ppp's failing to reach ooo.
+//If ppp wants to reach ooo, ppp may grab lll.
+//Ppp's grabbing lll enables Ppp's trying to reach ooo by using lll.
+//Ppp wants to reach ooo leads to ppp grabs lll.
+
+
+//Story
+
+Start story titled "Samantha can't reach".
+
+Samantha is a person.
+the handle is a door handle.
+
+Then, the story begins.
+
+//Pic 1
+Samantha tries to reach the handle.
+Samantha fails to reach the handle.
+
+//Pic 2
+//Samantha stands on a box in order to try to reach the handle.
+//Samantha fails to reach the handle.
+
+//Pic 3
+Samantha grabs an umbrella.
+
+The end.
+
+Insert question into text box: Why did Samantha grab an umbrella?
+
+
+
+
+
+

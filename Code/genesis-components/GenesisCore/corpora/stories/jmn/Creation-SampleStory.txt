@@ -1,0 +1,42 @@
+//based on a story by Eann; copy to play with
+
+/*
+Start description of "pleased".
+//xx is a person.
+//aa is a thing.
+xx's looking at completed aa leads to xx's being pleased. //'s & God doesn't look at anything completed & "completed aa" might be a problem
+The end.
+
+Start description of "creation".
+//xx is a person. //
+//aa is a thing. //
+xx's creating aa leads to aa's existing. //'s
+The end.
+*/
+
+//Start experiment.
+Start common sense knowledge. //added
+xx is a person.
+aa is a thing.
+If xx creates aa, then aa exists.
+//If xx completes aa, then xx is pleased.
+//IF aa is completed by xx, then xx is pleased.
+If xx rests, then xx does not create.
+//The end.
+
+Show first perspective.
+First perspective.
+
+Start story titled "The Story of Creation".
+God is a person.
+In the beginning, there was nothing.
+On the first day, God created light.
+On the second day, God created the Earth and the sky.
+On the third day, God created land and water.
+On the fourth day, God created night and day.
+On the fifth day, God created the birds and the fish.
+On the sixth day, God created the animals.
+On the seventh day, God looked at the universe.
+//He was pleased.
+God rested.
+The end.

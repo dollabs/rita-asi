@@ -1,0 +1,30 @@
+/* ------------------------------
+ Generated on Make a fruit salad_0921_185139 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a fruit salad".
+Intention: Make a fruit salad.
+The end.
+
+If the intention is "Make a fruit salad".
+Step: Toss the fruits into the bowl.
+Step: Add salad dressing on the bowl.
+The end.
+
+
+If the problem is "Toss the fruits into the bowl".
+Intention: Toss the fruits into the bowl.
+The end.
+
+If the intention is "Toss the fruits into the bowl".
+Method: Assume success.
+The end.
+
+
+If the problem is "Add salad dressing on the bowl".
+Intention: Add salad dressing on the bowl.
+The end.
+
+If the intention is "Add salad dressing on the bowl".
+Method: Assume success.
+The end.
+

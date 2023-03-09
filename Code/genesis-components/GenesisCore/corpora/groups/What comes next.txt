@@ -1,0 +1,46 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+
+// This switch sets the appropriate switch to true.
+Set Merge recipes switch to true.
+
+Set left panel to commentary.
+
+Set right panel to sources.
+
+Both perspectives.
+
+Alice is a person.
+Bob is a person.
+
+xx, yy, and zz are entities.
+
+vv is a variable.
+
+uu is a variable.
+
+aa is an action.
+
+
+The battery, cover, and phone are entities.
+
+
+Start description of "Action-evoking goal".
+ xx's wanting vv leads to aa.
+The end.
+
+If xx took the cover off of yy, then xx must want to expose yy's parts.
+If xx extracts yy from zz, then xx must want to separate yy from zz.
+If xx takes yy into zz, then yy is in zz.
+If xx needs his cell phone, xx must be expecting an important call.
+
+First perspective.
+
+Start story titled "Patrick's story".
+Patrick needed his cell phone.  Alas, it failed.
+He had a replacement battery because the phone failed before.
+Patrick took the phone into his workshop and took the cover off of the phone.
+The battery was leaking. He extracted the battery from the phone.
+The end.

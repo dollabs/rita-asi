@@ -1,0 +1,112 @@
+If the problem is "Make a fruit salad for me".
+Intention: Make a fruit salad for me.
+The end.
+
+
+If the intention is "Make a fruit salad for me".
+Condition: I like sugar.
+Step: Put sugar into the bowl.
+Step: Put fruits into the bowl.
+The end.
+
+
+If the intention is "Make a fruit salad for me".
+Condition: I dislike sugar.
+Step: Put fruits into the bowl.
+The end.
+
+
+If the condition is "I like sugar".
+Check: I like sugar.
+The end.
+
+If the condition is "I dislike sugar".
+Check: I dislike sugar.
+The end.
+
+If the intention is "I like sugar".
+Method: I like sugar.
+The end.
+
+If the intention is "I dislike sugar".
+Method: I dislike sugar.
+The end.
+
+If the problem is "Put fruits into the bowl".
+Intention: Insert fruits into the bowl.
+The end.
+
+If the problem is "Put sugar into the bowl".
+Intention: Insert sugar into the bowl.
+The end.
+
+If the intention is "Insert fruits into the bowl".
+Method: Insert fruits.
+The end.
+
+If the intention is "Insert sugar into the bowl".
+Method: Insert sugar.
+The end.
+
+If the method is "Insert fruits".
+Execute: Call "jdInsertFruits".
+The end.
+
+If the method is "Insert sugar".
+Execute: Call "jdInsertSugar".
+The end.
+
+If the method is "I like sugar".
+Execute: Call "jdILikeSugar".
+The end.
+
+If the method is "I dislike sugar".
+Execute: Call "jdIDoNotLikeSugar".
+The end.
+
+
+
+/*
+
+// Step 1: Put fruits into the bowl
+
+
+If the intention is "Put fruits into the bowl".
+Method: Print Put_fruits_into_the_bowl.
+The end.
+
+
+If the intention is "Make a fruit salad for me".
+Condition: I like sugar.
+Step: Put fruits into the bowl.
+Step: Pour sugar from the yellow cup into the bowl.
+The end.
+
+
+If the condition is "I like sugar".
+Method: Print ask_I_like_sugar.
+The end.
+
+// Step 1: Put fruits into the bowl
+If the problem is "Put fruits into the bowl".
+Intention: Put fruits into the bowl.
+The end.
+
+If the intention is "Put fruits into the bowl".
+Method: Print Put_fruits_into_the_bowl.
+The end.
+
+// Step 2: Pour sugar from the yellow cup into the bowl
+If the problem is "Pour sugar from the yellow cup into the bowl".
+Intention: Pour sugar from the yellow cup into the bowl.
+The end.
+
+If the intention is "Pour sugar from the yellow cup into the bowl".
+Method: Print Pour_sugar_from_the_yellow_cup_into_the_bowl.
+The end.
+
+If the method is "Print xx".
+Execute: Call "zPrint" with xx.
+The end.
+
+*/

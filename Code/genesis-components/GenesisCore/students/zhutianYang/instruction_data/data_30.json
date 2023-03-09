@@ -1,0 +1,20 @@
+{
+    "instructions": [
+        "put the dinner plate at the bottom centre of the table cloth",
+        "put the dinner fork to the left of the dinner plate",
+        "put the salad fork to the left of the dinner fork",
+        "put the dinner knife to the right of the dinner plate",
+        "put the salad knife to the right of the dinner knife",
+        "put the soup spoon to the right of the salad knife",
+        "put the water glass above the dinner knife",
+        "put the wine glass to the right of the water glass",
+        "put the wine glass to the right of the wine glass",
+        "put the coffee cup to the right of the soup spoon",
+        "put the bread plate above the dinner fork",
+        "put the butter knife on the bread plate, pointing top left",
+        "put the dessert fork above the dinner plate, pointing right",
+        "put the dessert spoon above the dessert fork, pointing left",
+        "put the napkin on the dinner plate"
+    ],
+    "video_name": "table3"
+}

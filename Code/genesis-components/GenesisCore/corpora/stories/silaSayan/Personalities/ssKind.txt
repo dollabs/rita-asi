@@ -1,0 +1,8 @@
+Start commonsense knowledge. 
+
+XX is a person.
+YY is a person.
+AA is an action.
+
+If XX's performing AA benefits YY and XX's performing AA does not benefit XX then XX may perform AA because XX is kind.
+

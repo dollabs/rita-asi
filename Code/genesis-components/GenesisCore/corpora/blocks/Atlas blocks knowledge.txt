@@ -1,0 +1,48 @@
+xx is a variable.
+yy is a variable.
+zz is a story.
+vv is a variable.
+
+//// Blocks world with two robot arms
+// General knowledge about blocks world problem solving
+
+If the problem is "Put xx on yy".
+Intention: Put xx on yy.
+The end.
+
+If the intention is "Put xx on yy".
+Condition: xx is heavy.
+Condition: Bolt is parked.
+Method: Move xx to yy.
+The end.
+
+If the method is "Move xx to yy".
+Execute: Call "jdPutOnWithStrength" with xx with yy.
+The end.
+
+If the condition is "Bolt is parked".
+Method: Park Bolt.
+The end.
+
+If the method is "Park Bolt".
+Execute: Call "jdParkFastHand".
+The end.
+
+If the condition is "xx is heavy".
+Method: Verify that xx is heavy.
+The end.
+
+If the method is "Verify that xx is heavy".
+Execute: Call "jdIsHeavy" with xx.
+The end.
+
+If the condition is "xx is tall".
+Method: xx is tall.
+The end.
+
+If the method is "xx is tall".
+Execute: Call "jdIsTall" with xx.
+The end.
+
+
+

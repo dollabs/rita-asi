@@ -1,0 +1,290 @@
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_16.json
+1   place the dinner fork to the left of the charger, with its tines facing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_16.json
+2   place the salad fork to the left of the dinner fork, with its tines facing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+3   Place the fork on the left side of the table cloth with the tines facing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+4   place the salad fork to the left of the dinner fork with the tines pointing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+5   place the soup spoon to the right of the salad knife with the bowl facing upward
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_17.json
+6   put the dinner fork between the salad fork and the dinner plate tines facing upwards
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+7   Place the dinner fork directly to the left of the dinner plate with its tines pointed upward
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+8   Place the salad fork, tines upward, to the left of the dinner fork, aligned to the centers of both forks
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+9   Place the salad knife directly to the right of and slightly above the dinner knife, with its blade toward the dinner plate
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+10   Place the soup spoon, bowl upward, directly to the right of the salad knife
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+11   Place the water glass above and slightly to the right of the dinner plate
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+12   Place the second wine glass above and slightly to the right of the soup spoon
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+13   Put the dinner fork to the left of the charger vertically, tines pointing upward
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+14   Put the salad fork to the left of the charger and left of the dinner fork, next to the dinner fork, tines pointing upward.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+15   Put the dinner knife to the right of the charger horizontally, blade pointing upward.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+16   Put the tea spoon to the right of the dinner knife horizontally, bowl pointing upward.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+17   Put the soup spoon next and to the right of the tea spoon, bowl upward, horizontally.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+18   Put the bread plate to the upper left of the charger, parallel to the coffee cup.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+19   Put the dessert fork between the bread plate and water glass vertically above the charger, tines pointing to the water glass.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_114.json
+20   Place the water glass diaganolly down from the wine glass on the right side
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_114.json
+21   Place the salad fork on the bottom left side of the table cloth with the prongs pointing upward
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_114.json
+22   Place the dinner fork on the right of the salad fork with the prongs pointing upward
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_114.json
+23   Place the dinner knife closely to the right side of the plate with the blade pointing upward
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_114.json
+24   Place the soup spoon to the right of the dinner knife with the bowl placing upward
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_236.json
+25   Place the dinner plate on the table cloth so that it touches the bottom edge while remaining centere
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_236.json
+26   Center the salad plate on the dinner plate.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_236.json
+27   Center the napkin on the salad plate.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_236.json
+28   Set the wine glass to the top right of the dinner plate so that it touches the table cloth edge.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_236.json
+29   Set the soup spoon the right of the dinner knife.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+30   Put the dessert spoon at the top of the tablecloth, horizontally, pointing left.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+31   Put the dessert spoon at the top of the tablecloth, horizontal and pointing left.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+32   Put the butter knife on the top left of the bread plate diagonally with the blade facing down.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+33   Place the water glass on the top right side of the plate, but not past the dinner knife.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+34   Place the second wine glass to the right but slightly below the first wine glass.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+35   Place the coffee cup to the right of the spoon and directly below the second wine glass.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+36   Place the bread plate above and to the left of the dinner plate, and directly above the forks.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+37   Put the fork on the left of charger with its tines pointing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+38   Set the coffee cup slightly above and to the right of soup spoon.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+39   place the salad fork to the left of the dinner fork with the prongs facing upward
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+40   place the soup spoon to the right of the salad knife with the bowl facing upward
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+41   place the dessert spoon at the top of the table cloth with the bowl horizontally facing the forks
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+42   place the dessert spoon to the right of the soup spoon with the bowl facing upward 
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+43   place the dessert spoon at the top of the table cloth with the bowl horizontally facing the forks
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+44   put the dinner fork on the left side of the dinner plate with the tines pointing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+45   put the salad fork on the left side of the dinner fork with the tines pointing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+46   put the salad knife on the right side of the dinner knife with the blade up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+47   put the soup spoon on the right side of the salad knife with the bowl up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+48   Place the coffee cup to the right of, and above the soup spoon
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_237.json
+49   Put the dinner plate on the table cloth, centered and a little toward the bottom edge of the cloth
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_237.json
+50   place the dinner fork, tines up, between the salad fork and the dinner plate
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+51   Place the dinner fork to the left of the dinner plate with the tines pointing upward.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+52   Place the salad fork to the left of the dinner fork, parallel to the dinner fork.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+53   Place the water glass above the dinner knife and slightly to the left. 
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_124.json
+54   Place the Salad Fork to the left of the Dinner Fork with the tines facing upward.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_124.json
+55   Place the salad knife to the right of the Dinner Knife with the blade facing in towards the plate.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_124.json
+56   Place the Soup Spoon to the right of the Salad Knife, with the bowl of the spoon facing upward.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_28.json
+57   put the soup spoon to the right of the salad knife, centered in height to the knife.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_131.json
+58   put the fork to the left of the charger with the tines facing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_131.json
+59   put the knife to the right of the charger with the point facing up and the blade facing the charger
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_131.json
+60   put the salad fork to the left of the dinner fork with the tines facing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_131.json
+61   put the salad knife to the left of and parallel to the dinner knife
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_131.json
+62   put the dessert spoon above the center of the charger, perpendicular to the other silverware, pointing left
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_131.json
+63   put the dessert fork above the charger and below the dessert spoon with the tines facing right
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+64   put the wine glass above the soup sppon
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_111.json
+65   put the wine glass on the table cloth, up and more on the right than the plate
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+66   Put the dinner fork on the left of the table cloth with its tine pointing upward.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+67   put the salad fork to the left of the dinner fork with its tines pointing upward.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+68   put the soup spoon to the right of the salad knife with its bowl pointing upward.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+69   put the desert spoon on the top of the table cloth with its bowl pointing leftwards 
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+70   move the dessert spoon to the right of the soup spoon with its bowl pointing upward
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+71   move the dessert spoon to the top of the table cloth and rotate 90 degrees conterclockwise
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+72   put the butter knife on top of the bread plate, pointing downward and to the left
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_188.json
+73   put the water glass to the right, and slightly below the wine glass.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_188.json
+74   put the salad fork on the far left side of the dinner plate, with the tines pointing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_188.json
+75   Put the dinner fork between the dinner plate and salad fork, with the tines pointing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+76   place the dinner fork to the left of the plate, tines pointing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+77   place the soup spoon to the right of the salad knife, bowl pointing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+78   place the desert fork above the dinner plate, tines laying horizontally pointing right
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+79   place the dessert spoon perpendicular to the dessert fork, above it with the bowl pointing left
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_249.json
+80   put the fork on the left of the charger with its tines facing upwards.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_249.json
+81   Put the fork on the left of the charger with its tines facing upwards.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+82   Put the dinner fork on the left lower side of the table cloth with the tines pointing up
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+83   place the salad fork to the left of and parallel to the dinner fork
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+84   place the salad knife to the right of and parallel to the dinner knife
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+85   place the soup spoon to the right of and parallel to the salad knife
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+86   move the dessert spoon to the left of and parallel to the soup spoon 
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+87   place the soup spoon immediately right of the salad knife
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+88   move the dessert spoon to the immediate right of the soup spoon and oriented vertically
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+89   put the butter knife on the bread plate with its blade pointed 45 degrees to the lower left
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_157.json
+90   place the salad fork to the left of the dinner fork with tines point to the top of the table cloth
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_157.json
+91   place the dessert spoon above the charger, perpendicular to the other utensils, head pointing left
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_157.json
+92   place the dessert fork directly below the dessert spoon, perpendicular to the other utensils, head pointing right
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+93   Put the salad fork on the left side on the dinner fork, their bottoms on the same level.
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_229.json
+94   Place the dinner fork, with the tines pointing up, on the left side of the charger
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_229.json
+95   Place the salad fork, with the tines pointing up, on the left side of the dinner fork 
+
+
+Number of sentences: 500.0
+Number of sentences parsed: 405.0
+Average length of sentence: 13.458
+Portion of translatable sentence: 0.81

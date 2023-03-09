@@ -1,0 +1,42 @@
+Read a Sundial
+
+Steps
+Part 1
+Pointing Your Sundial
+1
+Place your sundial on a flat, horizontal surface. A sundial will only work correctly when it’s on a perfectly flat surface, like the ground, a stand, or a table. Place yours down in a safe spot where it won’t get knocked down or moved.[1]
+2
+Make sure your sundial will be in direct sunlight all day. This may seem obvious, but it’s crucial! If you want to be able to read your sundial from dawn to dusk, keep it out in an open, unshaded area where sunlight can reach it for as long as possible.
+You may notice that some sundials show only 12-hour measurements, since they won’t work for the hours that the sun is down.
+3
+Point the gnomon north if you’re in the northern hemisphere. Use a compass or look for the North Star at night to find true north. Then, rotate the face of your sundial until the gnomon, or the pin of the sundial, is pointing straight north.[2]
+The 12:00 noon notation is aligned with the gnomon, so it will be pointing north as well.
+4
+Face the gnomon south if you’re in the southern hemisphere. If you live below the equator, you’ll need to point the gnomon of your sundial towards the south, rather than the north. You can use a compass or look for the Southern Cross constellation to find true south and adjust your sundial accordingly.[3]
+To find the Southern Cross, look for 4 stars shaped like a small kite. The farther south you are, the higher it will be in the sky.[4]
+5
+Use a vertical sundial if you’re at the equator. The angle of the sun makes it very difficult to use a traditional horizontal sundial along the equator. Instead, use a vertical sundial and follow the packaging instructions to set it up and point the gnomon correctly.[5]
+At the equator, the sun rises along the eastern horizon and moves straight up, then sets on the western horizon. If you used a horizontal sundial, the shadow would fall mostly west in the morning and mostly east in the afternoon, instead of rotating slowly.
+Part 2
+Calculating Clock Time from a Sundial
+1
+See where the shadow line falls on your sundial. Once you’ve set up your sundial, take a look at it when it’s casting a shadow in the sunlight. Note the line that the shadow’s outer edge lines up with and use it to read your sundial like a regular clock.
+You might see different line denotations based on your sundials, but it should be split into even sections by 5 minutes or 10 minutes so you can get an accurate estimate.
+2
+Find the center longitude of your time zone. Your sundial can be off by up to an hour compared to clock time depending on your longitude. To fix this, first figure out how many hours you are ahead or behind Greenwich Mean Time (GMT), which is at 0° longitude. For every hour that you’re ahead, the center of your time zone will shift by 15° east; for every hour you’re behind, the center of your time zone will be 15° west.[6]
+For example, Pacific Standard Time (PST) is 8 hours behind GMT. Multiplying 8 hours by 15° gives you 120, so PST’s center longitude is 120° West.
+You can find the current GMT time by searching online.
+3
+Find the distance between|your longitude and the center of your time zone. You can find your own longitude by looking it up online or with a GPS device. Then, calculate the distance from your longitude to the central longitude of your time zone, and note whether you’re to the east or west of it.
+For example, Seattle is at 122.3° West longitude. The central longitude of its time zone (PST) is 120° West, so Seattle is 2.3° away from it.
+4
+Add or subtract 4 minutes for every degree away from the center. Now, use your calculation to get a more accurate estimation of the time from your sundial. Multiply the difference between your longitude and the central longitude by 4. If you live west of the central longitude, add your answer to the time; if you live east, subtract it.[7]
+In Seattle, for example, you’d multiply 2.3 by 4 to get 9.2. Since Seattle is west of the time zone’s center, sundials in Seattle are 9.2 minutes behind clock time, so you need to add 9.2 minutes to make them equivalent.
+If your sundial reads that it’s 1:40 pm in Seattle, then, you’d add 9 minutes to estimate that it’s 1:49 pm.
+Why 4 minutes? Since most time zones are 15° of longitude wide, or 1 hour long, you can divide 60 minutes by 15° to see that it takes about 4 minutes for the sun to move through 1 degree.
+5
+Add 1 hour if it’s Daylight Saving Time. You’ll need to adjust your time even more during Daylight Saving Time, which runs from early spring to mid-fall. Simply add 1 hour to your sundial’s time to match it to the clocks during this period.[8]
+Search online to see when Daylight Saving Time starts and ends in your region.
+6
+Calculate the Equation of Time to find the exact time. The length of one day varies slightly on any given day, which can add up to make your sundial’s time differ from clock time by as much as 15 minutes. If you want the most exact time estimate from your sundial, adjust your measurement using an Equation of Time table. Search for one online and either add to or subtract from the time as instructed.[9]
+Most calculators require you to enter in your year and longitude or time zone. The calculator will then give you a table telling your how to adjust your sundial time throughout the year.[10]

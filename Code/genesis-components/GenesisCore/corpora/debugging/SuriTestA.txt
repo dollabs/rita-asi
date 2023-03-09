@@ -1,0 +1,18 @@
+Second perspective.
+
+xx and yy are entities.
+
+If xx loves yy then xx may kiss yy.
+
+John and Mary are entities.
+
+Start story titled "Hello world".
+
+John loves Mary.
+
+John kisses Mary.
+
+The end.
+
+
+

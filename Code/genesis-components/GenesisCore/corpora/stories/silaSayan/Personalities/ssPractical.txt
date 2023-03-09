@@ -1,0 +1,11 @@
+Start commonsense knowledge.
+
+XX is a person.
+YY is a person.
+AA is an action. 
+
+If XX does not want to harm YY and XX's performing AA harms YY and XX's performing AA benefits XX then XX may perform AA because XX is practical.
+//XX knows AA harms YY.
+
+YY may think XX is evil because XX is practical.
+ 

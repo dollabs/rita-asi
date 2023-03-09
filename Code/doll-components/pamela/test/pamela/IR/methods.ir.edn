@@ -1,0 +1,108 @@
+{plant-methods
+ {:args [],
+  :meta {:doc "The Plant API", :version "0.2.1"},
+  :methods
+  {nonprimitive
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :method-fn,
+       :method-ref {:type :symbol-ref, :names [this primitive]},
+       :args [42.44537 -71.227891]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Nonprimitive",
+     :doc "A non primitive method",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [10 50]}]}],
+   primitive
+   [{:args [arg1 arg2],
+     :betweens [],
+     :body nil,
+     :controllable false,
+     :cost 0,
+     :display-args [arg1 arg2],
+     :display-name "Primitive",
+     :doc "A primitive method",
+     :post true,
+     :pre true,
+     :primitive true,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}]},
+  :type :pclass},
+ tpn-methods
+ {:args [arg1 arg2],
+  :meta
+  {:doc "TPN with primitive and non primitive methods",
+   :version "0.2.1"},
+  :methods
+  {entry-method
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :parallel,
+       :body
+       [{:type :sequence,
+         :body
+         [{:type :method-fn,
+           :method-ref
+           {:type :pclass-arg-ref, :names [arg1 primitive]},
+           :args [42.44537 -71.227891],
+           :temporal-constraints [{:type :bounds, :value [5 20]}]}]}
+        {:type :sequence,
+         :body
+         [{:type :method-fn,
+           :method-ref
+           {:type :pclass-arg-ref, :names [arg2 nonprimitive]},
+           :args []}]}]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Entry Method",
+     :doc "Check methods",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}]},
+  :type :pclass},
+ wrapper
+ {:args [],
+  :fields
+  {go
+   {:access :private,
+    :initial
+    {:args
+     [{:type :field-ref, :names [qc1]}
+      {:type :field-ref, :names [qc2]}],
+     :pclass tpn-methods,
+     :type :pclass-ctor},
+    :observable false},
+   qc1
+   {:access :private,
+    :initial
+    {:args [],
+     :pclass plant-methods,
+     :plant-id "qc1",
+     :type :pclass-ctor},
+    :observable false},
+   qc2
+   {:access :private,
+    :initial
+    {:args [],
+     :pclass plant-methods,
+     :plant-id "qc2",
+     :type :pclass-ctor},
+    :observable false}},
+  :meta
+  {:depends {plant-methods "0.2.1", tpn-methods "0.2.1"},
+   :doc "Test methods",
+   :version "0.2.0"},
+  :type :pclass}}

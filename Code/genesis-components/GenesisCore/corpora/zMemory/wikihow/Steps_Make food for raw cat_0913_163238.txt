@@ -1,0 +1,139 @@
+/* ------------------------------
+ Generated on 0913_163238 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make food for raw cat".
+Intention: Make food for raw cat.
+The end.
+
+The end.
+
+// ------------ Step 1: Make food for raw cat
+If the problem is "Make food for raw cat".
+Intention: Make food for raw cat.
+The end.
+
+If the intention is "Make food for raw cat".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Assemble raw cat food
+If the problem is "Assemble raw cat food".
+Intention: Assemble raw cat food.
+The end.
+
+/* ------------------------------
+ Generated on 0913_163238 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Make food for raw cat".
+Step: Get your cat examined.
+Step: Are prepared to supplement.
+Step: Practice safe food handling.
+Step: Purchase the meat.
+The end.
+
+// ------------ Step 1: Get your cat examined
+If the problem is "Get your cat examined".
+Intention: Get your cat examined.
+The end.
+
+If the intention is "Get your cat examined".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Are prepared to supplement
+If the problem is "Are prepared to supplement".
+Intention: Are prepared to supplement.
+The end.
+
+If the intention is "Are prepared to supplement".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Practice safe food handling
+If the problem is "Practice safe food handling".
+Intention: Practice safe food handling.
+The end.
+
+If the intention is "Practice safe food handling".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Purchase the meat
+If the problem is "Purchase the meat".
+Intention: Purchase the meat.
+The end.
+
+If the intention is "Purchase the meat".
+Method: Assume successful.
+The end.
+
+/* ------------------------------
+ Generated on 0913_163238 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Assemble raw cat food".
+Intention: Assemble raw cat food.
+The end.
+
+If the intention is "Assemble raw cat food".
+Step: Prepare the meat.
+Step: Process the organ meats.
+Step: Whisk together a supplement slurry....
+Step: Combine the meats.
+Step: Package the food.
+Step: Serve the food to your cat.
+The end.
+
+// ------------ Step 1: Prepare the meat
+If the problem is "Prepare the meat".
+Intention: Prepare the meat.
+The end.
+
+If the intention is "Prepare the meat".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Process the organ meats
+If the problem is "Process the organ meats".
+Intention: Process the organ meats.
+The end.
+
+If the intention is "Process the organ meats".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Whisk together a supplement slurry...
+If the problem is "Whisk together a supplement slurry...".
+Intention: Whisk together a supplement slurry....
+The end.
+
+If the intention is "Whisk together a supplement slurry...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Combine the meats
+If the problem is "Combine the meats".
+Intention: Combine the meats.
+The end.
+
+If the intention is "Combine the meats".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Package the food
+If the problem is "Package the food".
+Intention: Package the food.
+The end.
+
+If the intention is "Package the food".
+Method: Assume successful.
+The end.
+
+// ------------ Step 6: Serve the food to your cat
+If the problem is "Serve the food to your cat".
+Intention: Serve the food to your cat.
+The end.
+
+If the intention is "Serve the food to your cat".
+Method: Assume successful.
+The end.
+

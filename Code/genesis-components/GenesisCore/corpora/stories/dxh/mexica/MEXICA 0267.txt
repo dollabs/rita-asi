@@ -1,0 +1,19 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0267".
+IN THE MORNING, THE HUNTER AWOKE IN THE GREAT CITY.
+THE PRINCESS WAS A PROUD NATIVE OF THE GREAT CITY.
+THE LADY AWAKENED.
+THE HUNTER WANTED THE LADY FOR HIM. SO, THE PRINCESS HAD TO DISAPPEAR!
+ANGRY, THE HUNTER ATTACKED THE PRINCESS.
+BECAUSE THE HUNTER WAS A SERIOUS THREAT, THE PRINCESS DISAPPEARED, GOING OFF TOWARD THE VOLCANO.
+
+
+
+The end.

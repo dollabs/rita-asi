@@ -1,0 +1,32 @@
+//Copy of Basic Scene to play with
+
+Start experiment.
+
+Start story titled "Basic Scene 2".
+Alice, Bobby, and Carla are persons.
+
+Carla enters the scene.
+An airplane flies away.
+Carla exits the scene.
+Then, Carla enters the scene. // Without "Then", it will ignore the repeated entrance because of Scenes.
+Carla exits the scene.
+//Then, Carla enters the scene.
+//Carla exits the scene.
+
+Alice and Bobby enter the scene.
+Bobby jumps.
+A box is on the table.
+Alice exits the scene.
+
+The box falls off the table.
+Bobby puts the box back on the table.
+
+Then, Alice enters the scene.
+The box explodes.
+Bobby exits the scene.
+Now there is a duck on the table.
+Alice exits the scene.
+
+The duck says quack.
+
+The end. 

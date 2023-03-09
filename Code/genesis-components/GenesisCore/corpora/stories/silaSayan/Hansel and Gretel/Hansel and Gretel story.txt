@@ -1,0 +1,227 @@
+Woodcutter is a name.
+Wife is a name.
+
+Hansel is a name.
+Gretel is a name.
+Koy is a name.
+
+Start story titled "Hansel and Gretel".
+
+Hansel and Gretel persons.
+
+
+The Woodcutter is The wife's husband.
+The Woodcutter is a person.
+// The wife is The Woodcutter's wife.
+The wife is a person.
+
+The Woodcutter's First Wife left The Woodcutter because The Woodcutter was poor.
+The Woodcutter is a person.
+The Woodcutter became sad.
+
+Hansel and Gretel are the Woodcutter's children.
+Hansel and Gretel is a person.
+The Woodcutter is Hansel's parent.
+The Woodcutter is Gretel's parent.
+The Woodcutter is a person.
+
+Hansel is The wife's stepchild.
+Gretel is The wife's stepchild.
+Hansel and Gretel are persons.
+The wife is Hansel's stepparent.
+The wife is Gretel's stepparent.
+The wife is a person.
+
+Hansel is The Woodcutter's child.
+Hansel is a person.
+Hansel is The wife's stepchild.
+Hansel is a person.
+
+Gretel is The Woodcutter's child.
+Gretel is a person.
+Gretel is The wife's stepchild.
+Gretel is a person.
+
+The Woodcutter is Hansel's parent.
+The Woodcutter is a person.
+The Woodcutter is Gretel's parent. 
+The Woodcutter is a person.
+
+The wife is Hansel's stepparent.
+The wife is a person.
+The wife is Gretel's stepparent. 
+The wife is a person.
+
+The wife is The wife's baby's parent.
+The wife is a person.
+The Woodcutter is The wife's baby's parent.
+The Woodcutter is a person.
+
+
+Koy is a place.
+The Woodcutter, The wife, Hansel and Gretel live in Koy.
+
+The Woodcutter is a person.
+The Woodcutter is hungry and poor.
+The wife is a person.
+The wife is hungry and poor.
+//The Woodcutter and The wife are poor and hungry.
+
+The Woodcutter is a person.
+The Woodcutter works for long hours.
+The Woodcutter doesn't have enough food for The Woodcutter's whole family.
+The wife is a person.
+The wife becomes pregnant.
+The wife needs food for The wife's baby.
+The Woodcutter wants to give food to Hansel.
+The Woodcutter wants to give food to Gretel.
+The wife worries because The wife doesn't have enough food for The wife's baby.
+The wife becomes afraid because The wife doesn't want to starve.
+The wife is a person.
+The wife pressures The Woodcutter to provide more food.
+The Woodcutter becomes ashamed because The Woodcutter is a bad provider.
+The Woodcutter becomes afraid because The Woodcutter doesn't want The wife to leave The Woodcutter.
+
+The wife doesn't want to share food because The wife wants to give food to The wife's baby.
+The wife persuades The Woodcutter to abandon the children in the forest.
+
+Hansel learns about The Woodcutter's plan.
+Hansel makes a plan in order to survive.
+Hansel fills Hansel's pockets with pebbles in order to mark the route back to Koy.
+
+In order to lead the children into the forest, The Woodcutter lies.
+The Woodcutter wants the children to survive.
+The Woodcutter gives advice to Gretel to help the children.
+
+
+
+Hansel drops pebbles in order to remember the path back to Koy.
+Then, The Woodcutter sneaks away in order to abandon the children.
+Gretel becomes afraid because The Woodcutter abandoned Gretel.  
+Hansel reassures Gretel.
+The children safely return to Koy.
+
+The wife and The Woodcutter discover The children in the house.
+The wife and The Woodcutter become shocked.
+The Woodcutter becomes relieved because The children are safe.
+The wife becomes relieved because The children are safe.
+Then, The wife becomes angry because The wife must share food with The children.
+ 
+ 
+ 
+The wife doesn't want to harm The children.
+The wife wants to ensure The wife's baby's safety.
+The wife cries because The wife doesn't know the solution to The wife's problem.
+The Woodcutter doesn't suggest solutions.
+The wife feels lonely because The Woodcutter doesn't help The wife.
+The wife reprimands The Woodcutter because The wife becomes angry.
+
+The Woodcutter doesn't want to harm The children.
+The Woodcutter doesn't want to disobey The wife because The Woodcutter is afraid. 
+The Woodcutter becomes ashamed.
+The Woodcutter cries because The Woodcutter doesn't know the solution to The Woodcutter's problem.
+
+The wife wants to get rid of The children.
+The wife locks The children in a room.
+The wife starves The children.
+
+The wife admits The wife's fault.   
+The Woodcutter becomes angry because The wife mistreated The children.
+The Woodcutter wants to help The children.
+The Woodcutter frees The children.
+The Wooodcutter plans to leave The children in the forest because The Woodcutter believes the forest is safe.
+The Woodcutter leads The children to the forest.
+The Woodcutter tells the truth to The children about The Woodcutter's plan.
+The Woodcutter abandons The children in the forest.
+The children become angry with The Woodcutter.
+
+
+
+
+
+The children become lost in the forest.
+The children become cold and afraid.
+
+
+
+// For some reason, these lines slow things up terribly
+// Hansel and Gretel cry.
+// In order to help Gretel, Hansel stops crying.
+
+
+
+The witch's cottage is secluded because Humans exiled The witch.
+The witch is a person.
+The witch had a different appearance and different language.
+// The witch is a person.
+The witch didn't want to harm Humans.
+// The witch is a person.
+The witch wanted to help Humans.
+In order to help Humans, The witch brewed healthy potions.
+Humans didn't trust The witch because Humans are prejudiced.
+Humans attacked The witch because Humans hated The witch.
+
+
+
+In order to harm The witch, Humans insulted The witch and beat The witch and burned The witch's home.
+The witch became confused and sad and afraid.
+The witch escaped into the forest.
+The witch wanted friends because The witch became lonely.
+In order to attract friends, The witch built a candy cottage.
+Humans found The witch's candy cottage.
+Humans stole from The witch and insulted The witch.
+The witch became angry.
+Anger supernaturally transformed The witch.
+The witch became a cannibal. 
+In order to survive, The witch needs to eat Humans. 
+
+
+
+The children are starving.
+The children find The witch's cottage in the forest.
+The children eat The witch's candy.
+The witch wants to eat The children because The witch is hungry.
+The witch tricks The children.
+//The witch traps The children in a cage.
+Hansel is a person.
+Gretel is a person.
+The witch traps Hansel and Gretel in a cage.
+The children become afraid.
+The children beg The witch for freedom.
+The witch doesn't trust The children because The witch doesn't trust Humans.
+The witch believes The children are evil.
+The witch doesn't free The children.
+
+
+
+The witch wants to cook The children in the oven.
+Gretel wants to murder The witch because Gretel wants to survive.
+Gretel makes a plan.
+Gretel escapes from the cage.
+Gretel burns The witch in order to murder The witch.
+In order to burn The witch, Gretel pushes The witch into the hot oven.
+The witch screams.
+
+
+
+The children escape from The witch's cottage.
+The children find The Woodcutter in the forest.
+The Woodcutter becomes happy because The children are alive.
+The children and The Woodcutter return home.
+ 
+The wife becomes remorseful because The wife harmed The children.
+The wife becomes happy because The children are alive.
+The wife shares food with The children.
+
+
+
+The end. 
+ 
+
+
+
+
+
+
+
+

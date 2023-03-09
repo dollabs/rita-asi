@@ -1,0 +1,13 @@
+Popup hypotheticals popup.
+
+Set all switches to defaults.
+
+Set right panel to Results.
+
+Set Use first explanation only switch to true.
+
+Set Show all story elements switch to true.
+
+Insert file dxh-phw.
+
+

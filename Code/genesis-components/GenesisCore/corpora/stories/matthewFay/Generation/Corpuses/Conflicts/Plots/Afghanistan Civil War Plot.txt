@@ -1,0 +1,40 @@
+Najibullah is a person.
+Afghanistan is a country.
+The USSR is a country.
+The Mujahideen were a country.
+The Mujahideen were muslim.
+
+Najibullah controlled the cities of Afghanistan.
+The Mujahideen controlled the countryside of Afghanistan.
+
+Najibullah liked The USSR.
+The USSR liked Najibullah.
+The USSR liked Najibullah because Najibullah controlled the cities of Afghanistan.
+The USSR liked Najibullah because Najibullah liked The USSR.
+The USSR gave weapons to Najibullah.
+The USSR gave weapons to Najibullah because The USSR supported Najibullah.
+
+The Mujahideen were confident.
+The Mujahideen disliked Najibullah.
+The Mujahideen were confident because the Mujahideen controlled the countryside of Afghanistan.
+The Mujahideen opposed Najibullah.
+The Mujahideen opposed Najibullah because Najibullah liked The USSR.
+The Mujahideen opposed Najibullah because The USSR supported Najibullah.
+The Mujahideen opposed Najibullah because the Mujahideen were confident.
+
+The Mujahideen attacked Najibullah.
+The Mujahideen attacked Najibullah because the Mujahideen opposed Najibullah.
+Najibullah attacked the Majahideen.
+Najibullah attacked the Mujahideen because the Mujahideen attacked Najibullah.
+
+The USSR collapsed.
+The USSR stoped giving weapons to Najibullah.
+
+The USSR stopped giving weapons to Najibullah because The USSR collapsed.
+
+The Mujahideen was stronger than Najibullah.
+The Mujahideen was stronger than Najibullah because The USSR stopped giving weapons to Najibullah.
+
+The Mujahideen defeated Najibullah.
+
+The end.

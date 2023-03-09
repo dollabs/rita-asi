@@ -1,0 +1,28 @@
+Start experiment.
+Insert file General commonsense knowledge.
+xx, yy, and zz are persons.
+aa is a thing.
+If xx fights yy and yy falls, then xx wins fight with yy.
+
+Start description of "Underdog Victory".
+xx and yy are persons.
+xx is small.
+yy is large.
+// xx's fighting yy leads to xx's winning.
+xx fights yy.
+xx wins a fight with yy.
+The end.
+
+Start description of "Faith".
+xx and yy are persons.
+xx's trusting in yy leads to xx's winning.
+The end.
+
+Start story titled "David and Goliath".
+David, Goliath, and God are persons.
+David is small.
+Goliath is large.
+David fights Goliath.
+Goliath falls.
+Because David trusts in God, David wins the fight with Goliath.
+The end.

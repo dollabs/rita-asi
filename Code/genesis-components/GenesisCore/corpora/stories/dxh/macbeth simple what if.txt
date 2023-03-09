@@ -1,0 +1,80 @@
+Start experiment.
+
+Actuate summarizer.
+
+Show both perspectives.
+Both perspectives.
+// COMMON SENSE INFORMATION
+*/
+
+xx, yy, and zz are entities.
+
+If xx is yy's spouse, then yy is xx's spouse.
+If xx is yy's spouse, then xx is yy's friend.
+If xx is yy's enemy, and zz is yy's enemy, then xx is zz's friend.
+
+If xx harms yy, and yy is zz's friend, then xx harms zz.
+
+xx may kill yy because yy harms xx.
+xx kills yy presumably because xx is deranged.
+
+
+
+If xx kills yy, then yy becomes dead.
+If xx kills yy, then xx harms yy.
+
+If yy becomes dead, yy cannot become happy.
+
+
+// CONCEPT PATTERS
+Start description of "Revenge".
+xx is an entity.
+yy is a entity.
+xx's harming yy leads to yy's harming xx.
+The end.
+
+Start description of "Insane violence".
+xx is an entity.
+someone is a entity.
+xx's being deranged leads to xx's killing someone.
+The end.
+
+
+
+// READ STORY FROM FIRST PERSPECTIVE
+
+
+First perspective.
+Start story titled "Macbeth/revenge".
+
+Second perspective.
+Start story titled "Macbeth hypothetical".
+
+First perspective.
+
+Note that Macbeth is a name.
+Note that Lady Macbeth is a name.
+Note that Macduff is a name.
+Note that Lady Macduff is a name.
+Note that Duncan is a name.
+Note that Cawdor is a name.
+
+
+Macbeth, Lady Macbeth, Macduff, Lady Macduff, Duncan, and Cawdor are persons.
+
+Macbeth is Lady Macbeth's spouse.
+Macduff is Lady Macduff's spouse.
+
+Duncan is an enemy of Cawdor.
+Macduff is an enemy of Cawdor.
+
+Duncan executes Cawdor because Cawdor is traitorous.
+Macbeth kills Duncan.
+Macduff kills Macbeth.
+
+The end.
+
+Insert question into text box: What would happen if Duncan is not Cawdor's enemy?
+
+
+

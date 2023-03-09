@@ -1,0 +1,20 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0260".
+THE HUNTER AWAKENED.
+THE PRINCESS WOKE UP WHILE THE SONGS OF THE BIRDS COVERED THE SKY.
+IN THE MORNING, THE ARTIST AWOKE IN THE GREAT CITY.
+THE PRINCESS GOT OBSESSED WITH THE ARTIST AND THEREFORE HATED THE HUNTER.
+AFTER LISTENING TO THE PRINCESS' ARGUMENTS, THE CONGREGATION OF HIGH PRIESTS DECIDED TO JAIL THE HUNTER.
+THE HUNTER WAS ABLE TO FREE HIMSELF.
+THE END.
+
+
+
+The end.

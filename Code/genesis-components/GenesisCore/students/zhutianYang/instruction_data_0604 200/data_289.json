@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 10:14:41+08:00", 
+    "instructions": [
+        "Place the plate in the center of the Charger", 
+        "Place the napkin on the center of the plate", 
+        "Place the Dinner Fork immediately left of the Charger", 
+        "Place the Salad Fork immediately to the left of the Dinner Fork", 
+        "Place the Dinner Knife immediately to the right of the Charger", 
+        "Place the Tea Spoon immediately to the right of the Dinner Knife", 
+        "Place the Soup Spoon immediately to the right of the Tea Spoon", 
+        "Place the Water Glass to the right of the Charger and above the Dinner Knife", 
+        "Place the Wine Glass immediately to the right of the Water Glass", 
+        "Place the second Wine Glass between the 1st Wine Glass and the Tea Spoon", 
+        "Place the Coffee Cup to the right of the 2nd Wine Glass", 
+        "Place the Bread Plate to the left of the Charger and directly above the forks.", 
+        "Place the Butter Knife in the center of the Bread Plate with handle pointing toward the Water Glass", 
+        "Place the Dessert Fork above the Charger with the handle pointing toward the Bread Plate", 
+        "Place the Dessert Spoon below the Dessert Fork with the handle pointing toward the Water Glass"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table5"
+}

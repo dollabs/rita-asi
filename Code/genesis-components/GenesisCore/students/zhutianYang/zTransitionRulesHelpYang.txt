@@ -1,0 +1,16 @@
+If xx feels emotional, then xx has sadness's contact.
+If xx has to leave yy, then xx doesn't have yy's contact.
+If xx invites yy to watch a documentary, then yy has documentary's contact.
+If xx takes photos with yy, then xx has photo's contact.
+If xx says goodbye to zz, then xx doesn't have zz's contact.
+If xx gives a talk to yy, then xx has presentation's contact.
+If xx rushed to the airport, then xx has airport's contact.
+
+If xx presents her works at group meeting, then xx has presentation's contact.
+If xx feels sad, then xx has sadness's contact.
+if xx watches a documentary with yy, then yy has documentary's contact.
+If xx does not forget to take photos with yy, then xx has photo's contact.
+If xx talks to yy, then xx has yy's contact.
+If xx chats with yy, then xx has yy's contact.
+If xx finishes her drawings, then xx has drawing's contact.
+If xx drives to the airport, then xx has airport's contact.

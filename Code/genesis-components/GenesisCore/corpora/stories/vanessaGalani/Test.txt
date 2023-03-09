@@ -1,0 +1,244 @@
+Start experiment.
+
+Insert file General reflective knowledge.
+
+Show both perspectives.
+
+Both perspectives.
+
+Insert file General commonsense knowledge.
+
+Insert file Relations knowledge.
+
+If xx is an enemy of zz and yy is an enemy of zz then xx is a friend of yy.
+
+If xx talks to zz, then zz may predict that xx will become king.
+
+Insert file General reflective knowledge.
+
+Insert file Macbeth commonsense.
+
+
+"Eastern" is a kind of personality trait.
+
+"Machiavellian" is a kind of personality trait.
+
+First perspective.
+
+
+Start story titled "fragment 1".
+
+I am eastern.
+ 
+I am machiavellian.
+
+
+Insert file Macbeth preface.
+
+Macbeth is a thane and Macduff is a thane.
+
+Macbeth is a person.
+
+Macduff is a person.
+
+Lady Macbeth is evil and greedy.
+
+Duncan is the king, and Macbeth is Duncan's successor.
+
+Duncan is an enemy of Cawdor.
+
+Macduff is an enemy of Cawdor.
+
+Duncan is Macduff's friend.
+
+Macbeth defeated Cawdor.
+
+Duncan becomes happy because Macbeth defeated Cawdor.
+
+The witches danced and had visions.
+
+Macbeth talks with the witches.
+
+The end.
+
+
+
+Start story titled "fragment 2".
+
+Duncan executes Cawdor because Macbeth is Lady Macbeth's relation.
+
+The witches predicted that Macbeth will become king.
+
+The witches astonish Macbeth.
+
+Duncan executes Cawdor.
+
+Macbeth becomes Thane of Cawdor.
+
+Duncan rewarded Macbeth because Duncan became happy.
+
+// Lady Macbeth persuaded Macbeth to want to become the king because Lady Macbeth is greedy.
+
+Macbeth loves Lady Macbeth.
+
+The end.
+
+
+
+
+
+Start story titled "fragment 3".
+
+Insert file Hamlet preface.
+
+King_Hamlet, who was Gertrude's husband, was the king, and Claudius was King_Hamlet's successor.
+
+Ophelia loves Hamlet.
+
+Claudius wants to become the king.
+
+Claudius killed King_Hamlet.
+
+Claudius marries Gertrude.
+
+Hamlet kills Polonius.
+
+Ophelia becomes insane.
+
+Ophelia kills herself.
+
+Gertrude drinks poison.
+
+Gertrude becomes dead.
+
+The end.
+
+
+
+
+Start story titled "fragment 4".
+
+Macbeth wants to please lady Macbeth.
+
+Macbeth wants to become king because Lady Macbeth persuaded Macbeth to want to become the king.
+
+// Lady Macbeth persuaded Macbeth to want to become the king.
+
+Macbeth and Lady Macbeth plan to murder the king.
+
+Macbeth invites Duncan to dinner.
+
+Duncan complements Macbeth.
+
+Duncan goes to bed.
+
+Duncan's guards become drunk and sleep.
+
+In order to murder Duncan, Macbeth murders the guards and Macbeth stabs Duncan.
+
+
+// Macbeth murders Duncan.
+
+// Macbeth murders guards.
+
+
+
+Macbeth becomes king.
+
+Malcolm and Donalbain become afraid.
+
+Malcolm and Donalbain flee.
+
+Macbeth's murdering Duncan leads to Macduff's fleeing to England.
+
+In order to flee to England, Macduff rides to the coast and Macduff sails on a ship.
+
+Then, Macduff's fleeing to England leads to Macbeth's murdering Lady Macduff.
+
+// Then, Macbeth murders Lady Macduff.
+
+Macbeth hallucinates at a dinner.
+
+Lady Macbeth says he hallucinates often.
+
+Everyone leaves because Lady Macbeth tells everyone to leave.
+
+Macbeth's murdering Duncan leads to Lady Macbeth's becoming distraught.
+
+The end.
+
+
+
+
+
+
+Start story titled "fragment 5".
+
+Hamlet kills Laertes.
+
+Hamlet kills Claudius.
+
+Laertes kills Hamlet.
+
+King_Hamlet becomes dead.
+
+Hamlet believes Claudius killed King_Hamlet.
+
+Hamlet dislikes Claudius.
+
+Polonius goes behind a curtain.
+
+Hamlet believes Claudius is behind the curtain.
+
+Hamlet stabs the person behind the curtain.
+
+Polonius becomes dead.
+
+Laertes fought with Hamlet.
+
+Laertes stabs Hamlet.
+
+Hamlet stabs Laertes.
+
+Laertes becomes dead.
+
+Gertrude drinks poison.
+
+Laertes kills Hamlet.
+
+// Hamlet becomes dead.
+
+The end.
+
+
+
+
+
+
+
+Start story titled "Fragment 6".
+
+Lady Macbeth has bad dreams.
+
+Lady Macbeth thinks she has blood on her hands.
+
+Lady Macbeth kills herself.
+
+// Witches predicted that Birnam Wood would go to Dunsinane.
+
+Birham Wood is a forest.
+
+Burnham Wood goes to Dunsinane.
+
+Macduff's army attacks Dunsinane.
+
+Macduff curses Macbeth.
+
+Macbeth refuses to surrender.
+
+Macduff kills Macbeth.
+
+
+The end.
+
+

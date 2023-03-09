@@ -1,0 +1,18 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0022".
+BECAUSE THE PRIEST WAS GREEDY, THE PRIEST ABDUCTED THE HUNTER AND TOOK HIM TO THE FOREST.
+THE HUNTER WAS ABLE TO GET LOOSE.
+IN ORDER TO SAVE HIS LIFE, HE DECIDED TO HIDE.
+THE HUNTER DECIDED TO GO TO THE TEXCOCO LAKE.
+THE END.
+
+
+
+The end.

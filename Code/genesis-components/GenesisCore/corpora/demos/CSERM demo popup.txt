@@ -1,0 +1,12 @@
+<h1>What you will see</h1>
+
+<p>Genesis will read a story describing an instance of high-school bullying. A human reader is likely to see that Josh becomes angry due to Matt’s bullying, Josh embarrasses Matt as an attempt to get back at him, and this retaliation causes Matt to stop bullying Josh. However, the supplied ruleset’s language does not match the language used in the story. The ruleset discusses general concepts such as "annoy," "hate," and "harm," whereas the story never uses these terms explicitly. Instead, the story discusses concepts such as "bully," "loathe," "embarrass," and "bother." WordNet helps Genesis in matching some of these concepts, but the information it provides is not complete enough to allow Genesis to correctly apply all relevant rules to the story’s events. CSERM helps bridge this gap.</p>
+
+
+<p>CSERM works by consulting ConceptNet for similarity scores when applying rules, allowing the rules to be applied in a more commonsense manner. CSERM nearly doubles the number of events in the elaboration graph because Genesis is now able to apply the rules to the story more completely. The number of casual connections identified increases from three to eight. With CSERM, Genesis is able to connect Matt’s initial bullying of Josh with Josh’s loathing of Matt, the loathing with Josh striking back, and the retaliation with Matt ending his bullying activity. Because these additional causal connections were made, the rest of Genesis’s features can thrive off the more complete reasoning substrate.</p>
+
+<p>The ConceptNet Knowledge pane in the sources tab provides human-readable justifications behind ConceptNet-assisted connections.</p>
+
+<h1>Reference</h1>
+
+The example is from the MEng thesis of Bryan Williams.

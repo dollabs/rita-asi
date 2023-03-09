@@ -1,0 +1,13 @@
+Start experiment.
+// https://www.realsimple.com/holidays-entertaining/entertaining/how-to-set-a-table
+Start story titled "Set Table 3".
+
+Lay the placemat on the table.
+Put the dinner plate in the middle of the placemat.
+Lay the napkin to the left of the plate.
+Place the fork on the napkin.
+To the right of the plate, place the knife closest to the plate, blade pointing in.
+Place the spoon to the right of the knife.
+Place the water glass slightly above the plate, in between the plate and the utensils, about where 1 p.m. would be on a clock face.
+
+The end.

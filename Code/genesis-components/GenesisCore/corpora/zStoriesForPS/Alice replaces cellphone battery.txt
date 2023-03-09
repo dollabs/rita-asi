@@ -1,0 +1,22 @@
+Start experiment.
+
+Insert file zTransitionRulesByCategory.
+
+Alice is a person.
+Phone is a thing.
+Washing machine is a thing.
+Cover is a thing.
+Battery and replacement battery are things
+
+Start story titled "Alice".
+Alice forgot to take her phone from her pants.
+Then, she put her pants in the washing machine.
+The phone got wet.
+Alice quickly removed the cover from the phone and she collected the old battery from the phone.
+Then, she purchased the replacement battery online.
+The replacement battery arrived and she inserted it into the phone.
+She puts the cover on the phone.
+She recharged her phone for 4 hours.
+Bravo!
+The phone started working again!
+The end.

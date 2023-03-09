@@ -1,0 +1,371 @@
+/* ------------------------------
+ Generated on Draw a speaker_0802_112718 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Draw a speaker".
+Intention: Draw a speaker.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: He doesn't stand.
+Verify: He is not seated.
+Verify: He is not giving an argument.
+Verify: The contents are not persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: he stands.
+Verify: He is not seated.
+Verify: He is not giving an argument.
+Verify: The contents are not persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: make him lean with his head towards the people forward.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: He doesn't stand.
+Verify: he is seated.
+Verify: He is not giving an argument.
+Verify: The contents are not persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: let him appear to rise with his head forward soon.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: he stands.
+Verify: he is seated.
+Verify: He is not giving an argument.
+Verify: The contents are not persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: let him appear to rise with his head forward soon.
+Step: make him lean with his head towards the people forward.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: He doesn't stand.
+Verify: He is not seated.
+Verify: he is giving an argument.
+Verify: The contents are not persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: turn his face towards the people.
+Step: make his mouth open slightly.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: he stands.
+Verify: He is not seated.
+Verify: he is giving an argument.
+Verify: The contents are not persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: turn his face towards the people.
+Step: make his mouth open slightly.
+Step: make him lean with his head towards the people forward.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: He doesn't stand.
+Verify: he is seated.
+Verify: he is giving an argument.
+Verify: The contents are not persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: turn his face towards the people.
+Step: make his mouth open slightly.
+Step: let him appear to rise with his head forward soon.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: he stands.
+Verify: he is seated.
+Verify: he is giving an argument.
+Verify: The contents are not persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: turn his face towards the people.
+Step: make his mouth open slightly.
+Step: let him appear to rise with his head forward soon.
+Step: make him lean with his head towards the people forward.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: He doesn't stand.
+Verify: He is not seated.
+Verify: He is not giving an argument.
+Verify: the contents are persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: let his right hand hold his left finger.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: he stands.
+Verify: He is not seated.
+Verify: He is not giving an argument.
+Verify: the contents are persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: let his right hand hold his left finger.
+Step: make him lean with his head towards the people forward.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: He doesn't stand.
+Verify: he is seated.
+Verify: He is not giving an argument.
+Verify: the contents are persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: let his right hand hold his left finger.
+Step: let him appear to rise with his head forward soon.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: he stands.
+Verify: he is seated.
+Verify: He is not giving an argument.
+Verify: the contents are persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: let his right hand hold his left finger.
+Step: let him appear to rise with his head forward soon.
+Step: make him lean with his head towards the people forward.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: He doesn't stand.
+Verify: He is not seated.
+Verify: he is giving an argument.
+Verify: the contents are persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: let his right hand hold his left finger.
+Step: turn his face towards the people.
+Step: make his mouth open slightly.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: he stands.
+Verify: He is not seated.
+Verify: he is giving an argument.
+Verify: the contents are persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: let his right hand hold his left finger.
+Step: turn his face towards the people.
+Step: make his mouth open slightly.
+Step: make him lean with his head towards the people forward.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: He doesn't stand.
+Verify: he is seated.
+Verify: he is giving an argument.
+Verify: the contents are persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: let his right hand hold his left finger.
+Step: turn his face towards the people.
+Step: make his mouth open slightly.
+Step: let him appear to rise with his head forward soon.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Draw a speaker".
+Verify: he stands.
+Verify: he is seated.
+Verify: he is giving an argument.
+Verify: the contents are persuasive.
+Step: consider the speaker's contents.
+Step: adapt the speaker's action to itself.
+Step: let his right hand hold his left finger.
+Step: turn his face towards the people.
+Step: make his mouth open slightly.
+Step: let him appear to rise with his head forward soon.
+Step: make him lean with his head towards the people forward.
+Step: Make the audience look attentive.
+Step: Make the audience look silent.
+Step: Make old men who were astonished by the contents.
+Step: Make wrinkles on men's foreheads.
+The end.
+
+If the problem is "consider the speaker's contents".
+Intention: consider the speaker's contents.
+The end.
+
+If the intention is "consider the speaker's contents".
+Method: Assume success.
+The end.
+
+If the problem is "adapt the speaker's action to itself".
+Intention: adapt the speaker's action to itself.
+The end.
+
+If the intention is "adapt the speaker's action to itself".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Draw a speaker_0802_112718 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "let his right hand hold his left finger".
+Intention: let his right hand hold his left finger.
+The end.
+
+If the intention is "let his right hand hold his left finger".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Draw a speaker_0802_112718 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "turn his face towards the people".
+Intention: turn his face towards the people.
+The end.
+
+If the intention is "turn his face towards the people".
+Method: Assume success.
+The end.
+
+If the problem is "make his mouth open slightly".
+Intention: make his mouth open slightly.
+The end.
+
+If the intention is "make his mouth open slightly".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Draw a speaker_0802_112718 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "let him appear to rise with his head forward soon".
+Intention: let him appear to rise with his head forward soon.
+The end.
+
+If the intention is "let him appear to rise with his head forward soon".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Draw a speaker_0802_112718 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "make him lean with his head towards the people forward".
+Intention: make him lean with his head towards the people forward.
+The end.
+
+If the intention is "make him lean with his head towards the people forward".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Draw a speaker_0802_112718 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Make the audience look attentive".
+Intention: Make the audience look attentive.
+The end.
+
+If the intention is "Make the audience look attentive".
+Method: Assume success.
+The end.
+
+If the problem is "Make the audience look silent".
+Intention: Make the audience look silent.
+The end.
+
+If the intention is "Make the audience look silent".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Draw a speaker_0802_112718 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Make old men who were astonished by the contents".
+Intention: Make old men who were astonished by the contents.
+The end.
+
+If the intention is "Make old men who were astonished by the contents".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Draw a speaker_0802_112718 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Make wrinkles on men's foreheads".
+Intention: Make wrinkles on men's foreheads.
+The end.
+
+If the intention is "Make wrinkles on men's foreheads".
+Method: Assume success.
+The end.
+

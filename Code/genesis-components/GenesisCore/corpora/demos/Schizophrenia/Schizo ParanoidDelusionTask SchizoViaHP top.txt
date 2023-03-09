@@ -1,0 +1,27 @@
+//Popup
+Popup Schizo ParanoidDelusionTask SchizoViaHP popup.
+
+//Setup
+Start experiment.
+Set all switches to defaults.
+Set Personality switch to false.
+Set Concept switch to false.
+//Set Show all story elements switch to true.
+Set bottom panel to elaboration graph.
+
+//Content
+Insert file ParanoidDelusionTask SchizoViaHP demo.
+Insert question into text box: Why does John stare at me?
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "War for Western Europe".
+
+Spain is a name.
+Spain is a country.
+
+Portugal is a name.
+Portugal is a country.
+
+Italy is a name.
+Italy is a country.
+
+Spain is Portugal's colony.
+Portugal wants to tax Spain.
+Portugal taxes Spain.
+Spain breaks away from Portugal.
+Portugal invades Spain.
+Portugal attacks Spain.
+Spain attacks Portugal's troops.
+Italy likes Spain.
+Italy wants to help Spain.
+Spain likes Italy.
+Italy gives weapons to Spain.
+Italy's government collapses.
+Then, Spain attacks Portugal's troops.
+Spain defeats Portugal.
+Spain becomes independent.
+
+
+The end.

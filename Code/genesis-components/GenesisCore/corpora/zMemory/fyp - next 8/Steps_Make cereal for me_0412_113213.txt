@@ -1,0 +1,76 @@
+/* ------------------------------
+ Generated on Make cereal for me_0412_113213 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make cereal for me".
+Intention: Make cereal for me.
+The end.
+
+If the intention is "Make cereal for me".
+Step: Put crackers in red box in bowl.
+Step: Put milk in bowl.
+Step: Add nuts in milk.
+Step: Add cereals in milk.
+Step: Add crackers in milk.
+Step: Add chocolate milk in nuts.
+The end.
+
+If the problem is "Put crackers in red box in bowl".
+Intention: Put crackers in red box in bowl.
+The end.
+
+If the intention is "Put crackers in red box in bowl".
+Step: Crackers are in bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make cereal for me_0412_113213 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Put milk in bowl".
+Intention: Put milk in bowl.
+The end.
+
+If the intention is "Put milk in bowl".
+Step: Milk is in the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make cereal for me_0412_113213 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Add nuts in milk".
+Intention: Add nuts in milk.
+The end.
+
+If the intention is "Add nuts in milk".
+Step: Nuts are in milk.
+The end.
+
+If the problem is "Add cereals in milk".
+Intention: Add cereals in milk.
+The end.
+
+If the intention is "Add cereals in milk".
+Step: Cereals are in milk.
+The end.
+
+If the problem is "Add crackers in milk".
+Intention: Add crackers in milk.
+The end.
+
+If the intention is "Add crackers in milk".
+Step: Crackers are in milk.
+The end.
+
+/* ------------------------------
+ Generated on Make cereal for me_0412_113213 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Add chocolate milk in nuts".
+Intention: Add chocolate milk in nuts.
+The end.
+
+If the intention is "Add chocolate milk in nuts".
+Step: Chocolate milk is in nuts.
+The end.
+

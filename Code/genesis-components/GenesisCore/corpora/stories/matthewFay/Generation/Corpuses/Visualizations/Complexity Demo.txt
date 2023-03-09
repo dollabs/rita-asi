@@ -1,0 +1,45 @@
+Insert file Read All Comedies.
+Insert file Read All Conflicts.
+Insert file Read All Fairy Tales.
+Insert file Simple Macbeth.
+Insert file Simple Hamlet.
+
+Clear story memory.
+
+Start Experiment.
+
+Start Story Titled, "Complexity Demo".
+
+Gremio is a name.
+Gremio is a character.
+Gremio is similar to Hero.
+
+//Sansa is a name.
+//Sansa is a character.
+//Sansa is similar to Lucentio.
+//Sansa woos Gremio.
+
+Hodor is a name.
+Hodor is a character.
+Hodor is similar to Wolf.
+Hodor is similar to Viola.
+Hodor wants to eat Gremio.
+Hodor loves Aria.
+
+Aria is a name.
+Aria is a character.
+Aria is similar to Orsino.
+
+Bran is a name.
+Bran is a character.
+Bran is similar to Beowulf.
+
+//MacDuck is a name.
+//MacDuck is a character.
+//MacDuck is similar to Macduff. 
+//MacDuck is Gremio's friend.
+
+Simulate Characters.
+Weave character plots.
+
+The end.

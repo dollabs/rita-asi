@@ -1,0 +1,15 @@
+Start experiment.
+
+Set Deploy novice first switch to false.
+
+Set Real robot button to true.
+
+Set self aware button to true.
+
+Set left panel to Commentary.
+
+Read knowledge in ZZ Basic blocks knowledge.
+
+Read knowledge in Steps_Make an old fashioned_1028_233039.
+
+Insert into text box: Make an old fashioned.

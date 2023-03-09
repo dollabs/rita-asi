@@ -1,0 +1,77 @@
+Start experiment.
+
+xx, yy, and zz are persons.
+
+Peter, Paul, and Mary are persons.
+
+Start description of "Revenge with conclusion".
+xx's harming yy leads to yy's harming xx.
+// A conclusion; note use of "Consequently"
+Consequently, yy becomes evil.
+The end.
+
+Start story titled "Basic concept test--Revenge with evil consequence".
+
+Paul harmed Peter because Paul insulted Peter.  
+
+Mary became upset because Paul harmed Peter.
+
+Peter became upset because Mary became upset.
+
+Peter harmed Paul because Peter became upset.
+
+The end.
+
+Pause.
+
+Start description of "Not equal test".
+xx talks to yy.
+xx must not equal yy.
+The end.
+
+Start story titled "Agent must mot be same as object".
+
+Peter talks to Peter.
+
+Paul talks to Mary.
+
+The end.
+
+Pause.
+
+Start experiment.
+
+Start description of "Revenge with option".
+xx's harming yy leads to yy's harming xx.
+// An optional element; note use of "sometimes"
+Sometimes, yy is mean.
+The end.
+
+Start story titled "Optional element present--mean".
+
+Paul harmed Peter because Paul insulted Peter.  
+
+Mary became upset because Paul harmed Peter.
+
+Peter became upset because Mary became upset.
+
+Peter harmed Paul because Peter became upset.
+
+Peter is mean.
+
+The end.
+
+Pause.
+
+Start story titled "Optional element missing--mean".
+
+Paul harmed Peter because Paul insulted Peter.  
+
+Mary became upset because Paul harmed Peter.
+
+Peter became upset because Mary became upset.
+
+Peter harmed Paul because Peter became upset.
+
+The end.
+

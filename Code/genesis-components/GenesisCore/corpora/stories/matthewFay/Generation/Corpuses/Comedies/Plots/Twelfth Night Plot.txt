@@ -1,0 +1,32 @@
+Viola is a name.
+Viola is a person.
+Sebastian is a name.
+Sebastian is a person.
+
+Olivia is a person.
+Orsino is a person.
+
+Viola is Sebastian's sister.
+Sebastian is Viola's brother.
+
+Olivia is a countess.
+Orsino is a duke.
+
+Orsino wants to marry Olivia.
+Viola loves Orsino.
+Viola wants to marry Orsino.
+
+Viola disguises as Sebastian.
+Viola tells Olivia that Orsino wants to marry Olivia. 
+//Olivia thinks Viola is Sebastian.
+Olivia loves Viola.
+
+Sebastian loves Olivia.
+Olivia loves Sebastian.
+Sebastian wants to marry Olivia.
+
+Olivia marries Sebastian.
+Sebastian marries Olivia.
+
+Orsino marries Viola.
+Viola marries Orsino.

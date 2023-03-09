@@ -1,0 +1,31 @@
+Start experiment.
+
+Second perspective.
+
+If xx loves yy, then xx marries yy.
+
+Start description of "Love".
+xx and yy are entities.
+xx loves yy.
+Consequently, xx invokes yy's love.
+The end.
+
+Start story titled "Test". 
+
+John loves Mary.
+
+The end.
+
+First perspective.
+
+Start story titled "Alleged motivation".
+
+Somebody is a person.
+
+Child is killed by alleged terrorist.
+
+The end.
+
+Both perspectives.
+
+

@@ -1,0 +1,80 @@
+/* ------------------------------
+ Generated on Inspect the book_0823_110011 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Inspect the book".
+Verify: The book doesn't have the book's dust jacket.
+Verify: ???.
+Step: Inspect the book.
+Step: Read the title.
+Step: Read the subtitle.
+Step: Read contents' table.
+Step: Glance at the preface by the author at index.
+The end.
+
+If the intention is "Inspect the book".
+Verify: the book has the book's dust jacket.
+Verify: ???.
+Step: Inspect the book.
+Step: Read the title.
+Step: Read the subtitle.
+Step: Read contents' table.
+Step: Glance at the preface by the author at index.
+Step: look at the publisher's blurb.
+The end.
+
+If the problem is "Inspect the book".
+Intention: Inspect the book.
+The end.
+
+/* ------------------------------
+ Generated on Inspect the book_0823_110011 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Read the title".
+Intention: Read the title.
+The end.
+
+If the intention is "Read the title".
+Method: Assume success.
+The end.
+
+If the problem is "Read the subtitle".
+Intention: Read the subtitle.
+The end.
+
+If the intention is "Read the subtitle".
+Method: Assume success.
+The end.
+
+If the problem is "Read contents' table".
+Intention: Read contents' table.
+The end.
+
+If the intention is "Read contents' table".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Inspect the book_0823_110011 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Glance at the preface by the author at index".
+Intention: Glance at the preface by the author at index.
+The end.
+
+If the intention is "Glance at the preface by the author at index".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Inspect the book_0823_110011 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "look at the publisher's blurb".
+Intention: look at the publisher's blurb.
+The end.
+
+If the intention is "look at the publisher's blurb".
+Method: Assume success.
+The end.
+

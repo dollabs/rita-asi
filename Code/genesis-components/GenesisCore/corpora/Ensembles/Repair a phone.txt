@@ -1,0 +1,81 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Learn procedure button to true.
+Set left panel to commentary.
+// Set right panel to Z Story Aligner Gallery.
+Set right panel to source.
+
+Both perspectives.
+
+Alice is a person.
+Bob is a person.
+The battery, cover, and phone are entities.
+The replacement battery is an entity.
+
+xx, yy, and zz are entities.
+vv is a variable.
+uu is a variable.
+aa is an action.
+
+Start description of "Action-evoking goal".
+ xx's wanting vv leads to aa.
+The end.
+
+If xx drinks coffee, then xx must want to become alert.
+If xx washes yy, then xx must want to clean yy.
+
+If xx forgot to take yy from zz, then zz contains yy.
+// If xx contains yy and yy contains zz, then xx contains zz.
+// If a washing machine contains xx, then xx becomes wet.
+If a phone becomes wet, then the phone may not work.
+
+If a xx's problem evidently is solved, then xx may be happy.
+
+If xx removes the cover from yy, then xx must want to expose yy's parts.
+If xx slides down the cover from yy, then xx must want to expose yy's parts.
+
+If xx collects yy from zz, then xx must want to separate yy from zz.
+If xx takes out yy from zz, then xx must want to separate yy from zz.
+
+If xx inserts yy into zz, then xx must want to incorporate yy into zz.
+If xx put yy in zz,  then xx must want to incorporate yy into zz.
+
+If xx puts the cover on yy, then xx must want to attach the cover to yy.
+If xx places the cover on yy, then xx must want to attach the cover to yy.
+
+Show both perspectives.
+First perspective.
+
+Start story titled "Alice's story".
+Alice washes her pants in a washing machine.
+Alice forgot to take her phone from her pants.
+The phone became wet.
+It did not work.
+Alice quickly removed the cover from the phone and she collected the old battery from the phone.
+Alice purchased the replacement battery online.
+The replacement battery arrived and she inserted it into the phone.
+She puts the cover on the phone.
+She recharged her phone for 4 hours.
+Bravo! The phone worked again.
+The end.
+
+
+
+
+Second perspective.
+
+Start story titled "Bob's story".
+A client's phone did not work.
+The client asked bob to change the battery of the client's Samsung phone.
+Bob made coffee and drank it.
+Bob got a replacement battery from the stock room.
+Bob slid down the cover from the client's phone.
+Bob takes out the old battery from the client's phone and put the replacement battery in the phone.
+Lastly, he placed the cover on the client's phone.
+// The problem is solved because the client's phone started working again;
+The phone started working again; the client's problem is solved.
+The client was happy.
+The end.

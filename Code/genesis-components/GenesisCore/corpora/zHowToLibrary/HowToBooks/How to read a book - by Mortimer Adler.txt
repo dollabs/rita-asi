@@ -1,0 +1,21 @@
+// How to read a book (Chapter 6 Pigeonholing a Book, Page 61)
+
+As we have suggested, you first inspect the book — giving it an inspectional reading.
+You read the title, the subtitle, the table of contents, and you at least glance at the preface by the author and at the index.
+If the book has a dust jacket, you look at the publisher’s blurb.
+It is not his fault if you will not stop, look, and listen.
+
+// --- original
+// As we have already suggested, you do so by first inspecting the book — giving it an inspectional reading.
+// You read the title, the subtitle, the table of contents, and you at least glance at the preface or introduction by the author and at the index.
+// If the book has a dust jacket, you look at the publisher’s blurb.
+// These are the single flags the author waves to let you know which way the wind is blowing.
+// It is not his fault if you will not stop, look, and listen.
+
+
+// --- final
+// As we have suggested, you should first inspect the book.
+// You read the title, the subtitle, and the table of contents.
+// You glance at the preface written by the author.
+// If the book has a dust jacket, you look at the blurb.
+// It is not his fault if you will not stop, look, and listen.

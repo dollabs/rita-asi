@@ -1,0 +1,170 @@
+extends base  
+
+block styles 
+    link(rel='stylesheet' href='css/landing.css')
+    script(src="https://kit.fontawesome.com/f64de7b412.js" crossorigin="anonymous")
+    script(src="https://kit.fontawesome.com/f64de7b412.js" crossorigin="anonymous")
+
+block content
+    main
+        .section
+            .row
+                .col-5.py-2
+                    .search-section
+                        .search__wrapper
+                            input.searchTerm(type="text" placeholder="To-do... I'm not working yet")
+                            button.searchButton(type="submit")
+                                i(class="fa fa-search")
+
+                    .command-section
+                        h6.pt-2 The Complete Build/Compile commands (Prod)
+                        .commands.prod
+                            button.btn-1.fill(id='pull') Git Pull 
+                            button.btn-2.fill(class='build-logger-player') Build the Logger and the Player
+                            button.btn-3.fill(class='compile-pamela') Compile The Mission Model (for SE)
+                            button.btn-4.fill(id='build-all') Build ALL Components
+                            button.btn-5.fill(id='run-all') Run ALL Components (DOLL & MIT)
+                            button.btn-5.fill(id='stop-current-tasks') Stop ALL Tasks 
+
+                    .command-section
+                        h6 Seperate Build/Compile commands (Dev)
+                        .row.pt-3 
+                            .col-4
+                                h6 BUILD
+
+                            .col-4
+                                h6 RUN
+
+                            .col-4
+                                h6 STOP 
+
+                        .commands.dev
+                            .row 
+                                .col-4
+                                    button.btn-6.fill(class='build-logger-player') Build logger and player
+                                    button.btn-6.fill(class='compile-pamela') Compile mission model
+                                    button.btn-6.fill(id='build-DOLL') Build ALL DOLL components 
+                                    button.btn-6.fill(id='build-se') Build State Estimation
+                                    button.btn-6.fill(id='build-gp') Build Generative Planner 
+                                    button.btn-6.fill(id='build-tp') Build Temporal Planner
+                                    button.btn-6.fill(id='build-md') Build Mission Dispatcher
+                                    button.btn-6.fill(id='build-mt') Build Mission Tracker
+                                    button.btn-6.fill(id='build-pg') Build Prediction Generator
+                                    button.btn-6.fill(id='build-ec') Build Experiment Control
+                                    button.btn-6.fill(id='build-mqt2rmq') Build MQT to RMQ component
+                                    
+                                .col-5
+                                    button.btn-7.fill(id='run-tr0') Run Temporal Reasoning (without UI)
+                                    button.btn-7.fill(id='run-tr1') Run Temporal Reasoning (with UI)
+                                    button.btn-7.fill(id='run-se') Run State Estimation
+                                    button.btn-7.fill(id='run-gp') Run Generative Planner 
+                                    button.btn-7.fill(id='run-tp') Run Temporal Planner
+                                    button.btn-7.fill(id='run-md') Run Mission Dispatcher
+                                    button.btn-7.fill(id='run-mt') Run Mission Tracker
+                                    button.btn-7.fill(id='run-pg') Run Prediction Generator
+                                    button.btn-7.fill(id='run-mqt2rmq') Run MQT to RMQ component
+
+                                .col-3
+                                    button.btn-8.fill(id='stop-tr') Stop Temporal Reasoning
+                                    button.btn-8.fill(id='stop-se') Stop State Estimation
+                                    button.btn-8.fill(id='stop-gp') Stop Generative Planner 
+                                    button.btn-8.fill(id='stop-tp') Stop Temporal Planner
+                                    button.btn-8.fill(id='stop-md') Stop Mission Dispatcher
+                                    button.btn-8.fill(id='stop-mt') Stop Mission Tracker
+                                    button.btn-8.fill(id='stop-pg') Stop Prediction Generator
+                                    button.btn-7.fill(id='stop-mqt2rmq') Stop MQT to RMQ component
+                                    //- Need to include Experiment
+
+                .col-7.py-2
+                    .fakeMenu
+                        .fakeButtons.fakeClose
+                        .fakeButtons.fakeMinimize
+                        .fakeButtons.fakeZoom
+                    .fakeScreen
+                        .text
+                    .command-section.acController
+                        .commands
+                            h6 ACs controllers
+                            button.btn-9.fill(id='reset-acs') RESET all AC's states
+                            .check__item
+                                label
+                                    input.switchbox.default__check.ac_aptima_ta3_measures(type="checkbox" value="ac_aptima_ta3_measures")
+                                    span(class="custom__check") 
+                                    | Aptima TA3 Measures
+                                label
+                                    input.switchbox.default__check.ac_cmu_ta2_beard(type="checkbox" value="ac_cmu_ta2_beard")
+                                    span(class="custom__check") 
+                                    | CMU TA2 Beard
+                                label
+                                    input.switchbox.default__check.ac_cmu_ta2_ted(type="checkbox" value="ac_cmu_ta2_ted")
+                                    span(class="custom__check") 
+                                    | CMU TA2 Ted
+                                label
+                                    input.switchbox.default__check.ac_cornell_ta2_teamtrust(type="checkbox" value="ac_cornell_ta2-teamtrust")
+                                    span(class="custom__check") 
+                                    | Cornell TA2 Teamtrust
+                                label
+                                    input.switchbox.default__check.ac_cornell_ta2_asi_facework(type="checkbox" value="ac_cornell_ta2_asi_facework")
+                                    span(class="custom__check") 
+                                    | Cornell TA2 ASI-Facework
+                                label
+                                    input.switchbox.default__check.ac_gallup_ta2_gelp(type="checkbox" value="ac_gallup_ta2_gelp")
+                                    span(class="custom__check") 
+                                    | Gallup TA2 Gelp
+                                label
+                                    input.switchbox.default__check.ac_cmufms_ta2_cognitive(type="checkbox" value="ac_cmufms_ta2_cognitive")
+                                    span(class="custom__check") 
+                                    | CMUFMS TA2 Cognitive 
+                                label
+                                    input.switchbox.default__check.ac_rutgers_ta2_utility(type="checkbox" value="ac_rutgers_ta2_utility")
+                                    span(class="custom__check") 
+                                    | Rutgers TA2 Utility
+                                label
+                                    input.switchbox.default__check.ac_ucf_ta2_playerprofile(type="checkbox" value="ac_ucf_ta2_playerprofile")
+                                    span(class="custom__check") 
+                                    | UCF TA2 Player Profiler
+                                label
+                                    input.switchbox.default__check.ac_ihmc_ta2(type="checkbox" value="ac_ihmc_ta2")
+                                    span(class="custom__check") 
+                                    | IHMC TA2 All ACs' measures
+                                label
+                                    input.switchbox.default__check.ac_doll_ta1_utterance(type="checkbox" value="ac_doll_ta1_utterance")
+                                    span(class="custom__check") 
+                                    | DOLL TA1 Utterance 
+                                label
+                                    input.switchbox.default__check.ac_doll_ta1_word(type="checkbox" value="ac_doll_ta1_word")
+                                    span(class="custom__check") 
+                                    | DOLL TA1 Word
+                
+             
+                    .command-section.operations
+                        .row
+                            .commands
+                                h6.pb-1 Operational commands
+
+                                form.inputFile(id="filename-input" onsubmit="return false")
+                                    input.input(required id="text-input" type="text" name="filename" placeholder="Please pick a name for you file")
+                                    button.btn-9.fill(type="submit" id="run-logger") Save output (Logger)
+                                    button.btn-9.fill(id="stop-logger") Stop saving
+
+                                form.inputFile(id="speed-form" onsubmit="return false")
+                                    input.input(id="speed-input" type="number" name="filename" placeholder="Select replay speed (between 1 and 10)")
+                                    button.btn-9.fill(type="submit" id="set-player-speed") Set player speed
+
+                                form.inputFile(onsubmit="return false")
+                                    input.input(id="upload_input" type="file" name="file" required="true")
+                                    button.btn-9.fill(id="select-file") Select the file
+
+                                .inputFile  
+                                    button.btn-9.fill(id="run-ec") Run Experiment Control
+                                    button.btn-9.fill(id="run-player") Start replaying (Player)
+                                    button.btn-9.fill(id="stop-player") Stop replaying
+
+
+    script                      
+        include ../controllers/frontendController.js
+
+
+
+
+

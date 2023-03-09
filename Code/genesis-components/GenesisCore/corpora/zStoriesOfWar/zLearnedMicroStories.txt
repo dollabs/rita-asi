@@ -1,0 +1,89 @@
+If the intention is "xx becomes dead".
+Condition: Check "You cannot kill xx".
+Step: Ask "who may make xx become dead".
+The end.
+
+If the intention is "who may make xx become dead".
+Condition: Check "King does not trust xx".
+Step: King kill xx.
+The end.
+
+If the intention is "King kills xx".
+Condition: King believes that xx is disloyal.
+Step: Happen "King kills xx".
+The end.
+
+If the intention is "King believes that xx is disloyal".
+Condition: Check "King trust the Secretary".
+Step: Secretary make King believe that xx is disloyal.
+The end.
+
+// If the intention is "Secretary make King believe that xx is disloyal".
+// Condition: Check "Secretary is corrupted".
+// Step: yy bribe Secretary.
+// The end.
+
+If the intention is "xx bribes Secretary".
+// Condition: Check "You have the money".
+Step: Happen "xx Bribes Secretary".
+The end.
+
+
+<<<<<<< HEAD
+If the intention is "xx helps yy".
+Step: yy work hard and be nice to people.
+The end.
+
+
+// Generated on 00726_163829 by students/zhutianYang/StratagemLearner.java
+If the intention is "xxx knows what-is-important".
+Step: xxx asks ceos.
+=======
+// Generated on 00719_181337 by students/zhutianYang/StratagemLearner.java
+If the intention is "yyy protects Ming Dynasty".
+Step: yyy fights against xxx.
+The end.
+
+
+// Generated on 00719_181345 by students/zhutianYang/StratagemLearner.java
+If the intention is "xxx doesn't defeat yyy on battle field".
+Step: yyy fought against xxx to protect Ming Dynasty.
+The end.
+
+
+// Generated on 00719_181347 by students/zhutianYang/StratagemLearner.java
+If the intention is "xxx overturns the Ming Dynasty".
+Condition: Check "xxx doesn't defeat yyy on battle field".
+Step: xxx plans to kill yyy.
+The end.
+
+
+// Generated on 00719_181400 by students/zhutianYang/StratagemLearner.java
+If the intention is "mmm makes zzz believe yyy is disloyal".
+Condition: Check "zzz trusts mmm".
+Step: xxx bribes mmm.
+The end.
+
+
+// Generated on 00719_181405 by students/zhutianYang/StratagemLearner.java
+If the intention is "zzz believes yyy is disloyal".
+Condition: Check "zzz trusts mmm".
+Condition: Check "xxx doesn't defeat yyy on battle field".
+Step: mmm makes zzz believe yyy is disloyal.
+The end.
+
+
+// Generated on 00719_181411 by students/zhutianYang/StratagemLearner.java
+If the intention is "yyy executes xxx".
+Condition: Check "yyy believes xxx was disloyal".
+Condition: Check "yyy goes furious".
+Step: yyy hates disloyal generals.
+The end.
+
+
+// Generated on 00719_181421 by students/zhutianYang/StratagemLearner.java
+If the intention is "xxx conquers the Ming Dynasty".
+Condition: Check "xxx bribes yyy".
+Step: Nobody defeats xxx.
+>>>>>>> branch 'master' of ssh://ztyang@svn.csail.mit.edu:22/afs/csail/group/genesis/git/genesis.git
+The end.

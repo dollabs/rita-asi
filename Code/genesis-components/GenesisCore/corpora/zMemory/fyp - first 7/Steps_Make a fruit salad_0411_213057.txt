@@ -1,0 +1,32 @@
+/* ------------------------------
+ Generated on Make a fruit salad_0411_213057 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a fruit salad".
+Intention: Make a fruit salad.
+The end.
+
+If the intention is "Make a fruit salad".
+Step: Cut the fruits into different cups.
+Step: Put the salad that is dressing spicy sauce nuts.
+The end.
+
+If the problem is "Cut the fruits into different cups".
+Intention: Cut the fruits into different cups.
+The end.
+
+If the intention is "Cut the fruits into different cups".
+Step: The fruits are in different cups.
+The end.
+
+/* ------------------------------
+ Generated on Make a fruit salad_0411_213057 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Put the salad that is dressing spicy sauce nuts".
+Intention: Put the salad that is dressing spicy sauce nuts.
+The end.
+
+If the intention is "Put the salad that is dressing spicy sauce nuts".
+Method: Assume success.
+The end.
+

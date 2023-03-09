@@ -1,0 +1,12 @@
+Start description of "disappointment".
+
+XX is an entity. 
+YY is an entity.
+AA is an action. 
+
+XX expects YY to perform AA.
+YY's not performing AA leads to XX's becoming unhappy.
+
+The end.
+
+

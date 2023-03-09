@@ -1,0 +1,34 @@
+//Tell test, 1/13/2016
+
+Start experiment.
+
+Start story titled "Tell test".
+Alice, Bobby, and Carla are persons.
+
+Alice enters the scene.
+People sing on stage.
+Alice exits the scene.
+
+Bobby enters the scene.
+Bobby cooks dinner.
+Bobby exits the scene.
+
+Carla enters the scene.
+Birds fly.
+Carla exits the scene.
+
+Then, Bobby enters the scene.
+Alice enters the scene.
+Bobby jumps.
+Alice exits the scene.
+Bobby falls.
+Carla enters the scene.
+The duck quacks.
+Bobby exits the scene.
+Carla exits the scene.
+
+The end.
+
+Insert into text box: Tell the story as Bobby.
+//Insert into text box: Tell story as Carla.
+//Insert into text box: Tell the story as Alice.

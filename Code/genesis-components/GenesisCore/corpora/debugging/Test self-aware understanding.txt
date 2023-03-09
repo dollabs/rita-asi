@@ -1,0 +1,74 @@
+Start experiment.
+
+Set show all story elements switch to true.
+
+Set self aware button to true.
+
+Set left panel to Commentary.  Set right panel to Mental models.  Set bottom panel to Elaboration graph.
+
+xx is a person.
+
+yy is a person.
+
+
+If xx dislikes yy, then xx insults yy.
+
+if xx insults yy, then yy may shoot xx.
+
+"Suspicious" is a kind of personality trait.
+
+Start description of "Dislike leads to shooting".
+xx and yy are persons.
+xx's disliking yy leads to yy's shooting xx.
+The end.
+
+George, Susan, John, Mary, Patrick, and Karen are persons.
+
+Start story titled "Test".
+
+I am suspicious.
+
+John dislikes Mary.
+
+Mary shoots John.
+
+Patrick ate breakfast.
+
+Karen ate lunch.
+
+George ate an orange.
+
+Susan ate an apple.
+
+George ate an orange because Susan ate an apple.
+
+The end.
+
+Set left panel to Commentary.  Set right panel to Mental models. 
+
+Set right panel to mental models.
+
+Insert question into text box: Did Susan eat an apple after George ate an orange. Pause.
+
+// Test ordinary sequence order
+Insert question into text box: Did Karen eat lunch after Patrick ate breakfast. Pause.
+
+// Uses causal connection to establish after
+Insert question into text box: Did George eat an orange after Susan ate an apple. Pause.
+
+Insert question into text box: What happened when John disliked Mary. Pause.
+
+Insert question into text box: Why did Mary shoot John. Pause.
+
+Insert question into text box: Why did John dislike Mary. Pause.
+
+Insert question into text box: Did John dislike Mary. Pause.
+
+Insert question into text box: Did John's disliking Mary cause Mary's shooting John? Pause.
+
+Insert question into text box: Did Mary shoot John because John disliked Mary? 
+
+
+Set self aware button to false.
+
+

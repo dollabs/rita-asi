@@ -1,0 +1,230 @@
+/* ------------------------------
+ Generated on 0913_164059 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Improve your posture".
+Intention: Improve your posture.
+The end.
+
+If the intention is "Improve your posture".
+Step: Find your center by standing tall up.
+Step: So you teach correct posture to yourself, use a wall.
+Step: Have someone tape an X on your back to help correct your posture....
+Step: Keep your weight on feet's balls.
+Step: Walk as if you have a book balanced on your head....
+Step: Pick supportive footwear for standing and walking....
+Step: Make sure your back is at a right angle to your thighs....
+Step: Check your posture by sitting on your hands.
+Step: Adjust your legs and keep your feet flat while sitting....
+Step: Find a supportive chair to help you maintain good posture....
+Step: So you help with your posture, adjust your computer monitor.
+Step: Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>.
+Step: Take standing breaks when you're sitting for long periods....
+Step: Provide support for your back with pillows while you sleep.
+Step: Turn your body as 1 unit when laying down....
+Step: Sleep with good posture by choosing a comfortable mattress.
+Step: Improve your core muscles with deep abdominal stretching....
+Step: Does a shoulder blade squeeze?.
+Step: Train your muscles for better posture with strength that is training.
+Step: Pretend you're a penguin to stretch your shoulders....
+Step: Use stretching for a sore neck or back....
+Step: So you increase flexibility, practice Yoga.
+The end.
+
+// ------------ Step 1: Find your center by standing tall up
+If the problem is "Find your center by standing tall up".
+Intention: Find your center by standing tall up.
+The end.
+
+If the intention is "Find your center by standing tall up".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: So you teach correct posture to yourself, use a wall
+If the problem is "So you teach correct posture to yourself, use a wall".
+Intention: So you teach correct posture to yourself, use a wall.
+The end.
+
+If the intention is "So you teach correct posture to yourself, use a wall".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Have someone tape an X on your back to help correct your posture...
+If the problem is "Have someone tape an X on your back to help correct your posture...".
+Intention: Have someone tape an X on your back to help correct your posture....
+The end.
+
+If the intention is "Have someone tape an X on your back to help correct your posture...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Keep your weight on feet's balls
+If the problem is "Keep your weight on feet's balls".
+Intention: Keep your weight on feet's balls.
+The end.
+
+If the intention is "Keep your weight on feet's balls".
+Step: Weight is on balls.
+The end.
+
+// ------------ Step 5: Walk as if you have a book balanced on your head...
+If the problem is "Walk as if you have a book balanced on your head...".
+Intention: Walk as if you have a book balanced on your head....
+The end.
+
+If the intention is "Walk as if you have a book balanced on your head...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 6: Pick supportive footwear for standing and walking...
+If the problem is "Pick supportive footwear for standing and walking...".
+Intention: Pick supportive footwear for standing and walking....
+The end.
+
+If the intention is "Pick supportive footwear for standing and walking...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 7: Make sure your back is at a right angle to your thighs...
+If the problem is "Make sure your back is at a right angle to your thighs...".
+Intention: Make sure your back is at a right angle to your thighs....
+The end.
+
+If the intention is "Make sure your back is at a right angle to your thighs...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 8: Check your posture by sitting on your hands
+If the problem is "Check your posture by sitting on your hands".
+Intention: Check your posture by sitting on your hands.
+The end.
+
+If the intention is "Check your posture by sitting on your hands".
+Method: Assume successful.
+The end.
+
+// ------------ Step 9: Adjust your legs and keep your feet flat while sitting...
+If the problem is "Adjust your legs and keep your feet flat while sitting...".
+Intention: Adjust your legs and keep your feet flat while sitting....
+The end.
+
+If the intention is "Adjust your legs and keep your feet flat while sitting...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 10: Find a supportive chair to help you maintain good posture...
+If the problem is "Find a supportive chair to help you maintain good posture...".
+Intention: Find a supportive chair to help you maintain good posture....
+The end.
+
+If the intention is "Find a supportive chair to help you maintain good posture...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 11: So you help with your posture, adjust your computer monitor
+If the problem is "So you help with your posture, adjust your computer monitor".
+Intention: So you help with your posture, adjust your computer monitor.
+The end.
+
+If the intention is "So you help with your posture, adjust your computer monitor".
+Method: Assume successful.
+The end.
+
+// ------------ Step 12: Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>
+If the problem is "Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>".
+Intention: Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>.
+The end.
+
+If the intention is "Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>".
+Method: Assume successful.
+The end.
+
+// ------------ Step 13: Take standing breaks when you're sitting for long periods...
+If the problem is "Take standing breaks when you're sitting for long periods...".
+Intention: Take standing breaks when you're sitting for long periods....
+The end.
+
+If the intention is "Take standing breaks when you're sitting for long periods...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 14: Provide support for your back with pillows while you sleep
+If the problem is "Provide support for your back with pillows while you sleep".
+Intention: Provide support for your back with pillows while you sleep.
+The end.
+
+If the intention is "Provide support for your back with pillows while you sleep".
+Method: Assume successful.
+The end.
+
+// ------------ Step 15: Turn your body as 1 unit when laying down...
+If the problem is "Turn your body as 1 unit when laying down...".
+Intention: Turn your body as 1 unit when laying down....
+The end.
+
+If the intention is "Turn your body as 1 unit when laying down...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 16: Sleep with good posture by choosing a comfortable mattress
+If the problem is "Sleep with good posture by choosing a comfortable mattress".
+Intention: Sleep with good posture by choosing a comfortable mattress.
+The end.
+
+If the intention is "Sleep with good posture by choosing a comfortable mattress".
+Method: Assume successful.
+The end.
+
+// ------------ Step 17: Improve your core muscles with deep abdominal stretching...
+If the problem is "Improve your core muscles with deep abdominal stretching...".
+Intention: Improve your core muscles with deep abdominal stretching....
+The end.
+
+If the intention is "Improve your core muscles with deep abdominal stretching...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 18: Does a shoulder blade squeeze?
+If the problem is "Does a shoulder blade squeeze?".
+Intention: Does a shoulder blade squeeze?.
+The end.
+
+If the intention is "Does a shoulder blade squeeze?".
+Method: Assume successful.
+The end.
+
+// ------------ Step 19: Train your muscles for better posture with strength that is training
+If the problem is "Train your muscles for better posture with strength that is training".
+Intention: Train your muscles for better posture with strength that is training.
+The end.
+
+If the intention is "Train your muscles for better posture with strength that is training".
+Method: Assume successful.
+The end.
+
+// ------------ Step 20: Pretend you're a penguin to stretch your shoulders...
+If the problem is "Pretend you're a penguin to stretch your shoulders...".
+Intention: Pretend you're a penguin to stretch your shoulders....
+The end.
+
+If the intention is "Pretend you're a penguin to stretch your shoulders...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 21: Use stretching for a sore neck or back...
+If the problem is "Use stretching for a sore neck or back...".
+Intention: Use stretching for a sore neck or back....
+The end.
+
+If the intention is "Use stretching for a sore neck or back...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 22: So you increase flexibility, practice Yoga
+If the problem is "So you increase flexibility, practice Yoga".
+Intention: So you increase flexibility, practice Yoga.
+The end.
+
+If the intention is "So you increase flexibility, practice Yoga".
+Method: Assume successful.
+The end.
+

@@ -1,0 +1,66 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Learn concept button to true.
+Set left panel to commentary.
+// Set right panel to Z Story Aligner Gallery.
+Set right panel to source.
+Both perspectives.
+
+Denmark is a country.
+Hamlet is a person.
+King Hamlet is a person.
+Claudius is a person.
+Ophelia is a person.
+Laertes is a person.
+
+xx, yy, and zz are entities.
+vv is a variable.
+uu is a variable.
+aa is an action.
+pp is a country.
+
+Show both perspectives.
+
+First perspective.
+Start story titled "Pinocchio".
+// https://www.storiestogrowby.org/story/pinocchio-fairy-tale-story-english-kids/
+Pinocchio is a puppet boy made by Gepetto.
+The Blue Fairy gave life to Pinocchio so Pinocchio can move like a real boy.
+Gepetto loved Pinocchio very much.
+Gepetto sold his coat to get enough money to buy school books for Pinocchio.
+Pinocchio was attracted by the circuit and bought ticket with the money.
+The owner of the circuit saw Pinocchio and thought that the puppet would make him rich.
+He picked up Pinocchio and trapped him in a birdcage.
+The Blue Fairy appeared and asked how did Pinocchio get into the cage.
+Pinocchio was afraid that the fairy would blame him if he tells the truth.
+So he told the fairy that he was robbed by two men.
+His nose started to grow.
+He said that the two men took his money and threw him into the cage.
+His nose grew longer and longer.
+The Blue Fairy suggested that Pinocchio tell the truth.
+Pinocchio told the truth and his nose became normal.
+The Blue Fair saved him from the cage and gave him the schoolbooks.
+The end.
+
+Second perspective.
+Start story titled "The boy who cried wolf".
+A shepherd boy was bored as he sat on the hillside watching the village sheep.
+To amuse himself, he shouted out that the Wolf is chasing the sheep.
+The villagers ran up the hill to help drive the wolf away.
+But when they arrived at the top of the hill, they found no wolf.
+The boy laughed at the sight of their angry faces.
+The villagers instructed him not to cry wolf when there is no wolf.
+Then they went grumbling back down the hill.
+But the boy cried again and laughed at the villagers.
+Later, he saw a real wolf prowling about his flock.
+Alarmed, he sang out as loudly as he could, "Wolf! Wolf!"
+But the villagers thought he was fooling them again, and so they didn't come.
+The wolf ate the sheep.
+The boy could do nothing but weeping.
+An old man tried to comfort the boy.
+The old man told the boy that nobody believes a liar even when he is telling the truth.
+The boy dared not to lie again.
+The end.

@@ -1,0 +1,201 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; RITA Search and resuce planner
+
+
+(defpclass DMCP []
+  :methods [(defpmethod find-binary-proposition
+              {:doc "Lookup a proposition binding any provided unbound LVAR arguments"
+               :primitive true}
+              [proposition p1 p2])
+            (defpmethod lookup-object
+              {:doc "Lookup an object from it's ID binding if provided an unbound LVAR argument"
+               :primitive true}
+              [objectid object])])
+
+(defpclass Participant [pos dmcpobj]
+  :modes [ :ready ]
+  :fields {P-location pos                 ;This represents where the attacker has reached (is)
+           dmcp dmcpobj
+           connected "Unconnected"
+           connection (mode-of NetworkConnectionModes :user)
+           p1 (lvar "Proposition-arg1")
+           p2 (lvar "proposition-arg2")
+           p3 (lvar "proposition-arg3")
+           p4 (lvar "proposition-arg4") ; Not used beyond here
+           p5 (lvar "proposition-arg5")
+           p6 (lvar "proposition-arg6")
+           p7 (lvar "proposition-arg7")
+           p8 (lvar "proposition-arg8")
+           p9 (lvar "proposition-arg9")
+           p10 (lvar "proposition-arg10")
+           }
+  :methods [(defpmethod goto-door
+              {:doc "Go to a door"
+               :pre (and (call dmcp.find-binary-proposition
+                               (mode-of BinaryPropositionTypes :connects-with) p1 newloc)
+                          (= P-location p1))
+               :post (= P-location newloc)
+               :primitive true}
+              [newloc])
+
+            ;; (defpmethod pass-through-door
+            ;;   {:doc "move down in a system to a subcomponent"
+            ;;    :pre (and (call dmcp.find-binary-proposition (mode-of BinaryPropositionTypes :is-part-of) newloc p2)
+            ;;              (= P-location p2))
+            ;;    :post (= P-location newloc)
+            ;;    :primitive true}
+            ;;   [newloc])
+
+            (defpmethod goto-corridoor-intersection
+              {:doc "move up in a system to a containing supercomponent"
+               :pre (and (call dmcp.find-binary-proposition (mode-of BinaryPropositionTypes :is-part-of) p3 newloc)
+                         (= P-location p3))
+               :post (= P-location newloc)
+               :primitive true}
+              [newloc])
+
+            ;; (defpmethod pass-into-corrridoor
+            ;;   {:doc "Attempt to gain access by launching a phishing attack to obtain credentials and connect"
+            ;;    ;:pre ;(call dmcp.find-binary-proposition
+            ;;         ;      (mode-of BinaryPropositionTypes :is-of-dcrypps-category)
+            ;;         ;      target
+            ;;         ;      (mode-of AuthenticationRequired :Workstation))
+            ;;    :post (= connected target)
+            ;;    :primitive true}
+            ;;   [target])
+
+            (defpmethod goto-entrance
+              {:doc "Attempt to gain access by launching a ohishing attack to obtain credentials and connect"
+               ;:pre (call dmcp.find-binary-proposition
+               ;           (mode-of BinaryPropositionTypes :is-of-dcrypps-category)
+               ;           target (mode-of AuthenticationRequired :Workstation))
+               :post (= connected target)
+               :primitive true}
+              [target])
+
+            ;; (defpmethod pass-through-entrance
+            ;;   {:doc "Attempt to gain access by launching a ohishing attack to obtain credentials and connect"
+            ;;    ;:pre (call dmcp.find-binary-proposition
+            ;;    ;           (mode-of BinaryPropositionTypes :is-of-dcrypps-category)
+            ;;    ;           target
+            ;;    ;           (mode-of AuthenticationRequired :Workstation))
+            ;;    :post (= connected target)
+            ;;    :primitive true}
+            ;;   [target])
+
+            (defpmethod goto-hole-in-the-wall
+              {:doc "Attempt to gain access by launching a phishing attack to obtain credentials and connect"
+               ;:pre (call dmcp.find-binary-proposition
+               ;           (mode-of BinaryPropositionTypes :is-of-dcrypps-category)
+               ;           target
+               ;           (mode-of AuthenticationRequired :SmartController))
+               :post (= connected target)
+               :primitive true}
+              [target])
+
+            ;; (defpmethod pass-through-hole
+            ;;   {:doc "Attempt to gain access by launching a ohishing attack to obtain credentials and connect"
+            ;;    ;:pre (call dmcp.find-binary-proposition
+            ;;    ;           (mode-of BinaryPropositionTypes :is-of-dcrypps-category)
+            ;;    ;           target
+            ;;    ;           (mode-of AuthenticationRequired :Router))
+            ;;    :post (= connected target)
+            ;;    :primitive true}
+            ;;   [target])
+
+            (defpmethod mark-room-as-clear-of-gold-victims
+              {:doc "attack the device with false commands"
+               :pre (= P-location object.T-location)
+               :post (= object (mode-of TargetStates :attacked))
+               :primitive true}
+              [object])
+
+            (defpmethod mark-room-as-clear-of-all-victims
+              {:doc "attack the device with false commands"
+               :pre (= P-location object.T-location)
+               :post (= object (mode-of TargetStates :attacked))
+               :primitive true}
+              [object])
+
+            ])
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; The planner class is instantiated with the object that is the
+;;; active-agent and the target
+
+(defpclass SARPlanner [active-agent building]
+  :modes [ :root ]
+  :fields {dmcp (DMCP :id "dmcpid")
+           aParticipant (Participant active-agent dmcp :id "Player1")
+           theBuilding building
+           room101 theBuilding.Room101
+           room102 theBuilding.Room102
+           room103 theBuilding.Room103
+           room104 theBuilding.Room104
+           room105 theBuilding.Room105
+           room106 theBuilding.Room106
+           room107 theBuilding.Room107
+           room108 theBuilding.Room108
+           room109 theBuilding.Room109
+           room110 theBuilding.Room110
+           room111 theBuilding.Room111
+           lobby theBuilding.Lobby
+           cloakr theBuilding.CloakR
+           breakR theBuilding.BreakR
+           execS1 theBuilding.ExecS1
+           execS2 theBuilding.ExecS2
+           csNorth theBuilding.CSNorth
+           csEast theBuilding.CSEast
+           terrace theBuilding.Terrace
+           womRR thebuilding.WomRR
+           menRR theBuilding.MenRR
+           roomJ theBuilding.RoomJ
+           sCR1 theBuilding.SCR1
+           sCR2 theBuilding.SCR2
+           mCR theBuilding.MCR
+           cFarm theBuilding.Cfarm
+           stagingArea theBuilding.StagingArea
+
+           ;; Following are examples of generated code
+           step1 (lvar "step1")
+           step2 (lvar "step2")}
+  :methods [(defpmethod goal
+              {:doc "Clear Building"
+               ;; Generated precondition to extract waypoints
+               :pre (and (call dmcp.lookup-object "anobjectid1" step1)
+                         (call dmcp.lookup-object "anobjectid2" step2))
+               :post (and (= room101 (mode-of room101 :clear-of-gold-victims))
+                          (= room102 (mode-of room102 :clear-of-gold-victims))
+                          ;; (= room103 (mode-of room103 :clear-of-gold-victims))
+                          ;; (= room104 (mode-of room104 :clear-of-gold-victims))
+                          ;; (= room105 (mode-of room105 :clear-of-gold-victims))
+                          ;; (= room106 (mode-of room106 :clear-of-gold-victims))
+                          ;; (= room107 (mode-of room107 :clear-of-gold-victims))
+                          ;; (= room108 (mode-of room108 :clear-of-gold-victims))
+                          ;; (= room109 (mode-of room109 :clear-of-gold-victims))
+                          ;; (= room110 (mode-of room110 :clear-of-gold-victims))
+                          ;; (= room111 (mode-of room111 :clear-of-gold-victims))
+                          ;; (= lobby (mode-of lobby :clear-of-gold-victims))
+                          ;; (= cloakr (mode-of cloakr :clear-of-gold-victims))
+                          ;; (= breakR (mode-of breakR :clear-of-gold-victims))
+                          ;; (= execS1 (mode-of execS1 :clear-of-gold-victims))
+                          ;; (= execS2 (mode-of execS2 :clear-of-gold-victims))
+                          ;; (= csNorth (mode-of csNorth :clear-of-gold-victims))
+                          ;; (= csEast (mode-of csEast :clear-of-gold-victims))
+                          ;; (= terrace (mode-of terrace :clear-of-gold-victims))
+                          ;; (= womRR (mode-of womRR :clear-of-gold-victims))
+                          ;; (= menRR (mode-of menRR :clear-of-gold-victims))
+                          ;; (= roomJ (mode-of roomJ :clear-of-gold-victims))
+                          ;; (= sCR1 (mode-of sCR1 :clear-of-gold-victims))
+                          ;; (= sCR2 (mode-of sCR2 :clear-of-gold-victims))
+                          ;; (= mCR (mode-of mCR :clear-of-gold-victims))
+                          ;; (= cFarm (mode-of cFarm :clear-of-gold-victims))
+                          ;; (= stagingArea (mode-of stagingArea :clear-of-gold-victims))
+                          )}
+              []
+              ;; This is an example of what a generated solution should look like
+              (sequence
+               (aParticipant.goto-door room101)
+               (aParticipant.goto-door room102)
+               (aParticipant.goto-door room103)
+              ))])

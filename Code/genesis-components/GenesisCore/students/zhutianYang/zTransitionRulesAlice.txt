@@ -1,0 +1,14 @@
+xx is a person.
+pp and qq are things.
+
+If xx forgets to take pp from qq, then pp has qq's contact.
+If xx puts pp in qq, then pp has qq's contact.
+If xx puts pp on qq, then pp has qq's contact.
+If pp gets wet, then pp has problem's contact.
+If xx removes the cover of pp, then pp has air's contact.
+If xx collects pp from qq, then pp doesn't have qq's contact.
+If xx buys pp, then xx has pp's contact.
+If xx inserts pp into qq, then pp has qq's contact.
+If xx installs the cover of pp, then pp doesn't have air's contact.
+If xx recharges pp, then pp has power's contact.
+If pp starts working, then pp doesn't have problem's contact.

@@ -1,0 +1,26 @@
+Start experiment.
+
+Set show all story elements switch to true.
+
+xx is a person.
+
+yy is a person.
+
+Mary is a person.
+
+Peter is a person.
+
+vv is a variable.
+
+If xx wants to do vv then xx may do vv.
+
+// If xx wants to do vv then xx does vv.
+
+Start story titled "Test".
+
+Peter wants to kiss Mary.
+
+Peter kisses Mary.
+
+The end.
+

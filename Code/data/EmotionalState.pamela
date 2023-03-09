@@ -1,0 +1,19 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; EmotionalState model
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; This is information that is provided ahead of time regarding the participant
+;;; Its usefulness is not clear, but it is fixed starting information
+
+(defpclass EmotionalState [cl tp tired happy afraid distractible ]
+  :meta {:doc "What we believe about the participants emotional state"}
+  ;; For now, these are all numeric ranges between 0 and 100
+  :fields {cognitiveLoad
+           feelingTimePressured
+           tirednes
+           happiness
+           fear
+           distractibility
+           spatialawareness})
+
+;;; fin

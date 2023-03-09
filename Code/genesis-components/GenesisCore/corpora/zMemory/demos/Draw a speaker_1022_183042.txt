@@ -1,0 +1,15 @@
+Start experiment.
+
+Set Deploy novice first switch to false.
+
+Set Real robot button to true.
+
+Set self aware button to true.
+
+Set right panel to Commentary.
+
+Read knowledge in ZZ Basic PS knowledge.
+
+Read knowledge in Steps_Draw a speaker_1022_183042.
+
+Insert into text box: Draw a speaker.

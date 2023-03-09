@@ -1,0 +1,32 @@
+Germany is a country.
+Italy is a country.
+French Republic is a country.
+United Kingdom is a country.
+United States is a country.
+Austria-Hungary is a country. 
+Russia is a country.
+Bosnia is a country.
+Franz Ferdinand is a person.
+
+Franz Ferdinand is a duke.
+Franz Ferdinand rules Austria-Hungary.
+Franz Ferdinand is from Austria-Hungary.
+
+Germany is Austria-Hungary's friend.
+Bosnia is Russia's friend.
+French Republic is United Kingdom's friend.
+French Republic is United States's friend.
+
+Bosnia kills Franz Ferdinand.
+Austria-Hungary attacks Bosnia.
+Russia attacks Austria-Hungary.
+Germany attacks Russia.
+Germany attacks French Republic.
+
+United Kingdom attacks Germany.
+United States attacks Germany.
+French Republic attacks Germany.
+Russia attacks Germany.
+
+United States defeats Germany.
+Russia defeats Germany.

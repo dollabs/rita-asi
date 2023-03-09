@@ -1,0 +1,31 @@
+<h1>What you see</h1>
+
+Genesis reads a story about how an Asian student commits brutal murders.  Then, Genesis is asked about 
+whether the student was motivated by America's glorification of violence.
+
+<p>
+When Genesis reads the story with an Asian model, Genesis inspects that models beliefs and notes that one belief is, in fact,
+that America glorifies violence.  Genesis inserts that belief into the story.
+
+<p>
+The inserted belief triggers rules that connect America's glorification of violence to the murder.  Genesis reports on its own reflections
+and provides a play-by-play articulation of what it has done.
+
+<p>
+When Genesis reads the story with a Western model, Genesis notes no such belief as America glorifies violence and reports
+that the question makes no sense.
+
+<h1>What you can do</h1>
+
+<ul>
+<li> Click on the <i>Inspector</i> button in the upper left pane, then click on the various instances of <i>Murderous influence</i> in the elaboration graph.
+     You see the various ways that <i>America glorifies violence</i> leads to killing.
+</ul>
+
+<h1>Known problem</h1>
+
+You may have to run the demonstration twice to set the desired behavior.
+
+<h1>Reference</h1>
+
+The example is from the MEng thesis of Hiba Awad, based on the work of psychologists Morris and Peng, who studied bias in interpretation between students in schools in China and the United States.

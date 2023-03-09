@@ -1,0 +1,312 @@
+xx is a variable.
+yy is a variable.
+zz is a variable.
+something is a variable.
+
+
+// ========================================
+// Concept 2: On = in
+// ----------------------------
+// 2-1
+If the problem is "xx is in yy".
+Check: Verify that xx is on yy.
+Intention: Put xx on yy.
+The end.
+
+// 2-1
+//If the problem is "xx is on yy".
+//Check: Verify that xx is on yy.
+//Intention: Put xx on yy.
+//The end.
+
+// 2-2\ 2-3\ 2-4
+// --------------- if solid
+If the intention is "Put xx on yy".
+Condition: Verify that xx does not flow to yy.
+//Condition: There is space for xx on yy.
+//Condition: There is nothing on xx.
+Method: Move xx to yy.
+The end.
+
+//If the condition is "Verify that xx does not flow to yy".
+//Check: Verify that xx is not an instance of beverage.
+//The end.
+
+If the condition is "Verify that xx does not flow to yy".
+Check: Verify that xx is not an instance of seed.
+The end.
+
+// --------------- if liquid/ingredient
+If the intention is "Put xx on yy".
+Condition: Verify that xx flows to yy.
+Method: Assume success.
+The end.
+
+If the condition is "Verify that xx flows to yy".
+Check: Verify that xx is not an instance of seed.
+Instantiate: xx is contained in zz.
+Solve: xx moves from zz to yy.
+The end.
+
+
+
+// -------- verify is instance
+If the method is "Verify that xx is not an instance of yy".
+Execute: Call "zCheckInstanceNot" with xx with yy.
+The end.
+
+If the method is "Verify that xx is an instance of yy".
+Execute: Call "zCheckInstance" with xx with yy.
+The end.
+
+
+// ---- ask for container
+If the problem is "xx is contained in zz".
+Intention: xx is contained in zz.
+The end.
+
+If the intention is "xx is contained in zz".
+Method: xx is contained in zz.
+The end.
+
+If the method is "xx is contained in zz".
+Execute: Call "zCheckContain" with xx with zz.
+The end.
+
+
+// ========================================
+// Concept 4: Transfer
+// ----------------------------
+
+// -------- 4-1 ACT - jdTilt
+
+// --------------------
+
+If the problem is "xx moves from yy into zz".
+Intention: xx moves from yy into zz.
+The end.
+
+If the intention is "xx moves from yy into zz".
+Step: yy is above zz.
+Step: yy is tilted.
+Step: yy is on the table.
+The end.
+
+// --------------------
+
+If the problem is "xx moves from yy to zz".
+Intention: xx moves from yy to zz.
+The end.
+
+If the intention is "xx moves from yy to zz".
+Step: yy is above zz.
+Step: yy is tilted.
+Step: yy is on the table.
+The end.
+
+// --------------------
+
+If the problem is "xx moves from yy to table".
+Intention: xx moves from yy to table.
+The end.
+
+If the intention is "xx moves from yy to table".
+Step: xx is on table.
+The end.
+
+// --------------------
+
+If the problem is "xx moves to yy".
+Intention: xx moves from yy to table.
+The end.
+
+If the intention is "xx moves from yy to table".
+Step: xx is on table.
+The end.
+
+// --------------------
+
+If the problem is "xx is tilted".
+Intention: Rotate xx.
+The end.
+
+If the problem is "Rotate xx".
+Intention: Rotate xx.
+The end.
+
+If the intention is "Rotate xx".
+Method: Rotate xx.
+The end.
+
+If the method is "Rotate xx".
+Execute: Call "jdTilt" with xx.
+The end.
+
+
+
+
+
+
+
+
+
+// -------- 2-1 SEE - jdSupportedBy
+
+If the method is "Verify that xx is on yy".
+Execute: Call "jdSupportedBy" with yy with xx.
+//Verify: You are making the salad for me.
+The end.
+
+// -------- 2-4 ACT - jdPutOnWithSpeed
+
+If the method is "Move xx to yy".
+Execute: Call "jdPutOnWithSpeed" with xx with yy.
+The end.
+
+
+// -------- 2-2 SEE - jdFindSpace
+
+// 2-5\ 2-6
+If the condition is "There is space for xx on yy".
+Check: Verify that there is space for xx on yy.
+Instantiate: zz is supported by yy.
+Solve: zz is on the table.
+The end.
+
+If the method is "Verify that there is space for xx on yy".
+Execute: Call "jdFindSpace" with xx with yy.
+The end.
+
+// -------- 2-3 SEE - jdHasClearTop
+If the condition is "There is nothing on xx".
+Check: Verify that nothing is on xx.
+Instantiate: zz is supported by xx.
+Solve: zz is on the table.
+The end.
+
+If the method is "Verify that nothing is on xx".
+Execute: Call "jdHasClearTop" with xx.
+The end.
+
+
+// -------- 2-5 SEE - jdSupported
+
+If the problem is "yy is supported by xx".
+Intention: Verify that yy is supported by xx.
+The end.
+
+If the intention is " Verify that yy is supported by xx".
+Method: Verify that yy is supported by xx.
+The end.
+
+If the method is "Verify that yy is supported by xx".
+Execute: Call "jdSupported" with xx with yy.
+The end.
+
+// -------- 2-6 ACT - jdPutOnWithSpeed
+
+If the problem is "zz is on the table".
+Check: Verify that nothing is on zz.
+Intention: Get rid of zz.
+The end.
+
+If the intention is "Get rid of zz".
+Method: Move zz to table.
+The end.
+
+// If the method is "Move xx to yy".
+// Execute: Call "jdPutOnWithSpeed" with xx with yy.
+// The end.
+
+
+// ========================================
+// Concept 3: Above
+// ----------------------------
+
+// -------- 3-1 ACT - jdPutOverWithSpeed
+
+// 3-1
+If the problem is "xx is above yy".
+Intention: Move xx above yy.
+The end.
+
+If the problem is "Move xx above yy".
+Intention: Move xx above yy.
+The end.
+
+If the intention is "Move xx above yy".
+//Condition: There is space for xx on yy.
+//Condition: There is nothing on xx.
+Method: Move xx above yy.
+The end.
+
+If the method is "Move xx above yy".
+Execute: Call "jdPutOverWithSpeed" with xx with yy.
+The end.
+
+
+
+// ========================================
+// Concept 1: AS
+// ----------------------------
+
+// -------- jdRemember
+// 1-1
+If the problem is "Identify elements".
+Intention: Identify elements.
+The end.
+
+// If the intention is "Identify elements".
+// Step: B1 is known as the cup.
+// The end.
+
+If the problem is "xx is known as yy".
+Intention: Recognize xx as yy.
+The end.
+
+If the intention is "Recognize xx as yy".
+Method: Recognize xx as yy.
+The end.
+
+If the method is "Recognize xx as yy".
+Execute: Call "jdRemember" with xx with yy.
+The end.
+
+
+
+// ----------------------------
+// For kitchen
+// ----------------------------
+
+If the method is "Verify that xx is on the table".
+Execute: Call "jdOnTable" with xx.
+The end.
+
+If the method is "Assume success".
+Execute: Call "zAssumeSuccess".
+The end.
+
+If the method is "Print xx".
+Execute: Call "zPrint" with xx.
+The end.
+
+If the method is "Ask a question".
+Execute: Call "zCheck".
+The end.
+
+If the method is "xx is on the table".
+Execute: Call "zOnTable" with xx.
+The end.
+
+
+// ----------------------------
+// Hell
+// ----------------------------
+
+If the method is "Print xx".
+Execute: Call "zPrint" with xx.
+The end.
+
+//If the method is "Is xx an instance of yy".
+//Execute: Call "jdAskIfType" with xx with yy.
+//The end.

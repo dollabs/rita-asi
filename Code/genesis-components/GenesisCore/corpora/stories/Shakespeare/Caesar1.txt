@@ -1,0 +1,28 @@
+Insert file Start experiment.
+
+First perspective.
+
+Show first perspective.
+
+Note that "Brutus" is a masculine name.
+
+Note that "Cassius" is a masculine name.
+
+Note that "Caesar" is a masculine name.
+
+Insert file General commonsense knowledge.
+
+Insert file General reflective knowledge.
+
+// Supplement to reflective knowledge for Julius Caesar
+
+xx, yy, and zz are entities.
+
+Start description of "Proxy revenge".
+xx's harming yy leads to yy's persuading zz to attack xx.
+yy's persuading zz to attack xx leads to zz's harming xx.
+The end.
+
+Insert file Caesar plot.
+
+

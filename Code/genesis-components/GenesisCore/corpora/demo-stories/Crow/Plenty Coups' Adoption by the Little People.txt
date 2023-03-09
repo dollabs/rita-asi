@@ -1,0 +1,72 @@
+Start experiment.
+
+Note that "Plenty Coups" is a name.
+Note that "Winds" is a name.
+Note that "Bad Storms" is a name.
+Note that "Thunders" is a name.
+Note that "Moon" is a name.
+Note that "Stars" is a name.
+Note that "Dwarf Chief" is a name.
+
+Insert file Crow commonsense knowledge.
+Insert file Crow reflective knowledge.
+
+"Trickster" is a kind of personality trait.
+
+Start story titled "Plenty Coups' Adoption by the Little People".
+
+Plenty Coups is a human.
+Plenty Coups is a person.
+
+Mysterious person is a person.
+
+Dwarf Chief is extraordinary.
+Winds is extraordinary.
+Bad Storms is extraordinary.
+Thunders is extraordinary.
+Moon is extraordinary.
+Stars is extraordinary.
+
+Little Rockies is a place.
+The mystery lodge is a place.
+
+Plenty Coups wanted a vision.
+Plenty Coups's wanting a vision leads to Plenty Coups's traveling to Little Rockies.
+
+Little Rockies is hot.
+
+Plenty Coups becomes weak because Plenty Coups traveled to Little Rockies and Little Rockies is hot.
+Plenty Coups's becoming weak leads to Plenty Coups's having a vision.
+
+Plenty Coups meets a mysterious person because Plenty Coups is having a vision.
+
+The mysterious person does not touch the ground.
+Plenty Coups does not touch the ground because Plenty Coups is having a vision.
+
+Plenty Coups follows the mysterious person because Plenty Coups meets a mysterious person.
+Plenty Coups's following the mysterious person leads to Plenty_Coups's entering mystery lodge.
+Plenty Coups meets Winds because Plenty Coups enters mystery lodge.
+Plenty Coups meets Bad Storms because Plenty Coups enters mystery lodge.
+Plenty Coups meets Thunders because Plenty Coups enters mystery lodge.
+Plenty Coups meets Moon because Plenty Coups enters mystery lodge.
+Plenty Coups meets Stars because Plenty Coups enters mystery lodge.
+
+Bad Storms asks "Why did you bring him here?" because Plenty Coups meets Bad Storms.
+Bad Storms's asking "Why did you bring him here?" leads to Plenty_Coups's becoming sad.
+Plenty Coups's becoming sad leads to Dwarf Chief's inviting Plenty Coups to the north side of the mystery lodge.
+Plenty Coups meets Dwarf Chief because Dwarf Chief invites Plenty Coups to the north side of the mystery lodge.
+Plenty Coups talks to Dwarf Chief because Plenty Coups meets Dwarf Chief.
+
+Plenty Coups's talking to Dwarf Chief leads to Dwarf Chief's honoring Plenty Coups.
+Plenty Coups's talking to Dwarf Chief leads to Dwarf Chief's adopting Plenty Coups.
+
+Plenty Coups's talking to Dwarf Chief leads to Dwarf Chief's not giving Plenty Coups medicine.
+Plenty Coups's having strong medicine leads to Dwarf Chief's not giving Plenty Coups medicine.
+
+Plenty Coups's vision ends.
+Plenty Coups wakes up because Plenty Coups's vision ends.
+Plenty Coups's waking up leads to Plenty Coups's going home.
+
+Dwarf Chief's adopting Plenty Coups leads to Plenty Coups's becoming a great chief.
+
+The end.

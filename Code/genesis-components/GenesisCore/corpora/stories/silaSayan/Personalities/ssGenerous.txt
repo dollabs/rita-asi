@@ -1,0 +1,7 @@
+Start commonsense knowledge.
+
+XX is a person.
+YY is a person.
+EE is an entity.
+
+If XX wants EE and YY wants EE then XX shares EE with YY because XX is generous.

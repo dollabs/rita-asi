@@ -1,0 +1,17 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0032".
+THE HUNTER WOKE UP WHILE THE SONGS OF THE BIRDS COVERED THE SKY.
+THE PRINCESS WAS PROUD TO BE A MEMBER OF THE MEXICA'S SOCIETY.
+THE HUNTER GREATLY RESPECTED THE PRINCESS.
+THE PRINCESS MOVED TO PILFER SOME OF THE HUNTER'S BELONGINGS.
+
+
+
+The end.

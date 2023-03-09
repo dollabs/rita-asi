@@ -1,0 +1,17 @@
+{
+    "instructions": [
+        "put the charger in the bottom center side of the table",
+        "put the dinner fork on the left side of the charger",
+        "put the dinner knife on the right side of the charger",
+        "put the salad fork on the left side of the dinner fork",
+        "put the salad knife on the right side of the dinner knife",
+        "put the soup spoon on the right side of the salad knife",
+        "put the dessert spoon on the top side of the charger with the bowl pointing left",
+        "put the dessert fork between the dessert spoon and the charger with the prongs pointing right",
+        "put the bread plate above the forks",
+        "put the butter knife on the bread plate diagonally with blade pointing top left",
+        "put the water glass above the knifes",
+        "put the napkin on the plate"
+    ],
+    "video_name": "table4"
+}

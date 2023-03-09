@@ -1,0 +1,37 @@
+
+function getTeamMembers(team){
+	firebase.database().ref("teams/"+team+"/members").once('value', function(snapshot) {
+		return snapshot.val();
+	});
+}
+
+function getAllMembers(){
+	firebase.database().ref("teams/").once('value', function(snapshot) {
+		console.log("getting members")
+		var allMembers = [];
+		var teams = snapshot.val();
+		for (i=0; i< Object.keys(teams).length; i++){
+			var team = teams[i];
+			var members = getTeamMembers(team);
+			allMembers.concat(members);
+		}
+		return allMembers
+	});
+}
+
+function populateTeamCheckboxes() {
+	var allMembers = undefined;
+	while(allMembers==undefined){
+		
+	} 
+	getAllMembers();
+	console.log("allmembers: ", allMembers);
+	while(allMembers=="undefined")
+	allMembers.sort();
+	for (i=0; i< allMembers.length; i++){
+		var member = members[i];
+		checkboxes += "<label class = 'memberlabel' ><input type='checkbox'" + 
+			"class = 'newteamcheckbox' value = '"+ member+"'>"+ member +"</label><br>";
+	}
+	Util.one('#newteamlist').innerHTML = checkboxes;
+}

@@ -1,0 +1,49 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set Perform goal analysis (ASPIRE) switch to true.
+
+Set Use similarity rule matching switch to true.
+
+Set Show all story elements switch to true.
+
+Start story titled "Mexican American War".
+
+The United States is a country.
+
+Mexico is a country.
+
+The year is 1846.
+
+Manifest destiny is popular in the United States.
+
+The United States has ambition, has greed, and wants to gain land.
+
+Mexico and the United States disagree over borders.
+
+The United States move into the disputed territory.
+
+Mexican forces attack the United States.
+
+The United States declares war on Mexico.
+
+Winfield Scott leads the United States army.
+
+The United States battles Mexico.
+
+The United States triumphs by capturing Mexico City.
+
+The United States defeats Mexico and wins the war.
+
+The Treaty of Guadalupe Hidalgo officially ends the war, and Mexico cedes territory to the United States.
+
+The end.
+
+Set left panel to sources at conceptnet knowledge.
+
+// Set Perform goal analysis (ASPIRE) switch to false.
+
+// Set Use similarity rule matching switch to false.
+
+

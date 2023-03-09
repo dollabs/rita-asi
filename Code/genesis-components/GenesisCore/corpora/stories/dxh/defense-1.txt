@@ -1,0 +1,71 @@
+// NOTE: THIS STORY MUST BE RUN WITH THE "USE ONLY FIRST EXPLANATION" SWITCH ON.
+// Otherwise, the presumption and explanation rules will both fire.
+
+Start experiment.
+
+
+Show both perspectives.
+Both perspectives.
+
+xx, yy, someone, and zz are persons.
+If xx is yy's spouse, then yy is xx's spouse.
+If xx brandishes a knife, then xx intends to harm someone.
+
+xx may shoot yy because yy intends to harm someone.
+xx can shoot yy because xx despises yy.
+//removed earlier //xx may shoot yy because xx despises yy.
+
+xx may become dead because yy shoots xx.
+If xx shoots yy and yy becomes dead, then xx kills yy.
+
+If yy becomes dead and xx is an entity, then yy cannot stab xx.
+If xx stabs yy, then yy becomes dead.
+
+// CONCEPT PATTERNS
+Start description of "Revenge".
+xx is an entity.
+yy is a entity.
+xx's harming yy leads to yy's harming xx.
+The end.
+
+Start description of "Spiteful violence".
+xx is an entity.
+someone is a entity.
+xx's hating someone leads to xx's killing someone.
+The end.
+
+Start description of "Self-defense".
+xx is an entity.
+yy is a entity.
+someone is an entity.
+yy's intending to harm someone leads to xx's killing yy.
+The end.
+
+Second perspective.
+Start story titled "Hypothetical".
+
+First perspective.
+Start story titled "Intruder brandishes a knife".
+//Start story titled "Self defense 1".
+George, Martha, and Alex are persons.
+
+George is Martha's spouse. 
+
+Alex and Martha despise each other.
+The hour is late. George and Martha are asleep. 
+George and Martha become awake because Alex breaks a window.
+Alex shouts at Martha. Alex brandishes a knife.
+
+Martha shoots Alex.
+//In order to shoot Alex, Martha opened a drawer, Martha withdrew a gun, and Martha aimed at Alex.
+Alex becomes dead.
+
+
+// TODO:
+// Alex stabs George.
+
+
+The end.
+
+Insert question into text box: What would happen if Alex doesn't brandish a knife?
+//Insert question into text box: What would happen if Martha doesn't shoot Alex?

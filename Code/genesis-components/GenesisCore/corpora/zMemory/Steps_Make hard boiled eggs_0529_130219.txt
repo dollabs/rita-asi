@@ -1,0 +1,151 @@
+// ------------------------------
+If the problem is "Make hard boiled eggs".
+Intention: Make hard boiled eggs.
+The end.
+
+If the intention is "Make hard boiled eggs".
+Verify: The water starts not to simmer.
+Step: Cover the eggs.
+Step: Place the eggs into a saucepan.
+Step: Place the saucepan over high heat.
+Step: Cover the pan with a lid.
+Step: Let the pan rest for 17 minutes.
+Step: Drain the hot water.
+Step: Pour cold water over eggs.
+Step: Drain the cold water.
+Step: Refill the saucepan with additional cold water.
+Step: Let the eggs stand to cool down.
+Step: Wait for 20 minutes.
+Step: Peel eggs under run water.
+The end.
+
+If the intention is "Make hard boiled eggs".
+Verify: the water starts simmering.
+Step: Cover the eggs.
+Step: Place the eggs into a saucepan.
+Step: Place the saucepan over high heat.
+Step: turn off heat.
+Step: Cover the pan with a lid.
+Step: Let the pan rest for 17 minutes.
+Step: Drain the hot water.
+Step: Pour cold water over eggs.
+Step: Drain the cold water.
+Step: Refill the saucepan with additional cold water.
+Step: Let the eggs stand to cool down.
+Step: Wait for 20 minutes.
+Step: Peel eggs under run water.
+The end.
+
+If the problem is "Cover the eggs".
+Intention: Cover the eggs.
+The end.
+
+If the intention is "Cover the eggs".
+Method: Assume success.
+The end.
+
+If the problem is "Place the eggs into a saucepan".
+Intention: Place the eggs into a saucepan.
+The end.
+
+If the intention is "Place the eggs into a saucepan".
+Step: The eggs are in a saucepan.
+The end.
+
+// ------------------------------
+If the problem is "Place the saucepan over high heat".
+Intention: Place the saucepan over high heat.
+The end.
+
+If the intention is "Place the saucepan over high heat".
+Step: The saucepan is over high heat.
+The end.
+
+// ------------------------------
+If the problem is "turn off heat".
+Intention: turn off heat.
+The end.
+
+If the intention is "turn off heat".
+Method: Assume success.
+The end.
+
+// ------------------------------
+If the problem is "Cover the pan with a lid".
+Intention: Cover the pan with a lid.
+The end.
+
+If the intention is "Cover the pan with a lid".
+Method: Assume success.
+The end.
+
+If the problem is "Let the pan rest for 17 minutes".
+Intention: Let the pan rest for 17 minutes.
+The end.
+
+If the intention is "Let the pan rest for 17 minutes".
+Method: Assume success.
+The end.
+
+// ------------------------------
+If the problem is "Drain the hot water".
+Intention: Drain the hot water.
+The end.
+
+If the intention is "Drain the hot water".
+Method: Assume success.
+The end.
+
+If the problem is "Pour cold water over eggs".
+Intention: Pour cold water over eggs.
+The end.
+
+If the intention is "Pour cold water over eggs".
+Step: There is cold water over eggs.
+The end.
+
+// ------------------------------
+If the problem is "Drain the cold water".
+Intention: Drain the cold water.
+The end.
+
+If the intention is "Drain the cold water".
+Method: Assume success.
+The end.
+
+// ------------------------------
+If the problem is "Refill the saucepan with additional cold water".
+Intention: Refill the saucepan with additional cold water.
+The end.
+
+If the intention is "Refill the saucepan with additional cold water".
+Method: Assume success.
+The end.
+
+// ------------------------------
+If the problem is "Let the eggs stand to cool down".
+Intention: Let the eggs stand to cool down.
+The end.
+
+If the intention is "Let the eggs stand to cool down".
+Method: Assume success.
+The end.
+
+// ------------------------------
+If the problem is "Wait for 20 minutes".
+Intention: Wait for 20 minutes.
+The end.
+
+If the intention is "Wait for 20 minutes".
+Method: Assume success.
+The end.
+
+// ------------------------------
+If the problem is "Peel eggs under run water".
+Intention: Peel eggs under run water.
+The end.
+
+If the intention is "Peel eggs under run water".
+Step: There are eggs under run water.
+The end.
+

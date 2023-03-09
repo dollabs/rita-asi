@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 11:05:37+08:00", 
+    "instructions": [
+        "put the dinner plate in the center of the table at the bottom", 
+        "put the fork to the left of the dinner plate tines at the top equidistant from the top and bottom of the plate", 
+        "put the salad fork 1 cm to the left of the dinner fork with the tines at the top&lt;br&gt;", 
+        "put the dinner knife to the right of the dinner plate aligned with the dinner fork with the blade at the top&lt;br&gt;", 
+        "put the salad knife blade at the top 1 cm to the right of the dinner knife on the right side of the plate", 
+        "put the soup spoon 1 cm bowl at the top to the right of the salad knife on the right side of the dinner plate", 
+        "put the water glass 1 cm to the left of the tip of the blade of the dinner knife", 
+        "put the wine glass 5 cm to the right of the water glass 5 cm from the bowl of the soup spoon", 
+        "put a wine glass next to the wine glass and 3 cm down from the base of the wine glass already there", 
+        "put coffee cup to the right of the soup spoon", 
+        "put the bread plate above the dinner fork 1 cm from the prong of the dinner fork", 
+        "put the butter knife on a 45 degree angle on the top right corner of the bread plate", 
+        "put the dessert fork horizontally above the dinner plate with the tine near the water glass", 
+        "put the dessert spoon above the dessert fork with the bowl the other end from the dessert fork tines", 
+        "put the napkin on the center of the dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table3"
+}

@@ -1,0 +1,29 @@
+Insert file World War.
+Insert file Beowulf.
+Insert file Simple Macbeth.
+
+Clear story memory.
+
+Start Experiment.
+
+Start Story Titled, "Greinia and Astalir".
+
+Angelina is a character.
+Angelina is similar to Franz Ferdinand.
+
+Greinia is a name.
+Greinia is a country.
+Greinia is similar to the Danes.
+
+Malcom is a character.
+Malcom is similar to Macbeth.
+
+Astalir is a name.
+Astalir is a country.
+Astalir is similar to Austria-Hungary.
+Astalir is similar to Macduff.
+
+Simulate characters.
+Weave character plots.
+
+The end.

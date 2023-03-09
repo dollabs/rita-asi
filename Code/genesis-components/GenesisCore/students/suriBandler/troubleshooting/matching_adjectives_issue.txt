@@ -1,0 +1,15 @@
+
+Start experiment.
+
+xx is an entity. yy is an entity. The author is an entity.
+
+
+Start description of "Blame".
+xx and yy are entities.
+xx says yy commits a negative action.
+Consequently, xx blames yy.
+The end.
+
+Start story titled "Original article of Rebel Perspective".
+
+The author says Max commits a negative action against a negative object. The author says that Max commits a positive action.The end.

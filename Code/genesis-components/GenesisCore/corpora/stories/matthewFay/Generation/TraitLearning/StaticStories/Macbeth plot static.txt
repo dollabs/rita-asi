@@ -1,0 +1,85 @@
+Insert file Macbeth preface.
+
+Macbeth is a person.
+Macduff is a person.
+
+Macbeth is a thane.
+Macduff is a thane.
+
+//Lady Macbeth is evil and greedy.
+
+Duncan is the king.
+Macbeth is Duncan's successor.
+
+Duncan is an enemy of Cawdor.
+Macduff is an enemy of Cawdor.
+
+Duncan is Macduff's friend.
+
+Macbeth defeated Cawdor.
+
+Duncan becomes happy.
+Duncan becomes happy because Macbeth defeated Cawdor.
+
+Macbeth talks with the witches.
+
+//The witches predicted that Macbeth will become king.
+
+The witches astonish Macbeth.
+
+Duncan executes Cawdor.
+
+Duncan rewarded Macbeth.
+Duncan rewarded Macbeth because Duncan became happy.
+
+Macbeth loves Lady Macbeth.
+
+Macbeth wants to please lady Macbeth.
+
+Lady Macbeth persuaded Macbeth to want to become the king.
+Macbeth wants to become king.
+
+Macbeth wants to become king because Lady Macbeth persuaded Macbeth to want to become the king.
+
+Macbeth and Lady Macbeth plan to murder the king.
+
+Macbeth kills Duncan.
+Then, Macbeth angers Macduff.
+
+Macbeth kills the guards.
+
+Then, Macbeth becomes king.
+
+Malcolm and Donalbain become afraid.
+
+Malcolm and Donalbain flee.
+
+Macduff flees to England.
+Macbeth's killing Duncan leads to Macduff's fleeing to England.
+
+Macbeth kills Lady Macduff.
+
+Lady Macbeth becomes distraught.
+Macbeth's killing Duncan leads to Lady Macbeth's becoming distraught.
+
+Lady Macbeth kills herself.
+
+// Witches predicted that Birnam Wood would go to Dunsinane.
+
+Macduff's army attacks Dunsinane.
+
+Macduff curses Macbeth.
+
+Macbeth refuses to surrender.
+
+Macduff kills Macbeth.
+Macduff kills Macbeth because Macbeth killed Duncan.
+
+The end.
+
+
+
+
+
+
+

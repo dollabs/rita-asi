@@ -1,0 +1,224 @@
+xx is a variable.
+yy is a variable.
+zz is a story.
+vv is a variable.
+
+// Electric candle
+
+If the problem is "Make candle".
+Intention: Make candle.
+The end.
+
+If the intention is "Make candle".
+ Step: b2 lies on b8.
+ Step: b7 lies on b2.
+The end.
+
+If the problem is "Replace battery in candle".
+Intention: Replace battery in candle.
+The end.
+
+If the problem is "Replace candle battery".
+Intention: Replace battery in candle.
+The end.
+
+If the intention is "Replace battery in candle".
+ Step: Classify parts.
+ Step: Expose battery.
+ Step: Remove old battery.
+ Step: Replace candle battery.
+ Step: Replace bulb cage.
+ Step: Inspect candle assembly.
+The end.
+
+If the step is "Classify parts".
+Solve: Classify parts.
+The end.
+
+If the problem is "Classify parts".
+Intention: Classify parts.
+The end.
+
+// Must not use "The base is b8" because that screws up classification of "base".
+
+If the intention is "Classify parts".
+Step: B8 is known as the base.
+Step: B2 is known as the battery.
+Step: B4 is known as the battery replacement.
+Step: B7 is known as the bulb cage.
+The end.
+
+If the step is "Install base".
+Check: The base lies on the table.
+Solve: Put the base on the table.
+The end.
+
+If the step is "Inspect candle assembly".
+Solve: Inspect candle assembly.
+The end.
+
+If the problem is "Inspect candle assembly".
+Intention: Inspect candle assembly.
+The end.
+
+If the intention is "Inspect candle assembly".
+Step: The base lies on the table.
+Step: The battery replacement lies on the base.
+Step: The bulb cage lies on the battery replacement.
+The end.
+
+If the step is "Inspect candle".
+Solve: Inspect candle.
+The end.
+
+If the problem is "Inspect candle".
+Intention: Inspect candle.
+The end.
+
+If the intention is "Inspect candle".
+Step: The base lies on the table.
+Step: The battery replacement lies on the base.
+Step: The bulb cage lies on the battery replacement.
+The end.
+
+If the step is "Install battery".
+Check: The battery lies on the base.
+Solve: Put the battery on the base.
+The end.
+
+If the step is "Install bulb cage".
+Check: The bulb cage lies on the battery.
+Solve: Put the bulb cage on the battery.
+The end.
+
+If the step is "Replace bulb cage".
+Check: The bulb cage lies on the battery replacement.
+Solve: Put the bulb cage on the battery replacement.
+The end.
+
+If the step is "Replace candle battery".
+Check: The battery replacement lies on the base.
+Solve: Put the battery replacement on the base.
+The end.
+
+If the step is "Remove old battery".
+Check: The battery lies on the table.
+Solve: Put the battery on the table.
+The end.
+
+If the step is "Expose battery".
+Check: The bulb cage lies on the table.
+Solve: Put the bulb cage on the table.
+The end.
+
+// Cell phone
+
+If the problem is "Demonstrate battery replacement".
+Intention: Demonstrate battery replacement.
+The end.
+
+If the intention is "Demonstrate battery replacement".
+Step: Identify cellphone parts.
+Step: Disassemble cellphone.
+Step: Install replacement battery.
+Step: Reassemble cellphone.
+Step: Inspect cellphone.
+Step: Test cellphone.
+The end.
+
+If the step is "Disassemble cellphone".
+Solve: Disassemble cellphone.
+The end.
+
+If the step is "Inspect cellphone".
+Solve: Inspect cellphone.
+The end.
+
+If the problem is "Inspect cellphone".
+Intention: Inspect cellphone.
+The end.
+
+If the intention is "Inspect cellphone".
+Step: Verify that the replacement battery lies on the cellphone.
+Step: Verify that the cellphone cover lies on the replacement battery.
+The end.
+
+If the problem is "Disassemble cellphone".
+Intention: Disassemble cellphone.
+The end.
+
+/*
+If the intention is "Disassemble cellphone".
+Step: Remove cellphone cover.
+Step: Remove suspect battery.
+The end.
+*/
+
+If the step is "Remove cellphone cover".
+Solve: Put the cellphone cover on the table.
+The end.
+
+If the step is "Remove suspect battery".
+Solve: Put the suspect battery on the table.
+The end.
+
+If the step is "Install replacement battery".
+Check: The replacement battery lies on the cellphone.
+Solve: Put the replacement battery on the cellphone.
+The end.
+
+If the step is "Reassemble cellphone".
+Check: The cellphone cover lies on the replacement battery.
+Solve: Put the cellphone cover on the replacement battery.
+The end.
+
+If the step is "Identify cellphone parts".
+Solve: Identify cellphone parts.
+The end.
+
+If the problem is "Identify cellphone parts".
+Intention: Identify cellphone parts.
+The end.
+
+If the intention is "Identify cellphone parts".
+Step: B1 is known as the cellphone.
+Step: B2 is known as the suspect battery.
+Step: B4 is known as the replacement battery.
+Step: B7 is known as the cellphone cover.
+The end.
+
+If the problem is "Make cellphone".
+Intention: Make cellphone.
+The end.
+
+If the intention is "Make cellphone".
+ Step: b2 lies on b1.
+ Step: b7 lies on b2.
+The end.
+
+If the step is "xx is known as yy".
+Check: xx is known as yy.
+The end.
+
+If the method is "xx is known as yy".
+Execute: Call "jdRemember" with xx with yy.
+The end.
+
+If the step is "Test cellphone".
+Solve: Test cellphone.
+The end.
+
+/*
+If the problem is "Test cellphone".
+Intention: Exercise cellphone.
+The end.
+*/
+
+If the intention is "Exercise cellphone".
+Method: Turn on cellphone.
+The end.
+
+If the method is "Turn on cellphone".
+Execute: Call "jdTestCellPhone".
+The end.
+

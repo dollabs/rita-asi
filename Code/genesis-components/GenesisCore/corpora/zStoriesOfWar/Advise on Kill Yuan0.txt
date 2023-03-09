@@ -1,0 +1,27 @@
+Set Genesis advises human button to true.
+
+Set Use features when matching switch to false.
+
+Set Split names with underscores switch to false.
+
+Set left panel to Commentary.
+
+Set right panel to Blocks.
+
+Set bottom panel to Mental models.
+
+Insert question into text box: How do I make Yuan become dead? pause.
+
+Insert into text box: King may make Yuan become dead. pause.
+
+Insert into text box: I don't know. pause.
+
+Insert into text box: Yes. pause.
+
+// Insert into text box: King believes that Yuan is disloyal. pause.
+
+Insert into text box: Official makes King believe that Yuan is disloyal. pause.
+
+Insert into text box: Someone bribes Official. pause.
+
+Insert into text box: I can bribe Official.

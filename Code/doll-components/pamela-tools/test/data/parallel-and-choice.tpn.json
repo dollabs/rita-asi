@@ -1,0 +1,376 @@
+{
+  "act-21": {
+    "args": [],
+    "argsmap": {},
+    "command": "bounded",
+    "constraints": [],
+    "controllable": false,
+    "display-name": "Bounded",
+    "end-node": "node-15",
+    "plant": "plnt",
+    "tpn-type": "activity",
+    "uid": "act-21"
+  },
+  "act-30": {
+    "args": [],
+    "argsmap": {},
+    "command": "unbounded",
+    "constraints": [],
+    "controllable": false,
+    "display-name": "Unbounded",
+    "end-node": "node-24",
+    "plant": "plnt",
+    "tpn-type": "activity",
+    "uid": "act-30"
+  },
+  "act-46": {
+    "args": [],
+    "argsmap": {},
+    "command": "bounded",
+    "constraints": [],
+    "controllable": false,
+    "display-name": "Bounded",
+    "end-node": "node-40",
+    "plant": "plnt",
+    "tpn-type": "activity",
+    "uid": "act-46"
+  },
+  "act-55": {
+    "args": [],
+    "argsmap": {},
+    "command": "unbounded",
+    "constraints": [],
+    "controllable": false,
+    "display-name": "Unbounded",
+    "end-node": "node-49",
+    "plant": "plnt",
+    "tpn-type": "activity",
+    "uid": "act-55"
+  },
+  "act-71": {
+    "args": [],
+    "argsmap": {},
+    "command": "bounded",
+    "constraints": [],
+    "controllable": false,
+    "display-name": "Bounded",
+    "end-node": "node-65",
+    "plant": "plnt",
+    "tpn-type": "activity",
+    "uid": "act-71"
+  },
+  "act-80": {
+    "args": [],
+    "argsmap": {},
+    "command": "unbounded",
+    "constraints": [],
+    "controllable": false,
+    "display-name": "Unbounded",
+    "end-node": "node-74",
+    "plant": "plnt",
+    "tpn-type": "activity",
+    "uid": "act-80"
+  },
+  "na-17": {
+    "constraints": [],
+    "end-node": "node-12",
+    "tpn-type": "null-activity",
+    "uid": "na-17"
+  },
+  "na-23": {
+    "constraints": [],
+    "end-node": "node-22",
+    "order": 0,
+    "tpn-type": "null-activity",
+    "uid": "na-23"
+  },
+  "na-26": {
+    "constraints": [],
+    "end-node": "node-12",
+    "tpn-type": "null-activity",
+    "uid": "na-26"
+  },
+  "na-32": {
+    "constraints": [],
+    "end-node": "node-31",
+    "order": 1,
+    "tpn-type": "null-activity",
+    "uid": "na-32"
+  },
+  "na-39": {
+    "constraints": [],
+    "end-node": "node-38",
+    "order": 1,
+    "tpn-type": "null-activity",
+    "uid": "na-39"
+  },
+  "na-42": {
+    "constraints": [],
+    "end-node": "node-37",
+    "tpn-type": "null-activity",
+    "uid": "na-42"
+  },
+  "na-48": {
+    "constraints": [],
+    "end-node": "node-47",
+    "order": 0,
+    "tpn-type": "null-activity",
+    "uid": "na-48"
+  },
+  "na-51": {
+    "constraints": [],
+    "end-node": "node-37",
+    "tpn-type": "null-activity",
+    "uid": "na-51"
+  },
+  "na-57": {
+    "constraints": [],
+    "end-node": "node-56",
+    "order": 1,
+    "tpn-type": "null-activity",
+    "uid": "na-57"
+  },
+  "na-64": {
+    "constraints": [],
+    "end-node": "node-63",
+    "order": 2,
+    "tpn-type": "null-activity",
+    "uid": "na-64"
+  },
+  "na-67": {
+    "constraints": [],
+    "end-node": "node-62",
+    "tpn-type": "null-activity",
+    "uid": "na-67"
+  },
+  "na-73": {
+    "constraints": [],
+    "end-node": "node-72",
+    "order": 0,
+    "tpn-type": "null-activity",
+    "uid": "na-73"
+  },
+  "na-76": {
+    "constraints": [],
+    "end-node": "node-62",
+    "tpn-type": "null-activity",
+    "uid": "na-76"
+  },
+  "na-82": {
+    "constraints": [],
+    "end-node": "node-81",
+    "order": 1,
+    "tpn-type": "null-activity",
+    "uid": "na-82"
+  },
+  "net-3-parallel-and-choice": {
+    "begin-node": "node-13",
+    "end-node": "node-62",
+    "tpn-type": "network",
+    "uid": "net-3-parallel-and-choice"
+  },
+  "network-id": "net-3-parallel-and-choice",
+  "node-12": {
+    "activities": [
+      "na-39"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "na-17",
+      "na-26"
+    ],
+    "tpn-type": "p-end",
+    "uid": "node-12"
+  },
+  "node-13": {
+    "activities": [
+      "na-23",
+      "na-32"
+    ],
+    "constraints": [],
+    "end-node": "node-12",
+    "incidence-set": [],
+    "tpn-type": "p-begin",
+    "uid": "node-13"
+  },
+  "node-15": {
+    "activities": [
+      "na-17"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "act-21"
+    ],
+    "tpn-type": "state",
+    "uid": "node-15"
+  },
+  "node-22": {
+    "activities": [
+      "act-21"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "na-23"
+    ],
+    "tpn-type": "state",
+    "uid": "node-22"
+  },
+  "node-24": {
+    "activities": [
+      "na-26"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "act-30"
+    ],
+    "tpn-type": "state",
+    "uid": "node-24"
+  },
+  "node-31": {
+    "activities": [
+      "act-30"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "na-32"
+    ],
+    "tpn-type": "state",
+    "uid": "node-31"
+  },
+  "node-37": {
+    "activities": [
+      "na-64"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "na-51",
+      "na-42"
+    ],
+    "tpn-type": "c-end",
+    "uid": "node-37"
+  },
+  "node-38": {
+    "activities": [
+      "na-48",
+      "na-57"
+    ],
+    "constraints": [],
+    "end-node": "node-37",
+    "incidence-set": [
+      "na-39"
+    ],
+    "tpn-type": "c-begin",
+    "uid": "node-38"
+  },
+  "node-40": {
+    "activities": [
+      "na-42"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "act-46"
+    ],
+    "tpn-type": "state",
+    "uid": "node-40"
+  },
+  "node-47": {
+    "activities": [
+      "act-46"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "na-48"
+    ],
+    "tpn-type": "state",
+    "uid": "node-47"
+  },
+  "node-49": {
+    "activities": [
+      "na-51"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "act-55"
+    ],
+    "tpn-type": "state",
+    "uid": "node-49"
+  },
+  "node-56": {
+    "activities": [
+      "act-55"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "na-57"
+    ],
+    "tpn-type": "state",
+    "uid": "node-56"
+  },
+  "node-62": {
+    "activities": [],
+    "constraints": [],
+    "incidence-set": [
+      "na-67",
+      "na-76"
+    ],
+    "tpn-type": "c-end",
+    "uid": "node-62"
+  },
+  "node-63": {
+    "activities": [
+      "na-82",
+      "na-73"
+    ],
+    "constraints": [],
+    "end-node": "node-62",
+    "incidence-set": [
+      "na-64"
+    ],
+    "tpn-type": "c-begin",
+    "uid": "node-63"
+  },
+  "node-65": {
+    "activities": [
+      "na-67"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "act-71"
+    ],
+    "tpn-type": "state",
+    "uid": "node-65"
+  },
+  "node-72": {
+    "activities": [
+      "act-71"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "na-73"
+    ],
+    "tpn-type": "state",
+    "uid": "node-72"
+  },
+  "node-74": {
+    "activities": [
+      "na-76"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "act-80"
+    ],
+    "tpn-type": "state",
+    "uid": "node-74"
+  },
+  "node-81": {
+    "activities": [
+      "act-80"
+    ],
+    "constraints": [],
+    "incidence-set": [
+      "na-82"
+    ],
+    "tpn-type": "state",
+    "uid": "node-81"
+  }
+}

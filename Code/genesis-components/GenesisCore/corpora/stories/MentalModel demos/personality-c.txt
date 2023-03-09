@@ -1,0 +1,17 @@
+xx and yy are persons.
+
+if xx loves yy, then xx must be crazy.
+
+
+Start description of "Crazy love".
+yy is a person.
+xx's being crazy leads to xx's loving yy.
+The end.
+
+Susan  a person.
+
+Start story titled "Personality C".
+
+Susan cries.
+
+The end.

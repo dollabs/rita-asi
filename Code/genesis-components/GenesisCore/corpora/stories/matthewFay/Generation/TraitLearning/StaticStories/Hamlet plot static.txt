@@ -1,0 +1,48 @@
+Insert file Hamlet preface.
+
+King_Hamlet is the king.
+Claudius is King_Hamlet's successor.
+
+Ophelia loves Hamlet.
+
+Claudius wants to become the king.
+Claudius kills King_Hamlet.
+
+Then, Claudius angers Hamlet.
+
+Then, Claudius becomes king.
+
+Claudius marries Gertrude.
+Hamlet kills Polonius.
+Ophelia becomes insane.
+Ophelia kills herself.
+Gertrude drinks poison.
+Gertrude becomes dead.
+
+Hamlet believes Claudius killed King_Hamlet.
+Hamlet dislikes Claudius.
+
+Polonius goes behind a curtain.
+Hamlet believes Claudius is behind the curtain.
+Hamlet stabs the person behind the curtain.
+
+Polonius becomes dead.
+
+Laertes fought with Hamlet.
+
+Laertes stabs Hamlet.
+Hamlet stabs Laertes.
+
+Gertrude drinks poison.
+Gertrude becomes dead.
+
+Hamlet kills Laertes.
+Hamlet kills Claudius.
+Hamlet kills Claudius because Claudius kils King_Hamlet.
+Laertes kills Hamlet.
+
+
+Hamlet becomes dead.
+
+The end.
+

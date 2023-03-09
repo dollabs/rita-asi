@@ -1,0 +1,3720 @@
+{"Building":
+ {":args":["c1", "c2", "c3", "c4", "c5"],
+  ":fields":
+  {"corridor1":
+   {":access":":private",
+    ":initial":{":names":["c1"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "corridor2":
+   {":access":":private",
+    ":initial":{":names":["c2"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "corridor3":
+   {":access":":private",
+    ":initial":{":names":["c5"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":meta":{":doc":"\"The SAR building\""},
+  ":type":":pclass"},
+ "CenterCorridor":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "ncsn", "scns", "ra", "rb", "rc", "rd",
+   "re", "rf", "rg", "rh", "ri", "rj", "rk"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "c1cx":
+   {":access":":private",
+    ":initial":{":names":["ncsn"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "c2cx":
+   {":access":":private",
+    ":initial":{":names":["scns"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "racx":
+   {":access":":private",
+    ":initial":{":names":["ra"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rbcx":
+   {":access":":private",
+    ":initial":{":names":["rb"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rccx":
+   {":access":":private",
+    ":initial":{":names":["rc"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rdcx":
+   {":access":":private",
+    ":initial":{":names":["rd"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "recx":
+   {":access":":private",
+    ":initial":{":names":["re"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rfcx":
+   {":access":":private",
+    ":initial":{":names":["rf"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rgcx":
+   {":access":":private",
+    ":initial":{":names":["rg"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rhcx":
+   {":access":":private",
+    ":initial":{":names":["rh"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "ricx":
+   {":access":":private",
+    ":initial":{":names":["ri"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rjcx":
+   {":access":":private",
+    ":initial":{":names":["rj"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rkcx":
+   {":access":":private",
+    ":initial":{":names":["rk"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "CorridorJoin":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "cx"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "connection":
+   {":access":":private",
+    ":initial":{":names":["cx"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["Portal"],
+  ":meta":{":doc":"\"A Corridor Join, like a door for corridoors\""},
+  ":methods":
+  {"walk-into-corridor":
+   [{":doc":"\"passes from one corridor into another\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["command"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Walk Into Corridor\"",
+     ":pre":
+     {":type":":or",
+      ":args":
+      [{":type":":equal",
+        ":args":
+        [{":type":":method-arg-ref", ":names":["command"]},
+         {":type":":mode-ref",
+          ":mode-ref":
+          {":type":":symbol-ref", ":names":["Door-commands"]},
+          ":mode":":enter"}]},
+       {":type":":equal",
+        ":args":
+        [{":type":":method-arg-ref", ":names":["command"]},
+         {":type":":mode-ref",
+          ":mode-ref":
+          {":type":":symbol-ref", ":names":["Door-commands"]},
+          ":mode":":leave"}]}]},
+     ":betweens":null,
+     ":post":true,
+     ":display-args":["command"]}]},
+  ":type":":pclass"},
+ "Door":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "cx"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "connection":
+   {":access":":private",
+    ":initial":{":names":["cx"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["Portal"],
+  ":meta":{":doc":"\"A Door\""},
+  ":methods":
+  {"close":
+   [{":doc":"\"closes the door\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["command"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Close\"",
+     ":pre":
+     {":type":":and",
+      ":args":
+      [{":type":":mode-ref",
+        ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+        ":mode":":open"},
+       {":type":":equal",
+        ":args":
+        [{":type":":method-arg-ref", ":names":["command"]},
+         {":type":":mode-ref",
+          ":mode-ref":
+          {":type":":symbol-ref", ":names":["Door-commands"]},
+          ":mode":":close"}]}]},
+     ":betweens":null,
+     ":post":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":closed"},
+     ":display-args":["command"]}],
+   "enter":
+   [{":doc":"\"Enters the doorway\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["command"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Enter\"",
+     ":pre":
+     {":type":":and",
+      ":args":
+      [{":type":":mode-ref",
+        ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+        ":mode":":open"},
+       {":type":":or",
+        ":args":
+        [{":type":":equal",
+          ":args":
+          [{":type":":method-arg-ref", ":names":["command"]},
+           {":type":":mode-ref",
+            ":mode-ref":
+            {":type":":symbol-ref", ":names":["Door-commands"]},
+            ":mode":":leave"}]},
+         {":type":":equal",
+          ":args":
+          [{":type":":method-arg-ref", ":names":["command"]},
+           {":type":":mode-ref",
+            ":mode-ref":
+            {":type":":symbol-ref", ":names":["Door-commands"]},
+            ":mode":":enter"}]}]}]},
+     ":betweens":null,
+     ":post":true,
+     ":display-args":["command"]}],
+   "lock":
+   [{":doc":"\"locks the door\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["command"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Lock\"",
+     ":pre":
+     {":type":":and",
+      ":args":
+      [{":type":":mode-ref",
+        ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+        ":mode":":closed"},
+       {":type":":equal",
+        ":args":
+        [{":type":":method-arg-ref", ":names":["command"]},
+         {":type":":mode-ref",
+          ":mode-ref":
+          {":type":":symbol-ref", ":names":["Door-commands"]},
+          ":mode":":lock"}]}]},
+     ":betweens":null,
+     ":post":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":locked"},
+     ":display-args":["command"]}],
+   "open":
+   [{":doc":"\"opens the door\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["command"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Open\"",
+     ":pre":
+     {":type":":and",
+      ":args":
+      [{":type":":mode-ref",
+        ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+        ":mode":":closed"},
+       {":type":":equal",
+        ":args":
+        [{":type":":method-arg-ref", ":names":["command"]},
+         {":type":":mode-ref",
+          ":mode-ref":
+          {":type":":symbol-ref", ":names":["Door-commands"]},
+          ":mode":":open"}]}]},
+     ":betweens":null,
+     ":post":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":open"},
+     ":display-args":["command"]}],
+   "unlock":
+   [{":doc":"\"unlocks the door\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["command"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Unlock\"",
+     ":pre":
+     {":type":":and",
+      ":args":
+      [{":type":":mode-ref",
+        ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+        ":mode":":locked"},
+       {":type":":equal",
+        ":args":
+        [{":type":":method-arg-ref", ":names":["command"]},
+         {":type":":mode-ref",
+          ":mode-ref":
+          {":type":":symbol-ref", ":names":["Door-commands"]},
+          ":mode":":unlock"}]}]},
+     ":betweens":null,
+     ":post":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":closed"},
+     ":display-args":["command"]}]},
+  ":modes":{":closed":true, ":locked":true, ":open":true},
+  ":type":":pclass"},
+ "Door-commands":
+ {":args":null,
+  ":modes":
+  {":close":true,
+   ":enter":true,
+   ":leave":true,
+   ":lock":true,
+   ":open":true,
+   ":unlock":true},
+  ":type":":pclass"},
+ "DoorlessEntrance":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "cx"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "connection":
+   {":access":":private",
+    ":initial":{":names":["cx"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["Portal"],
+  ":meta":{":doc":"\"A walk-in entrance without a door\""},
+  ":methods":
+  {"walk-into-corridor":
+   [{":doc":"\"Enter through a doorless entrance\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["command"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Walk Into Corridor\"",
+     ":pre":
+     {":type":":or",
+      ":args":
+      [{":type":":equal",
+        ":args":
+        [{":type":":method-arg-ref", ":names":["command"]},
+         {":type":":mode-ref",
+          ":mode-ref":
+          {":type":":symbol-ref", ":names":["Door-commands"]},
+          ":mode":":enter"}]},
+       {":type":":equal",
+        ":args":
+        [{":type":":method-arg-ref", ":names":["command"]},
+         {":type":":mode-ref",
+          ":mode-ref":
+          {":type":":symbol-ref", ":names":["Door-commands"]},
+          ":mode":":leave"}]}]},
+     ":betweens":null,
+     ":post":true,
+     ":display-args":["command"]}]},
+  ":type":":pclass"},
+ "Entrance-Commands":
+ {":args":null,
+  ":modes":
+  {":close":true,
+   ":enter":true,
+   ":leave":true,
+   ":lock":true,
+   ":open":true,
+   ":unlock":true},
+  ":type":":pclass"},
+ "General":
+ {":args":null,
+  ":modes":{":initial":true, ":nothing":true},
+  ":type":":pclass"},
+ "Illumination":
+ {":args":null,
+  ":modes":{":dark":true, ":light":true},
+  ":type":":pclass"},
+ "LeftCorridorSN":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "cc", "scnc", "ra", "rb"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "c1cx":
+   {":access":":private",
+    ":initial":{":names":["cc"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "c2cx":
+   {":access":":private",
+    ":initial":{":names":["scnc"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "racx":
+   {":access":":private",
+    ":initial":{":names":["ra"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rbcx":
+   {":access":":private",
+    ":initial":{":names":["rb"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "LeftCorridorWE":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "scwe", "ra", "rb"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "c1cx":
+   {":access":":private",
+    ":initial":{":names":["scwe"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "racx":
+   {":access":":private",
+    ":initial":{":names":["ra"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rbcx":
+   {":access":":private",
+    ":initial":{":names":["rb"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Light":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "cx"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "connections":
+   {":access":":private",
+    ":initial":{":names":["cx"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":modes":{":dark":true, ":failed":true, ":light":true},
+  ":type":":pclass"},
+ "Minecraft-object-anvil":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Minecraft-object-cauldron":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Minecraft-object-chest":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Minecraft-object-crafting_table":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Minecraft-object-dispenser":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Minecraft-object-flower_pot":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Minecraft-object-furnace":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Minecraft-object-gold_block":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "model-state":
+   {":access":":private", ":initial":":urgent", ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":methods":
+  {"triage":
+   [{":doc":"\"triage\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["command"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Triage\"",
+     ":pre":
+     {":type":":and",
+      ":args":
+      [{":type":":mode-ref",
+        ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+        ":mode":":awaiting-triage"},
+       {":type":":equal",
+        ":args":
+        [{":type":":method-arg-ref", ":names":["command"]},
+         {":type":":mode-ref",
+          ":mode-ref":
+          {":type":":symbol-ref", ":names":["Victim-commands"]},
+          ":mode":":triage"}]}]},
+     ":betweens":null,
+     ":post":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":saved"},
+     ":display-args":["command"]}]},
+  ":modes":
+  {":awaiting-triage":true,
+   ":being-triaged":true,
+   ":dead":true,
+   ":saved":true},
+  ":type":":pclass"},
+ "Minecraft-object-ladder":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Minecraft-object-lever":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "cx"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "connections":
+   {":access":":private",
+    ":initial":{":names":["cx"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":methods":
+  {"switch":
+   [{":doc":"\"switch\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["command"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Switch\"",
+     ":pre":
+     {":type":":and",
+      ":args":
+      [{":type":":mode-ref",
+        ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+        ":mode":":off"},
+       {":type":":or",
+        ":args":
+        [{":type":":equal",
+          ":args":
+          [{":type":":method-arg-ref", ":names":["command"]},
+           {":type":":mode-ref",
+            ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+            ":mode":":on"}]},
+         {":type":":equal",
+          ":args":
+          [{":type":":method-arg-ref", ":names":["command"]},
+           {":type":":mode-ref",
+            ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+            ":mode":":off"}]}]}]},
+     ":betweens":null,
+     ":post":true,
+     ":display-args":["command"]}]},
+  ":modes":{":failed":true, ":off":true, ":on":true},
+  ":type":":pclass"},
+ "Minecraft-object-prismarine":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "model-state":
+   {":access":":private", ":initial":":good", ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":methods":
+  {"triage":
+   [{":doc":"\"triage\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["command"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Triage\"",
+     ":pre":
+     {":type":":and",
+      ":args":
+      [{":type":":mode-ref",
+        ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+        ":mode":":awaiting-triage"},
+       {":type":":equal",
+        ":args":
+        [{":type":":method-arg-ref", ":names":["command"]},
+         {":type":":mode-ref",
+          ":mode-ref":
+          {":type":":symbol-ref", ":names":["Victim-commands"]},
+          ":mode":":triage"}]}]},
+     ":betweens":null,
+     ":post":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":saved"},
+     ":display-args":["command"]}]},
+  ":modes":
+  {":awaiting-triage":true,
+   ":being-triaged":true,
+   ":dead":true,
+   ":saved":true},
+  ":type":":pclass"},
+ "Minecraft-object-stone_button":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Minecraft-object-wall_sign":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Minecraft-object-wooden_button":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Minecraft-object-wool":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Portal":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "cx"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "connection":
+   {":access":":private",
+    ":initial":{":names":["cx"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "RectangularVolume":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":type":":pclass"},
+ "RightCorridorNS":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "cc", "ncsn"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "c1cx":
+   {":access":":private",
+    ":initial":{":names":["ncsn"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "RightCorridorWE":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "ncwe", "ra", "rb", "rc", "rd"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "c1cx":
+   {":access":":private",
+    ":initial":{":names":["ncwe"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "racx":
+   {":access":":private",
+    ":initial":{":names":["ra"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rbcx":
+   {":access":":private",
+    ":initial":{":names":["rb"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rccx":
+   {":access":":private",
+    ":initial":{":names":["rc"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "rdcx":
+   {":access":":private",
+    ":initial":{":names":["rd"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":type":":pclass"},
+ "Room":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "cx"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "doorcx":
+   {":access":":private",
+    ":initial":{":names":["cx"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["RectangularVolume"],
+  ":meta":{":doc":"\"A Single Door Room\""},
+  ":modes":
+  {":unvisited":
+   {":args":
+    [{":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["General"]},
+      ":mode":":initial"}],
+    ":type":":or"},
+   ":visited":true},
+  ":type":":pclass"},
+ "SituatedObject":
+ {":args":null,
+  ":fields":
+  {"motion_x":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_y":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_z":
+   {":access":":private", ":initial":0, ":observable":false},
+   "pitch":{":access":":private", ":initial":0, ":observable":false},
+   "space":
+   {":access":":private", ":initial":null, ":observable":false},
+   "x":{":access":":private", ":initial":0, ":observable":false},
+   "y":{":access":":private", ":initial":0, ":observable":false},
+   "yaw":{":access":":private", ":initial":0, ":observable":false},
+   "z":{":access":":private", ":initial":0, ":observable":false}},
+  ":meta":{":doc":"\"Where the entity is located\""},
+  ":type":":pclass"},
+ "Sparky":
+ {":args":null,
+  ":fields":
+  {"CC-LSN":
+   {":access":":private",
+    ":initial":
+    {":name":
+     "\"Intersection between center corridor and left north-south corridor\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "CC-LSNEntrance":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2140, 173, 52, -2137, 173, 53,
+      "\"Corridor Intersection CC-LSN\"",
+      {":type":":field-ref", ":names":["CC-LSN"]}],
+     ":pclass":"CorridorJoin",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "CC-R208a":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from center corridor to room 208a\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "CC-R208aDoor":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2119, 173, 52, -2119, 173, 53, "\"Door between CC-R208a\"",
+      {":type":":field-ref", ":names":["CC-R208a"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "CC-R208b":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from center corridor to room 208b\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "CC-R208bDoor":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2128, 173, 52, -2128, 173, 53, "\"Door between CC-R208b\"",
+      {":type":":field-ref", ":names":["CC-R208b"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "CC-R209":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from center corridor to room 209\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "CC-R209Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2132, 178, 52, -2132, 178, 53, "\"Door between CC-R209\"",
+      {":type":":field-ref", ":names":["CC-R209"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "CC-R210":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from center corridor to room 210\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "CC-R210Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2113, 173, 52, -2113, 173, 53, "\"Door between CC-R210\"",
+      {":type":":field-ref", ":names":["CC-R210"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "CC-R211":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from center corridor room 211\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "CC-R211Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2128, 178, 52, -2128, 178, 53, "\"Door between CC-R211\"",
+      {":type":":field-ref", ":names":["CC-R211"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "CC-R215":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from center corridor to room 215\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "CC-R215Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2111, 178, 52, -2111, 178, 53, "\"Door between CC-R215\"",
+      {":type":":field-ref", ":names":["CC-R215"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "CC-RNS":
+   {":access":":private",
+    ":initial":
+    {":name":
+     "\"Intersection from center corridor to right south-north corridor\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "CC-RNSEntrance":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2140, 178, 52, -2137, 178, 53,
+      "\"Corridor Intersection CC-RNS\"",
+      {":type":":field-ref", ":names":["CC-RNS"]}],
+     ":pclass":"CorridorJoin",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Center":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2152, 174, 52, -2109, 177, 55, "\"Center Corridor\"",
+      {":type":":field-ref", ":names":["SADoor"]},
+      {":type":":field-ref", ":names":["CC-RNS"]},
+      {":type":":field-ref", ":names":["CC-LSN"]},
+      {":type":":field-ref", ":names":["CC-R215"]},
+      {":type":":field-ref", ":names":["CC-R210"]},
+      {":type":":field-ref", ":names":["CC-R208a"]},
+      {":type":":field-ref", ":names":["CC-R211"]},
+      {":type":":field-ref", ":names":["CC-R208b"]},
+      {":type":":field-ref", ":names":["CC-R209"]},
+      {":type":":field-ref", ":names":["MensRoom"]},
+      {":type":":field-ref", ":names":["WomensRoom"]},
+      {":type":":field-ref", ":names":["E1-Entrance"]},
+      {":type":":field-ref", ":names":["E2-Entrance"]}],
+     ":pclass":"CenterCorridor",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Clights":
+   {":access":":private",
+    ":initial":{":name":"\"Corridor lights\"", ":type":":lvar"},
+    ":observable":false},
+   "E1":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2151, 179, 52, -2147, 185, 55, "\"Elevator 1\"",
+      {":type":":field-ref", ":names":["E1-Entrance"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "E1-Entrance":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Entrance to elevator 1\"", ":type":":lvar"},
+    ":observable":false},
+   "E1-EntranceDoor":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2149, 178, 52, -2149, 178, 53, "\"Elevator 1 entrance\"",
+      {":type":":field-ref", ":names":["E1-Entrance"]}],
+     ":pclass":"DoorlessEntrance",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "E2":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2152, 179, 52, -2146, 185, 55, "\"Elevator 2\"",
+      {":type":":field-ref", ":names":["E2-Entrance"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "E2-Entrance":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Entrance to elevator 2\"", ":type":":lvar"},
+    ":observable":false},
+   "E2-EntranceDoor":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2145, 178, 52, -2145, 178, 53, "\"Elevator 2 entrance\"",
+      {":type":":field-ref", ":names":["E2-Entrance"]}],
+     ":pclass":"DoorlessEntrance",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "LSN-LWE":
+   {":access":":private",
+    ":initial":
+    {":name":
+     "\"Intersection between left north-south corridor and left west-east corridor\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "LSN-LWEEntrance":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2136, 153, 52, -2136, 156, 53,
+      "\"Corridor Intersection LSN-SWE\"",
+      {":type":":field-ref", ":names":["LSN-LWE"]}],
+     ":pclass":"CorridorJoin",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "LSN-R201":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from left north-south corridor to room 201\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "LSN-R201Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2136, 162, 52, -2136, 162, 53, "\"Door between LSN-R201\"",
+      {":type":":field-ref", ":names":["LSN-R201"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "LSN-RJ":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from left north-south corridor to room J\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "LSN-RJDoor":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2136, 170, 52, -2136, 170, 53, "\"Door between LSN-RJ\"",
+      {":type":":field-ref", ":names":["LSN-RJ"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "LWE-R203":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from left west-east corridor to room 203\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "LWE-R203Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2127, 157, 52, -2127, 157, 53, "\"Door between LWE-R203\"",
+      {":type":":field-ref", ":names":["LWE-R203"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "LWE-R205":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from left west-east corridor to room 205\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "LWE-R205Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2121, 157, 52, -2121, 157, 53, "\"Door between LWE-R205\"",
+      {":type":":field-ref", ":names":["LWE-R205"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "LeftSN":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2140, 153, 52, -2137, 172, 55, "\"Left Corridor North-SouthS\"",
+      {":type":":field-ref", ":names":["CC-LSN"]},
+      {":type":":field-ref", ":names":["LSN-LWE"]},
+      {":type":":field-ref", ":names":["LSN-RJ"]},
+      {":type":":field-ref", ":names":["LSN-R201"]}],
+     ":pclass":"LeftCorridorSN",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "LeftWE":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2135, 153, 52, -2109, 156, 55, "\"Left Corridor West-East\"",
+      {":type":":field-ref", ":names":["LSN-LWE"]},
+      {":type":":field-ref", ":names":["LWE-R203"]},
+      {":type":":field-ref", ":names":["LWE-R205"]}],
+     ":pclass":"LeftCorridorWE",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "MenRInt-door":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Internal door in mens room\"", ":type":":lvar"},
+    ":observable":false},
+   "MenRInt-doorDoor":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2145, 162, 52, -2145, 162, 53, "\"Room 2 Internal door\"",
+      {":type":":field-ref", ":names":["MenRInt-door"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "MenRR":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2146, 159, 52, -2142, 172, 55, "\"Mens rest room\"",
+      {":type":":field-ref", ":names":["MensRoom"]},
+      {":type":":field-ref", ":names":["MenRInt-door"]}],
+     ":pclass":"TwoDoorRoom",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "MensRoom":
+   {":access":":private",
+    ":initial":{":name":"\"Entrance to mens room\"", ":type":":lvar"},
+    ":observable":false},
+   "MensRoomDoor":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2145, 173, 52, -2145, 164, 53, "\"Mens Room Entrance\"",
+      {":type":":field-ref", ":names":["MensRoom"]}],
+     ":pclass":"DoorlessEntrance",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "R201light":
+   {":access":":private",
+    ":initial":{":name":"\"Room 201 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R203light":
+   {":access":":private",
+    ":initial":{":name":"\"Room 203 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R205-R207":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from room 205 to room 207\"", ":type":":lvar"},
+    ":observable":false},
+   "R205-R207Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2112, 157, 52, -2112, 157, 53, "\"Door between R205-R207\"",
+      {":type":":field-ref", ":names":["R205-R207"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "R205light":
+   {":access":":private",
+    ":initial":{":name":"\"Room 205 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R207light":
+   {":access":":private",
+    ":initial":{":name":"\"Room 207 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R208light1":
+   {":access":":private",
+    ":initial":{":name":"\"Room 208 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R208light2":
+   {":access":":private",
+    ":initial":{":name":"\"Room 208 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R209light":
+   {":access":":private",
+    ":initial":{":name":"\"Room 209 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R210light":
+   {":access":":private",
+    ":initial":{":name":"\"Room 210 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R211light":
+   {":access":":private",
+    ":initial":{":name":"\"Room 211 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R213Light":
+   {":access":":private",
+    ":initial":{":name":"\"Room 213 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R215light":
+   {":access":":private",
+    ":initial":{":name":"\"Room 215 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R216light1":
+   {":access":":private",
+    ":initial":{":name":"\"Room 216 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R216light2":
+   {":access":":private",
+    ":initial":{":name":"\"Room 216 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R218-R213":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door between room 218 and room 213\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "R218-R213Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2118, 186, 52, -2118, 186, 53, "\"Door between R218-R213\"",
+      {":type":":field-ref", ":names":["R218-R213"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "R218light":
+   {":access":":private",
+    ":initial":{":name":"\"Room 218 light\"", ":type":":lvar"},
+    ":observable":false},
+   "R220-R215":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door between room 220 and room 215\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "R220-R215Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2113, 186, 52, -2113, 186, 53, "\"Door between R220-R215\"",
+      {":type":":field-ref", ":names":["R220-R215"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "R220light":
+   {":access":":private",
+    ":initial":{":name":"\"Room 220 light\"", ":type":":lvar"},
+    ":observable":false},
+   "RJlight":
+   {":access":":private",
+    ":initial":{":name":"\"Room J light\"", ":type":":lvar"},
+    ":observable":false},
+   "RNS-RWE":
+   {":access":":private",
+    ":initial":
+    {":name":
+     "\"Intersection from right south-north corridor to right west-east corridor\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "RNS-RWEEntrance":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2136, 195, 52, -2136, 198, 53,
+      "\"Corridor Intersection RNS-RWE\"",
+      {":type":":field-ref", ":names":["RNS-RWE"]}],
+     ":pclass":"CorridorJoin",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "RWE-R216a":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from right west-east to room 216a\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "RWE-R216aDoor":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2125, 194, 52, -2125, 194, 53, "\"Door between RWE-R216a\"",
+      {":type":":field-ref", ":names":["RWE-R216a"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "RWE-R216b":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from right west-east corridor to room 216b\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "RWE-R216bDoor":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2134, 194, 52, -2134, 194, 53, "\"Door between RWE-R216b\"",
+      {":type":":field-ref", ":names":["RWE-R216b"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "RWE-R218":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from right west-east corridor to room 218\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "RWE-R218Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2120, 194, 52, -2120, 194, 53, "\"Door between RWE-R218\"",
+      {":type":":field-ref", ":names":["RWE-R218"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "RWE-R220":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from right west-east corridor to room 220\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "RWE-R220Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2113, 194, 52, -2113, 194, 53, "\"Door between RWE-R220\"",
+      {":type":":field-ref", ":names":["RWE-R220"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "RightNS":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2140, 179, 52, -2137, 198, 55, "\"Right Corridor South-North\"",
+      {":type":":field-ref", ":names":["CC-RNS"]},
+      {":type":":field-ref", ":names":["RNS-RWE"]}],
+     ":pclass":"RightCorridorNS",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "RightWE":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2135, 195, 52, -2109, 198, 55, "\"Right Corridor West-East\"",
+      {":type":":field-ref", ":names":["RNS-RWE"]},
+      {":type":":field-ref", ":names":["RWE-R220"]},
+      {":type":":field-ref", ":names":["RWE-R218"]},
+      {":type":":field-ref", ":names":["RWE-R216a"]},
+      {":type":":field-ref", ":names":["RWE-R216b"]}],
+     ":pclass":"RightCorridorWE",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room201":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2135, 158, 52, -2130, 164, 55, "\"Room 201\"",
+      {":type":":field-ref", ":names":["LSN-R201"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room203":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2128, 158, 52, -2124, 164, 55, "\"Room 203\"",
+      {":type":":field-ref", ":names":["LWE-R203"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room205":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2122, 158, 52, -2118, 164, 55, "\"Room 205\"",
+      {":type":":field-ref", ":names":["LWE-R205"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room207":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2116, 158, 52, -2109, 164, 55, "\"Room 207\"",
+      {":type":":field-ref", ":names":["R205-R207"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room208":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2133, 166, 52, -2117, 172, 55, "\"Room 208\"",
+      {":type":":field-ref", ":names":["CC-R208a"]},
+      {":type":":field-ref", ":names":["CC-R208b"]}],
+     ":pclass":"TwoDoorRoom",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room209":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2134, 179, 52, -2131, 185, 55, "\"Room 209\"",
+      {":type":":field-ref", ":names":["CC-R209"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room210":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2115, 166, 52, -2109, 172, 55, "\"Room 210\"",
+      {":type":":field-ref", ":names":["CC-R210"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room211":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2129, 179, 52, -2125, 185, 55, "\"Room 211\"",
+      {":type":":field-ref", ":names":["CC-R211"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room213":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2123, 179, 52, -2117, 185, 55, "\"Room 213\"",
+      {":type":":field-ref", ":names":["R218-R213"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room215":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2115, 179, 52, -2109, 185, 55, "\"Room 215\"",
+      {":type":":field-ref", ":names":["CC-R215"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room216":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2135, 187, 52, -2124, 193, 55, "\"Room 216\"",
+      {":type":":field-ref", ":names":["RWE-R216a"]},
+      {":type":":field-ref", ":names":["RWE-R216b"]}],
+     ":pclass":"TwoDoorRoom",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room218":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2122, 187, 52, -2117, 193, 55, "\"Room 218\"",
+      {":type":":field-ref", ":names":["R218-R213"]},
+      {":type":":field-ref", ":names":["RWE-R218"]}],
+     ":pclass":"TwoDoorRoom",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "Room220":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2115, 187, 52, -2109, 193, 55, "\"Room 220\"",
+      {":type":":field-ref", ":names":["RWE-R220"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "RoomJ":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2135, 166, 52, -2134, 172, 55, "\"Room J\"",
+      {":type":":field-ref", ":names":["LSN-RJ"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "SADoor":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Door from staging area into the test building.\"",
+     ":type":":lvar"},
+    ":observable":false},
+   "SADoorDoor":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2153, 175, 52, -2153, 176, 53, "\"Staging Area Door\"",
+      {":type":":field-ref", ":names":["SADoor"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "SAlight":
+   {":access":":private",
+    ":initial":{":name":"\"Staging area light\"", ":type":":lvar"},
+    ":observable":false},
+   "StagingArea":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2164, 157, 52, -2154, 194, 55, "\"Staging Area\"",
+      {":type":":field-ref", ":names":["SADoor"]}],
+     ":pclass":"Room",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "WomRR":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2151, 159, 52, -2147, 172, 55, "\"Womens rest room\"",
+      {":type":":field-ref", ":names":["WomensRoom"]},
+      {":type":":field-ref", ":names":["WomenRInt-door1"]},
+      {":type":":field-ref", ":names":["WomenRInt-door2"]}],
+     ":pclass":"ThreeDoorRoom",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "WomenRInt-door1":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Internal door in womens room (a)\"", ":type":":lvar"},
+    ":observable":false},
+   "WomenRInt-door1Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2148, 162, 52, -2148, 162, 53, "\"Room 1 Internal door #1\"",
+      {":type":":field-ref", ":names":["WomenRInt-door1"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "WomenRInt-door2":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Internal door in womens room (b)\"", ":type":":lvar"},
+    ":observable":false},
+   "WomenRInt-door2Door":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2147, 161, 52, -2147, 161, 53, "\"Room 1 Internal door #2\"",
+      {":type":":field-ref", ":names":["WomenRInt-door2"]}],
+     ":pclass":"Door",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "WomensRoom":
+   {":access":":private",
+    ":initial":
+    {":name":"\"Entrance to womens room\"", ":type":":lvar"},
+    ":observable":false},
+   "WomensRoomDoor":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2149, 173, 52, -2149, 173, 53, "\"Womens Room Entrance\"",
+      {":type":":field-ref", ":names":["WomensRoom"]}],
+     ":pclass":"DoorlessEntrance",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "anvil35433":
+   {":access":":private",
+    ":initial":
+    {":args":[-2142, 160, 52, -2142, 160, 52, "\"anvil\""],
+     ":pclass":"Minecraft-object-anvil",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "anvil35434":
+   {":access":":private",
+    ":initial":
+    {":args":[-2150, 162, 52, -2150, 162, 52, "\"anvil\""],
+     ":pclass":"Minecraft-object-anvil",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "anvil35435":
+   {":access":":private",
+    ":initial":
+    {":args":[-2150, 160, 52, -2150, 160, 52, "\"anvil\""],
+     ":pclass":"Minecraft-object-anvil",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35332":
+   {":access":":private",
+    ":initial":
+    {":args":[-2109, 179, 52, -2109, 179, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35333":
+   {":access":":private",
+    ":initial":
+    {":args":[-2110, 159, 52, -2110, 159, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35334":
+   {":access":":private",
+    ":initial":
+    {":args":[-2112, 159, 52, -2112, 159, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35335":
+   {":access":":private",
+    ":initial":
+    {":args":[-2114, 159, 52, -2114, 159, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35336":
+   {":access":":private",
+    ":initial":
+    {":args":[-2115, 187, 52, -2115, 187, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35337":
+   {":access":":private",
+    ":initial":
+    {":args":[-2115, 172, 52, -2115, 172, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35338":
+   {":access":":private",
+    ":initial":
+    {":args":[-2117, 191, 52, -2117, 191, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35339":
+   {":access":":private",
+    ":initial":
+    {":args":[-2117, 185, 52, -2117, 185, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35340":
+   {":access":":private",
+    ":initial":
+    {":args":[-2117, 171, 52, -2117, 171, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35341":
+   {":access":":private",
+    ":initial":
+    {":args":[-2125, 172, 52, -2125, 172, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35342":
+   {":access":":private",
+    ":initial":
+    {":args":[-2129, 179, 52, -2129, 179, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35343":
+   {":access":":private",
+    ":initial":
+    {":args":[-2132, 193, 52, -2132, 193, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35344":
+   {":access":":private",
+    ":initial":
+    {":args":[-2132, 170, 52, -2132, 170, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35345":
+   {":access":":private",
+    ":initial":
+    {":args":[-2134, 163, 52, -2134, 163, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35346":
+   {":access":":private",
+    ":initial":
+    {":args":[-2135, 184, 52, -2135, 184, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35347":
+   {":access":":private",
+    ":initial":
+    {":args":[-2135, 171, 52, -2135, 171, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35348":
+   {":access":":private",
+    ":initial":
+    {":args":[-2144, 168, 52, -2144, 168, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cauldron35349":
+   {":access":":private",
+    ":initial":
+    {":args":[-2148, 168, 52, -2148, 168, 52, "\"cauldron\""],
+     ":pclass":"Minecraft-object-cauldron",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "cclamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2143, 177, 54, -2143, 177, 54, "\"Center Corridor lights\"",
+      {":type":":field-ref", ":names":["Clights"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35388":
+   {":access":":private",
+    ":initial":
+    {":args":[-2109, 166, 54, -2109, 166, 54, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35389":
+   {":access":":private",
+    ":initial":
+    {":args":[-2112, 185, 52, -2112, 185, 52, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35390":
+   {":access":":private",
+    ":initial":
+    {":args":[-2113, 185, 53, -2113, 185, 53, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35391":
+   {":access":":private",
+    ":initial":
+    {":args":[-2113, 185, 52, -2113, 185, 52, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35392":
+   {":access":":private",
+    ":initial":
+    {":args":[-2124, 187, 54, -2124, 187, 54, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35393":
+   {":access":":private",
+    ":initial":
+    {":args":[-2124, 187, 52, -2124, 187, 52, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35394":
+   {":access":":private",
+    ":initial":
+    {":args":[-2125, 190, 52, -2125, 190, 52, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35395":
+   {":access":":private",
+    ":initial":
+    {":args":[-2125, 189, 52, -2125, 189, 52, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35396":
+   {":access":":private",
+    ":initial":
+    {":args":[-2125, 185, 54, -2125, 185, 54, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35397":
+   {":access":":private",
+    ":initial":
+    {":args":[-2128, 166, 52, -2128, 166, 52, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35398":
+   {":access":":private",
+    ":initial":
+    {":args":[-2130, 161, 52, -2130, 161, 52, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35399":
+   {":access":":private",
+    ":initial":
+    {":args":[-2133, 193, 53, -2133, 193, 53, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35400":
+   {":access":":private",
+    ":initial":
+    {":args":[-2133, 193, 52, -2133, 193, 52, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35401":
+   {":access":":private",
+    ":initial":
+    {":args":[-2133, 185, 54, -2133, 185, 54, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35402":
+   {":access":":private",
+    ":initial":
+    {":args":[-2134, 193, 53, -2134, 193, 53, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "chest35403":
+   {":access":":private",
+    ":initial":
+    {":args":[-2134, 168, 52, -2134, 168, 52, "\"chest\""],
+     ":pclass":"Minecraft-object-chest",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "crafting_table35387":
+   {":access":":private",
+    ":initial":
+    {":args":[-2127, 187, 52, -2127, 187, 52, "\"crafting_table\""],
+     ":pclass":"Minecraft-object-crafting_table",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "dispenser35301":
+   {":access":":private",
+    ":initial":
+    {":args":[-2146, 172, 52, -2146, 172, 52, "\"dispenser\""],
+     ":pclass":"Minecraft-object-dispenser",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35436":
+   {":access":":private",
+    ":initial":
+    {":args":[-2109, 198, 52, -2109, 198, 52, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35437":
+   {":access":":private",
+    ":initial":
+    {":args":[-2109, 195, 52, -2109, 195, 52, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35438":
+   {":access":":private",
+    ":initial":
+    {":args":[-2109, 193, 52, -2109, 193, 52, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35439":
+   {":access":":private",
+    ":initial":
+    {":args":[-2109, 187, 52, -2109, 187, 52, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35440":
+   {":access":":private",
+    ":initial":
+    {":args":[-2109, 177, 52, -2109, 177, 52, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35441":
+   {":access":":private",
+    ":initial":
+    {":args":[-2109, 174, 52, -2109, 174, 52, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35442":
+   {":access":":private",
+    ":initial":
+    {":args":[-2109, 168, 53, -2109, 168, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35443":
+   {":access":":private",
+    ":initial":
+    {":args":[-2112, 161, 53, -2112, 161, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35444":
+   {":access":":private",
+    ":initial":
+    {":args":[-2115, 171, 53, -2115, 171, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35445":
+   {":access":":private",
+    ":initial":
+    {":args":[-2117, 170, 53, -2117, 170, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35446":
+   {":access":":private",
+    ":initial":
+    {":args":[-2119, 190, 53, -2119, 190, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35447":
+   {":access":":private",
+    ":initial":
+    {":args":[-2121, 182, 53, -2121, 182, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35448":
+   {":access":":private",
+    ":initial":
+    {":args":[-2121, 168, 53, -2121, 168, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35449":
+   {":access":":private",
+    ":initial":
+    {":args":[-2125, 164, 53, -2125, 164, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35450":
+   {":access":":private",
+    ":initial":
+    {":args":[-2127, 182, 53, -2127, 182, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35451":
+   {":access":":private",
+    ":initial":
+    {":args":[-2131, 189, 53, -2131, 189, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35452":
+   {":access":":private",
+    ":initial":
+    {":args":[-2132, 166, 53, -2132, 166, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35453":
+   {":access":":private",
+    ":initial":
+    {":args":[-2133, 161, 53, -2133, 161, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35454":
+   {":access":":private",
+    ":initial":
+    {":args":[-2135, 183, 53, -2135, 183, 53, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35455":
+   {":access":":private",
+    ":initial":
+    {":args":[-2140, 198, 52, -2140, 198, 52, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "flower_pot35456":
+   {":access":":private",
+    ":initial":
+    {":args":[-2140, 153, 52, -2140, 153, 52, "\"flower_pot\""],
+     ":pclass":"Minecraft-object-flower_pot",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "furnace35300":
+   {":access":":private",
+    ":initial":
+    {":args":[-2134, 193, 52, -2134, 193, 52, "\"furnace\""],
+     ":pclass":"Minecraft-object-furnace",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "gold_block35380":
+   {":access":":private",
+    ":initial":
+    {":args":[-2109, 185, 52, -2109, 185, 52, "\"victim a\""],
+     ":pclass":"Minecraft-object-gold_block",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "gold_block35381":
+   {":access":":private",
+    ":initial":
+    {":args":[-2110, 164, 52, -2110, 164, 52, "\"victim b\""],
+     ":pclass":"Minecraft-object-gold_block",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "gold_block35382":
+   {":access":":private",
+    ":initial":
+    {":args":[-2118, 168, 52, -2118, 168, 52, "\"victim c\""],
+     ":pclass":"Minecraft-object-gold_block",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "gold_block35383":
+   {":access":":private",
+    ":initial":
+    {":args":[-2125, 171, 52, -2125, 171, 52, "\"victim d\""],
+     ":pclass":"Minecraft-object-gold_block",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "gold_block35384":
+   {":access":":private",
+    ":initial":
+    {":args":[-2134, 192, 52, -2134, 192, 52, "\"victim e\""],
+     ":pclass":"Minecraft-object-gold_block",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "gold_block35385":
+   {":access":":private",
+    ":initial":
+    {":args":[-2135, 166, 52, -2135, 166, 52, "\"victim f\""],
+     ":pclass":"Minecraft-object-gold_block",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "gold_block35386":
+   {":access":":private",
+    ":initial":
+    {":args":[-2148, 180, 52, -2148, 180, 52, "\"victim g\""],
+     ":pclass":"Minecraft-object-gold_block",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "ladder35412":
+   {":access":":private",
+    ":initial":
+    {":args":[-2134, 167, 53, -2134, 167, 53, "\"ladder\""],
+     ":pclass":"Minecraft-object-ladder",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "ladder35413":
+   {":access":":private",
+    ":initial":
+    {":args":[-2134, 167, 52, -2134, 167, 52, "\"ladder\""],
+     ":pclass":"Minecraft-object-ladder",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "leftSNlamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2139, 164, 54, -2139, 164, 54, "\"Left SN Corridor lights\"",
+      {":type":":field-ref", ":names":["Clights"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "leftWElamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2120, 155, 54, -2120, 155, 54, "\"Left WE Corridor lights\"",
+      {":type":":field-ref", ":names":["Clights"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever35379":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2151, 174, 53, -2151, 174, 53, "\"lever\"",
+      {":type":":field-ref", ":names":["SAlight"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43148":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2109, 170, 53, -2109, 170, 53, "\"Room 210 light switch\"",
+      {":type":":field-ref", ":names":["R210light"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43149":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2113, 179, 53, -2113, 179, 53, "\"Room 215 light switch\"",
+      {":type":":field-ref", ":names":["R215light"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43150":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2114, 192, 53, -2114, 192, 53, "\"Room 220 light switch\"",
+      {":type":":field-ref", ":names":["R220light"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43152":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2117, 181, 53, -2117, 181, 53, "\"Room 213 light switch\"",
+      {":type":":field-ref", ":names":["R213Light"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43153":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2118, 192, 53, -2118, 192, 53, "\"Room 218 light switch\"",
+      {":type":":field-ref", ":names":["R218light"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43154":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2120, 160, 53, -2120, 160, 53, "\"Room 205 light switch\"",
+      {":type":":field-ref", ":names":["R205light"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43155":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2121, 172, 53, -2121, 172, 53, "\"Room 208 light switch\"",
+      {":type":":field-ref", ":names":["R208light1"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43156":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2125, 160, 53, -2125, 160, 53, "\"Room 203 light switch\"",
+      {":type":":field-ref", ":names":["R203light"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43157":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2126, 193, 53, -2126, 193, 53, "\"Room 216 light switch\"",
+      {":type":":field-ref", ":names":["R216light2"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43158":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2126, 180, 53, -2126, 180, 53, "\"Room 211 light switch\"",
+      {":type":":field-ref", ":names":["R211light"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43159":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2130, 172, 53, -2130, 172, 53, "\"Room 208 light switch\"",
+      {":type":":field-ref", ":names":["R208light2"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43160":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2132, 193, 53, -2132, 193, 53, "\"Room 216 light\"",
+      {":type":":field-ref", ":names":["R216light1"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43161":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2134, 180, 53, -2134, 180, 53, "\"Room 209 light switch\"",
+      {":type":":field-ref", ":names":["R209light"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43162":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2134, 170, 53, -2134, 170, 53, "\"Room J light switch\"",
+      {":type":":field-ref", ":names":["RJlight"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43163":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2134, 163, 53, -2134, 163, 53, "\"Room 201 light switch\"",
+      {":type":":field-ref", ":names":["R201light"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43164":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2143, 177, 53, -2143, 177, 53, "\"Corridor lights switch\"",
+      {":type":":field-ref", ":names":["Clights"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43165":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2151, 177, 53, -2151, 177, 53, "\"Corridor lights switch\"",
+      {":type":":field-ref", ":names":["Clights"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "lever43166":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2186, 165, 29, -2186, 165, 29, "\"Corridor lights switch\"",
+      {":type":":field-ref", ":names":["Clights"]}],
+     ":pclass":"Minecraft-object-lever",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35414":
+   {":access":":private",
+    ":initial":
+    {":args":[-2109, 158, 52, -2109, 158, 52, "\"victim 1\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35415":
+   {":access":":private",
+    ":initial":
+    {":args":[-2110, 188, 52, -2110, 188, 52, "\"victim 2\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35416":
+   {":access":":private",
+    ":initial":
+    {":args":[-2110, 171, 52, -2110, 171, 52, "\"victim 3\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35417":
+   {":access":":private",
+    ":initial":
+    {":args":[-2113, 190, 52, -2113, 190, 52, "\"victim 4\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35418":
+   {":access":":private",
+    ":initial":
+    {":args":[-2115, 181, 52, -2115, 181, 52, "\"victim 5\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35419":
+   {":access":":private",
+    ":initial":
+    {":args":[-2115, 166, 52, -2115, 166, 52, "\"victim 6\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35420":
+   {":access":":private",
+    ":initial":
+    {":args":[-2116, 160, 52, -2116, 160, 52, "\"victim 7\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35421":
+   {":access":":private",
+    ":initial":
+    {":args":[-2118, 180, 52, -2118, 180, 52, "\"victim 8\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35422":
+   {":access":":private",
+    ":initial":
+    {":args":[-2119, 187, 52, -2119, 187, 52, "\"victim 9\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35423":
+   {":access":":private",
+    ":initial":
+    {":args":[-2120, 185, 52, -2120, 185, 52, "\"victim 10\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35424":
+   {":access":":private",
+    ":initial":
+    {":args":[-2124, 188, 52, -2124, 188, 52, "\"victim 11\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35425":
+   {":access":":private",
+    ":initial":
+    {":args":[-2124, 164, 52, -2124, 164, 52, "\"victim 12\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35426":
+   {":access":":private",
+    ":initial":
+    {":args":[-2125, 184, 52, -2125, 184, 52, "\"victim 13\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35427":
+   {":access":":private",
+    ":initial":
+    {":args":[-2130, 162, 52, -2130, 162, 52, "\"victim 14\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35428":
+   {":access":":private",
+    ":initial":
+    {":args":[-2133, 164, 52, -2133, 164, 52, "\"victim 15\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35429":
+   {":access":":private",
+    ":initial":
+    {":args":[-2142, 165, 52, -2142, 165, 52, "\"victim 16\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35430":
+   {":access":":private",
+    ":initial":
+    {":args":[-2142, 161, 52, -2142, 161, 52, "\"victim 17\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35431":
+   {":access":":private",
+    ":initial":
+    {":args":[-2145, 182, 52, -2145, 182, 52, "\"victim 18\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "prismarine35432":
+   {":access":":private",
+    ":initial":
+    {":args":[-2148, 160, 52, -2148, 160, 52, "\"victim 19\""],
+     ":pclass":"Minecraft-object-prismarine",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r201lamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2134, 163, 54, -2134, 163, 54, "\"Room 201 light\"",
+      {":type":":field-ref", ":names":["R201light"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r203lamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2125, 160, 54, -2125, 160, 54, "\"Room 203 light\"",
+      {":type":":field-ref", ":names":["R203light"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r205lamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2120, 160, 54, -2120, 160, 54, "\"Room 205 light\"",
+      {":type":":field-ref", ":names":["R205light"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r208lamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2130, 172, 54, -2130, 172, 54, "\"Room 208 light\"",
+      {":type":":field-ref", ":names":["R208light2"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r209lamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2134, 180, 54, -2134, 180, 54, "\"Room 209 light\"",
+      {":type":":field-ref", ":names":["R209light"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r210lamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2109, 170, 54, -2109, 170, 54, "\"Room 210 light\"",
+      {":type":":field-ref", ":names":["R210light"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r211lamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2126, 180, 54, -2126, 180, 54, "\"Room 211 light\"",
+      {":type":":field-ref", ":names":["R211light"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r213lamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2117, 181, 54, -2117, 181, 54, "\"Room 213 light\"",
+      {":type":":field-ref", ":names":["R213Light"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r215lamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2113, 179, 54, -2113, 179, 54, "\"Room 215 light\"",
+      {":type":":field-ref", ":names":["R215light"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r216lamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2126, 193, 54, -2126, 193, 54, "\"Room 216 light\"",
+      {":type":":field-ref", ":names":["R216light2"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r218lamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2118, 192, 54, -2118, 192, 54, "\"Room 218 light\"",
+      {":type":":field-ref", ":names":["R218light"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r220lamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2114, 192, 54, -2114, 192, 54, "\"Room 220 light\"",
+      {":type":":field-ref", ":names":["R220light"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "rJlamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2134, 170, 54, -2134, 170, 54, "\"Room J light\"",
+      {":type":":field-ref", ":names":["RJlight"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "rightNSlamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2139, 189, 54, -2139, 189, 54, "\"Right NS Corridor lights\"",
+      {":type":":field-ref", ":names":["Clights"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "rightWElamp":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [-2120, 196, 54, -2120, 196, 54, "\"Right WE Corridor lights\"",
+      {":type":":field-ref", ":names":["Clights"]}],
+     ":pclass":"Light",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "stone_button35406":
+   {":access":":private",
+    ":initial":
+    {":args":[-2143, 168, 53, -2143, 168, 53, "\"stone_button\""],
+     ":pclass":"Minecraft-object-stone_button",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "stone_button35407":
+   {":access":":private",
+    ":initial":
+    {":args":[-2149, 168, 53, -2149, 168, 53, "\"stone_button\""],
+     ":pclass":"Minecraft-object-stone_button",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "stone_button35408":
+   {":access":":private",
+    ":initial":
+    {":args":[-2156, 180, 53, -2156, 180, 53, "\"stone_button\""],
+     ":pclass":"Minecraft-object-stone_button",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "stone_button35409":
+   {":access":":private",
+    ":initial":
+    {":args":[-2175, 186, 52, -2175, 186, 52, "\"stone_button\""],
+     ":pclass":"Minecraft-object-stone_button",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "stone_button35410":
+   {":access":":private",
+    ":initial":
+    {":args":[-2180, 179, 53, -2180, 179, 53, "\"stone_button\""],
+     ":pclass":"Minecraft-object-stone_button",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "stone_button35411":
+   {":access":":private",
+    ":initial":
+    {":args":[-2183, 177, 53, -2183, 177, 53, "\"stone_button\""],
+     ":pclass":"Minecraft-object-stone_button",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35302":
+   {":access":":private",
+    ":initial":
+    {":args":[-2110, 177, 53, -2110, 177, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35303":
+   {":access":":private",
+    ":initial":
+    {":args":[-2112, 185, 53, -2112, 185, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35304":
+   {":access":":private",
+    ":initial":
+    {":args":[-2114, 195, 53, -2114, 195, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35305":
+   {":access":":private",
+    ":initial":
+    {":args":[-2114, 187, 53, -2114, 187, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35306":
+   {":access":":private",
+    ":initial":
+    {":args":[-2114, 174, 53, -2114, 174, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35307":
+   {":access":":private",
+    ":initial":
+    {":args":[-2117, 187, 53, -2117, 187, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35308":
+   {":access":":private",
+    ":initial":
+    {":args":[-2120, 174, 53, -2120, 174, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35309":
+   {":access":":private",
+    ":initial":
+    {":args":[-2121, 195, 53, -2121, 195, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35310":
+   {":access":":private",
+    ":initial":
+    {":args":[-2126, 195, 53, -2126, 195, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35311":
+   {":access":":private",
+    ":initial":
+    {":args":[-2127, 177, 53, -2127, 177, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35312":
+   {":access":":private",
+    ":initial":
+    {":args":[-2129, 174, 53, -2129, 174, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35313":
+   {":access":":private",
+    ":initial":
+    {":args":[-2131, 177, 53, -2131, 177, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35314":
+   {":access":":private",
+    ":initial":
+    {":args":[-2135, 195, 53, -2135, 195, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35315":
+   {":access":":private",
+    ":initial":
+    {":args":[-2135, 193, 52, -2135, 193, 52, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35316":
+   {":access":":private",
+    ":initial":
+    {":args":[-2135, 190, 52, -2135, 190, 52, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35317":
+   {":access":":private",
+    ":initial":
+    {":args":[-2135, 189, 52, -2135, 189, 52, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35318":
+   {":access":":private",
+    ":initial":
+    {":args":[-2135, 187, 52, -2135, 187, 52, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35319":
+   {":access":":private",
+    ":initial":
+    {":args":[-2137, 169, 53, -2137, 169, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35320":
+   {":access":":private",
+    ":initial":
+    {":args":[-2137, 161, 53, -2137, 161, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35321":
+   {":access":":private",
+    ":initial":
+    {":args":[-2144, 177, 53, -2144, 177, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35322":
+   {":access":":private",
+    ":initial":
+    {":args":[-2144, 172, 54, -2144, 172, 54, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35323":
+   {":access":":private",
+    ":initial":
+    {":args":[-2146, 184, 52, -2146, 184, 52, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35324":
+   {":access":":private",
+    ":initial":
+    {":args":[-2148, 177, 53, -2148, 177, 53, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35325":
+   {":access":":private",
+    ":initial":
+    {":args":[-2148, 172, 54, -2148, 172, 54, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35326":
+   {":access":":private",
+    ":initial":
+    {":args":[-2149, 184, 52, -2149, 184, 52, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35327":
+   {":access":":private",
+    ":initial":
+    {":args":[-2154, 176, 54, -2154, 176, 54, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35328":
+   {":access":":private",
+    ":initial":
+    {":args":[-2154, 175, 54, -2154, 175, 54, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35329":
+   {":access":":private",
+    ":initial":
+    {":args":[-2155, 173, 52, -2155, 173, 52, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35330":
+   {":access":":private",
+    ":initial":
+    {":args":[-2156, 179, 52, -2156, 179, 52, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wall_sign35331":
+   {":access":":private",
+    ":initial":
+    {":args":[-2183, 177, 54, -2183, 177, 54, "\"wall_sign\""],
+     ":pclass":"Minecraft-object-wall_sign",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wooden_button35404":
+   {":access":":private",
+    ":initial":
+    {":args":[-2143, 159, 53, -2143, 159, 53, "\"wooden_button\""],
+     ":pclass":"Minecraft-object-wooden_button",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wooden_button35405":
+   {":access":":private",
+    ":initial":
+    {":args":[-2149, 159, 53, -2149, 159, 53, "\"wooden_button\""],
+     ":pclass":"Minecraft-object-wooden_button",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wool35350":
+   {":access":":private",
+    ":initial":
+    {":args":[-2156, 180, 52, -2156, 180, 52, "\"wool\""],
+     ":pclass":"Minecraft-object-wool",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wool35351":
+   {":access":":private",
+    ":initial":
+    {":args":[-2174, 179, 52, -2174, 179, 52, "\"wool\""],
+     ":pclass":"Minecraft-object-wool",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wool35352":
+   {":access":":private",
+    ":initial":
+    {":args":[-2176, 191, 52, -2176, 191, 52, "\"wool\""],
+     ":pclass":"Minecraft-object-wool",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wool35353":
+   {":access":":private",
+    ":initial":
+    {":args":[-2177, 191, 52, -2177, 191, 52, "\"wool\""],
+     ":pclass":"Minecraft-object-wool",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wool35354":
+   {":access":":private",
+    ":initial":
+    {":args":[-2180, 178, 52, -2180, 178, 52, "\"wool\""],
+     ":pclass":"Minecraft-object-wool",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wool35355":
+   {":access":":private",
+    ":initial":
+    {":args":[-2180, 176, 52, -2180, 176, 52, "\"wool\""],
+     ":pclass":"Minecraft-object-wool",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wool35356":
+   {":access":":private",
+    ":initial":
+    {":args":[-2181, 179, 52, -2181, 179, 52, "\"wool\""],
+     ":pclass":"Minecraft-object-wool",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wool35357":
+   {":access":":private",
+    ":initial":
+    {":args":[-2181, 178, 52, -2181, 178, 52, "\"wool\""],
+     ":pclass":"Minecraft-object-wool",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wool35358":
+   {":access":":private",
+    ":initial":
+    {":args":[-2181, 177, 52, -2181, 177, 52, "\"wool\""],
+     ":pclass":"Minecraft-object-wool",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wool35359":
+   {":access":":private",
+    ":initial":
+    {":args":[-2181, 176, 52, -2181, 176, 52, "\"wool\""],
+     ":pclass":"Minecraft-object-wool",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wool35360":
+   {":access":":private",
+    ":initial":
+    {":args":[-2181, 175, 52, -2181, 175, 52, "\"wool\""],
+     ":pclass":"Minecraft-object-wool",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "wool35361":
+   {":access":":private",
+    ":initial":
+    {":args":[-2182, 177, 53, -2182, 177, 53, "\"wool\""],
+     ":pclass":"Minecraft-object-wool",
+     ":type":":pclass-ctor"},
+    ":observable":false}},
+  ":meta":{":doc":"\"Constructor of the SAR scenario\""},
+  ":type":":pclass"},
+ "ThreeDoorRoom":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "cx", "cx2", "cx3"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "doorcx":
+   {":access":":private",
+    ":initial":{":names":["cx"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "doorcx2":
+   {":access":":private",
+    ":initial":{":names":["cx2"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "doorcx3":
+   {":access":":private",
+    ":initial":{":names":["cx3"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["Room"],
+  ":meta":{":doc":"\"A Three Door Room\""},
+  ":modes":
+  {":unvisited":
+   {":args":
+    [{":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["General"]},
+      ":mode":":initial"}],
+    ":type":":or"},
+   ":visited":true},
+  ":type":":pclass"},
+ "TwoDoorRoom":
+ {":args":
+  ["topLeftX", "topLeftZ", "topLeftY", "bottomRightX", "bottomRightZ",
+   "bottomRightY", "name", "cx", "cx2"],
+  ":fields":
+  {"br-x":
+   {":access":":private",
+    ":initial":{":names":["bottomRightX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-y":
+   {":access":":private",
+    ":initial":{":names":["bottomRightZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "br-z":
+   {":access":":private",
+    ":initial":{":names":["bottomRightY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "doorcx":
+   {":access":":private",
+    ":initial":{":names":["cx"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "doorcx2":
+   {":access":":private",
+    ":initial":{":names":["cx2"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-x":
+   {":access":":private",
+    ":initial":{":names":["topLeftX"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-y":
+   {":access":":private",
+    ":initial":{":names":["topLeftZ"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tl-z":
+   {":access":":private",
+    ":initial":{":names":["topLeftY"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "v-name":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":inherit":["Room"],
+  ":meta":{":doc":"\"A Two Door Room\""},
+  ":modes":
+  {":unvisited":
+   {":args":
+    [{":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["General"]},
+      ":mode":":initial"}],
+    ":type":":or"},
+   ":visited":true},
+  ":type":":pclass"},
+ "Victim-commands":
+ {":args":null, ":modes":{":triage":true}, ":type":":pclass"},
+ "lvars":
+ {":lvars":
+  {"\"Corridor lights\"":":unset",
+   "\"Door between room 218 and room 213\"":":unset",
+   "\"Door between room 220 and room 215\"":":unset",
+   "\"Door from center corridor room 211\"":":unset",
+   "\"Door from center corridor to room 208a\"":":unset",
+   "\"Door from center corridor to room 208b\"":":unset",
+   "\"Door from center corridor to room 209\"":":unset",
+   "\"Door from center corridor to room 210\"":":unset",
+   "\"Door from center corridor to room 215\"":":unset",
+   "\"Door from left north-south corridor to room 201\"":":unset",
+   "\"Door from left north-south corridor to room J\"":":unset",
+   "\"Door from left west-east corridor to room 203\"":":unset",
+   "\"Door from left west-east corridor to room 205\"":":unset",
+   "\"Door from right west-east corridor to room 216b\"":":unset",
+   "\"Door from right west-east corridor to room 218\"":":unset",
+   "\"Door from right west-east corridor to room 220\"":":unset",
+   "\"Door from right west-east to room 216a\"":":unset",
+   "\"Door from room 205 to room 207\"":":unset",
+   "\"Door from staging area into the test building.\"":":unset",
+   "\"Entrance to elevator 1\"":":unset",
+   "\"Entrance to elevator 2\"":":unset",
+   "\"Entrance to mens room\"":":unset",
+   "\"Entrance to womens room\"":":unset",
+   "\"Internal door in mens room\"":":unset",
+   "\"Internal door in womens room (a)\"":":unset",
+   "\"Internal door in womens room (b)\"":":unset",
+   "\"Intersection between center corridor and left north-south corridor\"":
+   ":unset",
+   "\"Intersection between left north-south corridor and left west-east corridor\"":
+   ":unset",
+   "\"Intersection from center corridor to right south-north corridor\"":
+   ":unset",
+   "\"Intersection from right south-north corridor to right west-east corridor\"":
+   ":unset",
+   "\"Room 201 light\"":":unset",
+   "\"Room 203 light\"":":unset",
+   "\"Room 205 light\"":":unset",
+   "\"Room 207 light\"":":unset",
+   "\"Room 208 light\"":":unset",
+   "\"Room 209 light\"":":unset",
+   "\"Room 210 light\"":":unset",
+   "\"Room 211 light\"":":unset",
+   "\"Room 213 light\"":":unset",
+   "\"Room 215 light\"":":unset",
+   "\"Room 216 light\"":":unset",
+   "\"Room 218 light\"":":unset",
+   "\"Room 220 light\"":":unset",
+   "\"Room J light\"":":unset",
+   "\"Staging area light\"":":unset"},
+  ":type":":lvars"}}

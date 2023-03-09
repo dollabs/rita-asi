@@ -1,0 +1,225 @@
+[
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST3",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASIST3"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "dfd93873-0bad-420d-94f0-4198bc613aa8",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Research_Account",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "Research_Account"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "dfd93873-0bad-420d-94f0-4198bc613aa8",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "ASIST3",
+      "values": "switch"
+    },
+    "exchange": "rita",
+    "mission-id": "dfd93873-0bad-420d-94f0-4198bc613aa8",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "dfd93873-0bad-420d-94f0-4198bc613aa8",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 201 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 201 light switch",
+          "subject": "ASIST3"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 201 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST3",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "ASIST3",
+      "uid": "se16975"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "ASIST3",
+      "values": "switch"
+    },
+    "exchange": "rita",
+    "mission-id": "dfd93873-0bad-420d-94f0-4198bc613aa8",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Research_Account",
+      "values": {
+        "action": "select-tool",
+        "object": "asistmod:item_first_aid",
+        "subject": "Research_Account"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "dfd93873-0bad-420d-94f0-4198bc613aa8",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "dfd93873-0bad-420d-94f0-4198bc613aa8",
+    "prediction-stats": {
+      "aggregate-stats": {
+        "breakdown": {
+          "false": 454,
+          "true": 823,
+          "unknown": 52
+        },
+        "total": 1329
+      },
+      "aggregate-stats-detail": {
+        "MissionTracker--goto-room": {
+          "counts": {
+            "false": 154,
+            "true": 10
+          },
+          "probability": {
+            "false": 0.9390243902439024,
+            "true": 0.06097560975609756
+          },
+          "totals": 164
+        },
+        "StateEstimation--enter-room": {
+          "counts": {
+            "false": 185,
+            "true": 238,
+            "unknown": 33
+          },
+          "probability": {
+            "false": 0.4057017543859649,
+            "true": 0.5219298245614035,
+            "unknown": 0.07236842105263158
+          },
+          "totals": 456
+        },
+        "StateEstimation--exit-room": {
+          "counts": {
+            "true": 423,
+            "unknown": 3
+          },
+          "probability": {
+            "true": 0.9929577464788732,
+            "unknown": 0.007042253521126761
+          },
+          "totals": 426
+        },
+        "StateEstimation--next-room-to-visit": {
+          "counts": {
+            "false": 7,
+            "true": 35,
+            "unknown": 2
+          },
+          "probability": {
+            "false": 0.1590909090909091,
+            "true": 0.7954545454545455,
+            "unknown": 0.04545454545454545
+          },
+          "totals": 44
+        },
+        "StateEstimation--set-switch-state": {
+          "counts": {
+            "false": 1
+          },
+          "probability": {
+            "false": 1.0
+          },
+          "totals": 1
+        },
+        "StateEstimation--triage-victim": {
+          "counts": {
+            "false": 107,
+            "true": 117,
+            "unknown": 14
+          },
+          "probability": {
+            "false": 0.4495798319327731,
+            "true": 0.4915966386554622,
+            "unknown": 0.05882352941176471
+          },
+          "totals": 238
+        }
+      },
+      "mission-stats": {
+        "breakdown": {
+          "false": 1
+        },
+        "total": 1
+      },
+      "mission-stats-detail": {
+        "StateEstimation--set-switch-state": {
+          "counts": {
+            "false": 1
+          },
+          "probability": {
+            "false": 1.0
+          },
+          "totals": 1
+        }
+      },
+      "unhandled-timeouts": 0
+    },
+    "received-routing-key": "prediction-stats",
+    "routing-key": "prediction-stats"
+  }
+]

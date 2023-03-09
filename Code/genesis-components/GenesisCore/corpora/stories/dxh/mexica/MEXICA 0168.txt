@@ -1,0 +1,20 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0168".
+THE WARRIOR TRIED TO SEDUCE THE HUNTER HOPING THAT THE SLAVE WOULD BE JEALOUS. THE SLAVE GOT REALLY MAD!
+THE WARRIOR WAS AWARE THAT THE SLAVE HATED HIM. HE HAD TO ESCAPE.
+THE WARRIOR DECIDED TO GO TO THE GREAT CITY.
+THE HUNTER TRIED TO SEXUALLY ASSAULT THE WARRIOR.
+THE WARRIOR WAS FURIOUS WITH THE HUNTER'S ATTITUDE.
+THE WARRIOR THREATENED TO KILL THE HUNTER. HE DECIDED TO HIDE IN THE VOLCANO.
+THE END.
+
+
+
+The end.

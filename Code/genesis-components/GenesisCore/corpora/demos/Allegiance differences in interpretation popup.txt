@@ -1,0 +1,19 @@
+<h1>What you see</h1>
+
+Genesis uses two sets of common sense rules and concept patterns to read a short, simple version of the Estonian-Russian cyberwar of 2007 and constructs two <i>elaboration graphs</i>.
+
+<p>
+The elaboration graph on the left reflects the view of someone allied with Estonia; there is an instance of <i>Misguided retaliation</i>.
+The elaboration graph on the right reflects the view of someone allied with Russia; there is an instance of <i>Teaching a lesson</i>.
+
+<p> The upper right pane explains the discovered concept patterns. 
+
+<h1>What you can do</h1>
+
+<ul>
+<li> Click or right click to zoom in or out on the elaboration graph.  Press and drag to move the elaboration graph.
+<li> Press the <i>Aggression of a bully</i> button at the bottom of the left elaboration graph 
+and press the <i>Teaching a lesson</i> button on the right.  Examine the elements involved in the <i>Inspector</i> pane.
+     You see that the only differences is which country the reader considers as a friend.
+</ul>
+

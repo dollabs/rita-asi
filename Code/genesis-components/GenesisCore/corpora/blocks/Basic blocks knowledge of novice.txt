@@ -1,0 +1,110 @@
+xx is a variable.
+yy is a variable.
+zz is a story.
+vv is a variable.
+
+//// Blocks world with just one robot arm.
+// General knowledge about blocks world problem solving
+
+If the step is "The xx is yy".
+Check: The xx is yy.
+The end.
+
+If the method is "The xx is yy".
+Execute: Call "jdRemember" with xx with yy.
+The end.
+
+
+If the problem is "Put xx on yy".
+Intention: Put xx on yy.
+The end.
+
+If the intention is "Put xx on yy".
+Condition: There is space for xx on yy.
+Condition: Verify that nothing is on xx.
+Method: Move xx to yy.
+The end.
+
+If the method is "Move xx to yy".
+Execute: Call "jdPutOn" with xx with yy.
+The end.
+
+If the condition is "There is space for xx on yy".
+Check: Verify that there is space for xx on yy.
+Instantiate: zz is supported by yy.
+Solve: Get rid of zz.
+The end.
+
+If the method is "Verify that there is space for xx on yy".
+Execute: Call "jdFindSpace" with xx with yy.
+The end.
+
+If the condition is "xx lies on yy".
+Check: xx lies on yy.
+Solve: Put xx on yy.
+The end.
+
+If the condition is "Verify that xx lies on yy".
+Check: Verify that xx lies on yy.
+Solve: Put xx on yy.
+The end.
+
+If the method is "Verify that xx lies on yy".
+Execute: Call "jdSupportedBy" with yy with xx.
+The end.
+
+
+If the method is "xx lies on yy".
+Execute: Call "jdSupportedBy" with yy with xx.
+The end.
+
+If the condition is "Verify that nothing is on xx".
+Check: Verify that nothing is on xx.
+Instantiate: yy is supported by xx.
+Solve: Get rid of yy.
+The end.
+
+If the method is "Verify that nothing is on xx".
+Execute: Call "jdHasClearTop" with xx.
+The end.
+
+If the intention is "Get rid of yy".
+Condition: Verify that nothing is on yy.
+Method: Move yy to table.
+The end.
+
+// If the problem is "Clear the top of xx".
+// Intention: Clear the top of xx.
+// The end.
+
+If the intention is "Clear the top of xx".
+Check: Clear the top of xx.
+The end.
+
+If the condition is "Clear the top of xx".
+Check: Verify that nothing is on xx.
+Instantiate: yy is supported by xx.
+Solve: Get rid of yy.
+The end.
+
+// If the problem is "Get rid of yy".
+// Intention: Get rid of yy.
+// The end.
+
+
+
+If the method is "Make space for xx on yy".
+Execute: Call "jdFindSpace" with xx with yy.
+The end.
+
+// If the problem is "yy is supported by xx".
+// Intention: yy is supported by xx.
+// The end.
+
+If the intention is "yy is supported by xx".
+Method: yy is supported by xx.
+The end.
+
+If the method is "yy is supported by xx".
+Execute: Call "jdSupported" with xx with yy.
+The end.

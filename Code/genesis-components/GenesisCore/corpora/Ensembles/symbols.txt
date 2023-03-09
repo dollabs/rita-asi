@@ -1,0 +1,20 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+
+xx and yy are persons.
+symposium audience are persons.
+
+ways are entities.
+
+// If xx tricks yy, then xx must want to make an impression on yy.
+// If xx amazes yy, then xx must want to make an impression on yy.
+If xx amazes yy, then yy thinks something is extraordinary.
+If yy applauds, then yy thinks something is extraordinary.
+
+Start story titled "Symbols".
+Tom amazed Jerry.
+// The symposium audience is tricked.
+The symposium audience is applauding.
+The end.

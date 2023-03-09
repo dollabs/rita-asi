@@ -1,0 +1,49 @@
+{parallel-feasible
+ {:args [],
+  :meta {:doc "A feasible choice to be chewed by contraint solver"},
+  :methods
+  {main
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :parallel,
+       :body
+       [{:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this option]},
+         :args [],
+         :temporal-constraints [{:type :bounds, :value [55 65]}]}
+        {:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this option]},
+         :args [],
+         :temporal-constraints [{:type :bounds, :value [65 75]}]}
+        {:type :method-fn,
+         :method-ref {:type :symbol-ref, :names [this option]},
+         :args [],
+         :temporal-constraints [{:type :bounds, :value [75 85]}]}],
+       :temporal-constraints [{:type :bounds, :value [50 100]}]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Main",
+     :doc "Entry point",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}],
+   option
+   [{:args [],
+     :betweens [],
+     :body nil,
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Option",
+     :post true,
+     :pre true,
+     :primitive true,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}]},
+  :type :pclass}}

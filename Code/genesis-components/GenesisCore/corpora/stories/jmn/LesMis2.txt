@@ -1,0 +1,82 @@
+//Les Mis 2, 2/1/2016 - 5/29/2016
+
+Start experiment.
+
+Start common sense knowledge.
+xx and yy are persons.
+If xx commits a crime, then xx is a criminal.
+If xx is a policeman, then xx wants to catch criminals. //not nec
+If xx is a policeman and yy is a criminal, then xx wants to arrest yy.
+xx may try to arrest yy because xx wants to arrest yy.
+//or: xx may try to arrest yy because xx is a policeman and xx believes that yy is a criminal. //todo consider this option
+
+//longer: If xx tries to arrest yy, then xx tries to prevent actions by yy. //alt: "yy's actions" (pend phw)
+If xx tries to arrest yy, then xx interrupts yy.
+
+If xx repents and xx becomes a good person, then xx is not a criminal.
+//If xx repents, and xx becomes a good person, then xx stops being a criminal. //todo pend phw
+
+If yy is in danger, and xx tries rescuing yy, then xx is good. //todo change "is good" to "does a good deed" (pend phw)
+
+//longer: If xx is not a criminal, xx is good, and yy tries to prevent actions by xx, then xx is confused and annoyed.
+If xx is not a criminal, xx is good, and yy interrupts xx, then xx becomes confused.
+If xx is not a criminal, xx is good, and yy interrupts xx, then xx becomes annoyed.
+//todo: change "is good" to "does a good deed" (pend phw)
+
+Inspector Javert is a name.
+Jean Valjean is a name.
+Cosette is a name.
+
+
+Start story titled "Les Mis 2".
+	Inspector Javert, Jean Valjean, and Cosette are persons.
+	//Cosette is a child. //not nec
+
+
+//Scene 1: Crime
+Inspector Javert and Jean Valjean enter the scene.
+	Inspector Javert is a policeman.
+	Jean Valjean commits a crime.
+		//Infer: Jean Valjean is a criminal. Inspector Javert wants to arrest JV.
+Inspector Javert and Jean Valjean exit the scene.
+
+
+//Scene 2: Repentance
+Then, Jean Valjean enters the scene. //Javert does not observe.
+	Jean Valjean repents.
+	Jean Valjean becomes a good person.
+		//JV's story: JV is no longer a criminal. (not Genesese...)
+		//Javert's story: unchanged (Javert wants to arrest JV.)
+Jean Valjean exits the scene.
+
+
+//Scene 3: Good Deed
+Then, Cosette, Inspector Javert, and Jean Valjean enter the scene.
+	Cosette is in danger.
+	Jean Valjean tries to rescue Cosette.
+		//Infer: JV does a good deed. //todo: currently "JV is good"
+	Inspector Javert tries to arrest Jean Valjean.
+		//Infer: Javert tries to stop Jean Valjean.
+		//Infer from MAY rule: Javert tries to arrest JV because Javert wants to arrest JV.
+		//JV's story: Jean Valjean becomes confused and annoyed.
+Inspector Javert and Jean Valjean exit the scene.
+Cosette exits the scene.
+
+The end.
+
+
+//Desired outcome: //TODO
+//Why is Jean Valjean annoyed?
+//    JV is annoyed because JV tries to do a good deed and Javert tries to stop JV.
+//Why does Javert try to stop/arrest JV?
+//    Javert tries to stop JV because Javert believes that JV is a criminal.
+//Why does Javert believe that JV is a criminal?
+//    Javert believes that JV is a criminal because Javert observes that JV commits a crime. (and Javert does not see that JV repents and turns his life around)
+
+//rule: If xx believes zz and yy believes not zz, then xx and yy disagree.
+// Why do Javert and JV disagree?
+//    Javert and JV disagree because Javert believes "JV is a criminal" and JV believes not "JV is a criminal".
+
+//or: If xx believes qq is zz and yy believes qq is not zz, then xx and yy disagree about qq.
+// Why do Javert and JV disagree about JV?
+//    Javert and JV disagree about JV because Javert believes JV is a criminal and JV believes JV is not a criminal.

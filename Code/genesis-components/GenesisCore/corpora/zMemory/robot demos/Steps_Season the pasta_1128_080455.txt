@@ -1,0 +1,83 @@
+/* ------------------------------
+ Generated on Season the pasta_1128_080455 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Season the pasta".
+Intention: Season the pasta.
+The end.
+
+If the intention is "Season the pasta".
+Verify: Don't like parsley.
+Step: Top the pasta with perfect seasonings.
+Step: We add tomato sauce to the plate.
+The end.
+
+If the intention is "Season the pasta".
+Verify: you like parsley.
+Step: Top the pasta with perfect seasonings.
+Step: add more parsley to the plate.
+Step: We add tomato sauce to the plate.
+The end.
+
+If the problem is "Top the pasta with perfect seasonings".
+Intention: Top the pasta with perfect seasonings.
+The end.
+
+/* ------------------------------
+ Generated on Season the pasta_1128_080455 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Top the pasta with perfect seasonings".
+Step: Add three best seasonings.
+The end.
+
+If the problem is "Add three best seasonings".
+Intention: Add three best seasonings.
+The end.
+
+/* ------------------------------
+ Generated on Season the pasta_1128_080455 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Add three best seasonings".
+Step: We toss the salt into the bowl.
+Step: We toss the parsley into the bowl.
+The end.
+
+If the problem is "We toss the salt into the bowl".
+Intention: We toss the salt into the bowl.
+The end.
+
+If the intention is "We toss the salt into the bowl".
+Step: The salt is in the bowl.
+The end.
+
+If the problem is "We toss the parsley into the bowl".
+Intention: We toss the parsley into the bowl.
+The end.
+
+If the intention is "We toss the parsley into the bowl".
+Step: The parsley is in the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Season the pasta_1128_080455 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "add more parsley to the plate".
+Intention: add more parsley to the plate.
+The end.
+
+If the intention is "add more parsley to the plate".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Season the pasta_1128_080455 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "We add tomato sauce to the plate".
+Intention: We add tomato sauce to the plate.
+The end.
+
+If the intention is "We add tomato sauce to the plate".
+Method: Assume success.
+The end.
+

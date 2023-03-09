@@ -1,0 +1,54 @@
+Start experiment.
+
+Note that "Old Man Coyote" is a name.
+Note that "Little_Duck" is a name.
+Note that "Big_Duck" is a name.
+Note that "Cirape" is a name.
+
+Insert file Crow commonsense knowledge.
+Insert file Crow reflective knowledge.
+
+"Trickster" is a kind of personality trait.
+
+Start story titled "Old Man Coyote Makes the World".
+
+Old Man Coyote is a person.
+Little_Duck is a duck.
+Big_Duck is a duck.
+Cirape is a coyote.
+
+Mud is an object.
+"the tradition of wife stealing" is a thing.
+
+Old Man Coyote saw emptiness because the world didn't exist.
+Old Man Coyote doesn't want emptiness.
+Old Man Coyote tries to get rid of emptiness.
+
+Little_Duck dives under water because Old Man Coyote asks for help.
+Little_Duck's diving under water leads to Little_Duck's finding a root.
+Old Man Coyote takes the root.
+
+Big_Duck dives under water because Old Man Coyote asks for help.
+Big_Duck's diving under water leads to Big_Duck's finding mud.
+Old Man Coyote takes the mud.
+
+Old Man Coyote's taking the root leads to Old Man Coyote's making a ball.
+Old Man Coyote's taking the mud leads to Old Man Coyote's making a ball.
+Old Man Coyote's trying to get rid of emptiness leads to Old Man Coyote's creating the world.
+Strangely, Old Man Coyote's making a ball leads to Old Man Coyote's creating the world.
+
+Old Man Coyote's creating the world leads to Old Man Coyote's talking to Big_Duck.
+Strangely, Old Man Coyote's talking to Big_Duck leads to Old Man Coyote's making people.
+Strangely, Old Man Coyote's talking to Big_Duck leads to Old Man Coyote's making females.
+
+Old Man Coyote's creating the world leads to Old Man Coyote's talking to "Cirape".
+Strangely, Old Man Coyote's talking to "Cirape" leads to Old Man Coyote's making animals.
+Strangely, Old Man Coyote's talking to "Cirape" leads to Old Man Coyote's making dances.
+Strangely, Old Man Coyote's talking to "Cirape" leads to Old Man Coyote's making weapons.
+Strangely, Old Man Coyote's talking to "Cirape" leads to Old Man Coyote's making language.
+Strangely, Old Man Coyote's talking to "Cirape" leads to Old Man Coyote's making war.
+
+Old Man Coyote's making females leads to Old Man Coyote's making "the tradition of wife stealing".
+Old Man Coyote's talking to "Cirape" leads to Old Man Coyote's making "the tradition of wife stealing".
+
+The end.

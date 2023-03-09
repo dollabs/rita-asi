@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 11:22:51+08:00", 
+    "instructions": [
+        "Place the fork on the dinner table with the tines pointed up", 
+        "Place the Dinner knife with the blade pointed up with room for a plate between the fork and knife", 
+        "Place the Salad Fork right next to the dinner fork to the left with tines up", 
+        "Place the salad knife right next to the dinner knife on the right with blade up", 
+        "Put the soup spoon to the right of the salad knife with bowl up", 
+        "Put the desert spoon above the other items perpendicular to them", 
+        "Now put the desert spoon on the right of the soup spoon with bowl up", 
+        "Place the desert spoon back to its orginal position", 
+        "Place the dinner plate between the dinner fork and the dinner knife", 
+        "Place the bread plate above the forks", 
+        "Place the butter knife on the bread plate with blade pointed down/left", 
+        "Place the wine glass above the knifes and spoons", 
+        "Place the water glass between the dinner plate and the wine glass above", 
+        "Place the napkin on the dinner plate in the middle"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

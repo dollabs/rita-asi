@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<body><h1>Index: 1&nbsp;&nbsp;&nbsp; File: data_16.json&nbsp;&nbsp;&nbsp; Video: 4</h1><font color='green'><h3> # 1.0&nbsp;&nbsp;&nbsp; Put the charger on the table at the bottom</h3></font>
+<p> [you put+1 charger+713310] [put+1 on+1 table+713312] [put+1 at+2 bottom+713311]</p>
+<pre>
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        ON (
+            (table)) 
+        AT (
+            (bottom)))) 
+</pre>
+<font color='red'><h3> # 2.0&nbsp;&nbsp;&nbsp; place the dinner fork to the left of the charger, its tines facing up</h3></font>
+<font color='red'><h3> # 3.0&nbsp;&nbsp;&nbsp; place the dinner knife to the right of the charger, its blade facing charger</h3></font>
+<font color='red'><h3> # 4.0&nbsp;&nbsp;&nbsp; place the salad fork to the left of the dinner fork, its tines facing up</h3></font>
+<font color='green'><h3> # 5.0&nbsp;&nbsp;&nbsp; place the salad knife to the right of the dinner knife, its blade facing left</h3></font>
+<p> [you place+1 salad_knife+713529] [place+1 to_the_right_of+1 dinner_knife+713526] [blade_facing+713528 related-to+2 salad_knife+713529] [blade_facing+713528 leave+2 dinner_knife+713526]</p>
+<pre>
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)) )) [
+FACE (
+    OF (
+        (blade) 
+        (salad_knife)) 
+    (
+        OBJECT (
+            (left))))]
+</pre>
+<font color='green'><h3> # 6.0&nbsp;&nbsp;&nbsp; place the soup spoon to the right of the salad knife, its bowl pointing to the top</h3></font>
+<p> [you place+1 soup_spoon+713612] [place+1 to_the_right_of+1 salad+713613] [knife+713608 point+2 to_the_top] [bowl+713610 related-to+2 knife+713608] [knife+713608 is-a+3 bowl+713610] [knife+713608 has_rel_clause+3 is-a+3]</p>
+<pre>
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (salad_knife)) )) [
+POINT (
+    OF (
+        (bowl) 
+        (soup_spoon)) 
+    (
+        TO (
+            (top))))]
+</pre>
+<font color='green'><h3> # 7.0&nbsp;&nbsp;&nbsp; place the dessert spoon above the charger, centered, with its bowl to the left</h3></font>
+<p> [you place+1 dessert_spoon] [place+1 above+1 charger_centered] [place+1 with+2 bowl_to_the_left] [bowl_to_the_left related-to+3 dessert_spoon]</p>
+<pre>
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (charger_centered)) )) 
+</pre>
+<font color='red'><h3> # 8.0&nbsp;&nbsp;&nbsp; place the desert fork between the dessert spoon and charger, its tines to the right</h3></font>
+<font color='green'><h3> # 9.0&nbsp;&nbsp;&nbsp; place the bread plate above the salad fork and to the left of the dessert spoon centered</h3></font>
+<p> [bread_plate above+1 salad_fork] [bread_plate to_the_left_of+2 dessert_spoon_centered]</p>
+<pre>
+ABOVE (
+    (bread_plate) 
+    (salad_fork)) 
+TO_THE_LEFT_OF (
+    (bread_plate) 
+    (dessert_spoon_centered)) 
+(place) 
+</pre>
+<font color='green'><h3> # 10.0&nbsp;&nbsp;&nbsp; place the butter knife diagonally on the bread plate with the blade facing away from the charger</h3></font>
+<p> [you place+1 butter_knife+713668] [place+1 has_modifier+1 diagonally] [place+1 on+2 bread_plate+713674] [place+1 with+3 blade+713673] [butter_knife+713668 face_away+2 null] [face_away+2 from+4 charger+713670]</p>
+<pre>
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate))  
+        MANNER (
+            (diagonally)))) 
+</pre>
+<font color='green'><h3> # 11.0&nbsp;&nbsp;&nbsp; place the water glass above the salad knife and to the right of the dessert fork</h3></font>
+<p> [you place+1 water_glass+713683] [place+1 above+1 salad_knife+713685] [place+1 to_the_right_of+2 dessert_fork+713684]</p>
+<pre>
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dessert_fork)))) 
+</pre>
+<font color='green'><h3> # 12.0&nbsp;&nbsp;&nbsp; place the napkin in the center of the plate on the charger</h3></font>
+<p> [you place+1 napkin+713689] [place+1 in+1 center+713692] [place+1 on+2 charger+713690] [center+713692 related-to+3 plate+713691] [related-to+3 is_pp yes]</p>
+<pre>
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            CENTER (
+                (plate))) 
+        ON (
+            (charger)))) 
+</pre>
+<br><br>
+</body>
+</html>

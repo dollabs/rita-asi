@@ -1,0 +1,52 @@
+Start experiment.
+
+Set right panel to First perspective viewer.
+
+Set bottom panel to Elaboration graph.
+
+//"Caroline Good" is a kind of personality trait.
+//"Caroline Evil" is a kind of personality trait.
+
+XX is a person.
+YY is a person.
+
+With probability of 0.1 XX poisons YY because XX is evil and YY is a person.
+With probability of 0.3 XX plans to kill YY because XX is evil and YY is a person.
+// With probability of 0.3 XX plans murder because XX is evil and YY is a person.
+
+// With probability of 0.3 XX saves YY because XX is good and YY is a person. 
+// With probability of 0.25 XX helps YY because XX is good and YY is a person.
+
+Start story titled "Snow White and the Seven Dwarfs".
+
+// Seven Dwarfs, Huntsman, Snow White, Prince Charming, King, and Queen are names.
+
+// Seven Dwarfs, Huntsman, Snow White, Prince Charming, King, and Queen are persons.
+
+Snow White and Queen are persons.
+/*
+King is Snow White's parent.
+Snow White is King's child.
+
+King marries Queen. 
+Queen is King's wife.
+King is Queen's husband.
+Queen is Snow White's stepparent.  
+Snow White is Queen's stepchild.
+*/
+Queen is evil.
+// Snow White is good.
+
+Queen plans to kill Snow White.
+Queen tells Huntsman to kill Snow White.
+Snow White runs into the forest.
+Huntsman seeks Snow White in the forest.
+Huntsman fakes the death of Snow White.
+Huntsman saves Snow White.
+Snow White hides in the house of Seven Dwarfs.
+Seven Dwarfs help Snow White. 
+Queen poisons Snow White.
+Prince Charming saves Snow White.
+Snow White marries Prince Charming.
+
+The end.

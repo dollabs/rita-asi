@@ -1,0 +1,41 @@
+Start experiment.
+
+Insert file General commonsense knowledge.
+
+Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+Insert file Contradictions.
+
+Start story titled "expAgain".
+
+Isabella is a person.
+
+Audrey is a person.
+
+Ryan is a person.
+
+David is a person.
+
+Isabella happily cries with happy tears.
+
+David happily murders everyone.
+
+Isabella hugs Audrey.
+
+Isabella is surprised.
+
+Ryan is glad.
+
+Ryan smiles.
+
+David is tired.
+
+Ryan is hurt.
+
+
+
+
+
+The End.

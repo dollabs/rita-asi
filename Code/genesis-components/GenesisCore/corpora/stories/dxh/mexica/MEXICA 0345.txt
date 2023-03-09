@@ -1,0 +1,19 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0345".
+THE HUNTER WOKE UP WHILE THE SONGS OF THE BIRDS COVERED THE SKY.
+THE PRINCESS WAS PROUD TO BE A MEMBER OF THE MEXICA'S SOCIETY.
+THE HUNTER WAS FASCINATED BY THE PRINCESS' CHARISMA. HOWEVER, THE PRINCESS LOOKED DOWN ON HIM.
+THE PRINCESS DID NOT LOVE THE HUNTER IN THE SAME WAY HE DID. THE HUNTER FELT FRUSTRATED!
+THE HUNTER FELT PASSION AND ODIUM TOWARDS THE PRINCESS.
+THE END.
+
+
+
+The end.

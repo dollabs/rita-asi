@@ -1,0 +1,15 @@
+Start experiment.
+
+Set Deploy novice first switch to false.
+
+Set self aware button to true.
+
+Set Just plan button to true.
+
+Set right panel to Commentary.
+
+Read knowledge in ZZ Basic PS knowledge.
+
+Read knowledge in Steps_Let us make a French salad_0412_121343.
+
+Insert into text box: Let us make a French salad.

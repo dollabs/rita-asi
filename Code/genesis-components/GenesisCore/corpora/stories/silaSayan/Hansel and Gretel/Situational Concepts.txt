@@ -1,0 +1,85 @@
+Start description of "Sad".
+XX is a person.
+XX cries.
+Evidently, XX becomes sad because XX cries.
+Evidently, XX triggers "sad". 
+The end.
+
+Start description of "Inadilemma".
+XX is a person.
+XX's not knowing the solution to XX's problem leads to XX's becoming sad.
+// XX's not knowing the solution to XX's problem leads to XX's crying.
+Evidently, XX triggers "inadilemma".
+The end.
+
+Start description of "Understandablycautious 1".
+XX is a person.
+YY is a person.
+YY harms XX.
+XX doesn't trust YY.
+Evidently, XX triggers "understandablycautious 1".
+The end.
+
+Start description of "Understandablycautious 2".
+XX is a person.
+YY is a person.
+ZZ is a person.
+YY leaves XX.
+XX becomes afraid because XX doesn't want ZZ to leave XX.
+Evidently, XX triggers "understandablycautious 2".
+The end. 
+
+Start description of "Scary".
+XX is a person.
+XX needs to eat humans.
+Evidently, XX triggers "scary".
+The end.
+
+//Start description of "Acting with Survival Instinct".
+Start description of "Survivor".
+XX is a person.
+YY is a person.
+//AA is an action.
+XX becomes survival-conscious.
+//XX's becoming survival-conscious leads to XX's performing AA.
+XX murders YY. 
+Evidently, XX triggers "survivor".
+The end.
+
+Start description of "Repentant".
+XX is a person.
+YY is a person.
+AA is an action.
+XX's performing AA leads to XX's harming YY.
+XX becomes remorseful.
+Evidently, XX triggers "repentant".
+The end. 
+
+Start description of "Unfamiliar".
+XX is a person.
+XX has a different appearance.
+XX has a different language.
+Evidently, XX triggers "unfamiliar".
+The end.
+
+//Start description of "Unjustly persecuted".
+//XX is a person.
+//YY is a person.
+//XX doesn't want to harm YY.
+//YY harms XX.
+//The end.  
+
+//Start description of "Misunderstood".
+//XX is a person.
+//YY is a person.
+//XX doesn't want to harm YY.
+//XX becomes survival-conscious.
+//XX harms YY.
+//The end. 
+
+Start description of "Unlucky".
+XX is a person.
+XX works for long hours.
+XX doesn't have enough food.
+Evidently, XX triggers "unlucky".
+The end.

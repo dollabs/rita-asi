@@ -1,0 +1,27 @@
+Start experiment.
+Insert file General commonsense knowledge.
+xx, yy, and zz are persons.
+aa is a thing.
+If xx puts yy in a well, then xx harms yy and xx hides yy.
+If xx brings yy the aa of zz, then yy will think zz is dead.
+If xx thinks yy is dead, then xx will be sad.
+If xx wants aa, but yy gets aa, then xx will be jealous.
+
+Start description of "Meanness".
+xx's resenting yy leads to xx's harming yy.
+The end.
+
+Start story titled "Joseph and the Coat of Many Colors".
+Joseph, Jacob, and Brothers are persons.
+Joseph is the youngest son.
+// also try Joseph is the youngest child.
+Jacob likes Joseph the most.
+Jacob gives Joseph a robe.
+Brothers resent Jacob.
+Brothers take Joseph's robe.
+//Brothers harm Joseph because brothers are jealous of Joseph.
+Brothers put Joseph in a well because brothers resent Joseph.
+Joseph is alone in the well. //he is sad - harmed
+Brothers bring the robe to Jacob.
+Jacob thinks Joseph is dead.
+The end.

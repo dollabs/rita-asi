@@ -1,0 +1,29 @@
+First perspective.
+
+Show first perspective.
+
+A king is a kind of noble.
+
+Insert file General commonsense knowledge.
+
+// Now in commonsense knowledge
+// Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+Insert file Contradictions.
+
+If xx is an enemy of zz and yy is an enemy of zz then xx is a friend of yy.
+
+"Eastern" is a kind of personality trait.
+
+"Machiavellian" is a kind of personality trait.
+
+Start story titled "Macbeth".
+
+I am eastern.
+ 
+I am machiavellian.
+
+Insert file Macbeth plot.
+

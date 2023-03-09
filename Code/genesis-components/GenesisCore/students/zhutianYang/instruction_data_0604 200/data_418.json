@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 12:18:18+08:00", 
+    "instructions": [
+        "put the dinner plate on the table clothe", 
+        "put the dinner fork of left side on the dinner plate", 
+        "again put the salad fork of left side on the dinner plate", 
+        "put the dinner knife right side on the dinner plate", 
+        "again put salad knife to right side on the dinner plate", 
+        "again put the soup spoon to the right side on the dinner plate", 
+        "put the upper side of water glass on the dinner plate", 
+        "again put the water glass upper side on the dinner plate", 
+        "again put the water glass upper side on the dinner plate", 
+        "put the coffee cup on right side of the dinner plate", 
+        "put the upper side of bread plate on a dinner plate", 
+        "put the bread knife on a bread plate", 
+        "put the upper side of the dessert fork on a dinner plate", 
+        "put the dessert spoon of upper side on the dinner plate", 
+        "put the napkin on the dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table3"
+}

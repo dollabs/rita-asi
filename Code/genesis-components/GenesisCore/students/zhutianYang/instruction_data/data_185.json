@@ -1,0 +1,14 @@
+{
+    "instructions": [
+        "move the dinner plate to the center of the table cloth", 
+        "put the salad plate in the center of the dinner plate", 
+        "put the napkin in the center of the salad plate", 
+        "put the wine glass to the top right corner of the table cloth", 
+        "put the water glass to the bottom right of the wine glass", 
+        "put the salad fork to the left of the dinner plate", 
+        "put the dinner fork to the right of the salad fork", 
+        "put the dinner knife to the right of the dinner plate", 
+        "put the soup spoon to the right of the knife"
+    ], 
+    "video_name": "table1"
+}

@@ -1,0 +1,37 @@
+Start experiment.
+
+Note that "The Strange Buffalo" is a name.
+
+Insert file Crow commonsense knowledge.
+Insert file Crow reflective knowledge.
+
+"Trickster" is a kind of personality trait.
+
+Start story titled "Adventures with Buffalo".
+
+The Strange Buffalo is a buffalo.
+The young man is a person.
+
+A young man was hunting.
+The young man shoots at The Strange Buffalo because the young man was hunting and The Strange Buffalo is a buffalo.
+The Strange Buffalo stands still because the young man shot at The Strange Buffalo.
+The Strange Buffalo looks for the young man because the young man shot at The Strange Buffalo.
+The Strange Buffalo was not hurt by the young man.
+The Strange Buffalo is being extraordinary because The Strange Buffalo was not hurt by the young man.
+The Strange Buffalo's standing still leads to The Strange Buffalo's being extraordinary.
+
+The Strange Buffalo's standing still leads to the young man's exiting cover.
+The young man's exiting cover leads to The Strange Buffalo's chasing the young man.
+The young man is trapped in a tree because The Strange Buffalo chased the young man.
+The Strange Buffalo attacked the tree because the young man was trapped in a tree.
+The young man is scared by The Strange Buffalo because The Strange Buffalo attacks the tree.
+
+The Strange Buffalo painted itself.
+The Strange Buffalo transforms itself into a black horse.
+The Strange Buffalo transforms itself into a bay horse.
+The Strange Buffalo transforms itself into a gray horse.
+The Strange Buffalo transforms itself into a buffalo.
+The Strange Buffalo leaves.
+The Strange Buffalo's leaving leads to the young man's going home.
+
+The end.

@@ -1,0 +1,16 @@
+{
+    "accept_time": "2019-06-04 12:55:38+08:00", 
+    "instructions": [
+        "Put the dinner plate right in the middle of the table cloth&lt;br&gt;", 
+        "put the salad plate above the dinner plate, right in the middle of it ", 
+        "put the closed napkin above the salad plate. Right in the middle.", 
+        "put the wine glass in the upper right corner of the table cloth", 
+        "Put the water glass perpendicular to the glass of wine", 
+        "Put the salad fork with its prone pointing at the flowers", 
+        "Put the dinner fork parallel to the salad fork", 
+        "Put the dinner knife vertically with its blade pointing to the wine glass", 
+        "put the soup spoon parallel to the dinner knife below the water glass"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table1"
+}

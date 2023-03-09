@@ -1,0 +1,15 @@
+Popup RASHI Blame Sympathy Doubt popup.
+
+Set all switches to defaults.
+Set show all story elements switch to true.
+
+Insert file 6034DemoStoryModulation.
+
+Pause.
+
+Set show all story elements switch to true.
+Insert file fullArticleRebels_Sympathy_singular.
+
+Pause. 
+Set show all story elements switch to true.
+Insert file fullArticleRebels_Doubt_singular.

@@ -1,0 +1,13 @@
+pp is a person.
+
+//Known Predictions
+If pp walks in the heat, then pp wants water.
+
+//Contextual explanations
+If pp wants water, then pp may clear pp's throat.
+
+//If no contextual explanations
+If pp wants to say something, then pp can clear pp's throat.
+
+//Extra predictions
+If pp wants to say something, then pp speaks.

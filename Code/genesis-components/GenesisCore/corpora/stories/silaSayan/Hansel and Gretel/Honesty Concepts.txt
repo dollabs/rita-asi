@@ -1,0 +1,37 @@
+Start description of "Honest 1".
+XX is a person.
+XX admits XX's fault.
+Evidently, XX triggers "honest 1".
+The end. 
+
+Start description of "Honest 2".
+XX is a person.
+XX tells the truth. 
+Evidently, XX triggers "honest 2".
+The end.
+
+Start description of "Dishonest 1".
+XX is a person.
+XX lies.
+Evidently, XX triggers "dishonest 1".
+The end.
+
+Start description of "Dishonest 2".
+XX is a person.
+YY is a person.
+XX tricks YY.
+Evidently, XX triggers "dishonest 2".
+The end.
+
+Start description of "Dishonest 3".
+XX is a person. 
+YY is a person.
+XX traps YY.
+Evidently, XX triggers "dishonest 3".
+The end. 
+
+Start description of "Dishonest 4".
+XX is a person.
+XX steals.
+Evidently, XX triggers "dishonest 4".
+The end.

@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 10:15:34+08:00", 
+    "instructions": [
+        "Place the dinner fork vertically on the left side of the table.", 
+        "Place the dinner knife vertically on the right side of the table.", 
+        "Place the salad fork vertically on the right of the dinner fork.", 
+        "Place the salad knife vertically on the right of the dinner knife.", 
+        "Place the soup soon vertically on the right on the salad knife.", 
+        "Place the dessert spoon horizontally on the top centre side of the table.", 
+        "Move the dessert spoon on the right od the dessert spoon.", 
+        "Move the dessert spoon on the top centre of the table.", 
+        "Place the dinner plate between the dinner fork and the dinner knife and below the desser spoon.", 
+        "Place the bread plate on the left of the dessert spoon.", 
+        "Place the butter knife on top od the bread plate.", 
+        "PlacPlace the wine glass above the soup spoon.", 
+        "Place the water glass ont he right of the dessert spoon.", 
+        "Place the napkin vertically on top of the dinner plate and on the centre of the dinner plate."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

@@ -1,0 +1,133 @@
+//Les Mis 3a, Jan 2017
+//Attempt at a shortened long version of Les Mis
+
+Start experiment.
+
+Start common sense knowledge.
+xx is a person.
+yy is a person.
+jj is a person.
+cc is a person.
+mm is a person.
+If xx commits a crime, then xx is a criminal.
+If xx is a policeman, then xx wants to catch criminals. //not nec
+If xx is a policeman and yy is a criminal, then xx wants to arrest yy.
+
+If xx repents and xx becomes a good person, then xx is not a criminal.
+
+If xx is a criminal, yy is a policeman, and xx confesses, then yy may arrest xx. //todo test 
+
+If jj loves cc and cc loves mm, then jj tries to save mm.
+
+If xx is not married and xx gives birth to yy, then xx has an illegitimate child. //todo rm?
+
+Inspector Javert is a name.
+Jean Valjean is a name.
+Monseigneur Myriel is a name.
+Fantine is a name.
+Cosette is a name.
+Marius is a name.
+Thenardier is a name.
+Inspector Javert, Jean Valjean, Monseigneur Myriel, Fantine, Cosette, Marius, and Thenardier are persons.
+
+Start story titled "Les Mis 3a".
+
+Jean Valjean steals some bread to save his sister's starving children.
+
+Then, Jean Valjean gets imprisoned.
+Inspector Javert works at the prison.
+Jean Valjean is strong.
+Jean Valjean tries to escape multiple times.
+Jean Valjean gets a longer prison sentence.
+
+After 19 years, Jean Valjean is released from prison.
+Jean Valjean arrives in Digne.
+No one wants to shelter an ex-convict.
+
+Monseigneur Myriel is a bishop and is very kind.
+Monseigneur Myriel welcomes and feeds Jean Valjean.
+Monseigneur Myriel gives Jean Valjean a bed to sleep in.
+Jean Valjean is poor and angry at the world.
+Jean Valjean steals silverware from Monseigneur Myriel.
+The police catch Jean Valjean and want to arrest him.
+Monseigneur Myriel claims that he gave the silverware to Jean Valjean, so Jean Valjean is innocent.
+Monseigneur Myriel convinces Jean Valjean to repent and become an honest man.
+
+Jean Valjean breaks his parole.
+
+Jean Valjean enters the town of Montreuil.
+Jean Valjean pretends to be named Madeleine.
+Madeleine starts a factory and becomes mayor of Montreuil.
+
+In Paris, Fantine falls in love and becomes pregnant.
+Fantine's lover abandons Fantine.
+Fantine is not married.
+Fantine gives birth to Cosette.
+//Infer: Fantine has an illegitimate child. 
+Fantine needs to find work.
+Fantine cannot find work with an illegitimate child.
+
+In Montfermeil, Fantine entrusts Cosette to Thenardier.
+Thenardier is an innkeeper and a scoundrel.
+Thenardier will care for Cosette as long as Fantine sends money.
+//todo: if xx has an illegitimate child, then xx is disgraceful
+
+In Montreuil, Fantine begins working in Madeleine's factory.
+Fantine's coworkers learn about Cosette, so Fantine is fired.
+Fantine needs to send money to Thenardier.
+Fantine becomes a prostitute and causes trouble.
+Inspector Javert arrests Fantine.
+Madeleine stops Inspector Javert's arresting Fantine.
+Fantine falls ill and goes to the hospital.
+
+Scene shifts to hospital.
+Fantine is dying.
+Madeleine promises to take care of Cosette.
+To save an innocent man, Jean Valjean confesses his identity.
+Inspector Javert arrests Jean Valjean.
+Fantine dies.
+
+Jean Valjean escapes from prison.
+Jean Valjean goes to Montfermeil and buys Cosette from Thenardier.
+
+Jean Valjean and Cosette move to Paris.
+In Paris, Inspector Javert discovers Jean Valjean, so Jean Valjean flees.
+Jean Valjean and Cosette move into a convent. 
+
+Marius sees Cosette in the park.
+Marius and Cosette fall in love.
+
+In the garden, Marius and Cosette declare their love. //todo JV does not see
+
+In the bedroom, Cosette writes a love letter to Marius.
+
+Jean Valjean finds Cosette's love letter.  //todo JV infers that Cosette loves Marius
+Jean Valjean decides to save Marius.
+
+Cosette leaves. //todo explain
+Marius becomes distraught.
+Marius joins the uprising.
+Javert joins the uprising as a spy.
+Marius's friends tie up Javert.
+Jean Valjean joins the uprising because he wants to save Marius.
+Jean Valjean volunteers to execute Javert. //todo because JV is a good person and thinks Javert is a good person
+
+In a hidden alley, Jean Valjean releases Javert. //todo separate location, so others don't see
+
+In the battle, Marius gets injured. 
+Jean Valjean rescues Marius. //todo Javert doesn't see b/c he's elsewhere; others don't see because they're dead
+Jean Valjean escapes through the sewers. //todo Thenardier sees and thinks Marius is dead
+Javert arrests Jean Valjean.
+//todo Jean Valjean explains to Javert...
+Javert is tormented, lets Jean Valjean go, and commits suicide. //todo lots of inferences/mental modeling here
+
+Marius recovers. 
+Jean Valjean confesses to Marius that Jean Valjean was a criminal. //todo Cosette doesn't see
+Marius and Cosette marry.
+Marius keeps Cosette away from Jean Valjean. //todo because JV was a criminal; Cosette doesn't understand
+Thenardier tells Marius that Jean Valjean saved Marius. //todo lots of inferences
+Marius and Cosette rush to Jean Valjean for reconciliation. //todo reconciliation explanation!!
+Jean Valjean is happy.
+Jean Valjean is old and weak, so Jean Valjean dies.
+
+The end.

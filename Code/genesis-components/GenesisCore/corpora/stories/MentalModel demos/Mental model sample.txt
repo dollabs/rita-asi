@@ -1,0 +1,60 @@
+Start experiment.
+
+Set right panel to mental models.
+
+xx, yy, and zz are persons.
+
+John, Mary, Susan, and Peter are persons.
+
+Start description of "Romantic love".
+xx's loving yy leads to xx's being romantic.
+The end.
+
+// Personality traits defined.
+personality-a is a kind of personality trait.
+/*
+personality-b is a kind of personality trait.
+personality-c is a kind of personality trait.
+*/
+Start story titled "Mental model testing".
+
+
+// Creates a model of how John thinks.
+// Populated when created by rules and concepts currently in the reader model.
+// All elements in the story start going to John's mental model.
+John enters.
+
+// All the rules and concepts associated with personality-a
+// are added to the rules and concepts in John's model.
+John thinks like personality-a.
+
+// Personality-a has a rule for this.  Mary loves John back.
+// Personality-a also has a concept, reciprocated love, which will be noted.
+John loves Mary.
+
+/*
+
+// John no longer sees what is happening in the story.
+John exits.
+
+// Creates a mental model of how Mary thinks.
+// Populated when created by rules and concepts currently in the reader model.
+// But no elements in the story go automatically into Mary's mental model.
+Construct a mental model for Mary.
+
+// Believes statements go in.  This one says John acts in accordance with personality-b
+Mary believes John is personality-b.
+
+// Personality-b, attached to Mary in John's mental model, has a rule that concludes Mary is romantic.
+Mary believes Mary loves John.
+
+Mary believes Susan loves Peter.
+
+// A known characteristic of personality-c.  All the rules and concepts in personality-c are added to readers mental model.
+I cry.
+
+// A consequence, by abduction rule in personality-c, is that Peter is considered crazy.
+Peter loves Mary.
+
+*/
+The end.

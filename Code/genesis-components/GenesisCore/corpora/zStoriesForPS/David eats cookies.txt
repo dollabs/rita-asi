@@ -1,0 +1,4 @@
+Start experiment.
+Start story titled "David".
+Monster David ate all the batteries in the phone.
+The end.

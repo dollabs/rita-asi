@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="Genesis/webstart/genesis.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/Genesis/WebstartJarGenerator.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" mainClassHandleIdentifier="=Genesis/source&lt;wrapper{TheGenesisExportSystem.java[TheGenesisExportSystem" manifestLocation="/Genesis/webstart/manifest.txt" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="false" exportJavaFiles="false" exportOutputFolder="true">
+        <javaElement handleIdentifier="=Genesis/source&lt;adamKraft"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay.representations"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;translator"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.XMem"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;m2.gui"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;demoConnections"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;Signals"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay.StoryAlignment"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.operators"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;recall"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matchers.representations"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;frames.utilities"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;tools"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;adamKraft.one_man_two_man_red_man_blue_man.vsr2.rf"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;utils"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;adamKraft.one_man_two_man_red_man_blue_man.vsr2.att"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;parameters"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;minilisp"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;force"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;bridge.views.frameviews.classic"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;obsolete.mediaFX"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;obsolete.mindsEye"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;Co57.services"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;adamKraft.one_man_two_man_red_man_blue_man.vsr3.att"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matchers"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;links.videos"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;genesis"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;bridge.utils.logging"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;adamKraft.co57May2011Simulator"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay.Exporter"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;gui"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;bridge.utils.collections"/>
+        <file path="/Propagators/tlc.txt"/>
+        <file path="/Propagators/.project"/>
+        <file path="/Propagators/propagators.jar"/>
+        <file path="/Propagators/.classpath"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;gui.images"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;ati"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;storyProcessor"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.utilities"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;lattice"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;magicLess.specialMath"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.soms.mergers"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;windowGroup"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;Co57"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;connections"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;gifs.mood"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;bridge.reps.entities"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;gui.panels"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.soms.metrics"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;summarizer"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;ADTs"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.time"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;silasAast"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay.StoryGeneration"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;groups"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;core.representation"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.icmc"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;models"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay.CharacterModeling"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay.viewers"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay.Constraints"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;portico"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;expert"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;tts"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay.CharacterModeling.representations"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;tutorials"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;escalation"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;m2.datatypes"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.story"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay.Depricated"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;gifs"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;images"/>
+        <file path="/Propagators/propagators.jardesc"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;robertMcIntyre"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.gui"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;constants"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay.Utilities"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.datafiles"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;template"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;bridge.infrastructure.wires"/>
+        <javaElement handleIdentifier="=Genesis/students"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;start.xmlConnector"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;wrapper"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;dictionary"/>
+        <file path="/Genesis/.classpath"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;links.words.dict"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay.VideoAnalysis"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;persistence"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;start"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;demonstrations"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matthewFay.StoryThreading"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;m2.models"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;bridge.adapters"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;text"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;bridge.utils"/>
+        <file path="/Propagators/build.xml"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;adamKraft.one_man_two_man_red_man_blue_man.vsr3.rep"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;m2.storage"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.soms"/>
+        <file path="/Propagators/.gitignore"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;transitionSpace"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;Co57.tools"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;openmind"/>
+        <javaElement handleIdentifier="=Propagators/src"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.patterns"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;adamKraft.one_man_two_man_red_man_blue_man.vsr2.rep"/>
+        <javaElement handleIdentifier="=Genesis/corpora"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;Co57.infrastructure"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;bridge.modules.memory"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;matchers.original"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.multithreading"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;core"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;m2"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;disambiguator"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;magicLess.utils"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;links.words"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;memory.distancemetrics"/>
+        <javaElement handleIdentifier="=Genesis/source&lt;frames"/>
+    </selectedElements>
+</jardesc>

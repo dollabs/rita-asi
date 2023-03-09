@@ -1,0 +1,49 @@
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "Greinia and Astalir".
+
+Angelina is a name.
+Angelina is a person.
+
+Greinia is a name.
+Greinia is a country.
+
+Malcom is a name.
+Malcom is a person.
+
+Astalir is a name.
+Astalir is a city.
+Astalir is part of Greinia.
+
+Angelina is from Astalir.
+Angelina is from Greinia.
+
+Angelina is the king.
+
+Angelina rules Astalir.
+
+Malcom is Angelina's successor.
+Malcom kills Angelina.
+Malcom kills Angelina because Angelina is king.
+Malcom kills Angelina because Malcom is Angelina's successor.
+
+Malcom becomes king.
+
+Astalir becomes angry because Malcom killed Angelina.
+Astalir attacks Greinia.
+Astalir attacks Greinia because Astalir becomes angry and Malcom becomes king.
+
+Malcom scares away Astalir.
+Malcom scares away Astalir because Astalir attacks Greinia.
+Astalir attacks Malcom.
+
+Astalir kills Malcom.
+Astalir defeats Greinia.
+Astalir defeats Greinia because Astalir killed Malcom.
+Astalir becomes independent.
+Astalir becomes independent because Astalir defeats Greinia.
+
+The end.

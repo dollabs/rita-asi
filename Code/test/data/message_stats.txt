@@ -1,0 +1,3068 @@
+Reading Rita messages from ./sept-2020-28-falcon-medium.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-09-28T16:47:37.1554Z
+Last message Time: 2020-09-28T16:59:07.8114Z
+___________________________________
+duration from header 690.656
+duration from message 682.106
+Delta: -8.549999999999955
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      clock                    :  13608     
+TestbedBusInterface      testbed-message          :  13536     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  27144     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  20        
+Event:Chat               :  23        
+Event:Door               :  17        
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  3         
+Event:MissionState       :  1         
+Event:Pause              :  3         
+Event:PlayerSprinting    :  2         
+Event:PlayerSwinging     :  68        
+Event:Scoreboard         :  13        
+Event:Triage             :  26        
+Event:VictimsExpired     :  1         
+Event:location           :  395       
+FoV                      :  6406      
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+SemanticMap:All_Updates  :  1         
+start                    :  1         
+state                    :  6549      
+state-start-stop         :  6549      
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  13        
+SUCCESSFUL               :  13        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2151.50     -2060.21
+Y: 60.00     60.00
+Z: 144.30     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -39.50     40.21
+Y: 0.00     2.00
+Z: 1.30     15.30
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-4_CondWin-Condition_4-StaticMap_Trial-Competency_Team-na_Member-Subject_id_000022_Vers-1.0.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-14T21:59:58.0499Z
+Last message Time: 2020-08-14T22:08:30.5986Z
+___________________________________
+duration from header 512.549
+duration from message 501.407
+Delta: -11.141999999999996
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  4952      
+TestbedBusInterface      clock                    :  4952      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  9904      
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Chat               :  11        
+Event:CompetencyTask     :  19        
+Event:Door               :  6         
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  5         
+Event:Lever              :  6         
+Event:PlayerJumped       :  39        
+Event:PlayerSprinting    :  46        
+Event:PlayerSwinging     :  96        
+Event:Scoreboard         :  5         
+Event:Triage             :  10        
+FoV                      :  140       
+start                    :  1         
+state                    :  4565      
+state-start-stop         :  4565      
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  5         
+SUCCESSFUL               :  5         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2197.04     -2104.50
+Y: 29.00     31.25
+Z: 77.30     150.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False True
+Z:  False True
+
+Trial Map bounds delta
+___________________________________
+X: -85.04     84.50
+Y: -31.00     30.75
+Z: -65.70     56.30
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000006_trial_id_000004_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-16T21:50:55.7846Z
+Last message Time: 2020-06-16T22:08:01.243Z
+___________________________________
+duration from header 840.011
+duration from message 840.011
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  8726      
+TestbedBusInterface      clock                    :  8726      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  17452     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  18        
+Event:Door               :  35        
+Event:ItemDrop           :  1         
+Event:ItemEquipped       :  7         
+Event:Lever              :  2         
+Event:MissionState       :  1         
+Event:PlayerJumped       :  96        
+Event:PlayerSprinting    :  202       
+Event:Scoreboard         :  23        
+Event:Triage             :  48        
+Event:location           :  94        
+state                    :  8197      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  24        
+SUCCESSFUL               :  23        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2159.70     -2025.10
+Y: 60.00     68.12
+Z: 144.30     191.68
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -47.70     5.10
+Y: 0.00     -6.12
+Z: 1.30     15.32
+
+Reading Rita messages from ./NotHSRData_6d5b8d32-3261-40bc-9935-8387d4223f10.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-05T22:25:58.3629Z
+Last message Time: 2020-08-05T22:54:46.1303Z
+___________________________________
+duration from header 1727.768
+duration from message 1697.953
+Delta: -29.815000000000055
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  350       
+TestbedBusInterface      clock                    :  350       
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  700       
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Chat               :  3         
+Event:Door               :  36        
+Event:ItemDrop           :  5         
+Event:ItemUsed           :  3         
+Event:Lever              :  2         
+Event:MissionState       :  1         
+Event:Pause              :  6         
+Event:PlayerJumped       :  228       
+Event:Triage             :  62        
+Event:VictimsExpired     :  1         
+Mission:VictimList       :  1         
+start                    :  1         
+state-start-stop         :  0         
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  31        
+SUCCESSFUL               :  30        
+UNSUCCESSFUL             :  1         
+
+No state messages
+Keys debug ['Event:Chat', 'Event:Door', 'Event:ItemDrop', 'Event:ItemUsed', 'Event:Lever', 'Event:MissionState', 'Event:Pause', 'Event:PlayerJumped', 'Event:Triage', 'Event:VictimsExpired', 'Mission:VictimList', 'start', 'state-start-stop', 'stop']
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-3_CondWin-Condition_3-StaticMap_Trial-000035_Team-na_Member-000023_Vers-1.0.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-19T23:40:03.6051Z
+Last message Time: 2020-08-19T23:56:36.0361Z
+___________________________________
+duration from header 992.431
+duration from message 987.134
+Delta: -5.2970000000000255
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  18735     
+TestbedBusInterface      clock                    :  18735     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  37470     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  32        
+Event:Chat               :  35        
+Event:Door               :  20        
+Event:ItemDrop           :  5         
+Event:ItemEquipped       :  31        
+Event:ItemUsed           :  3         
+Event:MissionState       :  1         
+Event:Pause              :  6         
+Event:PlayerJumped       :  15        
+Event:PlayerSwinging     :  92        
+Event:Scoreboard         :  19        
+Event:Triage             :  40        
+Event:VictimsExpired     :  1         
+FoV                      :  9091      
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+start                    :  1         
+state                    :  9340      
+state-start-stop         :  9340      
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  20        
+SUCCESSFUL               :  19        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2021.96
+Y: 60.00     62.25
+Z: 144.30     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     1.96
+Y: 0.00     -0.25
+Z: 1.30     15.30
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000001_trial_id_000014_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-24T23:17:36.5810Z
+Last message Time: 2020-06-24T23:55:09.351Z
+___________________________________
+duration from header 1697.762
+duration from message 1697.762
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  16797     
+TestbedBusInterface      clock                    :  16797     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  33594     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  19        
+Event:Door               :  16        
+Event:ItemDrop           :  1         
+Event:ItemEquipped       :  13        
+Event:ItemPickup         :  1         
+Event:Lever              :  11        
+Event:MissionState       :  1         
+Event:PlayerJumped       :  37        
+Event:PlayerSprinting    :  12        
+Event:Scoreboard         :  13        
+Event:Triage             :  44        
+Event:location           :  50        
+state                    :  16577     
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  22        
+SUCCESSFUL               :  13        
+UNSUCCESSFUL             :  9         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2186.50     -2110.30
+Y: 52.00     107.03
+Z: 153.98     197.28
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -74.50     90.30
+Y: -8.00     -45.03
+Z: 10.98     9.72
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000002_trial_id_000002_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-10T21:19:29.6285Z
+Last message Time: 2020-06-10T21:36:42.5683Z
+___________________________________
+duration from header 934.471
+duration from message 934.471
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  9770      
+TestbedBusInterface      clock                    :  9770      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  19540     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Door               :  26        
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  4         
+Event:Lever              :  16        
+Event:MissionState       :  1         
+Event:PlayerJumped       :  106       
+Event:PlayerSprinting    :  282       
+Event:Scoreboard         :  24        
+Event:Triage             :  48        
+Event:Woof               :  34        
+Event:location           :  78        
+state                    :  9147      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  24        
+SUCCESSFUL               :  24        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2188.60     -2109.25
+Y: 52.00     54.20
+Z: 153.45     198.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -76.60     89.25
+Y: -8.00     7.80
+Z: 10.45     8.30
+
+Reading Rita messages from ./march-5-5.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-03-05T21:41:03.697539Z
+Last message Time: 2020-03-05T21:49:27.019747Z
+___________________________________
+duration from header 503.322
+duration from message 503.322
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  8972      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  8972      
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+state                    :  8972      
+state-start-stop         :  0         
+
+No Event:Triage messages
+Keys debug ['state', 'state-start-stop']
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2193.50     -2145.52
+Y: 23.00     30.25
+Z: 145.58     194.00
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -81.50     125.52
+Y: -37.00     31.75
+Z: 2.58     13.00
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-3_CondWin-Condition_3-StaticMap_Trial-Training_Team-na_Member-Subject_id_000023_Vers-1.0.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-19T22:36:41.5851Z
+Last message Time: 2020-08-19T22:46:29.8166Z
+___________________________________
+duration from header 588.231
+duration from message 561.951
+Delta: -26.279999999999973
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  5074      
+TestbedBusInterface      clock                    :  5074      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  10148     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Door               :  17        
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  20        
+Event:ItemUsed           :  1         
+Event:Lever              :  2         
+Event:PlayerSwinging     :  52        
+Event:Triage             :  16        
+start                    :  1         
+state                    :  4962      
+state-start-stop         :  4962      
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  8         
+SUCCESSFUL               :  8         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2233.50     -2197.48
+Y: 54.00     55.00
+Z: 168.50     182.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -121.50     177.48
+Y: -6.00     7.00
+Z: 25.50     24.30
+
+Reading Rita messages from ./august-2020-20-falcon-medium.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-20T16:21:26.336Z
+Last message Time: 2020-08-20T16:31:42.766Z
+___________________________________
+duration from header 616.43
+duration from message 616.43
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  6283      
+TestbedBusInterface      clock                    :  6281      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  12564     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  19        
+Event:Door               :  17        
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  4         
+Event:Lever              :  7         
+Event:MissionState       :  1         
+Event:PlayerSprinting    :  2         
+Event:PlayerSwinging     :  90        
+Event:Scoreboard         :  10        
+Event:Triage             :  20        
+Event:VictimsExpired     :  1         
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+state                    :  6106      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  10        
+SUCCESSFUL               :  10        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2065.50
+Y: 60.00     60.38
+Z: 145.10     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     45.50
+Y: 0.00     1.62
+Z: 2.10     15.30
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconMed-DynamicMap_Trial-29_Team-na_Member-21_Vers-1.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-12T22:45:08.8930Z
+Last message Time: 2020-08-12T23:04:25.2409Z
+___________________________________
+duration from header 1156.347
+duration from message 1150.124
+Delta: -6.222999999999956
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  21659     
+TestbedBusInterface      clock                    :  21659     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  43318     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  29        
+Event:Chat               :  32        
+Event:Door               :  16        
+Event:ItemDrop           :  5         
+Event:ItemEquipped       :  12        
+Event:ItemUsed           :  3         
+Event:MissionState       :  1         
+Event:Pause              :  6         
+Event:PlayerJumped       :  3         
+Event:PlayerSprinting    :  2         
+Event:PlayerSwinging     :  88        
+Event:Scoreboard         :  18        
+Event:Triage             :  39        
+Event:VictimsExpired     :  1         
+Event:location           :  6         
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+start                    :  1         
+state                    :  21394     
+state-start-stop         :  21394     
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  20        
+SUCCESSFUL               :  18        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2023.68
+Y: 60.00     129.99
+Z: 144.30     191.44
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     3.68
+Y: 0.00     -67.99
+Z: 1.30     15.56
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-3_CondWin-Condition_3-StaticMap_Trial-000036_Team-na_Member-000023_Vers-1.0.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-19T23:58:09.1643Z
+Last message Time: 2020-08-20T00:36:43.476Z
+___________________________________
+duration from header 2314.312
+duration from message 2314.312
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  39334     
+TestbedBusInterface      clock                    :  39334     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  78668     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  42        
+Event:Chat               :  45        
+Event:Door               :  14        
+Event:ItemDrop           :  5         
+Event:ItemEquipped       :  29        
+Event:ItemUsed           :  3         
+Event:MissionState       :  1         
+Event:Pause              :  6         
+Event:PlayerJumped       :  23        
+Event:PlayerSwinging     :  66        
+Event:Scoreboard         :  13        
+Event:Triage             :  30        
+Event:VictimsExpired     :  1         
+FoV                      :  18379     
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+start                    :  1         
+state                    :  20673     
+state-start-stop         :  18682     
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  15        
+SUCCESSFUL               :  14        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2023.78
+Y: 60.00     62.25
+Z: 144.30     191.92
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     3.78
+Y: 0.00     -0.25
+Z: 1.30     15.08
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000005_trial_id_000015_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-25T00:08:27.6345Z
+Last message Time: 2020-06-25T00:25:40.421Z
+___________________________________
+duration from header 696.101
+duration from message 696.101
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  6886      
+TestbedBusInterface      clock                    :  6886      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  13772     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  18        
+Event:Door               :  15        
+Event:ItemDrop           :  1         
+Event:ItemEquipped       :  5         
+Event:Lever              :  7         
+Event:MissionState       :  1         
+Event:PlayerJumped       :  12        
+Event:PlayerSprinting    :  4         
+Event:Scoreboard         :  13        
+Event:Triage             :  32        
+Event:location           :  37        
+state                    :  6739      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  16        
+SUCCESSFUL               :  13        
+UNSUCCESSFUL             :  3         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2159.70     -2042.30
+Y: 60.00     141.66
+Z: 144.92     177.66
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -47.70     22.30
+Y: 0.00     -79.66
+Z: 1.92     29.34
+
+Reading Rita messages from ./NotHSRData_a6c17a02-66bf-4358-9e1a-c46c7104f759.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-05T22:55:20.3368Z
+Last message Time: 2020-08-05T23:19:27.0537Z
+___________________________________
+duration from header 1446.717
+duration from message 1426.704
+Delta: -20.013000000000147
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  415       
+TestbedBusInterface      clock                    :  415       
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  830       
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Chat               :  3         
+Event:Door               :  38        
+Event:ItemDrop           :  5         
+Event:ItemUsed           :  3         
+Event:MissionState       :  1         
+Event:Pause              :  6         
+Event:PlayerJumped       :  291       
+Event:Triage             :  64        
+Event:VictimsExpired     :  1         
+Mission:VictimList       :  1         
+start                    :  1         
+state-start-stop         :  0         
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  32        
+SUCCESSFUL               :  29        
+UNSUCCESSFUL             :  3         
+
+No state messages
+Keys debug ['Event:Chat', 'Event:Door', 'Event:ItemDrop', 'Event:ItemUsed', 'Event:MissionState', 'Event:Pause', 'Event:PlayerJumped', 'Event:Triage', 'Event:VictimsExpired', 'Mission:VictimList', 'start', 'state-start-stop', 'stop']
+
+Reading Rita messages from ./august-2020-27-falcon-easy.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-27T21:42:55.8279Z
+Last message Time: 2020-08-27T21:54:03.856685Z
+___________________________________
+duration from header 668.029
+duration from message 668.029
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      clock                    :  13139     
+TestbedBusInterface      testbed-message          :  13071     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  26210     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  31        
+Event:Chat               :  34        
+Event:Door               :  31        
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  9         
+Event:Lever              :  10        
+Event:MissionState       :  1         
+Event:Pause              :  3         
+Event:PlayerSwinging     :  138       
+Event:Scoreboard         :  15        
+Event:Triage             :  31        
+Event:VictimsExpired     :  1         
+Event:location           :  397       
+FoV                      :  6146      
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+SemanticMap:All_Updates  :  1         
+start                    :  1         
+state                    :  6216      
+state-start-stop         :  6216      
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  16        
+SUCCESSFUL               :  15        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2151.50     -2023.18
+Y: 60.00     60.38
+Z: 145.35     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -39.50     3.18
+Y: 0.00     1.62
+Z: 2.35     15.30
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000003_trial_id_000006_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-17T17:24:35.774Z
+Last message Time: 2020-06-17T17:44:51.086Z
+___________________________________
+duration from header 1215.312
+duration from message 1215.312
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  12276     
+TestbedBusInterface      clock                    :  12276     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  24552     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  58        
+Event:Door               :  34        
+Event:ItemDrop           :  1         
+Event:ItemEquipped       :  4         
+Event:ItemPickup         :  1         
+Event:Lever              :  22        
+Event:MissionState       :  1         
+Event:PlayerJumped       :  72        
+Event:PlayerSprinting    :  32        
+Event:Scoreboard         :  20        
+Event:Triage             :  47        
+Event:location           :  125       
+state                    :  11859     
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  23        
+SUCCESSFUL               :  20        
+UNSUCCESSFUL             :  4         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2187.03     -2108.79
+Y: 36.00     75.39
+Z: 153.64     198.60
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -75.03     88.79
+Y: -24.00     -13.39
+Z: 10.64     8.40
+
+Reading Rita messages from ./august-2020-27-falcon-hard.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-27T22:07:51.7452Z
+Last message Time: 2020-08-27T22:18:58.402Z
+___________________________________
+duration from header 666.657
+duration from message 666.657
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      clock                    :  12876     
+TestbedBusInterface      testbed-message          :  12810     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  25686     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  30        
+Event:Chat               :  33        
+Event:Door               :  21        
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  3         
+Event:Lever              :  8         
+Event:MissionState       :  1         
+Event:Pause              :  3         
+Event:PlayerJumped       :  28        
+Event:PlayerSprinting    :  6         
+Event:PlayerSwinging     :  104       
+Event:Scoreboard         :  16        
+Event:Triage             :  32        
+Event:VictimsExpired     :  1         
+Event:location           :  375       
+FoV                      :  6057      
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+SemanticMap:All_Updates  :  1         
+start                    :  1         
+state                    :  6084      
+state-start-stop         :  6084      
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  16        
+SUCCESSFUL               :  16        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2151.50     -2044.30
+Y: 60.00     62.25
+Z: 144.30     191.43
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -39.50     24.30
+Y: 0.00     -0.25
+Z: 1.30     15.57
+
+Reading Rita messages from ./NotHSRData_c3500384-4dc7-4325-81de-f70c5b05b4ee.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-05T23:20:44.7056Z
+Last message Time: 2020-08-05T23:42:35.787Z
+___________________________________
+duration from header 1311.082
+duration from message 1311.082
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  12097     
+TestbedBusInterface      clock                    :  12097     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  24194     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Chat               :  55        
+Event:Door               :  29        
+Event:ItemDrop           :  5         
+Event:ItemEquipped       :  13        
+Event:ItemUsed           :  3         
+Event:MissionState       :  1         
+Event:Pause              :  6         
+Event:PlayerJumped       :  311       
+Event:PlayerSprinting    :  324       
+Event:PlayerSwinging     :  144       
+Event:Scoreboard         :  27        
+Event:Triage             :  58        
+Event:VictimsExpired     :  1         
+Event:location           :  119       
+Mission:VictimList       :  1         
+start                    :  1         
+state                    :  10999     
+state-start-stop         :  10999     
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  29        
+SUCCESSFUL               :  27        
+UNSUCCESSFUL             :  2         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2159.57     -2021.63
+Y: 60.00     63.17
+Z: 144.30     191.73
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -47.57     1.63
+Y: 0.00     -1.17
+Z: 1.30     15.27
+
+Reading Rita messages from ./jun10TB43-run7.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-11T01:20:10.464Z
+Last message Time: 2020-06-11T01:35:40.467Z
+___________________________________
+duration from header 930.003
+duration from message 930.003
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  9248      
+log-player               clock                    :  931       
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  10179     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Door               :  22        
+Event:ItemEquipped       :  14        
+Event:Lever              :  21        
+Event:Triage             :  45        
+state                    :  9146      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+Triage In Progress       :  23        
+Victim Rescued           :  22        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2186.50     -2108.30
+Y: 52.00     54.20
+Z: 153.35     198.21
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -74.50     88.30
+Y: -8.00     7.80
+Z: 10.35     8.79
+
+Reading Rita messages from ./sept-2020-28-falcon-hard.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-09-28T16:59:58.9417Z
+Last message Time: 2020-09-28T17:11:16.6174Z
+___________________________________
+duration from header 677.676
+duration from message 670.985
+Delta: -6.691000000000031
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      clock                    :  13399     
+TestbedBusInterface      testbed-message          :  13329     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  26728     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  37        
+Event:Chat               :  40        
+Event:Door               :  25        
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  3         
+Event:Lever              :  2         
+Event:MissionState       :  1         
+Event:Pause              :  3         
+Event:PlayerJumped       :  49        
+Event:PlayerSprinting    :  2         
+Event:PlayerSwinging     :  96        
+Event:Scoreboard         :  15        
+Event:Triage             :  30        
+Event:VictimsExpired     :  1         
+Event:location           :  481       
+FoV                      :  6128      
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+SemanticMap:All_Updates  :  1         
+start                    :  1         
+state                    :  6407      
+state-start-stop         :  6407      
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  15        
+SUCCESSFUL               :  15        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2151.50     -2024.83
+Y: 60.00     62.25
+Z: 144.30     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -39.50     4.83
+Y: 0.00     -0.25
+Z: 1.30     15.30
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-4_CondWin-Condition_4-StaticMap_Trial-1_Team-na_Member-Subject_id_000022_Vers-1.0.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-14T22:48:18.6088Z
+Last message Time: 2020-08-14T23:23:37.839Z
+___________________________________
+duration from header 2119.231
+duration from message 2119.231
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  39885     
+TestbedBusInterface      clock                    :  39885     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  79770     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  35        
+Event:Chat               :  41        
+Event:Door               :  25        
+Event:ItemDrop           :  5         
+Event:ItemEquipped       :  12        
+Event:ItemUsed           :  3         
+Event:MissionState       :  1         
+Event:Pause              :  6         
+Event:PlayerJumped       :  32        
+Event:PlayerSprinting    :  106       
+Event:PlayerSwinging     :  124       
+Event:Scoreboard         :  27        
+Event:Triage             :  54        
+Event:VictimsExpired     :  1         
+Event:location           :  5         
+FoV                      :  292       
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+start                    :  1         
+state                    :  39112     
+state-start-stop         :  36122     
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  27        
+SUCCESSFUL               :  27        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2022.64
+Y: 60.00     154.74
+Z: 144.00     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     2.64
+Y: 0.00     -92.74
+Z: 1.00     15.30
+
+Reading Rita messages from ./sept-2020-28-falcon-easy.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-09-28T16:34:27.507Z
+Last message Time: 2020-09-28T16:46:06.645256Z
+___________________________________
+duration from header 699.138
+duration from message 699.138
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      clock                    :  13647     
+TestbedBusInterface      testbed-message          :  13575     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  27222     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  17        
+Event:Chat               :  20        
+Event:Door               :  28        
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  8         
+Event:MissionState       :  1         
+Event:Pause              :  3         
+Event:PlayerJumped       :  7         
+Event:PlayerSprinting    :  2         
+Event:PlayerSwinging     :  138       
+Event:Scoreboard         :  24        
+Event:Triage             :  48        
+Event:VictimsExpired     :  1         
+Event:location           :  359       
+FoV                      :  6302      
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+SemanticMap:All_Updates  :  1         
+start                    :  1         
+state                    :  6608      
+state-start-stop         :  6563      
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  24        
+SUCCESSFUL               :  24        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2151.50     -2029.08
+Y: 60.00     62.25
+Z: 145.49     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -39.50     9.08
+Y: 0.00     -0.25
+Z: 2.49     15.30
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-1_CondWin-Falcon_Hard-StaticMap_Trial-1_Team-na_Member-jcr_Vers-1.0.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-19T18:01:41.6807Z
+Last message Time: 2020-08-19T18:13:20.1718Z
+___________________________________
+duration from header 698.491
+duration from message 694.691
+Delta: -3.7999999999999545
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  13188     
+TestbedBusInterface      clock                    :  13188     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  26376     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  55        
+Event:Chat               :  58        
+Event:Door               :  26        
+Event:ItemDrop           :  5         
+Event:ItemEquipped       :  11        
+Event:ItemUsed           :  3         
+Event:MissionState       :  1         
+Event:Pause              :  6         
+Event:PlayerJumped       :  71        
+Event:PlayerSprinting    :  446       
+Event:PlayerSwinging     :  112       
+Event:Scoreboard         :  22        
+Event:Triage             :  46        
+Event:VictimsExpired     :  1         
+FoV                      :  6094      
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+start                    :  1         
+state                    :  6227      
+state-start-stop         :  6227      
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  23        
+SUCCESSFUL               :  22        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2025.24
+Y: 60.00     62.25
+Z: 144.30     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     5.24
+Y: 0.00     -0.25
+Z: 1.30     15.30
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-4_CondWin-Condition_4-StaticMap_Trial-Training_Team-na_Member-Subject_id_000022_Vers-1.0.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-14T22:17:04.1959Z
+Last message Time: 2020-08-14T22:24:37.4830Z
+___________________________________
+duration from header 453.288
+duration from message 438.737
+Delta: -14.550999999999988
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  4027      
+TestbedBusInterface      clock                    :  4027      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  8054      
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Door               :  5         
+Event:ItemDrop           :  3         
+Event:ItemEquipped       :  43        
+Event:ItemUsed           :  1         
+Event:Lever              :  3         
+Event:PlayerJumped       :  12        
+Event:PlayerSprinting    :  8         
+Event:PlayerSwinging     :  122       
+Event:Triage             :  18        
+start                    :  1         
+state                    :  3810      
+state-start-stop         :  3810      
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  9         
+SUCCESSFUL               :  8         
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2235.37     -2197.86
+Y: 54.00     56.25
+Z: 167.78     182.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -123.37     177.86
+Y: -6.00     5.75
+Z: 24.78     24.30
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000007_trial_id_000007_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-17T17:45:35.213Z
+Last message Time: 2020-06-17T18:00:14.306Z
+___________________________________
+duration from header 879.093
+duration from message 879.093
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  9002      
+TestbedBusInterface      clock                    :  9002      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  18004     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  36        
+Event:Door               :  68        
+Event:ItemDrop           :  1         
+Event:ItemEquipped       :  11        
+Event:Lever              :  4         
+Event:MissionState       :  1         
+Event:PlayerJumped       :  43        
+Event:PlayerSprinting    :  180       
+Event:Scoreboard         :  23        
+Event:Triage             :  48        
+Event:location           :  2         
+state                    :  8585      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  24        
+SUCCESSFUL               :  23        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2159.70     -2031.30
+Y: 60.00     80.88
+Z: 144.35     191.52
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -47.70     11.30
+Y: 0.00     -18.88
+Z: 1.35     15.48
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconEasy-DynamicMap_Trial-28_Team-na_Member-21_Vers-1.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-12T22:12:12.3876Z
+Last message Time: 2020-08-12T22:34:25.7144Z
+___________________________________
+duration from header 1333.327
+duration from message 2784.98
+Delta: 1451.653
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  21791     
+TestbedBusInterface      clock                    :  21791     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  43582     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  21        
+Event:Chat               :  24        
+Event:Door               :  13        
+Event:ItemDrop           :  10        
+Event:ItemEquipped       :  3         
+Event:MissionState       :  6         
+Event:PlayerJumped       :  6         
+Event:PlayerSprinting    :  6         
+Event:PlayerSwinging     :  102       
+Event:Scoreboard         :  16        
+Event:Triage             :  32        
+Event:VictimsExpired     :  1         
+Event:location           :  3         
+Mission:BlockageList     :  5         
+Mission:VictimList       :  5         
+state                    :  21536     
+state-start-stop         :  0         
+stop                     :  2         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  16        
+SUCCESSFUL               :  15        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2042.30
+Y: 60.00     161.87
+Z: 144.30     190.81
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     22.30
+Y: 0.00     -99.87
+Z: 1.30     16.19
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000001_trial_id_000008_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-18T16:09:40.7793Z
+Last message Time: 2020-06-18T16:24:01.9972Z
+___________________________________
+duration from header 739.765
+duration from message 739.765
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  7740      
+TestbedBusInterface      clock                    :  7740      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  15480     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  35        
+Event:Door               :  14        
+Event:ItemDrop           :  1         
+Event:ItemEquipped       :  2         
+Event:Lever              :  8         
+Event:MissionState       :  1         
+Event:PlayerJumped       :  50        
+Event:PlayerSprinting    :  244       
+Event:Scoreboard         :  19        
+Event:Triage             :  40        
+Event:location           :  94        
+state                    :  7230      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  20        
+SUCCESSFUL               :  19        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2200.01     -2109.56
+Y: 36.42     64.08
+Z: 153.30     191.08
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -88.01     89.56
+Y: -23.58     -2.08
+Z: 10.30     15.92
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000003_trial_id_000013_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-22T17:03:23.5271Z
+Last message Time: 2020-06-22T17:22:57.938Z
+___________________________________
+duration from header 886.418
+duration from message 886.418
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  8941      
+TestbedBusInterface      clock                    :  8941      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  17882     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  45        
+Event:Door               :  22        
+Event:ItemDrop           :  1         
+Event:ItemEquipped       :  2         
+Event:Lever              :  3         
+Event:MissionState       :  1         
+Event:PlayerJumped       :  30        
+Event:PlayerSprinting    :  46        
+Event:Scoreboard         :  26        
+Event:Triage             :  59        
+Event:location           :  111       
+state                    :  8593      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  29        
+SUCCESSFUL               :  26        
+UNSUCCESSFUL             :  4         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2187.50     -2108.78
+Y: 52.00     107.01
+Z: 154.21     197.06
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -75.50     88.78
+Y: -8.00     -45.01
+Z: 11.21     9.94
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-3_CondWin-Condition_3-StaticMap_Trial-000034_Team-na_Member-000023_Vers-1.0.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-19T23:12:11.3527Z
+Last message Time: 2020-08-19T23:34:06.253Z
+___________________________________
+duration from header 1314.901
+duration from message 1314.901
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  21622     
+TestbedBusInterface      clock                    :  21622     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  43244     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  38        
+Event:Chat               :  44        
+Event:Door               :  14        
+Event:ItemDrop           :  5         
+Event:ItemEquipped       :  21        
+Event:ItemUsed           :  3         
+Event:MissionState       :  1         
+Event:Pause              :  6         
+Event:PlayerJumped       :  18        
+Event:PlayerSwinging     :  92        
+Event:Scoreboard         :  17        
+Event:Triage             :  37        
+Event:VictimsExpired     :  1         
+FoV                      :  9399      
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+start                    :  1         
+state                    :  11922     
+state-start-stop         :  9814      
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  19        
+SUCCESSFUL               :  17        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2028.19
+Y: 60.00     62.25
+Z: 146.30     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     8.19
+Y: 0.00     -0.25
+Z: 3.30     15.30
+
+Reading Rita messages from ./NotHSRData_e155f8b2-3c88-44ef-9066-45b33a9cd723.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-05T22:20:10.5095Z
+Last message Time: 2020-08-05T22:24:15.9319Z
+___________________________________
+duration from header 245.422
+duration from message 241.944
+Delta: -3.4780000000000086
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  2424      
+TestbedBusInterface      clock                    :  2424      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  4848      
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Chat               :  11        
+Event:CompetencyTask     :  17        
+Event:Door               :  6         
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  5         
+Event:Lever              :  6         
+Event:PlayerJumped       :  58        
+Event:PlayerSprinting    :  48        
+Event:PlayerSwinging     :  72        
+Event:Scoreboard         :  5         
+Event:Triage             :  10        
+FoV                      :  23        
+start                    :  1         
+state                    :  2159      
+state-start-stop         :  2159      
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  5         
+SUCCESSFUL               :  5         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2196.45     -2104.50
+Y: 29.00     31.25
+Z: 76.58     149.87
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False True
+Z:  False True
+
+Trial Map bounds delta
+___________________________________
+X: -84.45     84.50
+Y: -31.00     30.75
+Z: -66.42     57.13
+
+Reading Rita messages from ./august-2020-20-falcon-hard.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-20T16:32:52.094Z
+Last message Time: 2020-08-20T16:43:23.889Z
+___________________________________
+duration from header 631.795
+duration from message 631.795
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  6546      
+TestbedBusInterface      clock                    :  6544      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  13090     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  36        
+Event:Door               :  28        
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  4         
+Event:Lever              :  8         
+Event:MissionState       :  1         
+Event:PlayerJumped       :  45        
+Event:PlayerSwinging     :  118       
+Event:Scoreboard         :  13        
+Event:Triage             :  26        
+Event:VictimsExpired     :  1         
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+state                    :  6260      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  13        
+SUCCESSFUL               :  13        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2159.70     -2024.49
+Y: 60.00     62.25
+Z: 145.13     191.61
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -47.70     4.49
+Y: 0.00     -0.25
+Z: 2.13     15.39
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-4_CondWin-Condition_4-StaticMap_Trial-Falcon_Easy_Team-na_Member-Subject_id_000022_Vers-1.0.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-14T22:31:38.9118Z
+Last message Time: 2020-08-14T22:36:21.808Z
+___________________________________
+duration from header 282.897
+duration from message 282.897
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  1512      
+TestbedBusInterface      clock                    :  1512      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  3024      
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:ItemEquipped       :  1         
+start                    :  1         
+state                    :  1510      
+state-start-stop         :  1510      
+
+No Event:Triage messages
+Keys debug ['Event:ItemEquipped', 'start', 'state', 'state-start-stop']
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2151.50     -2151.50
+Y: 60.00     60.00
+Z: 147.50     147.50
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -39.50     131.50
+Y: 0.00     2.00
+Z: 4.50     59.50
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-4_CondWin-Condition_4-StaticMap_Trial-Falcon_Hard_Team-na_Member-Subject_id_000022_Vers-1.0.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-14T23:23:34.8174Z
+Last message Time: 2020-08-14T23:44:38.6246Z
+___________________________________
+duration from header 1263.807
+duration from message 1182.471
+Delta: -81.33600000000001
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  210       
+TestbedBusInterface      clock                    :  210       
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  420       
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Chat               :  3         
+Event:Door               :  30        
+Event:ItemDrop           :  7         
+Event:ItemUsed           :  5         
+Event:MissionState       :  1         
+Event:Pause              :  8         
+Event:PlayerJumped       :  113       
+Event:Triage             :  38        
+Event:VictimsExpired     :  1         
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+start                    :  1         
+state-start-stop         :  0         
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  19        
+SUCCESSFUL               :  19        
+
+No state messages
+Keys debug ['Event:Chat', 'Event:Door', 'Event:ItemDrop', 'Event:ItemUsed', 'Event:MissionState', 'Event:Pause', 'Event:PlayerJumped', 'Event:Triage', 'Event:VictimsExpired', 'Mission:BlockageList', 'Mission:VictimList', 'start', 'state-start-stop', 'stop']
+
+Reading Rita messages from ./august-2020-20-falcon-easy.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-20T15:56:28.4969Z
+Last message Time: 2020-08-20T16:19:50.230Z
+___________________________________
+duration from header 1401.734
+duration from message 1401.733
+Delta: -0.0009999999999763531
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  6589      
+TestbedBusInterface      clock                    :  6589      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  13178     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  13        
+Event:Door               :  20        
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  6         
+Event:Lever              :  11        
+Event:MissionState       :  1         
+Event:PlayerJumped       :  6         
+Event:PlayerSprinting    :  4         
+Event:PlayerSwinging     :  152       
+Event:Scoreboard         :  17        
+Event:Triage             :  36        
+Event:VictimsExpired     :  1         
+FoV                      :  32        
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+create                   :  1         
+start                    :  1         
+state                    :  6284      
+state-start-stop         :  6284      
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  18        
+SUCCESSFUL               :  17        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2028.56
+Y: 60.00     62.25
+Z: 145.43     191.52
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     8.56
+Y: 0.00     -0.25
+Z: 2.43     15.48
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000005_trial_id_000009_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-18T16:25:18.1531Z
+Last message Time: 2020-06-18T16:43:18.433Z
+___________________________________
+duration from header 1005.411
+duration from message 1005.411
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  7520      
+TestbedBusInterface      clock                    :  7520      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  15040     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  42        
+Event:Door               :  19        
+Event:ItemDrop           :  1         
+Event:ItemEquipped       :  2         
+Event:Lever              :  1         
+Event:MissionState       :  1         
+Event:PlayerJumped       :  48        
+Event:PlayerSprinting    :  190       
+Event:Scoreboard         :  23        
+Event:Triage             :  51        
+Event:location           :  7         
+state                    :  7133      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  25        
+SUCCESSFUL               :  23        
+UNSUCCESSFUL             :  3         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2025.63
+Y: 60.00     130.78
+Z: 144.30     191.09
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     5.63
+Y: 0.00     -68.78
+Z: 1.30     15.91
+
+Reading Rita messages from ./TrialMessages_CondBtwn-3_CondWin-Condition-3-StaticMap_Trial-000034_Team-na_Member-000023_Vers-1.0.metadata.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-19T23:12:11.3527Z
+Last message Time: 2020-08-19T23:34:06.253Z
+___________________________________
+duration from header 1314.901
+duration from message 1314.901
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  21622     
+TestbedBusInterface      clock                    :  21622     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  43244     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  38        
+Event:Chat               :  44        
+Event:Door               :  14        
+Event:ItemDrop           :  5         
+Event:ItemEquipped       :  21        
+Event:ItemUsed           :  3         
+Event:MissionState       :  1         
+Event:Pause              :  6         
+Event:PlayerJumped       :  18        
+Event:PlayerSwinging     :  92        
+Event:Scoreboard         :  17        
+Event:Triage             :  37        
+Event:VictimsExpired     :  1         
+FoV                      :  9399      
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+start                    :  1         
+state                    :  11922     
+state-start-stop         :  9814      
+stop                     :  1         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  19        
+SUCCESSFUL               :  17        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2028.19
+Y: 60.00     62.25
+Z: 146.30     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     8.19
+Y: 0.00     -0.25
+Z: 3.30     15.30
+
+Reading Rita messages from ./august-2020-27-falcon-medium.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-27T21:54:47.3288Z
+Last message Time: 2020-08-27T22:07:20.288Z
+___________________________________
+duration from header 752.96
+duration from message 1464.461
+Delta: 711.501
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      clock                    :  13036     
+TestbedBusInterface      testbed-message          :  12961     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  25997     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  21        
+Event:Chat               :  24        
+Event:Door               :  19        
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  3         
+Event:Lever              :  8         
+Event:MissionState       :  1         
+Event:Pause              :  3         
+Event:PlayerJumped       :  9         
+Event:PlayerSwinging     :  86        
+Event:Scoreboard         :  13        
+Event:Triage             :  26        
+Event:VictimsExpired     :  1         
+Event:location           :  440       
+FoV                      :  6059      
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+SemanticMap:All_Updates  :  1         
+start                    :  2         
+state                    :  6236      
+state-start-stop         :  0         
+stop                     :  3         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  13        
+SUCCESSFUL               :  13        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2151.50     -2059.78
+Y: 60.00     61.25
+Z: 144.30     191.68
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -39.50     39.78
+Y: 0.00     0.75
+Z: 1.30     15.32
+
+Reading Rita messages from ./NotHSRData_CompetencyTestMessages_CondBtwn-na_CondWin-na_Trial-na_Team-na_Member-21_Vers-1.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-12T20:53:21.8270Z
+Last message Time: 2020-08-12T21:46:57.5012Z
+___________________________________
+duration from header 3215.674
+duration from message 3042.313
+Delta: -173.36099999999988
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  6837      
+TestbedBusInterface      clock                    :  6837      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  13674     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  11        
+Event:Chat               :  28        
+Event:CompetencyTask     :  22        
+Event:Door               :  13        
+Event:ItemDrop           :  5         
+Event:ItemEquipped       :  10        
+Event:ItemUsed           :  1         
+Event:Lever              :  10        
+Event:MissionState       :  1         
+Event:Pause              :  3         
+Event:PlayerJumped       :  37        
+Event:PlayerSprinting    :  82        
+Event:PlayerSwinging     :  122       
+Event:Scoreboard         :  12        
+Event:Triage             :  24        
+FoV                      :  6         
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+start                    :  2         
+state                    :  6444      
+state-start-stop         :  1767      
+stop                     :  2         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  12        
+SUCCESSFUL               :  12        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2151.50     -2050.68
+Y: 60.00     61.25
+Z: 147.04     191.98
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -39.50     30.68
+Y: 0.00     0.75
+Z: 4.04     15.02
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000007_trial_id_000012_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-22T16:48:15.5594Z
+Last message Time: 2020-06-22T17:02:56.242Z
+___________________________________
+duration from header 835.484
+duration from message 835.483
+Delta: -0.00100000000009004
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  8364      
+TestbedBusInterface      clock                    :  8364      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  16728     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  36        
+Event:Door               :  36        
+Event:ItemDrop           :  1         
+Event:ItemEquipped       :  5         
+Event:Lever              :  4         
+Event:MissionState       :  1         
+Event:PlayerJumped       :  9         
+Event:PlayerSprinting    :  112       
+Event:Scoreboard         :  21        
+Event:Triage             :  42        
+Event:location           :  10        
+state                    :  8085      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  21        
+SUCCESSFUL               :  21        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.70     -2029.84
+Y: 60.00     138.99
+Z: 144.57     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.70     9.84
+Y: 0.00     -76.99
+Z: 1.57     15.30
+
+Reading Rita messages from ./NotHSRData_TrialMessages_CondBtwn-TriageSignal_CondWin-FalconHard-DynamicMap_Trial-30_Team-na_Member-21_Vers-1.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-12T23:06:58.9044Z
+Last message Time: 2020-08-12T23:44:44.505Z
+___________________________________
+duration from header 2265.601
+duration from message 2265.601
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  40693     
+TestbedBusInterface      clock                    :  40693     
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  81386     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  32        
+Event:Chat               :  35        
+Event:Door               :  14        
+Event:ItemDrop           :  5         
+Event:ItemEquipped       :  12        
+Event:ItemUsed           :  3         
+Event:MissionState       :  1         
+Event:Pause              :  6         
+Event:PlayerJumped       :  27        
+Event:PlayerSwinging     :  82        
+Event:Scoreboard         :  21        
+Event:Triage             :  42        
+Event:VictimsExpired     :  1         
+Event:location           :  6         
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+start                    :  1         
+state                    :  40403     
+state-start-stop         :  40403     
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  21        
+SUCCESSFUL               :  21        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2022.41
+Y: 60.00     128.89
+Z: 145.56     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     2.41
+Y: 0.00     -66.89
+Z: 2.56     15.30
+
+Reading Rita messages from ./august-2020-27-falcon-easy.1.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-08-27T21:17:02.262Z
+Last message Time: 2020-08-27T21:27:54.174Z
+___________________________________
+duration from header 651.912
+duration from message 651.912
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      clock                    :  6717      
+TestbedBusInterface      testbed-message          :  6627      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  13344     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Chat               :  3         
+Event:Door               :  14        
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  2         
+Event:Lever              :  9         
+Event:MissionState       :  2         
+Event:PlayerSwinging     :  90        
+Event:Scoreboard         :  12        
+Event:Triage             :  24        
+Event:VictimsRescued     :  1         
+Mission:BlockageList     :  1         
+Mission:VictimList       :  1         
+state                    :  6466      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  12        
+SUCCESSFUL               :  12        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2066.11
+Y: 60.00     60.00
+Z: 145.54     191.60
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     46.11
+Y: 0.00     2.00
+Z: 2.54     15.40
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000001_trial_id_000005_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-12T18:31:23.2897Z
+Last message Time: 2020-06-12T18:46:09.517Z
+___________________________________
+duration from header 821.194
+duration from message 821.194
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  8180      
+TestbedBusInterface      clock                    :  8180      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  16360     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Door               :  8         
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  4         
+Event:Lever              :  5         
+Event:MissionState       :  1         
+Event:PlayerJumped       :  27        
+Event:PlayerSprinting    :  6         
+Event:Scoreboard         :  5         
+Event:Triage             :  19        
+Event:Woof               :  18        
+Event:location           :  25        
+state                    :  8058      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  10        
+SUCCESSFUL               :  5         
+UNSUCCESSFUL             :  4         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2186.84     -2118.33
+Y: 52.00     53.50
+Z: 159.99     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -74.84     98.33
+Y: -8.00     8.50
+Z: 16.99     15.30
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000001_trial_id_000001_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-12T18:48:20.6539Z
+Last message Time: 2020-06-12T18:56:35.1100Z
+___________________________________
+duration from header 433.974
+duration from message 433.974
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  4292      
+TestbedBusInterface      clock                    :  4292      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  8584      
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Door               :  2         
+Event:ItemDrop           :  2         
+Event:ItemEquipped       :  6         
+Event:Lever              :  4         
+Event:MissionState       :  1         
+Event:PlayerJumped       :  9         
+Event:PlayerSprinting    :  2         
+Event:Scoreboard         :  3         
+Event:Triage             :  14        
+Event:Woof               :  7         
+Event:location           :  17        
+state                    :  4223      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  7         
+SUCCESSFUL               :  3         
+UNSUCCESSFUL             :  4         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2185.35     -2123.30
+Y: 52.00     54.20
+Z: 170.30     192.28
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -73.35     103.30
+Y: -8.00     7.80
+Z: 27.30     14.72
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000006_trial_id_000011_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-18T22:33:57.7454Z
+Last message Time: 2020-06-18T22:47:06.384Z
+___________________________________
+duration from header 746.452
+duration from message 746.452
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  7676      
+TestbedBusInterface      clock                    :  7676      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  15352     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  38        
+Event:Door               :  24        
+Event:ItemDrop           :  1         
+Event:ItemEquipped       :  7         
+Event:Lever              :  2         
+Event:MissionState       :  1         
+Event:PlayerJumped       :  15        
+Event:PlayerSprinting    :  270       
+Event:Scoreboard         :  28        
+Event:Triage             :  58        
+Event:location           :  5         
+state                    :  7225      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  29        
+SUCCESSFUL               :  28        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2158.50     -2024.26
+Y: 60.00     138.66
+Z: 145.00     191.70
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  True False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -46.50     4.26
+Y: 0.00     -76.66
+Z: 2.00     15.30
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000002_trial_id_000003_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-16T21:33:42.3353Z
+Last message Time: 2020-06-16T21:50:00.723Z
+___________________________________
+duration from header 941.856
+duration from message 941.856
+Delta: 0.0
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  9697      
+TestbedBusInterface      clock                    :  9697      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  19394     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  31        
+Event:Door               :  23        
+Event:ItemDrop           :  1         
+Event:ItemEquipped       :  2         
+Event:Lever              :  11        
+Event:MissionState       :  1         
+Event:PlayerJumped       :  87        
+Event:PlayerSprinting    :  200       
+Event:Scoreboard         :  23        
+Event:Triage             :  46        
+Event:location           :  89        
+state                    :  9181      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  23        
+SUCCESSFUL               :  23        
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2187.82     -2109.32
+Y: 52.00     54.20
+Z: 154.04     197.99
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False True
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -75.82     89.32
+Y: -8.00     7.80
+Z: 11.04     9.01
+
+Reading Rita messages from ./ASIST_data_study_id_000001_condition_id_000002_trial_id_000010_messages.json
+Reading Map data from ../../basemap/Falcon.json
+____________________________________________________________
+
+First message Time: 2020-06-18T22:15:56.3831Z
+Last message Time: 2020-06-18T22:29:20.279Z
+___________________________________
+duration from header 742.546
+duration from message 742.545
+Delta: -0.00100000000009004
+
+app-id                   routing-key              :  Count     
+____________________________________________________________
+TestbedBusInterface      testbed-message          :  7653      
+TestbedBusInterface      clock                    :  7653      
+                         clock                    :  0         
+Others                                            :  0         
+Total                                             :  15306     
+
+Testbed Sub_Type messages
+sub_type-id              :  Count     
+___________________________________
+Event:Beep               :  40        
+Event:Door               :  21        
+Event:ItemDrop           :  1         
+Event:ItemEquipped       :  2         
+Event:Lever              :  8         
+Event:MissionState       :  1         
+Event:PlayerJumped       :  33        
+Event:PlayerSprinting    :  198       
+Event:Scoreboard         :  23        
+Event:Triage             :  48        
+Event:location           :  116       
+state                    :  7160      
+state-start-stop         :  0         
+
+Triage Stats
+___________________________________
+IN_PROGRESS              :  24        
+SUCCESSFUL               :  23        
+UNSUCCESSFUL             :  1         
+
+Trial Min and Max co-ordinates
+___________________________________
+X: -2186.55     -2109.77
+Y: 52.00     102.88
+Z: 155.22     197.96
+
+../../basemap/Falcon.json  Min and Max co-ordinates 
+___________________________________
+X: -2112.00     -2020.00
+Y: 60.00     62.00
+Z: 143.00     207.00
+
+Trial within map bounds
+___________________________________
+X:  False True
+Y:  False False
+Z:  True True
+
+Trial Map bounds delta
+___________________________________
+X: -74.55     89.77
+Y: -8.00     -40.88
+Z: 12.22     9.04
+

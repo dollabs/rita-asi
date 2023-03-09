@@ -1,0 +1,20 @@
+//Personal Rules test, Jan 2017
+
+Start experiment.
+
+Start common sense knowledge.
+xx is a person.
+David, Emily, and Peter are persons.
+
+If reader is David and xx shouts, then xx is excited.
+If reader is Emily and xx shouts, then xx is angry.
+
+Start story titled "Personal Rules test".
+
+David, Emily, and Peter enter the scene.
+Peter shouts.
+The end.
+
+// Expected mental models:
+// David: Peter shouts.  Peter is excited.
+// Emily: Peter shouts.  Peter is angry.

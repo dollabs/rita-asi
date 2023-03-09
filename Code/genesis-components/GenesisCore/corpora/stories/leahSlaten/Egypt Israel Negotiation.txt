@@ -1,0 +1,36 @@
+// // Introduces comment
+// Next line makes sure memories and displays are ready to go by inserting file named: Start experiment.txt
+// Memories are cleared, first perspective is shown, reading into first perspective.
+
+// Story describing the negotiation between Israel (Menachem Begin) and Egypt (Anwar Sadat).
+
+Start experiment.
+
+Set all switches to defaults.
+// Set perform goal analysis (ASPIRE) switch to true.
+// Set use similarity rule matching switch to true.
+
+//Insert file General commonsense knowledge.
+//Insert file General reflective knowledge.
+Insert file Negotiation Rules.
+Insert file Negotiation Concepts.
+
+Start story titled "Negotiation of Israel and Egypt".
+
+Egypt and Israel are entities.
+
+The Sinai Peninsula is an entity.
+The Sinai Peninsula is a kind of place.
+
+Israel controls the Sinai Peninsula after Egypt controlled the Sinai Peninsula.
+
+// Egypt used to control the Sinai Peninsula.                                                                                                                                                 x   m       cvbnmm      
+
+Egypt attacked Israel.
+
+Israel gives the Sinai Peninsula to Egypt.
+Egypt removed Egypt's troops.
+
+The end.
+
+

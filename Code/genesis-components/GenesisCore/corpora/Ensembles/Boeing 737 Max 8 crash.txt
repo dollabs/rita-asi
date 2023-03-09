@@ -1,0 +1,64 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Learn concept button to true.
+Set left panel to commentary.
+// Set right panel to Z Story Aligner Gallery.
+Set right panel to source.
+Both perspectives.
+
+Aviation experts are persons.
+the captain is a person.
+Ethiopian Airlines Flight 302 is an entity.
+Addis Ababa is an entity.
+Boeing-737-MAX-8 plane is an entity.
+anti-stall system is an entity.
+Indonesia Lion Air os am entity.
+Java Sea is an entity.
+10 March 2019 is an entity.
+
+xx, yy, and zz are persons.
+vv, uu, and kk are variables.
+mm and nn are entities.
+
+If a Boeing-737-MAX-8 plane of mm crashed into uu on kk, then a Boeing-737-MAX-8 crashed.
+If xx asks for permission to return to the airport, then xx must have realized some problems.
+If xx notes that there were some abnormalities in the altitude of uu, then there are problem with uu's altitude.
+If xx later identifies problems with vv, then there are problem with vv.
+If uu's altitude continues to fluctuate, then uu's altitude is fluctuating.
+If flight tracking data shows that the uu's altitude had fluctuated sharply, then there are problem with uu's altitude.
+If uu seemed to be climbing and descending, then uu's altitude.
+If xx asks to return after minutes, then xx must have realized some problems.
+
+Show both perspectives.
+// https://www.bbc.com/news/world-africa-47605265
+
+First perspective.
+Start story titled "Indonesia Airline crash".
+On 29 October 2018, a Boeing-737-MAX-8 plane of Indonesia Lion Air crashed into the Java Sea.
+All 189 people on board died.
+Aviation experts noted that there were some abnormalities in the altitude of Flight 610.
+Three minutes later, the captain struggled to control the aircraft.
+The captain asked for permission to return to the airport.
+The plane descended to about 5,000 feet but its altitude continued to fluctuate.
+Investigators later identified problems with the anti-stall system.
+The system can prevent a plane not to point upwards at too high.
+Preliminary investigations revealed a potential design flaw involving the automated MCAS system of the 737 MAX series.
+The MCAS system repeatedly pushed the plane's nose down following takeoff.
+The end.
+
+Second perspective.
+Start story titled "Ethiopian Airline crash".
+Ethiopian Airlines Flight 302 was a Boeing-737-Max-8 aircraft.
+On 10 March 2019, the Boeing-737-Max-8 took off from Addis Ababa.
+It crashed and it killed all 157 people on board.
+Flight tracking data showed that the aircraft's altitude had fluctuated sharply.
+The plane seemed to be climbing and descending erratically.
+The pilot reported difficulties and asked to return after minutes.
+Following the second crash of the same model, airlines and authorities had grounded the operation of Boeing-737-Max-8 aircraft.
+The end.
+
+// https://en.wikipedia.org/wiki/Boeing_737_MAX
+// https://en.wikipedia.org/wiki/Boeing_737_MAX#MCAS

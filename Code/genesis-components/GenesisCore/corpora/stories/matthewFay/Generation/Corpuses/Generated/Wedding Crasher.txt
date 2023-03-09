@@ -1,0 +1,30 @@
+Insert file Much Ado.
+Insert file Taming of the Shrew.
+Insert file Beowulf.
+
+Clear story memory.
+
+Start Experiment.
+
+Start Story Titled, "Wedding Crasher".
+
+//David is a character.
+
+//David is similar to Beatrice.
+
+Andrea is a character.
+
+Andrea is similar to Hero.
+
+Hughes is a character.
+
+Hughes is similar to Katherine.
+
+George is a character.
+
+George is similar to Grendel.
+
+Simulate characters.
+Weave character plots.
+
+The end.

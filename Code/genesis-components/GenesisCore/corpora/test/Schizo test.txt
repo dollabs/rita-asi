@@ -1,0 +1,27 @@
+Start experiment.
+
+Start
+
+Set all switches to defaults.
+
+Set right panel to mental models.
+Set bottom panel to elaboration graph.
+
+Insert file Schizo common.
+
+Set Personality switch to false.
+Set Concept switch to false.
+Insert question into text box: Why did Samantha grab an umbrella?
+
+
+
+
+
+
+
+
+
+
+
+
+

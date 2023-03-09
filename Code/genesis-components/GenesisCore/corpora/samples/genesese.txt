@@ -1,0 +1,31 @@
+Start experiment.
+
+xx, yy, and zz are persons.
+
+If xx kills yy then yy becomes dead.
+
+If xx wants to murder yy, then xx may murder yy. 
+
+If xx kills yy, then xx must be not sane.
+
+Xx's having a knife enables xx's stabbing yy.
+
+XX murders YY and YY is ZZ's friend; ZZ becomes angry.
+ 
+
+Start story titled "Tragedy of Macbeth".
+Macbeth, Macduff, and Duncan are persons. 
+
+
+Macbeth wants to murder Duncan because Macbeth wants to become king.
+
+Duncan is Macduff's friend.
+Macbeth stabs Duncan.
+In order to murder Duncan, Macbeth murders the guards and Macbeth stabs Duncan.
+Macduff becomes angry.
+
+Macbeth's murdering Duncan leads to Macduff's killing Macbeth.
+
+Strangely, Macduff's killing Macbeth leads to Hamlet's murdering Macduff.
+
+The end.

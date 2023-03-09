@@ -1,0 +1,16 @@
+Both perspectives.
+Show both perspectives.
+
+Insert file FalseBeliefTask knowledge.
+
+First perspective.
+Set Healthy button to true.
+Start story titled "Healthy".
+Insert file FalseBeliefTask plot.
+The end.
+
+Second perspective.
+Set Failure-at-Mentalizing button to true.
+Start story titled "Schizophrenic via Failure-at-Mentalizing".
+Insert file FalseBeliefTask plot.
+The end.

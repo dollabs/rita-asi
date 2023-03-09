@@ -1,0 +1,31 @@
+Insert file Jack and the Beanstalk.
+Insert file The Tempest.
+Insert file Beowulf.
+Insert file Hansel and Gretel.
+
+Clear story memory.
+
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "Oedipus Much".
+
+Roland is a name.
+Roland is a character.
+Roland is similar to Giant.
+
+Josh is a name.
+Josh is a character.
+Josh is similar to Alonso.
+Josh is similar to Miranda. 
+
+Sarah is a name.
+Sarah is a character.
+Sarah is similar to Ferdinand.
+
+Simulate characters.
+Weave character plots.
+
+The end.

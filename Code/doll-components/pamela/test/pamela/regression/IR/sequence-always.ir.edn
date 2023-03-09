@@ -1,0 +1,27 @@
+{sequence-always
+ {:args [],
+  :meta
+  {:doc "sequence example with no time bounds", :version "0.2.0"},
+  :methods
+  {example
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :sequence,
+       :body
+       [{:type :delay, :body nil}
+        {:type :delay, :body nil}
+        {:type :delay, :body nil}
+        {:type :delay, :body nil}]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Example",
+     :doc "sequence example",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}]},
+  :type :pclass}}

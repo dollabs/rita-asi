@@ -1,0 +1,54 @@
+nav:
+    - Project:
+      - Welcome: index.md
+      - Weekly meeting notes (to Week 8): project-meetings.md
+      - Weekly plans (up to Week 4): project-plans.md
+      - (New!) Human behavior: project-behavior.md
+      - Vision - Team coacher agents: project-vision.md
+      - Task - Search and rescue missions: project-SAR.md
+      - Team - Minecraft UROP: project-team.md
+      # - Ideas - Summer 2020: project-ideas.md
+    - Set it up:
+      - Set up the repository: setup-repository.md
+      - Set up gridworld: setup-gridworld.md
+      - Set up Malmo: setup-Malmo.md
+      - Set up MkDocs: setup-mkdocs.md
+    - Run it once:
+    #   - Problem - POMDP: tut-mdp.md
+    #   - Algorithms - dynamic programming: tut-vi.md
+    #   - Algorithms - heuristic search: tut-search.md
+    #   - Algorithms - hierarchical planning: tut-hierarchical.md
+    #   - Framework - inverse planning: tut-inverse.md
+      # - Dataset II - human prediction: tut-prediction.md
+      - Planning-related test cases: tut-planning.md
+      # - RL-related test cases: tut-rl.md
+      # - Malmo-related test cases: tut-Malmo.md
+    # - Codes on RL:
+    #   - Algorithms - TD learning: tut-TD.md
+    #   - Algorithms - REINFORCE: tut-REIN.md
+    - Read it through:
+      - Weekly readings: literature-weekly.md
+      - Dataset I - human trajectories: data-trajectory.md
+      # - POMDP: literature-POMDP.md
+      # - Planning algorithms: literature-planning.md
+      # - Human navigation: literature-navigation.md
+      # - Human irrationality: literature-irrationality.md
+    - Know it exists:
+      # - Agent observation - Raytracing: tools-raytracing.md
+      # - Visualization - Turtle: tools-turtle.md
+      # - Minecraft Agent - Malmo: tools-Malmo.md
+      - Map Generator - Minecraft tools: tools-map-generator.md
+      - Git - Common nightmares: howto-git.md
+      - How to read papers: howto-review-literature.md
+
+site_name: Minedocs
+theme: readthedocs
+# theme:
+#     name: null
+#     custom_dir: '/miniconda3/lib/python3.7/site-packages/mkdocs/themes/readthediary/'
+
+site_favicon: css/favicon.ico
+extra_css: [css/extra.css]
+markdown_extensions:
+    - toc:
+        permalink: "#"

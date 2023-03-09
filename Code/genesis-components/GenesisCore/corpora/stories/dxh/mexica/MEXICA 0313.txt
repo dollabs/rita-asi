@@ -1,0 +1,20 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0313".
+THE HUNTER WAS A PROUD NATIVE OF THE GREAT CITY.
+THE PRINCESS AWAKENED.
+THAT DAY THE LADY'S HEART WAS FULL OF ENERGY.
+WHEN THE PRINCESS REALIZED THAT THE LADY WAS IN LOVE WITH THE HUNTER, SHE DEDICED TO GO AS FAR AS POSSIBLE.
+WITHOUT HESITATING, THE PRINCESS HARMED THE HUNTER.
+THE HUNTER MADE A POTION AND DRANK IT QUICKLY. HE STARTED TO RECOVER.
+THE END.
+
+
+
+The end.

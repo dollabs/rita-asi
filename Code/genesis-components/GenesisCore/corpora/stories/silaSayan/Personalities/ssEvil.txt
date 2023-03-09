@@ -1,0 +1,22 @@
+Start description of "ssEvil".
+
+XX is a person.
+YY is a person.
+AA is an action.
+
+XX's performing AA harms YY.
+XX performs AA because XX is evil.
+
+Consequently, XX performs AA because AA harms YY and XX is evil.
+The end.
+
+
+//Start commonsense knowledge.
+//
+//XX is a person.
+//YY is a person.
+//AA is an action.
+//
+//If XX's performing AA harms YY then XX may perform AA because XX is evil.
+//
+//XX knows AA harms YY.

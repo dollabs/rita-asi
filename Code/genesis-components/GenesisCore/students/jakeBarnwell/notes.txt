@@ -1,0 +1,4 @@
+near miss groups, not just near misses
+c.f. chapter in the book
+may not be able to find two examples of near misses, but may be
+able to find an ensemble of them

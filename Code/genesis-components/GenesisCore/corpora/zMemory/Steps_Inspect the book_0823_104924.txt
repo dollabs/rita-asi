@@ -1,0 +1,20 @@
+/* ------------------------------
+ Generated on Inspect the book_0823_104924 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Inspect the book".
+Intention: Inspect the book.
+The end.
+
+If the intention is "Inspect the book".
+Step: Inspect the book.
+The end.
+
+
+If the problem is "Inspect the book".
+Intention: Inspect the book.
+The end.
+
+If the intention is "Inspect the book".
+Method: Assume success.
+The end.
+

@@ -1,0 +1,21 @@
+Start experiment.
+
+cc is a city.
+If xx travels to cc, then xx is in cc.
+
+Start story titled "Unknown name".
+
+England is a city.
+
+Peter is a person.
+
+Peter travels to England.
+
+/*
+Pryshyb is a city.
+
+Peter is a person.
+
+Peter travels to Pryshyb.
+*/
+The End.

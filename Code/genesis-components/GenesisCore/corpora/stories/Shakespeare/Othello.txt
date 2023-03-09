@@ -1,0 +1,22 @@
+Clear story memory.
+
+Insert file General commonsense knowledge.
+
+// Pause.
+
+Insert file General reflective knowledge.
+
+Start story titled "Othello".
+
+Othello is person. 
+Othello is a general.  
+
+Othello is weak and foolish.
+
+Desdamona is an honest woman.
+Iago is a cruel and ambitious person.
+Cassia is a loyal, weak, alcoholic person.
+Othello loves Desdamona.
+Othello kills Desdamona.
+
+The end.

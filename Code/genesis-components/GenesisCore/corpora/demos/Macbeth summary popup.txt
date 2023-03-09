@@ -1,0 +1,19 @@
+<h1>What you see</h1>
+
+Genesis reads a short, simple version of Macbeth&mdash;about 100 lines&mdash;and constructs an <i>elaboration graph</i>, 
+which consists of explicit events (in white) and inferences (in other colors) inserted using common sense rules.
+Once the elaboration graph is constructed, Genesis searches for instances of concept patterns such as <i>Revenge</i>.
+
+<p>
+Then, Genesis summarizes the story in various ways, with the most compact summary based on the story elements that
+are involved in the discovered concept that involve the most story elements.
+
+
+
+<p>
+<h1>What you can do</h1>
+
+<ul>
+<li> In the Summary pane, click on various summary options.
+</ul>
+

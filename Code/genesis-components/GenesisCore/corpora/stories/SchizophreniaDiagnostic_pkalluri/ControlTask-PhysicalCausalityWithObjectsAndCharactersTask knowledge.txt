@@ -1,0 +1,17 @@
+bbb is a ball.
+sss is a slide.
+ppp is a person.
+qqq is a person.
+
+//Prediction
+If bbb is on sss, then bbb rolls right.
+
+//Explanation
+If bbb is high on sss, and bbb rolls right, then bbb may be low on sss.
+If bbb is low on sss and bbb rolls right, then bbb may roll at ground-level.
+
+//Pred
+If ppp is right, bbb rolls right, and bbb rolls at ground-level, then bbb hits ppp.
+
+//Pres
+If a person throws bbb, then bbb can roll at ground-level.

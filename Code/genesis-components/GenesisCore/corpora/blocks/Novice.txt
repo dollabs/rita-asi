@@ -1,0 +1,37 @@
+// Insight
+If the problem is "Assemble big tower".
+Intention: Assemble big tower.
+The end.
+
+If the intention is "Assemble big tower".
+Step: Construct big tower.
+The end.
+
+If the step is "Construct big tower".
+Solve: Construct big tower.
+The end.
+
+If the problem is "Construct big tower".
+Intention: Construct big tower.
+The end.
+
+// Insight
+If the problem is "Assemble small tower".
+Intention: Assemble small tower.
+The end.
+
+If the intention is "Assemble small tower".
+Step: Construct small tower.
+The end.
+
+If the step is "Construct small tower".
+Solve: Construct small tower.
+The end.
+
+If the problem is "Construct small tower".
+Intention: Construct small tower.
+The end.
+
+If the step is "Put xx on yy".
+Solve: Put xx on yy.
+The end.

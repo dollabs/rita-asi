@@ -1,0 +1,19 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0386".
+THE HUNTER AWAKENED.
+THE PRINCESS WOKE UP WHILE THE SONGS OF THE BIRDS COVERED THE SKY.
+THE HUNTER WAS CAPTIVATED BY THE PRINCESS' CHARM. ON THE OTHER HAND, THE PRINCESS DESPISED THE HUNTER.
+THE PRINCESS WAS NOT IN LOVE WITH THE HUNTER. HE DID NOT TAKE THIS WELL.
+THE HUNTER LOVED AND HATED THE PRINCESS.
+THE END.
+
+
+
+The end.

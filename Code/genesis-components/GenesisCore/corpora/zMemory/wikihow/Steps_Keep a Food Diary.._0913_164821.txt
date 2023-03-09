@@ -1,0 +1,198 @@
+/* ------------------------------
+ Generated on 0913_164821 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Keep a Food Diary..".
+Intention: Keep a Food Diary...
+The end.
+
+If the intention is "Keep a Food Diary..".
+Step: Does that you that to track yourself drinks track yourself eat?.
+Step: Analyze the data.
+Step: Track additional helpful details.
+The end.
+
+// ------------ Step 1: Does that you that to track yourself drinks track yourself eat?
+If the problem is "Does that you that to track yourself drinks track yourself eat?".
+Intention: Does that you that to track yourself drinks track yourself eat?.
+The end.
+
+// ------------ Step 2: Analyze the data
+If the problem is "Analyze the data".
+Intention: Analyze the data.
+The end.
+
+// ------------ Step 3: Track additional helpful details
+If the problem is "Track additional helpful details".
+Intention: Track additional helpful details.
+The end.
+
+/* ------------------------------
+ Generated on 0913_164821 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Does that you that to track yourself drinks track yourself eat?".
+Intention: Does that you that to track yourself drinks track yourself eat?.
+The end.
+
+If the intention is "Does that you that to track yourself drinks track yourself eat?".
+Step: Set up your diary.
+Step: Everything record drinks.
+Step: Write down accurate quantities.
+Step: Eat the date time and place.
+Step: Record how you feel after eating each item....
+The end.
+
+// ------------ Step 1: Set up your diary
+If the problem is "Set up your diary".
+Intention: Set up your diary.
+The end.
+
+If the intention is "Set up your diary".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Everything record drinks
+If the problem is "Everything record drinks".
+Intention: Everything record drinks.
+The end.
+
+If the intention is "Everything record drinks".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Write down accurate quantities
+If the problem is "Write down accurate quantities".
+Intention: Write down accurate quantities.
+The end.
+
+If the intention is "Write down accurate quantities".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Eat the date time and place
+If the problem is "Eat the date time and place".
+Intention: Eat the date time and place.
+The end.
+
+If the intention is "Eat the date time and place".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Record how you feel after eating each item...
+If the problem is "Record how you feel after eating each item...".
+Intention: Record how you feel after eating each item....
+The end.
+
+If the intention is "Record how you feel after eating each item...".
+Method: Assume successful.
+The end.
+
+/* ------------------------------
+ Generated on 0913_164821 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Analyze the data".
+Intention: Analyze the data.
+The end.
+
+If the intention is "Analyze the data".
+Step: Look for patterns in the meals.
+Step: Count how many snacks you have daily....
+Step: Compare your weekdays.
+Step: Jot down notes with food regarding your emotional connection.
+Step: Circle food intolerances.
+The end.
+
+// ------------ Step 1: Look for patterns in the meals
+If the problem is "Look for patterns in the meals".
+Intention: Look for patterns in the meals.
+The end.
+
+If the intention is "Look for patterns in the meals".
+Step: Null is on meals.
+The end.
+
+// ------------ Step 2: Count how many snacks you have daily...
+If the problem is "Count how many snacks you have daily...".
+Intention: Count how many snacks you have daily....
+The end.
+
+If the intention is "Count how many snacks you have daily...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Compare your weekdays
+If the problem is "Compare your weekdays".
+Intention: Compare your weekdays.
+The end.
+
+If the intention is "Compare your weekdays".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Jot down notes with food regarding your emotional connection
+If the problem is "Jot down notes with food regarding your emotional connection".
+Intention: Jot down notes with food regarding your emotional connection.
+The end.
+
+If the intention is "Jot down notes with food regarding your emotional connection".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Circle food intolerances
+If the problem is "Circle food intolerances".
+Intention: Circle food intolerances.
+The end.
+
+If the intention is "Circle food intolerances".
+Method: Assume successful.
+The end.
+
+/* ------------------------------
+ Generated on 0913_164821 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Track additional helpful details".
+Intention: Track additional helpful details.
+The end.
+
+If the intention is "Track additional helpful details".
+Step: Record physical activity.
+Step: Record nutritional information.
+Step: Track your progress toward a goal.
+Step: Track food expenses.
+The end.
+
+// ------------ Step 1: Record physical activity
+If the problem is "Record physical activity".
+Intention: Record physical activity.
+The end.
+
+If the intention is "Record physical activity".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Record nutritional information
+If the problem is "Record nutritional information".
+Intention: Record nutritional information.
+The end.
+
+If the intention is "Record nutritional information".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Track your progress toward a goal
+If the problem is "Track your progress toward a goal".
+Intention: Track your progress toward a goal.
+The end.
+
+If the intention is "Track your progress toward a goal".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Track food expenses
+If the problem is "Track food expenses".
+Intention: Track food expenses.
+The end.
+
+If the intention is "Track food expenses".
+Method: Assume successful.
+The end.
+

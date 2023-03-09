@@ -1,0 +1,24 @@
+{between-example
+ {:args [],
+  :meta {:doc "between example", :version "0.2.0"},
+  :methods
+  {example
+   [{:args [],
+     :betweens
+     [{:type :between,
+       :from :a,
+       :to :b,
+       :temporal-constraints [{:type :bounds, :value [1 100]}]}],
+     :body nil,
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Example",
+     :doc "between example",
+     :post true,
+     :pre true,
+     :primitive true,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}]},
+  :type :pclass}}

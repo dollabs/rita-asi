@@ -1,0 +1,68 @@
+//Setup
+////////////////////////////
+Start Experiment.
+First perspective.
+Start story titled "First Character".
+
+John is a person.
+Kyle is generic.
+Paul is generic.
+
+John gives Kyle to Paul.
+John hugs Kyle.
+//Kyle hugs Paul.
+//Paul hugs John.
+Paul takes Kyle from John.
+
+The end.
+////////////////////////////
+Clear story memory.
+Start Experiment.
+Start story titled "Second Character".
+
+Kyle is a person.
+John is generic.
+Paul is generic.
+
+John gives Kyle to Paul.
+//John hugs Kyle.
+Kyle hugs Paul.
+//Paul hugs John.
+Paul takes Kyle from John.
+
+The end.
+/////////////////////////////
+Clear story memory.
+Start Experiment.
+Start story titled "Third Character".
+
+Paul is a person.
+Kyle is generic.
+John is generic.
+
+John gives Kyle to Paul.
+//John hugs Kyle.
+//Kyle hugs Paul.
+Paul hugs John.
+Paul takes Kyle from John.
+
+The end.
+//////////////////////////////
+//Experiment
+//////////////////////////////
+Start story titled "Stress Test".
+
+Jane is a character.
+Kim is a character.
+Pauline is a character.
+
+Jane is similar to John.
+
+Kim is similar to Kyle.
+
+Pauline is similar to Paul.
+
+Simulate characters.
+Weave character plots.
+
+The end.

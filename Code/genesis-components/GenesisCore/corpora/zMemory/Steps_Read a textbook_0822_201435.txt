@@ -1,0 +1,94 @@
+/* ------------------------------
+ Generated on Read a textbook_0822_201435 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Read a textbook".
+Intention: Read a textbook.
+The end.
+
+If the intention is "Read a textbook".
+Step: Skim the textbook.
+The end.
+
+If the problem is "Skim the textbook".
+Intention: Skim the textbook.
+The end.
+
+/* ------------------------------
+ Generated on Read a textbook_0822_201435 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Skim the textbook".
+Step: Read the title page.
+The end.
+
+If the problem is "Read the title page".
+Intention: Read the title page.
+The end.
+
+/* ------------------------------
+ Generated on Read a textbook_0822_201435 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Read the title page".
+Step: Find the textbook's scope.
+Step: Interpret the textbook's content.
+The end.
+
+If the problem is "Find the textbook's scope".
+Intention: Find the textbook's scope.
+The end.
+
+If the problem is "Interpret the textbook's content".
+Intention: Interpret the textbook's content.
+The end.
+
+If the intention is "Interpret the textbook's content".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Read a textbook_0822_201435 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Find the textbook's scope".
+Step: Classify the textbook by the textbook's subject matter.
+The end.
+
+If the problem is "Classify the textbook by the textbook's subject matter".
+Intention: Classify the textbook by the textbook's subject matter.
+The end.
+
+/* ------------------------------
+ Generated on Read a textbook_0822_201435 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Classify the textbook by the textbook's subject matter".
+Step: Interpret the author's key words.
+The end.
+
+If the problem is "Interpret the author's key words".
+Intention: Interpret the author's key words.
+The end.
+
+/* ------------------------------
+ Generated on Read a textbook_0822_201435 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Interpret the author's key words".
+Step: Judge the author's soundness.
+Step: Judge the author's completeness.
+The end.
+
+
+If the problem is "Judge the author's soundness".
+Intention: Judge the author's soundness.
+The end.
+
+If the intention is "Judge the author's soundness".
+Method: Assume success.
+The end.
+
+
+If the problem is "Judge the author's completeness".
+Intention: Judge the author's completeness.
+The end.
+
+If the intention is "Judge the author's completeness".
+Method: Assume success.
+The end.
+

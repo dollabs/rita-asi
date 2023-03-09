@@ -1,0 +1,15 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0356".
+THAT DAY THE PRINCESS' HEART WAS FULL OF ENERGY.
+THE PRINCESS RESOLVED TO END HER LIFE, AND DID.
+
+
+
+The end.

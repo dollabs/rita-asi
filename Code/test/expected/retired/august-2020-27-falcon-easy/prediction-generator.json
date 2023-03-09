@@ -1,0 +1,1727 @@
+[
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Lobby",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Right Entrance-b",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16974",
+      "using": "Right Entrance-b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 111",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 111",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 111",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16977",
+      "using": "Door to room 111"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "South Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 111",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16978",
+      "using": "Door to room 111"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 110",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 110",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16980",
+      "using": "Door to room 110"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim at  2096.0 60.0 190.0 block_victim_1 in Room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2096.0 60.0 190.0 block_victim_1 in Room 110",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2096.0 60.0 190.0 block_victim_1 in Room 110"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16981",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim at  2096.0 60.0 190.0 block_victim_1 in Room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2096.0 60.0 190.0 block_victim_1 in Room 110",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2096.0 60.0 190.0 block_victim_1 in Room 110"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16983",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 110",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-enter": "Room 110"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 110"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16984",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 110",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 110",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16985",
+      "using": "Door to room 110"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 109",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 109",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 109",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16987",
+      "using": "Door to room 109"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim at  2085.0 60.0 186.0 block_victim_1 in Room 109",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2085.0 60.0 186.0 block_victim_1 in Room 109",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2085.0 60.0 186.0 block_victim_1 in Room 109"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16988",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 109",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 109",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-enter": "Room 109"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 109"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16989",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 109",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 109",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 109",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16990",
+      "using": "Door to room 109"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 108",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 108",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-enter": "Room 108"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 108"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16991",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 108",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 108",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 108",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16992",
+      "using": "Door to room 108"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 108",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 108",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-enter": "Room 108"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 108"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16993",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 108",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 108",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 108",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16994",
+      "using": "Door to room 108"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Cube farm door to south corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Cube farm door to south corridor",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-enter": "Cubicle farm"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Cube farm door to south corridor"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16995",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Cubicle farm",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Cube farm door to south corridor",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Cubicle farm",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16996",
+      "using": "Cube farm door to south corridor"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim at  2081.0 60.0 174.0 block_victim_2 in The Computer Farm",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2081.0 60.0 174.0 block_victim_2 in The Computer Farm",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2081.0 60.0 174.0 block_victim_2 in The Computer Farm"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16997",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Cloak room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Cloak room door?",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Cloak room",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se16999",
+      "using": "Cloak room door?"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "North Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Executive suite 1",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17004",
+      "using": "Executive suite 1"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "North Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Executive suite 2",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17009",
+      "using": "Executive suite 2"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small Conference Room 1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 1 door-a",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Small Conference Room 1",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17011",
+      "using": "Small conference room 1 door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small conference room 1 door-b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 1 door-b",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-enter": "Small Conference Room 1"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Small conference room 1 door-b"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17012",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small Conference Room 1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 1 door-b",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Small Conference Room 1",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17013",
+      "using": "Small conference room 1 door-b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 1 door-a",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17015",
+      "using": "Small conference room 1 door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small conference room 1 door-a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 1 door-a",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-enter": "Small Conference Room 1"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Small conference room 1 door-a"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17016",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small Conference Room 1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 1 door-a",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Small Conference Room 1",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17017",
+      "using": "Small conference room 1 door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small conference room 2 door-b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 2 door-a",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Small conference room 2 door-b",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17019",
+      "using": "Small conference room 2 door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 2 door-a",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17020",
+      "using": "Small conference room 2 door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small conference room 2 door-b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 2 door-b",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-enter": "Small conference room 2 door-a"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Small conference room 2 door-b"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17021",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small conference room 2 door-a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 2 door-b",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Small conference room 2 door-a",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17022",
+      "using": "Small conference room 2 door-b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Main conference room door to center corridor-a",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17024",
+      "using": "Main conference room door to center corridor-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 102",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 102",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 102",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17027",
+      "using": "Door to room 102"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 102",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17030",
+      "using": "Door to room 102"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 103",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 103",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-enter": "Room 103"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 103"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17031",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 103",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 103",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 103",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17032",
+      "using": "Door to room 103"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim at  2029.0 60.0 185.0 block_victim_1 in Room 103",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2029.0 60.0 185.0 block_victim_1 in Room 103",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2029.0 60.0 185.0 block_victim_1 in Room 103"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17034",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door to room 103",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 103",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-enter": "Room 103"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door to room 103"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17035",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "d10a2acb-d825-4302-aa9d-7f8755f970ca",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 103",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door to room 103",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 103",
+          "subject": "Player173"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player173",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player173",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player173",
+      "uid": "se17036",
+      "using": "Door to room 103"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  }
+]

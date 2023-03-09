@@ -1,0 +1,9 @@
+XX is a person.
+
+If XX becomes criminal, then XX should go to prison.
+If XX becomes criminal and XX repents, then XX is a liar.
+If XX commits a crime, then XX must be a bad person.
+
+Start story titled "Personality P".
+
+The end.

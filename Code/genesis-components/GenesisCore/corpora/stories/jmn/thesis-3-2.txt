@@ -1,0 +1,78 @@
+//Les Mis 3.2 (Thesis), 1/31/2017
+
+Start experiment.
+
+Set Agent focused button to true.
+
+Start common sense knowledge.
+xx is a person.
+If xx commits a crime, then xx is a criminal.
+If xx repents, then xx will follow the law.
+
+Jean Valjean is a name.
+Inspector Javert is a name.
+
+Jean Valjean and Inspector Javert are persons.
+
+Start story titled "Les Mis 3.2".
+
+Inspector Javert patrols the city.
+Jean Valjean commits a crime.
+Inspector Javert exits the scene.
+Jean Valjean repents.
+The end.
+
+/*
+Insert into text box: Does Inspector Javert think that Jean Valjean committed a crime?  Pause.
+Insert into text box: Does Alice think that Jean Valjean committed a crime?  Pause.
+Insert into text box: Does Jean Valjean think that Jean Valjean repented?  Pause.
+Insert into text box: Does Inspector Javert think that Jean Valjean repented?  Pause.
+
+Insert into text box: Does Jean Valjean think that Jean Valjean will follow the law?  Pause.
+Insert into text box: Does Inspector Javert think that Jean Valjean will follow the law?  Pause.
+
+Insert into text box: Why does Jean Valjean think that Jean Valjean will follow the law?  Pause.
+Insert into text box: Why does Inspector Javert think that Jean Valjean will follow the law?  Pause.
+Insert into text box: Why does Inspector Javert think that Jean Valjean is a criminal?
+*/
+
+
+
+/*
+Start common sense knowledge.
+xx is a person.
+yy is a person.
+If xx commits a crime, then xx may be a criminal.
+If xx is a policeman and yy is a criminal, then xx wants to arrest yy.
+
+If story is over and xx may be a criminal, then xx is a criminal.
+If story is over and xx repents, then xx is not a criminal.
+
+Inspector Javert is a name.
+Jean Valjean is a name.
+Inspector Javert and Jean Valjean are persons.
+
+Start story titled "Les Mis 3.2".
+
+Inspector Javert and Jean Valjean enter the scene.
+	Inspector Javert is a policeman.
+	Jean Valjean commits a crime.
+Inspector Javert and Jean Valjean exit the scene.
+
+Then, Jean Valjean enters the scene.
+	Jean Valjean repents.
+	Jean Valjean becomes a good person.
+Jean Valjean exits the scene.
+
+Inspector Javert and Jean Valjean enter the scene.
+Story is over.
+
+The end.
+
+Insert into text box: Does Inspector Javert think that Jean Valjean repents?  Pause.
+Insert into text box: Does Jean Valjean believe that Jean Valjean is not a criminal?  Pause.
+Insert into text box: Does Alice think that Jean Valjean repents?  Pause.
+Insert into text box: Why does Inspector Javert think that Jean Valjean repents?  Pause.
+Insert into text box: Why does Inspector Javert believe that Jean Valjean is a criminal?  Pause.
+Insert into text box: Why does Jean Valjean think that Jean Valjean isn't a criminal?  Pause.
+*/

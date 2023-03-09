@@ -1,0 +1,78 @@
+/* ------------------------------
+ Generated on Make salad for a Thanksgiving Day_1122_160410 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a fruit salad".
+Intention: Make a fruit salad.
+The end.
+
+// the apples are in the blue cup, the banana is in the green cup, and the melons are in the yellow cup
+If the intention is "Make a fruit salad".
+Verify: I am on diet.
+//Step: Put the apples in a bowl.
+//Step: Put the banana in the bowl.
+Step: Sprinkle nuts.
+The end.
+
+If the intention is "Make a fruit salad".
+Verify: i amn't on diet.
+Step: Put the apple in the bowl.
+Step: Put the banana in the bowl.
+Step: Sprinkle nuts.
+Step: add sugar to the bowl.
+The end.
+
+
+// ------------ Step 2
+If the problem is "Put the apple in the bowl".
+Intention: Put the apple in the bowl.
+The end.
+
+If the intention is "Put the apple in the bowl".
+Step: The apple is in the bowl.
+The end.
+
+// ------------ Step 1
+If the problem is "Put the banana in the bowl".
+Intention: Put the banana in the bowl.
+The end.
+
+If the intention is "Put the banana in the bowl".
+Step: The banana is in the bowl.
+The end.
+
+
+/* ------------------------------
+ Generated on Make salad for a Thanksgiving Day_1122_160410 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+// ------------ Step 1
+If the problem is "Sprinkle nuts".
+Intention: Sprinkle nuts.
+The end.
+
+/* ------------------------------
+ Generated on Make salad for a Thanksgiving Day_1122_160410 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Sprinkle nuts".
+Step: Spread nuts into the bowl.
+The end.
+
+// ------------ Step 1
+If the problem is "Spread nuts into the bowl".
+Intention: Spread nuts into the bowl.
+The end.
+
+If the intention is "Spread nuts into the bowl".
+Step: Nuts are in the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make salad for a Thanksgiving Day_1122_160410 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+// ------------ Step 1
+If the problem is "add sugar to the bowl".
+Intention: add sugar to the bowl.
+The end.
+
+If the intention is "add sugar to the bowl".
+Step: Sugar is in the bowl.
+The end.

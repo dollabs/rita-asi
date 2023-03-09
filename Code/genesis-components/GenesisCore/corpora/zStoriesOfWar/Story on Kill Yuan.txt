@@ -1,0 +1,41 @@
+Set Human tells Genesis button to true.
+
+Set Use features when matching switch to false.
+
+Set Split names with underscores switch to false.
+
+Set left panel to Commentary.
+
+Set right panel to Blocks.
+
+Set bottom panel to Mental models.
+
+Insert into text box: Huang is the leader of the Mongolia tribe.
+
+Insert into text box: He wanted to overturn the Ming Dynasty.
+
+Insert into text box: Yuan is a general of the Ming Dynasty.
+
+Insert into text box: Yuan fought against Huang to protect Ming Dynasty.
+
+Insert into text box: Huang could not defeat Yuan on battle field.
+
+Insert into text box: Therefore, Huang planned to kill Yuan secretly.
+
+Insert into text box: Chong is the king of Ming Dynasty.
+
+Insert into text box: Tai is the secretary of Chong.
+
+Insert into text box: Chong trusts Tai very much.
+
+Insert into text box: So, Huang bribed Tai.
+
+Insert into text box: Tai made Chong believe that Yuan is disloyal.
+
+Insert into text box: Chong believed that Yuan is disloyal.
+
+Insert into text box: He went furious.
+
+Insert into text box: Because Chong hates disloyal generals, he executed Yuan immediately.
+
+Insert into text box: Nobody could defeat Huang, so Huang conquered the Ming Dynasty and created the Qing Dynasty.

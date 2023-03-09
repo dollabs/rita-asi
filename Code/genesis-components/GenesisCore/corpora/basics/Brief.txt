@@ -1,0 +1,47 @@
+Start experiment.
+
+xx and yy are persons.
+
+John and Mary are persons.
+
+// Key to demonstration, maybe rules, which causes inquiry.
+If xx loves yy, then maybe yy loves xx.
+If xx divorces yy, then maybe xx is not happy.
+
+
+// Ordinary rule
+If xx loves yy and yy loves xx, then xx is happy.
+
+// Explanation rule.
+If xx divorces yy, then xx may not be happy.
+
+ Start description of "Love makes people happy".
+ xx's loving yy leads to xx's being happy.
+ The end.
+
+Start description of "Too bad".
+xx's divorcing yy leads to xx's not being happy.
+The end.
+
+Start story titled "Brief".
+
+John loves Mary because Mary is smart.
+
+John marries Mary.
+
+John becomes rich.
+
+// Brief out what is found so far, including concept processing.
+// Will use maybe rules in course of briefing.
+Brief it.
+
+John divorced Mary.
+
+Brief it.
+
+John eats lunch.
+
+The end.
+
+
+

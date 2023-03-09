@@ -1,0 +1,29 @@
+Start experiment.
+
+Hazel Dobbs is a person.
+EW is a person.
+Sisk is a person.
+
+Jason Weber is a person.
+the girl is a person.
+paramedics are persons.
+
+Start story titled "News2".
+
+The drama unfolded on a warm late-summer Saturday in Quarry Park.
+Hazel Dobbs was last seen in the water without a life jacket at Quarry No 11.
+The emergency responders scrambled to the scene.
+Meanwhile, EW was yelling that her daughter was drowning.
+Sisk immediately shouted that everyone get out of the water.
+His girlfriend checked the bathrooms.
+He shouted into the crowd for any strong swimmers and asked them to begin searching.
+They also began handing out any swim goggles they could find.
+Sisk scoured the docks and climbed to a high spot for a wider view.
+Jason Weber found the girl in 15 feet of water and brought her to shore.
+Sisk performed compressions on the girl.
+His girlfriend provided mouth-to-mouth breaths to the girl.
+He kept up the compressions for about 5 minutes until another bystander relieved him.
+Then, paramedics took over the Quarry Park.
+The girl was transported to the hospital.
+
+The end.

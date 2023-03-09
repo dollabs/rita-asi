@@ -1,0 +1,9 @@
+Start experiment.
+
+Insert file BasicAmericanValues.
+
+Start story titled "Childhood and Patriotism".
+
+The author invokes Max's childhood. The author elicits sympathy for Max. 
+
+The end.

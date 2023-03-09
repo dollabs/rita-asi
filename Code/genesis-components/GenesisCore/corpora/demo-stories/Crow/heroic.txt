@@ -1,0 +1,16 @@
+Start commonsense knowledge.
+XX is a person.
+YY is an entity.
+YY is evil.
+
+XX may destroy YY because XX is heroic.
+
+Start reflective knowledge.
+
+Start description of "Destruction of evil".
+XX is a person.
+YY is an entity.
+YY is evil.
+XX destroys YY.
+
+The end.

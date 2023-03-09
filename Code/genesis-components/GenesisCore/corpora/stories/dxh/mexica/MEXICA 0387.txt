@@ -1,0 +1,16 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0387".
+THE PRINCESS FELL DOWN AND STRUCK HER HEAD.
+THE PRINCESS CURED HER INJURIES USING A SPECIAL PLANT..
+THE END.
+
+
+
+The end.

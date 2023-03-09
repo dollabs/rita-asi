@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 10:12:46+08:00", 
+    "instructions": [
+        "Put the charger underneath the plate", 
+        "Put the Napkin vertically on top of the Plate", 
+        "Put the Dinner Fork to the left of the Charger facing upward", 
+        "Put the Salad Fork to the left of the Dinner Fork", 
+        "Put the Dinner Knife to the right of the Charger", 
+        "Put the Tea Spoon to the right of the Dinner Knife", 
+        "Put the Soup Spoon to the right of the Tea Spoon", 
+        "Put the Water Glass to the right above the Charger and Dinner Knife", 
+        "Put the Wine Glass to the right of the Water Glass", 
+        "Put the Wine Glass diagonal to the Water Glass", 
+        "Put the Coffee Cup to the right of the Wine Glass and Soup Spoon", 
+        "Put the Bread Plate diagonal to the Charger", 
+        "Put the Butter Knife on top of the Bread Plate with the blade facing the horizontally to the left ", 
+        "Put the Dessert Fork above the Charger with the tines facing the Water Glass", 
+        "Put the Dessert Spoon between the Dessert Fork and the Charger with the bowl facing the Bread Plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table5"
+}

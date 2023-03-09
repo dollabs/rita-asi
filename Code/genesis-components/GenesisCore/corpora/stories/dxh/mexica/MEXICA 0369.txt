@@ -1,0 +1,21 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0369".
+THE HUNTER WAS A PROUD NATIVE OF THE GREAT CITY.
+THE PRINCESS AWAKENED.
+THAT DAY THE VIRGIN'S HEART WAS FULL OF ENERGY.
+THE PRINCESS GOT SO DISAPPOINTED WHEN SHE REALIZED THAT THE HUNTER ALSO HAD FEELINGS TOWARDS THE VIRGIN.
+THE PRINCESS STOLE FROM THE HUNTER SOME OF HIS STUFF.
+CLEARLY, THE HUNTER HATED THE PRINCESS. SHE DECIDED TO RUN AWAY AT ONCE.
+THE PRINCESS DECIDED TO GO TO THE VOLCANO.
+THE END.
+
+
+
+The end.

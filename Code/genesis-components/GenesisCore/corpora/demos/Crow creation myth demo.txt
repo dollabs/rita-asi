@@ -1,0 +1,12 @@
+Popup Crow creation myth popup with ok button.
+
+Set all switches to defaults.
+
+Set right panel to results.
+
+Set left panel to inspector.
+
+Insert file Old Man Coyote Makes the World.
+
+
+

@@ -1,0 +1,92 @@
+Start experiment.
+
+xx is a person. ee and ff are rooms.
+
+Start description of "search room".
+xx approaches the door of ee.
+xx opens the door of ee.
+xx enters the door of ee.
+xx scans ee and walks around in ee.
+Consequently, xx searches ee.
+The end.
+
+Start description of "skim room".
+xx's entering the door of ee leads to xx's leaving ee.
+Consequently, xx skims ee.
+The end.
+
+Start description of "search carefully".
+xx searches ee.
+xx searches ff.
+Consequently, xx searches carefully.
+ee must not equal ff.
+The end.
+
+/*
+Start description of "time pressure".
+xx is reminded of the time remaining.
+Consequently, xx is given time pressure.
+The end.
+*/
+
+Start description of "search quickly".
+xx skims ee.
+xx skims ff.
+Consequently, xx searches quickly.
+ee must not equal ff.
+The end.
+
+Start description of "speed up".
+xx searches carefully.
+xx is is given time pressure.
+xx searches quickly.
+Consequently, xx speeds up under time pressure.
+The end.
+
+If xx is reminded of the time remaining, then xx is given time pressure.
+
+Bob is a person. Room_A, Room_B, Room_C, and Room_D are rooms.
+
+Start story titled "Generate high-level action story from low-level action story".
+
+Bob opened the door of Room_A because he approached the door of Room_A.
+Bob entered the door of Room_A because he opened the door of Room_A.
+Bob scans Room_A because he entered the door of Room_A.
+Bob turned left and flipped the light switch because he scanned Room_A. 
+Bob walked around in Room_A and found one victim because he flipped the light switch of Room_A. 
+Bob treated the victim.
+Bob left Room_A because he treated the victim.
+
+Bob approached the door of Room_B because he left Room_A.
+Bob opened the door of Room_B because he approached the door of Room_B.
+Bob entered the door of Room_B because he opened the door of Room_B.
+Bob scanned Room_B.
+Bob turned left because he scanned Room_B.
+
+Bob is reminded of the time remaining because he walked around in Room_B.
+
+Bob approached the door of Room_C because he is reminded of the time remaining.
+Bob opened the door of Room_C because he approached the door of Room_C.
+Bob entered the door of Room_C because he opened the door of Room_C.
+Bob left Room_C because he entered the door of Room_C.
+
+Bob approached the door of Room_D because he left Room_C.
+Bob opened the door of Room_D because he approached the door of Room_D.
+Bob entered the door of Room_D.
+Bob treated a victim and left Room_D because he entered the door of Room_D.
+
+The end.
+
+/*
+---- High-level story:
+Bob searched Room_A.
+Bob searched Room_B.
+Bob is given time pressure.
+Bob skimmed Room_C.
+Bob skimmed Room_D.
+
+Bob searched Room_B because he searched Room_A.
+Bob is given time pressure because he searched Room_B.
+Bob skimmed Room_C because he is given time pressure.
+Bob skimmed Room_D because he skimmed Room_C.
+*/

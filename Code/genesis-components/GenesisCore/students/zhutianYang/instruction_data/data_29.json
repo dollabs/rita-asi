@@ -1,0 +1,20 @@
+{
+    "instructions": [
+        "put the dinner plate on the charger ",
+        "put the napkin on the dinner plate ",
+        "place the dinner fork on the left hand side of the dinner plate ",
+        "place the salad fork on the left hand side of the dinner fork",
+        "place the dinner knife on the right hand side of the dinner plate ",
+        "place the tea spoon on the right hand side of the dinner knife",
+        "place the soup spoon on the right hand side of the tea spoon",
+        "place the water glass above the dinner plate ",
+        "place the wine glass on right hand side of the water glass",
+        "place the wine glass above the soup spoon",
+        "place the coffee cup on the right hand side of the wine glass",
+        "put the bread plate on the left hand side of the  dinner plate ",
+        "place the butter knife on top of the bread plate, pointing towards right hand side",
+        "place the dessert fork between the water glass and bread plate, pointing towards right hand side",
+        "place the dessert spoon between dinner plate and dessert fork, pointing left hand side"
+    ],
+    "video_name": "table5"
+}

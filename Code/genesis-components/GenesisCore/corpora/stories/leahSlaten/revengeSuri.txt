@@ -1,0 +1,12 @@
+Clear story memory.
+Start experiment.
+Start description of "Revenge".
+xx and yy are entities.
+xx's killing yy leads to yy's killing xx.
+The end.
+Start story titled "Macbeth".
+Lady Macbeth, Lady Macduff, Macbeth, Macduff, and Duncan are entities.
+// Of course, most of the following connections would be placed
+// by prediction and explanation rules.
+Macbeth kills Macduff because Macduff kills Macbeth.
+The end.

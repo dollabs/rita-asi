@@ -1,0 +1,50 @@
+Start experiment.
+
+Red-Shield is a name.
+Running-Wolf is a name.
+Running-Wolf's-Father is a name.
+
+Start commonsense knowledge.
+AA, BB, and CC are persons.
+XX and YY are tribes.
+AA is XX.
+CC is YY.
+
+If AA is lazy, then BB may scold AA.
+If CC loves AA, then CC may marry AA.
+If CC marries AA, then XX may make peace with YY.
+If XX makes peace with YY, then YY makes peace with XX.
+
+Start description of "Peace between enemies".
+XX is a tribe.
+YY is a tribe.
+XX and YY are enemies.
+XX makes peace with YY.
+The end.
+
+Start story titled "Red Shield and Running Wolf".
+
+Running-Wolf is a person.
+Running-Wolf's-Father is a person.
+Red-Shield is a person.
+Sioux is a tribe.
+Crow is a tribe.
+Running-Wolf is a Crow.
+Red-Shield is a Sioux.
+
+Running-Wolf was lazy.
+Running-Wolf was scolded by Running-Wolf's-Father.
+Running-Wolf hunted because Running-Wolf was scolded.
+Running-Wolf stole horses because Running-Wolf was scolded.
+Running-Wolf brought honor because Running-Wolf stole horses and hunted.
+
+Running-Wolf's-Father dies.
+Running-Wolf becomes a great warrior because Running-Wolf's-Father dies.
+
+Running-Wolf steals horses from the Sioux because Running-Wolf becomes a great warrior and Running-Wolf has medicine.
+Red-Shield meets Running-Wolf because Running-Wolf stole horses from the Sioux.
+Red-Shield loves Running-Wolf because Red-Shield meets Running-Wolf and Running-Wolf brings honor.
+Red-Shield marries Running-Wolf.
+The Crow make peace with the Sioux.
+
+The end.

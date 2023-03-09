@@ -1,0 +1,20 @@
+{
+    "instructions": [
+        "Put the plate on the charger",
+        "Place the napkin on the plate",
+        "Place the dinner fork to the left of the charger with its prong facing upwards",
+        "Place the salad fork to the left of the dinner fork with its prong facing upwards",
+        "Place the dinner knife to the right of the charger with its blade facing upwards",
+        "Place the tea spoon to the right of the dinner knife with its bowl facing upwards",
+        "Place the soup spoon to the right of the tea spoon with its bowl facing upwards",
+        "Place the water glass above the dinner knife",
+        "Place the wine glass to the right of the water glass and above the soup spoon",
+        "Place another wine glass between the wine glass and the soup spoon",
+        "Place the coffee cup to the right of, and above the soup spoon",
+        "Place the bread plate above the dinner and salad forks",
+        "Place the butter knife horizontally on the bread plate with its bowl facing right.",
+        "Place the dessert fork horizontally between the bread plate and the water glass",
+        "Place the dessert spoon horizontally below the dessert fork."
+    ],
+    "video_name": "table5"
+}

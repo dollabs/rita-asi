@@ -1,0 +1,169 @@
+extends base
+
+block styles
+    link(rel='stylesheet' href='css/stateEstimation.css')
+
+block content
+    //- main.main
+    div.section.section1
+        div.containerBox
+            div.container1
+                div.row
+                    div.col-xl-6.col-lg-7
+                        div.predictionIntro
+                            h1 State Estimation
+                            h2 How we act based solely on our belief
+                            br
+                            p 
+                                |The State Estimation component generates the belief state of Rita 
+                                |and its human partners. Once RITA understands the humans' theory of mind, 
+                                |it can then take action to reduce the number of unshared beliefs and to 
+                                |help the team harmoniously achieve the mission goal.
+
+                        div.buttonContainer
+                            a.btnIntro.btnAI(href='#predictionGenerator') Prediction Generator
+                            a.btnIntro.btnAI(href='#accuracyLevel') Accuracy Level
+                            a.btnIntro.btnAI(href='#cognitiveLoad') Cognitive Load
+
+                    //- d-none = don't show; d-lg-block = show if we are in large size
+                    div.col-xl-6.col-lg-5.d-none.d-lg-block
+                        div.ritaAI
+                            img(src="../img/RitaAIcut.gif")
+
+    div.section.section2
+        div.containerBox
+            div.padding
+                div.container2#predictionGenerator
+                    div.predictionBoxBorder
+                        div.predictionBox
+                            div.content
+                                div.row 
+                                    div.col-xl-7
+                                        div.sign
+                                            <span class="fast-flicker">G</span>enera<span class="flicker">t</span>ing . . .
+
+                                        div.d-xl-none
+                                            div.statusBox 
+                                                div.statusBoxFail
+                                                    p Fail
+
+                                                div.statusBoxTrue
+                                                    p Success
+
+                                    div.d-none.d-xl-block.col-xl-5
+                                        div.statusBox 
+                                            div.statusBoxFail
+                                                p Fail
+
+                                            div.statusBoxTrue
+                                                p Success
+
+                                div.prediction
+                                    ul
+
+    div.section.section3
+        div.containerBox#accuracyLevel
+            div.container3
+                div.row
+                    div.col-3.justify-content-end.d-none.d-xl-flex
+                        div.efficiencyMiniBox.true 
+                            h3 True: 0%
+                            div.scroll
+                                ul
+                                    li.miniBoxID 
+
+                    div.col-12.col-xl-6.d-flex.justify-content-center  
+                        div.efficiencyLevel
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            div#el-graph
+
+                    div.col-3.justify-content-start.d-none.d-xl-flex  
+                        div.efficiencyMiniBox.false 
+                            h3 False: 0%
+                            div.scroll
+                                ul
+                                    li.miniBoxID 
+
+    div.section.section4
+        div.containerBox#cognitiveLoad
+            div.container4
+                //- for small screen (only show images)
+                div.row
+                    .col-xl-6.d-flex.justify-content-center
+                        div.cognitiveLoad
+                            div#cl-graph
+
+                    div.col-xl-6.d-none.d-xl-block 
+                        div.graphCount
+                            div#mc-graph 
+
+    div.section.section5.py-5
+        div.containerBox#emotions
+            div.container5
+                div.row
+                    .col-xl-4.d-none.d-xl-block
+                        div.imageContainer5
+                            svg#stress-icon-1
+                                use(xlink:href='../img/stress1.svg#icon-user')
+
+                            svg#stress-icon-2 
+                                use(xlink:href='../img/stress2.svg#icon-user')
+
+                            svg#stress-icon-3
+                                use(xlink:href='../img/stress3.svg#icon-user')
+
+                    .col-xl-8.d-flex.justify-content-center
+                        div.stressLevel
+                            div#sl-graph
+
+   
+                
+
+
+
+
+        //- div.containerBox#stressLevel
+        //-     div.container5
+        //-         //- for small screen (only show images)
+        //-         div.row.d-xl-none.justify-content-center
+        //-             div.count
+        //-                 //- Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+        //-                 div.imageContainer
+        //-                     .row.d-flex.justify-content-center
+        //-                         img(src="../img/cognitiveLoad.png")
+        //-                         img(src="../img/roomsSkipped.png")
+        //-                         img(src="../img/urgentPatient.png")
+        //-                         img(src="../img/greenPatient.png")
+
+        //-                     .row.imageCount
+        //-                         .col-3
+        //-                             p#cognitive_load1 0 bit(s)
+        //-                         .col-3
+        //-                             p#room_skipped1 0 room(s)
+        //-                         .col-3
+        //-                             p#urgent_patient1 0 patient(s)
+        //-                         .col-3
+        //-                             p#green_patient1 0 patient(s)  
+        //-         div.row
+        //-             div.col-xl-4.d-none.d-xl-block
+        //-                 div.imageContainer5
+        //-                     svg#stress-icon-1
+        //-                         use(xlink:href='../img/stress1.svg#icon-user')
+
+        //-                     svg#stress-icon-2 
+        //-                         use(xlink:href='../img/stress2.svg#icon-user')
+
+        //-                     svg#stress-icon-3
+        //-                         use(xlink:href='../img/stress3.svg#icon-user')
+
+        //-             .col-xl-8.d-flex.justify-content-center
+        //-                 div.stressLevel
+        //-                     div#sl-graph
+
+    script
+        include ../controllers/frontend/stateEstimation.js
+
+

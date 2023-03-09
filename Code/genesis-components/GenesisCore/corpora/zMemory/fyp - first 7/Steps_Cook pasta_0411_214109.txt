@@ -1,0 +1,88 @@
+/* ------------------------------
+ Generated on Cook pasta_0411_214109 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Cook pasta".
+Intention: Cook pasta.
+The end.
+
+If the intention is "Cook pasta".
+Step: Put pasta on plate.
+Step: Put pasta on plate.
+Step: Put tomato sauce on pasta.
+Step: Put parley on pasta.
+Step: Put leaves on pasta.
+Step: Put peppers on pasta.
+Step: Put salt on pasta.
+The end.
+
+If the problem is "Put pasta on plate".
+Intention: Put pasta on plate.
+The end.
+
+If the intention is "Put pasta on plate".
+Step: Pasta is on plate.
+The end.
+
+/* ------------------------------
+ Generated on Cook pasta_0411_214109 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Put pasta on plate".
+Intention: Put pasta on plate.
+The end.
+
+If the intention is "Put pasta on plate".
+Step: Pasta is on plate.
+The end.
+
+/* ------------------------------
+ Generated on Cook pasta_0411_214109 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Put tomato sauce on pasta".
+Intention: Put tomato sauce on pasta.
+The end.
+
+If the intention is "Put tomato sauce on pasta".
+Step: Tomato sauce is on pasta.
+The end.
+
+/* ------------------------------
+ Generated on Cook pasta_0411_214109 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Put parley on pasta".
+Intention: Put parley on pasta.
+The end.
+
+If the intention is "Put parley on pasta".
+Step: Parley is on pasta.
+The end.
+
+
+If the problem is "Put leaves on pasta".
+Intention: Put leaves on pasta.
+The end.
+
+If the intention is "Put leaves on pasta".
+Step: Leaves are on pasta.
+The end.
+
+
+If the problem is "Put peppers on pasta".
+Intention: Put peppers on pasta.
+The end.
+
+If the intention is "Put peppers on pasta".
+Step: Peppers are on pasta.
+The end.
+
+
+If the problem is "Put salt on pasta".
+Intention: Put salt on pasta.
+The end.
+
+If the intention is "Put salt on pasta".
+Step: Salt is on pasta.
+The end.
+

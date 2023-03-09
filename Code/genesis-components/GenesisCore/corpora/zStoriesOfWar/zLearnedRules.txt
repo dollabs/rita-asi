@@ -1,0 +1,13 @@
+// antecedent, consequent
+If King kills xx, then xx may become dead.
+If King believes that xx is disloyal, then King may kill xx.
+If Official tells King that xx is disloyal, then King may believe that xx is disloyal.
+If xx bribe Official, then Official may tell King that yy is disloyal.
+If xx wants to bribe Official, then xx may bribe Official.
+
+// alternatives, the following also works
+// xx becomes dead because King kills xx.
+// King kills xx because King believes that xx is disloyal.
+// King believes that xx is disloyal because Official tells King that xx is disloyal.
+// Official tells King that yy is disloyal because xx bribe Official.
+// xx bribes Official because xx wants to bribe Official.

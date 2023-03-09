@@ -1,0 +1,40 @@
+If the problem is "What did xx say".
+Intention: What did xx say.
+The end.
+
+If the intention is "What did xx say".
+Method: What did xx say.
+The end.
+
+If the method is "What did xx say".
+Execute: Call "jdSay" with xx.
+The end.
+
+// What did I eat for lunch
+
+If the problem is "What did I eat for yy".
+Intention: I ate what for yy.
+The end.
+
+If the intention is "I ate what for yy".
+Method: I ate what for yy.
+The end.
+
+If the method is "I ate what for yy". 
+Execute: Call "jdRecallWhat".
+The end.
+
+// Did I eat lunch
+
+If the problem is "Did I eat yy".
+Intention: Did I eat yy.
+The end.
+
+If the intention is "Did I eat yy".
+Method: Did I eat yy.
+The end.
+
+If the method is "Did I eat yy". 
+Execute: Call "jdRecallDid".
+The end.
+

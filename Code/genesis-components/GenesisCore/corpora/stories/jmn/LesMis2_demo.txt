@@ -1,0 +1,38 @@
+//Les Mis 2, 2/1/2016
+//This is the demo version of Les Mis 2, used in my presentation on 4/26/2016.
+
+Start experiment.
+
+Start common sense knowledge.
+xx is a person.
+yy is a person.
+If xx commits a crime, then xx is a criminal.
+If xx is a policeman, then xx wants to catch criminals. //not nec
+If xx is a policeman and yy is a criminal, then xx wants to arrest yy.
+
+If xx repents and xx becomes a good person, then xx is not a criminal.
+
+Inspector Javert is a name.
+Jean Valjean is a name.
+
+Start story titled "Les Mis 2".
+	Inspector Javert and Jean Valjean are persons.
+
+
+//Scene 1: Crime
+Inspector Javert and Jean Valjean enter the scene.
+	Inspector Javert is a policeman.
+	Jean Valjean commits a crime.
+		//Infer: Jean Valjean is a criminal. Inspector Javert wants to arrest JV.
+Inspector Javert and Jean Valjean exit the scene.
+
+
+//Scene 2: Repentance
+Then, Jean Valjean enters the scene. //Javert does not observe.
+	Jean Valjean repents.
+	Jean Valjean becomes a good person.
+		//JV's story: JV is no longer a criminal. (not Genesese...)
+		//Javert's story: unchanged (Javert wants to arrest JV.)
+Jean Valjean exits the scene.
+
+The end.

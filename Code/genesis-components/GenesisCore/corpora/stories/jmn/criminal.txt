@@ -1,0 +1,26 @@
+Start experiment.
+
+Start common sense knowledge.
+xx is a person.
+
+//Rules that don't work (comments indicate WordNet categories)
+If xx commits a crime, then xx is a criminal. //type of wrongdoer
+If xx commits a crime, then xx is an outlaw. //type of criminal
+If xx commits a crime, then xx is a crook. //type of criminal
+If xx commits a crime, then xx is a thief. //type of criminal
+If xx commits a crime, then xx is a robber. //type of thief
+If xx commits a crime, then xx is a convict. //type of wrongdoer
+If xx commits a crime, then xx is a wrongdoer. //type of bad-person
+If xx commits a crime, then xx is a bad-person. //proper noun
+If xx commits a crime, then xx is a farmer. //type of person
+
+//Rules that work
+If xx commits a crime, then xx is a bad person. //"bad" is adjective modifying the type of person that John is
+If xx commits a crime, then xx is a criminal person. //same as bad
+If xx commits a crime, then xx is a saint. //parses with roles object
+If xx commits a crime, then xx is guilty. //adjective; parses with roles object
+
+Start story titled "criminal".
+John is a person.
+John commits a crime.
+The end.

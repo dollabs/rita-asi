@@ -1,0 +1,17 @@
+Start experiment.
+
+Second perspective.
+
+Insert file AuthorModel_BlameSympathyDoubt.
+
+Start story titled "Analysis of Author: Doubt".
+
+The end.
+
+First perspective.
+
+Start story titled "Original article Climate Change".
+
+Scientists allege climate change. Society is hurt by the scientists' claims. We help people because we show them the truth.
+
+The end.

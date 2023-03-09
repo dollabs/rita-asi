@@ -1,0 +1,18 @@
+// Eastern because want to see murders as situational
+
+Insert file Eastern commonsense knowledge.
+
+Insert file Relations knowledge.
+
+Insert file Estonia commonsense knowledge.
+
+Insert file Sellout knowledge.
+
+Insert file Core knowledge.
+
+// Experiment
+
+// Insert file ConceptNet.
+
+
+

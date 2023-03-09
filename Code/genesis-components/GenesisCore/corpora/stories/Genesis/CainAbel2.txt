@@ -1,0 +1,42 @@
+Start experiment.
+Insert file General commonsense knowledge.
+Insert file General reflective knowledge.
+xx, yy, and zz are persons.
+aa is a thing.
+If xx gives aa to yy, then xx sacrifices aa and now yy has aa.
+If yy likes the aa from xx more, then yy appreciates xx.
+If xx and yy are brothers, then xx and yy have the same parents.
+If xx resents yy, then xx may kill yy.
+
+Start description of "Murder".
+xx is a person.
+yy is a person.
+xx's resenting yy leads to xx's killing yy.
+The end.
+
+Start description of "Encumber enemy".
+xx, yy are persons.
+aa is a thing.
+xx dislikes aa.
+xx's disliking aa leads to xx's giving aa to yy.
+The end.
+
+Start description of "Sacrifice".
+xx is a person.
+yy is a person.
+aa is a thing.
+xx likes aa.
+xx's liking aa leads to xx's giving aa to yy.
+//xx's liking aa leads to xx's giving aa away.
+The end.
+
+Start story titled "Cain and Abel".
+Cain is a person.
+Abel is a person.
+God is a person.
+Cain and Abel are brothers.
+Because Abel likes the lamb, Abel gives the lamb to God.
+Because Cain dislikes wheat, Cain gives the wheat to God.
+God prefers the lamb from Abel.
+Because Cain resents Abel, Cain kills Abel.
+The end.

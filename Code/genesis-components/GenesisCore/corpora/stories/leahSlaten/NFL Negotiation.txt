@@ -1,0 +1,44 @@
+// // Introduces comment
+// Next line makes sure memories and displays are ready to go by inserting file named: Start experiment.txt
+// Memories are cleared, first perspective is shown, reading into first perspective.
+
+// Story describing the negotiation between the NFL and its players.
+
+Start experiment.
+
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+
+//Insert file General commonsense knowledge.
+//Insert file General reflective knowledge.
+
+Insert file Negotiation Rules.
+Insert file Negotiation Concepts.
+
+Start story titled "NFL Negotiation".
+
+Players are an entity.
+The NFL is an entity.
+
+A team is a kind of company.
+The NFL is a team.
+Players work for the NFL.
+
+The owners are concerned about revenue sharing.
+The owners are concerned about season length.
+The owners are concerned about salary cap.
+
+//IS THERE A WAY FOR IT TO MATCH ALL OF THESE TO STRIKING?
+The players are concerned about benefits.
+The players are concerned about healthcare.
+The players are concerned about safety.
+
+Players strike to the NFL.
+
+The owners get revenue sharing.
+
+Players like a ride in a private jet.
+The NFL gives the players a ride in a private jet.
+The NFL uses a mediator.
+The end.

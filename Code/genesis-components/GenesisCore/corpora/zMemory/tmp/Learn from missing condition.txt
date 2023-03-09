@@ -1,0 +1,21 @@
+Set expert teaches novice button to true.
+
+Set Use features when matching switch to false.
+
+Set Split names with underscores switch to false.
+
+Set left panel to Commentary.
+
+Set right panel to Blocks.
+
+Set bottom panel to Mental models.
+
+Insert question into text box: Do you know how to replace cellphone battery?
+
+Insert into text box: you need to have a beer.
+
+Insert into text box: No.
+
+Insert into text box: you follow the steps if you have money. 
+
+Insert into text box: show me. pause. Pause.

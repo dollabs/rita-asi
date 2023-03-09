@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../css/favicon.ico">
+  
+  <title>Inference by Rules - Genesis Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Inference by Rules";
+    var mkdocs_page_input_path = "inference.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Genesis Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Genesis</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="..">Genesis System</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../contribute/">Contribute to Documentation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../past/">Past</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../current.md">Current</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../future.md">Future</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Fundamentals</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../innerese/">Representation - Innerese</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../stories/">Writing Stories</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Inference by Rules</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#inference-by-rules">Inference by Rules</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#prediction-rules">... Prediction rules</a></li>
+        
+            <li><a class="toctree-l4" href="#explanation-rules">... Explanation rules</a></li>
+        
+            <li><a class="toctree-l4" href="#presumption-rules">... Presumption rules</a></li>
+        
+            <li><a class="toctree-l4" href="#abduction-rules">... Abduction rules</a></li>
+        
+            <li><a class="toctree-l4" href="#enablement-rules">... Enablement rules</a></li>
+        
+            <li><a class="toctree-l4" href="#post-hoc-ergo-propter-hoc">... Post hoc ergo propter hoc</a></li>
+        
+            <li><a class="toctree-l4" href="#censor-rules">... Censor rules</a></li>
+        
+            <li><a class="toctree-l4" href="#multiple-antecedentsconsequents">Multiple antecedents/consequents</a></li>
+        
+            <li><a class="toctree-l4" href="#explicit-connections">Explicit connections</a></li>
+        
+            <li><a class="toctree-l4" href="#cause-expressions">... Cause expressions</a></li>
+        
+            <li><a class="toctree-l4" href="#leads-to-expressions">... Leads to expressions</a></li>
+        
+            <li><a class="toctree-l4" href="#strangely-leads-to-expressions">... Strangely leads to expressions</a></li>
+        
+            <li><a class="toctree-l4" href="#in-order-to-expressions">... In order to expressions</a></li>
+        
+            <li><a class="toctree-l4" href="#probabilities">Probabilities</a></li>
+        
+            <li><a class="toctree-l4" href="#summary">Summary</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../concept-patterns/">Concept Patterns</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../mental-model/">Mental Models</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../classification/">Classification</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Genesis Interface</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../genesis-controls/">Controls</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../gui-subsystems/">Subsystems</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Consciousness</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../core/">Genesis Core</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../wire/">Box and Wire</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../problem-solver/">Problem Solver</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Mental Experts</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../hypothetical-reasoner/">Hypothetical Reasoner</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story reteller.md">Story Reteller</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-summarizer/">Story Summarizer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-aligner/">Story Aligner</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Knowledge Base</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../concept-net/">Commonsense - ConceptNet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../wikihow/">Procedural Knowledge - WikiHow</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../atomic/">Inference Rules - ATOMIC</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../personalities/">Personalities</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Knowledge Generators</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../recipe-learners/">Recipe Learners</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-aligner/">Story Aligner</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Tips for Users</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../tips-genesese/">Writing Parsable English</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../tips-eclipse/">Debugging in Eclipse</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../commentary/">Using Commentary</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Demonstrations</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../demo-macbeth2/">Culture Differences</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Genesis Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Fundamentals &raquo;</li>
+        
+      
+    
+    <li>Inference by Rules</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="inference-by-rules">Inference by Rules</h1>
+<h2 id="prediction-rules">... Prediction rules</h2>
+<p>The story becomes more interesting when you add common sense prediction rules. Prediction rules establish connections between one or more antecedents and one consequent.</p>
+<p>Here, Genesis is told that if a person kills someone, that other person becomes dead:</p>
+<pre><code>Start experiment.
+
+xx, yy, and zz are persons.
+
+// A prediction rule:
+If xx kills yy then yy becomes dead.
+
+Start story titled &quot;Tragedy of Macbeth&quot;.
+Macbeth, Macduff, and Duncan are persons.
+Macduff kills Macbeth.
+The end.
+</code></pre>
+
+<p>Now in the elaboration graph, in yellow, you see the consequent event, and that consequent is connected to its antecedent by a line, as shown in figure below:</p>
+<p><img alt="genesese-prediction" src="../imgs/genesese-prediction.png" /></p>
+<p>Common sense rules are generally of the form <code>If ... then ....</code>, but you can also use an alternate form with the word <code>because</code>:</p>
+<p><code>yy becomes dead because xx kills yy.</code></p>
+<h2 id="explanation-rules">... Explanation rules</h2>
+<p>We humans always seek explanations, so Genesis uses explanation rules to join a action to a previous action whenever an event occurs that would otherwise lack an explanation.</p>
+<p>Consider this version:</p>
+<pre><code>Start experiment.
+xx, yy, and zz are persons.
+
+// A prediction rule:
+If xx kills yy then yy becomes dead.
+
+// An explanation rule; note use of &quot;may&quot;:
+If xx angers yy, then yy may kill xx.
+
+Start story titled &quot;Tragedy of Macbeth&quot;.
+Macbeth, Macduff, and Duncan are persons.
+Macbeth angers Macduff.
+Macduff kills Macbeth.
+The end.
+</code></pre>
+
+<p>The explanation rule indicates that if there is no other explanation for yy killing xx, and there is an assertion already that xx angers yy, then there is an assumed causal connection.</p>
+<p>The reason for explanation rules, marked with <code>may</code>, is that the antecedent, in this example, <code>xx angers yy</code>, does not always lead to the consequent, <code>yy kills xx</code>. The result appears in the elaboration graph shown in figure below:</p>
+<p><img alt="genesese-explanation" src="../imgs/genesese-explanation.png" /></p>
+<p>Note that explanation-rule connections are shown in orange and dotted, rather than solid black. Note also that explanation rules can be, like inference rules, expressed with <code>because</code>:</p>
+<p><code>xx may murder yy because xx wants to murder yy.</code></p>
+<h2 id="presumption-rules">... Presumption rules</h2>
+<p>Genesis uses presumption rules to join an action to an imagined cause whenever there is no other explanation for an action and no explanation rule provides one. Explanation rules require their antecedents to be in a story; presumption rules put antecedents into the story, as in the following example:</p>
+<pre><code>Start experiment.
+xx, yy, and zz are persons.
+
+// A presumption rule; note use of &quot;can be&quot;
+If xx is foolish, xx can be greedy.
+
+Start story titled &quot;Tragedy of Macbeth&quot;.
+Macbeth, Macduff, and Duncan are persons.
+Macbeth is greedy.
+The end.
+</code></pre>
+
+<p>The result appears in the elaboration graph shown in figure below:</p>
+<p><img alt="genesese-presumption" src="../imgs/genesese-presumption.png" /></p>
+<h2 id="abduction-rules">... Abduction rules</h2>
+<p>Sometimes we assume a cause when a consequence is stated, thus doing abductive inference. Thus, abduction is something like presumption, but happens no matter whether there is an alternative explanation or not. For example, Genesis can conclude that if someone murders someone else, that person must be insane:</p>
+<pre><code>Start experiment.
+xx, yy, and zz are persons.
+
+// A prediction rule:
+If xx kills yy then yy becomes dead.
+
+// An abduction rule; note use of &quot;must be&quot;
+If xx kills yy, xx must be insane.
+
+Start story titled &quot;Tragedy of Macbeth&quot;.
+Macbeth, Macduff, and Duncan are persons.
+Macbeth murders Duncan.
+The end.
+</code></pre>
+
+<p>The result is shown in the elaboration graph shown in figure below:</p>
+<p><img alt="genesese-abduction" src="../imgs/genesese-abduction.png" /></p>
+<h2 id="enablement-rules">... Enablement rules</h2>
+<p>Sometimes we assume a required condition must hold because a certain type of action occurred. Genesis uses enablement rules to do so.</p>
+<p>For example, Genesis can conclude that if someone stabs someone else, that person have a knife.</p>
+<pre><code>Start experiment.
+xx, yy, and zz are persons.
+
+// An enablement rule; note use of &quot;enables&quot;
+Xx’s having a knife enables xx’s stabbing yy.
+
+Start story titled &quot;Tragedy of Macbeth&quot;.
+Macbeth, Macduff, and Duncan are persons.
+Macbeth stabs Duncan.
+The end.
+</code></pre>
+
+<p>The result is shown in the elaboration graph shown in figure below:</p>
+<p><img alt="genesese-enablement" src="../imgs/genesese-enablement.png" /></p>
+<h2 id="post-hoc-ergo-propter-hoc">... Post hoc ergo propter hoc</h2>
+<p>When two events are adjacent to each other in the story, we can indicate a causal connection using a post hoc ergo propter hoc rule, as in:</p>
+<pre><code>Start experiment.
+xx, yy, and zz are persons.
+
+// A post hoc ergo proper hoc rule; note use of semicolon
+xx becomes king; yy becomes angry.
+
+Start story titled &quot;Tragedy of Macbeth&quot;.
+Macbeth, Macduff, and Duncan are persons.
+Macbeth becomes king.
+Macduff becomes angry.
+The end.
+</code></pre>
+
+<p>Because <code>Macduff ’s becoming angry</code> directly follows <code>Macbeth becomes king</code>, the rule yields the result shown in figure below:</p>
+<p><img alt="genesese-proximate" src="../imgs/genesese-proximate.png" /></p>
+<p>Note that if there are any sentences in between, the rule does not apply.</p>
+<h2 id="censor-rules">... Censor rules</h2>
+<p>A censor rule prevents inference and explanation rules from making ridiculous conclusions. For example, if you murder someone, you harm them. If you harm someone, that person becomes unhappy. But if you murder someone, that person cannot come to have some emotional state because that person is dead, even though an inference rule thinks that person should become unhappy.</p>
+<p>The solution is to introduce a censor rule:</p>
+<p><code>If YY becomes dead, then YY cannot become unhappy.</code></p>
+<p>Such a rule, indicated by <code>cannot</code>, prevents any other rule from asserting that someone is unhappy after that person becomes dead.</p>
+<pre><code>Start experiment.
+xx, yy, and zz are persons.
+
+// A prediction rule:
+If xx kills yy then yy becomes dead.
+
+// An explanation rule; note use of &quot;may&quot;:
+If xx angers yy, then yy may kill xx.
+
+// A presumption rule; note use of &quot;can be&quot;
+If xx is foolish, xx can be greedy.
+
+// An abduction rule; note use of &quot;must be&quot;
+If xx kills yy, xx must be insane.
+
+// An enablement rule; note use of &quot;enables&quot;
+Xx’s having a knife enables xx’s stabbing yy.
+
+// A post hoc ergo proper hoc rule; note use of semicolon
+xx becomes king; yy becomes angry.
+
+// A censor rule; note use of cannot
+If xx becomes dead, then xx cannot become unhappy.
+
+// Prediction rules that would otherwise make a person unhappy if killed.
+If xx kills yy then xx harms yy.
+If xx harms yy then yy becomes unhappy.
+
+Start story titled &quot;Tragedy of Macbeth&quot;.
+Macbeth, Macduff, and Duncan are persons.
+Macbeth murders Duncan.
+The end.
+</code></pre>
+
+<p>Before adding the censor rule:</p>
+<p><img alt="genesese-censor-1" src="../imgs/genesese-censor-1.png" /></p>
+<p>After adding the censor rule <code>If xx becomes dead, then xx cannot become unhappy</code>:</p>
+<p><img alt="genesese-censor-2" src="../imgs/genesese-censor-2.png" /></p>
+<h2 id="multiple-antecedentsconsequents">Multiple antecedents/consequents</h2>
+<p>Inference rules, explanation rules, and censor rules all may have multiple antecedents, as in this inference rule:</p>
+<pre><code>Start experiment.
+xx, yy, and zz are things.
+If xx is a kind of yy and yy is a kind of zz, then xx is a kind of zz.
+
+Start story titled &quot;Tiger is animal&quot;.
+Tiger is a kind of cat.
+Cat is a kind of animal.
+The end.
+</code></pre>
+
+<p>Inference rules may not have multiple consequents, however. You would need to express such a rule as multiple rules, one for each consequent.</p>
+<h2 id="explicit-connections">Explicit connections</h2>
+<p>Sometimes stories can contain explicit causal connections.</p>
+<h2 id="cause-expressions">... Cause expressions</h2>
+<p>Explicit cause expressions connect antecedents to consequents. For example:</p>
+<pre><code>Start experiment.
+Start story titled &quot;Tragedy of Macbeth&quot;.
+Macbeth, Macduff, and Duncan are persons.
+Macbeth wants to murder Duncan because Macbeth wants to become king.
+The end.
+</code></pre>
+
+<p>The result appears in the elaboration graph, which now has an explicit connection, as shown in figure below:</p>
+<p><img alt="genesese-cause" src="../imgs/genesese-cause.png" /></p>
+<h2 id="leads-to-expressions">... Leads to expressions</h2>
+<p>You can also use <code>leads to</code> expressions in stories, meaning there is a causal connection, but the details are not given, as in:</p>
+<pre><code>Start experiment.
+Start story titled &quot;Tragedy of Macbeth&quot;.
+Macbeth, Macduff, and Duncan are persons.
+Macbeth’s murdering Duncan leads to Macduff’s fleeing to England.
+The end.
+</code></pre>
+
+<p>The result appears in the elaboration graph, which now has an leads-to connection, as shown in figure below:</p>
+<p><img alt="genesese-leadsto" src="../imgs/genesese-leadsto.png" /></p>
+<h2 id="strangely-leads-to-expressions">... Strangely leads to expressions</h2>
+<p>If you wish, you can add <code>Strangely</code>, indicating that the details are unknowable, which comes up, for example, in Victor Yarlott’s work on Crow folklore:</p>
+<pre><code>Start experiment.
+Start story titled &quot;Tragedy of Macbeth&quot;.
+Macbeth, Macduff, and Duncan are persons.
+Strangely, Macbeth’s murdering Duncan leads to Macbeth’s hallucinating.
+The end.
+</code></pre>
+
+<p><img alt="genesese-strangely" src="../imgs/genesese-strangely.png" /></p>
+<h2 id="in-order-to-expressions">... In order to expressions</h2>
+<p>Genesis treats means as a kind of causal connection because the means enables the action, as in the following:</p>
+<pre><code>Start experiment.
+Start story titled &quot;Tragedy of Macbeth&quot;.
+Macbeth, Macduff, and Duncan are persons.
+In order to murder Duncan, Macbeth kills the guards and stabs Duncan.
+The end.
+</code></pre>
+
+<p>The result is shown in figure below:</p>
+<p><img alt="genesese-inorderto" src="../imgs/genesese-inorderto.png" /></p>
+<h2 id="probabilities">Probabilities</h2>
+<p>Ordinary entities as well as prediction rules and explanation rules can have probabilities attached.</p>
+<p>The attachment is expressed as in the following examples (at this writing, if forms do not parse).</p>
+<pre><code>With probability of 0.2 xx becomes dead.
+With probability of 0.7 xx becomes dead because yy stabs xx.
+With probability of 0.2 xx may kill yy because yy angers xx.
+</code></pre>
+
+<p>What you do with these probabilities is for you to decide, as at the moment, nothing uses them.</p>
+<p>Note that the entity getter, <code>getProbability</code>, fetches an entity’s probability if there is one, or <code>null</code> otherwise.</p>
+<h2 id="summary">Summary</h2>
+<p>Genesis uses 7 kinds of rules and 5 types of explicit expressions to connect story elements, existing or inferred.</p>
+<p>Rules might connect existing story elements or introducing new elements, with optionally the probability of the rule firing:</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Element in story</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prediction rule</td>
+<td>1st</td>
+<td>If xx kills yy then yy becomes dead.</td>
+</tr>
+<tr>
+<td>Censor rule</td>
+<td>1st</td>
+<td>If xx becomes dead, then xx <code>cannot</code> become unhappy.</td>
+</tr>
+<tr>
+<td>Presumption rule</td>
+<td>2nd</td>
+<td>If xx is foolish, xx <code>can be</code> greedy.</td>
+</tr>
+<tr>
+<td>Abduction rule</td>
+<td>2nd</td>
+<td>If xx kills yy, xx <code>must</code> be insane.</td>
+</tr>
+<tr>
+<td>Enablement rule</td>
+<td>2nd</td>
+<td>xx’s having a knife enables xx’s stabbing yy.</td>
+</tr>
+<tr>
+<td>Explanation rule</td>
+<td>both</td>
+<td>If xx angers yy, then yy <code>may</code> kill xx.</td>
+</tr>
+<tr>
+<td>Post hoc ergo proper hoc rule</td>
+<td>both</td>
+<td>xx becomes king<code>;</code> yy becomes angry.</td>
+</tr>
+</tbody>
+</table>
+<p>Explicit expressions connect existing story elements.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cause expression</td>
+<td>Macbeth wants to murder Duncan because Macbeth wants to become king.</td>
+</tr>
+<tr>
+<td>Leads to expression</td>
+<td>Macbeth’s murdering Duncan leads to Macduff’s fleeing to England.</td>
+</tr>
+<tr>
+<td>Strangely leads to expression</td>
+<td>Strangely, Macbeth’s murdering Duncan leads to Macbeth’s hallucinating.</td>
+</tr>
+<tr>
+<td>In order to expressions</td>
+<td>In order to murder Duncan, Macbeth kills the guards and stabs Duncan.</td>
+</tr>
+</tbody>
+</table>
+<p>After color coding, the Elaboration Graph can be populated with existing story elements (white, cyan, magenta, gray boxes) and inferred elements (yellow, orange, purple, pink boxes):</p>
+<p><img alt="inference-macbeth" src="../imgs/inference-macbeth.png" /></p>
+<p>|<em> <img alt="demo-macbeth" src="../imgs/demo-macbeth.png" /> </em>|</p>
+<hr />
+<p>This version is edited by Zhutian Yang, on 6 August 2019</p>
+<p>An older version of <a href="https://groups.csail.mit.edu/genesis/Documentation/Genesese.pdf">How to speak Genesese</a> is authored by Patrick H. Winston, on June 8, 2018</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../concept-patterns/" class="btn btn-neutral float-right" title="Concept Patterns">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../stories/" class="btn btn-neutral" title="Writing Stories"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Maintained by the Gensis Group, Computer Science and Artificial Intelligence Lab, MIT. <br>
+
+  Any questions? Contact Yang at <a href="mailto:ztyang@mit.edu">ztyang@mit.edu</a> or Dylan at <a href="mailto:dxh@mit.edu">dxh@mit.edu</a>
+
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../stories/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../concept-patterns/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

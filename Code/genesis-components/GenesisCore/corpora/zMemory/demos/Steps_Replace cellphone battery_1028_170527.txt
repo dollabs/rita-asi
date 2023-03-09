@@ -1,0 +1,97 @@
+/* ------------------------------
+ Generated on Replace cellphone battery_1028_170527 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Replace cellphone battery".
+Intention: Replace cellphone battery.
+The end.
+
+If the intention is "Replace cellphone battery".
+Verify: the phone is wet.
+Step: remove the cover from the phone.
+Step: collect the old battery from the phone.
+Step: insert the replacement battery into the phone.
+Step: put the cover on the phone.
+The end.
+
+// ------------ Step 1
+If the problem is "remove the cover from the phone".
+Intention: remove the cover from the phone.
+The end.
+
+If the intention is "remove the cover from the phone".
+Step: The cover moves from the phone to table.
+The end.
+
+// ------------ Step 2
+If the problem is "collect the old battery from the phone".
+Intention: collect the old battery from the phone.
+The end.
+
+If the intention is "collect the old battery from the phone".
+Step: The old battery moves from the phone to table.
+The end.
+
+// ------------ Step 3
+If the problem is "insert the replacement battery into the phone".
+Intention: insert the replacement battery into the phone.
+The end.
+
+If the intention is "insert the replacement battery into the phone".
+Step: The replacement battery moves to the phone.
+The end.
+
+// ------------ Step 4
+If the problem is "put the cover on the phone".
+Intention: put the cover on the phone.
+The end.
+
+If the intention is "put the cover on the phone".
+Step: The cover is on the phone.
+The end.
+
+/* ------------------------------
+ Generated on Replace cellphone battery_1028_170527 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Replace cellphone battery".
+Verify: you have a replacement battery.
+Step: slide down the cover from the phone.
+Step: remove the old battery from the phone.
+Step: put the replacement battery in the phone.
+Step: place the cover on the phone.
+The end.
+
+// ------------ Step 1
+If the problem is "slide down the cover from the phone".
+Intention: slide down the cover from the phone.
+The end.
+
+If the intention is "slide down the cover from the phone".
+Step: The cover moves from the phone to table.
+The end.
+
+// ------------ Step 2
+If the problem is "remove the old battery from the phone".
+Intention: remove the old battery from the phone.
+The end.
+
+If the intention is "remove the old battery from the phone".
+Step: The old battery moves from the phone to table.
+The end.
+
+// ------------ Step 3
+If the problem is "put the replacement battery in the phone".
+Intention: put the replacement battery in the phone.
+The end.
+
+If the intention is "put the replacement battery in the phone".
+Step: the replacement battery is in the phone.
+The end.
+
+// ------------ Step 4
+If the problem is "place the cover on the phone".
+Intention: place the cover on the phone.
+The end.
+
+If the intention is "place the cover on the phone".
+Step: The cover is on the phone.
+The end.

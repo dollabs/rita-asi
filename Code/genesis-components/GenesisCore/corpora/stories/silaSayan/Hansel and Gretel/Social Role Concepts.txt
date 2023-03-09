@@ -1,0 +1,61 @@
+Start description of "Bad parent".
+XX is a person.
+YY is a person.
+XX is YY's parent.
+XX abandons YY.
+Evidently, XX triggers "bad parent".
+The end.
+
+Start description of "Badparent 2".
+XX is a person. 
+YY is a person.
+XX is YY's parent.
+AA is an action.
+XX's performing AA leads to YY's becoming afraid.
+Evidently, XX triggers "badparent 2".
+The end. 
+
+Start description of "Badparent 3".
+XX is a person. 
+YY is a person.
+XX is YY's parent.
+YY becomes angry with XX.
+Evidently, XX triggers "badparent 3".
+The end. 
+
+Start description of "Goodparent".
+XX is a person. 
+YY is a person.
+XX is YY's parent.
+XX wants to give food to YY.
+Evidently, XX triggers "goodparent".
+The end. 
+
+Start description of "Bad Husband".
+XX is a person.
+YY is a person.
+AA is an action.
+XX is YY's husband.
+XX's performing AA leads to YY's feeling lonely.
+Evidently, XX triggers "bad husband". 
+The end.
+
+Start description of "Bad Wife".
+XX is a person.
+YY is a person.
+ZZ is a person.
+XX is YY's parent.
+ZZ is XX's wife.
+ZZ persuades XX to abandon YY.
+Evidently, XX triggers "bad wife".
+The end. 
+
+Start description of "Badwife 2".
+XX is a person.
+YY is a person.
+ZZ is a person.
+XX is YY's parent.
+ZZ is XX's wife.
+ZZ's mistreating YY leads to XX's becoming angry.
+Evidently, XX triggers "badwife 2". 
+The end.

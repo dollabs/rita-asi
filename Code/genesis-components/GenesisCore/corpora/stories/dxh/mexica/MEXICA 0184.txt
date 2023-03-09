@@ -1,0 +1,22 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0184".
+THAT DAY THE HUNTER'S HEART WAS FULL OF ENERGY.
+IN THE MORNING, THE PRINCESS AWOKE IN THE GREAT CITY.
+EARLIER, THE ARTIST WAS BORN WITH DIVINE PROTECTION.
+THE HUNTER AND THE ARTIST FRAMED THE PRINCESS.
+THE ARTIST WAS AWARE THAT THE PRINCESS HATED HIM. HE HAD TO ESCAPE.
+THE ARTIST DECIDED TO GO TO THE PALACE.
+CLEARLY, THE PRINCESS HATED THE HUNTER. HE DECIDED TO RUN AWAY AT ONCE.
+THE HUNTER DECIDED TO GO TO THE FOREST.
+THE END.
+
+
+
+The end.

@@ -1,0 +1,51 @@
+{
+  "name": "rita-control-panel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch": "watchify controllers/frontend/2dMap/map.js -o controllers/frontend/2dMap/bundleMap.js",
+    "build": "browserify controllers/frontend/2dMap/map.js -o controllers/frontend/2dMap/bundleMap.js",
+    "start": "npm run watch & nodemon server.js",
+    "dev": "nodemon server.js",
+    "start:prod": "NODE_ENV=production npm start",
+    "debug": "ndb server.js"
+  },
+  "author": "Thao Phuong",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "amqplib": "^0.5.6",
+    "body-parser": "^1.19.0",
+    "browserify": "^17.0.0",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.14",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "papaparse": "^5.2.0",
+    "phaser": "^3.24.1",
+    "pug": "^2.0.4",
+    "shelljs": "^0.8.4",
+    "slugify": "^1.4.0",
+    "socket.io": "^2.3.0",
+    "validator": "^13.0.0",
+    "watchify": "^3.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "ndb": "^1.1.5",
+    "prettier": "^2.0.5"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}

@@ -1,0 +1,124 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Participant model
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; This is information that is provided ahead of time regarding the participant
+;;; Its usefulness is not clear, but it is fixed starting information
+
+(defpclass General []           :modes [:initial :nothing])
+(defpclass DestinationStates [] :modes [:normal :arrived])
+(defpclass RoomModes []         :modes [:unvisited :visited])
+(defpclass MissionStatus []
+  :modes {:started (or (mode-of General :initial)) :finished true})
+
+;; This will need to be populated via calls to functions in the rita.common.surveys ns
+(defpclass PreTrialSurvey []
+  :meta {:doc "The content of the Pre-Trial Survey"}
+  :fields {subject-id {:observable true}
+           spatial-ability-question-1 {:observable true}
+           spatial-ability-question-2 {:observable true}
+           spatial-ability-question-3 {:observable true}
+           spatial-ability-question-4 {:observable true}
+           spatial-ability-question-5 {:observable true}
+           spatial-ability-question-6 {:observable true}
+           spatial-ability-question-7 {:observable true}
+           spatial-ability-question-8 {:observable true}
+           spatial-ability-question-9 {:observable true}
+           spatial-ability-question-10 {:observable true}
+           spatial-ability-question-11 {:observable true}
+           spatial-ability-question-12 {:observable true}
+           spatial-ability-question-13 {:observable true}
+           spatial-ability-question-14 {:observable true}
+           spatial-ability-question-15 {:observable true}
+           spatial-ability-aggregate-score {:observable true} ;; this should come from (spatial-survey-aggregate-score subject-id)
+           satisficing-question-1 {:observable true}
+           satisficing-question-2 {:observable true}
+           satisficing-question-3 {:observable true}
+           satisficing-question-4 {:observable true}
+           satisficing-question-5 {:observable true}
+           satisficing-question-6 {:observable true}
+           satisficing-question-7 {:observable true}
+           satisficing-question-8 {:observable true}
+           satisficing-question-9 {:observable true}
+           satisficing-question-10 {:observable true}
+           satisficing-aggregate-score {:observable true}})
+
+(defpclass ParticipantProfile [name age gender culture minecraft-proficiency
+                               gamer-proficiency training-proficiency spatial-ability
+                               pos strat]
+  :meta {:doc "What we know about the participant a-priori - provided information"}
+
+  :modes [:left :right :by-corridor]
+  :fields {next (lvar "next room")
+           P-location pos
+           strategy strat
+
+           pname name                         ; Name as a String, eg "Fred"
+           page age                           ; age in years
+           pgender gender                     ; :male or :female
+           cultural culture                   ; Cultural affiliation a keyword
+           pmcprof minecraft-proficiency      ; Proficiency in minecraft (0 100)
+           pgamerprof gamer-proficiency       ; General Gamer Proficiency (0 100)
+           ptprof training-proficiency        ; Training proficiency (0 100) or however that is provided
+           pspatial-ability spatial-ability}  ; Special ability (0 100) or however that is provided
+
+  :methods [(defpmethod left-goto-room      ; Goto a room
+              {:doc "Move to another room"
+               :pre (and (= strategy :left)
+                         (propositions [(:left-path-neighbor pos newloc)])
+                         (= newloc (mode-of RoomModes :unvisited))
+                         (= P-location p1))
+               :post (= P-location newloc)
+               :primitive true}
+              [newloc])
+            (defpmethod right-goto-room      ; Goto a room
+              {:doc "Move to another room"
+               :pre (and (= strategy :right)
+                         (propositions [(:right-path-neighbor pos newloc)])
+                         (= newloc (mode-of RoomModes :unvisited))
+                         (= P-location p1))
+               :post (= P-location newloc)
+               :primitive true}
+              [newloc])
+            (defpmethod left-skip-room      ; skip a room
+              {:doc "Skip a room that has been visited already"
+               :pre (and (= strategy :left)
+                         (propositions [(:right-path-neighbor pos newloc)])
+                         (not (= newloc (mode-of RoomModes :unvisited)))
+                         (= P-location p1))
+               :post (= P-location newloc)
+               :primitive true}
+              [newloc])
+            (defpmethod right-skip-room      ; skip a room
+              {:doc "Skip a room that has been visited already"
+               :pre (and (= strategy :right)
+                         (propositions [(:right-path-neighbor pos newloc)])
+                         (not (= newloc (mode-of RoomModes :unvisited)))
+                         (= P-location p1))
+               :post (= P-location newloc)
+               :primitive true}
+              [newloc])])
+
+(defpclass TheTeam []
+  :meta {:doc "Team members"}           ; Initially just one of them
+  :fields {
+           rita (ParticipantProfile "Rita"       0 :asist-assistant    :robot    0  0  0  0  0 0)
+           robot1 (ParticipantProfile "Robot1"   0 :learning-robot     :robot    0  0  0  0  0 0)
+           observer (ParticipantProfile "Ed"     0 :testbed-observer   :robot    0  0  0  0 "/Falcon.StagingArea" :left)
+           p1-survey (PreTrialSurvey)
+           p1   (ParticipantProfile "Player1" 18 :male               :american 50 50 80 p1-survey "/Falcon.StagingArea" :opportunistic)
+           p2-survey (PreTrialSurvey)
+           p2   (ParticipantProfile "Player2" 18 :male               :american 50 50 80 p2-survey "/Falcon.StagingArea" :opportunistic)
+           p3-survey (PreTrialSurvey)
+           p3   (ParticipantProfile "Player3" 18 :male               :american 50 50 80 p3-survey "/Falcon.StagingArea" :opportunistic)
+           ; p2
+           ; p3
+           ; p4
+           }
+    :methods [(defpmethod goal
+              {:doc "Search the building"
+               ;; Generated precondition to extract waypoints
+               :post (= p1.position "/Falcon.RoomJ")}
+              [])])
+
+;;; fin

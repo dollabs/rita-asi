@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 10:15:02+08:00", 
+    "instructions": [
+        "put the dinner plate down on the bottom middle of the tablecloth", 
+        "place the dinner fork on the left side of the dinner plate with the tines facing upward", 
+        "put the salad fork to the left of the dinner fork with the tines facing upward", 
+        "put the dinner knife on the right side of the dinner plate with the blade facing upward", 
+        "place the salad knife to the right of the dinner knife with the blade facing upward", 
+        "place the soup spoon to the right of the salad knife with the handle facing downward", 
+        "place the water glass on the tablecloth above the blade of the dinner knife", 
+        "place the wine glass on the table to the right of the water glass", 
+        "place the wine glass to the right of the wine glass", 
+        "place the coffee cup to the right of the soup spoon", 
+        "place the bread plate upward from the tines of the dinner fork", 
+        "place the butter knife on the bread plate with its blade facing away from the dinner plate", 
+        "place the dessert fork upward from the dinner plate, on its side, and with tines to the right", 
+        "place the dessert spoon upward from the dessert fork with its handle facing to the right", 
+        "place the napkin on the center of the dinner plate pointing upward"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table3"
+}

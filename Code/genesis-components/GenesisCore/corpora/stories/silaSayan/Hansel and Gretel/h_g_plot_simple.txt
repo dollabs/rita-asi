@@ -1,0 +1,35 @@
+Start story titled "Hansel and Gretel".
+
+Woodcutter is a name.
+Wife is a name.
+Hansel_and_Gretel is a name.
+
+Woodcutter is a person.
+Wife is a person.
+Hansel_and_Gretel is a person. 
+
+Woodcutter is Hansel_and_Gretel's parent.
+Hansel_and_Gretel is Woodcutter's child.
+
+Woodcutter is Wife's husband.
+// Now inferred
+// Wife is Woodcutter's wife.
+
+Woodcutter wants to give food to Hansel_and_Gretel.
+Woodcutter is a bad provider because Woodcutter doesn't have enough food. 
+Wife doesn't want to harm Hansel_and_Gretel.
+In order to lie, Wife cried.
+In order to cry, Wife pinched Wife.
+Wife feels lonely because Woodcutter doesn't suggest solutions.
+Woodcutter lies to Hansel_and_Gretel in order to lead Hansel_and_Gretel into the forest. 
+Woodcutter abandons Hansel_and_gretel because Wife persuades Woodcutter to abandon Hansel_and_Gretel in the forest.
+Hansel_and_Gretel return home.
+Woodcutter becomes relieved because Hansel_and_Gretel is safe.
+In order to admit fault, Woodcutter spoke.
+In order to flee, the bird flew.
+// In order to admit fault, Wife spoke.
+In order to speak, woodcutter raised his hand.
+Wife admits Wife's fault.
+
+The end. 
+

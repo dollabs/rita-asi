@@ -1,0 +1,36 @@
+//Les Mis 3.1 (Thesis), copied from thesis-2-1.txt on 1/31/2017
+
+//TODO THIS DOESN'T WORK!!
+
+Start experiment.
+
+Set Agent focused button to true.
+
+Start common sense knowledge.
+xx is a person.
+yy is a person.
+If xx commits a crime, then xx is a criminal.
+If xx is a policeman and yy is a criminal, then xx wants to arrest yy.
+
+If xx repents and xx becomes a good person, then xx is not a criminal.
+
+Inspector Javert is a name.
+Jean Valjean is a name.
+Inspector Javert and Jean Valjean are persons.
+
+Start story titled "Les Mis 3.1".
+
+Inspector Javert and Jean Valjean enter the scene.
+	Inspector Javert is a policeman.
+	Jean Valjean commits a crime.
+Inspector Javert and Jean Valjean exit the scene.
+
+Then, Jean Valjean enters the scene.
+	Jean Valjean repents.
+	Jean Valjean becomes a good person.
+Jean Valjean exits the scene.
+
+The end.
+
+Insert into text box: Tell the story as Inspector Javert.  Pause.
+Insert into text box: Tell the story as Jean Valjean.

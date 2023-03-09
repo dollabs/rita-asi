@@ -1,0 +1,31 @@
+Set Human tells Genesis button to true.
+
+Set Use features when matching switch to false.
+
+Set Split names with underscores switch to false.
+
+Set left panel to Commentary.
+
+Set right panel to Blocks.
+
+Set bottom panel to Mental models.
+
+Insert into text box: Guo is a clumsy boy.
+
+Insert into text box: He wanted to learn Kong-fu.
+
+Insert into text box: Seven Knights are the teachers of Guo.
+
+Insert into text box: Guo learned many skills from Knights.
+
+Insert into text box: So, Guo could not master any of the skills.
+
+Insert into text box: Ma is the leader of Kong-fu group.
+
+Insert into text box: Guo is nice to people.
+
+Insert into text box: Because Guo also works hard, Ma helped Guo.
+
+Insert into text box: Ma taught Guo how to breathe and how to sleep.
+
+Insert into text box: Therefore, Guo became much better at Kong fu.

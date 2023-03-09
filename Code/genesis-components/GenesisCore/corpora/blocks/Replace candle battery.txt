@@ -1,0 +1,23 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set Self aware button to true.
+
+Set left panel to commentary.
+
+Set right panel to blocks.
+
+Set bottom panel to mental models.
+
+Read knowledge in Basic blocks knowledge.
+
+Read knowledge in Device knowledge.
+
+Insert into text box: Make candle.
+
+Pause. Insert into text box: Replace candle battery.
+
+
+
+

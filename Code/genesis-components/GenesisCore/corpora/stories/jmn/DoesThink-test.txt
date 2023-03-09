@@ -1,0 +1,38 @@
+//Does Think test for DID/WHY questions, Jan 2017
+
+Start experiment.
+
+Set Agent focused button to true.
+
+Start common sense knowledge.
+xx is a person.
+If xx bakes a cake, then xx enjoys baking.
+If xx enjoys baking, then xx will make cookies.
+
+Alice, Bobby, and Carla are persons.
+
+Start story titled "Does Think test".
+
+Alice, Bobby, and Carla enter the scene.
+Carla exits the scene.
+Bobby bakes a cake.
+Alice and Bobby exit.
+The end.
+
+// Pause.
+
+/*
+Insert into text box: Does Alice think that Bobby baked a cake?  Pause.
+Insert into text box: Does Bobby think that Bobby baked a cake?  Pause.
+Insert into text box: Does Carla think that Bobby baked a cake?  Pause.
+Insert into text box: Does David think that Bobby baked a cake?  Pause.
+
+Insert into text box: Does Alice think that Bobby enjoys baking?  Pause.
+Insert into text box: Does Bobby think that Bobby enjoys baking?  Pause.
+Insert into text box: Does Carla think that Bobby enjoys baking?  Pause.
+Insert into text box: Does David think that Bobby enjoys baking?  Pause.
+*/
+
+Insert into text box: Why does Alice think that Bobby baked a cake?  Pause.
+Insert into text box: Why does Alice think that Bobby enjoys baking?  Pause.
+Insert into text box: Why does Alice think that Bobby will make cookies?

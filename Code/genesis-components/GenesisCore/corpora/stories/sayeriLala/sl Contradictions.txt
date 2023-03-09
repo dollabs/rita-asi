@@ -1,0 +1,26 @@
+/*
+Start description of "Contradiction 1".
+
+xx becomes happy.
+xx becomes distraught.
+
+The end.
+*/
+
+Mental state incompatibilities.
+
+"Distraught" is a mental state.
+
+Distraught is incompatible with happy.
+
+"Angry" is a mental state.
+
+Angry is incompatible with happy.
+
+Happy is incompatible with unhappy.
+
+Property incompatibilities.
+
+Weak is incompatible with brave.
+
+Vulnerable is incompatible with brave.

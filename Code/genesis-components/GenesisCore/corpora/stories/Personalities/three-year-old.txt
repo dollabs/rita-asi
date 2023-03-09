@@ -1,0 +1,36 @@
+VV is a thing.
+WW is a person.
+XX is a person.
+YY is a physical-thing.
+ZZ is a psych-thing.
+AA is a physical-thing.
+BB is a psych-thing.
+
+chosen_cause is a kind of thing.
+Prob_A is a thing.
+
+//With probability 0.999 Prob_A is a chosen_cause.
+
+
+//phys --> phys: YY --> AA
+//psych --> psych: ZZ --> BB
+//psych --> phys: ZZ --> AA
+
+//If XX runs, then Activ is a has_run.
+
+//TODO: UNCOMMENT BELOW?
+//If WW contacts VV and WW becomes sick, then WW becomes sick because WW runs in VV.
+
+//If Prob_A is a chosen_cause and WW contacts VV and WW becomes sick, then WW becomes sick because WW runs in VV.
+//With probability 0.999 if WW contacts VV and WW becomes sick, then WW becomes sick because WW runs in VV.
+
+//Activ is a thing.
+
+//A three-year-old-child is a kind of person.
+//I am a three-year-old-child.
+
+Start story titled "Three-year-old's characteristics".
+
+The end.
+
+

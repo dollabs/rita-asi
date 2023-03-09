@@ -1,0 +1,54 @@
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "Oedipus Much".
+
+Josh is a name.
+Josh is a person.
+
+Sarah is a name.
+Sarah is a person.
+
+Roland is a name.
+Roland is a person.
+
+Josh is greedy.
+Josh is a noble.
+Josh is Sarah's parent.
+Sarah is lost.
+
+Roland is a noble.
+Roland owns a castle.
+
+Roland finds Sarah.
+Roland finds Sarah because Sarah is lost.
+Roland wants to marry Sarah.
+Roland wants to marry Sarah because Roland finds Sarah.
+
+Josh steals treasure from Roland because Josh is greedy.
+Roland becomes angry.
+Roland becomes angry because Josh steals treasure from Roland.
+
+Roland wants to kill Josh.
+Roland wants to kill Josh because Roland becomes angry.
+Josh flees Roland.
+Roland chases Josh.
+Roland chases Josh because Josh flees Roland and Roland wants to kill Josh.
+Roland trips.
+Roland trips because Roland chases Josh.
+Josh kills Roland.
+Josh kills Roland because Roland trips.
+
+Josh finds Sarah.
+Josh finds Sarah because Sarah is lost and Roland finds Sarah.
+Josh loves Sarah.
+Josh loves Sarah because Josh finds Sarah.
+Josh wants to marry Sarah.
+Josh wants to marry Sarah because Josh loves Sarah.
+Josh marries Sarah.
+Josh marries Sarah because Josh wants to Marry Sarah.
+Sarah marries Josh.
+
+The end.

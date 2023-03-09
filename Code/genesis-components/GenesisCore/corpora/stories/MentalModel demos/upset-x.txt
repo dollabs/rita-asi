@@ -1,0 +1,16 @@
+xx and yy are persons.
+
+If xx loves yy then yy loves xx.
+
+If xx hits yy then xx may anger yy.
+
+If xx insults yy then xx humiliates yy.
+
+Sally is a person.
+
+Start story titled "Sample personality".
+
+Sally cries.
+
+The end.
+

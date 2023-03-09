@@ -1,0 +1,65 @@
+Start description of "Peace between enemies".
+XX is a tribe.
+YY is a tribe.
+XX and YY are enemies. 
+XX makes peace with YY.
+The end.
+
+Start description of "Violated belief - Medicine Man".
+xx is an entity.
+yy is a thing.
+xx transforms yy.
+Consequently, xx has strong medicine because xx transforms yy.
+The end.
+
+Start description of "Violated belief - Medicine Man".
+xx is an entity.
+yy is a thing.
+xx transforms into yy.
+Consequently, xx has strong medicine because xx transforms into yy.
+The end.
+
+Start description of "Violated Belief - Medicine Man".
+AA is a person.
+BB is an entity.
+AA creates BB.
+Consequently, AA has strong medicine because AA creates BB.
+The end.
+
+Start description of "Violated Belief - Medicine Man".
+xx is a person.
+xx is not touching the ground.
+Consequently, xx has strong medicine because xx is not touching the ground.
+The end.
+
+Start description of "Inherent Medicine".
+xx is an entity.
+xx is extraordinary.
+Consequently, xx has strong medicine because xx is extraordinary.
+The end.
+
+Start description of "Origin Story".
+XX and YY are entities.
+XX creates YY.
+The end.
+
+Start description of "Creation".
+XX and YY are entities.
+YY's not existing leads to XX's creating YY.
+The end.
+
+Start description of "Medicine Man".
+AA is a person.
+AA has strong medicine.
+The end.
+
+Start description of "Vision Quest".
+xx is a person.
+yy is a place.
+xx's travelling to yy leads to xx's having a vision.
+The end.
+
+Start description of "Fulfilled Prophecy".
+xx is a person.
+xx's having a vision leads to xx's becoming a great chief.
+The end.

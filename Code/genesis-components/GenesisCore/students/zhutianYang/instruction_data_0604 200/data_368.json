@@ -1,0 +1,16 @@
+{
+    "accept_time": "2019-06-04 10:50:17+08:00", 
+    "instructions": [
+        "Place the dinner place in the center of the table cloth.", 
+        "Place the salad plate on the dinner plate.", 
+        "Place the folded napkin on top of the salad plate.", 
+        "Add a wine glass to the top right corner of the table cloth.", 
+        "Stick a water glass next to the wine glass to the bottom ride side.", 
+        "Add a salad fork to the left side of the plate.", 
+        "Place a dinner fork to the right side of the salad fork.", 
+        "Place a dinner knife on the right side of the table cloth.", 
+        "Put a soup spoon to the right of the dinner knife."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table1"
+}

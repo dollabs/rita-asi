@@ -1,0 +1,5077 @@
+[
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Staging Area Door",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16974",
+      "using": "Staging Area Door"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16976"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Elevator 1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Elevator 1 entrance",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Elevator 1",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16978",
+      "using": "Elevator 1 entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16979"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim g",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim g",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim g"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16980",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Elevator 1 entrance",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16981",
+      "using": "Elevator 1 entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16982"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Elevator 2",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Elevator 2 entrance",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Elevator 2",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16983",
+      "using": "Elevator 2 entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16984"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor North-SouthS",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corridor Intersection CC-LSN",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Left Corridor North-SouthS",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16985",
+      "using": "Corridor Intersection CC-LSN"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor North-SouthS",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between LSN-RJ",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16988",
+      "using": "Door between LSN-RJ"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room J light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room J light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room J light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16989"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 14",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 14",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 14"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16991",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 14",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 14",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 14"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16993",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 201 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 201 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 201 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16994"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor North-SouthS",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between LSN-R201",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16995",
+      "using": "Door between LSN-R201"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 205 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 205 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 205 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16996"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 205 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 205 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 205 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16997"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor West-East",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between LWE-R205",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16998",
+      "using": "Door between LWE-R205"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between R205-R207",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se16999",
+      "using": "Door between R205-R207"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 7",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 7",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 7"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17000",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 6",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 6",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 6"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17001",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim b",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim b"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17002",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 1",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 1"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17003",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between R205-R207",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17004",
+      "using": "Door between R205-R207"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between R205-R207",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17005",
+      "using": "Door between R205-R207"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17008"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim d",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim d",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim d"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17010",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim d",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim d",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim d"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17011",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim d",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim d",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim d"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17012",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17013"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim d",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim d",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim d"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17014",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17015"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17016"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208a",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17018",
+      "using": "Door between CC-R208a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 3",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 3",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 3"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17021",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R210",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17023",
+      "using": "Door between CC-R210"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 5",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 5",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 5"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17028",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 215 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 215 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 215 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17029"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 215 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 215 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 215 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17030"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R215",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17031",
+      "using": "Door between CC-R215"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R208a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208a",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-enter": "Room 208"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R208a"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17032",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208a",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 208",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17033",
+      "using": "Door between CC-R208a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 13",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 13",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 13"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17037",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 8",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 8",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 8"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17039",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 218",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between R218-R213",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17040",
+      "using": "Door between R218-R213"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 10",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 10",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 10"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17041",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 9",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 9",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 9"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17042",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 218 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 218 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 218 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17044"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Right Corridor West-East",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between RWE-R218",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17045",
+      "using": "Door between RWE-R218"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 220 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 220 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 220 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17046"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 4",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 4",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 4"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17047",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between R220-R215",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17048",
+      "using": "Door between R220-R215"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 2",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 2",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 2"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17049",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 4",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 4",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 4"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17050",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 220 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 220 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 220 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17052"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Right Corridor West-East",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between RWE-R220",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17053",
+      "using": "Door between RWE-R220"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim e",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim e",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim e"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17054",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 216 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 216 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 216 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17055"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim e",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim e",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim e"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17059",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim e",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim e",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim e"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17060",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 209 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 209 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 209 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17061"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 209 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 209 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 209 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17062"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R209",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17064",
+      "using": "Door between CC-R209"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R208b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-enter": "Room 208"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R208b"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17065",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17067"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17068"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17069",
+      "using": "Door between CC-R208b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R208a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208a",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-enter": "Room 208"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R208a"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17070",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17072"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17073"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim c",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim c",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim c"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17074",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17075"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17076",
+      "using": "Door between CC-R208b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R211",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R211",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-enter": "Room 211"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R211"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17077",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 211 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 211 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 211 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17079"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 213 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 213 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 213 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17082"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 218",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between R218-R213",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17084",
+      "using": "Door between R218-R213"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 11",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 11",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 11"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17086",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Right Corridor West-East",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between RWE-R218",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17087",
+      "using": "Door between RWE-R218"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 218 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 218 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 218 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17088"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 216 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 216 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 216 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17089"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R209",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17090",
+      "using": "Door between CC-R209"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R208b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-enter": "Room 208"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R208b"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17091",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim d",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim d",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim d"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17093",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim d",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim d",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim d"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17094",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17095"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim d",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim d",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim d"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17096",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17097",
+      "using": "Door between CC-R208b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17098"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor North-SouthS",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corridor Intersection CC-LSN",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Left Corridor North-SouthS",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17099",
+      "using": "Corridor Intersection CC-LSN"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room J light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room J light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room J light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17100"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 201 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 201 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 201 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17101"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 203 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 203 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 203 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17104"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 203 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 203 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 203 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17106"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 14",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 14",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 14"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17107",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 203 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 203 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 203 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17108"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 12",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 12",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 12"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17109",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 14",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 14",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 14"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17110",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 201 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 201 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 201 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17111"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 15",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 15",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 15"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17112",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor North-SouthS",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between LSN-R201",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17113",
+      "using": "Door between LSN-R201"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 205 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 205 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 205 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17114"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 205 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 205 light switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 205 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17115"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor West-East",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between LWE-R205",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17116",
+      "using": "Door between LWE-R205"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between R205-R207",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17118",
+      "using": "Door between R205-R207"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between R205-R207",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17119",
+      "using": "Door between R205-R207"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between R205-R207",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17121",
+      "using": "Door between R205-R207"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17122"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Mens Room Entrance",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17123",
+      "using": "Mens Room Entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Room 2 Internal door",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17125",
+      "using": "Room 2 Internal door"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Room 2 Internal door",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17127",
+      "using": "Room 2 Internal door"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Room 2 Internal door",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17128",
+      "using": "Room 2 Internal door"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Mens Room Entrance",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17129",
+      "using": "Mens Room Entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17130"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Room 1 Internal door #2",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17133",
+      "using": "Room 1 Internal door #2"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens Room Entrance",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17134",
+      "using": "Womens Room Entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "lever",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "lever",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "lever"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17135"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Elevator 2",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Elevator 2 entrance",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Elevator 2",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17136",
+      "using": "Elevator 2 entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17137"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17139"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Player985",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17140"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "84e085ba-0020-484b-8027-b5243f193e75",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Staging Area Door",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Staging Area Door",
+          "subject": "Player985"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Player985",
+          "wants-to-enter": "Staging Area"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Staging Area Door"
+        }
+      ],
+      "state": false,
+      "subject": "Player985",
+      "uid": "se17141",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  }
+]

@@ -1,0 +1,112 @@
+Legend
+
+   :furnace \f
+   :fire \F
+   :unpowered_repeater \2
+   :dispenser \d
+   :wall_sign \w
+   :stained_hardened_clay \S
+   :heavy_weighted_pressure_plate \H
+   :end_portal_frame \E
+   :clay \C
+   :glass_pane \g
+   :lit_redstone_lamp \L
+   :hopper \h
+   :quartz_stairs \q
+   :oak_stairs \O
+   :piston_head \h
+   :cauldron \c
+   :wool \w
+   :stone_slab \s
+   :lever \l
+   :cobblestone_wall \W
+   :crafting_table \t
+   :snow \o
+   :gravel \g
+   :redstone_block \R
+   :chest \c
+   :iron_block \I
+   :redstone_torch \r
+   :wooden_button \b
+   :wooden_door \D
+   :monster_egg \e
+   :tripwire_hook \h
+   :unlit_redstone_torch \u
+   :bookshelf \B
+   :stone_button \3
+   :ladder \L
+   :nether_brick \B
+   :anvil \a
+   :sticky_piston \k
+   :iron_bars \I
+   :quartz_block \Q
+   :cobblestone \4
+   :redstone_wire \W
+   :dropper \D
+   :nether_brick_stairs \N
+   :flower_pot \P
+Doors
+
+ [[-2146 29 169] :wooden_door]
+ [[-2146 28 169] :wooden_door]
+
+ [[-2148 29 185] :wooden_door]
+ [[-2148 28 185] :wooden_door]
+
+ [[-2148 29 177] :wooden_door]
+ [[-2148 28 177] :wooden_door]
+
+ [[-2148 29 164] :wooden_door]
+ [[-2148 28 164] :wooden_door]
+
+ [[-2152 29 154] :wooden_door]
+ [[-2152 28 154] :wooden_door]
+
+ [[-2153 29 177] :wooden_door]
+ [[-2153 28 177] :wooden_door]
+
+ [[-2154 29 164] :wooden_door]
+ [[-2154 28 164] :wooden_door]
+
+ [[-2155 29 185] :wooden_door]
+ [[-2155 28 185] :wooden_door]
+
+ [[-2156 29 148] :wooden_door]
+ [[-2156 28 148] :wooden_door]
+
+ [[-2160 29 185] :wooden_door]
+ [[-2160 28 185] :wooden_door]
+
+ [[-2162 29 148] :wooden_door]
+ [[-2162 28 148] :wooden_door]
+
+ [[-2163 29 169] :wooden_door]
+ [[-2163 28 169] :wooden_door]
+
+ [[-2163 29 164] :wooden_door]
+ [[-2163 28 164] :wooden_door]
+
+ [[-2167 29 169] :wooden_door]
+ [[-2167 28 169] :wooden_door]
+
+ [[-2169 29 185] :wooden_door]
+ [[-2169 28 185] :wooden_door]
+
+ [[-2171 29 161] :wooden_door]
+ [[-2171 28 161] :wooden_door]
+
+ [[-2171 29 153] :wooden_door]
+ [[-2171 28 153] :wooden_door]
+
+ [[-2180 29 153] :wooden_door]
+ [[-2180 28 153] :wooden_door]
+
+ [[-2182 29 152] :wooden_door]
+ [[-2182 28 152] :wooden_door]
+ [[-2183 29 153] :wooden_door]
+ [[-2183 28 153] :wooden_door]
+
+ [[-2188 29 167] :wooden_door]
+ [[-2188 28 167] :wooden_door]
+ [[-2188 29 166] :wooden_door]
+ [[-2188 28 166] :wooden_door]

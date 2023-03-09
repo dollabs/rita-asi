@@ -1,0 +1,53 @@
+extends base  
+
+block styles 
+    link(rel='stylesheet' href='css/graphOnly.css')
+
+block content
+    main
+        .background 
+            .containerBox
+                h1 All Graphs
+
+                .row.rowSection.pt-3
+                    .col-4
+                        .checkbox
+                            label.container Prediection Accuracy
+                                input.predictionAccuracy(type="checkbox")
+                                span.checkmark
+
+                            label.container Cognitive Load
+                                input.cognitiveLoad(type="checkbox")
+                                span.checkmark
+
+                            label.container Example 1
+                                input(type="checkbox")
+                                span.checkmark
+
+                            label.container Example 2
+                                input(type="checkbox")
+                                span.checkmark
+
+                            a.btn.clear-state(href='#') Clear State
+
+
+                    .col-8
+                        .graphs 
+                            .row.rowSection
+                                .col-2
+                                .col-8.colSection.timestamp
+                                    div#time-graph
+                            .row.rowSection.el-graph
+                                .col-2.d-flex.align-items-center.justify-content-center
+                                    p Prediction Accuracy
+                                .col-8.colSection
+                                    div#el-graph
+
+                            .row.rowSection.cl-graph   
+                                .col-2.d-flex.align-items-center.justify-content-center 
+                                    p Cognitive Load
+                                .col-8.colSection
+                                    div#cl-graph
+
+    script
+        include ../controllers/frontend/stackedGraphs.js

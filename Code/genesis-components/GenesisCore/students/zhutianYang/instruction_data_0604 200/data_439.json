@@ -1,0 +1,16 @@
+{
+    "accept_time": "2019-06-04 12:57:38+08:00", 
+    "instructions": [
+        "Put the dinner plate in the center of the table cloth", 
+        "Put the salad plate on top of and in the center of the dinner plate", 
+        "Put the folded napkin on the salad plate in the center of the salad plate", 
+        "Put the wine class in the top right corner of the table cloth near the dinner plate", 
+        "Put the water class slightly below and diagonal to the wine glass.", 
+        "Put the salad fork to the left of the dinner plate", 
+        "Put the dinner fork in between the salad fork and the dinner plate.", 
+        "Put the dinner knife, with the blade facing the dinner plate, close and to the right of the plate", 
+        "Put the soup spoon next to the dinner knife and in close the the wine glass"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table1"
+}

@@ -1,0 +1,19 @@
+John is a person.
+Tom is a person.
+Citizens are persons.
+xx and yy are persons.
+
+Petrochemicals are entities.
+The local river is an entity.
+mm and nn are entities.
+aa is an action.
+
+If xx hires yy, then yy is xx's immediate supervisor.
+If xx is a registered professional engineer, then xx should observe the Codes of Conduct and Ethics.
+If xx is hired as a consultant engineer, then xx should ensure that his client's project follows the law.
+
+Petrochemicals are poisonous.
+If mm is poisonous and mm leaked into nn, then nn may be polluted.
+If nn is polluted and yy are using nn, then yy's health may be damaged.
+
+If aa damages the health of yy, then aa shouldn't be confidential.

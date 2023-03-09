@@ -1,0 +1,51 @@
+Start experiment.
+
+Note that "Old_Man_Coyote" is a name.
+
+Insert file Crow commonsense knowledge.
+Insert file Crow reflective knowledge.
+
+"Trickster" is a kind of personality trait.
+
+Start story titled "Old Man Coyote's Visit to the Crow Indians".
+
+Old_Man_Coyote is a person.
+Old_Man_Coyote is a trickster.
+
+The Crow camp is a place.
+The Crows are an entity.
+The Crow tribe is an entity.
+
+Old_Man_Coyote wants to visit the Crow camp because the Crow camp had become large.
+Old_Man_Coyote wants to fool the Crow tribe.
+Old_Man_Coyote transforms things into fine things because Old_Man_Coyote wants to fool the Crow tribe.
+
+Old_Man_Coyote transforms a mountain-goat into a horse.
+Old_Man_Coyote transforms bark into a bridle.
+Old_Man_Coyote transforms leaves into a saddle cloth.
+Old_Man_Coyote transforms dirt into paint.
+Old_Man_Coyote transforms a buffalo's shoulder-blade into an eagle-tail fan.
+
+Old_Man_Coyote's horse asks "What do you want me to do?".
+Old_Man_Coyote tells Old_Man_Coyote's horse "Paw the ground and neigh aloud." because Old_Man_Coyote's horse asks "What do you want me to do?".
+
+Old_Man_Coyote has fine things because Old_Man_Coyote transforms things into fine things.
+Old_Man_Coyote rides Old_Man_Coyote's horse into the Crow camp because Old_Man_Coyote wants to visit the Crow camp.
+Old_Man_Coyote's riding Old_Man_Coyote's horse into the Crow camp leads to the Crow tribe's admiring Old_Man_Coyote.
+The Crow tribe admires Old_Man_Coyote because Old_Man_Coyote has fine things.
+Old_Man_Coyote fools the Crow tribe because the Crow tribe admires Old_Man_Coyote.
+Old_Man_Coyote moves to the center of camp because Old_Man_coyote wants to fool the Crow tribe.
+
+Old_Man_Coyote can hear the ring game because Old_Man_Coyote moves to the center of camp.
+The Crows cheer because a ring game ends and Old_Man_Coyote can hear the ring game.
+
+The Crows's cheering leads to Old_Man_Coyote's horse's becoming startled.
+Old_Man_Coyote falls because Old_Man_Coyote's horse becomes startled.
+The fine things change back because Old_Man_Coyote falls.
+Old_Man_Coyote is discovered by the Crow tribe because the fine things change back.
+The Crow tribe asks Old_Man_Coyote for advice because Old_Man_Coyote is discovered by the Crow tribe.
+Old_Man_Coyote transforms Old_Man_Coyote into a wolf because the Crow tribe asks Old_Man_Coyote for advice.
+Old_Man_Coyote runs away because the Crow tribe asks Old_Man_Coyote for advice.
+
+
+The end.

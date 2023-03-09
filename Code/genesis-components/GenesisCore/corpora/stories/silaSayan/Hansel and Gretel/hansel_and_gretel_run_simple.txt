@@ -1,0 +1,120 @@
+Start experiment.
+
+Set right panel to Retelling.
+
+Show both perspectives.
+
+Both perspectives.
+
+
+xx is a person.  yy is a person.
+
+If xx is yy's husband, then yy is xx's wife.
+
+// New idiom
+Likable is the opposite of unlikable.
+
+// New idiom
+Assert thread thing, likable, good parent. 
+Assert thread thing, likable, caring.
+Assert thread thing, likable, honest 1.
+Assert thread thing, likable, honest 2.
+Assert thread thing, likable, resourceful.
+Assert thread thing, likable, nice.
+Assert thread thing, likable, sad.
+Assert thread thing, likable, friendly.
+Assert thread thing, likable, repentant.
+Assert thread thing, likable, generous.
+Assert thread thing, likable, hardworking.
+Assert thread thing, likable, unlucky.
+
+Assert thread thing, unlikable, badparent 3.
+Assert thread thing, unlikable, bad husband.
+Assert thread thing, unlikable, dishonest 1.
+Assert thread thing, unlikable, dishonest 2.
+Assert thread thing, unlikable, dishonest 3.
+Assert thread thing, unlikable, dishonest 4.
+Assert thread thing, unlikable, weak 1.
+Assert thread thing, unlikable, weak 2.
+Assert thread thing, unlikable, harsh.
+Assert thread thing, unlikable, cruel 1.
+Assert thread thing, unlikable, cruel 2.
+Assert thread thing, unlikable, hateful.
+Assert thread thing, unlikable, violent.
+Assert thread thing, unlikable, vicious.
+Assert thread thing, unlikable, scary.
+Assert thread thing, unlikable, sly.
+Assert thread thing, unlikable, unfamiliar.
+
+Start description of "Honest 1".
+XX is a person.
+XX admits XX's fault.
+Evidently, XX triggers "honest 1".
+Evidently, XX is honest.
+The end. 
+
+Start description of "Dishonest 1".
+XX is a person.
+XX lies.
+Evidently, XX triggers "dishonest 1".
+Evidently, XX is dishonest.
+The end.
+
+Start description of "Bad parent".
+XX is a person.
+YY is a person.
+XX is YY's parent.
+XX abandons YY.
+Evidently, XX triggers "bad parent".
+Evidently, XX is a bad parent.
+Evidently, yy is a victim.
+The end.
+
+Start description of "Good parent".
+XX is a person. 
+YY is a person.
+XX is YY's parent.
+XX wants to give food to YY.
+Evidently, XX triggers "good parent".
+The end. 
+
+Start description of "Bad Husband".
+XX is a person.
+YY is a person.
+AA is an action.
+XX is YY's husband.
+XX's performing AA leads to YY's feeling lonely.
+Evidently, XX triggers "bad husband". 
+Evidently, XX is a bad husband.
+Evidently, YY is a victim.
+The end.
+
+Start description of "Caring".
+XX is a person.
+YY is a person.
+XX becomes relieved because YY is safe.
+Evidently, XX triggers "caring". 
+Evidently, XX is caring.
+Evidently, XX is nice.
+Consequently, XX loves YY.
+The end.
+
+First perspective.
+
+/*
+Start description of "Weak 1".
+XX is a person.
+XX is a bad provider. 
+Evidently, XX triggers "weak 1".
+The end. 
+*/
+
+Insert file h_g_plot_simple.
+
+//Insert file hansel_and_gretel_plot_new.txt
+
+Insert into text box: Make Woodcutter be likable.
+
+
+
+ 

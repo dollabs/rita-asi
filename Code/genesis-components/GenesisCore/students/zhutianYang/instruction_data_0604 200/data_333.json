@@ -1,0 +1,16 @@
+{
+    "accept_time": "2019-06-04 10:33:00+08:00", 
+    "instructions": [
+        "Place dinner plate on table cloth", 
+        "Place salad plate on top of the dinner plate ", 
+        "Place napkin on top of the salad plate", 
+        "Place wine glass on the upper right corner of the table cloth", 
+        "Place water glass right next to the wine glass in a lower right diagonal direction ", 
+        "Place salad fork on the table cloth next to the dinner plate", 
+        "Place the dinner fork next to the salad fork on top of the table cloth ", 
+        "Place the dinner knife on the right side of the dinner plate", 
+        "Place  the soup spoon next to the dinner knife on top of the table cloth "
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table1"
+}

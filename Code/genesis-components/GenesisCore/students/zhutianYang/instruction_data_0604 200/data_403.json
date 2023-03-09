@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 11:37:16+08:00", 
+    "instructions": [
+        "Put the dinner fork on the left side of the cloth.", 
+        "put the fork on the right side of the cloth with its blade facing left", 
+        "put the salad fork on the cloth to the left of the dinner fork", 
+        "put the salad knife on the tablecloth to the right side of the dinner knife", 
+        "put the soup spoon on the cloth to the right of the salad knife", 
+        "put the dessert spoon on the top of the cloth horizontally with the bowl pointing to the forks", 
+        "move the dessert spoon to the right of the soup spoon and make it vertical", 
+        "move the dessert spoon to the top of the cloth and make it horizontally pointing to the left", 
+        "put the dinner plate on the bottom of the cloth between the forks and knives", 
+        "put the bread plate to the left of the dessert spoon", 
+        "put the butter knife on the top left of the bread plate pointing diagonally to the bottom left", 
+        "put the wine glass on the cloth to the top of the soup spoon", 
+        "put the water glass on the cloth to the left of the wine glass", 
+        "put the napkin on the dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

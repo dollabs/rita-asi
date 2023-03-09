@@ -1,0 +1,14 @@
+//Popup
+Popup Schizo ControlTask-PCwOCTask SchizoViaHP popup.
+
+//Setup
+Start experiment.
+Set all switches to defaults.
+Set Personality switch to false.
+Set Concept switch to false.
+//Set Show all story elements switch to true.
+Set bottom panel to elaboration graph.
+
+//Content
+Insert file ControlTask-PhysicalCausalityWithObjectsAndCharactersTask SchizoViaHP demo.
+Insert question into text box: Why does MyBall hit Bob?

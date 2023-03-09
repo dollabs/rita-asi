@@ -1,0 +1,27 @@
+Insert file Red Riding Hood.
+
+Clear story memory.
+
+Start Experiment.
+
+//Used Names
+//David, Malcom, Hughes, George, John, Maria, Jacob, Sally, King Fred, Andrea, Green, Grandpa
+
+Start Story Titled, "Green Riding Hood".
+
+Green is a name.
+Green is a character.
+Green is similar to Red.
+
+Grandpa is a name.
+Grandpa is a character.
+Grandpa is similar to Grandma.
+
+The Forest is name.
+The Forest is a character.
+The Forest is similar to the woods.
+
+Simulate characters.
+Weave character plots.
+
+The end.

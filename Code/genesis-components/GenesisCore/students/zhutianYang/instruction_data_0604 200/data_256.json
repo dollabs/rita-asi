@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 10:12:29+08:00", 
+    "instructions": [
+        "put the plate on top of the charger", 
+        "Put the napkin on top of the plate", 
+        "put the dinner fork on the left hand side of the plate ", 
+        "put the salad fork on the left outter side of the dinner fork", 
+        "put the dinner knife on the right hand side of the charger", 
+        "put the tea spoon on the right outter most side of the dinner knife", 
+        "put the soup spoon on the outter right side of the tea spoon", 
+        "place the water glass above the dinner knife", 
+        "place the wine glass above the tea spoon", 
+        "place the wine glass between the first wine glass placed and the tea spoon", 
+        "place the coffee cup on the right hand side of the last wine glass placed", 
+        "place the bread plate above the dinner fork on the left", 
+        "place the butter knife on top of the bread plate pointing at the wine glasses", 
+        "put the dessert fork above the napkin facing the wine glasses", 
+        "face the dessert spoon between the dessert fork and charger facing the bread plate "
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table5"
+}

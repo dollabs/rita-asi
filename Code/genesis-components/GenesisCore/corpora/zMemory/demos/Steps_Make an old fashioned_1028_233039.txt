@@ -1,0 +1,30 @@
+/* ------------------------------
+ Generated on Make an old fashioned_1028_233039 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make an old fashioned".
+Intention: Make an old fashioned.
+The end.
+
+If the intention is "Make an old fashioned".
+Step: Muddle the bitters in an old-fashioned glass.
+Step: Add a large ice cube.
+The end.
+
+// ------------ Step 1
+If the problem is "Muddle the bitters in an old-fashioned glass".
+Intention: Muddle the bitters in an old-fashioned glass.
+The end.
+
+If the intention is "Muddle the bitters in an old-fashioned glass".
+Step: The bitters is in oldfashioned glass.
+The end.
+
+// ------------ Step 2
+If the problem is "Add a large ice cube".
+Intention: Add a large ice cube.
+The end.
+
+If the intention is "Add a large ice cube".
+Step: Cube ice is in oldfashioned glass.
+The end.
+

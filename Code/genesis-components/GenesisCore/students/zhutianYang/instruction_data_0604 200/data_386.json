@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 11:22:29+08:00", 
+    "instructions": [
+        "Put the dinner fork on the bottom left side of the table cloth", 
+        "Put the dinner knife on the bottom right side of the table cloth", 
+        "Put the salad fork  to left of the dinner fork on the table cloth", 
+        "Put the salad knife to the right of the dinner knife on the table cloth", 
+        "Put the soup spoon to the right of the salad knife on the tablecloth", 
+        "Put the dessert spoon on the top center area of the tablecloth", 
+        "Put the dessert spoon to the right of the soup spoon on the table cloth", 
+        "Put the dessert spoon in the top center area of the tablecloth", 
+        "Put the dinner plate between the dinner fork and dinner knife under the dessert spoon", 
+        "Put the bread plate to the direct left of the dessert spoon", 
+        "Put the the butter knife on the top corner of the bread plate with it's tip pointing diagonally left", 
+        "Put the wine glass right above the spoon spoon", 
+        "Put the water glass to the upper left of the wine glass above the dinner plate", 
+        "Put the napkin in the center of the dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

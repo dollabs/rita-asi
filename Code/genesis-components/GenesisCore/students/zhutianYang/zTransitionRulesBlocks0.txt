@@ -1,0 +1,21 @@
+// for mixing martini
+If xx pours yy into zz, then yy is inside zz.
+If xx places yy in zz, then yy is on zz.
+
+// for making instant noodles
+If xx puts yy in zz, then yy is on zz.
+
+
+// for replacing phone battery
+If xx removes yy from zz, then yy is on the table.
+// If xx insert yy into zz, then yy is on zz.
+If xx puts yy on zz, then yy is on zz.
+If xx slides down yy, then yy is on the table.
+If xx places yy on zz, then yy is on zz.
+
+// If xx collects yy from zz, then yy is on the table.
+// If xx puts yy in zz, then yy is on zz.
+// If xx installs yy on zz, then yy is on zz.
+
+// learned rule at 0626_142020
+if xx insert yy into zz, then yy is on zz.

@@ -1,0 +1,5 @@
+<h1>What you see</h1>
+
+Genesis recognizes many types of causal connections.  You see a set of connected samples.
+
+

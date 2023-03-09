@@ -1,0 +1,16 @@
+{
+    "accept_time": "2019-06-04 11:12:49+08:00", 
+    "instructions": [
+        "Gently lift the dinner plate and set it carefully on the center of the table cloth", 
+        "Gently lift the salad plate and place it in the center of the dinner plate", 
+        "Place the napkin in the center of the salad plate", 
+        "Gently place a wine glass off the top right corner of the dinner plate", 
+        "Place a water glass to the bottom right of the wine glass, close but not touching", 
+        "Place a salad fork off to the left of the dinner plate", 
+        "Place a dinner fork in between the salad fork and the plate", 
+        "Place a dinner knife, with the blade facing in, to the right of the dinner plate", 
+        "Place a soup spoon directly to the right and symmetrical to the knife."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table1"
+}

@@ -1,0 +1,60 @@
+Jack is a person.
+Jacks_mother is a person.
+Jacks_cow is a cow.
+Giant is a character.
+Giant is a monster.
+Giants_mother is a character.
+Giants_mother is a monster.
+Beanstalk is a character.
+The magic bean is an entity.
+The magic bean is not edible.
+
+Giants_mother is Giant's parent.
+
+Jacks_mother is Jack's parent.
+Jack owns Jacks_cow.
+Jacks_cow stops producing milk.
+
+Jack becomes hungry.
+Jacks_mother becomes hungry.
+
+Jacks_mother wants Jack to sell Jacks_cow.
+Jacks_mother wants Jack to buy food.
+
+//Jack sells Jacks_cow; Jack buy the magic bean.
+Jack sells Jacks_cow.
+Jack buy the magic bean.
+
+Jacks_mother is angry at Jack because Jack bought the magic bean.
+Jacks_mother takes the magic bean.
+Jacks_mother throws the magic bean.
+
+The magic bean turns into a beanstalk.
+
+//Jack climbs the beanstalk; Jack finds a castle.
+Jack climbs the beanstalk.
+Jack finds a castle.
+
+Giant owns the castle.
+
+Jack steals treasure from Giant.
+//Jack steals the golden hen from Giant.
+//Jack steals the magic harp from Giant.
+
+Giant becomes angry with Jack.
+Giant wants to kill Jack.
+Jack flees from Giant.
+Giant chases Jack.
+
+Jack climbs the beanstalk.
+
+Giant climbs the beanstalk.
+Jack chops the beanstalk.
+The beanstalk falls.
+Giant falls.
+Jack kills Giant.
+Jack kills Giant because Jack chopped the beanstalk.
+Giant dies.
+Jack angers Giants_mother.
+
+Jack is happy.

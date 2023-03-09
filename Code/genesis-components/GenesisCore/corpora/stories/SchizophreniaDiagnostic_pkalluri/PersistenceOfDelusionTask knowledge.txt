@@ -1,0 +1,7 @@
+pp is a person.
+
+//Contextual explanations
+If pp has schizophrenia, then pp may feel scared.
+
+//If no contextual explanations
+If something is wrong with the world, then pp can feel scared.

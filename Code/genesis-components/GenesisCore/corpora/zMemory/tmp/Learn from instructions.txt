@@ -1,0 +1,11 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set left panel to Commentary.
+
+Set bottom panel to elaboration graph.
+
+Insert recipe To prepare materials, you need to go to the market.
+
+// To replace battery in cellphone, do the following steps: prepare materials; replace the battery; and make the phone useable.

@@ -1,0 +1,35 @@
+Start experiment.
+Insert file General commonsense knowledge.
+xx is a person.
+aa is a thing.
+If xx creates aa, then aa exists.
+//If xx completes aa, then xx is pleased.
+//IF aa is completed by xx, then xx is pleased.
+If xx rests, then xx does not create.
+
+Start description of "Pleased with action".
+xx is a person.
+aa is a thing.
+aa is finished.
+xx's looking at aa leads to xx's being happy.
+The end.
+
+Start description of "creation".
+xx's creating aa leads to aa's existing.
+The end.
+
+Start story titled "The Story of Creation".
+God is a person.
+Universe is a thing.
+In the beginning, there was nothing.
+On the first day, God created light.
+On the second day, God created the Earth and sky.
+On the third day, God created land and water.
+On the fourth day, God created night and day.
+On the fifth day, God created the birds and the fish.
+On the sixth day, God created the animals.
+On the seventh day, God looked at the universe.
+The universe was finished.
+God was happy because he looked at the universe.
+God rested.
+The end.

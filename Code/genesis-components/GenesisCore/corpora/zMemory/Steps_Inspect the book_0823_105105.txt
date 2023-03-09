@@ -1,0 +1,55 @@
+/* ------------------------------
+ Generated on Inspect the book_0823_105105 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Inspect the book".
+Step: Inspect the book.
+Step: Read the title.
+Step: Read the subtitle.
+Step: Read contents' table.
+Step: Glance at the preface.
+The end.
+
+If the problem is "Inspect the book".
+Intention: Inspect the book.
+The end.
+
+/* ------------------------------
+ Generated on Inspect the book_0823_105105 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Read the title".
+Intention: Read the title.
+The end.
+
+If the intention is "Read the title".
+Method: Assume success.
+The end.
+
+If the problem is "Read the subtitle".
+Intention: Read the subtitle.
+The end.
+
+If the intention is "Read the subtitle".
+Method: Assume success.
+The end.
+
+If the problem is "Read contents' table".
+Intention: Read contents' table.
+The end.
+
+If the intention is "Read contents' table".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Inspect the book_0823_105105 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Glance at the preface".
+Intention: Glance at the preface.
+The end.
+
+If the intention is "Glance at the preface".
+Method: Assume success.
+The end.
+

@@ -1,0 +1,20 @@
+{
+    "instructions": [
+        "put the dinner plate on the table toward the bottom middle",
+        "put the fork head up to the left of the plate",
+        "put the salad fork head up to the left of the dinner fork",
+        "put the dinner knife to the right of the plate",
+        "put the salad knife to the left of the dinner knife",
+        "put the soup spoon to the right of the salad knife",
+        "put the water glass to the upper right of the dinner plate",
+        "put the wine glass to the right of the water glass",
+        "put the wine glass to the right of the wine glass",
+        "put the coffee cup to the right of the soup spoon",
+        "put the bread plate above the dinner fork",
+        "put the bread knife on the bread plate at the upper right corner, pointing upper left",
+        "put the dessert fork horizontally above the dinner plate, with the prongs to the right ",
+        "put the dessert spoon horizontally above the dessert fork, with the head to the left ",
+        "put the napkin vertically on the plate"
+    ],
+    "video_name": "table3"
+}

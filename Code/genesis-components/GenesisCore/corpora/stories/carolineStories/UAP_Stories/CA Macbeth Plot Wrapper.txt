@@ -1,0 +1,24 @@
+// Note idiom that sets up experiments and gives each a name; must be first sentence read.
+
+Run what-if experiments A, B, C, D, E, F.
+
+Set right panel to mental models.
+
+Set bottom panel to elaboration graph.
+
+
+
+
+Assume if experiment A: Insert file CA Macbeth Plot Wrapped.
+
+Assume if experiment B: Insert file CA Macbeth Plot Wrapped.
+
+Assume if experiment C: Insert file CA Macbeth Plot Wrapped.
+
+Assume if experiment D: Insert file CA Macbeth Plot Wrapped.
+
+Assume if experiment E: Insert file CA Macbeth Plot Wrapped.
+
+Assume if experiment F: Insert file CA Macbeth Plot Wrapped.
+
+

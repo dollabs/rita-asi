@@ -1,0 +1,16 @@
+Second perspective.
+
+xx and yy are entities.
+
+Patrick and Boris are entities.
+
+If xx knows yy then yy knows xx.
+
+Start story titled "Another go".
+
+Patrick knows Boris.
+
+The end.
+
+
+

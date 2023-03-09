@@ -1,0 +1,18 @@
+<head>
+<link rel="stylesheet" type="text/css" href="file:corpora/demos/Schizophrenia/styles.css">
+</head>
+
+<body>
+	<h1>Background</h1>
+		<p>This is a sample Physical Causality with Objects Task. Given the brief story on the left, healthy humans and schizophrenic humans come to correct conclusions.
+		<p><img src="file:corpora/demos/Schizophrenia/Schizophrenia-Images/pcwo.jpg">
+	<h1>What you see</h1>
+		<p>Motivated by previous schizophrenia literature, we modified Genesis with "Failure-at-Mentalizing", creating GenesisFaM. GenesisFaM serves as a biologically plausible, falsifiable model of schizophrenic thought.
+		<p>We administered a Physical Causality with Objects Task to Unmodified Genesis and GenesisFaM.
+		<p><b>ON THE LEFT</b> Unmodified Genesis came to correct conclusions.
+		<p><b>ON THE RIGHT</b> GenesisFaM also came to correct conclusions. This indicates GenesisFaM does not break all story-understanding. Rather, GenesisFaM replicates some of the selective symptomatology of schizophrenia.
+		<p>
+	<h1>Reference</h1>
+		<p>This research was conducted by Pratyusha Kalluri.
+</body>
+

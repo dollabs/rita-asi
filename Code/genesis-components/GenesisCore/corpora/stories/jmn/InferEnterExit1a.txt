@@ -1,0 +1,31 @@
+//Demo version of Infer Enter Exit 1, April 2016
+// Exp 1: If someone is in a Scene (existing construct, defined by Then), they probably observe events in the scene.
+
+Start experiment.
+
+Start story titled "At the beach".
+
+/////////////////////////////////////////////////////////////////////////////**/
+
+//infer M, N enter
+//all events in this scene should be observed by M, N
+
+Maria jumps into the water.
+The dog sleeps.
+Nancy sits on the beach.
+
+//infer M, N exit (due to "Then")
+//infer F enters
+//all events in this scene should be observed by F
+
+Then, the dog barks.
+Frank throws a frisbee.
+The dog chases the frisbee.
+
+//infer F exits (due to "Then")
+
+Then, a tree falls in the forest. //obs by nobody
+
+/////////////////////////////////////////////////////////////////////////////**/
+
+The end.

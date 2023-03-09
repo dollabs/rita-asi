@@ -1,0 +1,16 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set Find concept onsets while reading switch to true.
+
+Both perspectives.
+
+// In General commonsense knowledge
+// Insert file Estonia commonsense knowledge.
+
+Insert file General commonsense knowledge.
+
+Insert file Estonia reflective knowledge.
+
+Insert file Estonia2 common.

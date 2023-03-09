@@ -1,0 +1,15 @@
+Start experiment.
+
+Set Deploy novice first switch to false.
+
+Set Real robot button to true.
+
+Set self aware button to true.
+
+Set right panel to Commentary.
+
+Read knowledge in ZZ Basic PS knowledge.
+
+Read knowledge in Steps_Inspect the book_1022_005835.
+
+Insert into text box: Inspect the book.

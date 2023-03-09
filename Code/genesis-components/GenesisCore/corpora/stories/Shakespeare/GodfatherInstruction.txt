@@ -1,0 +1,179 @@
+Start experiment.
+
+Both perspectives.
+Show both perspectives.
+
+Set bottom panel to Story.
+
+
+// Insert file General reflective knowledge.
+
+// Insert file Macbeth reflective knowledge.
+
+Insert file Macbeth preface.
+
+First perspective. 
+
+Insert file General commonsense knowledge.
+
+Insert file Macbeth commonsense.
+
+If YY becomes dead and XX is an entity, then XX cannot harm YY.
+
+xx is a person.  yy is a person.  zz is a person.
+
+If xx is an enemy of zz and yy is an enemy of zz then xx is a friend of yy.
+
+Second perspective.
+
+Insert file Macbeth student commonsense knowledge. 
+
+First perspective.
+Start story titled "Macbeth/Teacher".
+
+Second perspective.
+Start story titled "Macbeth/Student".
+
+Both Perspectives.
+
+A godfather is a kind of king.
+
+Note that Cawdor is a name.
+Note that Vito is a name.
+Note that Maria is a name.
+Note that Alegra is a name.
+Note that Michael is a name.
+Note that Fabiano is a name.
+Note that Antonio is a name.
+Note that Dominico is a name.
+Note that Luciano is a name.
+Note that fortune teller is a name.
+
+Note that Bronx is a name.
+Note that Drug dealing is a name. 
+
+America and Italy are countries.
+
+Bronx is a community and drug dealing is a crime.
+
+Maria, Alegra, Fabiano, Michael, Antonio, Dominico,  Luciano, and Vito are persons. 
+
+Start story titled "Crime story".
+
+Maria is Fabiano's wife.
+
+Alegra is Michael's wife.
+
+Maria is evil and greedy.
+
+Vito is a godfather, and Fabiano is Vito's successor.
+
+Vito is an enemy of Luciano.
+
+Fabiano is brave.
+
+// Fabiano defeats Luciano.
+
+Vito becomes happy because Fabiano defeats Luciano.
+
+// The fortune teller is weird.
+
+// The fortune teller works at night.
+
+// The fortune teller danced and chanted.
+
+// Fabiano tells fortune teller to speak.
+
+// Fabiano talks with the fortune teller.
+
+// Drug dealing is a crime.
+
+// Fortune teller predicts that drug dealing will go to Bronx.
+
+// The fortune teller predicts that Fabiano will become chief of staff of godfather.
+
+// The fortune teller predicts that Fabiano will become godfather.
+
+// The fortune teller astonishes Fabiano.
+
+// Vito executes Luciano.
+
+// Fabiano becomes chief of staff of Luciano.
+
+Vito rewarded Fabiano because Vito became happy.
+
+// Maria wants Fabiano to become godfather.
+
+Fabiano is weak and vulnerable.
+
+Maria persuades Fabiano to want to become the godfather because Maria is greedy.
+
+// Fabiano loves Maria.
+
+// Fabiano wants to please Maria.
+
+Fabiano wants to become godfather because Maria persuaded Fabiano to want to become the godfather.
+
+// Maria plots to murder Vito with Fabiano.
+
+Fabiano invites Vito to dinner.
+
+// Vito compliments Fabiano.
+
+// Vito goes to bed.
+
+// Vito's guards become drunk and sleep.
+
+// In order to murder Vito, Fabiano enters the kitchen, Fabiano murders the cooks, and Fabiano poisons Vito's food.
+
+In order to murder Vito, Fabiano poisons Vito's food.
+
+Pause.
+
+Fabiano becomes godfather.
+
+// Antonio and Dominico become afraid.
+
+// Antonio and Dominico flee.
+
+Fabiano's murdering Vito leads to Michael's fleeing to Italy.
+
+// In order to flee to Italy, Michael drives to the airport and Michael boards an airplane.
+
+Michael's fleeing to Italy leads to Fabiano's murdering Alegra.
+
+// Fabiano faints at a dinner.
+
+// Maria says he faints often.
+
+// Everyone leaves because Maria tells everyone to leave.
+
+Fabiano's murdering Vito leads to Maria's becoming distraught.
+
+Maria has bad dreams.
+
+Maria thinks god will punish her.
+
+Maria tries to pray.
+
+Maria kills herself.
+
+// Drug dealing goes to Bronx.
+
+// Michael's family enters Bronx.
+
+// Michael curses Fabiano.
+
+// Michael attacks Fabiano.
+	
+// Fabiano refuses to surrender.
+
+// Michael kills Fabiano.
+
+Michael returns from Italy and kills Fabiano.
+
+The end.
+
+
+
+

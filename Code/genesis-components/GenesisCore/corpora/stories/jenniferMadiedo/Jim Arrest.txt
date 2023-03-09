@@ -1,0 +1,21 @@
+// Persuasion Story
+Start experiment.
+
+xx, yy, and zz are persons.
+
+Start description of "Unfair Arrest".
+xx is a person.  yy is a person.
+xx is innocent.
+yy arrests xx.
+xx feels wronged.
+The end.
+
+If xx helps yy, yy has hope.
+
+Start story titled "Jim Arrest".
+Jim, Alice and police are persons.
+Jim is innocent.
+Police arrest Jim.
+Alice helps Jim.
+Jim has hope.
+The end.

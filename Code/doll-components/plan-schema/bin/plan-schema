@@ -1,0 +1,85 @@
+#!/bin/sh
+# plan-schema
+#
+# Copyright © 2016 Dynamic Object Language Labs Inc.
+#
+# This software is licensed under the terms of the
+# Apache License, Version 2.0 which can be found in
+# the file LICENSE at the root of this distribution.
+
+program=$(basename $0)
+dir=$(dirname $0)
+export PLAN_SCHEMA_CWD="$(pwd -P)"
+cd "$dir"
+cd ..
+top="$(pwd -P)"
+
+if [ ! -d "$top/target" ]; then
+    mkdir "$top/target"
+fi
+
+jar="$top/target/$(ls -1t $top/target | grep 'jar$' | head -1)"
+jar="${jar%.jar}.jar"
+clojure_file="$top/target/clojure.cp"
+mainclj_file="$top/target/main.clj"
+LEIN_JVM_OPTS="${LEIN_JVM_OPTS:--server}"
+JVM_OPTS="${JVM_OPTS:-$LEIN_JVM_OPTS}"
+PLAN_SCHEMA_OPTS="${PLAN_SCHEMA_OPTS:-$JVM_OPTS}"
+verbose=0
+
+# functions ------------------------------------------
+log() {
+  # do NOT log now
+  # echo $* >> "$logfile"
+  echo $*
+}
+
+vlog() {
+    [ $verbose -eq 0 ] || log "$@"
+}
+
+vvlog() {
+    [ $verbose -lt 2 ] || log "$@"
+}
+
+err() {
+  # as log only echos we do not need to repeat this here
+  # log "${program}: $*"
+  echo >&2 "${program}: $*"
+}
+
+# main program -----------------------------------------------
+case "$1" in
+    (-v|-vv|-vvv|-vvvv|--verbose)
+        verbose=$(( $verbose + 1 ))
+        ;;
+esac
+
+# ensure plan-schema does not use PAGER to guess we are in the repl
+unset PAGER
+
+args="$@"
+vlog "-- starting $program at $(date) --"
+if [ -e "$jar" ]; then
+    vlog "-- using jar: $jar --"
+    NULL_DEVICE=/dev/null
+    if [ -e "$clojure_file" ]; then
+        clojure="$(cat "$clojure_file")"
+    else
+        clojure="$(boot show --classpath | tr '[:]' '\n' | grep 'clojure-[0-9].*.*.jar')"
+        echo "$clojure" > "$clojure_file"
+    fi
+    if [ -e "$mainclj_file" ]; then
+        mainclj="$(cat "$mainclj_file")"
+    else
+        mainclj="(use $(awk '/^\(def main/ { print $3;}' < build.boot)(apply -main *command-line-args*)"
+        echo "$mainclj" > "$mainclj_file"
+    fi
+    vlog java $PLAN_SCHEMA_OPTS -cp "$clojure":"$jar" clojure.main -e "$mainclj" $NULL_DEVICE $args
+    exec java $PLAN_SCHEMA_OPTS -cp "$clojure":"$jar" clojure.main -e "$mainclj" $NULL_DEVICE $args
+else
+    vlog "-- using boot: not using jar --"
+    jar=""
+    vlog boot run -a "\"$args\""
+    boot run -a "$args"
+fi

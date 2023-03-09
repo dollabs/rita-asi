@@ -1,0 +1,9 @@
+Start commonsense knowledge.
+
+VV, UU, and YY are entities.
+AA is an object.
+
+If VV sees YY and VV doesn't want YY, VV thinks YY is bad.
+If VV doesn't want YY, VV may try to get rid of YY.
+If VV tries to get rid of YY, then VV asks for help.
+If UU finds AA, then VV may take AA.

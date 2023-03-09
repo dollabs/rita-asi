@@ -1,0 +1,35 @@
+/* ------------------------------
+ Generated on Make a fruit salad_1120_135235 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a fruit salad".
+Intention: Make a fruit salad.
+The end.
+
+If the intention is "Make a fruit salad".
+Verify: I amn't on diet.
+Step: Put the banana in the bowl.
+Step: Put the apples in the bowl.
+The end.
+
+If the intention is "Make a fruit salad".
+Verify: i am on diet.
+Step: Put the banana in the bowl.
+The end.
+
+// ------------ Step 1
+If the problem is "Put the apples in the bowl".
+Intention: Put the apples in the bowl.
+The end.
+
+If the intention is "Put the apples in the bowl".
+Step: The apples is in the bowl.
+The end.
+
+// ------------ Step 2
+If the problem is "Put the banana in the bowl".
+Intention: Put the banana in the bowl.
+The end.
+
+If the intention is "Put the banana in the bowl".
+Step: The banana is in the bowl.
+The end.

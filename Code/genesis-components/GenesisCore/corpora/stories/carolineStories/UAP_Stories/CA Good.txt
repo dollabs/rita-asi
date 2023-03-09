@@ -1,0 +1,8 @@
+XX is a person.
+YY is a person.
+
+With probability of 0.75 XX saves YY because XX is good and YY is a person. 
+With probability of 0.9 XX helps YY because XX is good and YY is a person.
+With probability of 0.6 XX compliments YY because XX is good and YY is a person.
+With probability of 0.55 XX wants to please YY because XX is good and YY is a person.
+With probability of 0.55 XX rewards YY because XX is good and YY is a person.

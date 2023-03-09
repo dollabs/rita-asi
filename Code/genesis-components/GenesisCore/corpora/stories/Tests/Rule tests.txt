@@ -1,0 +1,74 @@
+Start experiment.
+
+xx is a person.
+yy is a person.
+
+If xx angers yy then yy may kill xx.
+
+If xx kills yy then yy becomes dead.
+
+// Order important; if following comes before censor, censor can't fire because harm happens before becoming dead.
+
+If xx kills yy then xx harms yy.
+
+If yy becomes dead then yy cannot become unhappy.
+
+If xx harms yy then yy becomes unhappy.
+
+Xx becomes king; yy becomes jealous.
+
+Peter, Paul, and Mary are persons.
+
+Start story titled "Explanation--deduction--censor---no becoming unhappy)".
+
+Peter angers Paul.
+
+Paul kills Peter.
+
+Paul harms Mary.
+
+The end.
+
+Pause.
+
+If xx murders yy, then xx must be insane.
+
+xx steals, presumably because xx is greedy.
+
+Start story titled "Post hoc--abduction--presumption".
+
+Peter becomes king.
+
+Paul becomes jealous.
+
+
+
+Paul murders Peter.
+
+Peter steals.
+
+The end.
+
+Pause.
+
+Start story titled "Explicit post hoc--cause--strangely-leads-to--leads-to".
+
+Peter becomes king; Paul becomes angry.
+
+Peter dislikes Paul because Paul become angry.
+
+Strangely, Peter's disliking Paul leads to Paul's hallucinating.
+
+Paul's hallucinating leads to Peter's hitting Paul.
+
+The end.
+
+Pause.
+
+xx's having a knife enables xx's stabbing yy.
+
+Start story titled "Means and enablers".
+
+In order to injure Paul, Peter stabbed Paul.
+
+The end.

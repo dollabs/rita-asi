@@ -1,0 +1,19 @@
+Set all switches to defaults.
+
+Set Include unabridged version switch to true.
+
+Set Include agent roles switch to false.
+
+Set Always include surprises switch to false.
+
+Set Include explanations switch to true.
+
+Set Filter out means switch to true.
+
+Set Filter out if follows from switch to true.
+
+Set Show markup switch to true.
+
+Insert file Macbeth1 summary.
+
+

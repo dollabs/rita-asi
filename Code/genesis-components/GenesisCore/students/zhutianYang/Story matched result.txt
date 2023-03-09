@@ -1,0 +1,8 @@
+(match = true)
+(inversion = false)
+(score: 1.0)
+(structureMatch: true)
+(bindings:
+{ 'binding':['(ent vv-8625)', '(ent happy-10993)'], 'allowed':true, 1.0 }
+)
+(match = true)

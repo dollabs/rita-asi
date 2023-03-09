@@ -1,0 +1,66 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Find difference button to true.
+Set left panel to commentary.
+// Set right panel to Z Story Aligner Gallery.
+Set right panel to source.
+Both perspectives.
+
+Maxwell speed distribution is an entity.
+Probability distribution is an entity.
+gas is an entity.
+Entropy change is an entity.
+Probability is an entity.
+Volume change is an entity.
+Proportional is an entity.
+Log is an entity.
+Principle is an entity.
+Boltzmann's-principle is an entity.
+
+body is an entity.
+radiation is an entity.
+Wien's Law is an entity.
+Waves are entities.
+Wavelength is an entity.
+
+Somebody is a person.
+We is a person.
+
+xx, yy, and zz are entities.
+mm is a person.
+//  and zz is composed of randomly-moving point particles
+If xx gives yy of particles' energy, then zz is seen as a system with energy.
+If mm can calculate the xx of yy with zz, then mm derive the xx of yy from zz.
+If the black-body spectrum shows the association between energy and yy, then the black body is seen as a system with energy.
+// If mm derive the zz of xx from yy, then xx has a theoretical foundation in yy.
+// If zz is the nth power of yy, then yy's exponent is n.
+
+Show both perspectives.
+
+First perspective.
+Start story titled "Ideal gas".
+An ideal gas is composed of randomly-moving point particles whose only interactions are perfectly elastic collisions.
+The probability distribution of particles' energy is given by the Maxwell speed distribution.
+Assume the volume of ideal gas has changed.
+We can calculate the entropy change of ideal gas with Boltzmann's-principle.
+One factor is Boltzmann's constant.
+Another is log of volume change.
+The exponent has value n.
+The energy of ideal gas is discrete.
+The end.
+
+Second perspective.
+Start story titled "Black body".
+A black body is an opaque and non-reflective body.
+The black-body spectrum shows the association between energy of waves and each wavelength.
+The energy a black body radiates are mostly invisible infra-red;
+At room temperature, A black body appears black.
+Assume the volume of high-frequency radiation has changed.
+From Wien's Law, we derive the entropy change of the radiation.
+One factor is Boltzmann's constant.
+Another is log of volume change.
+Exponent equals energy of radiation over quanta.
+The end.

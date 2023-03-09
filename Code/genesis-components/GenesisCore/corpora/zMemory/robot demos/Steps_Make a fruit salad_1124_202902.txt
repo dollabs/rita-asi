@@ -1,0 +1,65 @@
+/* ------------------------------
+ Generated on Make a fruit salad_1124_202902 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a fruit salad".
+Intention: Make a fruit salad.
+The end.
+
+If the intention is "Make a fruit salad".
+Verify: I am on diet.
+Step: Toss the fruits into the bowl.
+Step: Load the bowl with nuts.
+The end.
+
+If the intention is "Make a fruit salad".
+Verify: i amn't on diet.
+Step: Toss the fruits into the bowl.
+Step: Load the bowl with nuts.
+Step: add salad dressing to the bowl.
+The end.
+
+// ------------ Step 1
+If the problem is "Toss the fruits into the bowl".
+Intention: Toss the fruits into the bowl.
+The end.
+
+If the intention is "Toss the fruits into the bowl".
+Step: The fruits are in the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make a fruit salad_1124_202902 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+// ------------ Step 1
+If the problem is "Load the bowl with nuts".
+Intention: Load the bowl with nuts.
+The end.
+
+/* ------------------------------
+ Generated on Make a fruit salad_1124_202902 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Load the bowl with nuts".
+Step: Pour the nuts from the black white bottle into the bowl.
+The end.
+
+// ------------ Step 1
+If the problem is "Pour the nuts from the black white bottle into the bowl".
+Intention: Pour the nuts from the black white bottle into the bowl.
+The end.
+
+If the intention is "Pour the nuts from the black white bottle into the bowl".
+Step: The nuts move from the black white bottle to the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make a fruit salad_1124_202902 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+// ------------ Step 1
+If the problem is "add salad dressing to the bowl".
+Intention: add salad dressing to the bowl.
+The end.
+
+If the intention is "add salad dressing to the bowl".
+Step: Salad dressing is in the bowl.
+The end.
+

@@ -1,0 +1,57 @@
+Start experiment.
+
+Both perspectives.
+
+XX is a person.
+VV is a thing.
+ZZ is a thing.
+
+School is a thing.
+Nausea is a kind of physical-sickness.
+
+If XX eats VV, then XX experiences a physical-action with VV.
+If XX experiences a physical-action with VV, then XX contacts VV.
+If XX contacts VV, then XX may experience a physical-sickness.
+
+If XX thinks about VV, then XX experiences psych-action about VV.
+If XX experiences psych-action about VV, then XX may feel scared.
+If XX feels scared, then XX experiences a negative-psych-action.
+If XX experiences a negative-psych-action, then XX may experience a physical-sickness.
+
+Bunny is a person.
+
+
+
+Start description of "Physical cause ingestion to physical effect".
+XX's eating VV leads to XX's experiencing a physical-sickness.
+The end.
+
+Start description of "Psychological cause to physical effect".
+XX's feeling VV leads to XX's experiencing a physical-sickness.
+The end.
+
+Show both perspectives.
+
+First perspective.
+
+Start story titled "First go".
+
+//FIRST VERSION
+Bunny thinks about school. // show-and-tell.
+Bunny feels scared.
+Bunny eats a sandwich.
+Bunny experiences nausea.
+
+The end.
+
+Second perspective.
+
+Start story titled "Second go".
+
+//FIRST VERSION
+Bunny thinks about school. // show-and-tell.
+Bunny feels scared.
+Bunny eats a sandwich.
+Bunny experiences nausea.
+
+The end.

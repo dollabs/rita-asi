@@ -1,0 +1,100 @@
+/* ------------------------------
+ Generated on 0913_162718 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make hamster health food".
+Intention: Make hamster health food.
+The end.
+
+If the intention is "Make hamster health food".
+Step: Create a dry mix for your hamster.
+Step: Make healthy treats.
+Step: Understand food's drawbacks.
+Step: Add additional fruit.
+Step: Add seeds.
+Step: Consider dietary supplements.
+Step: Watch for diarrhea or constipation....
+Step: Avoid overfeeding your hamster....
+Step: Talk to a vet about the hamster's dietary needs.
+The end.
+
+// ------------ Step 1: Create a dry mix for your hamster
+If the problem is "Create a dry mix for your hamster".
+Intention: Create a dry mix for your hamster.
+The end.
+
+If the intention is "Create a dry mix for your hamster".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Make healthy treats
+If the problem is "Make healthy treats".
+Intention: Make healthy treats.
+The end.
+
+If the intention is "Make healthy treats".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Understand food's drawbacks
+If the problem is "Understand food's drawbacks".
+Intention: Understand food's drawbacks.
+The end.
+
+If the intention is "Understand food's drawbacks".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Add additional fruit
+If the problem is "Add additional fruit".
+Intention: Add additional fruit.
+The end.
+
+If the intention is "Add additional fruit".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Add seeds
+If the problem is "Add seeds".
+Intention: Add seeds.
+The end.
+
+If the intention is "Add seeds".
+Method: Assume successful.
+The end.
+
+// ------------ Step 6: Consider dietary supplements
+If the problem is "Consider dietary supplements".
+Intention: Consider dietary supplements.
+The end.
+
+If the intention is "Consider dietary supplements".
+Method: Assume successful.
+The end.
+
+// ------------ Step 7: Watch for diarrhea or constipation...
+If the problem is "Watch for diarrhea or constipation...".
+Intention: Watch for diarrhea or constipation....
+The end.
+
+If the intention is "Watch for diarrhea or constipation...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 8: Avoid overfeeding your hamster...
+If the problem is "Avoid overfeeding your hamster...".
+Intention: Avoid overfeeding your hamster....
+The end.
+
+If the intention is "Avoid overfeeding your hamster...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 9: Talk to a vet about the hamster's dietary needs
+If the problem is "Talk to a vet about the hamster's dietary needs".
+Intention: Talk to a vet about the hamster's dietary needs.
+The end.
+
+If the intention is "Talk to a vet about the hamster's dietary needs".
+Method: Assume successful.
+The end.
+

@@ -1,0 +1,5 @@
+Start experiment.
+
+Start story titled "Duplicates".
+John believes "Mary thinks <Sally knows "Susan loves Paul">".
+The end.

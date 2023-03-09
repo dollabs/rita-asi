@@ -1,0 +1,53 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Learn concept button to true.
+Set left panel to commentary.
+Set right panel to Z Story Aligner Gallery.
+Both perspectives.
+
+xx, yy, and zz are persons.
+Flightradar24 is a thing.
+
+Show both perspectives.
+// https://www.bbc.com/news/world-africa-47605265
+
+First perspective.
+Start story titled "Ethiopian Airlines crash".
+
+Last Sunday, Ethiopian Airlines Flight 302 crashed after taking off from Addis Ababa, killing all 157 people on board.
+
+The plane was a Boeing 737 Max 8 aircraft.
+
+Transport Minister Dagmawit Moges told journalists that a preliminary report would be released within 30 days.
+
+
+In both cases flight tracking data showed the aircraft's altitude had fluctuated sharply, as the planes seemed to experience erratic climbs and descents.
+Ethiopian Airlines Flight 302 took off from Addis Ababa Bole International Airport on the morning of 10 March, bound for Nairobi in Kenya.
+
+Minutes into the flight, the pilot reported difficulties and asked to return.
+
+Visibility was said to be good but air traffic monitor Flightradar24 said the plane's vertical speed was unstable after take-off.
+
+An eyewitness at the scene told the BBC there was an intense fire as the aircraft hit the ground.
+
+French air safety investigators examined the flight data recorder and cockpit voice recorder - or black boxes as they are often called - and have handed over their findings to their Ethiopian counterparts.
+
+Investigators later identified problems with the anti-stall system, which is designed to stop a plane from pointing upwards at too high an angle where it could lose its lift.
+
+During flight JT610, the system repeatedly forced the plane's nose down, even when the plane was not stalling - possibly due to a faulty sensor.
+
+Pilots tried to correct this by pointing the nose higher, until the system pushed it down again. This happened more than 20 times.
+
+Following the second crash, airlines around the world grounded their Boeing 737 Max 8 aircraft.
+
+The end.
+
+Second perspective.
+Start story titled "Indonesia Airlines crash".
+Lion Air Flight 610 was a scheduled domestic flight operated by the Indonesian airline Lion Air.
+On 29 October 2018, the Boeing 737 MAX 8 plane crashed into the Java Sea 12 minutes after takeoff, killing all 189 passengers and crew.
+On 29 October Lion Air Flight 610 crashed after taking off from Jakarta airport, killing 189 people.
+The end.

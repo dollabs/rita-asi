@@ -1,0 +1,45 @@
+Start experiment.
+
+Insert file AuthorModel.
+
+Start story titled "Analysis of Sympathy".
+
+// Using youth instead of child just makes start generate a little nicer.
+// Otherwise get "The author refers to a child as him
+// So, a work around
+
+// But! Making all of these entities must break some matching, because doubt and decrease attention do not work.
+
+
+The author refers to Max as a victim.
+Author says the regime commits a negative action.
+The author refers to many children as a victim.
+Author says the regime commits a negative action.
+The author says the regime alleges something.
+The author says the boys to be alleged.
+The author says the regime alleges something.
+The author says that terrorists are alleged.
+The author refers to the young freedom fighters as a victim.
+Author says the regime commits a negative action.
+Author uses passivity for the young freedom fighters.
+The author refers to two barbarians as a victim.
+The author says the young freedom fighters commit a negative action against a negative object.
+The author refers to Mark as a victim.
+Author says the regime commits a negative action.
+The author refers to teenager as a youth.
+The author refers to the boys as a youth.
+The author refers to Max as a youth.
+The author refers to teenager as a youth.
+The author refers to Mark as a youth.
+The author refers to the young freedom fighters as a youth.
+The author refers to the boys as a youth.
+The author refers to Max as a youth.
+The author refers to Max as a victim.
+The author refers to Mark as a youth.
+The author refers to Mark as a victim.
+The author refers to the young freedom fighters as a youth.
+The author refers to the young freedom fighters as a victim.
+The author refers to many children as a youth.
+The author refers to many children as a victim.
+
+The end.

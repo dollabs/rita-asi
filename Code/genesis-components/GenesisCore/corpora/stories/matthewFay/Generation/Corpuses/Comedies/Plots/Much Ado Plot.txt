@@ -1,0 +1,35 @@
+Claudio is a name.
+Claudio is a person.
+Hero is a name.
+Hero is a person.
+
+Benedict is a name.
+Benedict is a person.
+Beatrice is a name.
+Beatrice is a person.
+
+Claudio meets Hero.
+Claudio loves Hero.
+Claudio loves Hero because Claudio met Hero.
+Hero loves Claudio.
+Hero loves Claudio because Hero met Claudio.
+
+Hero likes Beatrice.
+Claudio likes Benedict.
+
+Hero wants Beatrice to be happy.
+Claudio wants Benedict to be happy.
+
+Hero tells Beatrice that Benedict loves Beatrice.
+Hero tells Beatrice that Benedict loves Beatrice because Hero wants Beatrice to be happy.
+Claudio tells Benedict that Beatrice loves Benedict.
+Claudio tells Benedict that Beatrice loves Benedict because Claudio wants Benedict to be happy.
+
+Beatrice loves Benedict.
+Benedict loves Beatrice.
+
+Hero marries Claudio.
+Claudio marries Hero.
+
+Beatrice marries Benedict.
+Benedict marries Beatrice.

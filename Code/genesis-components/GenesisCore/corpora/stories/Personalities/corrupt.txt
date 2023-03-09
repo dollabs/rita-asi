@@ -1,0 +1,9 @@
+Start commonsense knowledge.
+
+XX is a person.
+YY is a person.
+
+If XX is corrupt and YY is a person, then XX may harm YY.
+
+
+

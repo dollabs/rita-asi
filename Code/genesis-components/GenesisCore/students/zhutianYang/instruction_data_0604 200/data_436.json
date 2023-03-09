@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 12:56:49+08:00", 
+    "instructions": [
+        "put the dinner fork on the left", 
+        "put the dinner knife on the right", 
+        "put the salad fork to the left of the dinner fork", 
+        "put the salad knife to the right of the dinner knife", 
+        "put the soup spoon to the right of the salad knife", 
+        "put the dessert spoon at the top", 
+        "move the dessert spoon to the right of the soup spoon", 
+        "move the dessert spoon to the top", 
+        "put the dinner plate between the dinner fork and the dinner knife", 
+        "put the bread plate between the dessert spoon and the salad fork", 
+        "put the butter knife on the bread plate", 
+        "put the wine glass above the soup spoon", 
+        "put the water glass between the dessert spoon and the wine glass", 
+        "put the napkin on the dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

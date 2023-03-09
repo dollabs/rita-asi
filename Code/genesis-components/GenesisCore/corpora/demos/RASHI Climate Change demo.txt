@@ -1,0 +1,10 @@
+Popup RASHI Climate Change popup.
+
+Set all switches to defaults.
+Set show all story elements switch to true.
+
+Set left panel to elaboration graph.
+Set right panel to sources.
+Set bottom panel to commentary.
+
+Insert file globalWarming.

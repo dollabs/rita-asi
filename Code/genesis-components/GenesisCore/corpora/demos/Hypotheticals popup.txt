@@ -1,0 +1,19 @@
+<h1>What you see</h1>
+<p>The program will read a short courtroom-style story about 
+a husband who uses a gun to defend himself from his wife's knife-wielding lover. 
+Based on the events in the story, the program reasons that the story 
+is about self-defense. 
+</p>
+<p>
+When asked how the analysis would differ if the lover did not brandish a knife, the program is able to reason about its own thinking;
+it concludes that in the second case, the husband's response is unjustified.
+</p>
+
+<p>
+<h1>What you can do</h1>
+
+<ul>
+<li> Ask "What would happen if [an event didn't happen]." to remove an event in the story.</li>
+<li> Observe the story differences identified in the Results tab.</li>
+</ul>
+

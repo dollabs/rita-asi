@@ -1,0 +1,8 @@
+Start description of "revenge".
+xx's harming yy leads to yy's harming xx.
+The end.
+
+// Note: Sequence ordering doesn't seem to matter!
+Start description of "attack".
+xx's harming yy with a knife leads to yy's harming xx.
+The end.

@@ -1,0 +1,16 @@
+<h1>What you see</h1>
+
+Genesis reads Hansel and Gretel and then retells the story to make the Woodcutter look likable 
+by striking out some elements (red) and emphasizing others (green).
+
+<h1>What you can do</h1>
+
+<ul>
+<li> Scroll up and down in the story to see what is struck out and what is emphasized.
+<li> Change <i>likable</i> to <i>unlikable</i> in the text box and press enter.  Scroll to see the changes in how the story is told.
+</ul>
+
+
+<h1>Reference</h1>
+
+The example is from the MEng thesis of Sila Sayan.

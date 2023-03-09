@@ -1,0 +1,18 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0019".
+THE HUNTER WAS FASCINATED BY THE WARRIOR'S CHARISMA. HOWEVER, THE WARRIOR LOOKED DOWN ON HIM.
+AGAINST HIS WILL, THE HUNTER MADE AN EFFORT TO KISS THE WARRIOR.
+THE WARRIOR THREATENED THE HUNTER WITH A DAGGER. HE HID IN THE VOLCANO.
+THE WARRIOR PRODUCED CONFLICTING FEELINGS IN THE HUNTER.
+THE END.
+
+
+
+The end.

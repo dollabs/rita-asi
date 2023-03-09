@@ -1,0 +1,16 @@
+xx and yy are entities.
+
+If the method is "Is xx an instance of yy".
+Execute: Call "jdAskIfType" with xx with yy.
+The end.
+
+If the method is "Print xx".
+Execute: Call "zPrint" with xx.
+The end.
+
+If the method is "Question xx".
+Execute: Call "zCheck" with xx.
+The end.
+
+
+

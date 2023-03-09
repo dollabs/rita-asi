@@ -1,0 +1,12 @@
+Start experiment.
+
+Start story titled "Hello world".
+
+To determine whether xx in the story.
+
+Check whether xx appears in the story.
+
+Then, do xx.
+
+The end.
+

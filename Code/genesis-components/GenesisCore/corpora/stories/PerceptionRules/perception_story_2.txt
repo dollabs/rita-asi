@@ -1,0 +1,64 @@
+Start experiment.
+
+xx is a thing.
+yy is a thing.
+zz is a thing.
+
+//This does not work.
+xx must not equal zz.
+xx must not equal yy.
+yy must not equal zz.
+
+//if xx appears at a furniture and xx is not a person, then xx is a small object.
+
+if person sees xx, xx is in the room.
+
+person looks up; person sees xx.
+
+person looks down; person sees thing.
+
+
+if person sees furniture, person may sit.
+
+Whenever xx appears near yy then xx cannot appear around xx.
+Whenever xx appears near yy then xx cannot appear around yy.
+Whenever xx appears near yy then yy cannot appear around xx.
+
+Whenever xx is in the room and yy is in the room then xx may appear near yy.
+Whenever xx appears on yy and yy appears on zz then xx appears above zz.
+Whenever xx appears near yy and yy appears near zz then xx appears around zz.
+Whenever xx is yy's neighbor and yy is zz's neighbor then xx may be zz's neighbor.
+
+
+tt is an action.
+person's wanting tt leads to person doing tt.
+
+if xx is around zz then zz is around xx.
+concept net is a thing.
+note that conceptnet is a name.
+
+//if xx appears at yy then conceptnet must say xx is at yy.
+
+Simon is a person.
+
+
+Start story titled "The World".
+John looks forward.
+John sees a window
+John sees a wall.
+John turns right.
+John sees a television.
+John observes television.
+John sees a cabinet.
+John turns left.
+John sees a sofa.
+John observes a sofa.
+John sees a pillow.
+John looks down.
+John sees a floor.
+John sees a carpet.
+John observes a carpet.
+The end.
+
+
+The end.

@@ -1,0 +1,23 @@
+Set Genesis advises human button to true.
+
+Set Use features when matching switch to false.
+
+Set Split names with underscores switch to false.
+
+Set left panel to Commentary.
+
+Set right panel to Blocks.
+
+Set bottom panel to Mental models.
+
+Insert question into text box: How do I make Yuan become dead?
+
+Insert into text box: No.
+
+Insert into text box: A beautiful lady might kill Yuan.
+
+Insert into text box: The lady should be really beautiful and brave.
+
+Insert into text box: Yes. pause.
+
+Insert into text box: The lady can seduce Yuan and she can poison him.

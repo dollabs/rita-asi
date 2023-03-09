@@ -1,0 +1,13 @@
+Start experiment.
+
+Alice and Bobby are persons.
+
+//Start common sense knowledge.
+//xx is a person.
+//If xx commits a crime, then xx is a criminal.
+
+Start story titled "BobbyJumps".
+Alice and Bobby are persons.
+Bobby jumps.
+//Alice commits a crime.
+The end.

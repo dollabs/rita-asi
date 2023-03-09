@@ -1,0 +1,19 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0223".
+IN THE MORNING, THE PRINCESS AWOKE IN THE GREAT CITY.
+BECAUSE THE SLAVE WAS GREEDY, THE SLAVE KIDNAPPED THE PRINCESS. HE EXPECTED TO GET SOME RANSOM.
+QUIETLY, THE PRINCESS WAS ABLE TO ESCAPE.
+THE PRINCESS REALIZED THAT THE SLAVE COULD KILL HER AT ONCE. SHE HAD TO RUN AWAY.
+THE PRINCESS ESCAPED TO THE VOLCANO.
+THE END.
+
+
+
+The end.

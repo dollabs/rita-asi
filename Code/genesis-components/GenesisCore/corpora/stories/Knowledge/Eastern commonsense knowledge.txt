@@ -1,0 +1,19 @@
+WW, XX, YY, and ZZ are persons.
+
+YY may kill WW because YY wants to kill WW.
+
+If value of variable test-expert-request is false: XX may kill YY because YY angers XX.
+
+If value of variable test-expert-request is false: YY may murder WW because YY wants to become king and because WW is the king and because YY is WW's successor.
+
+Start description of "Revenge".
+xx is an entity.
+yy is a entity.
+xx's harming yy leads to yy's harming xx.
+The end.
+
+
+
+
+
+

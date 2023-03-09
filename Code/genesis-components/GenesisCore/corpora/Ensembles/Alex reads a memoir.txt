@@ -1,0 +1,87 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Find difference button to true.
+Set left panel to commentary.
+// Set right panel to Z Story Aligner Gallery.
+Set right panel to source.
+Both perspectives.
+
+Phillips is a person.
+Alex is a person.
+thesis supervisor is an entity.
+research scientist is an entity.
+
+Note that "Phillips" is a masculine name.
+Note that "Alex" is a masculine name.
+
+Massachusetts Institute of Technology is an university.
+Nanyang Technological University is an university.
+Stanford University is an university.
+Undergraduate degree is an entity.
+Computer Science department is a department.
+Cyber security is a technology.
+
+xx is a person.
+kk is an entity.
+aa is an action.
+uu is an university.
+tt is a tool.
+oo are tools.
+ss is a technology.
+vv is a variable.
+ww is an entity.
+
+If xx earns a master degree at Massachusetts Institute of Technology, then xx must be smart.
+If xx studies at Nanyang Technological University, then xx must be smart.
+If xx joins the Computer Science graduate program at uu, then xx must be interested in programming.
+If xx develops software for ww, then xx must be interested in programming.
+If xx wants to create tt that increase kk, then xx must be passionate.
+If xx strives to improve ss, then xx must be passionate.
+If xx generates research ideas, then xx must enjoy thinking.
+If xx explores ideas, then xx must enjoy thinking.
+If xx does not report to kk frequently, then kk is dissatisfied with xx.
+If xx's ideas does not attract kk, then kk is dissatisfied with xx.
+If xx does not publish ww, then xx is not a productive researcher.
+If xx has problem writing ww, then xx is not a productive researcher.
+If xx develops tt that helps ww all over the world, then xx makes meaningful contributions.
+
+Show both perspectives.
+
+First perspective.
+Start story titled "Phillips' story".
+Phillips earned an undergraduate degree and a master degree at Massachusetts Institute of Technology.
+He joined the Computer Science graduate program of Stanford University.
+He wants to create innovative tools that increase programming productivity.
+But he joined a difficult research project that has less space for original contributions.
+Phillips explored a lot of ideas.
+However, Phillips's ideas did not attract his thesis supervisor.
+In the first three years of his PhD, Phillips jumped from projects to projects.
+Phillips did not publish any paper.
+In the summer before his fourth year, he interned at Microsoft.
+Phillips worked with a senior research scientist.
+Phillips developed a tool that helped programmers all over the world.
+Phillips published two papers with the research scientist.
+More importantly, Phillips discovered a research direction that is in the intersection of his passion and the field's interest.
+After going back to Stanford, he continued to work on those ideas and he implemented new systems.
+He focused on producing results that he can publish.
+He generated new ideas while he was chatting casually with friends.
+He received important feedback from researchers after giving talks at other universities.
+In a random conversation at a conference, a famous professor recruited Phillips as a post doc.
+Finally, Phillips published five papers at Stanford University.
+He graduated successfully and found a faculty job.
+The end.
+
+Second perspective.
+Start story titled "Alex's story".
+Alex studies at Nanyang Technological University.
+He strives to improve cyber security.
+For one year, He has been developing software and algorithms.
+He wants to make meaningful contributions.
+He generated many research ideas.
+Consequently, He did not start implementation.
+He did not report to his thesis supervisor frequently.
+He had problem writing the thesis.
+The end.

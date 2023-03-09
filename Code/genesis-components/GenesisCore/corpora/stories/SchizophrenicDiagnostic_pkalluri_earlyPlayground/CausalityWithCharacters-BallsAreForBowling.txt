@@ -1,0 +1,61 @@
+Start experiment.
+
+
+
+
+
+//Rules
+bbb is a ball.
+sss is a slide.
+ppp is a person.
+qqq is a person.
+
+//Prediction
+If bbb is on sss, then bbb rolls right.
+
+//Explanation
+If bbb is high on sss, and bbb rolls right, then bbb may be low on sss.
+If bbb is low on sss and bbb rolls right, then bbb may roll at ground-level.
+
+//Pred
+If ppp is right, bbb rolls right, and bbb rolls at ground-level, then bbb hits ppp.
+
+//Pres
+If a person throws bbb, then bbb can roll at ground-level.
+
+//Un-used
+//If ppp is right of everything, bbb rolls right, and bbb rolls at ground-level, then bbb hits ppp.
+//If ppp drops bbb, bbb can fall to the ground.
+//If ppp drops bbb, bbb cannot roll right.
+
+
+//Story
+
+Start story titled "Ball rolling into Bob".
+
+MySlide is a slide.
+MyBall is a ball.
+Bob is a person.
+
+Then, the story begins.
+
+//Pic 1
+MyBall is on MySlide.
+MyBall is high on MySlide.
+Bob is right.
+
+//Pic 2
+MyBall is low on MySlide.
+
+//Pic 3
+MyBall rolls at ground-level.
+
+The end.
+
+
+
+
+
+
+
+

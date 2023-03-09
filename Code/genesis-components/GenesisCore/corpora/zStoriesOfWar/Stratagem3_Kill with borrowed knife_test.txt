@@ -1,0 +1,24 @@
+Start experiment.
+
+// start declarations
+xx is a person.
+yy is a person.
+zz is a person.
+mm is a regime.
+Huang is a person.
+Yuan is a person.
+Chong is a person.
+the Ming Dynasty is a regime.
+Mongolia tribe is a regime.
+// end declarations
+
+if xx is royal, then xx may fight against yy.
+if xx is a general, then xx may fight against yy.
+if nobody can defeat mm, then xx may conquer the mm Dynasty.
+if xx believes that yy wants to overturn him, xx may execute yy.
+
+Start story titled "Kill with borrowed knife".
+
+Chong executed Yuan.
+
+The end.

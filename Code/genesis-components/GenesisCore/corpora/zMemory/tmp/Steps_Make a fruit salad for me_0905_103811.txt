@@ -1,0 +1,45 @@
+/* ------------------------------
+ Generated on 0905_103811 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make an apple salad for me".
+Intention: Make an apple salad for me.
+The end.
+
+If the intention is "Make an apple salad for me".
+Condition: You are making the salad for me.
+Step: Find a bowl.
+Step: Put an apple in a bowl.
+Step: Pour sauces into a bowl.
+The end.
+
+// ------------ Step 1: Find a bowl
+If the problem is "Find a bowl".
+Intention: Find a bowl.
+The end.
+
+If the intention is "Find a bowl".
+Method: Bowl is on the table.
+The end.
+
+// ------------ Step 2: Put apples in a bowl
+If the problem is "Put an apple in a bowl".
+Intention: Put an apple in a bowl.
+The end.
+
+If the intention is "Put an apple in a bowl".
+Step: Apple is in bowl.
+The end.
+
+// ------------ Step 3: Pour sauces into a bowl
+If the problem is "Pour sauces into a bowl".
+Intention: Pour sauces into a bowl.
+The end.
+
+If the intention is "Pour sauces into a bowl".
+Step: Sauces moves into bowl.
+The end.
+
+
+If the condition is "You are making the salad for me".
+Method: Ask a question.
+The end.

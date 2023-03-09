@@ -1,0 +1,32 @@
+;; This is a simplified placeholder Pamela model for the SAR environment
+
+(defpclass room [num]
+  :fields {room-number num
+           ;;Things to add?:
+           ;; - victims (but Pamela doesn't support lists/vectors)
+           ;; - hallway
+           }
+  :methods [(defpmethod enter-room [])
+            (defpmethod exit-room [])
+            (defpmethod turn-on-light [])])
+
+(defpclass hallway [name room-val]
+  :fields {hallway-name name
+           room room-val} ;only 1 room for now
+  :methods [(defpmethod enter-hallway [])])
+
+; build as
+; pamela -i test-environment.pamela -o test-environment -t "(main.main)" htn
+(defpclass main []
+  :fields {room101 (room "101")
+           room102 (room "102")
+           room103 (room "103")
+           left-hallway (hallway "Left" room101)
+           center-hallway (hallway "Center" room102)
+           right-hallway (hallway "Right" room103)}
+
+           :methods [(defpmethod main []
+                                 (sequence
+                                   (room101.enter-room :bounds [0 4])
+                                   (room101.turn-on-light :bounds [0 7])
+                                   (room102.exit-room :bounds [1 10]) ))])

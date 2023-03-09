@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../css/favicon.ico">
+  
+  <title>Box and Wire - Genesis Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Box and Wire";
+    var mkdocs_page_input_path = "wire.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Genesis Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Genesis</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="..">Genesis System</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../contribute/">Contribute to Documentation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../past/">Past</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../current.md">Current</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../future.md">Future</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Fundamentals</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../innerese/">Representation - Innerese</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../stories/">Writing Stories</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../inference/">Inference by Rules</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../concept-patterns/">Concept Patterns</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../mental-model/">Mental Models</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../classification/">Classification</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Genesis Interface</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../genesis-controls/">Controls</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../gui-subsystems/">Subsystems</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Consciousness</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../core/">Genesis Core</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Box and Wire</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#box-and-wire">Box and Wire</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#connect-boxes-through-connections-class">Connect boxes through Connections Class</a></li>
+        
+            <li><a class="toctree-l4" href="#you-can-add-interim-class">You can add interim class</a></li>
+        
+            <li><a class="toctree-l4" href="#you-can-turn-existing-subclasses-into-boxes">You can turn existing subclasses into boxes</a></li>
+        
+            <li><a class="toctree-l4" href="#you-can-use-multiple-input-ports-or-multiple-output-ports">You can use multiple input ports or multiple output ports</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../problem-solver/">Problem Solver</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Mental Experts</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../hypothetical-reasoner/">Hypothetical Reasoner</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story reteller.md">Story Reteller</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-summarizer/">Story Summarizer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-aligner/">Story Aligner</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Knowledge Base</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../concept-net/">Commonsense - ConceptNet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../wikihow/">Procedural Knowledge - WikiHow</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../atomic/">Inference Rules - ATOMIC</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../personalities/">Personalities</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Knowledge Generators</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../recipe-learners/">Recipe Learners</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-aligner/">Story Aligner</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Tips for Users</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../tips-genesese/">Writing Parsable English</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../tips-eclipse/">Debugging in Eclipse</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../commentary/">Using Commentary</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Demonstrations</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../demo-macbeth2/">Culture Differences</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Genesis Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Consciousness &raquo;</li>
+        
+      
+    
+    <li>Box and Wire</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="box-and-wire">Box and Wire</h1>
+<p>In Genesis, modules are connected by wires that carry signals.</p>
+<p>In this document, I explain a Java mechanism, achieved through the <code>Connections</code> class, that enables you to connect system modules to one another using a box-and-wire metaphor.</p>
+<h2 id="connect-boxes-through-connections-class">Connect boxes through <code>Connections</code> Class</h2>
+<p>Static methods in the <code>Connections</code> class perform these purposes:</p>
+<ul>
+<li><code>Connections.wire(source, destination)</code> sets up connections between wired boxes.</li>
+<li><code>Connections.getPorts(this).transmit(signal)</code> transmits a signal via an instance’s output port.</li>
+<li><code>Connections.getPorts(this).addSignalProcessor("functionName")</code> specifies the function to process the signal once it is received via an instance’s input port.</li>
+</ul>
+<p>Suppose you want to connect <code>SourceClass</code> and <code>DestinationClass</code> together. Your first step is to have both class extend the <code>AbstractWiredBox</code> class:</p>
+<pre><code>public class SourceClass extends AbstractWiredBox {
+
+}
+</code></pre>
+
+<pre><code>public class DestinationClass extends AbstractWiredBox{
+
+}
+</code></pre>
+
+<p>Then, you add the function <code>sayHello</code> to transmit signal in SourceClass:</p>
+<pre><code>public class SourceClass extends AbstractWiredBox {
+    public void sayHello() {
+        String signal = &quot;Hello world&quot;;
+        Mark.say(&quot;Source transmits&quot;, signal);
+        Connections.getPorts(this).transmit(signal);
+    }
+}
+</code></pre>
+
+<p>Next, you add the mechanism to process received signal using function <code>replyHello</code> in DestinationClass:</p>
+<pre><code>public class DestinationClass extends AbstractWiredBox {
+    public DestinationClass() {
+        Connections.getPorts(this).addSignalProcessor(&quot;replyHello&quot;);
+    }
+
+    public void replyHello(Object input) {
+        Mark.say(&quot;Destination receives&quot;, input);
+    }
+}
+</code></pre>
+
+<blockquote>
+<p><strong>Note that the function for processing received signals in any destination class must be a void method with a single argument of the <code>Object</code> class</strong></p>
+</blockquote>
+<p>To wire the two classes together and test the connection, let's create a test class named, unimaginatively, <code>TestWire</code>:</p>
+<pre><code>public class TestWire {
+    public static void main(String[] args) {
+        SourceClass source = new SourceClass();
+        DestinationClass destination = new DestinationClass();
+        Connections.wire(source, destination);
+        source.sayHello();
+    }
+}
+</code></pre>
+
+<p>When you run the <code>TestWire</code>, the instance of <code>SourceClass</code> will send string "Hello world" to the instance of <code>DestinationClass</code>, where the string is processed by function <code>replyHello()</code>. So you will see the following results in console:</p>
+<pre><code>&gt;&gt;&gt;  Source transmits Hello world
+&gt;&gt;&gt;  Destination receives Hello world
+</code></pre>
+
+<h3 id="you-can-transmit-multiple-objects-by-packing-them">You can transmit multiple objects by packing them</h3>
+<p>Because of characteristics of Java’s reflection mechanism, we required the signal processors to be void methods with single arguments. You can nevertheless send any number of objects at the same time by packaging them up in a <code>Signal</code> object, as in the following example.</p>
+<pre><code>public class SourceClass extends AbstractWiredBox {
+    public void sayHello() {
+        String string = &quot;Hello world&quot;;
+        int number = 11;
+        Object signal = new Signal(string, number);
+        Mark.say(&quot;Source transmits many things&quot;, string, number);
+        Mark.say(&quot;Source transmits&quot;, signal);
+        Connections.getPorts(this).transmit(signal);
+    }
+}
+</code></pre>
+
+<p>We can have two processing functions in <code>DestinationClass</code> to process the input signal, one of which knows how to unpack the signal back to the original objects:</p>
+<pre><code>public class DestinationClass extends AbstractWiredBox {
+
+    public DestinationClass() {
+        Connections.getPorts(this).addSignalProcessor(&quot;replyHello&quot;);
+        Connections.getPorts(this).addSignalProcessor(&quot;replyManyThings&quot;);
+    }
+
+    public void replyHello(Object input) {
+        Mark.say(&quot;Destination receives&quot;, input);
+    }
+
+    public void replyManyThings(Object input) {
+        if (input instanceof Signal) {
+            Signal signal = (Signal) input;
+            String x = signal.get(0, String.class);
+            int y = signal.get(1, Integer.class);
+            Mark.say(&quot;Destination receives many things&quot;, x, y);
+        }
+    }
+}
+</code></pre>
+
+<p>Without modifying the test class, we get some result like:</p>
+<pre><code>&gt;&gt;&gt;  Source transmits many things Hello world 11
+&gt;&gt;&gt;  Source transmits Signals.Signal@30f39991
+&gt;&gt;&gt;  Destination receives Signals.Signal@30f39991
+&gt;&gt;&gt;  Destination receives many things Hello world 11
+</code></pre>
+
+<h2 id="you-can-add-interim-class">You can add interim class</h2>
+<p>We can add one interim class to process the output signal:</p>
+<pre><code>public class InterimClass extends AbstractWiredBox {
+
+    public InterimClass() {
+        Connections.getPorts(this).addSignalProcessor(&quot;process&quot;);
+    }
+
+    public void process(Object input) {
+        input = (Object) ((String) input + &quot; (processed)&quot;);
+        Connections.getPorts(this).transmit(input);
+    }
+
+}
+</code></pre>
+
+<p>We rewire the connection between <code>SourceClass</code> and <code>DestinationClass</code> so that signal is processed by <code>InterimClass</code> before reaching <code>DestinationClass</code>:</p>
+<pre><code>public class TestWire {
+    public static void main(String[] args) {
+        SourceClass source = new SourceClass();
+        DestinationClass destination = new DestinationClass();
+
+        InterimClass interim = new InterimClass();
+        Connections.wire(source, interim);
+        Connections.wire(interim, destination);
+
+        source.sayHello();
+    }
+}
+</code></pre>
+
+<p>The output will be:</p>
+<pre><code>&gt;&gt;&gt;  Source transmits Hello world
+&gt;&gt;&gt;  Destination receives Hello world (processed)
+</code></pre>
+
+<h2 id="you-can-turn-existing-subclasses-into-boxes">You can turn existing subclasses into boxes</h2>
+<p>Suppose you have a class that already extends some other class. You won't be able to make it extend <code>AbstractWiredBox</code> class. So you can make it implement the <code>Wiredbox</code> interface instead. The only extra step is to implement a <code>getName</code> method:</p>
+<pre><code>public class SourceClass implements WiredBox {
+    @Override
+    public String getName() {
+        return null;
+    }
+    ...
+}
+</code></pre>
+
+<h2 id="you-can-use-multiple-input-ports-or-multiple-output-ports">You can use multiple input ports or multiple output ports</h2>
+<p>Between two wired boxes, signals can be transmitted from and received by different ports. To refined three functions of the <code>Connections</code> class:</p>
+<ul>
+<li><code>Connections.wire( [sourcePortName,] source, [destinationPortName,] destination)</code> sets up connections between wired boxes.</li>
+<li><code>Connections.getPorts(this).transmit( [sourcePortName,] signal)</code> transmits a signal via an instance’s output port, optionally named <code>sourcePortName</code>.</li>
+<li><code>Connections.getPorts(this).addSignalProcessor([destinationPortName,] "functionName")</code> specifies the function to process the signal once it is received via an instance’s input port, optionally named <code>destinationPortName</code>.</li>
+</ul>
+<p>For example, <code>SourceClass</code> may have two ways of sending signals:</p>
+<pre><code>public class SourceClass extends AbstractWiredBox {
+
+    public static final String OUTPUT_PORT_1 = &quot;port 1 output&quot;;
+    public static final String OUTPUT_PORT_2 = &quot;port 2 output&quot;;
+
+    public void sayHello() {
+        String signal = &quot;Hello world&quot;;
+        Mark.say(&quot;Source transmits&quot;, signal);
+        Connections.getPorts(this).transmit(OUTPUT_PORT_1, signal);
+    }
+
+    public void sayHelloAgain() {
+        String signal = &quot;Hello world again&quot;;
+        Mark.say(&quot;Source transmits again&quot;, signal);
+        Connections.getPorts(this).transmit(OUTPUT_PORT_2, signal);
+    }
+
+}
+</code></pre>
+
+<p>Accordingly, <code>DestinationClass</code> may have two ways of processing signals:</p>
+<pre><code>public class DestinationClass extends AbstractWiredBox {
+
+    public static final String INPUT_PORT_1 = &quot;port 1 input&quot;;
+    public static final String INPUT_PORT_2 = &quot;port 2 input&quot;;
+
+    public DestinationClass() {
+        Connections.getPorts(this).addSignalProcessor(INPUT_PORT_1, &quot;replyHello&quot;);
+        Connections.getPorts(this).addSignalProcessor(INPUT_PORT_2, &quot;replyHelloAgain&quot;);
+    }
+
+    public void replyHello(Object input) {
+        Mark.say(&quot;Destination receives&quot;, input);
+    }
+    public void replyHelloAgain(Object input) {
+        Mark.say(&quot;Destination receives again&quot;, input);
+    }
+
+}
+
+</code></pre>
+
+<p>In <code>TestWire</code>:</p>
+<pre><code>public class TestWire {
+
+    public static void main(String[] args) {
+        SourceClass source = new SourceClass();
+        DestinationClass destination = new DestinationClass();
+
+        Connections.wire(SourceClass.OUTPUT_PORT_1, source, DestinationClass.INPUT_PORT_1, destination);
+        Connections.wire(SourceClass.OUTPUT_PORT_2, source, DestinationClass.INPUT_PORT_2, destination);
+
+        source.sayHello();
+        source.sayHelloAgain();
+    }
+
+}
+</code></pre>
+
+<p>The output will be:</p>
+<pre><code>&gt;&gt;&gt;  Source transmits Hello world
+&gt;&gt;&gt;  Destination receives Hello world
+&gt;&gt;&gt;  Source transmits again Hello world again
+&gt;&gt;&gt;  Destination receives again Hello world again
+</code></pre>
+
+<hr />
+<p>This version is edited by Zhutian Yang, on 5 August 2019</p>
+<p><a href="https://groups.csail.mit.edu/genesis/Documentation/wire.pdf">An older version</a> is authored by Patrick H. Winston, on 7 October 2014</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../problem-solver/" class="btn btn-neutral float-right" title="Problem Solver">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../core/" class="btn btn-neutral" title="Genesis Core"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Maintained by the Gensis Group, Computer Science and Artificial Intelligence Lab, MIT. <br>
+
+  Any questions? Contact Yang at <a href="mailto:ztyang@mit.edu">ztyang@mit.edu</a> or Dylan at <a href="mailto:dxh@mit.edu">dxh@mit.edu</a>
+
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../core/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../problem-solver/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

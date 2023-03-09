@@ -1,0 +1,8 @@
+Start experiment.
+Start story titled "Alice".
+Alice removed the cover of the phone.
+She removed the old battery from the phone.
+She bought the replacement battery online.
+She inserted the replacement battery into the phone.
+She put on the cover of the phone.
+The end.

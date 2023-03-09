@@ -1,0 +1,20 @@
+{
+    "instructions": [
+        "Place the dinner plate on the lower side of the table cloth, and slightly to the left",
+        "Place the dinner fork directly to the left of the dinner plate with its tines pointed upward",
+        "Place the salad fork, tines upward, to the left of the dinner fork, aligned to the centers of both forks",
+        "Place the dinner knife directly to the right of the dinner plate, with its blade facing the dinner plate",
+        "Place the salad knife directly to the right of and slightly above the dinner knife, its blade toward the dinner plate",
+        "Place the soup spoon, bowl upward, directly to the right of the salad knife",
+        "Place the water glass above and slightly to the right of the dinner plate",
+        "Place the wine glass directly to the right of the water glass",
+        "Place the second wine glass above and slightly to the right of the soup spoon",
+        "Place the coffee cup directly to the right of the soup spoon",
+        "Place the bread plate directly above the dinner fork",
+        "Place the butter knife, blade facing left, diagonally across the upper right side of the bread plate",
+        "Place the dessert fork horizontally above the dinner plate, with the tines toward the right",
+        "Place the dessert spoon horizontally above the dessert fork, with the bowl to the left",
+        "Place the napkin vertically across the center of the plate "
+    ],
+    "video_name": "table3"
+}

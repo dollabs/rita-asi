@@ -1,0 +1,98 @@
+/* ------------------------------
+ Generated on Replace cellphone battery_1118_205647 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Replace cellphone battery".
+Intention: Replace cellphone battery.
+The end.
+
+If the intention is "Replace cellphone battery".
+Verify: you can find a replacement battery.
+Step: slide down the cover from the phone.
+Step: remove the old battery from the phone.
+Step: put a replacement battery in the phone.
+Step: place the cover on the phone.
+The end.
+
+// ------------ Step 1
+If the problem is "slide down the cover from the phone".
+Intention: slide down the cover from the phone.
+The end.
+
+If the intention is "slide down the cover from the phone".
+Step: The cover moves from the phone to table.
+The end.
+
+// ------------ Step 2
+If the problem is "remove the old battery from the phone".
+Intention: remove the old battery from the phone.
+The end.
+
+If the intention is "remove the old battery from the phone".
+Step: The old battery moves from the phone to table.
+The end.
+
+// ------------ Step 3
+If the problem is "put a replacement battery in the phone".
+Intention: put a replacement battery in the phone.
+The end.
+
+If the intention is "put a replacement battery in the phone".
+Step: The replacement battery is in the phone.
+The end.
+
+// ------------ Step 4
+If the problem is "place the cover on the phone".
+Intention: place the cover on the phone.
+The end.
+
+If the intention is "place the cover on the phone".
+Step: The cover is on the phone.
+The end.
+
+/* ------------------------------
+ Generated on Replace cellphone battery_1118_205647 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Replace cellphone battery".
+Verify: you are changing battery for a wet phone.
+Step: remove the cover from a wet phone.
+Step: collect the old battery from a wet phone.
+Step: insert the replacement battery into a wet phone.
+Step: put the cover on a wet phone.
+The end.
+
+// ------------ Step 1
+If the problem is "remove the cover from a wet phone".
+Intention: remove the cover from a wet phone.
+The end.
+
+If the intention is "remove the cover from a wet phone".
+Step: The cover moves from a wet phone to table.
+The end.
+
+// ------------ Step 2
+If the problem is "collect the old battery from a wet phone".
+Intention: collect the old battery from a wet phone.
+The end.
+
+If the intention is "collect the old battery from a wet phone".
+Step: The old battery moves from a wet phone to table.
+The end.
+
+// ------------ Step 3
+If the problem is "insert the replacement battery into a wet phone".
+Intention: insert the replacement battery into a wet phone.
+The end.
+
+If the intention is "insert the replacement battery into a wet phone".
+Step: The replacement battery is in a wet phone.
+The end.
+
+// ------------ Step 4
+If the problem is "put the cover on a wet phone".
+Intention: put the cover on a wet phone.
+The end.
+
+If the intention is "put the cover on a wet phone".
+Step: The cover is on a wet phone.
+The end.
+

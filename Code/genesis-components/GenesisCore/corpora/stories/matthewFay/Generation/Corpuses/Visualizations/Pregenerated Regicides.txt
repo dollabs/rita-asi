@@ -1,0 +1,31 @@
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "Regicides".
+
+Sally is a name.
+Sally is a person.
+
+King Fred is a name.
+King Fred is a person.
+
+John is a name.
+John is a person.
+
+King Fred is the king.
+Sally dislikes King Fred.
+Sally wants to eat King Fred.
+Sally visits King Fred.
+Sally disguises herself as King Fred.
+John wants to be king.
+John attacks King Fred.
+John kills Sally.
+John attacks King Fred because John wants to be king.
+John attacks King Fred because King Fred is the king.
+John becomes king.
+John becomes king because John attacks King Fred.
+John dies.
+
+The end.

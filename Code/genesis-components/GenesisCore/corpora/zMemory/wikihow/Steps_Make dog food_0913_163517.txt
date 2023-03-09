@@ -1,0 +1,120 @@
+/* ------------------------------
+ Generated on 0913_163517 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make dog food".
+Intention: Make dog food.
+The end.
+
+If the intention is "Make dog food".
+Step: Know what nutrients dogs needs.
+Step: Decide whether to feed your dog raw or cooked meat....
+Step: Cook 250 cups meats.
+Step: Cooked starch is cooked.
+Step: Cook 125 cups produces.
+Step: Add calcium.
+Step: Mix the ingredients.
+Step: Buy raw meat.
+Step: Prepare the extras.
+Step: Add greens.
+Step: Serve the raw meal.
+The end.
+
+// ------------ Step 1: Know what nutrients dogs needs
+If the problem is "Know what nutrients dogs needs".
+Intention: Know what nutrients dogs needs.
+The end.
+
+If the intention is "Know what nutrients dogs needs".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Decide whether to feed your dog raw or cooked meat...
+If the problem is "Decide whether to feed your dog raw or cooked meat...".
+Intention: Decide whether to feed your dog raw or cooked meat....
+The end.
+
+If the intention is "Decide whether to feed your dog raw or cooked meat...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Cook 250 cups meats
+If the problem is "Cook 250 cups meats".
+Intention: Cook 250 cups meats.
+The end.
+
+If the intention is "Cook 250 cups meats".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Cooked starch is cooked
+If the problem is "Cooked starch is cooked".
+Intention: Cooked starch is cooked.
+The end.
+
+If the intention is "Cooked starch is cooked".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Cook 125 cups produces
+If the problem is "Cook 125 cups produces".
+Intention: Cook 125 cups produces.
+The end.
+
+If the intention is "Cook 125 cups produces".
+Method: Assume successful.
+The end.
+
+// ------------ Step 6: Add calcium
+If the problem is "Add calcium".
+Intention: Add calcium.
+The end.
+
+If the intention is "Add calcium".
+Method: Assume successful.
+The end.
+
+// ------------ Step 7: Mix the ingredients
+If the problem is "Mix the ingredients".
+Intention: Mix the ingredients.
+The end.
+
+If the intention is "Mix the ingredients".
+Method: Assume successful.
+The end.
+
+// ------------ Step 8: Buy raw meat
+If the problem is "Buy raw meat".
+Intention: Buy raw meat.
+The end.
+
+If the intention is "Buy raw meat".
+Method: Assume successful.
+The end.
+
+// ------------ Step 9: Prepare the extras
+If the problem is "Prepare the extras".
+Intention: Prepare the extras.
+The end.
+
+If the intention is "Prepare the extras".
+Method: Assume successful.
+The end.
+
+// ------------ Step 10: Add greens
+If the problem is "Add greens".
+Intention: Add greens.
+The end.
+
+If the intention is "Add greens".
+Method: Assume successful.
+The end.
+
+// ------------ Step 11: Serve the raw meal
+If the problem is "Serve the raw meal".
+Intention: Serve the raw meal.
+The end.
+
+If the intention is "Serve the raw meal".
+Method: Assume successful.
+The end.
+

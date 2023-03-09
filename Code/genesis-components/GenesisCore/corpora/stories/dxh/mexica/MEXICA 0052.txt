@@ -1,0 +1,17 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0052".
+IN THE MORNING, THE HUNTER AWOKE IN THE GREAT CITY.
+THE PRINCESS WAS A PROUD NATIVE OF THE GREAT CITY.
+THE ARTIST AWAKENED.
+WHEN THE PRINCESS REALIZED THAT THE HUNTER WAS IN LOVE WITH THE ARTIST, SHE DEDICED TO GO AS FAR AS POSSIBLE.
+
+
+
+The end.

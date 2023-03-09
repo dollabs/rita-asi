@@ -1,0 +1,71 @@
+[
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "6d5b8d32-3261-40bc-9935-8387d4223f10",
+    "prediction-stats": {
+      "aggregate-stats": {
+        "breakdown": {
+          "false": 158,
+          "true": 526,
+          "unknown": 50
+        },
+        "total": 734
+      },
+      "aggregate-stats-detail": {
+        "MissionTracker--goto-room": {
+          "counts": {
+            "false": 4
+          },
+          "probability": {
+            "false": 1.0
+          },
+          "totals": 4
+        },
+        "StateEstimation--enter-room": {
+          "counts": {
+            "false": 125,
+            "true": 170,
+            "unknown": 33
+          },
+          "probability": {
+            "false": 0.3810975609756098,
+            "true": 0.5182926829268293,
+            "unknown": 0.100609756097561
+          },
+          "totals": 328
+        },
+        "StateEstimation--exit-room": {
+          "counts": {
+            "true": 356,
+            "unknown": 3
+          },
+          "probability": {
+            "true": 0.9916434540389972,
+            "unknown": 0.008356545961002786
+          },
+          "totals": 359
+        },
+        "StateEstimation--triage-victim": {
+          "counts": {
+            "false": 29,
+            "unknown": 14
+          },
+          "probability": {
+            "false": 0.6744186046511628,
+            "unknown": 0.3255813953488372
+          },
+          "totals": 43
+        }
+      },
+      "mission-stats": {
+        "breakdown": {},
+        "total": 0
+      },
+      "mission-stats-detail": {},
+      "unhandled-timeouts": 0
+    },
+    "received-routing-key": "prediction-stats",
+    "routing-key": "prediction-stats"
+  }
+]

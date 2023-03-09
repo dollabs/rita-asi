@@ -1,0 +1,1553 @@
+;; Compile command: pamela -i Saturn2-6_ver3.pamela --json-ir -o Saturn2-6_ver3.pamela.json-ir build
+
+;;----------------------------------------------------;;
+;;            DO NOT TOUCH THIS SECTION               ;;
+;;----------------------------------------------------;;
+(defpclass General [] :modes [:initial :nothing])
+(defpclass RectangularVolume [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name]
+  :fields {tl-x botLeftX
+           tl-y botLeftZ
+           tl-z botLeftY
+           br-x topRightX
+           br-y topRightZ
+           br-z topRightY
+           v-name name})
+(defpclass DoorCommands [] :modes [:open :close :lock :unlock :leave :enter])
+(defpclass Portal [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name connId]
+  :inherit [RectangularVolume]
+  :fields {conn connId}
+  :modes [:open])
+(defpclass Victim-commands [] :modes [:triage])
+(defpclass block_victim_1 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name]
+  :inherit [RectangularVolume]
+  :modes [:awaiting-triage :being-triaged :triaged :saved :dead :evacuated]
+  :fields {model-state :good}
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :saved
+               :doc "triage"}
+              [command])])
+(defpclass block_victim_2 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name]
+  :inherit [RectangularVolume]
+  :modes [:awaiting-triage :being-triaged :triaged :saved :dead :evacuated]
+  :fields {model-state :urgent}
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :saved
+               :doc "triage"}
+              [command])])
+(defpclass Minecraft-object-wall_sign [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-flower_pot [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-lever [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name connId]
+  :inherit [RectangularVolume]
+  :modes [:on :off :failed]
+  :fields {conns connId}
+  :methods [(defpmethod switch
+              {:pre (and :off (or (= command :on) (= command :off)))
+               ;; +++ won't parse +++ :post command
+               :doc "switch"}
+              [command])])
+(defpclass blockage  [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY
+                      name connId]
+    :meta {:doc "A Blockage"}
+    :inherit [Portal]
+    :modes [:blocked :unblocked])
+
+;; Not used in this file (consider removing these? TBD by Paul)
+(defpclass Entrance-Commands [] :modes [:enter :leave :lock :unlock :open :close])
+(defpclass Illumination [] :modes [:dark :light])
+(defpclass SituatedObject []
+  :meta {:doc "Where the entity is located"}
+  :fields {x 0
+           y 0
+           z 0
+           motion_x 0
+           motion_y 0
+           motion_z 0
+           yaw 0
+           pitch 0
+           space {:observable false}})
+(defpclass Light  [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY
+                  name connId]
+  :inherit [RectangularVolume]
+  :modes [:dark :light :failed]
+  :fields {conns connId})
+(defpclass hole-in-the-wall [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY
+                            name connId]
+    :inherit [Portal]
+    :fields {conn connId}
+    :modes [:open])
+(defpclass Minecraft-object-block_victim_1 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-block_victim_2 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-banner [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-anvil [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-dispenser [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-table [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-button [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-ladder [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-prismarine [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-prismarine [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name]
+  :inherit [RectangularVolume]
+  :modes [:awaiting-triage :being-triaged :saved :dead]
+  :fields {model-state :good}
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :saved
+               :doc "triage"}
+              [command])])
+(defpclass Minecraft-object-gold_block [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-gold_block [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name]
+  :inherit [RectangularVolume]
+  :modes [:awaiting-triage :being-triaged :saved :dead]
+  :fields {model-state :urgent}
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :saved
+               :doc "triage"}
+              [command])])
+
+;;-----------------------------------------------------------;;
+;;   ADJUST AS NEEDED (Autogenerated using parsePamela.js)   ;;
+;;-----------------------------------------------------------;;
+;;----------------------------------
+;; Connections:
+;; • Door and DoubleDoor
+;; • Opening (Doorless entrance)
+;; • Extension (connects subareas)
+;; • CorridorJoin (connects corridors)
+;;----------------------------------
+(defpclass Door [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY
+                name connId]
+    :meta {:doc "A Door"}
+    :modes [:open :closed :locked :blocked]
+    :inherit [Portal]
+    :methods [(defpmethod open
+                {:pre (and :closed (= command (mode-of DoorCommands :open)))
+                :post :open
+                :doc "opens the door"}
+                [command])
+                (defpmethod close
+                {:pre (and :open (= command (mode-of DoorCommands :close)))
+                :post :closed
+                :doc "closes the door"}
+                [command])
+                (defpmethod enter
+                {:pre (and :open (or (= command (mode-of DoorCommands :leave))
+                                    (= command (mode-of DoorCommands :enter))))
+                :doc "Enters the doorway"}
+                [command])
+                (defpmethod lock
+                {:pre (and :closed (= command (mode-of DoorCommands :lock)))
+                :post :locked
+                :doc "locks the door"}
+                [command])
+                (defpmethod unlock
+                {:pre (and :locked (= command (mode-of DoorCommands :unlock)))
+                :post :closed
+                :doc "unlocks the door"}
+                [command])])
+(defpclass DoubleDoor [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY
+                      name connId]
+    :inherit [Door])
+(defpclass Opening [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY
+                            name connId]
+  :meta {:doc "A walk-in entrance without a door"}
+  :inherit [Portal]
+  :modes [:open]
+  :methods [(defpmethod enter
+                {:pre (and :open (or (= command (mode-of DoorCommands :leave))
+                                    (= command (mode-of DoorCommands :enter))))
+                :doc "Enters a doorless entrance"}
+                [command])])
+(defpclass Extension [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY
+                   name connId]
+    :meta {:doc "passes from one sub-area into another (within the same room or hallway)"}
+    :inherit [Portal]
+    :modes [:open])
+(defpclass CorridorJoin [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY
+                        name connId]
+  :meta {:doc "A Corridor Join, like a door for corridoors"}
+  :inherit [Portal]
+  :methods [(defpmethod walk-into-corridor
+              {:pre (or (= command (mode-of DoorCommands :enter))
+                        (= command (mode-of DoorCommands :leave)))
+               :doc "passes from one corridor into another"}
+              [command])])
+
+;;-------------------------
+;; Room
+;;-------------------------
+(defpclass Room1Conn [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1]
+      :meta {:doc "A 1 Connections Room"}
+      :inherit [RectangularVolume]
+      :modes {
+        :unvisited (or (mode-of General :initial))
+        :visited true
+      }
+      :fields {
+		cx1 connId1})
+(defpclass Room2Conn [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2]
+      :meta {:doc "A 2 Connections Room"}
+      :inherit [RectangularVolume]
+      :modes {
+        :unvisited (or (mode-of General :initial))
+        :visited true
+      }
+      :fields {
+		cx1 connId1
+		cx2 connId2})
+(defpclass Room3Conn [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3]
+      :meta {:doc "A 3 Connections Room"}
+      :inherit [RectangularVolume]
+      :modes {
+        :unvisited (or (mode-of General :initial))
+        :visited true
+      }
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3})
+(defpclass Room4Conn [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4]
+      :meta {:doc "A 4 Connections Room"}
+      :inherit [RectangularVolume]
+      :modes {
+        :unvisited (or (mode-of General :initial))
+        :visited true
+      }
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4})
+(defpclass Room8Conn [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6 connId7 connId8]
+      :meta {:doc "A 8 Connections Room"}
+      :inherit [RectangularVolume]
+      :modes {
+        :unvisited (or (mode-of General :initial))
+        :visited true
+      }
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6
+		cx7 connId7
+		cx8 connId8})
+(defpclass Room9Conn [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6 connId7 connId8 connId9]
+      :meta {:doc "A 9 Connections Room"}
+      :inherit [RectangularVolume]
+      :modes {
+        :unvisited (or (mode-of General :initial))
+        :visited true
+      }
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6
+		cx7 connId7
+		cx8 connId8
+		cx9 connId9})
+(defpclass Room14Conn [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6 connId7 connId8 connId9 connId10 connId11 connId12 connId13 connId14]
+      :meta {:doc "A 14 Connections Room"}
+      :inherit [RectangularVolume]
+      :modes {
+        :unvisited (or (mode-of General :initial))
+        :visited true
+      }
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6
+		cx7 connId7
+		cx8 connId8
+		cx9 connId9
+		cx10 connId10
+		cx11 connId11
+		cx12 connId12
+		cx13 connId13
+		cx14 connId14})
+(defpclass Room7Conn [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6 connId7]
+      :meta {:doc "A 7 Connections Room"}
+      :inherit [RectangularVolume]
+      :modes {
+        :unvisited (or (mode-of General :initial))
+        :visited true
+      }
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6
+		cx7 connId7})
+(defpclass Room5Conn [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5]
+      :meta {:doc "A 5 Connections Room"}
+      :inherit [RectangularVolume]
+      :modes {
+        :unvisited (or (mode-of General :initial))
+        :visited true
+      }
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5})
+(defpclass Room11Conn [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6 connId7 connId8 connId9 connId10 connId11]
+      :meta {:doc "A 11 Connections Room"}
+      :inherit [RectangularVolume]
+      :modes {
+        :unvisited (or (mode-of General :initial))
+        :visited true
+      }
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6
+		cx7 connId7
+		cx8 connId8
+		cx9 connId9
+		cx10 connId10
+		cx11 connId11})
+
+;;-------------------------
+;; Treatments
+;;-------------------------
+(defpclass Treatment1Conn [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1]
+      :meta {:doc "A 1 Connections Treatment Area"}
+      :inherit [RectangularVolume]
+      :modes {:unvisited (or (mode-of General :initial))
+          :visited true
+      }
+      :fields {
+		cx1 connId1})
+(defpclass Treatment2Conn [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2]
+      :meta {:doc "A 2 Connections Treatment Area"}
+      :inherit [RectangularVolume]
+      :modes {:unvisited (or (mode-of General :initial))
+          :visited true
+      }
+      :fields {
+		cx1 connId1
+		cx2 connId2})
+
+;;-------------------------
+;; Corridor
+;;-------------------------
+(defpclass ConferenceCWest_CCW [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6 connId7 connId8 connId9]
+      :meta {:doc "A 9 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6
+		cx7 connId7
+		cx8 connId8
+		cx9 connId9})
+(defpclass MainCWest_MCW [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6]
+      :meta {:doc "A 6 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6})
+(defpclass ConferenceCNorth_CCN [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4]
+      :meta {:doc "A 4 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4})
+(defpclass ConferenceRoomC_CRC [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6]
+      :meta {:doc "A 6 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6})
+(defpclass RestroomC_RRC [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4]
+      :meta {:doc "A 4 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4})
+(defpclass ConferenceCEast_CCE [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6 connId7 connId8 connId9 connId10 connId11 connId12 connId13 connId14 connId15]
+      :meta {:doc "A 15 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6
+		cx7 connId7
+		cx8 connId8
+		cx9 connId9
+		cx10 connId10
+		cx11 connId11
+		cx12 connId12
+		cx13 connId13
+		cx14 connId14
+		cx15 connId15})
+(defpclass LimpingLambCNorth_LLCN [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5]
+      :meta {:doc "A 5 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5})
+(defpclass LLC_1 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3]
+      :meta {:doc "A 3 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3})
+(defpclass LLC_2 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6 connId7 connId8 connId9 connId10 connId11]
+      :meta {:doc "A 11 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6
+		cx7 connId7
+		cx8 connId8
+		cx9 connId9
+		cx10 connId10
+		cx11 connId11})
+(defpclass LLC_3 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4]
+      :meta {:doc "A 4 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4})
+(defpclass LLC_4 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6]
+      :meta {:doc "A 6 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6})
+(defpclass LLC_5 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4]
+      :meta {:doc "A 4 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4})
+(defpclass LLC_6 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4]
+      :meta {:doc "A 4 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4})
+(defpclass LLC_7 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5]
+      :meta {:doc "A 5 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5})
+(defpclass LLC_8 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2]
+      :meta {:doc "A 2 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2})
+(defpclass EL_1 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5]
+      :meta {:doc "A 5 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5})
+(defpclass EL_2 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2]
+      :meta {:doc "A 2 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2})
+(defpclass EL_3 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4]
+      :meta {:doc "A 4 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4})
+(defpclass EW [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1]
+      :meta {:doc "A 1 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1})
+(defpclass MainCEast_MCE [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6]
+      :meta {:doc "A 6 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6})
+(defpclass StorageCNorth_SCN_1 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4]
+      :meta {:doc "A 4 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4})
+(defpclass StorageCNorth_SCN_2 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5]
+      :meta {:doc "A 5 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5})
+(defpclass StorageCNorth_SCN_3 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1]
+      :meta {:doc "A 1 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1})
+(defpclass StorageCNorth_SCN_4 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2]
+      :meta {:doc "A 2 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2})
+(defpclass StorageCWest_SCW [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6 connId7 connId8 connId9 connId10]
+      :meta {:doc "A 10 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6
+		cx7 connId7
+		cx8 connId8
+		cx9 connId9
+		cx10 connId10})
+(defpclass StorageCCenter_SCC [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5 connId6 connId7 connId8 connId9]
+      :meta {:doc "A 9 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5
+		cx6 connId6
+		cx7 connId7
+		cx8 connId8
+		cx9 connId9})
+(defpclass StorageCEast_SCE [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name  connId1 connId2 connId3 connId4 connId5]
+      :meta {:doc "A 5 Connections Corridor"}
+      :inherit [RectangularVolume]
+      :fields {
+		cx1 connId1
+		cx2 connId2
+		cx3 connId3
+		cx4 connId4
+		cx5 connId5})
+
+;;-------------------------
+;; Building
+;;-------------------------
+(defpclass Building [ connId1 connId2 connId3 connId4 connId5 connId6 connId7 connId8 connId9 connId10 connId11 connId12 connId13 connId14 connId15 connId16 connId17 connId18 connId19 connId20 connId21 connId22 connId23 connId24 connId25 connId26 connId27]
+        :meta {:doc "The SAR building"}
+        :modes [:electricity-on :no-power]
+        :fields {
+		corridor1 connId1
+		corridor2 connId2
+		corridor3 connId3
+		corridor4 connId4
+		corridor5 connId5
+		corridor6 connId6
+		corridor7 connId7
+		corridor8 connId8
+		corridor9 connId9
+		corridor10 connId10
+		corridor11 connId11
+		corridor12 connId12
+		corridor13 connId13
+		corridor14 connId14
+		corridor15 connId15
+		corridor16 connId16
+		corridor17 connId17
+		corridor18 connId18
+		corridor19 connId19
+		corridor20 connId20
+		corridor21 connId21
+		corridor22 connId22
+		corridor23 connId23
+		corridor24 connId24
+		corridor25 connId25
+		corridor26 connId26
+		corridor27 connId27})
+
+;;-------------------------------------------------;;
+;;                 THE MAP MODEL                   ;;
+;;-------------------------------------------------;;
+(defpclass Saturn []
+  :meta {:doc "Constructor of the SAR scenario - Saturn building"}
+  :fields {
+    ;;-------------------------
+    ;;      1. Lvar
+    ;;-------------------------
+    M1-SCE	 (lvar "M1 Storage T-Storage Corridor East")	;;door
+    M2-SCE	 (lvar "M2 Storage U-Storage Corridor East")	;;door
+    M3-SCE	 (lvar "M3 Storage V-Storage Corridor East")	;;door
+    SCC-L1	 (lvar "Storage Corridor Center-L1 Storage Q")	;;door
+    SCC-L2	 (lvar "Storage Corridor Center-L2 Storage R")	;;door
+    SCC-L3	 (lvar "Storage Corridor Center-L3 Storage S")	;;door
+    K1_2-SCC	 (lvar "K1 Storage M-Storage Corridor Center")	;;door
+    K2_2-SCC	 (lvar "K2 Storage N-Storage Corridor Center")	;;door
+    K3_2-SCC	 (lvar "K3 Storage O-Storage Corridor Center")	;;door
+    K4_2-SCC	 (lvar "K4 Storage P-Storage Corridor Center")	;;door
+    SCW-J1	 (lvar "Storage Corridor West-J1 Storage I")	;;door
+    SCW-J2	 (lvar "Storage Corridor West-J2 Storage J")	;;door
+    SCW-J3	 (lvar "Storage Corridor West-J3 Storage K")	;;door
+    SCW-J4	 (lvar "Storage Corridor West-J4 Storage L")	;;door
+    I1-SCW	 (lvar "I1 Storage A-Storage Corridor West")	;;door
+    I2-SCW	 (lvar "I2 Storage C-Storage Corridor West")	;;door
+    I3-SCW	 (lvar "I3 Storage E-Storage Corridor West")	;;door
+    I4-SCW	 (lvar "I4 Storage G-Storage Corridor West")	;;door
+    I1A-I1	 (lvar "I1A Storage B-I1 Storage A")	;;door
+    I2A-I2	 (lvar "I2A Storage D-I2 Storage C")	;;door
+    I3A-I3	 (lvar "I3A Storage F-I3 Storage E")	;;door
+    I4A-I4	 (lvar "I4A Storage H-I4 Storage G")	;;door
+    H1_2-MCE	 (lvar "H1 Sundollars Coffee-Main Corridor East")	;;double_door
+    EL_1-H1_1	 (lvar "Lobby-H1 Sundollars Coffee")	;;double_door
+    D4_2-EL_1	 (lvar "D4 Break Room-Lobby")	;;door
+    CA-D4_2	 (lvar "Cubicle Area-D4 Break Room")	;;double_door
+    CA-D1	 (lvar "Cubicle Area-D1 Office 101")	;;door
+    CA-D2_1	 (lvar "Cubicle Area-D2 Office 100")	;;door
+    D3_2-CA	 (lvar "D3 Data Storage-Cubicle Area")	;;double_door
+    BUF_4-H2_3	 (lvar "Buffet-H2 Kitchen")	;;door
+    BUF_2-H2_2	 (lvar "Buffet-H2 Kitchen")	;;door
+    BUF_4-H2_2	 (lvar "Buffet-H2 Kitchen")	;;door
+    BUF_1-H2_1	 (lvar "Buffet-H2 Kitchen")	;;door
+    LLC_2-BUF_8	 (lvar "The Limping Lamb Chophouse-Buffet")	;;opening
+    LLC_2-BUF_9	 (lvar "The Limping Lamb Chophouse-Buffet")	;;opening
+    LLC_1-BUF_1	 (lvar "The Limping Lamb Chophouse-Buffet")	;;opening
+    LLC_2-BUF_1	 (lvar "The Limping Lamb Chophouse-Buffet")	;;opening
+    LLC_2-G1	 (lvar "The Limping Lamb Chophouse-G1 Table 10")	;;opening
+    LLC_2-G2	 (lvar "The Limping Lamb Chophouse-G2 Table 11")	;;opening
+    LLC_2-G3	 (lvar "The Limping Lamb Chophouse-G3 Table 12")	;;opening
+    LLC_7-F1	 (lvar "The Limping Lamb Chophouse-F1 Table 9")	;;opening
+    LLC_7-F2	 (lvar "The Limping Lamb Chophouse-F2 Table 8")	;;opening
+    LLC_4-F3	 (lvar "The Limping Lamb Chophouse-F3 Table 7")	;;opening
+    LLC_4-F4_1	 (lvar "The Limping Lamb Chophouse-F4 Table 6")	;;opening
+    LLC_4-F4_2	 (lvar "The Limping Lamb Chophouse-F4 Table 6")	;;opening
+    LLC_7-E1	 (lvar "The Limping Lamb Chophouse-E1 Table 1")	;;opening
+    LLC_7-E2	 (lvar "The Limping Lamb Chophouse-E2 Table 2")	;;opening
+    LLC_5-E3	 (lvar "The Limping Lamb Chophouse-E3 Table 3")	;;opening
+    LLC_3-E5	 (lvar "The Limping Lamb Chophouse-E5 Table 5")	;;opening
+    E4-LLC_3	 (lvar "E4 Table 4-The Limping Lamb Chophouse")	;;opening
+    CCE-C2_5	 (lvar "Conference Corridor East-C2 Room 109")	;;door
+    CCE-C3_4	 (lvar "Conference Corridor East-C3 Room 108")	;;door
+    CCE-C4_4	 (lvar "Conference Corridor East-C4 Room 107")	;;door
+    CCE-C5_6	 (lvar "Conference Corridor East-C5 Room 106")	;;door
+    CCE-C6_5	 (lvar "Conference Corridor East-C6 Room 105")	;;door
+    CCE-C7_5	 (lvar "Conference Corridor East-C7 Room 104")	;;door
+    CCE-C8_5	 (lvar "Conference Corridor East-C8 Room 103")	;;door
+    C8_2-LLCN	 (lvar "C8 Room 103-Limping Lamb Corridor North")	;;door
+    B1_8-CCE	 (lvar "B1 The Computer Farm-Conference Corridor East")	;;door
+    CCW-B1_2	 (lvar "Conference Corridor West-B1 The Computer Farm")	;;door
+    B9_4-CCE	 (lvar "B9 Room 102-Conference Corridor East")	;;door
+    CCN-B8_3	 (lvar "Conference Corridor North-B8 Room 101")	;;door
+    CRC-B6	 (lvar "Conference Room Corridor-B6 Mary Kay Conference Room")	;;double_door
+    CRC-B5	 (lvar "Conference Room Corridor-B5 Amway Conference Room")	;;double_door
+    CCW-B2_2	 (lvar "Conference Corridor West-B2 Janitor's Closet")	;;door
+    A1-MCW	 (lvar "A1 Security Office-Main Corridor West")	;;door
+    A2-CCW	 (lvar "A2 Open Break Area-Conference Corridor West")	;;opening
+    A3_3-CCW	 (lvar "A3 Library-Conference Corridor West")	;;door
+    A4_9-CCW	 (lvar "A4 King Chris's Office-Conference Corridor West")	;;double_door
+    A4A_6-A4_1	 (lvar "A4A The King's Terrace-A4 King Chris's Office")	;;double_door
+    H1_2-H1A_1	 (lvar "H1 Sundollars Coffee-H1A Sundollars Coffee Kitchen")	;;opening
+    TACS-EL_3	 (lvar "South Zone C  Critical-Lobby")	;;double_door
+    RRC-B4_3	 (lvar "Restroom Corridor-B4 Women's Room")	;;door
+    RRC-B3_3	 (lvar "Restroom Corridor-B3 Men's Room")	;;door
+    CCN-B7_1	 (lvar "Conference Corridor North-B7 Herbalife Conference Room")	;;double_door
+    MCW-EL_3	 (lvar "Main Corridor West-Lobby")	;;opening
+    EL_3-MCE	 (lvar "Lobby-Main Corridor East")	;;opening
+    RRC-CCE	 (lvar "Restroom Corridor-Conference Corridor East")	;;opening
+    CRC-CCE	 (lvar "Conference Room Corridor-Conference Corridor East")	;;opening
+    CCN-CCE	 (lvar "Conference Corridor North-Conference Corridor East")	;;opening
+    CCW-MCW	 (lvar "Conference Corridor West-Main Corridor West")	;;opening
+    CCE-C1_5	 (lvar "Conference Corridor East-C1 Room 110")	;;door
+    MCW-CCE	 (lvar "Main Corridor West-Conference Corridor East")	;;opening
+    LLCN-SCN_1	 (lvar "Limping Lamb Corridor North-Storage Corridor North")	;;opening
+    LLCN-SCN_2	 (lvar "Limping Lamb Corridor North-Storage Corridor North")	;;opening
+    MCE-SCW	 (lvar "Main Corridor East-Storage Corridor West")	;;opening
+    MCE-SCC	 (lvar "Main Corridor East-Storage Corridor Center")	;;opening
+    MCE-SCE	 (lvar "Main Corridor East-Storage Corridor East")	;;opening
+    SCN_1-SCE	 (lvar "Storage Corridor North-Storage Corridor East")	;;opening
+    MCW-CA	 (lvar "Main Corridor West-Cubicle Area")	;;opening
+    TACS-EW	 (lvar "South Zone C  Critical-Entrance Walkway")	;;opening
+    MCW-TABS	 (lvar "Main Corridor West-South Zone B  Bone Damage")	;;opening
+    MCE-TAAS	 (lvar "Main Corridor East-South Zone A  Abrasion")	;;opening
+    LLCN-TACN	 (lvar "Limping Lamb Corridor North-North Zone C  Critical")	;;opening
+    TAAN-CCE	 (lvar "North Zone A  Abrasion-Conference Corridor East")	;;opening
+    SCN_1-TABN	 (lvar "Storage Corridor North-North Zone B  Bone Damage")	;;opening
+    LLCN-LLC_1	 (lvar "Limping Lamb Corridor North-The Limping Lamb Chophouse")	;;opening
+    LLC_2-EL_1	 (lvar "The Limping Lamb Chophouse-Lobby")	;;opening
+    LLC_8-EL_1	 (lvar "The Limping Lamb Chophouse-Lobby")	;;opening
+    B7_4-CRC	 (lvar "B7 Herbalife Conference Room-Conference Room Corridor")	;;double_door
+    B7_5-CRC	 (lvar "B7 Herbalife Conference Room-Conference Room Corridor")	;;double_door
+    B2_1-B3_1	 (lvar "B2 Janitor's Closet-B3 Men's Room")	;;door
+    LLC_2-BUF_5	 (lvar "The Limping Lamb Chophouse-Buffet")	;;opening
+    CCW-RRC	 (lvar "Conference Corridor West-Restroom Corridor")	;;opening
+    CCW-CRC	 (lvar "Conference Corridor West-Conference Room Corridor")	;;opening
+    CCW-CCN	 (lvar "Conference Corridor West-Conference Corridor North")	;;opening
+    SCN_2-SCW	 (lvar "Storage Corridor North-Storage Corridor West")	;;opening
+    SCN_4-SCC	 (lvar "Storage Corridor North-Storage Corridor Center")	;;opening
+    A4A_1-A4A_2	 (lvar "A4A The King's Terrace-A4A The King's Terrace")	;;extension
+    A4A_2-A4A_3	 (lvar "A4A The King's Terrace-A4A The King's Terrace")	;;extension
+    A4A_3-A4A_4	 (lvar "A4A The King's Terrace-A4A The King's Terrace")	;;extension
+    A4A_4-A4A_5	 (lvar "A4A The King's Terrace-A4A The King's Terrace")	;;extension
+    A4A_5-A4A_6	 (lvar "A4A The King's Terrace-A4A The King's Terrace")	;;extension
+    A4_1-A4_2	 (lvar "A4 King Chris's Office-A4 King Chris's Office")	;;extension
+    A4_2-A4_3	 (lvar "A4 King Chris's Office-A4 King Chris's Office")	;;extension
+    A4_3-A4_4	 (lvar "A4 King Chris's Office-A4 King Chris's Office")	;;extension
+    A4_3-A4_6	 (lvar "A4 King Chris's Office-A4 King Chris's Office")	;;extension
+    A4_4-A4_5	 (lvar "A4 King Chris's Office-A4 King Chris's Office")	;;extension
+    A4_6-A4_7	 (lvar "A4 King Chris's Office-A4 King Chris's Office")	;;extension
+    A4_7-A4_8	 (lvar "A4 King Chris's Office-A4 King Chris's Office")	;;extension
+    A4_8-A4_9	 (lvar "A4 King Chris's Office-A4 King Chris's Office")	;;extension
+    A3_1-A3_2	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_1-A3_3	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_2-A3_4	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_2-A3_5	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_2-A3_6	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_2-A3_7	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_2-A3_8	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_2-A3_9	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_2-A3_10	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_3-A3_4	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_3-A3_5	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_3-A3_6	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_3-A3_7	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_3-A3_8	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_3-A3_9	 (lvar "A3 Library-A3 Library")	;;extension
+    A3_3-A3_10	 (lvar "A3 Library-A3 Library")	;;extension
+    B7_1-B7_2	 (lvar "B7 Herbalife Conference Room-B7 Herbalife Conference Room")	;;extension
+    B7_1-B7_3	 (lvar "B7 Herbalife Conference Room-B7 Herbalife Conference Room")	;;extension
+    B7_2-B7_5	 (lvar "B7 Herbalife Conference Room-B7 Herbalife Conference Room")	;;extension
+    B7_2-B7_6	 (lvar "B7 Herbalife Conference Room-B7 Herbalife Conference Room")	;;extension
+    B7_3-B7_4	 (lvar "B7 Herbalife Conference Room-B7 Herbalife Conference Room")	;;extension
+    B7_4-B7_5	 (lvar "B7 Herbalife Conference Room-B7 Herbalife Conference Room")	;;extension
+    B7_5-B7_6	 (lvar "B7 Herbalife Conference Room-B7 Herbalife Conference Room")	;;extension
+    B2_1-B2_2	 (lvar "B2 Janitor's Closet-B2 Janitor's Closet")	;;extension
+    B1_1-B1_2	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_1-B1_3	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_1-B1_4	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_1-B1_5	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_1-B1_6	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_1-B1_7	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_1-B1_8	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_2-B1_9	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_2-B1_15	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_8-B1_9	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_8-B1_15	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_10-B1_15	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_11-B1_15	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_12-B1_15	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_13-B1_15	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B1_14-B1_15	 (lvar "B1 The Computer Farm-B1 The Computer Farm")	;;extension
+    B8_1-B8_2	 (lvar "B8 Room 101-B8 Room 101")	;;extension
+    B8_1-B8_3	 (lvar "B8 Room 101-B8 Room 101")	;;extension
+    B8_2-B8_4	 (lvar "B8 Room 101-B8 Room 101")	;;extension
+    B3_1-B3_2	 (lvar "B3 Men's Room-B3 Men's Room")	;;extension
+    B3_1-B3_3	 (lvar "B3 Men's Room-B3 Men's Room")	;;extension
+    B3_1-B3_4	 (lvar "B3 Men's Room-B3 Men's Room")	;;extension
+    B3_2-B3_5	 (lvar "B3 Men's Room-B3 Men's Room")	;;extension
+    B9_1-B9_2	 (lvar "B9 Room 102-B9 Room 102")	;;extension
+    B9_2-B9_3	 (lvar "B9 Room 102-B9 Room 102")	;;extension
+    B9_3-B9_4	 (lvar "B9 Room 102-B9 Room 102")	;;extension
+    B4_1-B4_2	 (lvar "B4 Women's Room-B4 Women's Room")	;;extension
+    B4_1-B4_3	 (lvar "B4 Women's Room-B4 Women's Room")	;;extension
+    B4_1-B4_4	 (lvar "B4 Women's Room-B4 Women's Room")	;;extension
+    B4_4-B4_5	 (lvar "B4 Women's Room-B4 Women's Room")	;;extension
+    C8_1-C8_3	 (lvar "C8 Room 103-C8 Room 103")	;;extension
+    C8_2-C8_3	 (lvar "C8 Room 103-C8 Room 103")	;;extension
+    C8_2-C8_4	 (lvar "C8 Room 103-C8 Room 103")	;;extension
+    C8_4-C8_5	 (lvar "C8 Room 103-C8 Room 103")	;;extension
+    C7_1-C7_3	 (lvar "C7 Room 104-C7 Room 104")	;;extension
+    C7_2-C7_3	 (lvar "C7 Room 104-C7 Room 104")	;;extension
+    C7_2-C7_4	 (lvar "C7 Room 104-C7 Room 104")	;;extension
+    C7_4-C7_5	 (lvar "C7 Room 104-C7 Room 104")	;;extension
+    C6_1-C6_2	 (lvar "C6 Room 105-C6 Room 105")	;;extension
+    C6_1-C6_3	 (lvar "C6 Room 105-C6 Room 105")	;;extension
+    C6_3-C6_4	 (lvar "C6 Room 105-C6 Room 105")	;;extension
+    C6_4-C6_5	 (lvar "C6 Room 105-C6 Room 105")	;;extension
+    C5_1-C5_5	 (lvar "C5 Room 106-C5 Room 106")	;;extension
+    C5_2-C5_3	 (lvar "C5 Room 106-C5 Room 106")	;;extension
+    C5_2-C5_4	 (lvar "C5 Room 106-C5 Room 106")	;;extension
+    C5_3-C5_5	 (lvar "C5 Room 106-C5 Room 106")	;;extension
+    C5_4-C5_6	 (lvar "C5 Room 106-C5 Room 106")	;;extension
+    C4_1-C4_2	 (lvar "C4 Room 107-C4 Room 107")	;;extension
+    C4_1-C4_3	 (lvar "C4 Room 107-C4 Room 107")	;;extension
+    C4_3-C4_4	 (lvar "C4 Room 107-C4 Room 107")	;;extension
+    C3_1-C3_2	 (lvar "C3 Room 108-C3 Room 108")	;;extension
+    C3_1-C3_3	 (lvar "C3 Room 108-C3 Room 108")	;;extension
+    C3_3-C3_4	 (lvar "C3 Room 108-C3 Room 108")	;;extension
+    C2_1-C2_2	 (lvar "C2 Room 109-C2 Room 109")	;;extension
+    C2_1-C2_3	 (lvar "C2 Room 109-C2 Room 109")	;;extension
+    C2_3-C2_4	 (lvar "C2 Room 109-C2 Room 109")	;;extension
+    C2_4-C2_5	 (lvar "C2 Room 109-C2 Room 109")	;;extension
+    C1_1-C1_3	 (lvar "C1 Room 110-C1 Room 110")	;;extension
+    C1_2-C1_3	 (lvar "C1 Room 110-C1 Room 110")	;;extension
+    C1_2-C1_4	 (lvar "C1 Room 110-C1 Room 110")	;;extension
+    C1_4-C1_5	 (lvar "C1 Room 110-C1 Room 110")	;;extension
+    D3_1-D3_2	 (lvar "D3 Data Storage-D3 Data Storage")	;;extension
+    LLC_1-LLC_2	 (lvar "The Limping Lamb Chophouse-The Limping Lamb Chophouse")	;;extension
+    LLC_2-LLC_6	 (lvar "The Limping Lamb Chophouse-The Limping Lamb Chophouse")	;;extension
+    LLC_2-LLC_8	 (lvar "The Limping Lamb Chophouse-The Limping Lamb Chophouse")	;;extension
+    LLC_3-LLC_4	 (lvar "The Limping Lamb Chophouse-The Limping Lamb Chophouse")	;;extension
+    LLC_3-LLC_5	 (lvar "The Limping Lamb Chophouse-The Limping Lamb Chophouse")	;;extension
+    LLC_4-LLC_5	 (lvar "The Limping Lamb Chophouse-The Limping Lamb Chophouse")	;;extension
+    LLC_4-LLC_6	 (lvar "The Limping Lamb Chophouse-The Limping Lamb Chophouse")	;;extension
+    LLC_5-LLC_6	 (lvar "The Limping Lamb Chophouse-The Limping Lamb Chophouse")	;;extension
+    LLC_6-LLC_7	 (lvar "The Limping Lamb Chophouse-The Limping Lamb Chophouse")	;;extension
+    D4_1-D4_2	 (lvar "D4 Break Room-D4 Break Room")	;;extension
+    D4_2-D4_3	 (lvar "D4 Break Room-D4 Break Room")	;;extension
+    F4_1-F4_2	 (lvar "F4 Table 6-F4 Table 6")	;;extension
+    D2_1-D2_2	 (lvar "D2 Office 100-D2 Office 100")	;;extension
+    EL_1-EL_2	 (lvar "Lobby-Lobby")	;;extension
+    EL_2-EL_3	 (lvar "Lobby-Lobby")	;;extension
+    H1_1-H1_2	 (lvar "H1 Sundollars Coffee-H1 Sundollars Coffee")	;;extension
+    BUF_1-BUF_2	 (lvar "Buffet-Buffet")	;;extension
+    BUF_1-BUF_3	 (lvar "Buffet-Buffet")	;;extension
+    BUF_2-BUF_4	 (lvar "Buffet-Buffet")	;;extension
+    BUF_3-BUF_5	 (lvar "Buffet-Buffet")	;;extension
+    BUF_3-BUF_6	 (lvar "Buffet-Buffet")	;;extension
+    BUF_4-BUF_6	 (lvar "Buffet-Buffet")	;;extension
+    BUF_4-BUF_8	 (lvar "Buffet-Buffet")	;;extension
+    BUF_4-BUF_10	 (lvar "Buffet-Buffet")	;;extension
+    BUF_4-BUF_12	 (lvar "Buffet-Buffet")	;;extension
+    BUF_5-BUF_6	 (lvar "Buffet-Buffet")	;;extension
+    BUF_6-BUF_7	 (lvar "Buffet-Buffet")	;;extension
+    BUF_7-BUF_8	 (lvar "Buffet-Buffet")	;;extension
+    BUF_8-BUF_9	 (lvar "Buffet-Buffet")	;;extension
+    BUF_9-BUF_10	 (lvar "Buffet-Buffet")	;;extension
+    BUF_9-BUF_11	 (lvar "Buffet-Buffet")	;;extension
+    BUF_11-BUF_12	 (lvar "Buffet-Buffet")	;;extension
+    BUF_12-BUF_13	 (lvar "Buffet-Buffet")	;;extension
+    H2_1-H2_2	 (lvar "H2 Kitchen-H2 Kitchen")	;;extension
+    H2_2-H2_3	 (lvar "H2 Kitchen-H2 Kitchen")	;;extension
+    H2_3-H2_4	 (lvar "H2 Kitchen-H2 Kitchen")	;;extension
+    H1A_1-H1A_2	 (lvar "H1A Sundollars Coffee Kitchen-H1A Sundollars Coffee Kitchen")	;;extension
+    SCN_1-SCN_2	 (lvar "Storage Corridor North-Storage Corridor North")	;;extension
+    SCN_2-SCN_3	 (lvar "Storage Corridor North-Storage Corridor North")	;;extension
+    SCN_2-SCN_4	 (lvar "Storage Corridor North-Storage Corridor North")	;;extension
+    K4_1-K4_2	 (lvar "K4 Storage P-K4 Storage P")	;;extension
+    K3_1-K3_2	 (lvar "K3 Storage O-K3 Storage O")	;;extension
+    K2_1-K2_2	 (lvar "K2 Storage N-K2 Storage N")	;;extension
+    K1_1-K1_2	 (lvar "K1 Storage M-K1 Storage M")	;;extension
+    ;;-------------------------
+    ;;      2. OBJECTS
+    ;;-------------------------
+    ;; 2a. Doors and openings
+    c_110_-33_111_-32_0		(Door -2091 42 60 -2090 43 61 "c_110_-33_111_-32" M1-SCE)
+    c_110_-52_111_-51_0		(Door -2091 23 60 -2090 24 61 "c_110_-52_111_-51" M2-SCE)
+    c_110_-69_111_-68_0		(Door -2091 6 60 -2090 7 61 "c_110_-69_111_-68" M3-SCE)
+    c_101_-25_102_-24_0		(Door -2100 50 60 -2099 51 61 "c_101_-25_102_-24" SCC-L1)
+    c_101_-43_102_-42_0		(Door -2100 32 60 -2099 33 61 "c_101_-43_102_-42" SCC-L2)
+    c_101_-60_102_-59_0		(Door -2100 15 60 -2099 16 61 "c_101_-60_102_-59" SCC-L3)
+    c_97_-26_98_-25_0		(Door -2104 49 60 -2103 50 61 "c_97_-26_98_-25" K1_2-SCC)
+    c_97_-37_98_-36_0		(Door -2104 38 60 -2103 39 61 "c_97_-37_98_-36" K2_2-SCC)
+    c_97_-48_98_-47_0		(Door -2104 27 60 -2103 28 61 "c_97_-48_98_-47" K3_2-SCC)
+    c_97_-59_98_-58_0		(Door -2104 16 60 -2103 17 61 "c_97_-59_98_-58" K4_2-SCC)
+    c_85_-24_86_-23_0		(Door -2116 51 60 -2115 52 61 "c_85_-24_86_-23" SCW-J1)
+    c_85_-35_86_-34_0		(Door -2116 40 60 -2115 41 61 "c_85_-35_86_-34" SCW-J2)
+    c_85_-46_86_-45_0		(Door -2116 29 60 -2115 30 61 "c_85_-46_86_-45" SCW-J3)
+    c_85_-57_86_-56_0		(Door -2116 18 60 -2115 19 61 "c_85_-57_86_-56" SCW-J4)
+    c_78_-24_79_-23_0		(Door -2123 51 60 -2122 52 61 "c_78_-24_79_-23" I1-SCW)
+    c_78_-35_79_-34_0		(Door -2123 40 60 -2122 41 61 "c_78_-35_79_-34" I2-SCW)
+    c_78_-46_79_-45_0		(Door -2123 29 60 -2122 30 61 "c_78_-46_79_-45" I3-SCW)
+    c_78_-57_79_-56_0		(Door -2123 18 60 -2122 19 61 "c_78_-57_79_-56" I4-SCW)
+    c_72_-26_73_-25_0		(Door -2129 49 60 -2128 50 61 "c_72_-26_73_-25" I1A-I1)
+    c_72_-38_73_-37_0		(Door -2129 37 60 -2128 38 61 "c_72_-38_73_-37" I2A-I2)
+    c_72_-48_73_-47_0		(Door -2129 27 60 -2128 28 61 "c_72_-48_73_-47" I3A-I3)
+    c_72_-60_73_-59_0		(Door -2129 15 60 -2128 16 61 "c_72_-60_73_-59" I4A-I4)
+    c_64_-21_66_-20_0		(DoubleDoor -2137 54 60 -2135 55 61 "c_64_-21_66_-20" H1_2-MCE)
+    c_51_-30_52_-28_0		(DoubleDoor -2150 45 60 -2149 47 61 "c_51_-30_52_-28" EL_1-H1_1)
+    c_43_-37_44_-36_0		(Door -2158 38 60 -2157 39 61 "c_43_-37_44_-36" D4_2-EL_1)
+    c_37_-32_39_-31_0		(DoubleDoor -2164 43 60 -2162 44 61 "c_37_-32_39_-31" CA-D4_2)
+    c_39_-25_40_-24_0		(Door -2162 50 60 -2161 51 61 "c_39_-25_40_-24" CA-D1)
+    c_39_-30_40_-29_0		(Door -2162 45 60 -2161 46 61 "c_39_-30_40_-29" CA-D2_1)
+    c_27_-32_29_-31_0		(DoubleDoor -2174 43 60 -2172 44 61 "c_27_-32_29_-31" D3_2-CA)
+    c_60_-43_61_-42_0		(Door -2141 32 60 -2140 33 61 "c_60_-43_61_-42" BUF_4-H2_3)
+    c_60_-49_61_-48_0		(Door -2141 26 60 -2140 27 61 "c_60_-49_61_-48" BUF_4-H2_3)
+    c_60_-55_61_-54_0		(Door -2141 20 60 -2140 21 61 "c_60_-55_61_-54" BUF_4-H2_3)
+    c_60_-61_61_-60_0		(Door -2141 14 60 -2140 15 61 "c_60_-61_61_-60" BUF_4-H2_3)
+    c_60_-67_61_-66_0		(Door -2141 8 60 -2140 9 61 "c_60_-67_61_-66" BUF_2-H2_2)
+    c_60_-67_61_-66_1		(Door -2141 8 60 -2140 9 61 "c_60_-67_61_-66" BUF_4-H2_2)
+    c_58_-69_59_-68_0		(Door -2143 6 60 -2142 7 61 "c_58_-69_59_-68" BUF_1-H2_1)
+    c_52_-55_53_-50_0		(Opening -2149 20 60 -2148 25 61 "c_52_-55_53_-50" LLC_2-BUF_8)
+    c_52_-55_53_-50_1		(Opening -2149 20 60 -2148 25 61 "c_52_-55_53_-50" LLC_2-BUF_9)
+    c_52_-68_53_-66_0		(Opening -2149 7 60 -2148 9 61 "c_52_-68_53_-66" LLC_1-BUF_1)
+    c_52_-68_53_-66_1		(Opening -2149 7 60 -2148 9 61 "c_52_-68_53_-66" LLC_2-BUF_1)
+    c_48_-51_49_-50_0		(Opening -2153 24 60 -2152 25 61 "c_48_-51_49_-50" LLC_2-G1)
+    c_48_-59_49_-58_0		(Opening -2153 16 60 -2152 17 61 "c_48_-59_49_-58" LLC_2-G2)
+    c_48_-65_49_-64_0		(Opening -2153 10 60 -2152 11 61 "c_48_-65_49_-64" LLC_2-G3)
+    c_38_-46_39_-45_0		(Opening -2163 29 60 -2162 30 61 "c_38_-46_39_-45" LLC_7-F1)
+    c_38_-51_39_-50_0		(Opening -2163 24 60 -2162 25 61 "c_38_-51_39_-50" LLC_7-F2)
+    c_38_-60_39_-59_0		(Opening -2163 15 60 -2162 16 61 "c_38_-60_39_-59" LLC_4-F3)
+    c_38_-64_39_-63_0		(Opening -2163 11 60 -2162 12 61 "c_38_-64_39_-63" LLC_4-F4_1)
+    c_38_-64_39_-63_1		(Opening -2163 11 60 -2162 12 61 "c_38_-64_39_-63" LLC_4-F4_2)
+    c_34_-45_35_-44_0		(Opening -2167 30 60 -2166 31 61 "c_34_-45_35_-44" LLC_7-E1)
+    c_34_-50_35_-49_0		(Opening -2167 25 60 -2166 26 61 "c_34_-50_35_-49" LLC_7-E2)
+    c_34_-59_35_-58_0		(Opening -2167 16 60 -2166 17 61 "c_34_-59_35_-58" LLC_5-E3)
+    c_35_-66_36_-65_0		(Opening -2166 9 60 -2165 10 61 "c_35_-66_36_-65" LLC_3-E5)
+    c_30_-66_31_-65_0		(Opening -2171 9 60 -2170 10 61 "c_30_-66_31_-65" E4-LLC_3)
+    c_16_-28_17_-27_0		(Door -2185 47 60 -2184 48 61 "c_16_-28_17_-27" CCE-C2_5)
+    c_16_-35_17_-34_0		(Door -2185 40 60 -2184 41 61 "c_16_-35_17_-34" CCE-C3_4)
+    c_16_-42_17_-41_0		(Door -2185 33 60 -2184 34 61 "c_16_-42_17_-41" CCE-C4_4)
+    c_16_-49_17_-48_0		(Door -2185 26 60 -2184 27 61 "c_16_-49_17_-48" CCE-C5_6)
+    c_16_-56_17_-55_0		(Door -2185 19 60 -2184 20 61 "c_16_-56_17_-55" CCE-C6_5)
+    c_16_-63_17_-62_0		(Door -2185 12 60 -2184 13 61 "c_16_-63_17_-62" CCE-C7_5)
+    c_16_-70_17_-69_0		(Door -2185 5 60 -2184 6 61 "c_16_-70_17_-69" CCE-C8_5)
+    c_26_-75_27_-74_0		(Door -2175 0 60 -2174 1 61 "c_26_-75_27_-74" C8_2-LLCN)
+    c_26_-73_27_-72_0		(Door -2175 2 60 -2174 3 61 "c_26_-73_27_-72" C8_2-LLCN)
+    c_10_-25_11_-24_0		(Door -2191 50 60 -2190 51 61 "c_10_-25_11_-24" B1_8-CCE)
+    c_-9_-25_-8_-24_0		(Door -2210 50 60 -2209 51 61 "c_-9_-25_-8_-24" CCW-B1_2)
+    c_10_-70_11_-69_0		(Door -2191 5 60 -2190 6 61 "c_10_-70_11_-69" B9_4-CCE)
+    c_2_-69_3_-68_0		(Door -2199 6 60 -2198 7 61 "c_2_-69_3_-68" CCN-B8_3)
+    c_2_-47_4_-46_0		(DoubleDoor -2199 28 60 -2197 29 61 "c_2_-47_4_-46" CRC-B6)
+    c_-2_-47_0_-46_0		(DoubleDoor -2203 28 60 -2201 29 61 "c_-2_-47_0_-46" CRC-B5)
+    c_-9_-37_-8_-36_0		(Door -2210 38 60 -2209 39 61 "c_-9_-37_-8_-36" CCW-B2_2)
+    c_-15_-17_-14_-16_0		(Door -2216 58 60 -2215 59 61 "c_-15_-17_-14_-16" A1-MCW)
+    c_-15_-26_-14_-21_0		(Opening -2216 49 60 -2215 54 61 "c_-15_-26_-14_-21" A2-CCW)
+    c_-15_-30_-14_-29_0		(Door -2216 45 60 -2215 46 61 "c_-15_-30_-14_-29" A3_3-CCW)
+    c_-15_-46_-14_-45_0		(Door -2216 29 60 -2215 30 61 "c_-15_-46_-14_-45" A3_3-CCW)
+    c_-15_-63_-14_-61_0		(DoubleDoor -2216 12 60 -2215 14 61 "c_-15_-63_-14_-61" A4_9-CCW)
+    c_-16_-77_-14_-76_0		(DoubleDoor -2217 -2 60 -2215 -1 61 "c_-16_-77_-14_-76" A4A_6-A4_1)
+    c_64_-28_65_-27_0		(Opening -2137 47 60 -2136 48 61 "c_64_-28_65_-27" H1_2-H1A_1)
+    c_45_-15_47_-14_0		(DoubleDoor -2156 60 60 -2154 61 61 "c_45_-15_47_-14" TACS-EL_3)
+    c_48_-15_50_-14_0		(DoubleDoor -2153 60 60 -2151 61 61 "c_48_-15_50_-14" TACS-EL_3)
+    c_6_-35_7_-34_0		(Door -2195 40 60 -2194 41 61 "c_6_-35_7_-34" RRC-B4_3)
+    c_0_-35_1_-34_0		(Door -2201 40 60 -2200 41 61 "c_0_-35_1_-34" RRC-B3_3)
+    c_-8_-63_-6_-62_0		(DoubleDoor -2209 12 60 -2207 13 61 "c_-8_-63_-6_-62" CCN-B7_1)
+    c_43_-20_44_-15_0		(CorridorJoin -2158 55 60 -2157 60 61 "c_43_-20_44_-15" MCW-EL_3)
+    c_51_-20_52_-15_0		(CorridorJoin -2150 55 60 -2149 60 61 "c_51_-20_52_-15" EL_3-MCE)
+    c_10_-34_11_-29_0		(CorridorJoin -2191 41 60 -2190 46 61 "c_10_-34_11_-29" RRC-CCE)
+    c_10_-52_11_-47_0		(CorridorJoin -2191 23 60 -2190 28 61 "c_10_-52_11_-47" CRC-CCE)
+    c_10_-68_11_-63_0		(CorridorJoin -2191 7 60 -2190 12 61 "c_10_-68_11_-63" CCN-CCE)
+    c_-14_-21_-9_-20_0		(CorridorJoin -2215 54 60 -2210 55 61 "c_-14_-21_-9_-20" CCW-MCW)
+    c_16_-22_17_-21_0		(Door -2185 53 60 -2184 54 61 "c_16_-22_17_-21" CCE-C1_5)
+    c_11_-21_16_-20_0		(CorridorJoin -2190 54 60 -2185 55 61 "c_11_-21_16_-20" MCW-CCE)
+    c_66_-75_67_-72_0		(CorridorJoin -2135 0 60 -2134 3 61 "c_66_-75_67_-72" LLCN-SCN_1)
+    c_66_-75_67_-72_1		(CorridorJoin -2135 0 60 -2134 3 61 "c_66_-75_67_-72" LLCN-SCN_2)
+    c_79_-21_85_-20_0		(CorridorJoin -2122 54 60 -2116 55 61 "c_79_-21_85_-20" MCE-SCW)
+    c_98_-21_101_-20_0		(CorridorJoin -2103 54 60 -2100 55 61 "c_98_-21_101_-20" MCE-SCC)
+    c_111_-21_114_-20_0		(CorridorJoin -2090 54 60 -2087 55 61 "c_111_-21_114_-20" MCE-SCE)
+    c_111_-73_114_-72_0		(CorridorJoin -2090 2 60 -2087 3 61 "c_111_-73_114_-72" SCN_1-SCE)
+    c_27_-21_29_-20_0		(Opening -2174 54 60 -2172 55 61 "c_27_-21_29_-20" MCW-CA)
+    c_46_-11_49_-10_0		(Opening -2155 64 60 -2152 65 61 "c_46_-11_49_-10" TACS-EW)
+    c_12_-15_15_-14_0		(Opening -2189 60 60 -2186 61 61 "c_12_-15_15_-14" MCW-TABS)
+    c_80_-15_84_-14_0		(Opening -2121 60 60 -2117 61 61 "c_80_-15_84_-14" MCE-TAAS)
+    c_46_-77_49_-76_0		(Opening -2155 -2 60 -2152 -1 61 "c_46_-77_49_-76" LLCN-TACN)
+    c_12_-77_15_-76_0		(Opening -2189 -2 60 -2186 -1 61 "c_12_-77_15_-76" TAAN-CCE)
+    c_80_-77_84_-76_0		(Opening -2121 -2 60 -2117 -1 61 "c_80_-77_84_-76" SCN_1-TABN)
+    c_45_-71_50_-70_0		(CorridorJoin -2156 4 60 -2151 5 61 "c_45_-71_50_-70" LLCN-LLC_1)
+    c_45_-42_50_-41_0		(CorridorJoin -2156 33 60 -2151 34 61 "c_45_-42_50_-41" LLC_2-EL_1)
+    c_45_-42_50_-41_1		(CorridorJoin -2156 33 60 -2151 34 61 "c_45_-42_50_-41" LLC_8-EL_1)
+    c_8_-53_10_-52_0		(DoubleDoor -2193 22 60 -2191 23 61 "c_8_-53_10_-52" B7_4-CRC)
+    c_8_-53_10_-52_1		(DoubleDoor -2193 22 60 -2191 23 61 "c_8_-53_10_-52" B7_5-CRC)
+    c_-4_-39_-3_-38_0		(Door -2205 36 60 -2204 37 61 "c_-4_-39_-3_-38" B2_1-B3_1)
+    c_37_-21_39_-20_0		(Opening -2164 54 60 -2162 55 61 "c_37_-21_39_-20" MCW-CA)
+    c_52_-63_53_-60_0		(Opening -2149 12 60 -2148 15 61 "c_52_-63_53_-60" LLC_2-BUF_5)
+    c_-9_-34_-8_-29_0		(CorridorJoin -2210 41 60 -2209 46 61 "c_-9_-34_-8_-29" CCW-RRC)
+    c_-9_-52_-8_-47_0		(CorridorJoin -2210 23 60 -2209 28 61 "c_-9_-52_-8_-47" CCW-CRC)
+    c_-9_-68_-8_-63_0		(CorridorJoin -2210 7 60 -2209 12 61 "c_-9_-68_-8_-63" CCW-CCN)
+    c_79_-68_85_-67_0		(CorridorJoin -2122 7 60 -2116 8 61 "c_79_-68_85_-67" SCN_2-SCW)
+    c_98_-65_101_-64_0		(CorridorJoin -2103 10 60 -2100 11 61 "c_98_-65_101_-64" SCN_4-SCC)
+    ce_-16_-84_-14_-84_0		(Extension -2217 -9 60 -2215 -9 61 "ce_-16_-84_-14_-84" A4A_1-A4A_2)
+    ce_-19_-83_-11_-83_0		(Extension -2220 -8 60 -2212 -8 61 "ce_-19_-83_-11_-83" A4A_2-A4A_3)
+    ce_-20_-82_-10_-82_0		(Extension -2221 -7 60 -2211 -7 61 "ce_-20_-82_-10_-82" A4A_3-A4A_4)
+    ce_-21_-81_-9_-81_0		(Extension -2222 -6 60 -2210 -6 61 "ce_-21_-81_-9_-81" A4A_4-A4A_5)
+    ce_-22_-79_-8_-79_0		(Extension -2223 -4 60 -2209 -4 61 "ce_-22_-79_-8_-79" A4A_5-A4A_6)
+    ce_-23_-75_-8_-75_0		(Extension -2224 0 60 -2209 0 61 "ce_-23_-75_-8_-75" A4_1-A4_2)
+    ce_-23_-74_-9_-74_0		(Extension -2224 1 60 -2210 1 61 "ce_-23_-74_-9_-74" A4_2-A4_3)
+    ce_-9_-71_-9_-69_0		(Extension -2210 4 60 -2210 6 61 "ce_-9_-71_-9_-69" A4_3-A4_4)
+    ce_-23_-69_-15_-69_0		(Extension -2224 6 60 -2216 6 61 "ce_-23_-69_-15_-69" A4_3-A4_6)
+    ce_-8_-70_-8_-69_0		(Extension -2209 5 60 -2209 6 61 "ce_-8_-70_-8_-69" A4_4-A4_5)
+    ce_-23_-65_-20_-65_0		(Extension -2224 10 60 -2221 10 61 "ce_-23_-65_-20_-65" A4_6-A4_7)
+    ce_-23_-64_-21_-64_0		(Extension -2224 11 60 -2222 11 61 "ce_-23_-64_-21_-64" A4_7-A4_8)
+    ce_-21_-63_-21_-61_0		(Extension -2222 12 60 -2222 14 61 "ce_-21_-63_-21_-61" A4_8-A4_9)
+    ce_-23_-57_-22_-57_0		(Extension -2224 18 60 -2223 18 61 "ce_-23_-57_-22_-57" A3_1-A3_2)
+    ce_-18_-57_-15_-57_0		(Extension -2219 18 60 -2216 18 61 "ce_-18_-57_-15_-57" A3_1-A3_3)
+    ce_-22_-55_-22_-53_0		(Extension -2223 20 60 -2223 22 61 "ce_-22_-55_-22_-53" A3_2-A3_4)
+    ce_-22_-51_-22_-49_0		(Extension -2223 24 60 -2223 26 61 "ce_-22_-51_-22_-49" A3_2-A3_5)
+    ce_-22_-47_-22_-45_0		(Extension -2223 28 60 -2223 30 61 "ce_-22_-47_-22_-45" A3_2-A3_6)
+    ce_-22_-43_-22_-41_0		(Extension -2223 32 60 -2223 34 61 "ce_-22_-43_-22_-41" A3_2-A3_7)
+    ce_-22_-39_-22_-37_0		(Extension -2223 36 60 -2223 38 61 "ce_-22_-39_-22_-37" A3_2-A3_8)
+    ce_-22_-35_-22_-33_0		(Extension -2223 40 60 -2223 42 61 "ce_-22_-35_-22_-33" A3_2-A3_9)
+    ce_-22_-31_-22_-29_0		(Extension -2223 44 60 -2223 46 61 "ce_-22_-31_-22_-29" A3_2-A3_10)
+    ce_-18_-55_-18_-53_0		(Extension -2219 20 60 -2219 22 61 "ce_-18_-55_-18_-53" A3_3-A3_4)
+    ce_-18_-51_-18_-49_0		(Extension -2219 24 60 -2219 26 61 "ce_-18_-51_-18_-49" A3_3-A3_5)
+    ce_-18_-47_-18_-45_0		(Extension -2219 28 60 -2219 30 61 "ce_-18_-47_-18_-45" A3_3-A3_6)
+    ce_-18_-43_-18_-41_0		(Extension -2219 32 60 -2219 34 61 "ce_-18_-43_-18_-41" A3_3-A3_7)
+    ce_-18_-39_-18_-37_0		(Extension -2219 36 60 -2219 38 61 "ce_-18_-39_-18_-37" A3_3-A3_8)
+    ce_-18_-35_-18_-33_0		(Extension -2219 40 60 -2219 42 61 "ce_-18_-35_-18_-33" A3_3-A3_9)
+    ce_-18_-31_-18_-29_0		(Extension -2219 44 60 -2219 46 61 "ce_-18_-31_-18_-29" A3_3-A3_10)
+    ce_-8_-61_6_-61_0		(Extension -2209 14 60 -2195 14 61 "ce_-8_-61_6_-61" B7_1-B7_2)
+    ce_7_-61_9_-61_0		(Extension -2194 14 60 -2192 14 61 "ce_7_-61_9_-61" B7_1-B7_3)
+    ce_6_-58_6_-54_0		(Extension -2195 17 60 -2195 21 61 "ce_6_-58_6_-54" B7_2-B7_5)
+    ce_-7_-54_6_-54_0		(Extension -2208 21 60 -2195 21 61 "ce_-7_-54_6_-54" B7_2-B7_6)
+    ce_9_-59_10_-59_0		(Extension -2192 16 60 -2191 16 61 "ce_9_-59_10_-59" B7_3-B7_4)
+    ce_9_-58_9_-53_0		(Extension -2192 17 60 -2192 22 61 "ce_9_-58_9_-53" B7_4-B7_5)
+    ce_6_-54_6_-53_0		(Extension -2195 21 60 -2195 22 61 "ce_6_-54_6_-53" B7_5-B7_6)
+    ce_-8_-37_-5_-37_0		(Extension -2209 38 60 -2206 38 61 "ce_-8_-37_-5_-37" B2_1-B2_2)
+    ce_-8_-27_-7_-27_0		(Extension -2209 48 60 -2208 48 61 "ce_-8_-27_-7_-27" B1_1-B1_2)
+    ce_-6_-27_-4_-27_0		(Extension -2207 48 60 -2205 48 61 "ce_-6_-27_-4_-27" B1_1-B1_3)
+    ce_-3_-27_-1_-27_0		(Extension -2204 48 60 -2202 48 61 "ce_-3_-27_-1_-27" B1_1-B1_4)
+    ce_0_-27_2_-27_0		(Extension -2201 48 60 -2199 48 61 "ce_0_-27_2_-27" B1_1-B1_5)
+    ce_3_-27_5_-27_0		(Extension -2198 48 60 -2196 48 61 "ce_3_-27_5_-27" B1_1-B1_6)
+    ce_6_-27_8_-27_0		(Extension -2195 48 60 -2193 48 61 "ce_6_-27_8_-27" B1_1-B1_7)
+    ce_9_-27_10_-27_0		(Extension -2192 48 60 -2191 48 61 "ce_9_-27_10_-27" B1_1-B1_8)
+    ce_-7_-25_-7_-24_0		(Extension -2208 50 60 -2208 51 61 "ce_-7_-25_-7_-24" B1_2-B1_9)
+    ce_-7_-22_-7_-21_0		(Extension -2208 53 60 -2208 54 61 "ce_-7_-22_-7_-21" B1_2-B1_15)
+    ce_9_-25_9_-24_0		(Extension -2192 50 60 -2192 51 61 "ce_9_-25_9_-24" B1_8-B1_9)
+    ce_9_-22_9_-21_0		(Extension -2192 53 60 -2192 54 61 "ce_9_-22_9_-21" B1_8-B1_15)
+    ce_-6_-22_-4_-22_0		(Extension -2207 53 60 -2205 53 61 "ce_-6_-22_-4_-22" B1_10-B1_15)
+    ce_-3_-22_-1_-22_0		(Extension -2204 53 60 -2202 53 61 "ce_-3_-22_-1_-22" B1_11-B1_15)
+    ce_0_-22_2_-22_0		(Extension -2201 53 60 -2199 53 61 "ce_0_-22_2_-22" B1_12-B1_15)
+    ce_3_-22_5_-22_0		(Extension -2198 53 60 -2196 53 61 "ce_3_-22_5_-22" B1_13-B1_15)
+    ce_6_-22_8_-22_0		(Extension -2195 53 60 -2193 53 61 "ce_6_-22_8_-22" B1_14-B1_15)
+    ce_-5_-72_1_-72_0		(Extension -2206 3 60 -2200 3 61 "ce_-5_-72_1_-72" B8_1-B8_2)
+    ce_2_-72_3_-72_0		(Extension -2199 3 60 -2198 3 61 "ce_2_-72_3_-72" B8_1-B8_3)
+    ce_-5_-71_0_-71_0		(Extension -2206 4 60 -2201 4 61 "ce_-5_-71_0_-71" B8_2-B8_4)
+    ce_-3_-37_-2_-37_0		(Extension -2204 38 60 -2203 38 61 "ce_-3_-37_-2_-37" B3_1-B3_2)
+    ce_0_-37_1_-37_0		(Extension -2201 38 60 -2200 38 61 "ce_0_-37_1_-37" B3_1-B3_3)
+    ce_2_-37_3_-37_0		(Extension -2199 38 60 -2198 38 61 "ce_2_-37_3_-37" B3_1-B3_4)
+    ce_-2_-36_-2_-35_0		(Extension -2203 39 60 -2203 40 61 "ce_-2_-36_-2_-35" B3_2-B3_5)
+    ce_4_-72_8_-72_0		(Extension -2197 3 60 -2193 3 61 "ce_4_-72_8_-72" B9_1-B9_2)
+    ce_4_-71_7_-71_0		(Extension -2197 4 60 -2194 4 61 "ce_4_-71_7_-71" B9_2-B9_3)
+    ce_7_-70_7_-69_0		(Extension -2194 5 60 -2194 6 61 "ce_7_-70_7_-69" B9_3-B9_4)
+    ce_4_-37_5_-37_0		(Extension -2197 38 60 -2196 38 61 "ce_4_-37_5_-37" B4_1-B4_2)
+    ce_6_-37_7_-37_0		(Extension -2195 38 60 -2194 38 61 "ce_6_-37_7_-37" B4_1-B4_3)
+    ce_9_-37_10_-37_0		(Extension -2192 38 60 -2191 38 61 "ce_9_-37_10_-37" B4_1-B4_4)
+    ce_9_-36_9_-35_0		(Extension -2192 39 60 -2192 40 61 "ce_9_-36_9_-35" B4_4-B4_5)
+    ce_18_-73_18_-71_0		(Extension -2183 2 60 -2183 4 61 "ce_18_-73_18_-71" C8_1-C8_3)
+    ce_19_-73_19_-71_0		(Extension -2182 2 60 -2182 4 61 "ce_19_-73_19_-71" C8_2-C8_3)
+    ce_21_-71_26_-71_0		(Extension -2180 4 60 -2175 4 61 "ce_21_-71_26_-71" C8_2-C8_4)
+    ce_21_-70_21_-69_0		(Extension -2180 5 60 -2180 6 61 "ce_21_-70_21_-69" C8_4-C8_5)
+    ce_18_-65_18_-64_0		(Extension -2183 10 60 -2183 11 61 "ce_18_-65_18_-64" C7_1-C7_3)
+    ce_19_-65_19_-64_0		(Extension -2182 10 60 -2182 11 61 "ce_19_-65_19_-64" C7_2-C7_3)
+    ce_21_-64_26_-64_0		(Extension -2180 11 60 -2175 11 61 "ce_21_-64_26_-64" C7_2-C7_4)
+    ce_21_-63_21_-62_0		(Extension -2180 12 60 -2180 13 61 "ce_21_-63_21_-62" C7_4-C7_5)
+    ce_17_-60_18_-60_0		(Extension -2184 15 60 -2183 15 61 "ce_17_-60_18_-60" C6_1-C6_2)
+    ce_19_-60_26_-60_0		(Extension -2182 15 60 -2175 15 61 "ce_19_-60_26_-60" C6_1-C6_3)
+    ce_21_-57_26_-57_0		(Extension -2180 18 60 -2175 18 61 "ce_21_-57_26_-57" C6_3-C6_4)
+    ce_21_-56_21_-55_0		(Extension -2180 19 60 -2180 20 61 "ce_21_-56_21_-55" C6_4-C6_5)
+    ce_18_-51_18_-50_0		(Extension -2183 24 60 -2183 25 61 "ce_18_-51_18_-50" C5_1-C5_5)
+    ce_19_-52_20_-52_0		(Extension -2182 23 60 -2181 23 61 "ce_19_-52_20_-52" C5_2-C5_3)
+    ce_21_-52_26_-52_0		(Extension -2180 23 60 -2175 23 61 "ce_21_-52_26_-52" C5_2-C5_4)
+    ce_19_-51_19_-50_0		(Extension -2182 24 60 -2182 25 61 "ce_19_-51_19_-50" C5_3-C5_5)
+    ce_21_-49_21_-48_0		(Extension -2180 26 60 -2180 27 61 "ce_21_-49_21_-48" C5_4-C5_6)
+    ce_17_-45_20_-45_0		(Extension -2184 30 60 -2181 30 61 "ce_17_-45_20_-45" C4_1-C4_2)
+    ce_21_-45_26_-45_0		(Extension -2180 30 60 -2175 30 61 "ce_21_-45_26_-45" C4_1-C4_3)
+    ce_21_-42_21_-41_0		(Extension -2180 33 60 -2180 34 61 "ce_21_-42_21_-41" C4_3-C4_4)
+    ce_18_-38_18_-36_0		(Extension -2183 37 60 -2183 39 61 "ce_18_-38_18_-36" C3_1-C3_2)
+    ce_21_-36_26_-36_0		(Extension -2180 39 60 -2175 39 61 "ce_21_-36_26_-36" C3_1-C3_3)
+    ce_21_-35_21_-34_0		(Extension -2180 40 60 -2180 41 61 "ce_21_-35_21_-34" C3_3-C3_4)
+    ce_17_-32_18_-32_0		(Extension -2184 43 60 -2183 43 61 "ce_17_-32_18_-32" C2_1-C2_2)
+    ce_19_-32_26_-32_0		(Extension -2182 43 60 -2175 43 61 "ce_19_-32_26_-32" C2_1-C2_3)
+    ce_21_-29_26_-29_0		(Extension -2180 46 60 -2175 46 61 "ce_21_-29_26_-29" C2_3-C2_4)
+    ce_21_-28_21_-27_0		(Extension -2180 47 60 -2180 48 61 "ce_21_-28_21_-27" C2_4-C2_5)
+    ce_18_-24_18_-23_0		(Extension -2183 51 60 -2183 52 61 "ce_18_-24_18_-23" C1_1-C1_3)
+    ce_19_-24_19_-23_0		(Extension -2182 51 60 -2182 52 61 "ce_19_-24_19_-23" C1_2-C1_3)
+    ce_21_-23_26_-23_0		(Extension -2180 52 60 -2175 52 61 "ce_21_-23_26_-23" C1_2-C1_4)
+    ce_21_-22_21_-21_0		(Extension -2180 53 60 -2180 54 61 "ce_21_-22_21_-21" C1_4-C1_5)
+    ce_28_-34_31_-34_0		(Extension -2173 41 60 -2170 41 61 "ce_28_-34_31_-34" D3_1-D3_2)
+    ce_49_-67_52_-67_0		(Extension -2152 8 60 -2149 8 61 "ce_49_-67_52_-67" LLC_1-LLC_2)
+    ce_49_-56_49_-53_0		(Extension -2152 19 60 -2152 22 61 "ce_49_-56_49_-53" LLC_2-LLC_6)
+    ce_49_-47_49_-42_0		(Extension -2152 28 60 -2152 33 61 "ce_49_-47_49_-42" LLC_2-LLC_8)
+    ce_37_-64_37_-62_0		(Extension -2164 11 60 -2164 13 61 "ce_37_-64_37_-62" LLC_3-LLC_4)
+    ce_35_-62_37_-62_0		(Extension -2166 13 60 -2164 13 61 "ce_35_-62_37_-62" LLC_3-LLC_5)
+    ce_37_-62_37_-56_0		(Extension -2164 13 60 -2164 19 61 "ce_37_-62_37_-56" LLC_4-LLC_5)
+    ce_37_-56_38_-56_0		(Extension -2164 19 60 -2163 19 61 "ce_37_-56_38_-56" LLC_4-LLC_6)
+    ce_35_-56_37_-56_0		(Extension -2166 19 60 -2164 19 61 "ce_35_-56_37_-56" LLC_5-LLC_6)
+    ce_35_-53_38_-53_0		(Extension -2166 22 60 -2163 22 61 "ce_35_-53_38_-53" LLC_6-LLC_7)
+    ce_34_-38_43_-38_0		(Extension -2167 37 60 -2158 37 61 "ce_34_-38_43_-38" D4_1-D4_2)
+    ce_34_-35_34_-32_0		(Extension -2167 40 60 -2167 43 61 "ce_34_-35_34_-32" D4_2-D4_3)
+    ce_39_-64_43_-64_0		(Extension -2162 11 60 -2158 11 61 "ce_39_-64_43_-64" F4_1-F4_2)
+    ce_40_-27_42_-27_0		(Extension -2161 48 60 -2159 48 61 "ce_40_-27_42_-27" D2_1-D2_2)
+    ce_45_-23_50_-23_0		(Extension -2156 52 60 -2151 52 61 "ce_45_-23_50_-23" EL_1-EL_2)
+    ce_45_-22_50_-22_0		(Extension -2156 53 60 -2151 53 61 "ce_45_-22_50_-22" EL_2-EL_3)
+    ce_60_-27_60_-21_0		(Extension -2141 48 60 -2141 54 61 "ce_60_-27_60_-21" H1_1-H1_2)
+    ce_58_-67_58_-66_0		(Extension -2143 8 60 -2143 9 61 "ce_58_-67_58_-66" BUF_1-BUF_2)
+    ce_54_-66_58_-66_0		(Extension -2147 9 60 -2143 9 61 "ce_54_-66_58_-66" BUF_1-BUF_3)
+    ce_59_-66_60_-66_0		(Extension -2142 9 60 -2141 9 61 "ce_59_-66_60_-66" BUF_2-BUF_4)
+    ce_54_-63_54_-61_0		(Extension -2147 12 60 -2147 14 61 "ce_54_-63_54_-61" BUF_3-BUF_5)
+    ce_54_-61_58_-61_0		(Extension -2147 14 60 -2143 14 61 "ce_54_-61_58_-61" BUF_3-BUF_6)
+    ce_59_-61_59_-60_0		(Extension -2142 14 60 -2142 15 61 "ce_59_-61_59_-60" BUF_4-BUF_6)
+    ce_59_-55_59_-54_0		(Extension -2142 20 60 -2142 21 61 "ce_59_-55_59_-54" BUF_4-BUF_8)
+    ce_59_-49_59_-48_0		(Extension -2142 26 60 -2142 27 61 "ce_59_-49_59_-48" BUF_4-BUF_10)
+    ce_59_-43_59_-42_0		(Extension -2142 32 60 -2142 33 61 "ce_59_-43_59_-42" BUF_4-BUF_12)
+    ce_54_-61_54_-60_0		(Extension -2147 14 60 -2147 15 61 "ce_54_-61_54_-60" BUF_5-BUF_6)
+    ce_54_-60_58_-60_0		(Extension -2147 15 60 -2143 15 61 "ce_54_-60_58_-60" BUF_6-BUF_7)
+    ce_54_-55_58_-55_0		(Extension -2147 20 60 -2143 20 61 "ce_54_-55_58_-55" BUF_7-BUF_8)
+    ce_53_-54_58_-54_0		(Extension -2148 21 60 -2143 21 61 "ce_53_-54_58_-54" BUF_8-BUF_9)
+    ce_58_-49_58_-48_0		(Extension -2143 26 60 -2143 27 61 "ce_58_-49_58_-48" BUF_9-BUF_10)
+    ce_54_-48_58_-48_0		(Extension -2147 27 60 -2143 27 61 "ce_54_-48_58_-48" BUF_9-BUF_11)
+    ce_54_-43_58_-43_0		(Extension -2147 32 60 -2143 32 61 "ce_54_-43_58_-43" BUF_11-BUF_12)
+    ce_54_-42_58_-42_0		(Extension -2147 33 60 -2143 33 61 "ce_54_-42_58_-42" BUF_12-BUF_13)
+    ce_61_-68_66_-68_0		(Extension -2140 7 60 -2135 7 61 "ce_61_-68_66_-68" H2_1-H2_2)
+    ce_61_-61_65_-61_0		(Extension -2140 14 60 -2136 14 61 "ce_61_-61_65_-61" H2_2-H2_3)
+    ce_65_-49_65_-38_0		(Extension -2136 26 60 -2136 37 61 "ce_65_-49_65_-38" H2_3-H2_4)
+    ce_65_-30_65_-28_0		(Extension -2136 45 60 -2136 47 61 "ce_65_-30_65_-28" H1A_1-H1A_2)
+    ce_67_-73_101_-73_0		(Extension -2134 2 60 -2100 2 61 "ce_67_-73_101_-73" SCN_1-SCN_2)
+    ce_67_-68_78_-68_0		(Extension -2134 7 60 -2123 7 61 "ce_67_-68_78_-68" SCN_2-SCN_3)
+    ce_86_-68_101_-68_0		(Extension -2115 7 60 -2100 7 61 "ce_86_-68_101_-68" SCN_2-SCN_4)
+    ce_96_-59_96_-58_0		(Extension -2105 16 60 -2105 17 61 "ce_96_-59_96_-58" K4_1-K4_2)
+    ce_96_-48_96_-47_0		(Extension -2105 27 60 -2105 28 61 "ce_96_-48_96_-47" K3_1-K3_2)
+    ce_96_-37_96_-36_0		(Extension -2105 38 60 -2105 39 61 "ce_96_-37_96_-36" K2_1-K2_2)
+    ce_96_-26_96_-25_0		(Extension -2105 49 60 -2105 50 61 "ce_96_-26_96_-25" K1_1-K1_2)
+
+    ;; 2b. Rooms
+    A4A_1	(Room1Conn -2217 -10 60 -2215 -9 61 "A4A The King's Terrace" A4A_1-A4A_2)
+    A4A_2	(Room2Conn -2220 -9 60 -2212 -8 61 "A4A The King's Terrace" A4A_1-A4A_2 A4A_2-A4A_3)
+    A4A_3	(Room2Conn -2221 -8 60 -2211 -7 61 "A4A The King's Terrace" A4A_2-A4A_3 A4A_3-A4A_4)
+    A4A_4	(Room2Conn -2222 -7 60 -2210 -6 61 "A4A The King's Terrace" A4A_3-A4A_4 A4A_4-A4A_5)
+    A4A_5	(Room2Conn -2223 -6 60 -2209 -4 61 "A4A The King's Terrace" A4A_4-A4A_5 A4A_5-A4A_6)
+    A4A_6	(Room2Conn -2224 -4 60 -2208 -2 61 "A4A The King's Terrace" A4A_6-A4_1 A4A_5-A4A_6)
+    A4_1	(Room2Conn -2224 -1 60 -2207 0 61 "A4 King Chris's Office" A4A_6-A4_1 A4_1-A4_2)
+    A4_2	(Room2Conn -2224 0 60 -2209 1 61 "A4 King Chris's Office" A4_1-A4_2 A4_2-A4_3)
+    A4_3	(Room3Conn -2224 1 60 -2210 6 61 "A4 King Chris's Office" A4_2-A4_3 A4_3-A4_4 A4_3-A4_6)
+    A4_4	(Room2Conn -2210 4 60 -2209 6 61 "A4 King Chris's Office" A4_3-A4_4 A4_4-A4_5)
+    A4_5	(Room1Conn -2209 5 60 -2207 6 61 "A4 King Chris's Office" A4_4-A4_5)
+    A4_6	(Room2Conn -2224 6 60 -2216 10 61 "A4 King Chris's Office" A4_3-A4_6 A4_6-A4_7)
+    A4_7	(Room2Conn -2224 10 60 -2221 11 61 "A4 King Chris's Office" A4_6-A4_7 A4_7-A4_8)
+    A4_8	(Room2Conn -2224 11 60 -2222 14 61 "A4 King Chris's Office" A4_7-A4_8 A4_8-A4_9)
+    A4_9	(Room2Conn -2222 12 60 -2216 14 61 "A4 King Chris's Office" A4_9-CCW A4_8-A4_9)
+    A3_1	(Room4Conn -2224 16 60 -2216 18 61 "A3 Library" A3_1-A3_2 A3_1-A3_3 A3_2-A3_10 A3_3-A3_10)
+    A3_2	(Room8Conn -2224 18 60 -2223 46 61 "A3 Library" A3_1-A3_2 A3_2-A3_4 A3_2-A3_5 A3_2-A3_6 A3_2-A3_7 A3_2-A3_8 A3_2-A3_9 A3_2-A3_10)
+    A3_3	(Room9Conn -2219 18 60 -2216 46 61 "A3 Library" A3_3-CCW A3_1-A3_3 A3_3-A3_4 A3_3-A3_5 A3_3-A3_6 A3_3-A3_7 A3_3-A3_8 A3_3-A3_9 A3_3-A3_10)
+    A3_4	(Room2Conn -2223 20 60 -2219 22 61 "A3 Library" A3_2-A3_4 A3_3-A3_4)
+    A3_5	(Room2Conn -2223 24 60 -2219 26 61 "A3 Library" A3_2-A3_5 A3_3-A3_5)
+    A3_6	(Room2Conn -2223 28 60 -2219 30 61 "A3 Library" A3_2-A3_6 A3_3-A3_6)
+    A3_7	(Room2Conn -2223 32 60 -2219 34 61 "A3 Library" A3_2-A3_7 A3_3-A3_7)
+    A3_8	(Room2Conn -2223 36 60 -2219 38 61 "A3 Library" A3_2-A3_8 A3_3-A3_8)
+    A3_9	(Room2Conn -2223 40 60 -2219 42 61 "A3 Library" A3_2-A3_9 A3_3-A3_9)
+    A3_10	(Room2Conn -2223 44 60 -2219 46 61 "A3 Library" A3_2-A3_10 A3_3-A3_10)
+    A2	(Room1Conn -2224 47 60 -2216 56 61 "A2 Open Break Area" A2-CCW)
+    A1	(Room1Conn -2224 57 60 -2216 59 61 "A1 Security Office" A1-MCW)
+    B7_1	(Room3Conn -2209 13 60 -2192 14 61 "B7 Herbalife Conference Room" CCN-B7_1 B7_1-B7_2 B7_1-B7_3)
+    B7_2	(Room3Conn -2209 14 60 -2195 21 61 "B7 Herbalife Conference Room" B7_1-B7_2 B7_2-B7_5 B7_2-B7_6)
+    B7_3	(Room2Conn -2194 14 60 -2191 16 61 "B7 Herbalife Conference Room" B7_1-B7_3 B7_3-B7_4)
+    B7_4	(Room3Conn -2192 16 60 -2191 22 61 "B7 Herbalife Conference Room" B7_4-CRC B7_3-B7_4 B7_4-B7_5)
+    B7_5	(Room4Conn -2195 17 60 -2192 22 61 "B7 Herbalife Conference Room" B7_5-CRC B7_2-B7_5 B7_4-B7_5 B7_5-B7_6)
+    B7_6	(Room2Conn -2208 21 60 -2195 22 61 "B7 Herbalife Conference Room" B7_2-B7_6 B7_5-B7_6)
+    B5	(Room1Conn -2209 29 60 -2201 35 61 "B5 Amway Conference Room" CRC-B5)
+    B2_1	(Room2Conn -2209 36 60 -2205 38 61 "B2 Janitor's Closet" B2_1-B3_1 B2_1-B2_2)
+    B2_2	(Room2Conn -2209 38 60 -2206 40 61 "B2 Janitor's Closet" CCW-B2_2 B2_1-B2_2)
+    B1_1	(Room14Conn -2209 47 60 -2191 48 61 "B1 The Computer Farm" B1_1-B1_2 B1_1-B1_3 B1_1-B1_4 B1_1-B1_5 B1_1-B1_6 B1_1-B1_7 B1_1-B1_8 B1_2-B1_15 B1_8-B1_15 B1_10-B1_15 B1_11-B1_15 B1_12-B1_15 B1_13-B1_15 B1_14-B1_15)
+    B1_2	(Room4Conn -2209 48 60 -2208 54 61 "B1 The Computer Farm" CCW-B1_2 B1_1-B1_2 B1_2-B1_9 B1_2-B1_15)
+    B1_3	(Room1Conn -2207 48 60 -2205 49 61 "B1 The Computer Farm" B1_1-B1_3)
+    B1_4	(Room1Conn -2204 48 60 -2202 49 61 "B1 The Computer Farm" B1_1-B1_4)
+    B1_5	(Room1Conn -2201 48 60 -2199 49 61 "B1 The Computer Farm" B1_1-B1_5)
+    B1_6	(Room1Conn -2198 48 60 -2196 49 61 "B1 The Computer Farm" B1_1-B1_6)
+    B1_7	(Room1Conn -2195 48 60 -2193 49 61 "B1 The Computer Farm" B1_1-B1_7)
+    B1_8	(Room4Conn -2192 48 60 -2191 54 61 "B1 The Computer Farm" B1_8-CCE B1_1-B1_8 B1_8-B1_9 B1_8-B1_15)
+    B1_9	(Room2Conn -2208 50 60 -2192 51 61 "B1 The Computer Farm" B1_2-B1_9 B1_8-B1_9)
+    B1_10	(Room1Conn -2207 52 60 -2205 53 61 "B1 The Computer Farm" B1_10-B1_15)
+    B1_11	(Room1Conn -2204 52 60 -2202 53 61 "B1 The Computer Farm" B1_11-B1_15)
+    B1_12	(Room1Conn -2201 52 60 -2199 53 61 "B1 The Computer Farm" B1_12-B1_15)
+    B1_13	(Room1Conn -2198 52 60 -2196 53 61 "B1 The Computer Farm" B1_13-B1_15)
+    B1_14	(Room1Conn -2195 52 60 -2193 53 61 "B1 The Computer Farm" B1_14-B1_15)
+    B1_15	(Room7Conn -2208 53 60 -2192 54 61 "B1 The Computer Farm" B1_2-B1_15 B1_8-B1_15 B1_10-B1_15 B1_11-B1_15 B1_12-B1_15 B1_13-B1_15 B1_14-B1_15)
+    B8_1	(Room2Conn -2206 -1 60 -2198 3 61 "B8 Room 101" B8_1-B8_2 B8_1-B8_3)
+    B8_2	(Room2Conn -2206 3 60 -2200 4 61 "B8 Room 101" B8_1-B8_2 B8_2-B8_4)
+    B8_3	(Room2Conn -2199 3 60 -2198 6 61 "B8 Room 101" CCN-B8_3 B8_1-B8_3)
+    B8_4	(Room1Conn -2206 4 60 -2201 6 61 "B8 Room 101" B8_2-B8_4)
+    B3_1	(Room4Conn -2204 36 60 -2198 38 61 "B3 Men's Room" B2_1-B3_1 B3_1-B3_2 B3_1-B3_3 B3_1-B3_4)
+    B3_2	(Room2Conn -2204 38 60 -2203 40 61 "B3 Men's Room" B3_1-B3_2 B3_2-B3_5)
+    B3_3	(Room2Conn -2201 38 60 -2200 40 61 "B3 Men's Room" RRC-B3_3 B3_1-B3_3)
+    B3_4	(Room1Conn -2199 38 60 -2198 40 61 "B3 Men's Room" B3_1-B3_4)
+    B3_5	(Room1Conn -2203 39 60 -2202 40 61 "B3 Men's Room" B3_2-B3_5)
+    B6	(Room1Conn -2199 29 60 -2191 35 61 "B6 Mary Kay Conference Room" CRC-B6)
+    B9_1	(Room1Conn -2197 -1 60 -2191 3 61 "B9 Room 102" B9_1-B9_2)
+    B9_2	(Room2Conn -2197 3 60 -2193 4 61 "B9 Room 102" B9_1-B9_2 B9_2-B9_3)
+    B9_3	(Room2Conn -2197 4 60 -2194 6 61 "B9 Room 102" B9_2-B9_3 B9_3-B9_4)
+    B9_4	(Room2Conn -2194 5 60 -2191 6 61 "B9 Room 102" B9_4-CCE B9_3-B9_4)
+    B4_1	(Room3Conn -2197 36 60 -2191 38 61 "B4 Women's Room" B4_1-B4_2 B4_1-B4_3 B4_1-B4_4)
+    B4_2	(Room1Conn -2197 38 60 -2196 40 61 "B4 Women's Room" B4_1-B4_2)
+    B4_3	(Room2Conn -2195 38 60 -2194 40 61 "B4 Women's Room" RRC-B4_3 B4_1-B4_3)
+    B4_4	(Room2Conn -2192 38 60 -2191 40 61 "B4 Women's Room" B4_1-B4_4 B4_4-B4_5)
+    B4_5	(Room1Conn -2193 39 60 -2192 40 61 "B4 Women's Room" B4_4-B4_5)
+    C8_1	(Room1Conn -2184 -1 60 -2183 4 61 "C8 Room 103" C8_1-C8_3)
+    C8_2	(Room3Conn -2182 -1 60 -2175 4 61 "C8 Room 103" C8_2-LLCN C8_2-C8_3 C8_2-C8_4)
+    C8_3	(Room2Conn -2183 2 60 -2182 4 61 "C8 Room 103" C8_1-C8_3 C8_2-C8_3)
+    C8_4	(Room2Conn -2180 4 60 -2175 6 61 "C8 Room 103" C8_2-C8_4 C8_4-C8_5)
+    C8_5	(Room2Conn -2184 5 60 -2180 6 61 "C8 Room 103" CCE-C8_5 C8_4-C8_5)
+    C7_1	(Room1Conn -2184 7 60 -2183 11 61 "C7 Room 104" C7_1-C7_3)
+    C7_2	(Room2Conn -2182 7 60 -2175 11 61 "C7 Room 104" C7_2-C7_3 C7_2-C7_4)
+    C7_3	(Room2Conn -2183 10 60 -2182 11 61 "C7 Room 104" C7_1-C7_3 C7_2-C7_3)
+    C7_4	(Room2Conn -2180 11 60 -2175 13 61 "C7 Room 104" C7_2-C7_4 C7_4-C7_5)
+    C7_5	(Room2Conn -2184 12 60 -2180 13 61 "C7 Room 104" CCE-C7_5 C7_4-C7_5)
+    C6_1	(Room2Conn -2184 14 60 -2175 15 61 "C6 Room 105" C6_1-C6_2 C6_1-C6_3)
+    C6_2	(Room1Conn -2184 15 60 -2183 18 61 "C6 Room 105" C6_1-C6_2)
+    C6_3	(Room2Conn -2182 15 60 -2175 18 61 "C6 Room 105" C6_1-C6_3 C6_3-C6_4)
+    C6_4	(Room2Conn -2180 18 60 -2175 20 61 "C6 Room 105" C6_3-C6_4 C6_4-C6_5)
+    C6_5	(Room2Conn -2184 19 60 -2180 20 61 "C6 Room 105" CCE-C6_5 C6_4-C6_5)
+    C5_1	(Room1Conn -2184 21 60 -2183 25 61 "C5 Room 106" C5_1-C5_5)
+    C5_2	(Room2Conn -2182 21 60 -2175 23 61 "C5 Room 106" C5_2-C5_3 C5_2-C5_4)
+    C5_3	(Room2Conn -2182 23 60 -2181 25 61 "C5 Room 106" C5_2-C5_3 C5_3-C5_5)
+    C5_4	(Room2Conn -2180 23 60 -2175 27 61 "C5 Room 106" C5_2-C5_4 C5_4-C5_6)
+    C5_5	(Room2Conn -2183 24 60 -2182 25 61 "C5 Room 106" C5_1-C5_5 C5_3-C5_5)
+    C5_6	(Room2Conn -2184 26 60 -2180 27 61 "C5 Room 106" CCE-C5_6 C5_4-C5_6)
+    C4_1	(Room2Conn -2184 28 60 -2175 30 61 "C4 Room 107" C4_1-C4_2 C4_1-C4_3)
+    C4_2	(Room1Conn -2184 30 60 -2181 32 61 "C4 Room 107" C4_1-C4_2)
+    C4_3	(Room2Conn -2180 30 60 -2175 34 61 "C4 Room 107" C4_1-C4_3 C4_3-C4_4)
+    C4_4	(Room2Conn -2184 33 60 -2180 34 61 "C4 Room 107" CCE-C4_4 C4_3-C4_4)
+    C3_1	(Room2Conn -2183 35 60 -2175 39 61 "C3 Room 108" C3_1-C3_2 C3_1-C3_3)
+    C3_2	(Room1Conn -2184 37 60 -2183 39 61 "C3 Room 108" C3_1-C3_2)
+    C3_3	(Room2Conn -2180 39 60 -2175 41 61 "C3 Room 108" C3_1-C3_3 C3_3-C3_4)
+    C3_4	(Room2Conn -2184 40 60 -2180 41 61 "C3 Room 108" CCE-C3_4 C3_3-C3_4)
+    C2_1	(Room2Conn -2184 42 60 -2175 43 61 "C2 Room 109" C2_1-C2_2 C2_1-C2_3)
+    C2_2	(Room1Conn -2184 43 60 -2183 46 61 "C2 Room 109" C2_1-C2_2)
+    C2_3	(Room2Conn -2182 43 60 -2175 46 61 "C2 Room 109" C2_1-C2_3 C2_3-C2_4)
+    C2_4	(Room2Conn -2180 46 60 -2175 48 61 "C2 Room 109" C2_3-C2_4 C2_4-C2_5)
+    C2_5	(Room2Conn -2184 47 60 -2180 48 61 "C2 Room 109" CCE-C2_5 C2_4-C2_5)
+    C1_1	(Room1Conn -2184 49 60 -2183 52 61 "C1 Room 110" C1_1-C1_3)
+    C1_2	(Room2Conn -2182 49 60 -2175 52 61 "C1 Room 110" C1_2-C1_3 C1_2-C1_4)
+    C1_3	(Room2Conn -2183 51 60 -2182 52 61 "C1 Room 110" C1_1-C1_3 C1_2-C1_3)
+    C1_4	(Room2Conn -2180 52 60 -2175 54 61 "C1 Room 110" C1_2-C1_4 C1_4-C1_5)
+    C1_5	(Room2Conn -2184 53 60 -2180 54 61 "C1 Room 110" CCE-C1_5 C1_4-C1_5)
+    D3_1	(Room1Conn -2173 35 60 -2170 41 61 "D3 Data Storage" D3_1-D3_2)
+    D3_2	(Room2Conn -2174 41 60 -2169 43 61 "D3 Data Storage" D3_2-CA D3_1-D3_2)
+    CA	(Room5Conn -2174 44 60 -2162 54 61 "Cubicle Area" CA-D4_2 CA-D1 CA-D2_1 D3_2-CA MCW-CA)
+    E4	(Room1Conn -2173 5 60 -2169 9 61 "E4 Table 4" E4-LLC_3)
+    E3	(Room1Conn -2173 14 60 -2167 18 61 "E3 Table 3" LLC_5-E3)
+    E2	(Room1Conn -2173 23 60 -2167 27 61 "E2 Table 2" LLC_7-E2)
+    E1	(Room1Conn -2173 28 60 -2167 32 61 "E1 Table 1" LLC_7-E1)
+    E5	(Room1Conn -2168 5 60 -2164 9 61 "E5 Table 5" LLC_3-E5)
+    D4_1	(Room1Conn -2168 34 60 -2158 37 61 "D4 Break Room" D4_1-D4_2)
+    D4_2	(Room4Conn -2167 37 60 -2158 43 61 "D4 Break Room" D4_2-EL_1 CA-D4_2 D4_1-D4_2 D4_2-D4_3)
+    D4_3	(Room1Conn -2168 40 60 -2167 43 61 "D4 Break Room" D4_2-D4_3)
+    F4_1	(Room2Conn -2163 5 60 -2158 11 61 "F4 Table 6" LLC_4-F4_1 F4_1-F4_2)
+    F4_2	(Room2Conn -2162 11 60 -2158 13 61 "F4 Table 6" LLC_4-F4_2 F4_1-F4_2)
+    F3	(Room1Conn -2162 14 60 -2158 18 61 "F3 Table 7" LLC_4-F3)
+    F2	(Room1Conn -2162 23 60 -2158 27 61 "F2 Table 8" LLC_7-F2)
+    F1	(Room1Conn -2162 28 60 -2158 32 61 "F1 Table 9" LLC_7-F1)
+    D2_1	(Room2Conn -2161 45 60 -2158 48 61 "D2 Office 100" CA-D2_1 D2_1-D2_2)
+    D2_2	(Room1Conn -2161 48 60 -2159 49 61 "D2 Office 100" D2_1-D2_2)
+    D1	(Room1Conn -2161 50 60 -2158 54 61 "D1 Office 101" CA-D1)
+    G3	(Room1Conn -2157 9 60 -2153 13 61 "G3 Table 12" LLC_2-G3)
+    G2	(Room1Conn -2157 14 60 -2153 18 61 "G2 Table 11" LLC_2-G2)
+    G1	(Room1Conn -2157 23 60 -2153 27 61 "G1 Table 10" LLC_2-G1)
+    H1_1	(Room2Conn -2149 38 60 -2141 54 61 "H1 Sundollars Coffee" EL_1-H1_1 H1_1-H1_2)
+    H1_2	(Room3Conn -2141 48 60 -2135 54 61 "H1 Sundollars Coffee" H1_2-MCE H1_2-H1A_1 H1_1-H1_2)
+    BUF_1	(Room11Conn -2148 5 60 -2143 9 61 "Buffet" BUF_1-H2_1 LLC_1-BUF_1 LLC_2-BUF_1 BUF_1-BUF_2 BUF_1-BUF_3 BUF_4-BUF_10 BUF_4-BUF_12 BUF_9-BUF_10 BUF_9-BUF_11 BUF_11-BUF_12 BUF_12-BUF_13)
+    BUF_2	(Room3Conn -2143 8 60 -2141 9 61 "Buffet" BUF_2-H2_2 BUF_1-BUF_2 BUF_2-BUF_4)
+    BUF_3	(Room3Conn -2147 9 60 -2143 14 61 "Buffet" BUF_1-BUF_3 BUF_3-BUF_5 BUF_3-BUF_6)
+    BUF_4	(Room7Conn -2142 9 60 -2141 36 61 "Buffet" BUF_4-H2_3 BUF_4-H2_2 BUF_2-BUF_4 BUF_4-BUF_6 BUF_4-BUF_8 BUF_4-BUF_10 BUF_4-BUF_12)
+    BUF_5	(Room3Conn -2148 12 60 -2147 15 61 "Buffet" LLC_2-BUF_5 BUF_3-BUF_5 BUF_5-BUF_6)
+    BUF_6	(Room4Conn -2147 14 60 -2142 15 61 "Buffet" BUF_3-BUF_6 BUF_4-BUF_6 BUF_5-BUF_6 BUF_6-BUF_7)
+    BUF_7	(Room2Conn -2147 15 60 -2143 20 61 "Buffet" BUF_6-BUF_7 BUF_7-BUF_8)
+    BUF_8	(Room4Conn -2148 20 60 -2142 21 61 "Buffet" LLC_2-BUF_8 BUF_4-BUF_8 BUF_7-BUF_8 BUF_8-BUF_9)
+    BUF_9	(Room4Conn -2148 21 60 -2143 27 61 "Buffet" LLC_2-BUF_9 BUF_8-BUF_9 BUF_9-BUF_10 BUF_9-BUF_11)
+    BUF_10	(Room2Conn -2143 26 60 -2142 27 61 "Buffet" BUF_4-BUF_10 BUF_9-BUF_10)
+    BUF_11	(Room2Conn -2147 27 60 -2143 32 61 "Buffet" BUF_9-BUF_11 BUF_11-BUF_12)
+    BUF_12	(Room3Conn -2148 32 60 -2142 33 61 "Buffet" BUF_4-BUF_12 BUF_11-BUF_12 BUF_12-BUF_13)
+    BUF_13	(Room1Conn -2147 33 60 -2143 36 61 "Buffet" BUF_12-BUF_13)
+    H2_1	(Room2Conn -2142 5 60 -2135 7 61 "H2 Kitchen" BUF_1-H2_1 H2_1-H2_2)
+    H2_2	(Room4Conn -2140 7 60 -2135 14 61 "H2 Kitchen" BUF_2-H2_2 BUF_4-H2_2 H2_1-H2_2 H2_2-H2_3)
+    H2_3	(Room3Conn -2140 14 60 -2136 37 61 "H2 Kitchen" BUF_4-H2_3 H2_2-H2_3 H2_3-H2_4)
+    H2_4	(Room1Conn -2136 26 60 -2135 37 61 "H2 Kitchen" H2_3-H2_4)
+    H1A_1	(Room2Conn -2140 39 60 -2136 47 61 "H1A Sundollars Coffee Kitchen" H1_2-H1A_1 H1A_1-H1A_2)
+    H1A_2	(Room1Conn -2136 45 60 -2135 47 61 "H1A Sundollars Coffee Kitchen" H1A_1-H1A_2)
+    I4A	(Room1Conn -2133 11 60 -2129 21 61 "I4A Storage H" I4A-I4)
+    I3A	(Room1Conn -2133 22 60 -2129 32 61 "I3A Storage F" I3A-I3)
+    I2A	(Room1Conn -2133 33 60 -2129 43 61 "I2A Storage D" I2A-I2)
+    I1A	(Room1Conn -2133 44 60 -2129 54 61 "I1A Storage B" I1A-I1)
+    I4	(Room2Conn -2128 11 60 -2123 21 61 "I4 Storage G" I4-SCW I4A-I4)
+    I3	(Room2Conn -2128 22 60 -2123 32 61 "I3 Storage E" I3-SCW I3A-I3)
+    I2	(Room2Conn -2128 33 60 -2123 43 61 "I2 Storage C" I2-SCW I2A-I2)
+    I1	(Room2Conn -2128 44 60 -2123 54 61 "I1 Storage A" I1-SCW I1A-I1)
+    J4	(Room1Conn -2115 11 60 -2110 21 61 "J4 Storage L" SCW-J4)
+    J3	(Room1Conn -2115 22 60 -2110 32 61 "J3 Storage K" SCW-J3)
+    J2	(Room1Conn -2115 33 60 -2110 43 61 "J2 Storage J" SCW-J2)
+    J1	(Room1Conn -2115 44 60 -2110 54 61 "J1 Storage I" SCW-J1)
+    K4_1	(Room1Conn -2109 11 60 -2105 21 61 "K4 Storage P" K4_1-K4_2)
+    K4_2	(Room2Conn -2105 16 60 -2104 17 61 "K4 Storage P" K4_2-SCC K4_1-K4_2)
+    K3_1	(Room1Conn -2109 22 60 -2105 32 61 "K3 Storage O" K3_1-K3_2)
+    K3_2	(Room2Conn -2105 27 60 -2104 28 61 "K3 Storage O" K3_2-SCC K3_1-K3_2)
+    K2_1	(Room1Conn -2109 33 60 -2105 43 61 "K2 Storage N" K2_1-K2_2)
+    K2_2	(Room2Conn -2105 38 60 -2104 39 61 "K2 Storage N" K2_2-SCC K2_1-K2_2)
+    K1_1	(Room1Conn -2109 44 60 -2105 54 61 "K1 Storage M" K1_1-K1_2)
+    K1_2	(Room2Conn -2105 49 60 -2104 50 61 "K1 Storage M" K1_2-SCC K1_1-K1_2)
+    M3	(Room1Conn -2099 3 60 -2091 10 61 "M3 Storage V" M3-SCE)
+    L3	(Room1Conn -2099 11 60 -2091 19 61 "L3 Storage S" SCC-L3)
+    M2	(Room1Conn -2099 20 60 -2091 28 61 "M2 Storage U" M2-SCE)
+    L2	(Room1Conn -2099 29 60 -2091 37 61 "L2 Storage R" SCC-L2)
+    M1	(Room1Conn -2099 38 60 -2091 46 61 "M1 Storage T" M1-SCE)
+    L1	(Room1Conn -2099 47 60 -2091 54 61 "L1 Storage Q" SCC-L1)
+
+    ;; 2c. Treatment Areas
+    TAAN	(Treatment1Conn -2194 -5 60 -2181 -2 61 "North Zone A  Abrasion" TAAN-CCE)
+    TABS	(Treatment1Conn -2194 61 60 -2181 64 61 "South Zone B  Bone Damage" MCW-TABS)
+    TACN	(Treatment1Conn -2160 -5 60 -2147 -2 61 "North Zone C  Critical" LLCN-TACN)
+    TACS	(Treatment2Conn -2160 61 60 -2147 64 61 "South Zone C  Critical" TACS-EL_3 TACS-EW)
+    TABN	(Treatment1Conn -2126 -5 60 -2113 -2 61 "North Zone B  Bone Damage" SCN_1-TABN)
+    TAAS	(Treatment1Conn -2126 61 60 -2113 64 61 "South Zone A  Abrasion" MCE-TAAS)
+
+    ;; 2d. Corridors
+    CCW	(ConferenceCWest_CCW -2215 7 60 -2210 54 61 "Conference Corridor West" CCW-B1_2 CCW-B2_2 A2-CCW A3_3-CCW A4_9-CCW CCW-MCW CCW-RRC CCW-CRC CCW-CCN)
+    MCW	(MainCWest_MCW -2215 55 60 -2158 60 61 "Main Corridor West" A1-MCW MCW-EL_3 CCW-MCW MCW-CCE MCW-CA MCW-TABS)
+    CCN	(ConferenceCNorth_CCN -2209 7 60 -2191 12 61 "Conference Corridor North" CCN-B8_3 CCN-B7_1 CCN-CCE CCW-CCN)
+    CRC	(ConferenceRoomC_CRC -2209 23 60 -2191 28 61 "Conference Room Corridor" CRC-B6 CRC-B5 CRC-CCE B7_4-CRC B7_5-CRC CCW-CRC)
+    RRC	(RestroomC_RRC -2209 41 60 -2191 46 61 "Restroom Corridor" RRC-B4_3 RRC-B3_3 RRC-CCE CCW-RRC)
+    CCE	(ConferenceCEast_CCE -2190 -1 60 -2185 54 61 "Conference Corridor East" CCE-C2_5 CCE-C3_4 CCE-C4_4 CCE-C5_6 CCE-C6_5 CCE-C7_5 CCE-C8_5 B1_8-CCE B9_4-CCE RRC-CCE CRC-CCE CCN-CCE CCE-C1_5 MCW-CCE TAAN-CCE)
+    LLCN	(LimpingLambCNorth_LLCN -2174 -1 60 -2135 4 61 "Limping Lamb Corridor North" C8_2-LLCN LLCN-SCN_1 LLCN-SCN_2 LLCN-TACN LLCN-LLC_1)
+    LLC_1	(LLC_1 -2157 5 60 -2149 8 61 "The Limping Lamb Chophouse" LLC_1-BUF_1 LLCN-LLC_1 LLC_1-LLC_2)
+    LLC_2	(LLC_2 -2152 8 60 -2149 33 61 "The Limping Lamb Chophouse" LLC_2-BUF_8 LLC_2-BUF_9 LLC_2-BUF_1 LLC_2-G1 LLC_2-G2 LLC_2-G3 LLC_2-EL_1 LLC_2-BUF_5 LLC_1-LLC_2 LLC_2-LLC_6 LLC_2-LLC_8)
+    LLC_3	(LLC_3 -2173 10 60 -2164 13 61 "The Limping Lamb Chophouse" LLC_3-E5 E4-LLC_3 LLC_3-LLC_4 LLC_3-LLC_5)
+    LLC_4	(LLC_4 -2164 11 60 -2163 19 61 "The Limping Lamb Chophouse" LLC_4-F3 LLC_4-F4_1 LLC_4-F4_2 LLC_3-LLC_4 LLC_4-LLC_5 LLC_4-LLC_6)
+    LLC_5	(LLC_5 -2166 13 60 -2164 19 61 "The Limping Lamb Chophouse" LLC_5-E3 LLC_3-LLC_5 LLC_4-LLC_5 LLC_5-LLC_6)
+    LLC_6	(LLC_6 -2173 19 60 -2152 22 61 "The Limping Lamb Chophouse" LLC_2-LLC_6 LLC_4-LLC_6 LLC_5-LLC_6 LLC_6-LLC_7)
+    LLC_7	(LLC_7 -2166 22 60 -2163 32 61 "The Limping Lamb Chophouse" LLC_7-F1 LLC_7-F2 LLC_7-E1 LLC_7-E2 LLC_6-LLC_7)
+    LLC_8	(LLC_8 -2157 28 60 -2152 33 61 "The Limping Lamb Chophouse" LLC_8-EL_1 LLC_2-LLC_8)
+    EL_1	(EL_1 -2157 34 60 -2150 52 61 "Lobby" EL_1-H1_1 D4_2-EL_1 LLC_2-EL_1 LLC_8-EL_1 EL_1-EL_2)
+    EL_2	(EL_2 -2156 52 60 -2151 53 61 "Lobby" EL_1-EL_2 EL_2-EL_3)
+    EL_3	(EL_3 -2157 53 60 -2150 60 61 "Lobby" TACS-EL_3 MCW-EL_3 EL_3-MCE EL_2-EL_3)
+    EW	(EW -2155 65 60 -2152 109 61 "Entrance Walkway" TACS-EW)
+    MCE	(MainCEast_MCE -2149 55 60 -2087 60 61 "Main Corridor East" H1_2-MCE EL_3-MCE MCE-SCW MCE-SCC MCE-SCE MCE-TAAS)
+    SCN_1	(StorageCNorth_SCN_1 -2134 -1 60 -2087 2 61 "Storage Corridor North" LLCN-SCN_1 SCN_1-SCE SCN_1-TABN SCN_1-SCN_2)
+    SCN_2	(StorageCNorth_SCN_2 -2134 2 60 -2100 7 61 "Storage Corridor North" LLCN-SCN_2 SCN_2-SCW SCN_1-SCN_2 SCN_2-SCN_3 SCN_2-SCN_4)
+    SCN_3	(StorageCNorth_SCN_3 -2134 7 60 -2123 10 61 "Storage Corridor North" SCN_2-SCN_3)
+    SCN_4	(StorageCNorth_SCN_4 -2115 7 60 -2100 10 61 "Storage Corridor North" SCN_4-SCC SCN_2-SCN_4)
+    SCW	(StorageCWest_SCW -2122 8 60 -2116 54 61 "Storage Corridor West" SCW-J1 SCW-J2 SCW-J3 SCW-J4 I1-SCW I2-SCW I3-SCW I4-SCW MCE-SCW SCN_2-SCW)
+    SCC	(StorageCCenter_SCC -2103 11 60 -2100 54 61 "Storage Corridor Center" SCC-L1 SCC-L2 SCC-L3 K1_2-SCC K2_2-SCC K3_2-SCC K4_2-SCC MCE-SCC SCN_4-SCC)
+    SCE	(StorageCEast_SCE -2090 3 60 -2087 54 61 "Storage Corridor East" M1-SCE M2-SCE M3-SCE MCE-SCE SCN_1-SCE)
+
+    ;; 2e. Building
+    BUILDING	(Building  CCW MCW CCN CRC RRC CCE LLCN LLC_1 LLC_2 LLC_3 LLC_4 LLC_5 LLC_6 LLC_7 LLC_8 EL_1 EL_2 EL_3 EW MCE SCN_1 SCN_2 SCN_3 SCN_4 SCW SCC SCE)
+
+    ;;----------------------------------------------------;;
+    ;;            DO NOT TOUCH THIS SECTION               ;;
+    ;;----------------------------------------------------;;
+    ;;--------------------------------------------------
+    ;;     3. AUTOGENERATED FROM THE MINECRAFT WORLD
+    ;;--------------------------------------------------
+    ;; 3a. Minecraft objects of type  :wall_sign
+    wall_sign21143 (Minecraft-object-wall_sign -2143 127 61 -2143 127 61 "wall_sign")
+    wall_sign21144 (Minecraft-object-wall_sign -2144 127 62 -2144 127 62 "wall_sign")
+    wall_sign21145 (Minecraft-object-wall_sign -2144 127 60 -2144 127 60 "wall_sign")
+    wall_sign21146 (Minecraft-object-wall_sign -2145 127 61 -2145 127 61 "wall_sign")
+    wall_sign21147 (Minecraft-object-wall_sign -2152 127 62 -2152 127 62 "wall_sign")
+    wall_sign21148 (Minecraft-object-wall_sign -2154 127 62 -2154 127 62 "wall_sign")
+    wall_sign21149 (Minecraft-object-wall_sign -2156 127 62 -2156 127 62 "wall_sign")
+    wall_sign21150 (Minecraft-object-wall_sign -2147 125 61 -2147 125 61 "wall_sign")
+    wall_sign21151 (Minecraft-object-wall_sign -2141 124 62 -2141 124 62 "wall_sign")
+    wall_sign21152 (Minecraft-object-wall_sign -2147 124 62 -2147 124 62 "wall_sign")
+    wall_sign21153 (Minecraft-object-wall_sign -2147 124 61 -2147 124 61 "wall_sign")
+    wall_sign21154 (Minecraft-object-wall_sign -2147 124 60 -2147 124 60 "wall_sign")
+    wall_sign21155 (Minecraft-object-wall_sign -2147 123 61 -2147 123 61 "wall_sign")
+    wall_sign21156 (Minecraft-object-wall_sign -2141 120 62 -2141 120 62 "wall_sign")
+    wall_sign21157 (Minecraft-object-wall_sign -2141 116 62 -2141 116 62 "wall_sign")
+    wall_sign21158 (Minecraft-object-wall_sign -2215 57 61 -2215 57 61 "wall_sign")
+    wall_sign21159 (Minecraft-object-wall_sign -2186 54 61 -2186 54 61 "wall_sign")
+    wall_sign21160 (Minecraft-object-wall_sign -2101 52 61 -2101 52 61 "wall_sign")
+    wall_sign21161 (Minecraft-object-wall_sign -2117 51 62 -2117 51 62 "wall_sign")
+    wall_sign21162 (Minecraft-object-wall_sign -2122 51 62 -2122 51 62 "wall_sign")
+    wall_sign21163 (Minecraft-object-wall_sign -2211 51 61 -2211 51 61 "wall_sign")
+    wall_sign21164 (Minecraft-object-wall_sign -2163 50 62 -2163 50 62 "wall_sign")
+    wall_sign21165 (Minecraft-object-wall_sign -2090 49 61 -2090 49 61 "wall_sign")
+    wall_sign21166 (Minecraft-object-wall_sign -2190 49 61 -2190 49 61 "wall_sign")
+    wall_sign21167 (Minecraft-object-wall_sign -2186 48 61 -2186 48 61 "wall_sign")
+    wall_sign21168 (Minecraft-object-wall_sign -2215 48 61 -2215 48 61 "wall_sign")
+    wall_sign21169 (Minecraft-object-wall_sign -2151 46 62 -2151 46 62 "wall_sign")
+    wall_sign21170 (Minecraft-object-wall_sign -2215 46 61 -2215 46 61 "wall_sign")
+    wall_sign21171 (Minecraft-object-wall_sign -2151 45 62 -2151 45 62 "wall_sign")
+    wall_sign21172 (Minecraft-object-wall_sign -2163 45 62 -2163 45 62 "wall_sign")
+    wall_sign21173 (Minecraft-object-wall_sign -2163 44 62 -2163 44 62 "wall_sign")
+    wall_sign21174 (Minecraft-object-wall_sign -2164 44 62 -2164 44 62 "wall_sign")
+    wall_sign21175 (Minecraft-object-wall_sign -2173 44 62 -2173 44 62 "wall_sign")
+    wall_sign21176 (Minecraft-object-wall_sign -2174 44 62 -2174 44 62 "wall_sign")
+    wall_sign21177 (Minecraft-object-wall_sign -2101 42 61 -2101 42 61 "wall_sign")
+    wall_sign21178 (Minecraft-object-wall_sign -2186 41 61 -2186 41 61 "wall_sign")
+    wall_sign21179 (Minecraft-object-wall_sign -2194 41 61 -2194 41 61 "wall_sign")
+    wall_sign21180 (Minecraft-object-wall_sign -2200 41 61 -2200 41 61 "wall_sign")
+    wall_sign21181 (Minecraft-object-wall_sign -2117 40 62 -2117 40 62 "wall_sign")
+    wall_sign21182 (Minecraft-object-wall_sign -2122 40 62 -2122 40 62 "wall_sign")
+    wall_sign21183 (Minecraft-object-wall_sign -2090 39 61 -2090 39 61 "wall_sign")
+    wall_sign21184 (Minecraft-object-wall_sign -2211 39 61 -2211 39 61 "wall_sign")
+    wall_sign21185 (Minecraft-object-wall_sign -2157 38 62 -2157 38 62 "wall_sign")
+    wall_sign21186 (Minecraft-object-wall_sign -2204 37 61 -2204 37 61 "wall_sign")
+    wall_sign21187 (Minecraft-object-wall_sign -2153 34 62 -2153 34 62 "wall_sign")
+    wall_sign21188 (Minecraft-object-wall_sign -2154 34 62 -2154 34 62 "wall_sign")
+    wall_sign21189 (Minecraft-object-wall_sign -2155 34 62 -2155 34 62 "wall_sign")
+    wall_sign21190 (Minecraft-object-wall_sign -2186 34 61 -2186 34 61 "wall_sign")
+    wall_sign21191 (Minecraft-object-wall_sign -2101 33 61 -2101 33 61 "wall_sign")
+    wall_sign21192 (Minecraft-object-wall_sign -2142 33 61 -2142 33 61 "wall_sign")
+    wall_sign21193 (Minecraft-object-wall_sign -2090 30 61 -2090 30 61 "wall_sign")
+    wall_sign21194 (Minecraft-object-wall_sign -2215 30 61 -2215 30 61 "wall_sign")
+    wall_sign21195 (Minecraft-object-wall_sign -2117 29 62 -2117 29 62 "wall_sign")
+    wall_sign21196 (Minecraft-object-wall_sign -2122 29 62 -2122 29 62 "wall_sign")
+    wall_sign21197 (Minecraft-object-wall_sign -2142 27 61 -2142 27 61 "wall_sign")
+    wall_sign21198 (Minecraft-object-wall_sign -2186 27 61 -2186 27 61 "wall_sign")
+    wall_sign21199 (Minecraft-object-wall_sign -2200 27 61 -2200 27 61 "wall_sign")
+    wall_sign21200 (Minecraft-object-wall_sign -2204 27 61 -2204 27 61 "wall_sign")
+    wall_sign21201 (Minecraft-object-wall_sign -2150 25 61 -2150 25 61 "wall_sign")
+    wall_sign21202 (Minecraft-object-wall_sign -2101 24 61 -2101 24 61 "wall_sign")
+    wall_sign21203 (Minecraft-object-wall_sign -2191 23 61 -2191 23 61 "wall_sign")
+    wall_sign21204 (Minecraft-object-wall_sign -2090 21 61 -2090 21 61 "wall_sign")
+    wall_sign21205 (Minecraft-object-wall_sign -2142 21 61 -2142 21 61 "wall_sign")
+    wall_sign21206 (Minecraft-object-wall_sign -2186 20 61 -2186 20 61 "wall_sign")
+    wall_sign21207 (Minecraft-object-wall_sign -2150 19 61 -2150 19 61 "wall_sign")
+    wall_sign21208 (Minecraft-object-wall_sign -2117 18 62 -2117 18 62 "wall_sign")
+    wall_sign21209 (Minecraft-object-wall_sign -2122 18 62 -2122 18 62 "wall_sign")
+    wall_sign21210 (Minecraft-object-wall_sign -2101 16 61 -2101 16 61 "wall_sign")
+    wall_sign21211 (Minecraft-object-wall_sign -2142 15 61 -2142 15 61 "wall_sign")
+    wall_sign21212 (Minecraft-object-wall_sign -2090 13 61 -2090 13 61 "wall_sign")
+    wall_sign21213 (Minecraft-object-wall_sign -2186 13 61 -2186 13 61 "wall_sign")
+    wall_sign21214 (Minecraft-object-wall_sign -2210 11 61 -2210 11 61 "wall_sign")
+    wall_sign21215 (Minecraft-object-wall_sign -2215 11 61 -2215 11 61 "wall_sign")
+    wall_sign21216 (Minecraft-object-wall_sign -2142 9 61 -2142 9 61 "wall_sign")
+    wall_sign21217 (Minecraft-object-wall_sign -2150 9 61 -2150 9 61 "wall_sign")
+    wall_sign21218 (Minecraft-object-wall_sign -2101 8 61 -2101 8 61 "wall_sign")
+    wall_sign21219 (Minecraft-object-wall_sign -2144 7 61 -2144 7 61 "wall_sign")
+    wall_sign21220 (Minecraft-object-wall_sign -2198 7 61 -2198 7 61 "wall_sign")
+    wall_sign21221 (Minecraft-object-wall_sign -2186 6 61 -2186 6 61 "wall_sign")
+    wall_sign21222 (Minecraft-object-wall_sign -2090 5 61 -2090 5 61 "wall_sign")
+    wall_sign21223 (Minecraft-object-wall_sign -2190 4 61 -2190 4 61 "wall_sign")
+    wall_sign21224 (Minecraft-object-wall_sign -2151 3 62 -2151 3 62 "wall_sign")
+    wall_sign21225 (Minecraft-object-wall_sign -2157 3 62 -2157 3 62 "wall_sign")
+    wall_sign21226 (Minecraft-object-wall_sign -2174 1 61 -2174 1 61 "wall_sign")
+    wall_sign21227 (Minecraft-object-wall_sign -2215 -1 61 -2215 -1 61 "wall_sign")
+
+    ;; 3b. Minecraft objects of type  :flower_pot
+    flower_pot21241 (Minecraft-object-flower_pot -2159 53 63 -2159 53 63 "flower_pot")
+    flower_pot21242 (Minecraft-object-flower_pot -2160 53 63 -2160 53 63 "flower_pot")
+    flower_pot21243 (Minecraft-object-flower_pot -2161 53 63 -2161 53 63 "flower_pot")
+    flower_pot21244 (Minecraft-object-flower_pot -2159 48 63 -2159 48 63 "flower_pot")
+    flower_pot21245 (Minecraft-object-flower_pot -2160 48 63 -2160 48 63 "flower_pot")
+    flower_pot21246 (Minecraft-object-flower_pot -2161 48 63 -2161 48 63 "flower_pot")
+    flower_pot21247 (Minecraft-object-flower_pot -2139 47 62 -2139 47 62 "flower_pot")
+    flower_pot21248 (Minecraft-object-flower_pot -2140 47 62 -2140 47 62 "flower_pot")
+    flower_pot21249 (Minecraft-object-flower_pot -2141 40 62 -2141 40 62 "flower_pot")
+    flower_pot21250 (Minecraft-object-flower_pot -2168 40 61 -2168 40 61 "flower_pot")
+    flower_pot21251 (Minecraft-object-flower_pot -2141 39 62 -2141 39 62 "flower_pot")
+    flower_pot21252 (Minecraft-object-flower_pot -2168 36 61 -2168 36 61 "flower_pot")
+    flower_pot21253 (Minecraft-object-flower_pot -2153 30 61 -2153 30 61 "flower_pot")
+    flower_pot21254 (Minecraft-object-flower_pot -2155 30 61 -2155 30 61 "flower_pot")
+    flower_pot21255 (Minecraft-object-flower_pot -2154 6 61 -2154 6 61 "flower_pot")
+    flower_pot21256 (Minecraft-object-flower_pot -2156 6 61 -2156 6 61 "flower_pot")
+    flower_pot21257 (Minecraft-object-flower_pot -2176 5 61 -2176 5 61 "flower_pot")
+    flower_pot21258 (Minecraft-object-flower_pot -2208 5 61 -2208 5 61 "flower_pot")
+    flower_pot21259 (Minecraft-object-flower_pot -2197 4 61 -2197 4 61 "flower_pot")
+    flower_pot21260 (Minecraft-object-flower_pot -2197 1 61 -2197 1 61 "flower_pot")
+    flower_pot21261 (Minecraft-object-flower_pot -2203 -1 61 -2203 -1 61 "flower_pot")
+    flower_pot21262 (Minecraft-object-flower_pot -2206 -1 61 -2206 -1 61 "flower_pot")
+    flower_pot21263 (Minecraft-object-flower_pot -2208 -1 61 -2208 -1 61 "flower_pot")
+
+    ;; 3c. Minecraft objects of type  :lever
+    lever-controls (lvar "Controls")
+    lever21228 (Minecraft-object-lever -2138 38 61 -2138 38 61 "lever" lever-controls)
+    lever21229 (Minecraft-object-lever -2139 38 61 -2139 38 61 "lever" lever-controls)
+    lever21230 (Minecraft-object-lever -2136 30 61 -2136 30 61 "lever" lever-controls)
+    lever21231 (Minecraft-object-lever -2136 29 61 -2136 29 61 "lever" lever-controls)
+    lever21232 (Minecraft-object-lever -2136 28 61 -2136 28 61 "lever" lever-controls)
+    lever21233 (Minecraft-object-lever -2136 27 61 -2136 27 61 "lever" lever-controls)
+    lever21234 (Minecraft-object-lever -2136 12 61 -2136 12 61 "lever" lever-controls)
+    lever21235 (Minecraft-object-lever -2136 11 61 -2136 11 61 "lever" lever-controls)
+    lever21236 (Minecraft-object-lever -2136 10 61 -2136 10 61 "lever" lever-controls)
+    lever21237 (Minecraft-object-lever -2136 9 61 -2136 9 61 "lever" lever-controls)
+    lever21238 (Minecraft-object-lever -2136 8 61 -2136 8 61 "lever" lever-controls)
+    lever21239 (Minecraft-object-lever -2136 7 61 -2136 7 61 "lever" lever-controls)
+    lever21240 (Minecraft-object-lever -2136 6 61 -2136 6 61 "lever" lever-controls)
+
+    ;; 3d. Minecraft objects of type  :flower_pot
+    flower_pot21241 (Minecraft-object-flower_pot -2159 53 63 -2159 53 63 "flower_pot")
+    flower_pot21242 (Minecraft-object-flower_pot -2160 53 63 -2160 53 63 "flower_pot")
+    flower_pot21243 (Minecraft-object-flower_pot -2161 53 63 -2161 53 63 "flower_pot")
+    flower_pot21244 (Minecraft-object-flower_pot -2159 48 63 -2159 48 63 "flower_pot")
+    flower_pot21245 (Minecraft-object-flower_pot -2160 48 63 -2160 48 63 "flower_pot")
+    flower_pot21246 (Minecraft-object-flower_pot -2161 48 63 -2161 48 63 "flower_pot")
+    flower_pot21247 (Minecraft-object-flower_pot -2139 47 62 -2139 47 62 "flower_pot")
+    flower_pot21248 (Minecraft-object-flower_pot -2140 47 62 -2140 47 62 "flower_pot")
+    flower_pot21249 (Minecraft-object-flower_pot -2141 40 62 -2141 40 62 "flower_pot")
+    flower_pot21250 (Minecraft-object-flower_pot -2168 40 61 -2168 40 61 "flower_pot")
+    flower_pot21251 (Minecraft-object-flower_pot -2141 39 62 -2141 39 62 "flower_pot")
+    flower_pot21252 (Minecraft-object-flower_pot -2168 36 61 -2168 36 61 "flower_pot")
+    flower_pot21253 (Minecraft-object-flower_pot -2153 30 61 -2153 30 61 "flower_pot")
+    flower_pot21254 (Minecraft-object-flower_pot -2155 30 61 -2155 30 61 "flower_pot")
+    flower_pot21255 (Minecraft-object-flower_pot -2154 6 61 -2154 6 61 "flower_pot")
+    flower_pot21256 (Minecraft-object-flower_pot -2156 6 61 -2156 6 61 "flower_pot")
+    flower_pot21257 (Minecraft-object-flower_pot -2176 5 61 -2176 5 61 "flower_pot")
+    flower_pot21258 (Minecraft-object-flower_pot -2208 5 61 -2208 5 61 "flower_pot")
+    flower_pot21259 (Minecraft-object-flower_pot -2197 4 61 -2197 4 61 "flower_pot")
+    flower_pot21260 (Minecraft-object-flower_pot -2197 1 61 -2197 1 61 "flower_pot")
+    flower_pot21261 (Minecraft-object-flower_pot -2203 -1 61 -2203 -1 61 "flower_pot")
+    flower_pot21263 (Minecraft-object-flower_pot -2208 -1 61 -2208 -1 61 "flower_pot")
+    flower_pot21262 (Minecraft-object-flower_pot -2206 -1 61 -2206 -1 61 "flower_pot")
+
+    ;;--------------------------------
+    ;;     4. DUMMIES FOR CLONING
+    ;;--------------------------------
+    ;; 4a. Victims
+    dummy-block-victim-1 (block_victim_1 0 0 0 0 0 0 "prismarine")   ; Green victims
+    dummy-block-victim-2 (block_victim_2 0 0 0 0 0 0 "gold_block")   ; Gold/Yellow victims that die early
+
+    ;; 4b. Popup portals
+    dummy-hole (hole-in-the-wall 0 0 0 0 0 0 "a hole in the wall" 0) ; Hole in the wall
+
+    ;; 4.c Popup blockages
+    dummy-blockage (blockage 0 0 0 0 0 0 "a blockage" 0)             ; A blockage in a corridor or doorway.
+})

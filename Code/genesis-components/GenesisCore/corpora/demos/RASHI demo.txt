@@ -1,0 +1,10 @@
+Popup RASHI popup.
+
+Set all switches to defaults.
+Set show all story elements switch to true.
+
+Insert file 6034DemoStoryModulation.
+
+Pause. 
+
+Insert file fullArticleTerrorism_Blame_singular.

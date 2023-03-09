@@ -1,0 +1,65 @@
+Start description of "Selfish". 
+XX is a person.
+XX doesn't want to share.
+Evidently, XX triggers "selfish".
+The end. 
+
+Start description of "Weak 1".
+XX is a person.
+XX is a bad provider. 
+Evidently, XX triggers "weak 1".
+The end. 
+
+Start description of "Weak 2".
+XX is a person.
+XX becomes ashamed. 
+Evidently, XX triggers "weak 2".
+The end. 
+
+Start description of "Harsh".
+XX is a person.
+YY is a person.
+XX reprimands YY.
+Evidently, XX triggers "harsh".
+The end. 
+
+Start description of "Cruel 1".
+XX is a person.
+YY is a person.
+XX locks YY in a room. 
+Evidently, XX triggers "cruel 1".
+The end. 
+
+Start description of "Cruel 2".
+XX is a person.
+YY is a person.
+XX starves YY.
+Evidently, XX triggers "cruel 2".
+The end. 
+
+Start description of "Hateful".
+XX is a person.
+YY is a person.
+XX hates YY.
+Evidently, XX triggers "hateful".
+The end.
+
+Start description of "Violent".
+XX is a person.
+YY is a person.
+XX attacks YY.
+The end.
+
+Start description of "Vicious".
+XX is a person.
+YY is a person.
+XX insults YY.
+The end.
+
+Start description of "Sly".
+XX is a person.
+YY is a person.
+AA is an action.
+XX sneaks away in order to perform AA. 
+XX's performing AA leads to XX's harming YY.
+The end.

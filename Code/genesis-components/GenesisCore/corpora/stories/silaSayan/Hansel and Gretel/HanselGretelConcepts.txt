@@ -1,0 +1,63 @@
+Start description of "Selfish". 
+XX is a person.
+XX doesn't want to share.
+The end. 
+
+Start description of "Resourceful".
+XX is a person.
+XX makes a plan.
+The end. 
+
+Start description of "Sad".
+XX is a person.
+XX cries.
+
+Consequently, XX becomes sad because XX cries. 
+The end.
+
+Start description of "In a dilemma".
+XX is a person.
+XX's not knowing the solution to XX's problem leads to XX's becoming sad.
+The end.
+
+Start description of "Caring".
+XX is a person.
+YY is a person.
+XX becomes relieved because YY is safe. 
+The end.
+
+Start description of "Nice".
+XX is a person.
+YY is a person.
+//XX is not YY's relation.
+XX wants to help YY.
+The end. 
+
+Start description of "Dishonest 1".
+XX is a person.
+XX lies.
+The end.
+
+Start description of "Dishonest 2".
+XX is a person.
+YY is a person.
+XX tricks YY.
+The end.
+
+Start description of "Dishonest 3".
+XX is a person. 
+YY is a person.
+XX traps YY.
+The end. 
+
+Start description of "Dishonest 4".
+XX is a person.
+XX steals.
+The end.
+
+Start description of "Weak 1".
+XX is a person.
+XX is a bad provider. 
+The end. 
+
+

@@ -1,0 +1,9 @@
+Start description of "Acting with Survival Instinct".
+XX is a person.
+YY is a person.
+//AA is an action.
+//XX becomes trapped.
+XX becomes survival-conscious.
+//XX's becoming survival-conscious leads to XX's performing AA.
+XX murders YY. 
+The end.

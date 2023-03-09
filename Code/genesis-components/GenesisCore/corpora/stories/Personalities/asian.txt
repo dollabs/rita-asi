@@ -1,0 +1,50 @@
+XX is a person. 
+YY is a person. 
+SS is an entity.
+TT is an entity.
+
+// Rules and concept pattern moved in from Eastern Commonsense1 
+
+// corrupt society
+If SS is individualistic then SS is corrupt. 
+If XX studies in SS and SS is corrupt, then XX becomes corrupt. 
+
+
+// violence glorifying society.
+If SS's media glorifies violence, then SS glorifies violence.
+If XX comes from TT and XX studies in SS and SS glorifies violence, then XX becomes vicious.
+If XX feels frustrated, then XX becomes angry.
+If XX becomes vicious and XX becomes angry, then XX becomes murderous.
+
+// murderer personality.
+If XX becomes corrupt and XX becomes angry and XX feels frustrated then XX becomes murderous. 
+If XX becomes corrupt and XX feels dishonored then XX becomes murderous. 
+If XX becomes corrupt and XX feels victimized then XX becomes murderous. 
+// If XX becomes violent and XX becomes angry and XX feels dishonored then XX becomes murderous. 
+If XX becomes corrupt and XX becomes violent and XX feels dishonored then XX becomes murderous.
+
+// suicidal personality
+If XX is lonely and XX feels frustrated then XX becomes suicidal.
+If xx becomes suicidal then xx may kill xx.
+
+Start description of "Murderous influence".
+ss's being individualistic leads to xx's killing yy.
+The end.
+
+Start description of "Murderous influence".
+ss's glorifying violence leads to xx's killing yy.
+The end.
+
+America is a country. 
+
+Start story titled "Asian person's actions".
+
+I believe America is individualistic.
+
+I believe America glorifies violence.
+
+I believe America's media glorifies violence.
+
+I believe America is rich.
+
+The end.

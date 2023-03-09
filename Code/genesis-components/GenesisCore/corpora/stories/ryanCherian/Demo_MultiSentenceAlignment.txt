@@ -1,0 +1,70 @@
+Start experiment.
+
+Insert file General commonsense knowledge.
+
+Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+Insert file Contradictions.
+
+Start story titled "Demo MultiSentences".
+
+Stoj is a person.
+
+Ben is a person.
+
+Trevor is a person.
+
+Chase is a person.
+
+Austin is a person.
+
+Pat is a person.
+
+David is a person.
+
+Lucy is a person.
+
+Chris is a person.
+
+
+
+Stoj likes Chris.
+
+Chris is happy.
+
+
+Chris wins.
+
+
+Austin hates Trevor.
+
+Chase is Lucy's boyfriend.
+
+David likes Austin.
+
+Lucy is a student.
+
+Lucy is happy.
+
+Austin gets hurt.
+
+Trevor is happy.
+
+Ben has to take a test.
+
+Ben didn't know about the test.
+
+Ben didn't study.
+
+
+Austin believes Pat will win.
+
+Pat doesn't win.
+
+The End.
+
+
+
+

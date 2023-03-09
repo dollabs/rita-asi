@@ -1,0 +1,28 @@
+Start experiment.
+
+Anselmo is a person.
+Correia is a person.
+Jayme DeMello is a person.
+Sarah is a person.
+The boy is a person.
+Tiverton rescue personnel are persons.
+
+Start story titled "News1".
+
+//It was July 29.
+There were about 35 people at an annual summer party in Tiverton.
+Ten people were in the pool at the time.
+Anselmo walked from a swing set to the fence.
+His attention was drawn to James.
+At first, the boy looked as if he was swimming in circles.
+But he then went under the water and he didn’t come up.
+Anselmo yelled to Correia, who jumped into the pool.
+He jumped over the fence and into the water.
+Together they pulled up the boy, handing him to an uncle.
+Jayme DeMello gave him chest compressions.
+The gunk and water poured out of his mouth and nose.
+Sarah was doing rescue-breathing to him.
+Tiverton rescue personnel arrived as the boy was coming back to life.
+They transported him to Hospital in Providence.
+He stayed overnight for observation.
+The end.

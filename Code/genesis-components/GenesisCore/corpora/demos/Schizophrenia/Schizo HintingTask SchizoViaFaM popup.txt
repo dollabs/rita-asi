@@ -1,0 +1,18 @@
+<head>
+<link rel="stylesheet" type="text/css" href="file:corpora/demos/Schizophrenia/styles.css">
+</head>
+
+<body>
+	<h1>Background</h1>
+		<p>This is a sample Hinting Task. Given the brief story on the left, [H] indicates documented predictions by healthy humans, and [S] indicates documented predictions by some schizophrenic humans.
+		<p><img src="file:corpora/demos/Schizophrenia/Schizophrenia-Images/h.jpg">
+	<h1>What you see</h1>
+		<p>Motivated by previous schizophrenia literature, we modified Genesis with "Failure-at-Mentalizing", creating GenesisFaM. GenesisFaM serves as a biologically plausible, falsifiable model of schizophrenic thought.
+		<p>We administered a Hinting Task to Unmodified Genesis and GenesisFaM.
+		<p><b>ON THE LEFT</b> Unmodified Genesis exhibited healthy behavior.
+		<p><b>ON THE RIGHT</b> GenesisFaM induced schizophrenic perplexity, causing schizophrenic behavior.
+		<p>
+	<h1>Reference</h1>
+		<p>This research was conducted by Pratyusha Kalluri.
+</body>
+

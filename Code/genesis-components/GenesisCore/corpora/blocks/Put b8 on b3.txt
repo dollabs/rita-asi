@@ -1,0 +1,18 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set left panel to commentary.
+
+Set right panel to blocks.
+
+Set bottom panel to elaboration graph.
+
+Read knowledge in Basic blocks knowledge.
+
+Read knowledge in Advanced blocks knowledge.
+
+Insert into text box: Put b8 on b3.
+
+
+

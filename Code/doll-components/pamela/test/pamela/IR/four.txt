@@ -1,0 +1,14 @@
+[:pamela
+ [:defpclass
+  [:symbol "four"]
+  [:args]
+  [:option
+   [:meta
+    [:meta-entry [:version [:string "0.2.0"]]]
+    [:meta-entry [:doc [:string "Forth"]]]
+    [:meta-entry
+     [:depends
+      [:dep [:symbol "one"] [:string "0.2.0"]]
+      [:dep [:symbol "two"] [:string "0.2.0"]]
+      [:dep [:symbol "three"] [:string "0.2.0"]]]]]]
+  [:option [:modes [:mode-enum [:keyword ":g"] [:keyword ":i"]]]]]]

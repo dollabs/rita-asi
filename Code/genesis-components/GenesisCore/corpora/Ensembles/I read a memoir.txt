@@ -1,0 +1,85 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Find difference button to true.
+Set left panel to commentary.
+// Set right panel to Z Story Aligner Gallery.
+Set right panel to source.
+Both perspectives.
+
+Phillips is a person.
+I am a person.
+thesis supervisor is an entity.
+research scientist is an entity.
+
+
+Note that "Phillips" is a masculine name.
+
+The Genesis Group is an entity.
+Nanyang Technological University is an university.
+Stanford University is an university.
+computer science graduate program is an entity.
+PhD student is an entity.
+programs are research works.
+
+xx is a person.
+ss are research works.
+yy is an entity.
+aa is an action.
+uu is an university.
+vv is a variable.
+kk is a variable.
+tt is a variable.
+
+If xx works at kk in vv before tt as yy, then xx is a researcher.
+If xx continues to work on kk, then xx loves xx's research.
+If xx continues to refine ss at uu, then xx loves xx's research.
+If xx works at kk, then xx is a researcher.
+If xx joins the computer science graduate program of uu, then xx is a PhD student.
+If xx is a graduate student at kk, then xx is a PhD student.
+
+Show both perspectives.
+First perspective.
+Start story titled "Phillips' story".
+Phillips earned an undergraduate degree and a master degree at Massachusetts Institute of Technology.
+He joined the Computer Science graduate program of Stanford University.
+
+He wants to create innovative tools that increase programming productivity.
+But he joined a difficult research project that has less space for original contributions.
+Phillips explored a lot of ideas.
+However, Phillips's ideas did not attract his thesis supervisor.
+In the first three years of his PhD, Phillips jumped from projects to projects.
+
+Phillips did not publish any paper.
+Phillips worked at Microsoft as an intern in the summer before his fourth year.
+
+Phillips worked with a senior research scientist.
+Phillips developed a tool that helped programmers all over the world.
+Phillips published two papers with the research scientist.
+More importantly, Phillips discovered a research direction that is in the intersection of his passion and the field's interest.
+
+After going back to Stanford University, he continued to work on those ideas and he implemented new systems.
+Phillips focused on producing results that he can publish.
+He generated new ideas while he was chatting casually with friends.
+He received important feedback from researchers after giving talks at other universities.
+In a random conversation at a conference, a famous professor recruited Phillips as a post doc.
+Finally, Phillips published five papers at Stanford University.
+He graduated successfully and found a faculty job.
+
+The end.
+
+Second perspective.
+Start story titled "My story".
+
+I study at Nanyang Technological University.
+In 2018, I exchanged at Massachusetts Institute of Technology.
+
+I worked at the Genesis Group.
+I developed a program that learns procedures from books.
+Another program I created learns by asking an expert.
+I continued to refine the programs at Nanyang Technological University.
+After graduation, I will be a PhD student at the Genesis Group.
+I need to graduate successfully.
+The end.

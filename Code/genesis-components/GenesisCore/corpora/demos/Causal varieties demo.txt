@@ -1,0 +1,91 @@
+Popup Causal varieties popup.
+
+Set all switches to defaults.
+
+Start experiment.
+
+Set all switches to defaults.
+
+xx and yy are persons.
+
+// Prediction
+
+If xx kills yy, then yy becomes dead.
+
+// Explanation
+
+If xx angers yy, then yy may kill xx.
+
+// Presumption
+
+xx is greedy, presumably because xx is weak.
+
+// Abduction
+
+If xx kills yy, then xx must be insane.
+
+// Enablement
+
+// Doesn't work on antecedents of means as of 26 May 2017
+xx's holding a knife enables xx's stabbing yy.
+
+// Post hoc ergo propter hoc.
+
+If Xx becomes king and yy immediately becomes angry, then infer implication.
+
+// Censor
+
+If xx kills yy then xx harms yy.
+If xx harms yy then yy becomes unhappy.
+If yy becomes dead, yy cannot become unhappy.
+
+Lady Macbeth, Lady Macduff, Macbeth, Macduff, and Duncan are persons.
+
+Start story titled "Macbeth".
+
+Macbeth is greedy.
+
+In order to murder Duncan, Macbeth kills the guards and Macbeth stabs Duncan.
+
+// Macbeth stabs Duncan.
+
+Macbeth becomes King.
+Macduff becomes angry.
+
+Macbeth angers Macduff.
+
+Macduff kills Macbeth.
+
+// Internal, explicit cause
+
+Macbeth wants to murder Duncan because Macbeth wants to be king.
+
+// Internal leads to
+
+Macbeth's murdering Duncan leads to Macduff's fleeing to England.
+
+// Internal, unknowable, leads to
+
+Strangely, Macbeth's murdering Duncan leads to Macbeth's hallucinating.
+
+// Internal post hoc ergo propter hoc
+
+Macduff kills Macbeth; Macduff celebrates.
+
+Duncan becomes unhappy.
+
+Set right panel to Results.
+
+Comment: White box is explicit in story. 
+Comment: <br/>Yellow box is deduction.
+Comment: <br/>Violet box is abduction.
+Comment: <br/>Blue box is presumption.
+Comment: <br/>Pink box is enabler.
+Comment: <br/>Orange line indicates explanation connection.
+Comment: <br/>Gray line indicates means connection.
+Comment: <br/>Cyan line indicates leads-to connection.
+Comment: <br/>Magenta line indicates unknowable leads-to connection.
+Comment: <br/>Red line indicates post hoc ergo propter hoc connection.
+
+The end.
+

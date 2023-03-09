@@ -1,0 +1,36 @@
+[
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Player173",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "Player173"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "Not Set",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Player173",
+      "values": {
+        "action": "select-tool",
+        "object": "asistmod:item_first_aid",
+        "subject": "Player173"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "Not Set",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  }
+]

@@ -1,0 +1,68 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set Show all story elements switch to true.
+
+Set Deploy novice first switch to false.
+
+Set Self aware button to true.
+
+Set Use features when matching switch to false.
+
+Set Split names with underscores switch to false.
+
+Read knowledge in Problem solving stories.
+
+Read knowledge in Asking knowledge.	
+
+If xx insults yy then xx harms yy.
+
+If xx says that xx likes yy, then xx likes yy.
+
+Start story titled "Asking about my day".
+
+John is my son.
+
+Susan is a person.
+
+I ate eggs for breakfast.
+
+John called because he is lonely.
+
+I ate lunch.
+
+I ate a sandwich for lunch.
+
+John said that he likes Susan.
+
+John insulted me because he likes Susan.
+
+The end.
+
+Insert into text box: Is John lonely.
+
+Pause. Insert into text box: Why did John call.
+
+Pause. Insert into text box: Did I eat lunch?
+
+Pause.  Insert into text box: What did I eat for lunch?
+
+Pause. Insert into text box: Did John call before I ate lunch?
+
+Pause.  Insert into text box: Did I eat dinner?
+
+Pause.  Insert into text box: What did I eat for dinner?
+
+Pause.  Insert into text box: What did I eat for breakfast?
+
+Pause.  Insert into text box: What did John say?
+
+Pause.  Insert into text box: Why did John harm me?
+
+Pause. Insert into text box:  What happened when John said he likes Susan.
+
+
+
+
+ 

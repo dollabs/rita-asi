@@ -1,0 +1,47 @@
+Start experiment.
+
+Set bottom panel to Elaboration graph.
+
+A three-year-old is a kind of person.
+A three-and-a-half-year-old is a kind of person.
+A four-year-old is a kind of person.
+
+VV is a thing.
+WW is a person.
+XX is a person.
+YY is a physical-thing.
+ZZ is a psych-thing.
+AA is a physical-thing.
+BB is a psych-thing.
+
+
+//phys --> phys: YY --> AA
+//psych --> psych: ZZ --> BB
+//psych --> phys: ZZ --> AA
+
+If XX is a three-year-old then XX may believe that YY causes AA.
+
+//If XX runs, then XX is running.
+If XX runs, then Activ is a has_run.
+If XX runs in VV, then XX contacts VV.
+//With probability 0.5 if XX is a three-year-old and WW runs in VV and WW becomes sick, then XX believes WW becomes sick because WW runs in VV.
+If XX is a three-year-old and WW runs in VV and WW becomes sick, then XX believes WW becomes sick because WW runs in VV.
+Has_run is a kind of physical-thing.
+Feeling is a kind of psych-thing.
+
+Sickness is a kind of physical-thing.
+Sickness is a kind of psych-thing.
+Bambi is a deer. Bambi is a boy.
+Activ is a thing.
+
+
+Start story titled "Model Test".
+
+Test_subject is a three-year-old.
+
+Bambi runs in the pine grove.
+Bambi becomes sick.
+
+//If xx is three and yy runs to lake and yy becomes sick, then xx believes yy becomes sick because yy runs to lake.
+
+The end.

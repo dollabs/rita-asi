@@ -1,0 +1,28 @@
+// False-Belief Test - Rebecca Saxe version, 1/16, 1/21
+// From http://youtu.be/GOCUH7TxHRI?t=3m44s
+
+Start experiment.
+
+Start story titled "False-Belief Test".
+The child, Ivan, and Joshua are persons.
+
+The child, Ivan, and Joshua enter the scene.
+There is a treasure chest on the ground.
+Joshua exits the scene.
+Ivan places his sandwich on the treasure chest.
+Ivan exits the scene.
+The wind blows Ivan's sandwich to the ground.
+
+Then, Joshua enters the scene.
+Ivan's sandwich is on the ground.
+Joshua places his sandwich on the treasure chest.
+Joshua exits the scene.
+
+Then, Ivan enters the scene.
+There is a sandwich on the ground.
+There is a sandwich on the treasure chest.
+
+//Question: which sandwich does Ivan think is his?  The one on the treasure chest.
+//Question: which sandwich does the child think is Ivan's?  The one on the ground.
+
+The end. 

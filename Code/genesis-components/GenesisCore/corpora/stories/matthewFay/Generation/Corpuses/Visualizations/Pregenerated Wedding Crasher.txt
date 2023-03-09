@@ -1,0 +1,32 @@
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "Wedding Crasher".
+
+Hughes is a name.
+Hughes is a person.
+
+George is a name.
+George is a person.
+
+Andrea is a name.
+Andrea is a person.
+
+George is a monster.
+Hughes is unfriendly.
+George dislikes Hughes.
+George dislikes Hughes because Hughes is unfriendly.
+Hughes meets Andrea.
+Andrea loves Hughes.
+Andrea courts Hughes.
+Hughes loves Andrea.
+Andrea wants to marry Hughes.
+Hughes wants to marry Andrea.
+Andrea marries Hughes.
+Hughes marries Andrea.
+George eats Hughes.
+George eats Hughes because George dislikes Hughes.
+
+The end.

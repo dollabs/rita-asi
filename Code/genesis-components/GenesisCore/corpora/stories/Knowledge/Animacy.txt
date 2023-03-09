@@ -1,0 +1,39 @@
+
+Start description of "Memorable event: prediction".
+
+xx is an entity.
+
+yy is an entity.
+
+aa is an action.
+
+xx predicts that yy performs aa.
+
+// Consequently, xx's predicting that yy performs aa leads to yy's performing aa.
+
+The end.
+
+Start description of "Surprise: prediction".
+
+xx is an entity.
+
+yy is an entity.
+
+xx predicts that yy performs aa.
+
+yy performs aa.
+
+// Consequently, xx's predicting that yy performs aa leads to yy's performing aa.
+
+The end.
+
+Start description of "Surprise: animacy".
+
+xx is vegetation.
+
+xx becomes animate.
+// xx goes.
+ 
+The end.
+
+If xx is vegetation and xx goes then xx becomes animate.

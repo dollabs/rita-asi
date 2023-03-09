@@ -1,0 +1,18 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0258".
+AS PART OF A CONSPIRACY, THE HUNTER TOOK THE PRINCESS HOSTAGE, PLANNING TO KILL HER.
+THE PRINCESS UNDID THE ROPES. SHE WAS FREE.
+THE PRINCESS REALIZED THAT THE HUNTER COULD KILL HER AT ONCE. SHE HAD TO RUN AWAY.
+THE PRINCESS DECIDED TO GO TO THE GREAT CITY.
+THE END.
+
+
+
+The end.

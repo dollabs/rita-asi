@@ -1,0 +1,5816 @@
+[
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Staging Area Door",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16974",
+      "using": "Staging Area Door"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16975"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "lever",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "lever",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "lever"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16976"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16977"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor North-SouthS",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corridor Intersection CC-LSN",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Left Corridor North-SouthS",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16978",
+      "using": "Corridor Intersection CC-LSN"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim b",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim b"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16979",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim b",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim b"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16980",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between R205-R207",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16981",
+      "using": "Door between R205-R207"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 205 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 205 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 205 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16982"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 205 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 205 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 205 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16983"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor West-East",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between LWE-R205",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16984",
+      "using": "Door between LWE-R205"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 201 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 201 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 201 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16985"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 14",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 14",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 14"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16986",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 14",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 14",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 14"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16987",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 201 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 201 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 201 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16988"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 15",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 15",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 15"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16989",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 15",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 15",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 15"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16990",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor North-SouthS",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between LSN-R201",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16991",
+      "using": "Door between LSN-R201"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room J light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room J light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room J light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16992"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor North-SouthS",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between LSN-RJ",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16993",
+      "using": "Door between LSN-RJ"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room J light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room J light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room J light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16994"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R208b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 208"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R208b"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16995",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16997"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim d",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim d",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim d"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16998",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208a",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se16999",
+      "using": "Door between CC-R208a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17000"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R210",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R210",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 210"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R210"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17001",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R210",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17003",
+      "using": "Door between CC-R210"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R215",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R215",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 215"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R215"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17004",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 215 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 215 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 215 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17006"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R215",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17007",
+      "using": "Door between CC-R215"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 215 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 215 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 215 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17008"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R210",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R210",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 210"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R210"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17009",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 210",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R210",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 210",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17010",
+      "using": "Door between CC-R210"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R208a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208a",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 208"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R208a"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17011",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208a",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 208",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17012",
+      "using": "Door between CC-R208a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R211",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R211",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 211"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R211"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17013",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 211 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 211 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 211 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17015"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 13",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 13",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 13"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17016",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 10",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 10",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 10"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17017",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 13",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 13",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 13"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17018",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 211 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 211 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 211 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17019"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R211",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17020",
+      "using": "Door between CC-R211"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R208b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 208"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R208b"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17021",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 208",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17022",
+      "using": "Door between CC-R208b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Unknown rooom",
+      "reason": [
+        "and",
+        null,
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Unknown rooom",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17023",
+      "using": "Corridor Intersection CC-RNS"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17024"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Elevator 2",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Elevator 2 entrance",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Elevator 2",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17025",
+      "using": "Elevator 2 entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17026"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17028"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim g",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim g",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim g"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17029",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17030"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "lever",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "lever",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "lever"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17032"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 19",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 19",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 19"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17033",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 19",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 19",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 19"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17034",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens Room Entrance",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17035",
+      "using": "Womens Room Entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Mens Room Entrance",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17036",
+      "using": "Mens Room Entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Room 2 Internal door",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17037",
+      "using": "Room 2 Internal door"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Mens Room Entrance",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17038",
+      "using": "Mens Room Entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Corridor lights switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Corridor lights switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Corridor lights switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17039"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R209",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R209",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 209"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R209"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17040",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 209",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R209",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 209",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17041",
+      "using": "Door between CC-R209"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R211",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R211",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 211"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R211"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17042",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 211 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 211 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 211 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17044"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 13",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 13",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 13"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17045",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 10",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 10",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 10"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17046",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 218",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between R218-R213",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17047",
+      "using": "Door between R218-R213"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 9",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 9",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 9"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17048",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 218 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 218 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 218 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17049"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Right Corridor West-East",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between RWE-R218",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17050",
+      "using": "Door between RWE-R218"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 220 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 220 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 220 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17051"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 4",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 4",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 4"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17052",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "missing room name",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between R220-R215",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17053",
+      "using": "Door between R220-R215"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 4",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 4",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 4"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17054",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 220 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 220 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 220 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17055"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Right Corridor West-East",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between RWE-R220",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17056",
+      "using": "Door between RWE-R220"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 216 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 216 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 216 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17057"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 216 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 216 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 216 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17058"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 216 light",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 216 light",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 216 light"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17059"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim e",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim e",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim e"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17060",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 209 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 209 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 209 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17061"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R209",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17062",
+      "using": "Door between CC-R209"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R209",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R209",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 209"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R209"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17063",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 209 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 209 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 209 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17065"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 216 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 216 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 216 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17066"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Right Corridor West-East",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between RWE-R216a",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17067",
+      "using": "Door between RWE-R216a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 218 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 218 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 218 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17068"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 9",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 9",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 9"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17069",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 9",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 9",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 9"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17070",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 213 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 213 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 213 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17071"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 5",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 5",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 5"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17072",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 10",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 10",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 10"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17073",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 13",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 13",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 13"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17074",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 211 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 211 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 211 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17075"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R211",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17076",
+      "using": "Door between CC-R211"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R208b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 208"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R208b"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17077",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 208",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17078",
+      "using": "Door between CC-R208b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R208a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208a",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 208"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R208a"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17079",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208a",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Room 208",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17080",
+      "using": "Door between CC-R208a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R215",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R215",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 215"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R215"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17081",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 215 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 215 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 215 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17083"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R215",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17084",
+      "using": "Door between CC-R215"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 215 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 215 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 215 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17085"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R210",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R210",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 210"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R210"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17086",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 3",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 3",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 3"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17088",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 3",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 3",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 3"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17089",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R208a",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208a",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 208"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R208a"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17090",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17092"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17093"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim d",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim d",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim d"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17094",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17095",
+      "using": "Door between CC-R208b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17096"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R211",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R211",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 211"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R211"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17097",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 13",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 13",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 13"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17099",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 211 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 211 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 211 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17100"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R211",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17101",
+      "using": "Door between CC-R211"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R208b",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 208"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R208b"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17102",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17104"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R208b",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17105",
+      "using": "Door between CC-R208b"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 208 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 208 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 208 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17106"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "open",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Door between CC-R209",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R209",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-enter": "Room 209"
+        },
+        {
+          "agent-belief": 100,
+          "is": "closed",
+          "subject": "Door between CC-R209"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17107",
+      "using": null
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 209 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 209 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 209 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17109"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 209 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 209 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 209 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17110"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Center Corridor",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between CC-R209",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17111",
+      "using": "Door between CC-R209"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor North-SouthS",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corridor Intersection CC-LSN",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Left Corridor North-SouthS",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17112",
+      "using": "Corridor Intersection CC-LSN"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor North-SouthS",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Corridor Intersection CC-LSN",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Left Corridor North-SouthS",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17113",
+      "using": "Corridor Intersection CC-LSN"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room J light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room J light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room J light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17114"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 201 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 201 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 201 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17115"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 15",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 15",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 15"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17116",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 14",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 14",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 14"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17117",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 14",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 14",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 14"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17118",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 203 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 203 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 203 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17119"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 203 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 203 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 203 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17120"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 203 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 203 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 203 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17121"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 14",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 14",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 14"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17122",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 201 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 201 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 201 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17123"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 15",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 15",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 15"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17124",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor North-SouthS",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between LSN-R201",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17125",
+      "using": "Door between LSN-R201"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 205 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 205 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 205 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17126"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Left Corridor West-East",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Door between LWE-R205",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.7,
+          "sees-no-untriaged-victims-of-type": "unknown-type",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17127",
+      "using": "Door between LWE-R205"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "set-switch-state",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Room 205 light switch",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "Room 205 light switch",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 0.5,
+          "has-state": "off",
+          "object": "Room 205 light switch"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-find": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17128"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "e78169f3-a233-4458-bbd9-c0f44551ba86",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 7",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 7",
+          "subject": "K_Fuse"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 7"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "K_Fuse",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "K_Fuse",
+      "uid": "se17129",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  }
+]

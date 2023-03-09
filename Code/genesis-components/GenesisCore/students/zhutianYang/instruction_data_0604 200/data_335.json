@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 10:32:32+08:00", 
+    "instructions": [
+        "Place a dinner fork on the left side with its tines pointed up", 
+        "place a dinner knife on the right side with the blade facing left", 
+        "place a salad fork to the left of the dinner fork with its tines facing up", 
+        "place a salad knife to the right of the dinner knife with its blade facing the dinner knife", 
+        "place a soup spoon to the left of the salad knife with its bowl facing up", 
+        "place a dessert spoon at the top with its bowl facing left", 
+        "move the desert spoon from the top to the right of the soup spoon with its bowl facing up", 
+        "reposition the dessert spoon to its original position and orientation&lt;br&gt;", 
+        "place a dinner plate at the bottom, between the salad fork, dessert spoon, and dinner knife", 
+        "place a bread plate to the top left of the dinner plate", 
+        "place butter knife on bread plate, angled from top right to bottom left, blade facing dinner plate", 
+        "place a wine glass above the soup spoon", 
+        "&amp;nbsp;place a water glass between the wine glass and dessert spoon", 
+        "fold a napkin and it place in the center of the dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

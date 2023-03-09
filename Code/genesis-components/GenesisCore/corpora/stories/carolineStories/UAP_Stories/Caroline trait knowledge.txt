@@ -1,0 +1,14 @@
+/*
+	This file is to give probabilistic reasoning for likelihoods of actions
+	based upon given traits.
+*/
+
+XX, YY, ZZ, and WW are persons.
+
+// Evil
+With probability of 0.1 XX kills YY because XX is evil.
+With probability of 0.3 XX plans to kill YY because XX is evil.
+
+// Good
+With probability of 0.3 XX saves YY because XX is good. 
+With probability of 0.25 XX helps YY because XX is good. 

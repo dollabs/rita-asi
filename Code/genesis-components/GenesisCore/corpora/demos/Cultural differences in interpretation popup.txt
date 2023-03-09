@@ -1,0 +1,22 @@
+<h1>What you see</h1>
+
+Genesis uses two sets of common sense rules and concept patterns to read a short, simple version of Macbeth&mdash;about 100 lines&mdash;and constructs two <i>elaboration graphs</i>.
+
+<p>
+The elaboration graph on the left reflects the Asian bias toward viewing violence <i>situationally</i>, that is, as a consequence of situations in which the
+actors are immersed; the elaboration graph on the right reflects the Western bias toward viewing violence <i>dispositionally</i>, that is, as a consequence of
+actor characteristics.
+
+<p>
+The demonstration also illustrates how Genesis answers <i>why</i> questions (on the common sense and the conceptual level) and how questions 
+(by reporting on the steps involved).
+
+<h1>What you can do</h1>
+
+<ul>
+<li> Click or right click to zoom in or out on the elaboration graph.  Press and drag to move the elaboration graph.
+<li> Press <i>Revenge</i> button at the bottom of the left elaboration graph and examine the elements involved in the <i>Inspector</i> pane.
+     You see that <i>Macduff kills Macbeth</i> is situational.  Press the <i>Insane violence</i> buttons on the right until you
+     find the concept pattern in which Macduff kills Macbeth.  On this side, you see that the killing is dispositional.
+</ul>
+

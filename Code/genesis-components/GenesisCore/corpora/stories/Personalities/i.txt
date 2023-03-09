@@ -1,0 +1,118 @@
+
+I am a person.
+
+// This is the winner, but complicates testing, so dike
+
+
+
+rr is a variable.
+ss is a variable.
+vv is a variable.
+xx is a person.
+
+Start description of "Reached conclusion".
+xx concludes rr.
+The end.
+
+Start description of "Reached conclusion".
+xx reached conclusion about rr.
+The end.
+
+Start description of "Failed to reach conclusion".
+xx does not concludes rr.
+The end.
+
+Start description of "Failed to reach conclusion".
+xx did not reach conclusion about rr.
+The end.
+
+//////////
+
+
+Start description of "X believes Y".
+xx believes rr.
+The end.
+
+ll is a variable.
+mm is a variable.
+oo is a variable.
+vv is a variable.
+
+If I think about vv, then I exist.
+
+Start description of "Cogito, ergo sum".
+xx's thinking about vv leads to xx's existing.
+The end.
+
+Start description of "Confirmation using belief".
+xx's believing ll leads to xx's confirming mm.
+The end.
+
+Start description of "Problem solved using search".
+the path's leading from ll to mm leads to xx's solving oo.
+The end.
+
+Start description of "Confirmation using search".
+the path's leading from ll to mm leads to xx's confirming oo.
+The end.
+
+
+Start description of "Note danger".
+I conclude that xx is lonely.
+The end.
+
+
+Start description of "Found means".
+I succeed with "I find recipe for ll".
+The end.
+
+
+Start description of "Found steps".
+I find recipe for ll.
+The end.
+
+
+Start description of "Found consequences".
+I search forward from ll.
+The end.
+
+Start description of "Found causes".
+// I explain ll.
+My explaining ll leads to my solving yy.
+The end.
+
+// Used in paper
+
+// If xx thinks about ll, then xx be.
+
+If xx believes ll then xx thinks about ll.
+
+Start description of "Noted danger".
+I found "xx is lonely".
+The end.
+
+/*
+Start description of "Solved subproblem".
+I solved rr.
+I solved ss.
+rr must not equal ss.
+The end.
+*/
+
+// Start description of "Problem solved using belief".
+// My succeeding with "I find vv in my beliefs" leads to my solving "did I believe vv".
+// The end.
+
+Start description of "Problem solved using belief".
+My succeeding with "You establish that i believe vv" leads to my solving rr.
+The end.
+
+Start description of "Solved problem using search".
+My succeeding with "You establish that a path leads from ll to mm" leads to my solving ss.
+The end.
+
+/*
+Start description of "Cogito, ergo sum".
+My thinking about vv leads to my being.
+The end.
+*/

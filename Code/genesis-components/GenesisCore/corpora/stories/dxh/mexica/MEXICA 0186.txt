@@ -1,0 +1,17 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0186".
+THAT DAY THE HUNTER'S HEART WAS FULL OF ENERGY.
+IN THE MORNING, THE PRINCESS AWOKE IN THE GREAT CITY.
+THE PRINCESS PERCEIVED HOW PEOPLE LOVED AND ADMIRED THE HUNTER. SINCE THE PRINCESS WAS A VERY INSECURE PERSON, THE PRINCESS DEVELOPED A STRONG ENVY FOR THE HUNTER.
+ANGRY, AND WITH THE SUPPORT OF THE RULING CLASS, THE PRINCESS FORCED THE HUNTER TO LEAVE THE CITY AND TO GO TO THE UNCIVILIZED LANDS.
+
+
+
+The end.

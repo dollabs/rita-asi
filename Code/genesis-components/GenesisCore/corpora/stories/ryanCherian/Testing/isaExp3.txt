@@ -1,0 +1,18 @@
+Start experiment.
+
+Insert file General commonsense knowledge.
+
+Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+Insert file Contradictions.
+
+Start story titled "expAgain".
+
+Isabella is a person.
+
+Isabella happily cries with happy tears.
+
+
+The End.

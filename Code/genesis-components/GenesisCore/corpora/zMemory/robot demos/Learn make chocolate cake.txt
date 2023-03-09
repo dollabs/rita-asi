@@ -1,0 +1,27 @@
+Set expert teaches novice button to true.
+
+// Set Real robot button to true.
+
+Set Use features when matching switch to false.
+
+Set Split names with underscores switch to false.
+
+Set left panel to Learn PS from conversations.
+
+Set right panel to Blocks.
+
+Set bottom panel to Mental models.
+
+Insert conversation: Could you please make a fruit salad?
+
+Insert conversation: You toss the fruits into the bowl. Then, you load the bowl with nuts.
+// the apples are in the green cup, the watermelons are in the red cup, and the blueberries are in the blue cup.
+// the apples are in the green cup, the watermelons are in the red cup, the grapes are in the purple cup, and the berries are in the blue cup.
+
+Insert conversation: You pour the nuts from the black and white bottle into the bowl.
+
+Insert conversation: If I am not on diet, you can add salad dressing to the bowl.
+
+Insert conversation: Yes.
+
+Insert conversation: Show me.

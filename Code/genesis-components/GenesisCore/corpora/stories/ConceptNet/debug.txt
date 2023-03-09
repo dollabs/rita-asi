@@ -1,0 +1,102 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set perform goal analysis (ASPIRE) switch to true.
+
+Set use similarity rule matching switch to true.
+
+// RULES
+// just about emotional states (causes + effects) and goals
+XX and YY are persons.
+// If XX is in love with YY, XX may want to kiss YY.
+If XX is hungry, XX may want to eat popcorn.
+If XX is artistic, XX may want to make music.
+If XX is bored, XX may want to play baseball.
+If XX is angry, XX may want to hurt YY.
+If XX is vulnerable, YY may want to hurt XX.
+If XX is athletic, XX may want to play a sport.
+
+// STORY
+
+Start story titled "Debug".
+
+Sean is a person.
+
+Sean is gaining weight.
+
+Sean rides his bike to the office.
+
+Matt and Jackie are persons.
+
+Matt praises Jackie.
+
+Matt embraces Jackie.
+
+Matt kisses Jackie on the lips.
+
+Matt embraces a chair.
+
+Helen is a person.
+
+Matt embraces Helen.
+
+Josh is a person.
+
+Josh is hungry.
+
+Josh eats an apple.
+
+Josh eats popcorn.
+
+Matt is artistic.
+
+Josh is artistic.
+
+Matt plays violin.
+
+Matt makes music because he plays violin.
+
+Jackie is bored.
+
+Jackie finds a friend.
+
+Jackie hits a home run on the field.
+
+Helen is bored.
+
+Helen is angry.
+
+Helen hurts Matt.
+
+Helen hurts Josh.
+
+Jackie is vulnerable.
+
+Helen punches Jackie.
+
+Charlie is a person.
+
+Charlie is athletic.
+
+Charlie wants to create a sport.
+
+Charlie plays hockey.
+
+// Matt wants to relax.
+
+Bryan is a person.
+
+Bryan reads a book.
+
+Bryan sits quietly.
+
+// Matt takes a walk.
+
+The end.
+
+Set left panel to sources at conceptnet knowledge.
+
+Set Perform goal analysis (ASPIRE) switch to false.
+
+Set Use similarity rule matching switch to false.

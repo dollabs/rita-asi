@@ -1,0 +1,59 @@
+// This is meant to demonstrate code in ordinary Genesis.
+
+Start experiment.
+
+Set right panel to mental models.
+
+// A test.
+
+// For illustration only, doesn't make complete sense.
+"Upset-x" is a kind of personality trait.
+
+Start description of "Sample concept".
+xx angers yy.
+zz insults yy.
+The end.
+
+Start description of "Another sample concept".
+xx's loving yy leads to yy's loving xx. 
+The end.
+
+Start story titled "Les Mis inspired debugging".
+
+John, Susan, Mary, and Peter are persons.
+
+// Once John has mental model, senteces with "John believes..." only go into that mental model
+Construct a mental model for John.
+Susan enters.
+
+// The next sentence establishes that Susan has upset trait in John's mental model, but not in readers mental model.
+
+// Note that anything in such a belief sentence does this, so one way to add arbitrary element to John's mental
+// is to make it the object of a "John believes..." role frame and just insert it into the story.
+ 
+John believes Susan cries.
+
+John believes Mary hits Susan.
+
+// Hit explains anger because Susan is upset.
+John believes Mary angers Susan.
+
+// Because Susan is upset in John's mental model, she will be humiliated
+John believes Peter insults Susan.
+
+// Only John has rules and concepts from upset in reader model; John's model has them too, transfered in bulk from upset trait. 
+John is upset-x.
+
+// Only appears in readers model, and there, triggers symmetric love
+John loves Mary.
+
+Peter hits John.
+
+// Hit explains anger because John is upset.
+Peter angers John.
+
+// Because Susan is not upset in the reader's mental model, she will not be humiliated
+Peter insults Susan.
+
+The end.
+

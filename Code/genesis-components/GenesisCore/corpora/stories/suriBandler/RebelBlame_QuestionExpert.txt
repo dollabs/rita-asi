@@ -1,0 +1,19 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Show both perspectives.
+
+xx and yy are entities.
+
+Start story titled "Original article of Rebel Perspective".
+
+Max is a freedom fighter.
+
+Regime slaughters the freedom fighter.
+
+The Regime is a government. Max is a boy. Max fights for freedom. Max helps our people. The regime kills Max. The regime killed many children. The regime is ruthless. Two barbarians were executed by the freedom fighter and the regime alleges the boy's actions to be terrorism. The regime alleges the legitimacy of the boy's death. The boy had no choice. The regime prevents freedom. We want to honor him with a funeral. We wait for the boy's body. Tonight we will host a memorial service. This was a barbaric attack. We increase the resistance. Join us and fight with us for freedom. 
+The end.
+
+Identify modulation for AuthorModel_Blame_SecondPerspec.
+

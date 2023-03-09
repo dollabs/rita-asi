@@ -1,0 +1,16 @@
+Start experiment.
+
+Set Deploy novice first switch to false.
+
+//Set Real robot button to true.
+Set Just plan button to true.
+
+Set self aware button to true.
+
+Set left panel to Commentary.
+
+Read knowledge in ZZ Basic blocks knowledge.
+
+Read knowledge in Steps_Make salad for a Thanksgiving Day_1122_160410.
+
+Insert into text box: Make a fruit salad.

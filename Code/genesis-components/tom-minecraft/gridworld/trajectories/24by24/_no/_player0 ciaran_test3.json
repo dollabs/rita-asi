@@ -1,0 +1,89 @@
+{
+    "map": "test3.csv",
+    "time_start": "T20224",
+    "time_finish": "T20253",
+    "duration": 179,
+    "steps": {
+        "0": {
+            "time": "T20224",
+            "x": 0.9363693372703299,
+            "y": 227.0,
+            "z": 11.446659656203945,
+            "yaw": -24.749998,
+            "cell": "(1,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.1135941049334743,
+                "y": 227.85087919425717,
+                "z": 14.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.9149532318115234
+            }
+        },
+        "1": {
+            "time": "T20224",
+            "x": 1.3854309145080643,
+            "y": 227.0,
+            "z": 12.420853858256507,
+            "yaw": -24.749998,
+            "cell": "(1,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.113500697424799,
+                "y": 228.14432735760073,
+                "z": 14.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.8027902841567993
+            }
+        },
+        "2": {
+            "time": "T20224",
+            "x": 3.4886958597625717,
+            "y": 227.0,
+            "z": 14.6500638113839,
+            "yaw": -3.8999984,
+            "cell": "(2,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.5737004277692486,
+                "y": 228.28390546223807,
+                "z": 14.0,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 1.2988483905792236
+            }
+        },
+        "3": {
+            "time": "T20224",
+            "x": 1.5384565833588615,
+            "y": 227.0,
+            "z": 11.473368658666377,
+            "yaw": -3.5999985,
+            "cell": "(2,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.5705232663496091,
+                "y": 228.4833249791052,
+                "z": 14.0,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 0.5281851291656494
+            }
+        }
+    },
+    "reward_v": 4,
+    "reward_vv": 0,
+    "score_total": 4
+}

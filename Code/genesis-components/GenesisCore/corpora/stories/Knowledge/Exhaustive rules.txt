@@ -1,0 +1,203 @@
+
+//reasons to feel happy.
+xx is a person.
+yy is a person.
+if XX does not lie to YY, then YY may become happy.
+If XX likes YY, then YY may become happy.
+If XX looks at YY, and YY likes XX, then YY may become happy.
+If XX is a friend of YY and XX writes about YY, then YY may become happy.
+If XX is a friend of YY and XX sees YY, then XX may become happy.
+If XX is a friend of YY and XX calls YY, then YY may become happy.
+If XX is a friend of YY and XX finds YY, then YY may become happy.
+If XX is a friend of YY and XX finds YY, then xx may become happy.
+If XX is a friend of YY and XX comes to YY, then YY may become happy.
+If XX helps YY, then YY may become happy.
+If XX is a friend of YY and XX follows YY, then YY may become happy.
+If xx remembers YY, then YY may become happy.
+If xx understands YY, then YY may become happy.
+If XX warms YY up, the YY may become happy.
+If XX warns YY, then YY may become happy.
+If XX dances with YY, then YY may become happy.
+If XX picks YY up, then YY may become happy.
+If XX loves YY, then YY may become happy.
+If XX trains YY, then YY may become happy.
+If XX represents YY, then YY may become happy.
+If XX cares about YY, then YY may become happy.
+If XX joins YY, then YY may become happy.
+If XX pays for YY, then YY may become happy.
+If XX informs YY, then YY may become happy.
+If XX pleases YY, then YY may become happy.
+If XX pays YY, then YY may become happy.
+If XX agrees with YY, then YY may become happy.
+If XX works for YY, then YY may become happy.
+If XX leads YY, then YY may become happy.
+If XX wins over YY, then XX may become happy.
+If XX agrees with YY, then XX may become happy.
+If XX agrees with YY, then yy may become happy.
+If XX provides for YY, then YY may become happy.
+If XX holds on to YY, then YY may become happy.
+If XX hold YY, then YY may become happy.
+If XX watches over YY, then YY may become happy.
+If XX raises YY, then YY may become happy.
+If XX supports YY, then YY may become happy
+If XX is a friend to YY, and XX meets YY, then XX may become happy.
+If XX is a friend to YY, and XX visits YY, then YY may become happy.
+If XX feeds YY, then YY may become happy.
+If XX promotes YY, then YY may become happy.
+If XX invites YY, then YY may become happy.
+If XX recommends YY, then YY may become happy.
+If XX appreciates YY, then YY may become happy.
+If XX defends YY, then YY may become happy.
+If XX plays with YY, then YY may become happy.
+If XX cooks for YY, then YY may become happy.
+IF XX respects YY, then YY may become happy.
+If XX trusts YY, then YY may become happy.
+If XX employs YY, then YY may become happy.
+If XX retains YY, then YY may become happy.
+if xx becomes dead, then xx cannot become happy.
+
+//reasons to feel sad
+if XX does not encourage YY, then YY may become sad.
+If XX does not provide for YY, then YY may become sad.
+If Xx does not win over YY, then XX may become sad.
+If XX is a friend of yy and xx does not believe YY, then YY may become sad.
+If XX does not support YY, then YY may become sad.
+If XX is a friend of YY, and YY avoids XX, then XX may become sad.
+IF XX likes YY and YY does not like XX, then XX may become sad.
+If XX uses YY, then YY may become sad.
+If XX and YY are friends, and XX does not write to YY, then YY may become sad.
+If XX and YY are friends, and XX does not see Y, then XX may become sad.
+If XX and YY are friends, and XX does not call YY, then YY may become sad.
+If XX and YY are friends and XX does not find YY, then XX may become sad.
+If XX does not help YY, then YY may become sad.
+If XX is a friend of yy and xx does not follow YY, then YY may become sad.
+If XX and YY are friends and XX does not play with YY, then YY may become sad.
+If XX does not answer YY, then YY may become sad.
+If XX cuts YY, then YY may become sad.
+If XX and YY are friends and XX does not hear from YY, then XX may become sad.
+If XX and YY are friends and XX questions YY, then YY may become sad.
+If XX and YY are friends and XX does not remember YY, then YY may become sad.
+If XX forces YY, then YY may become sad.
+If XX and YY are friends and XX does not understand YY, then YY may become sad.
+If XX objects YY, then YY may become sad.
+If XX rules YY, then YY may become sad.
+If XX and YY are friends and XX puts YY to the test, then YY may become sad.
+If XX and YY are friends and XX distances from YY, then YY may become sad.
+If XX does not reason with YY, then YY may become sad.
+If XX and YY are friends, and XX does not care about YY, then YY may become sad.
+If XX shout YY down, then YY may become sad.
+If XX and YY are friends and XX does not inform YY, then YY may become sad.
+If XX and YY are friends, and XX does not visit YY, then YY may become sad.
+If XX does not receive YY, then YY may become sad.
+If XX does not please YY, then YY may become sad.
+If XX does not direct YY, then YY may become sad.
+If xx does not serve YY, then YY may become sad.
+If XX deserts YY, then YY may become sad.
+If XX separates from YY, then YY may become sad.
+If XX hunts YY, then YY may become sad.
+If XX replaces YY, then YY may become sad.
+If XX fights YY, then YY may become sad.
+If XX hits YY, then YY may become sad.
+If XX pushes YY, then YY may become sad.
+If XX laughs at YY, then YY may become sad.
+If XX mocks YY, then YY may become sad.
+If XX does not supply YY, then YY may become sad.
+If XX blocks YY, then YY may become sad.
+If XX does not agree with YY, then YY may become sad.
+If XX fears YY, then XX may become sad.
+If XX imposes a limitation or constraint on YY, then YY may become sad.
+If XX holds on to YY, then YY may become sad.
+IF XX insults YY, then YY may become sad.
+If XX beats YY, then YY may become sad.
+If XX denies YY, then YY may become sad.
+If XX disappoints YY, then YY becomes sad.
+If XX strikes YY, then YY may become sad.
+If XX threatens YY, then YY may become sad.
+If XX shout YY down, then YY may become sad.
+If XX burns YY, then YY may become sad.
+If XX accuses YY, then YY may become sad.
+If XX judges YY, then Y may become sad.
+If XX steals from YY, then YY may become sad.
+If XX hurts YY, then YY may become sad.
+If XX abandons YY, then YY may become sad.
+If XX blames YY, then YY may become sad.
+If XX suspects YY, then YY may become sad.
+If XX challenges YY, then YY may become sad.
+if xx becomes dead, xx cannot become sad.
+if xx abuses yy, then yy may become sad.
+
+//surprise
+If XX expects an event to occur and the event does not occur, then XX may become surprised.
+If XX does not expects an event to occur and the event occurs, then XX may become surprised.
+If XX does not expect YY to commit an action and YY commits that action, then XX may become surprised.
+If XX expects YY to commit an action and YY does not commit that action, then YY may become surprised.
+If XX does not understand YY, then XX may become surprised by YY.
+IF XX does not notice YY, and XX sees YY, then XX may become surprised by YY.
+if xx becomes dead, then xx cannot become surprised.
+
+//reasons to feel frightened
+If XX challenges YY, then YY may become frightened.
+If YY is hiding from XX, and XX finds YY, then YY may become frightened.
+If xx does not know YY or XX and YY are enemies, and YY follows XX, then XX may become frightened.
+If XX warns YY, then YY may become frightened.
+If XX hold YY, then YY may become frightened.
+If xx does not know YY or XX and YY are enemies, and YY watches XX, then XX may become frightened.
+If XX pushes YY, then YY may become frightened.
+If XX is running away from YY, and YY catches XX, then XX may become frightened.
+If XX threatens YY, then YY may become frightened.
+If XX is running away from YY, and YY locates XX, then XX may become frightened.
+If XX is hiding from YY or XX is running away from YY, and XX meets YY, then XX may become frightened. 
+If XX imposes a limitation or constraint on YY, then YY may feel frightened.
+If XX warns YY, then YY may feel frightened.
+If XX arrests YY, then YY may feel frightened.
+If XX tackles YY, then YY may feel frightened.
+If XX attacks YY, then YY may become frightened.
+If XX shoots YY, then YY may become frightened.
+If XX strikes YY, then YY may become frightened.
+If XX burns YY, then YY may become frightened .
+if xx abuses yy, then yy may become frightened.
+
+//synonyms of frightened
+if XX is intimidated, then XX is frightened.
+if XX is panic-stricken, then XX is frightened.
+if XX is petrified, then XX is frightened.
+if XX is scared, then XX is frightened.
+if XX is alarmed, then XX is frightened.
+if XX is fearful, then XX is frightened.
+if XX is startled, then XX is fearful and XX is surprised.
+if xx becomes dead, then xx cannot become frightened.
+
+
+
+//reasons to become angry
+if xx abuses yy, then yy may become angry.
+If XX challenges YY, then YY may become angry.
+if XX burns YY, then YY may become angry.
+If XX insults YY, then YY may become angry.
+If XX mocks YY, then YY may become angry.
+if XX plays YY false, then YY may become angry.
+if XX uses YY, then YY may become angry.
+if XX leaves YY, then YY may become angry.
+if XX lies to YY, then YY may become angry.
+if XX fights YY, then YY may become angry.
+if XX hits YY, then YY may become angry.
+If XX pushes YY, then YY may become angry.
+If XX hangs YY, then YY may become angry.
+If XX beats YY, then YY may become angry.
+If XX shoots YY, then YY may become angry.
+If XX ignores YY, then YY may become angry.
+If XX strikes YY, then YY may become angry.
+If XX threatens YY, then YY may become angry.
+If XX rejects YY, then YY may become angry.
+If XX destroys YY, then YY may become angry.
+If XX attacks YY, then YY may become angry.
+If XX shouts YY down, then YY may become angry.
+If XX accuses YY, then YY may become angry.
+If XX steals from YY, then YY may become angry.
+If XX blames YY, then YY may become angry.
+If XX arrests YY, then YY may become angry.
+If XX hold YY, then YY may become angry.
+If XX stops YY, then YY may become angry.
+If XX destroys YY, then YY may become angry.
+If XX hurts YY, then YY may become angry.
+if XX becomes dead, then XX cannot become angry.

@@ -1,0 +1,21 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0200".
+THE HUNTER AWAKENED.
+THAT DAY THE PRINCESS' HEART WAS FULL OF ENERGY.
+THE LADY WAS A PROUD NATIVE OF THE GREAT CITY.
+WHEN THE HUNTER FOUND OUT THAT THE PRINCESS HAD FEELINGS FOR THE LADY, HE GOT REALLY IRRITATED WITH THE PRINCESS.
+THE PRINCESS WAS INCARCERATED AFTER THE HUNTER INTERVENTION.
+THE PRINCESS WAS ABLE TO GET LOOSE.
+THE PRINCESS WAS ANGRY AND INSULTED THE HUNTER.
+THE END.
+
+
+
+The end.

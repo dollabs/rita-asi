@@ -1,0 +1,17 @@
+Start experiment.
+
+Second perspective.
+
+Insert file AuthorModel_Blame_VictimObject.
+
+Start story titled "Analysis of Author: Blame".
+
+The end.
+
+First perspective.
+
+Start story titled "Headline".
+
+Terrorist is killed by Police.
+
+The end.

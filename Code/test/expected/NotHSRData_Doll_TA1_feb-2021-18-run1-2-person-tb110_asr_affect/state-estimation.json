@@ -1,0 +1,85 @@
+[
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": null,
+    "prediction-stats": {
+      "aggregate-stats": {
+        "breakdown": {
+          "false": 175,
+          "true": 539,
+          "unknown": 50
+        },
+        "total": 764
+      },
+      "aggregate-stats-detail": {
+        "MissionTracker--goto-room": {
+          "counts": {
+            "false": 7
+          },
+          "probability": {
+            "false": 1.0
+          },
+          "totals": 7
+        },
+        "StateEstimation--enter-room": {
+          "counts": {
+            "false": 127,
+            "true": 172,
+            "unknown": 33
+          },
+          "probability": {
+            "false": 0.3825301204819277,
+            "true": 0.5180722891566265,
+            "unknown": 0.09939759036144578
+          },
+          "totals": 332
+        },
+        "StateEstimation--exit-room": {
+          "counts": {
+            "true": 361,
+            "unknown": 3
+          },
+          "probability": {
+            "true": 0.9917582417582418,
+            "unknown": 0.008241758241758242
+          },
+          "totals": 364
+        },
+        "StateEstimation--triage-victim": {
+          "counts": {
+            "false": 41,
+            "true": 6,
+            "unknown": 14
+          },
+          "probability": {
+            "false": 0.6721311475409836,
+            "true": 0.09836065573770492,
+            "unknown": 0.2295081967213115
+          },
+          "totals": 61
+        }
+      },
+      "mission-stats": {
+        "breakdown": {
+          "false": 7
+        },
+        "total": 7
+      },
+      "mission-stats-detail": {
+        "MissionTracker--goto-room": {
+          "counts": {
+            "false": 7
+          },
+          "probability": {
+            "false": 1.0
+          },
+          "totals": 7
+        }
+      },
+      "unhandled-timeouts": 0
+    },
+    "received-routing-key": "prediction-stats",
+    "routing-key": "prediction-stats"
+  }
+]

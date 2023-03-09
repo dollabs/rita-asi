@@ -1,0 +1,42 @@
+Start experiment.
+
+xx is a person. yy is a door. zz is a box.
+
+Start description of "ready to enter room".
+xx's approaching yy leads to xx's opening yy.
+Consequently, xx wants to enter yy.
+Consequently, xx will walk into yy.
+The end.
+
+/*
+Start description of "retreat in the face of obstacles".
+xx's approaching zz leads to xx's stepping backwards.
+Consequently, xx is timid.
+Consequently, xx is careful.
+Consequently, xx retreats in the face of obstacles.
+The end.
+*/
+
+// If xx is ready to enter yy, then xx will walk into yy.
+// If xx retreats in the face of obstacles, then xx must believe that he cannot break through zz.
+
+Alex is a person. Door is a door. Chest is a kind of box.
+
+Start story titled "Infer intentions/knowledge/types/future actions from action patterns".
+Alex opened the door because he approached the door.
+Alex approached the chest because he opened the door and he will see a chest.
+// Alex stood still because he approached the chest.
+// Alex stepped backwards because he stood still.
+// Alex looked up and down because he stepped backwards.
+// Alex turned right because he looked up and down.
+The End.
+
+/*
+Alex approached Door-21;
+Alex opened Door-21;
+Alex approached Chest-34;
+Alex stood still;
+Alex stepped backwards;
+Alex looked up and down;
+Alex turned right.
+*/

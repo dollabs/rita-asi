@@ -1,0 +1,63 @@
+Start experiment.
+
+Set right panel to Controls.
+
+xx, yy, and zz are persons.
+
+aa is an action.
+
+oo is an organization.
+
+CIA is a name.
+
+CIA is an organization.
+
+If xx harms me, then xx is an agent of the CIA.
+
+If xx insults yy, then xx harms yy. 
+
+If xx is an agent of the oo and xx fires me, then oo wants to harm me.
+
+If oo wants to harm me, then oo will shoot me with rays.
+
+If oo wants to harm me, then oo will follow me with a satellite.
+
+If oo shoots me with rays, then oo makes me become fat.
+
+Start description of "CIA conspiracy".
+
+xx harms me.
+xx is oo's agent.
+oo wants to harm me.
+oo's wanting to harm me leads to oo's shooting me with rays.
+oo's shooting yy with rays leads to oo's making yy become fat.
+
+The end.
+
+First perspective.
+
+Paul is a person.
+
+I am a person.
+
+George is a person.
+
+Start story titled "Schizophrenic Genesis".
+
+George is my boss.
+
+I threaten George because George insults me.
+
+George wants to harm me.
+
+George fires me because George does not like me.
+
+The end. 
+
+
+
+
+
+
+
+

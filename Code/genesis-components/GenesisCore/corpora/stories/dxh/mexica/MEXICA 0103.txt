@@ -1,0 +1,19 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0103".
+THE PRINCESS WAS A PROUD NATIVE OF THE GREAT CITY.
+AS PART OF A CONSPIRACY, THE TLATOANI TOOK THE PRINCESS HOSTAGE, PLANNING TO KILL HER.
+THE PRINCESS UNDID THE ROPES. SHE WAS FREE.
+IN ORDER TO SAVE HER LIFE, SHE DECIDED TO HIDE.
+THE PRINCESS WENT TO THE JAIL.
+THE END.
+
+
+
+The end.

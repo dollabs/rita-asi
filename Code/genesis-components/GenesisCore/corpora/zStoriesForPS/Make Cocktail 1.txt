@@ -1,0 +1,9 @@
+Start experiment.
+// https://www.supercall.com/recipe/old-fashioned
+Start story titled "Martini 4".
+
+In an Old-Fashioned glass, muddle the sugar and bitters.
+Add a large ice cube.
+Add whiskey on top of the muddled sugar and stir with your bar spoon.
+Garnish it with an orange twist if it is desired.
+The end.

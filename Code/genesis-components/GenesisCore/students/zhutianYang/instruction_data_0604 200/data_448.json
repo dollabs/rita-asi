@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 13:12:53+08:00", 
+    "instructions": [
+        "Put the dinner plate on the table cloth.", 
+        "Put the dinner fork to the right of the dinner plate with the head point upwards.", 
+        "Put the salad fork to the left of the dinner fork with the head pointing upwards.", 
+        "Put the dinner knife to the right of the dinner plate with the blade pointing upwards.", 
+        "Put the salad knife to the right of the dinner knife with the blade pointing upwards.", 
+        "Put the spoon to the right of the salad knife with the bowl pointing upwards.", 
+        "Put the water glass on the table cloth above and between the dinner plate and the dinner knife", 
+        "put the wine glass to the right of the Water glass", 
+        "put a second wine glass to the right of the first wine glass", 
+        "put a coffee cup on the table cloth to the right of the soup spoon", 
+        "Put the bread plate on the table cloth above the dinner fork.", 
+        "Put the butter knife on the top right side of the bread plate.", 
+        "Put the dessert fork on the table cloth above the dinner plate with the head pointing right.", 
+        "Put the dessert spoon on the table cloth above the dessert fork with the bowl pointing left.", 
+        "Put the napkin in the center of the dinner plate vertically."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table3"
+}

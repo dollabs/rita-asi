@@ -1,0 +1,140 @@
+/* ------------------------------
+ Generated on 0913_164649 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make natural food coloring".
+Intention: Make natural food coloring.
+The end.
+
+If the intention is "Make natural food coloring".
+Step: Choose vegetables with consistent coloring....
+Step: Boil your vegetables.
+Step: Dehydrate your vegetables.
+Step: The dried veggies are dried.
+Step: Select foods that are already in powder form....
+Step: Choose fruits with opaque juices.
+Step: Juice or blend the fruit....
+Step: Strain the juice.
+Step: Reduce the juice.
+Step: Pick compatible colors.
+Step: Go for dye options with subtle flavors.
+Step: Pay attention to consistency.
+Step: Mask unwanted flavors when necessary....
+The end.
+
+// ------------ Step 1: Choose vegetables with consistent coloring...
+If the problem is "Choose vegetables with consistent coloring...".
+Intention: Choose vegetables with consistent coloring....
+The end.
+
+If the intention is "Choose vegetables with consistent coloring...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Boil your vegetables
+If the problem is "Boil your vegetables".
+Intention: Boil your vegetables.
+The end.
+
+If the intention is "Boil your vegetables".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Dehydrate your vegetables
+If the problem is "Dehydrate your vegetables".
+Intention: Dehydrate your vegetables.
+The end.
+
+If the intention is "Dehydrate your vegetables".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: The dried veggies are dried
+If the problem is "The dried veggies are dried".
+Intention: The dried veggies are dried.
+The end.
+
+If the intention is "The dried veggies are dried".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Select foods that are already in powder form...
+If the problem is "Select foods that are already in powder form...".
+Intention: Select foods that are already in powder form....
+The end.
+
+If the intention is "Select foods that are already in powder form...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 6: Choose fruits with opaque juices
+If the problem is "Choose fruits with opaque juices".
+Intention: Choose fruits with opaque juices.
+The end.
+
+If the intention is "Choose fruits with opaque juices".
+Method: Assume successful.
+The end.
+
+// ------------ Step 7: Juice or blend the fruit...
+If the problem is "Juice or blend the fruit...".
+Intention: Juice or blend the fruit....
+The end.
+
+If the intention is "Juice or blend the fruit...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 8: Strain the juice
+If the problem is "Strain the juice".
+Intention: Strain the juice.
+The end.
+
+If the intention is "Strain the juice".
+Method: Assume successful.
+The end.
+
+// ------------ Step 9: Reduce the juice
+If the problem is "Reduce the juice".
+Intention: Reduce the juice.
+The end.
+
+If the intention is "Reduce the juice".
+Method: Assume successful.
+The end.
+
+// ------------ Step 10: Pick compatible colors
+If the problem is "Pick compatible colors".
+Intention: Pick compatible colors.
+The end.
+
+If the intention is "Pick compatible colors".
+Method: Assume successful.
+The end.
+
+// ------------ Step 11: Go for dye options with subtle flavors
+If the problem is "Go for dye options with subtle flavors".
+Intention: Go for dye options with subtle flavors.
+The end.
+
+If the intention is "Go for dye options with subtle flavors".
+Method: Assume successful.
+The end.
+
+// ------------ Step 12: Pay attention to consistency
+If the problem is "Pay attention to consistency".
+Intention: Pay attention to consistency.
+The end.
+
+If the intention is "Pay attention to consistency".
+Method: Assume successful.
+The end.
+
+// ------------ Step 13: Mask unwanted flavors when necessary...
+If the problem is "Mask unwanted flavors when necessary...".
+Intention: Mask unwanted flavors when necessary....
+The end.
+
+If the intention is "Mask unwanted flavors when necessary...".
+Method: Assume successful.
+The end.
+

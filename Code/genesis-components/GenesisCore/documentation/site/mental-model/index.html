@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../css/favicon.ico">
+  
+  <title>Mental Models - Genesis Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Mental Models";
+    var mkdocs_page_input_path = "mental-model.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Genesis Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Genesis</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="..">Genesis System</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../contribute/">Contribute to Documentation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../past/">Past</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../current.md">Current</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../future.md">Future</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Fundamentals</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../innerese/">Representation - Innerese</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../stories/">Writing Stories</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../inference/">Inference by Rules</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../concept-patterns/">Concept Patterns</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Mental Models</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#mental-models">Mental Models</a></li>
+    
+
+    <li class="toctree-l3"><a href="#demo-allegiance-differences-in-interpretation">Demo: Allegiance differences in interpretation</a></li>
+    
+
+    <li class="toctree-l3"><a href="#demo-three-perceptions-about-love">Demo: Three Perceptions about Love</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#setting-the-stage">... Setting the stage</a></li>
+        
+            <li><a class="toctree-l4" href="#identify-the-personality-traits">... Identify the personality traits</a></li>
+        
+            <li><a class="toctree-l4" href="#define-the-personality-traits">... Define the personality traits</a></li>
+        
+            <li><a class="toctree-l4" href="#what-does-john-thinks">... What does John thinks</a></li>
+        
+            <li><a class="toctree-l4" href="#what-does-mary-think-john-thinks">... What does Mary think John thinks</a></li>
+        
+            <li><a class="toctree-l4" href="#what-do-you-think">... What do you think</a></li>
+        
+            <li><a class="toctree-l4" href="#nuance">... Nuance</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../classification/">Classification</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Genesis Interface</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../genesis-controls/">Controls</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../gui-subsystems/">Subsystems</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Consciousness</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../core/">Genesis Core</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../wire/">Box and Wire</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../problem-solver/">Problem Solver</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Mental Experts</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../hypothetical-reasoner/">Hypothetical Reasoner</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story reteller.md">Story Reteller</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-summarizer/">Story Summarizer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-aligner/">Story Aligner</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Knowledge Base</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../concept-net/">Commonsense - ConceptNet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../wikihow/">Procedural Knowledge - WikiHow</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../atomic/">Inference Rules - ATOMIC</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../personalities/">Personalities</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Knowledge Generators</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../recipe-learners/">Recipe Learners</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-aligner/">Story Aligner</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Tips for Users</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../tips-genesese/">Writing Parsable English</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../tips-eclipse/">Debugging in Eclipse</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../commentary/">Using Commentary</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Demonstrations</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../demo-macbeth2/">Culture Differences</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Genesis Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Fundamentals &raquo;</li>
+        
+      
+    
+    <li>Mental Models</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="mental-models">Mental Models</h1>
+<p>A mental model is a representation of the surrounding world, the relationships between its various parts, and a person's intuitive perception about his or her own acts and their consequences.</p>
+<p>Johnson-Laird (1983) thinks that human reasoning depends on mental models, instead of on logical forms. In this view, mental models can be constructed from perception, imagination, or the comprehension of discourse. See book <em>Mental Models: Towards a Cognitive Science of Language, Inference, and Consciousness</em>. See here for more reference <a href="https://en.wikipedia.org/wiki/Mental_model#References">Wiki: Mental Models</a>.</p>
+<p>Mental models in Genesis serve several purposes:</p>
+<ul>
+<li>have the story read by readers with different sets of rules and concepts<ul>
+<li>Demo: <a href="#demo-allegiance-differences-in-interpretation">Allegiance differences in interpretation</a></li>
+<li>Demo: <a href="../demo-macbeth2/">Culture Difference in Interpreting Macbeth</a></li>
+</ul>
+</li>
+<li>model how different story actors view the events in the story<ul>
+<li>Demo: <a href="#demo-three-perceptions-about-love">Three Perceptions about Love</a>)</li>
+</ul>
+</li>
+<li>augment the reader’s standard rules for particular story actors.<ul>
+<li>Corpora: See <a href="../personalities/">Personalities</a> for a summary of existing personalities in Genesis corpus.</li>
+</ul>
+</li>
+<li>enable different readers to see some but not necessarily all the story elements.</li>
+<li>enable the reader to have separate mental models of how an actor acts and how he thinks (because the actor may, for example, act viciously but view himself as kind)</li>
+</ul>
+<hr />
+<h1 id="demo-allegiance-differences-in-interpretation">Demo: Allegiance differences in interpretation</h1>
+<p>In <code>corpora/stories/Cyberwar/Estonia2 common.txt</code>, We see the only difference between the two mental models is who is the ally.</p>
+<pre><code>Estonia and Russia are characters.
+Estonia is a country.  Russia is a country.
+
+First perspective.
+Start story titled &quot;Estonia/Aggression&quot;.
+Estonia is my ally.
+
+Second perspective.
+Start story titled &quot;Estonia/Lesson&quot;.
+Russia is my ally.
+
+Both Perspectives.
+I am a person.
+
+Show both perspectives.
+Both perspectives.
+
+Insert file Estonia plot.
+</code></pre>
+
+<p>That will trigger two different concept patterns defined in <code>corpora/stories/Cyberwar/Estonia reflective knowledge.txt</code>:</p>
+<pre><code>I am a person.
+xx is an entity.
+yy is a entity.
+
+Start description of &quot;Aggression of a bully&quot;.
+xx is my ally.
+xx's angering yy leads to yy's harming xx.
+The end.
+
+Start description of &quot;Teaching a lesson&quot;.
+yy is my ally.
+xx's angering yy leads to yy's harming xx.
+The end.
+</code></pre>
+
+<p>The resulting Elaboration graphs can be seen by running <code>Demonstrations &gt; Allegiance differences in interpretation</code> in Genesis GUI:</p>
+<p><img alt="concept-demo" src="../imgs/concept-demo.png" /></p>
+<hr />
+<h1 id="demo-three-perceptions-about-love">Demo: Three Perceptions about Love</h1>
+<p>Here, we will see an example of how to use mental models to model how one actor thinks, how another actor thinks he thinks, and how the reader thinks.</p>
+<p>The file is <code>corpora/stories/MentalModel demos/Mental model sample.txt</code>. Note that you might need to run the file twice to see the personality-x files read by Geneis.</p>
+<h2 id="setting-the-stage">... Setting the stage</h2>
+<p>To introduce several idioms of general use, let's look at one example. It opens with standard lines that clear memory, establish GUI characteristics, and establish classifications for various entities:</p>
+<pre><code>Start experiment.
+Set right panel to mental models.
+xx, yy, and zz are persons.
+John, Mary, and Peter are persons.
+</code></pre>
+
+<p>Next comes the lines that supply the rules and concepts to the mental model that determines how the reader thinks:</p>
+<pre><code>// Rules added to reader’s thinking mental model
+Insert file General commonsense knowledge.
+
+// Concepts added to reader’s thinking mental model
+Insert file General reflective knowledge.
+</code></pre>
+
+<p>In the examples to follow, we will use the asserted rules. We will use a locally defined concept:</p>
+<pre><code>Start description of &quot;Romantic love&quot;.
+xx’s loving yy leads to xx’s being romantic.
+The end.
+</code></pre>
+
+<h2 id="identify-the-personality-traits">... Identify the personality traits</h2>
+<p>Now, various personality traits are defined by idiom:</p>
+<pre><code>personality-a is a kind of personality trait.
+personality-b is a kind of personality trait.
+personality-c is a kind of personality trait.
+</code></pre>
+
+<p>Each such line creates a mental model using the file with a corresponding name, such as <code>personality-a.txt</code>, placed in <code>corpora/stories/Personalities/</code>.</p>
+<p>Note that mental models have a boarder definition than personalities. The rules, concepts, and actions in a mental model can be typical of the personality, or the culture, or the gender, or the age.</p>
+<h2 id="define-the-personality-traits">... Define the personality traits</h2>
+<p>The mental model files may include typical rules and concepts, as in <code>personality-a.txt</code>:</p>
+<pre><code>xx and yy are persons.
+
+// A rule associated with the personality type.
+If xx loves yy then yy loves xx.
+
+// A concept associated with the personality type.
+Start description of &quot;Reciprocated love&quot;.
+xx’s loving yy leads to yy’s loving xx.
+The end.
+
+// A story optionally containing typical actions.
+Start story titled &quot;Personality A&quot;.
+The end.
+</code></pre>
+
+<p>And the <code>personality-b.txt</code> file contains only a rule:</p>
+<pre><code>xx and yy are persons.
+If xx loves yy then xx is romantic.
+
+Start story titled &quot;Personality B&quot;. The end.
+</code></pre>
+
+<p>The <code>personality-c.txt</code> file containt a typical action as well as a rule and a concept. Typical actions look like elements in a story. Evidently, people with this personality type are associated with crying and laughing.</p>
+<pre><code>xx and yy are persons.
+If xx loves yy, then xx must be crazy.
+
+Start description of &quot;Crazy love&quot;.
+yy is a person.
+xx’s being crazy leads to xx’s loving yy.
+The end.
+
+Start story titled &quot;Personality C&quot;.
+x cries. x laughs.
+The end.
+</code></pre>
+
+<h2 id="what-does-john-thinks">... What does John thinks</h2>
+<p>Now back to the story. As usual, the story is started with a title-specifying idiom:</p>
+<pre><code>Start story titled &quot;Mental model testing&quot;.
+</code></pre>
+
+<p>Next comes a line that does a lot of work.
+- First, it creates a new thinking mental model that captures how John will read the story elements that John sees.
+- Second, it transfers all the current rules and concepts in the reader’s thinking mental model to John’s thinking mental model.
+- Third, it initiates the presentation of all story elements to John’s thinking mental model as well as to the thinking mental model of the reader.</p>
+<pre><code>John enters.
+</code></pre>
+
+<p>The mental model of the reader may not fully characterize how John thinks, so the next sentence idiomatically arranges for the rules and concepts in John to be augmented by rules and concepts from the personality-a mental model.</p>
+<pre><code>John thinks like personality-a.
+</code></pre>
+
+<p>Thus, John’s thinking mental model has a rule, <code>If xx loves yy then yy loves xx</code> from <code>personality-a</code> and two concepts, the original <code>Romantic love</code> from the reader’s thinking mental model and the new <code>Reciprocated love</code> from <code>personality-a</code>.</p>
+<p>The next sentence goes into the reader’s mental model, where there is no rule associated with it, and also into John’s mental model, where it triggers the <code>If xx loves yy then yy loves xx</code> rule, which makes love always reciprocated.</p>
+<pre><code>John loves Mary.
+</code></pre>
+
+<p>The result is shown in figure below:</p>
+<p><img alt="mental-model-a" src="../imgs/mental-model-a.png" /></p>
+<p>The next sentence idiomatically prevents John from seeing subsequent sentences in the story. There may be many <code>enters</code> and <code>exits</code>.</p>
+<pre><code>John exits.
+</code></pre>
+
+<h2 id="what-does-mary-think-john-thinks">... What does Mary think John thinks</h2>
+<p>The next sentence idiomatically creates a <strong>thinking mental model</strong> for Mary as if the sentence were Mary enters; however, sentences do not begin to flow into Mary’s thinking mental model.</p>
+<pre><code>Construct a mental model for Mary.
+</code></pre>
+
+<p>Now, because there is a thinking mental model for Mary, all sentences starting with <code>Mary believes...</code> flow into Mary’s thinking mental model, but not the reader’s mental model.</p>
+<p>Thus, the embedded phrase <code>John is personality-b</code>, tells Mary’s thinking mental model to consider John to act in accordance with <code>personality-b</code>.</p>
+<pre><code>Mary believes John is personality-b.
+</code></pre>
+
+<p>That is, John’s acting mental model in Mary’s thinking model includes not only the rules and concepts generally available to Mary, but also those associated specifically with John’s acting model, which includes the rules and concepts from <code>personality-b</code>:</p>
+<p>Now, if John is involved in a loving act, the loving person is considered romantic because John’s acting mental model in Mary’s thinking mental model includes a <code>personality-b</code> rule.</p>
+<p>Accordingly, as shown in figure below. Mary’s thinking mental model has an acting mental model for John that supplies the romantic deduction.</p>
+<p>Because the next sentence has John in a loving relationship, Mary becomes romantic in Mary’s mental model. Note, however, that there is no conclusion that John loves Mary because the governing rule is only in John’s thinking mental model, not in Mary’s and not in the readers.</p>
+<p><img alt="mental-model-b" src="../imgs/mental-model-b.png" /></p>
+<p>Also, there is no conclusion that Susan is romantic because the sentence involving Susan does not involve John; hence, there is no use of rules in John’s acting mental model.</p>
+<pre><code>Mary believes Mary loves John.
+Mary believes Susan loves Peter.
+</code></pre>
+
+<h2 id="what-do-you-think">... What do you think</h2>
+<pre><code>I cry.
+</code></pre>
+
+<p>Next, the reader cries, which suggests that the reader has type <code>personality-c</code>. Rules and concepts from that personality type now augment those previously used by the reader. Note that if the sentence were <code>Mary cries</code>, the augmentation would be limited to sentences involving Mary.</p>
+<p>Now the <code>personality-c</code> abduction rule is activated by the following sentence, because the reader now has the rule <code>If xx loves yy, then xx must be crazy</code> from personality-c.</p>
+<pre><code>Peter loves Mary.
+</code></pre>
+
+<p>Finally, the story ends with <code>The end.</code>. Figure below shows the complete story analysis, with rules and concepts involved in acting mental models and thinking mental.</p>
+<p><img alt="mental-model-c" src="../imgs/mental-model-c.png" /></p>
+<p>In summary, each mental model has a different concept. The reader sees <code>Crazy love</code>, made available to the reader via <code>personality-c</code>; John sees <code>Reciprocated love</code>, made available to John via the transfer from <code>personality-a</code>; Mary sees <code>Romantic love</code>, made available to Mary when Mary’s thinking mental model was created by transfer from the reader’s thinking mental model.</p>
+<h2 id="nuance">... Nuance</h2>
+<p>Note that the rules associated with an acting mental model are actuated whenever the corresponding actor appears anywhere in an entity because personality traits are not only about what someone tends to do (vicious) but also about what gets done to them (meek).</p>
+<p>Accordingly, to be sure a rule works the way you want in the description of a personality trait, you may want to indicate which person has the trait, as in:</p>
+<pre><code>If xx is vicious and yy harms xx, then xx kills yy.
+</code></pre>
+
+<p>Otherwise, without the xx is vicious antecedent, if John is vicious and Paul is meek, then John harms Paul would cause Paul, the meek one, to kill John.</p>
+<hr />
+<p>This version is edited by Zhutian Yang, on 10 August 2019</p>
+<p><a href="https://groups.csail.mit.edu/genesis/Documentation/frames.pdf">An older version</a> is authored by Patrick H. Winston, in 3 July 2015</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../classification/" class="btn btn-neutral float-right" title="Classification">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../concept-patterns/" class="btn btn-neutral" title="Concept Patterns"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Maintained by the Gensis Group, Computer Science and Artificial Intelligence Lab, MIT. <br>
+
+  Any questions? Contact Yang at <a href="mailto:ztyang@mit.edu">ztyang@mit.edu</a> or Dylan at <a href="mailto:dxh@mit.edu">dxh@mit.edu</a>
+
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../concept-patterns/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../classification/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

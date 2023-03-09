@@ -1,0 +1,41 @@
+Insert file Start experiment.
+
+Both perspectives.
+
+Show both perspectives.
+
+xx, yy, and zz are entities.
+
+Insert file General commonsense knowledge.
+
+/*
+Start description of "Gratitude".
+zz's helping xx leads to xx's assisting zz.
+The end.
+*/
+
+Insert file General reflective knowledge.
+
+Start story titled "Village problem".
+
+Taliban, Villagers, and Americans are entities.
+
+First perspective.  I am an ally of the Taliban.
+
+Second perspective.  I am an ally of the Americans.  I am an ally of the Villagers.
+
+Both perspectives.
+
+The Taliban is an enemy of the Americans.
+
+The Taliban help the villagers.
+
+The Americans help the Villagers.
+
+The Villagers assist the Americans.
+
+The Taliban harm the villagers.
+
+The end.
+
+

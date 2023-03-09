@@ -1,0 +1,18 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0370".
+THE PRINCESS WOKE UP WHILE THE SONGS OF THE BIRDS COVERED THE SKY.
+THE WARRIOR WAS PROUD TO BE A MEMBER OF THE MEXICA'S SOCIETY.
+THE WARRIOR AND THE PRINCESS SHOWED CLEAR FEELINGS OF HOSTILITY FOR EACH OTHER.
+INSTANTLY, THE WARRIOR AND THE PRINCESS STARTED TO PUNCH EACH OTHER.
+WITHOUT DELAY, THE PRINCESS DECIDED TO PROTECT HERSELF AND HID NEAR THE VOLCANO.
+
+
+
+The end.

@@ -1,0 +1,10 @@
+Start story titled "Model Test".
+
+//FIRST VERSION
+Bunny thinks about school. // show-and-tell.
+//Bunny contemplates show-and-tell.
+Bunny feels scared.
+Bunny eats a sandwich.
+Bunny has nausea.
+
+The end.

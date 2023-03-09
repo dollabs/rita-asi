@@ -1,0 +1,21 @@
+
+Start experiment.
+
+Second perspective.
+
+Insert file BasicAmericanValues.
+
+Start story titled "Analysis of Author: Blame Pre-Generation".
+
+The end.
+
+First perspective.
+
+Insert file OneConcept.
+
+Start story titled "American Values".
+
+Max is a child. Max was killed by the terrorist.
+
+
+The end.

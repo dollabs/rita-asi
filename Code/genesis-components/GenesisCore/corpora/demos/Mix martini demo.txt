@@ -1,0 +1,12 @@
+Popup mix martini popup.
+
+Set all switches to defaults.
+
+Set left panel to Commentary.
+
+Set right panel to Blocks.
+
+Set bottom panel to Mental models.
+
+Insert file Mix drink.
+

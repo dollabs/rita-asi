@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 12:15:09+08:00", 
+    "instructions": [
+        "Put the dinner fork towards the left side with its head pointing upwards.", 
+        "Put the dinner knife to the right of the dinner fork with its head pointing upwards.", 
+        "Add a salad fork to the left of the dinner fork with its head pointing upwards.", 
+        "Add a salad knife to the right of the dinner knife.", 
+        "Put the soup spoon to the right of the salad knife with its head pointing upwards.", 
+        "Put the dessert spoon horizontally across the top, above the forts and spoons with its head left.", 
+        "Put the dessert spoon to the right of the soup spoon with its head upwards.", 
+        "Add the dessert spoon above the fork and dinner fork horizontally with its head pointing left.", 
+        "Add the dinner plate to the center between the for forks and knives.", 
+        "Add the bread plate to the left side above the forks and to the left of the spoon.", 
+        "Add the butter knife diagonally across the bread plate with its head pointing down to the left.", 
+        "Put the wine glass on the right side above the soup spoon.", 
+        "Add the water glass to the left of the wine glass and to the right of the horizontal spoon.", 
+        "Put the napkin in the center of the dinner plate vertically."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

@@ -1,0 +1,14 @@
+{
+    "instructions": [
+        "put the dinner plate on the table cloth",
+        "put the salad plate on the dinner plate",
+        "put a napkin on the salad plate",
+        "put a wine glass on the top right hand corner of the table cloth",
+        "put the water glass on the bottom right hand corner of the wine glass",
+        "put a salad fork on the left of the dinner plate, with the head pointing to the top",
+        "put a dinner fork on the right of the salad fork with the head pointing to the top",
+        "put a dinner knife on the right of the dinner plate, with the head pointing to the top",
+        "put the soup spoon on the right of the dinner knife, with the head pointing to the top"
+    ],
+    "video_name": "table1"
+}

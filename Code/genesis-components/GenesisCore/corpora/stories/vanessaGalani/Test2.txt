@@ -1,0 +1,108 @@
+Start experiment.
+
+Show both perspectives.
+
+Both perspectives.
+
+Set right panel to mental models.
+
+Insert file General reflective knowledge.
+
+Insert file General commonsense knowledge.
+
+xx is a person.
+yy is a person.
+
+
+if xx marries yy then xx loves yy.
+
+if xx marries yy then xx may become happy.
+
+if xx  becomes happy then xx may have children.
+
+if xx has children then xx may live happily.
+
+// Replaced
+// if xx accepts to marry yy then xx may marry yy.
+// With
+if xx asks yy to marry xx, then yy may marry xx.
+
+if xx lives happily then xx may die old.
+
+iff xx marries yy then yy marries xx.
+
+if xx's children play with yy's children, then xx and yy are friends.
+
+Second perspective.
+
+Start story titled "Merged fragments".
+
+First perspective.
+
+Start story titled "Fragment 1".
+
+jane is a person.
+john is a person.
+john and jane's children is a person.
+John loves Jane because Jane is smart and because Jane is nice.
+john asks jane to marry him because john loves Jane.
+the end.
+
+
+Start story titled "Second Story Fragment 1".
+
+Elizabeth is a person.
+Mark is a person.
+Mark loves Elizabeth because Elizabeth is smart and because Elizabeth is nice.
+Mark asks Elizabeth to marry him because Mark loves Elizabeth.
+the end.
+
+<<<<<<< HEAD
+Start story titled "Fragment 2".
+=======
+Start story titled "fragment 2".
+>>>>>>> trying to avoid an exception.
+jane marries john.
+jane becomes happy.
+jane and john have children .
+John's children play with Mary’s children.
+Jane’s children play with Mary’s children.
+jane and john live happily.
+jane and john die old.
+
+The end.
+
+<<<<<<< HEAD
+Start story titled "Second Story Fragment 2".
+
+Elizabeth marries Mark.
+Elizabeth becomes happy.
+Elizabeth and Mark have children .
+Mark's children play with Mary’s children.
+Elizabeth’s children play with Mary’s children.
+Elizabeth and Mark live happily.
+Elizabeth and Mark die old.
+
+The end.
+=======
+<<<<<<< HEAD
+Start story titled "Fragment 3".
+john becomes happy because jane becomes happy.
+john works hard because he becomes happy.
+john becomes rich because he works hard.
+>>>>>>> Resolving a conflict
+
+
+
+Start story titled "Fragment 3".
+children becomes happy because jane becomes happy.
+children work hard because they becomes happy.
+children become rich because they works hard.
+The end.
+
+<<<<<<< HEAD
+
+=======
+=======
+>>>>>>> trying to avoid an exception.
+>>>>>>> Resolving a conflict

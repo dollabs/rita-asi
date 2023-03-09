@@ -1,0 +1,162 @@
+[
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "2d75dca9-842a-479e-bd5d-87b615b09bf7",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 7",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 7",
+          "subject": "ASIST3"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 7"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST3",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASIST3",
+      "uid": "se16974",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "2d75dca9-842a-479e-bd5d-87b615b09bf7",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 7",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 7",
+          "subject": "ASIST3"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 7"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST3",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASIST3",
+      "uid": "se16975",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "2d75dca9-842a-479e-bd5d-87b615b09bf7",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 7",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 7",
+          "subject": "ASIST3"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 7"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST3",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASIST3",
+      "uid": "se16976",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "2d75dca9-842a-479e-bd5d-87b615b09bf7",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim 7",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim 7",
+          "subject": "ASIST3"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim 7"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "ASIST3",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": false,
+      "subject": "ASIST3",
+      "uid": "se16977",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  }
+]

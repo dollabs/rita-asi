@@ -1,0 +1,20 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set left panel to commentary.
+
+Set right panel to blocks.
+
+Set bottom panel to mental models.
+
+Read knowledge in Advanced blocks knowledge.
+
+Read helper knowledge in Atlas blocks knowledge.
+
+Insert into text box: Put b6 on b3.
+
+
+
+
+

@@ -1,0 +1,28 @@
+//Les Mis 2.5 (Thesis), copied from 2.2 on 2/2/2017
+
+Start experiment.
+
+Start common sense knowledge.
+Inspector Javert is a name.
+Jean Valjean is a name.
+
+Inspector Javert and Jean Valjean are persons.
+XX and YY are persons.
+
+personality-p is a kind of personality trait.
+personality-j is a kind of personality trait.
+
+If XX commits a crime, then XX becomes criminal.
+If XX is a policeman and YY becomes criminal, then XX wants to arrest YY.
+If XX stops being criminal, then XX will follow the law.
+
+Start story titled "Les Mis 2.5".
+
+Inspector Javert thinks like personality-p.
+Jean Valjean thinks like personality-j.
+
+Inspector Javert is a policeman.
+Jean Valjean commits a crime.
+Jean Valjean repents.
+
+The end.

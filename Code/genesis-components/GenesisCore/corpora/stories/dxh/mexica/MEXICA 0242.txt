@@ -1,0 +1,18 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0242".
+EARLIER, THE HUNTER WAS BORN WITH DIVINE PROTECTION.
+THE PRINCESS AWAKENED.
+THE PRINCESS AND THE HUNTER WERE CLOSE BROTHERS.
+THAT DAY, THE PRINCESS FOUND THE HUNTER IRRESISTIBLE. SHE WAS IN LOVE.
+THE PRINCESS REMUNERATED THE HUNTER FOR ALL OF HIS HELP.
+
+
+
+The end.

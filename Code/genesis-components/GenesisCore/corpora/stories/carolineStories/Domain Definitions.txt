@@ -1,0 +1,12 @@
+Start experiment.
+
+Start common sense knowledge.
+A deer is a kind of person. //works
+//Physical is a type of domain.
+xx is a person.
+yy is a thing.
+
+Start story titled "domain definition".
+Bambi is a deer.
+Bambi touches the book.
+The end.

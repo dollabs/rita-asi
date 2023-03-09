@@ -1,0 +1,84 @@
+If the intention is "I understand human intelligence".
+Condition: Check "you don't know what is important".
+Step: Ask "Who can teach you".
+The end.
+
+If the intention is "Who can teach you".
+Step: xx teaches me.
+The end.
+
+If the intention is "xx teach yy".
+Step: yy asks xx.
+The end.
+
+If the intention is "ask yy".
+Condition: Check "yy knows you".
+Step: Happen "I email yy".
+The end.
+
+If the intention is "go to MIT".
+Step: Professors help me.
+The end.
+
+
+// Generated on 00726_164838 by students/zhutianYang/StratagemLearner.java
+If the intention is "xxx learns kong-fu".
+Condition: Check "xxx learns many skills from yyy".
+Step: xxx doesn't master skills.
+The end.
+
+
+// Generated on 00726_165036 by students/zhutianYang/StratagemLearner.java
+If the intention is "yyy helps xxx".
+Step: xxx works hard and be nice to people.
+The end.
+
+
+// Generated on 00726_165727 by students/zhutianYang/StratagemLearner.java
+If the intention is "yyy knows you".
+Step: xxx go to MIT.
+The end.
+
+
+// Generated on 00726_170258 by students/zhutianYang/StratagemLearner.java
+If the intention is "yyy knows you".
+Step: xxx go to MIT.
+The end.
+
+
+// Generated on 00808_100918 by students/zhutianYang/StratagemLearner.java
+If the intention is "yyy knows you".
+Step: xxx go to MIT.
+The end.
+
+
+// Generated on 00903_202612 by students/zhutianYang/StratagemLearner.java
+If the intention is "Who teaches you?".
+Condition: Check "xxx don't know".
+Step: yyy teaches me.
+The end.
+
+
+// Generated on 00903_202629 by students/zhutianYang/StratagemLearner.java
+If the intention is "yyy teaches you".
+Step: Happen "xxx email yyy".
+The end.
+
+
+// Generated on 00903_202833 by students/zhutianYang/StratagemLearner.java
+If the intention is "Who teaches you?".
+Condition: Check "xxx don't know".
+Step: yyy teaches me.
+The end.
+
+
+// Generated on 00903_203211 by students/zhutianYang/StratagemLearner.java
+If the intention is "Ceos mentor xxx".
+Step: xxx asks ceos.
+The end.
+
+
+// Generated on 00903_203223 by students/zhutianYang/StratagemLearner.java
+If the intention is "xxx creates a great company".
+Step: Ceos mentor xxx.
+The end.

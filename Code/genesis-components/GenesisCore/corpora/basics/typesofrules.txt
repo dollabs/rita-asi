@@ -1,0 +1,16 @@
+Start experiment.
+
+xx is a person.
+
+If xx performs an action, then xx suffer from the consequences.
+//If xx showed some signs and looked nervous, then xx may perform an action.
+If xx wants to make presumptions, then xx can look nervous.
+If xx showed other signs, then xx must want to use abduction.
+xx’s being drunk enables xx’s performing an action.
+
+Start story titled "All Kinds of Rules".
+John showed some signs.
+John looked nervous.
+John performed an action.
+John saw some consequences after the action.
+The end.

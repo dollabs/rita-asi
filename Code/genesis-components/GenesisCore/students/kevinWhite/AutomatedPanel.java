@@ -1,0 +1,221 @@
+package kevinWhite;
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+
+import frames.entities.Thread;
+import utils.Mark;
+
+public class AutomatedPanel extends JPanel {
+    private final String name;
+    private final VerbData verbData;
+    private TypeLattice panelLattice;
+    private FasterLLConcept concept;
+    private JTextArea textfield;
+    private float node_width;
+    private int node_height;
+    private float spacing = 1.5f;
+    private Map<String, Point2D> map;
+    
+    private Set<String> positives = new HashSet<String>();
+    private Set<String> negatives = new HashSet<String>();
+    private String threadList;
+    private String[] threadArray;
+    
+    /**
+     * 
+     * @param data, the verb data associated with this particular panel
+     */
+    public AutomatedPanel(VerbData data){
+        verbData = data;
+        String[] nameArray = verbData.getVerb().split(" ");
+        name = nameArray[nameArray.length-1];
+        threadList = verbData.getSubjectThreads();
+        
+        List<Thread> threads = new ArrayList<Thread>();
+        threadArray = threadList.split("\n\n");
+        for (String string : threadArray) {
+//        	Mark.say(string);
+            threads.add(Thread.parse(string));
+        }
+        panelLattice = new TypeLattice(threads);
+        concept = new FasterLLConcept(panelLattice, verbData.getVerb());
+        positives.clear();
+        negatives.clear();
+        
+        textfield = new JTextArea();
+        textfield.setEditable(false);
+        textfield.setFont(textfield.getFont().deriveFont(20.0f));
+        textfield.setWrapStyleWord(true);
+    }
+    
+    /**
+     * 
+     * @param threads, the threads used to build the lattice UI for this panel
+     */
+    private void teachLattice(String[] threads){
+        for (String thread : threads){
+            if(verbData.getSubjectMap().get(thread)){
+                positives.add(verbData.getThreadMap().get(thread));
+                concept.learnPositive(verbData.getThreadMap().get(thread));
+            }
+            else{
+                negatives.add(verbData.getThreadMap().get(thread));
+                concept.learnNegative(verbData.getThreadMap().get(thread));
+            }
+        }
+    }
+    
+    @Override
+    public void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        Graphics2D g2d = (Graphics2D)g;
+        Font font = g2d.getFont().deriveFont(Font.BOLD).deriveFont(36.0f);
+        g2d.setFont(font);
+
+        g2d.setColor(Color.white);
+        int height = g2d.getClipBounds().height;
+        int width = g2d.getClipBounds().width;
+        g2d.fillRect(0, 0, width, height);
+
+        List<Set<String>> sorted = panelLattice.topologicalSort();
+
+        int layers = sorted.size()*2-1;
+        node_height = height / layers;
+
+        int columns = 0;
+        for (Set<String> c : sorted) {
+            columns = Math.max(columns, c.size());
+        }
+
+        node_width = width / (spacing * columns);
+
+        map = new HashMap<String, Point2D>();
+        int y = 0;
+
+        for (Set<String> c : sorted) {
+            float x = 0;
+            for (String type : c) {
+                map.put(type, new Point2D.Float(x,y));
+                //Mark.say(type);
+                if (positives.size() + negatives.size() > 0) {
+                    g2d.setColor(concept.contains(type) ? Color.green : Color.red);
+                    if (positives.contains(type) || negatives.contains(type)) {
+                        g2d.setColor(g2d.getColor().brighter());
+                    } else {
+                        g2d.setColor(g2d.getColor().darker().darker());
+                    }
+                    g2d.fillOval((int)x, y, (int)node_width, node_height);
+                    if (positives.contains(type) || negatives.contains(type)) {
+                        g2d.setColor(Color.DARK_GRAY);
+                    } else {
+                        g2d.setColor(Color.LIGHT_GRAY);
+                    }
+                    
+                    //resizes text to fit within ovals
+                    FontMetrics fm = g2d.getFontMetrics();
+                    int txtWidth = fm.stringWidth(type);
+                    float fontSize = g2d.getFont().getSize();
+                    
+                    if (txtWidth>node_width) {
+                        while (txtWidth>node_width) {
+                            fontSize -= (float) 1.0;
+                            Font tempFont = g.getFont().deriveFont(fontSize);
+                            g.setFont(tempFont);
+                            txtWidth = g.getFontMetrics().stringWidth(type);
+                        }
+                    }
+                    
+                    Rectangle2D box = g2d.getFontMetrics().getStringBounds(type, g2d);
+                    g2d.drawString(type, (int)(x+(node_width-box.getWidth())/2), y+node_height/2);
+                } else {
+                    g2d.setColor(Color.black);
+                    g2d.drawOval((int)x, y, (int)node_width, node_height);
+                    
+                    //resizes text to fit within ovals
+                    FontMetrics fm = g2d.getFontMetrics();
+                    int txtWidth = fm.stringWidth(type);
+                    float fontSize = g2d.getFont().getSize();
+                    
+                    if (txtWidth>node_width) {
+                        while (txtWidth>node_width) {
+                            fontSize -= (float) 1.0;
+                            Font tempFont = g.getFont().deriveFont(fontSize);
+                            g.setFont(tempFont);
+                            txtWidth = g.getFontMetrics().stringWidth(type);
+                        }
+                    }
+                    
+                    Rectangle2D box = g2d.getFontMetrics().getStringBounds(type, g2d);
+                    g2d.drawString(type, (int)(x+(node_width-box.getWidth())/2), y+node_height/2);
+                }
+                x += spacing*node_width;
+                g2d.setFont(font);
+            }
+            y += 2*node_height;
+        }
+
+        for(String type : map.keySet()) {
+            for (String parent : panelLattice.getParents(type)) {
+                 Point2D p1 = map.get(parent);
+                 Point2D p2 = map.get(type);
+                 g2d.setColor(Color.gray);
+                 g2d.drawLine((int)(p1.getX()+node_width/2), (int)(p1.getY()+node_height), (int)(p2.getX()+node_width/2), (int)p2.getY());
+                 g2d.drawOval((int)(p2.getX()+node_width/2-2), (int)(p2.getY()-2), 4, 4);
+            }
+        }
+        
+        if (positives.size() == 0 && negatives.size() == 0){
+            teachLattice(threadArray);
+            repaint();
+        }
+    }
+    
+    public TypeLattice getLattice() {
+        return panelLattice;
+    }
+    
+    public JTextArea getTextField(){
+        return textfield;
+    }
+    
+    public Map<String, Point2D> getMap(){
+        return map;
+    }
+    
+    public String getThreadList(){
+        return threadList;
+    }
+    
+    public String getName(){
+        return name;
+    }
+    
+    public FasterLLConcept getConcept() {
+        return this.concept;
+    }
+    
+    public Set<String> getPositives() {
+        return this.positives;
+    }
+    
+    public Set<String> getNegatives() {
+        return this.negatives;
+    }
+}
+

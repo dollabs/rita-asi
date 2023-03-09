@@ -1,0 +1,5363 @@
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_16.json
+1   Put the charger on the table at the bottom
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        ON (
+            (table)) 
+        AT (
+            (bottom)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_16.json
+2   place the dinner knife to the right of the charger, with its blade facing charger
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (charger)) 
+        WITH (
+            OF (
+                (blade) 
+                (dinner_knife))))) [
+FACE (
+    OF (
+        (blade) 
+        (dinner_knife)) 
+    (
+        OBJECT (
+            (charger))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_16.json
+3   place the salad knife to the right of the dinner knife, with its blade facing left
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)) 
+        WITH (
+            OF (
+                (blade) 
+                (salad_knife))))) [
+FACE (
+    OF (
+        (blade) 
+        (salad_knife)) 
+    (
+        OBJECT (
+            (left))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_16.json
+4   place the soup spoon to the right of the salad knife, with its bowl pointing to the top
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (salad_knife)) )) [
+POINT (
+    OF (
+        (bowl) 
+        (soup_spoon)) 
+    (
+        TO (
+            (top))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_16.json
+5   place the dessert spoon above the charger, d, with its bowl to the left
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (charger_d)) 
+        WITH (
+            OF (
+                (bowl_to_the_left) 
+                (dessert_spoon))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_16.json
+6   place the desert fork between the dessert spoon and charger, with its tines to the right
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (fork)) 
+        BETWEEN (
+            (dessert_spoon)) 
+        BETWEEN (
+            (charger))  
+        TO (
+            (right)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_16.json
+7   place the bread plate above the salad fork and to the left of the dessert spoon d
+ABOVE (
+    (bread_plate) 
+    (salad_fork)) 
+TO_THE_LEFT_OF (
+    (bread_plate) 
+    (dessert_spoon_d)) 
+(place) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_16.json
+8   place the butter knife diagonally on the bread plate with the blade facing away from the charger
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate))  
+        MANNER (
+            (diagonally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_16.json
+9   place the water glass above the salad knife and to the right of the dessert fork
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dessert_fork)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_16.json
+10   place the napkin in the center of the plate on the charger
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            CENTER (
+                (plate))) 
+        ON (
+            (charger)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+11   Place the dinner knife on the right side of the tablecloth
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            RIGHT_SIDE (
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+12   place the salad knife to the right of the dinner knife with the blade facing the forks
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (forks))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+13   place the dessert spoon at the top of the tablecloth with the bowl pointing left
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        AT (
+            TOP (
+                (tablecloth))) )) [
+POINT (
+    (bowl) 
+    (
+        OBJECT (
+            (left))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+14   place the dessert spoon next to the soup spoon with the bowl pointing up
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        NEXT_TO (
+            (soup_spoon)) )) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+15   Place the dessert spoon at the top center of the tablecloth with the bowl pointing left
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        AT (
+            CENTER (
+                (tablecloth))) )) [
+POINT (
+    (bowl) 
+    (
+        OBJECT (
+            (left))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+16   place the dinner plate in the center of the tablecloth under the dessert spoon
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        IN (
+            CENTER (
+                (tablecloth))) 
+        UNDER (
+            (dessert_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+17   place the bread plate to the left of the dessert spoon
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        TO_THE_LEFT_OF (
+            (dessert_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+18   place the butter knife diagonally on the bread plate
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) 
+        MANNER (
+            (diagonally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+19   place the wine glass above the soup spoon 
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ABOVE (
+            (soup_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+20   place the water glass next to the dessert spoon on the right side of the tablecloth.
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        NEXT_TO (
+            (dessert_spoon)) 
+        ON (
+            RIGHT_SIDE (
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_83.json
+21   place the napkin in the middle of the dinner plate
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            MIDDLE (
+                (dinner_plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_17.json
+22   put the dinner plate on the tablecloth, in the center but towards the bottom
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            (tablecloth)) 
+        IN (
+            (center)) 
+        TOWARDS (
+            (bottom)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_17.json
+23   put the salad plate on top of the dinner plate
+ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (salad_plate)))) 
+    (dinner_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_17.json
+24   put the napkin on top of the salad plate 
+ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (napkin)))) 
+    (salad_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_17.json
+25   put the wine glass on the top right corner of the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ON (
+            CORNER (
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_17.json
+26   put the water glass to the right of the wine glass and a little bit lower than the wine glass
+TO_THE_RIGHT_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (water_glass)) 
+            TO_THE_RIGHT_OF (
+                (bit)))) 
+    (wine_glass)) 
+ROLES (
+    (bit) 
+    (wine_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_17.json
+27   put the salad fork to the left of the dinner plate with the tines pointing upwards
+TO_THE_LEFT_OF (
+    (fork) 
+    (dinner_plate)) 
+WITH (
+    (fork) 
+    (tines)) 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad)))) 
+POINT (
+    (fork) 
+    (
+        MANNER (
+            (upwards)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_17.json
+28   put the dinner knife to the right of the dinner plate with the blade facing towards the plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_plate))  
+        TOWARDS (
+            (plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_17.json
+29   put the soup spoon to the right of the dinner knife, with its bowl facing up
+PUT_UP (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)) )) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+30   Place the dinner knife directly to the right of the dinner plate, with its blade facing the dinner plate
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_plate)) 
+        WITH (
+            OF (
+                (blade) 
+                (dinner_knife))) 
+        MANNER (
+            (directly)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+31   Place the wine glass directly to the right of the water glass
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)) 
+        MANNER (
+            (directly)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+32   Place the coffee cup directly to the right of the soup spoon
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        TO_THE_RIGHT_OF (
+            (soup_spoon)) 
+        MANNER (
+            (directly)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+33   Place the bread plate directly above the dinner fork
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (dinner_fork)) 
+        MANNER (
+            (directly)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+34   Place the butter knife, blade facing left, diagonally across the upper right side of the bread plate
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife_blade)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+35   Place the dessert fork horizontally above the dinner plate, with the tines toward the right
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (dinner_plate))  
+        TOWARD (
+            (right)) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+36   Place the dessert spoon horizontally above the dessert fork, with the bowl to the left
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (dessert_fork))  
+        TO (
+            (left)) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_56.json
+37   Place the napkin vertically across the center of the plate 
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ACROSS (
+            CENTER (
+                (plate))) 
+        MANNER (
+            (vertically)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+38   Put the plate in the middle of the charger
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (plate)) 
+        IN (
+            MIDDLE (
+                (charger))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+39   Put the napkin on the plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+40   Put the water glass to the upper right side of the charger.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO (
+            RIGHT_SIDE (
+                (charger))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+41   Put the wine glass to the right of the water glass.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+42   Put the wine glass above the tea spoon and soup spoon.
+ABOVE (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (wine_glass)) 
+            ABOVE (
+                (soup_spoon)))) 
+    (tea_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+43   Put the coffee cup to the right of the wine glass.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+44   Put the butter knife on the bread plate horizontally.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_143.json
+45   Put the dessert spoon above the charger, to the left of the water glass, bowl pointing to the bread plate.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (charger)) 
+        TO_THE_LEFT_OF (
+            (water_glass_bowl_pointing)) 
+        TO (
+            (bread_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_114.json
+46   Put the dinner plate on the bottom center of the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            OF (
+                (bottom_center) 
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_114.json
+47   Set the salad plate on the dinner plate
+SET (
+    (you) 
+    (
+        OBJECT (
+            (salad_plate)) 
+        ON (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_114.json
+48   Place the napkin in the center of the salad plate
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            CENTER (
+                (salad_plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_114.json
+49   Place the wine glass on the top right corner of the tablecloth
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ON (
+            CORNER (
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_236.json
+50   Place the dinner plate on the tablecloth so that it touches the bottom edge while remaining 
+MEANS (
+    (
+        PLACE (
+            (you) 
+            (
+                OBJECT (
+                    (dinner_plate)) 
+                ON (
+                    (tablecloth))))) 
+    WHILE (
+        TOUCH (
+            (dinner_plate) 
+            (
+                OBJECT (
+                    (bottom_edge)))) 
+        REMAIN (
+            (dinner_plate) 
+            (
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_236.json
+51   Set the wine glass to the top right of the dinner plate so that it touches the tablecloth edge.
+MEANS (
+    (
+        SET (
+            (you) 
+            (
+                OBJECT (
+                    (wine_glass)) 
+                TO (
+                    OF (
+                        (top_right) 
+                        (dinner_plate)))))) 
+    TOUCH (
+        (dinner_plate) 
+        (
+            OBJECT (
+                (tablecloth_edge))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_236.json
+52   Set the water glass to the lower right of the wine glass.
+SET (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO (
+            OF (
+                (right) 
+                (wine_glass))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_236.json
+53   Place the salad fork on the left side of the dinner plate with the prongs pointing up.
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left_side) 
+                (dinner_plate))) )) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_236.json
+54   Place the dinner fork to the right of the salad fork with the prongs pointed up.
+WITH (
+    (fork) 
+    (prongs)) 
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_RIGHT_OF (
+            (salad)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_236.json
+55   Set the dinner knife to the right of the dinner plate with the blade facing the dinner plate.
+SET (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_plate)) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (dinner_plate))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+56   Put the dinner fork on the left of the tablecloth, vertically.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        ON (
+            OF (
+                (left) 
+                (tablecloth))) 
+        MANNER (
+            (vertically)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+57   Put the dinner knife on the right side of the tablecloth, vertically.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            RIGHT_SIDE (
+                (tablecloth))) 
+        MANNER (
+            (vertically)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+58   Put the salad fork on the left of the dinner fork.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left) 
+                (dinner_fork))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+59   Put the salad knife on the left of the dinner knife.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        ON (
+            OF (
+                (left) 
+                (dinner_knife))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+60   Put the soup spoon on the right of the salad knife.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right) 
+                (salad_knife))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+61   Put the dessert spoon vertically on the tablecloth, right of the soup spoon.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ON (
+            OF (
+                (tablecloth_right) 
+                (soup_spoon))) 
+        MANNER (
+            (vertically)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+62   Put the dinner plate on the tablecloth, right under the dessert spoon.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            (tablecloth_right)) 
+        UNDER (
+            (dessert_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+63   Put the bread plate to the left of the bowl of the dessert spoon.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        TO_THE_LEFT_OF (
+            (bowl)) 
+        OF (
+            (dessert_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+64   Put the wine glass above the soup spoon.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ABOVE (
+            (soup_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+65   Put the water glass between the wine glass and dessert spoon.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        BETWEEN (
+            (wine_glass)) 
+        BETWEEN (
+            (dessert_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_191.json
+66   Put the napkin on the dinner plate.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+67   Place the dinner plate toward the bottom of the tablecloth.
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        TOWARD (
+            BOTTOM (
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+68   Place the dinner fork closely to left side of the plate
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO (
+            LEFT_SIDE (
+                (plate))) 
+        MANNER (
+            (closely)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+69   Place the salad fork closely to the left of the dinner fork
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_fork)) 
+        MANNER (
+            (closely)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+70   Place the dinner knife close to the right of the plate
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+71   Place the salad knife to the right of the dinner knife
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+72   Place the soup spoon to the left of the salad knife
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_LEFT_OF (
+            (salad_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+73   Place the wine glass to the right of the water glass and above the spoon.
+TO_THE_RIGHT_OF (
+    (glass) 
+    (water)) 
+ABOVE (
+    (glass) 
+    (spoon)) 
+(place) 
+(wine) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+74   Place the butter knife on the top right corner of the bread plate, with its blade pointing upper left
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            OF (
+                (right_corner) 
+                (bread_plate))) )) [
+POINT (
+    OF (
+        (blade) 
+        (bread_plate)) 
+    (
+        OBJECT (
+            (left))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+75   Place the dessert fork immediately above the dinner plate, with the tines facing the water glass.
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (dinner_plate))  
+        MANNER (
+            (immediately)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+76   Place the dessert spoon above the dessert fork, aligned to its two ends, with the bowl of the spoon facing the bread plate.
+ABOVE (
+    (dessert_spoon) 
+    (dessert_fork)) 
+FACE (
+    (place) 
+    (
+        OBJECT (
+            (bread_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_200.json
+77   Place the napkin in the center of the dinner plate so that it is parallel with the dinner and salad forks.
+WITH (
+    PROPERTY (
+        (dinner_plate) 
+        (
+            OBJECT (
+                (parallel)) 
+            WITH (
+                (salad_forks)))) 
+    (dinner)) 
+MEANS (
+    (
+        PLACE (
+            (you) 
+            (
+                OBJECT (
+                    (napkin)) 
+                IN (
+                    CENTER (
+                        (dinner_plate)))))) 
+    PROPERTY (
+        (dinner_plate) 
+        (
+            OBJECT (
+                (parallel)) 
+            WITH (
+                (salad_forks))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+78   Put the plate in the center of the charger.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (plate)) 
+        IN (
+            CENTER (
+                (charger))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+79   Put the napkin vertically in the middle of the plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            MIDDLE (
+                (plate))) 
+        MANNER (
+            (vertically)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+80   Put the salad fork on left of dinner fork
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left) 
+                (dinner_fork))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+81   Put the dinner knife on right of charger with its blade facing the charger
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            OF (
+                (right) 
+                (charger))) 
+        WITH (
+            OF (
+                (blade) 
+                (charger))))) [
+FACE (
+    OF (
+        (blade) 
+        (charger)) 
+    (
+        OBJECT (
+            (charger))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+82   Put tea spoon on right side of knife.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (tea_spoon)) 
+        ON (
+            RIGHT_SIDE (
+                (knife))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+83   Put soup spoon on right side of tea spoon.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right_side) 
+                (tea_spoon))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+84   Place the water glass slightly above the space between knife and charger.
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (space)) 
+        BETWEEN (
+            (knife)) 
+        BETWEEN (
+            (charger)) 
+        MANNER (
+            (slightly)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+85   Place the wine glass slightly to right of water glass.
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO (
+            OF (
+                (right) 
+                (water_glass))) 
+        MANNER (
+            (slightly)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+86   Place second wine glass slightly below the first wine glass.
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        BELOW (
+            (wine_glass)) 
+        MANNER (
+            (slightly)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+87   Place the bread plate above the forks.
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (forks)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+88   Place the butter knife horizontally across the middle of bread plate.
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ACROSS (
+            OF (
+                (middle) 
+                (bread_plate))) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+89   Place the dessert fork horizontally above charger, with its tines pointing toward the glasses
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (charger)) 
+        WITH (
+            OF (
+                (tines) 
+                (dessert_fork))) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_7.json
+90   Place the dessert spoon below dessert fork, pointing toward bread plate.
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        BELOW (
+            (dessert_fork)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+91   place the dinner fork on the left side of the tablecloth with the prongs facing upwards
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        ON (
+            OF (
+                (left_side) 
+                (tablecloth)))  
+        MANNER (
+            (upwards)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+92   place the knife on the right side of the tablecloth with the blade facing the fork
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (knife)) 
+        ON (
+            RIGHT_SIDE (
+                (tablecloth))) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (fork))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+93   place the salad knife to the right of the dinner knife with the blade facing the left side
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (side))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+94   place the dinner plate in between the forks and knives 
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        BETWEEN (
+            (forks)) 
+        BETWEEN (
+            (knives)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+95   place the bread plate above the forks
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (forks)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+96   place the butter knife on top of the bread plate with the blade facing the forks
+ON_TOP_OF (
+    PLACE (
+        (you) 
+        (
+            OBJECT (
+                (butter_knife)) 
+            WITH (
+                (blade)))) 
+    (bread_plate)) 
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (forks)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+97   place the wine glass above the soup spoon
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ABOVE (
+            (soup_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+98   place the water glass above the dinner knife 
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (dinner_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_187.json
+99   place the napkin on top of the dinner plate
+ON_TOP_OF (
+    PLACE (
+        (you) 
+        (
+            OBJECT (
+                (napkin)))) 
+    (dinner_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+100   put the dinner plate at the bottom centre of the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        AT (
+            OF (
+                (bottom_centre) 
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+101   put the dinner fork to the left of the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+102   put the salad fork to the left of the dinner fork
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_fork)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+103   put the dinner knife to the right of the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+104   put the salad knife to the right of the dinner knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+105   put the soup spoon to the right of the salad knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (salad_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+106   put the water glass above the dinner knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (dinner_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+107   put the wine glass to the right of the water glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+108   put the wine glass to the right of the wine glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+109   put the coffee cup to the right of the soup spoon
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        TO_THE_RIGHT_OF (
+            (soup_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+110   put the bread plate above the dinner fork
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (dinner_fork)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+111   put the butter knife on the bread plate, pointing top left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+112   put the dessert fork above the dinner plate, pointing right
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+113   put the dessert spoon above the dessert fork, pointing left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (dessert_fork)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_30.json
+114   put the napkin on the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+115   put the dinner plate at the bottom of the tablecloth in the center
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        AT (
+            BOTTOM (
+                (tablecloth))) 
+        IN (
+            (center)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+116   put the dinner knife at the right side of the plate with the blade up
+PUT_UP (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        AT (
+            RIGHT_SIDE (
+                (plate))) )) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+117   put the water glass above the dinner knife and the dinner plate
+ABOVE (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (water_glass)) 
+            ABOVE (
+                (dinner_plate)))) 
+    (dinner_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+118   put the wine glass to the right of the water glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+119   put the wine glass to the right of the wine glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+120   put the coffee cup to the right of the soup spoon
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        TO_THE_RIGHT_OF (
+            (soup_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+121   put the bread plate above the forks
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (forks)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+122   put the butter knife on the bread plate diagonally with the blade facing upper left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate))  
+        MANNER (
+            (diagonally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+123   put the dessert fork horizontally above the plate, with its tines to the right
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (plate)) 
+        WITH (
+            OF (
+                (tines) 
+                (dessert_fork))) 
+        TO (
+            (right)) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+124   put the dessert spoon horizontally above the dessert fork, with its bowl to the left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (dessert_fork)) 
+        WITH (
+            OF (
+                (bowl) 
+                (dessert_spoon))) 
+        TO (
+            (left)) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_67.json
+125   put the napkin on the plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+126   Put the plate on the charger
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (plate)) 
+        ON (
+            (charger)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+127   Place the napkin on the plate
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+128   Place the dinner fork to the left of the charger with its prong facing upwards
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_LEFT_OF (
+            (charger))  
+        MANNER (
+            (upwards)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+129   Place the salad fork to the left of the dinner fork with its prong facing upwards
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_fork)) 
+        WITH (
+            OF (
+                (prong_facing) 
+                (salad_fork))) 
+        MANNER (
+            (upwards)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+130   Place the dinner knife to the right of the charger with its blade facing upwards
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (charger))  
+        MANNER (
+            (upwards)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+131   Place the tea spoon to the right of the dinner knife with its bowl facing upwards
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (tea_spoon)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife))  
+        MANNER (
+            (upwards)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+132   Place the soup spoon to the right of the tea spoon with its bowl facing upwards
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (tea_spoon)) 
+        WITH (
+            OF (
+                (bowl_facing) 
+                (soup_spoon))) 
+        MANNER (
+            (upwards)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+133   Place the water glass above the dinner knife
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (dinner_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+134   Place the wine glass to the right of the water glass and above the soup spoon
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)) 
+        ABOVE (
+            (soup_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+135   Place another wine glass between the wine glass and the soup spoon
+BETWEEN (
+    (wine_glass) 
+    (wine_glass)) 
+(place) 
+(soup_spoon) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+136   Place the bread plate above the dinner and salad forks
+ABOVE (
+    (bread_plate) 
+    (dinner)) 
+(place) 
+(salad_forks) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+137   Place the butter knife horizontally on the bread plate with its bowl facing right.
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) 
+        WITH (
+            OF (
+                (bowl) 
+                (butter_knife))) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+138   Place the dessert fork horizontally between the bread plate and the water glass
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        BETWEEN (
+            (bread_plate)) 
+        BETWEEN (
+            (water_glass)) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_31.json
+139   Place the dessert spoon horizontally below the dessert fork.
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        BELOW (
+            (dessert_fork)) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_237.json
+140   Place the salad plate on top of the dinner plate in the very center of the plate
+ON_TOP_OF (
+    PLACE (
+        (you) 
+        (
+            OBJECT (
+                (salad_plate)) 
+            IN (
+                CENTER (
+                    (plate))))) 
+    (dinner_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_237.json
+141   Place the folded napkin onto the salad plate, with the folded triangle pointing downwards
+ONTO (
+    PLACE (
+        (you) 
+        (
+            OBJECT (
+                (napkin)) 
+            WITH (
+                (triangle_pointing)) 
+            MANNER (
+                (downwards)))) 
+    (salad_plate)) 
+FOLD (
+    (somebody) 
+    (
+        OBJECT (
+            (napkin)))) 
+FOLD (
+    (somebody) 
+    (
+        OBJECT (
+            (triangle_pointing)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_237.json
+142   Place the wine glass in the top right corner of the tablecloth, slightly away from the corner
+AWAY (
+    PLACE (
+        (you) 
+        (
+            OBJECT (
+                (wine_glass)) 
+            IN (
+                OF (
+                    (right_corner) 
+                    (tablecloth))) 
+            MANNER (
+                (slightly)))) 
+    (from_the_corner)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_237.json
+143   Place the water glass next to the wine glass, slightly below to the right of the wine glass
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        NEXT_TO (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)) 
+        MANNER (
+            (below)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_237.json
+144   Place the salad fork to the left side of the tablecloth, at the height of the plate
+PLACE (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO (
+            LEFT_SIDE (
+                (tablecloth))) 
+        AT (
+            OF (
+                (height) 
+                (plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_237.json
+145   place the knife, blade facing the plate, close to the right side of the plate
+FACE (
+    (place) 
+    (
+        OBJECT (
+            (plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_237.json
+146   place the soup spoon between the knife and the edge of the cloth, below the glasses
+BETWEEN (
+    (spoon) 
+    (knife)) 
+BELOW (
+    EDGE (
+        (cloth)) 
+    (glasses)) 
+(place) 
+(soup) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+147   Place the dinner plate at the bottom center of the tablecloth.
+PLACE (
+    (you) 
+    (dinner_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+148   Place the dinner knife to the right of the dinner plate with the blade pointing up.
+PLACE (
+    (you) 
+    (dinner_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+149   Place the salad knife to the right of the dinner knife, with the tips of the blades at the same level.
+PLACE (
+    (you) 
+    (salad_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+150   Place the soup spoon to the right of the salad knife, with the bowl pointing up.
+PLACE (
+    (you) 
+    (soup_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+151   Place the water glass above the dinner knife and slightly to the left. 
+ABOVE (
+    PLACE (
+        (you) 
+        (water_glass)) 
+    (dinner_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+152   Place the wine glass to the right of the water glass so that it is above soup spoon.
+MEANS (
+    (
+        PLACE (
+            (you) 
+            (wine_glass))) 
+    BE (
+        (wine_glass) 
+        (
+            ABOVE (
+                (soup_spoon))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+153   Place another wine glass to the right of the first wine glass, d at bottom of the first glass.
+PLACE (
+    (you) 
+    (wine_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+154   Place the coffee cup to the right of the spoon and below the second wine glass. 
+TO_THE_RIGHT_OF (
+    (coffee_cup) 
+    (spoon)) 
+BELOW (
+    (coffee_cup) 
+    (wine_glass)) 
+(place) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+155   Place the bread plate just above the forks, d on the dinner fork.
+PLACE (
+    (you) 
+    (bread_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+156   Put the butter knife across the top right of the bread plate, with its blade at the top and handle to the right.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ACROSS (
+            OF (
+                (right) 
+                (bread))) 
+        ACROSS (
+            (plate)) 
+        WITH (
+            OF (
+                (blade) 
+                (bread))) 
+        AT (
+            (top)) 
+        AT (
+            (handle)) 
+        TO (
+            (right)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+157   Place the dessert fork above the dinner plate with the tines pointing to the right.
+PLACE (
+    (you) 
+    (dessert_fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+158   Place the dessert spoon above the dessert fork with the bowl pointing to the left.
+PLACE (
+    (you) 
+    (dessert_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_11.json
+159   Place the napkin vertically on the dinner plate.
+PLACE (
+    (you) 
+    (napkin)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_124.json
+160   Put the charger in the center of the table, aligned with the bottom edge.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        IN (
+            CENTER (
+                (table))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_124.json
+161   Put the Dinner Fork to the left of the Charger, aligned vertically. with the tines facing up.
+TO_THE_LEFT_OF (
+    (fork) 
+    (charger)) 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_124.json
+162   Put the Dinner Knife to the right of the plate with the blade facing in towards the plate.
+PUT_IN (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (plate))  
+        TOWARDS (
+            (plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_124.json
+163   Place the Dessert Spoon d above the plate with the bowl facing left.
+FACE (
+    (place) 
+    (
+        OBJECT (
+            (left)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_124.json
+164   Center the Dessert Fork above the plate and below the Dessert Spoon, with the tines facing right.
+ABOVE (
+    (dessert_fork) 
+    (plate)) 
+BELOW (
+    (dessert_fork) 
+    (dessert_spoon)) 
+WITH (
+    (dessert_fork) 
+    (tines)) 
+FACE (
+    (center) 
+    (
+        OBJECT (
+            (right)))) 
+FACE (
+    (dessert_fork) 
+    (
+        OBJECT (
+            (right)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_124.json
+165   Place the Bread Plate to the left of the dessert spoon and above the Salad fork.
+PLACE (
+    (you) 
+    (bread_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_124.json
+166   Place the butter knife diagonally across the bread plate with the blade facing left
+PLACE (
+    (you) 
+    (butter_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_124.json
+167   Place the water glass above the Salad Knife and to the right of the Dessert Fork. 
+PLACE (
+    (you) 
+    (water_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_124.json
+168   Place the napkin in the center of the plate.
+PLACE (
+    (you) 
+    (napkin)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_28.json
+169   Put the charger on the table, aligned to the bottom of the tablecloth.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        ON (
+            (table)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_28.json
+170   Put the dinner fork to the left of the charger
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_LEFT_OF (
+            (charger)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_28.json
+171   Put the dinner knife to the right of the charger with the blade facing the charger.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (charger)) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (charger))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_28.json
+172   Put the salad fork to the left of the dinner fork, d in height to the dinner fork
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_fork_d)) 
+        IN (
+            (height)) 
+        TO (
+            (dinner_fork)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_28.json
+173   put the salad knife to the right of the dinner knife with the blade facing the dinner knife.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (dinner_knife))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_28.json
+174   Put the dessert spoon horizontally above the charger, with the bowl of the spoon to the left 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (charger))  
+        OF (
+            (spoon)) 
+        TO (
+            (left)) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_28.json
+175   Put the dessert fork below the dessert spoon with the prongs facing right.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        BELOW (
+            (dessert_spoon)) )) [
+FACE (
+    (prongs) 
+    (
+        OBJECT (
+            (right))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_28.json
+176   Put the bread plate to the upper left of the dinner plate.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        TO (
+            OF (
+                (left) 
+                (dinner_plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_28.json
+177   Put the butter knife on the bread plate at a 45-degree angle with the blade pointing to the upper left.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) 
+        AT (
+            (degree_angle)) )) [
+POINT (
+    (blade) 
+    (
+        TO (
+            (left))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_28.json
+178   Put the water glass to the upper right of the plate, just above the salad knife.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO (
+            OF (
+                (right) 
+                (plate))) 
+        ABOVE (
+            (salad_knife)) 
+        MANNER (
+            (just)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_28.json
+179   Put the napkin on the center of the plate.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            CENTER (
+                (plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_131.json
+180   put the charger in the bottom center of the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        IN (
+            OF (
+                (bottom_center) 
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_131.json
+181   put the soup spoon to the left of the salad knife with the handle facing down
+PUT_DOWN (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_LEFT_OF (
+            (salad_knife)) )) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_131.json
+182   put the bread plate above the salad fork and to the left of the dessert spoon
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dessert_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_131.json
+183   put the butter diagonally on the bread plate with the tip pointing to the top left corner of the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter)) 
+        ON (
+            (bread_plate))  
+        MANNER (
+            (diagonally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_131.json
+184   put the water glass above the salad knife and to the right of the dessert fork
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dessert_fork)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_131.json
+185   put the napkin on the center of the plate 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            CENTER (
+                (plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+186   put the plate on the charger
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (plate)) 
+        ON (
+            (charger)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+187   put the napkin on the plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+188   place the dinner fork to the left of the charger
+PLACE (
+    (you) 
+    (dinner_fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+189   place the salad fork to the left of the dinner fork
+PLACE (
+    (you) 
+    (salad_fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+190   place the dinner knife to the right of the charger, with the blade facing the charger
+PLACE (
+    (you) 
+    (dinner_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+191   place the tea spoon to the right of the dinner knife
+PLACE (
+    (you) 
+    (tea_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+192   place the soup spoon to the right of the tea spoon
+PLACE (
+    (you) 
+    (soup_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+193   place the water glass above the dinner knife
+PLACE (
+    (you) 
+    (water_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+194   place the wine glass to the right of the water glass
+PLACE (
+    (you) 
+    (wine_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+195   place the wine glass bellow the wine glass, above the spoons
+PLACE (
+    (you) 
+    (wine)) 
+BELLOW (
+    (glass) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ABOVE (
+            (spoons)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+196   place the coffee cup to the right of the wine glass
+PLACE (
+    (you) 
+    (coffee_cup)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+197   place the bread plate above the forks
+PLACE (
+    (you) 
+    (bread_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+198   place the butter knife on the bread plate with the blade facing the left
+PLACE (
+    (you) 
+    (butter_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+199   place the desert fork above the charger with the tines facing the right
+PLACE (
+    (you) 
+    (fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_218.json
+200   place the dessert spoon below the dessert fork, with the bowl facing the left
+PLACE (
+    (you) 
+    (dessert_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+201   put the dinner knife at the bottom right of the tablecloth, with its blade facing left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        AT (
+            OF (
+                (bottom_right) 
+                (tablecloth))) )) [
+FACE (
+    OF (
+        (blade) 
+        (tablecloth)) 
+    (
+        OBJECT (
+            (left))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+202   put the salad fork on the left of the fork
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left) 
+                (fork))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+203   put the salad knife on the right of the knife, with its blade facing left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        ON (
+            OF (
+                (right) 
+                (knife))) 
+        WITH (
+            OF (
+                (blade) 
+                (knife))))) [
+FACE (
+    OF (
+        (blade) 
+        (knife)) 
+    (
+        OBJECT (
+            (left))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+204   put the soup spoon on the right of the salad knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right) 
+                (salad_knife))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+205   put the dessert spoon at the top center of the tablecloth, with its bowl pointing left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        AT (
+            CENTER (
+                (tablecloth))) 
+        WITH (
+            OF (
+                (bowl) 
+                (tablecloth))))) [
+POINT (
+    OF (
+        (bowl) 
+        (tablecloth)) 
+    (
+        OBJECT (
+            (left))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+206   move the dessert spoon to the right of the soup spoon, with its bowl pointing up
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        TO_THE_RIGHT_OF (
+            (soup_spoon)) )) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+207   move the dessert spoon back to the top center of the tablecloth, with its bowl pointing left
+TO (
+    (back) 
+    OF (
+        (top_center) 
+        (tablecloth))) 
+WITH (
+    (back) 
+    OF (
+        (bowl_pointing) 
+        (tablecloth))) 
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+208   put the dinner plate between the forks and the knives
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        BETWEEN (
+            (forks)) 
+        BETWEEN (
+            (knives)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+209   put the bread plate on the top left of the tablecloth, above the forks
+ON (
+    (plate) 
+    (top)) 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            OF (
+                (bread) 
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+210   put the butter knife diagonally on the bread plate, with its blate pointing down left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) 
+        WITH (
+            OF (
+                (blate) 
+                (butter_knife))) 
+        MANNER (
+            (diagonally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+211   put the water glass above the knives
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (knives)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_12.json
+212   put the napkin on the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_146.json
+213   put the charger in the bottom center side of the table
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        IN (
+            OF (
+                (bottom_center_side) 
+                (table))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_146.json
+214   put the dinner fork on the left side of the charger
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        ON (
+            LEFT_SIDE (
+                (charger))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_146.json
+215   put the dinner knife on the right side of the charger
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            RIGHT_SIDE (
+                (charger))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_146.json
+216   put the salad fork on the left side of the dinner fork
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left_side) 
+                (dinner_fork))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_146.json
+217   put the salad knife on the right side of the dinner knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        ON (
+            OF (
+                (side) 
+                (dinner_knife))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_146.json
+218   put the soup spoon on the right side of the salad knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right_side) 
+                (salad_knife))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_146.json
+219   put the dessert spoon on the top side of the charger with the bowl pointing left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ON (
+            SIDE (
+                (charger))) )) [
+POINT (
+    (bowl) 
+    (
+        OBJECT (
+            (left))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_146.json
+220   put the dessert fork between the dessert spoon and the charger with the prongs pointing right
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        BETWEEN (
+            (dessert_spoon)) 
+        BETWEEN (
+            (charger)) )) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_146.json
+221   put the bread plate above the forks
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (forks)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_146.json
+222   put the butter knife on the bread plate diagonally with blade pointing top left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate))  
+        MANNER (
+            (diagonally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_146.json
+223   put the water glass above the knifes
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (knifes)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_146.json
+224   put the napkin on the plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_111.json
+225   put the dinner plate on the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            (tablecloth)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_111.json
+226   put the salad plate on the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_plate)) 
+        ON (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_111.json
+227   put the napkin on the salad plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (salad_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_111.json
+228   put the water glass next to the wine glass, slightly down
+PUT_DOWN (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        NEXT_TO (
+            (wine_glass)) 
+        MANNER (
+            (slightly)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_111.json
+229   put the salad fork on the left of the plates
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left) 
+                (plates))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_111.json
+230   put the dinner fork between the salad fork and the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        BETWEEN (
+            (salad)) 
+        BETWEEN (
+            (fork)) 
+        BETWEEN (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_111.json
+231   put the dinner knife on the right of the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            OF (
+                (right) 
+                (dinner_plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_111.json
+232   put the soup spoon on the right of the dinner knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right) 
+                (dinner_knife))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_185.json
+233   move the dinner plate to the center of the tablecloth
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        TO (
+            CENTER (
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_185.json
+234   put the salad plate in the center of the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_plate)) 
+        IN (
+            CENTER (
+                (dinner_plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_185.json
+235   put the napkin in the center of the salad plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            CENTER (
+                (salad_plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_185.json
+236   put the wine glass to the top right corner of the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO (
+            CORNER (
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_185.json
+237   put the water glass to the bottom right of the wine glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO (
+            OF (
+                (bottom_right) 
+                (wine_glass))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_185.json
+238   put the salad fork to the left of the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_185.json
+239   put the dinner fork to the right of the salad fork
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_RIGHT_OF (
+            (salad_fork)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_185.json
+240   put the dinner knife to the right of the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_185.json
+241   put the soup spoon to the right of the knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+242   put the dinner fork to the right of the tablecloth with its blade pointing towards the fork
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_RIGHT_OF (
+            (tablecloth)) 
+        WITH (
+            OF (
+                (blade) 
+                (dinner_fork))))) [
+POINT (
+    OF (
+        (blade) 
+        (dinner_fork)) 
+    (
+        TOWARDS (
+            (fork))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+243   put the salad knife to the right of the dinner knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+244   place the diner plate between the dinner fork and the dinner knife
+BETWEEN (
+    (plate) 
+    (dinner)) 
+(place) 
+(diner) 
+(fork) 
+(dinner_knife) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+245   put the bread plate on top of the salad fork and to the left of the dessert spoon
+ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (bread_plate)) 
+            TO_THE_LEFT_OF (
+                (dessert_spoon)))) 
+    (salad_fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+246   put the wine glass on top of the soup spoon
+ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (wine_glass)))) 
+    (soup_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+247   put the water glass to the left of the wine glass and to the right of the dessert spoon
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO_THE_LEFT_OF (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (dessert_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_8.json
+248   put the napkin on top of the dinner plate
+ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (napkin)))) 
+    (dinner_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_188.json
+249   Put the dinner plate at the bottom side of the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        AT (
+            OF (
+                (bottom_side) 
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_188.json
+250   Put the salad plate in the center of the dinner plate.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_plate)) 
+        IN (
+            CENTER (
+                (dinner_plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_188.json
+251   Put the napkin in the center of the salad plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            CENTER (
+                (salad_plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_188.json
+252   Put the wine glass at the upper right hand corner of the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        AT (
+            OF (
+                (hand_corner) 
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_188.json
+253   put the dinner knife directly to the right of the dinner plate, pointing toward the wine glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_plate_pointing)) 
+        TOWARD (
+            (wine_glass)) 
+        MANNER (
+            (directly)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_188.json
+254   Put the soup spoon to the right of the dinner knife, pointing toward the water glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife_pointing)) 
+        TOWARD (
+            (water_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+255   Move the dinner plate to the bottom of the tablecloth
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        TO (
+            BOTTOM (
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+256   Move the dinner fork to the left of the dinner plate with its prongs pointing to the top of the table
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_plate)) 
+        WITH (
+            OF (
+                (prongs) 
+                (dinner_fork))))) [
+POINT (
+    OF (
+        (prongs) 
+        (dinner_fork)) 
+    (
+        TO (
+            TOP (
+                (table)))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+257   Move the salad fork to the left of the dinner fork with prongs in the same direction
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        TO_THE_LEFT_OF (
+            (dinner_fork))  
+        IN (
+            (direction)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+258   Move the dinner knife to the right of the plate
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+259   Move the salad knife to the right of the dinner knife
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_RIGHT_OF (
+            (dinner_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+260   Move the soup spoon to the right of the salad knife
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (salad_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+261   Move the water glass to the right of the plate and in front of the dinner knife
+TO_THE_RIGHT_OF (
+    (glass) 
+    (plate)) 
+IN_FRONT_OF (
+    (glass) 
+    (dinner_knife)) 
+(move) 
+(water) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+262   Move the wine glass to the right of the water glass
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+263   Move the second wine glass to the right of the first wine glass
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+264   Move the coffee cup to the right of the soup spoon
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        TO_THE_RIGHT_OF (
+            (soup_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+265   Move the bread plate above the dinner fork
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (dinner_fork)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+266   Put the butter knife on the bread plate with blade facing away from dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) )) [
+FACE_AWAY (
+    (blade) 
+    (null))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+267   Move dessert fork in front of dinner plate with prongs facing water glass
+IN_FRONT_OF (
+    MOVE (
+        (you) 
+        (
+            OBJECT (
+                (dessert_fork)) 
+            WITH (
+                (prongs)))) 
+    (dinner_plate)) 
+FACE (
+    (prongs) 
+    (
+        OBJECT (
+            (water_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+268   Move dessert fork in front of dinner plate and in front of dessert spoon
+IN_FRONT_OF (
+    (fork) 
+    (dinner_plate)) 
+IN_FRONT_OF (
+    (fork) 
+    (dessert_spoon)) 
+(move_dessert) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_235.json
+269   Move napkin onto dinner plate
+ONTO (
+    MOVE (
+        (you) 
+        (
+            OBJECT (
+                (napkin)))) 
+    (dinner_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+270   put the dinner plate on the charger 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            (charger)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+271   put the napkin on the dinner plate 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+272   place the dinner fork on the left hand side of the dinner plate 
+PLACE (
+    (you) 
+    (dinner_fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+273   place the salad fork on the left hand side of the dinner fork
+PLACE (
+    (you) 
+    (salad_fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+274   place the dinner knife on the right hand side of the dinner plate 
+PLACE (
+    (you) 
+    (dinner_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+275   place the tea spoon on the right hand side of the dinner knife
+PLACE (
+    (you) 
+    (tea_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+276   place the soup spoon on the right hand side of the tea spoon
+PLACE (
+    (you) 
+    (soup_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+277   place the water glass above the dinner plate 
+PLACE (
+    (you) 
+    (water_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+278   place the wine glass on right hand side of the water glass
+PLACE (
+    (you) 
+    (wine_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+279   place the wine glass above the soup spoon
+PLACE (
+    (you) 
+    (wine_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+280   place the coffee cup on the right hand side of the wine glass
+PLACE (
+    (you) 
+    (coffee_cup)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+281   put the bread plate on the left hand side of the  dinner plate 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ON (
+            (left_hand_side)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+282   place the butter knife on top of the bread plate, pointing towards right hand side
+ON_TOP_OF (
+    PLACE (
+        (you) 
+        (butter_knife)) 
+    (bread_plate)) 
+POINT (
+    (bread_plate) 
+    (
+        TOWARDS (
+            (right_hand_side)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+283   place the dessert fork between the water glass and bread plate, pointing towards right hand side
+BETWEEN (
+    (dessert_fork) 
+    (water)) 
+POINT (
+    (place) 
+    (
+        TOWARDS (
+            (right_hand_side)))) 
+POINT (
+    (dessert_fork) 
+    (
+        TOWARDS (
+            (right_hand_side)))) 
+POINT (
+    (glass) 
+    (
+        TOWARDS (
+            (right_hand_side)))) 
+POINT (
+    (bread_plate) 
+    (
+        TOWARDS (
+            (right_hand_side)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_29.json
+284   place the dessert spoon between dinner plate and dessert fork, pointing left hand side
+BETWEEN (
+    (dessert_spoon) 
+    (dinner_plate)) 
+POINT (
+    (place) 
+    (
+        OBJECT (
+            (left_hand_side)))) 
+POINT (
+    (dessert_spoon) 
+    (
+        OBJECT (
+            (left_hand_side)))) 
+POINT (
+    (dessert_fork) 
+    (
+        OBJECT (
+            (left_hand_side)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+285   Put the plate in the middle of the charger
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (plate)) 
+        IN (
+            MIDDLE (
+                (charger))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+286   Put the napkin in the middle of the plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        IN (
+            MIDDLE (
+                (plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+287   put the dinner fork on the left side of the charger with the prongs facing upwards
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        ON (
+            OF (
+                (left_side) 
+                (charger)))  
+        MANNER (
+            (upwards)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+288   put the salad fork on the left side of the dinner fork with the prongs facing upwards
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left_side) 
+                (dinner_fork)))  
+        MANNER (
+            (upwards)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+289   put the dinner knife on the right side of the charger with the blade facing upwards
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            OF (
+                (right_side) 
+                (charger)))  
+        MANNER (
+            (upwards)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+290   put the tea spoon on the right side of the dinner knife with the bowl facing upwards
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (tea_spoon)) 
+        ON (
+            OF (
+                (right_side) 
+                (dinner_knife)))  
+        MANNER (
+            (upwards)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+291   put the soup spoon on the right side of the tea spoon with the bowl facing upwards
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right_side) 
+                (tea_spoon)))  
+        MANNER (
+            (upwards)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+292   put the water glass above the charger towards the right side
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ABOVE (
+            (charger)) 
+        TOWARDS (
+            (side)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+293   put the wine glass on the right side of the water glass above the tea spoon
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ON (
+            OF (
+                (right_side) 
+                (water_glass))) 
+        ABOVE (
+            (tea_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+294   put the wine glass above the soup spoon, right below the other wine glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ABOVE (
+            (soup_spoon_right)) 
+        BELOW (
+            (wine_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+295   put the the coffee cup above the soup spoon to the right of the wine glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        ABOVE (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+296   put the bread plate above the charger towards the left side
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (charger)) 
+        TOWARDS (
+            (side)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+297   put the butter knife on the bread plate with the blade facing left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (butter_knife)) 
+        ON (
+            (bread_plate)) )) [
+FACE (
+    (blade) 
+    (
+        OBJECT (
+            (left))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+298   put the dessert fork above the charger next to the bread plate with the prongs facing right
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (charger)) 
+        NEXT_TO (
+            (bread_plate)) )) [
+FACE (
+    (prongs) 
+    (
+        OBJECT (
+            (right))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_22.json
+299   put the dessert spoon below the dessert fork with the bowl facing left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        BELOW (
+            (dessert_fork)) )) [
+FACE (
+    (bowl) 
+    (
+        OBJECT (
+            (left))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_18.json
+300   put the dinner plate on the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            (tablecloth)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_18.json
+301   put the salad plate on the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_plate)) 
+        ON (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_18.json
+302   put a napkin on the salad plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (salad_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_18.json
+303   put a wine glass on the top right hand corner of the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ON (
+            OF (
+                (hand_corner) 
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_18.json
+304   put the water glass on the bottom right hand corner of the wine glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ON (
+            OF (
+                (bottom_right_hand_corner) 
+                (wine_glass))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_18.json
+305   put a salad fork on the left of the dinner plate, with the head pointing to the top
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left) 
+                (dinner_plate))) )) [
+POINT (
+    (head) 
+    (
+        TO (
+            (top))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_18.json
+306   put a dinner fork on the right of the salad fork with the head pointing to the top
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        ON (
+            OF (
+                (right) 
+                (salad_fork))) )) [
+POINT (
+    (head) 
+    (
+        TO (
+            (top))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_18.json
+307   put a dinner knife on the right of the dinner plate, with the head pointing to the top
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            OF (
+                (right) 
+                (dinner_plate))) )) [
+POINT (
+    (head) 
+    (
+        TO (
+            (top))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_18.json
+308   put the soup spoon on the right of the dinner knife, with the head pointing to the top
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right) 
+                (dinner_knife))) )) [
+POINT (
+    (head) 
+    (
+        TO (
+            (top))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+309   Place the dinner plate on the lower portion of the table
+PLACE (
+    (you) 
+    (dinner_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+310   place the salad fork to the left of the dinner fork in the same orientation
+PLACE (
+    (you) 
+    (salad_fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+311   place the dinner knife to the right of the dinner plate with the blade facing left, vertically
+PLACE (
+    (you) 
+    (dinner_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+312   place the salad knife to the right of the dinner knife in the same orientation
+PLACE (
+    (you) 
+    (salad_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+313   place the water glass to the upper right of the dinner place above the dinner knife
+PLACE (
+    (you) 
+    (water_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+314   place the wine glass to the right of the water glass
+PLACE (
+    (you) 
+    (wine_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+315   place another wine glass to the right of the previous wine glass
+PLACE (
+    (you) 
+    (wine_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+316   place a coffee cup to the right of the soup spoon
+PLACE (
+    (you) 
+    (coffee_cup)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+317   place the bread plate above the dinner fork
+PLACE (
+    (you) 
+    (bread_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+318   place the butter knife on top of the bread plate
+ON_TOP_OF (
+    PLACE (
+        (you) 
+        (butter_knife)) 
+    (bread_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_79.json
+319   place the napkin in the middle of the dinner plate
+PLACE (
+    (you) 
+    (napkin)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_249.json
+320   Put the charger on the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        ON (
+            (tablecloth)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_249.json
+321   place a salad fork on the left of the charger and a dinner knife on the right.
+ON (
+    (fork) 
+    OF (
+        (left) 
+        (charger))) 
+ON (
+    (dinner_knife) 
+    (right)) 
+(place) 
+(salad) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_249.json
+322   Place a salad fork on the left of the first fork.
+PLACE (
+    (you) 
+    (salad_fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_249.json
+323   Place another dinner knife and a soup soup on the right of the charger.
+ON (
+    (soup_soup) 
+    OF (
+        (right) 
+        (charger))) 
+(place) 
+(dinner_knife) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_249.json
+324   place a soup spoon next to the dinner knife with its bowl facing the top.
+PLACE (
+    (you) 
+    (soup_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_249.json
+325   Place a desert spoon above the charger with its bowl facing left.
+PLACE (
+    (you) 
+    (spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_249.json
+326   Place a desert fork below the desert spoon with its tines facing right.
+PLACE (
+    (you) 
+    (fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_249.json
+327   Place a bread plate to the left of the charger above the forks.
+PLACE (
+    (you) 
+    (bread_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_249.json
+328   Place a butter knife cross on the bread place with its blade pointing downwards.
+PLACE (
+    (you) 
+    (butter_knife_cross)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_249.json
+329   Place a water glass on the right of the charger above the knives and the soup spoon.
+ON (
+    (water_glass) 
+    OF (
+        (right) 
+        (charger))) 
+ABOVE (
+    (water_glass) 
+    (knives)) 
+(place) 
+(soup_spoon) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+330   put the dinner plate on the table toward the bottom middle
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        ON (
+            (table)) 
+        TOWARD (
+            (bottom_middle)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+331   put the fork head up to the left of the plate
+PUT_UP (
+    (you) 
+    (
+        OBJECT (
+            (fork_head)) 
+        TO_THE_LEFT_OF (
+            (plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+332   put the salad fork head up to the left of the dinner fork
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork_head_up)) 
+        TO_THE_LEFT_OF (
+            (dinner_fork)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+333   put the dinner knife to the right of the plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        TO_THE_RIGHT_OF (
+            (plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+334   put the salad knife to the left of the dinner knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_knife)) 
+        TO_THE_LEFT_OF (
+            (dinner_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+335   put the soup spoon to the right of the salad knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        TO_THE_RIGHT_OF (
+            (salad_knife)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+336   put the water glass to the upper right of the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO (
+            OF (
+                (right) 
+                (dinner_plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+337   put the wine glass to the right of the water glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (water_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+338   put the wine glass to the right of the wine glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        TO_THE_RIGHT_OF (
+            (wine_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+339   put the coffee cup to the right of the soup spoon
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        TO_THE_RIGHT_OF (
+            (soup_spoon)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+340   put the bread plate above the dinner fork
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ABOVE (
+            (dinner_fork)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+341   put the bread knife on the bread plate at the upper right corner, pointing upper left
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_knife)) 
+        ON (
+            (bread_plate)) 
+        AT (
+            (corner)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+342   put the dessert fork horizontally above the dinner plate, with the prongs to the right 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (dinner_plate))  
+        TO (
+            (right)) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+343   put the dessert spoon horizontally above the dessert fork, with the head to the left 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (dessert_fork))  
+        TO (
+            (left)) 
+        MANNER (
+            (horizontally)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_43.json
+344   put the napkin vertically on the plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)) 
+        MANNER (
+            (vertically)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_15.json
+345   put the dinner plate in the middle of the tablecloth, towards the bottom
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_plate)) 
+        IN (
+            MIDDLE (
+                (tablecloth))) 
+        TOWARDS (
+            (bottom)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_15.json
+346   put the salad plate on top of the dinner plate
+ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (salad_plate)))) 
+    (dinner_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_15.json
+347   put the napkin on top of the salad plate
+ON_TOP_OF (
+    PUT (
+        (you) 
+        (
+            OBJECT (
+                (napkin)))) 
+    (salad_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_15.json
+348   put the wine glass on the top right hand side of the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ON (
+            (right_hand_side)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_15.json
+349   put the water glass to the bottom right of the wine glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        TO (
+            OF (
+                (bottom_right) 
+                (wine_glass))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_15.json
+350   put the salad fork on the left of the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (salad_fork)) 
+        ON (
+            OF (
+                (left) 
+                (dinner_plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_15.json
+351   put the dinner fork on the right of the salad fork
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_fork)) 
+        ON (
+            OF (
+                (right) 
+                (salad_fork))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_15.json
+352   put the dinner knife on the right of the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            OF (
+                (right) 
+                (dinner_plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_15.json
+353   put the soup spoon on the right of the dinner knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right) 
+                (dinner_knife))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+354   put the dinner knife on the right lower side of the tablecloth with the blade facing up
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            RIGHT_SIDE (
+                (tablecloth))) )) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+355   place the dessert spoon on the top center, with the bowl facing to the left
+PLACE (
+    (you) 
+    (dessert_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+356   Place the dessert spoon in the top center with the bowl facing left
+PLACE (
+    (you) 
+    (dessert_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+357   place the dinner plate on the bottom, between the dinner fork and the dinner knife
+PLACE (
+    (you) 
+    (dinner_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+358   place the bread plate on the top left corner above the forks and left of the dessert spoon
+ON (
+    (bread_plate) 
+    (top_left)) 
+ABOVE (
+    (corner) 
+    (forks)) 
+(place) 
+OF (
+    (left) 
+    (dessert_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+359   place the butter knife on the top of the bread plate with the blade facing downward and left
+PLACE (
+    (you) 
+    (butter_knife)) 
+LEAVE (
+    (you) 
+    (
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+360   place the wine glass above the soup spoon
+PLACE (
+    (you) 
+    (wine_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+361   place the water glass above the dinner plate and left of the wine glass
+ABOVE (
+    (water_glass) 
+    (dinner_plate)) 
+(place) 
+OF (
+    (left) 
+    (wine_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_58.json
+362   place the napkin in the center of the dinner plate 
+PLACE (
+    (you) 
+    (napkin)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+363   place the dinner fork on the left bottom corner of the tablecloth
+PLACE (
+    (you) 
+    (dinner_fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+364   place the dinner knife on the right bottom corner of the tablecloth
+PLACE (
+    (you) 
+    (dinner_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+365   place the salad fork to the immediate left of the dinner fork
+PLACE (
+    (you) 
+    (salad_fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+366   place the salad knife to the immediate right of the dinner knife
+PLACE (
+    (you) 
+    (salad_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+367   place the dessert spoon at the top center of the tablecloth, with its bowl facing towards the left
+PLACE (
+    (you) 
+    (dessert_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+368   move the dessert spoon to the top center of the tablecloth, with its bowl pointed to the left
+TO (
+    (spoon) 
+    CENTER (
+        (tablecloth))) 
+WITH (
+    (spoon) 
+    OF (
+        (bowl) 
+        (tablecloth))) 
+MOVE (
+    (you) 
+    (
+        OBJECT (
+            (dessert)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+369   place the dinner plate in the center of the tablecloth
+PLACE (
+    (you) 
+    (dinner_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+370   place the bread plate above the salad fork and to the left of the dessert spoon
+ABOVE (
+    (bread_plate) 
+    (salad_fork)) 
+TO_THE_LEFT_OF (
+    (bread_plate) 
+    (dessert_spoon)) 
+(place) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+371   place the wine glass directly above the soup spoon on the tablecloth
+PLACE (
+    (you) 
+    (wine_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+372   place the water glass to the right of the dessert spoon and the left of the wine glass
+TO_THE_RIGHT_OF (
+    PLACE (
+        (you) 
+        (water_glass)) 
+    (dessert_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_182.json
+373   place the napkin on top of the dinner plate
+ON_TOP_OF (
+    PLACE (
+        (you) 
+        (napkin)) 
+    (dinner_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_157.json
+374   put the charger on the center bottom of the tablecloth
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (charger)) 
+        ON (
+            OF (
+                (center_bottom) 
+                (tablecloth))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_157.json
+375   place the dinner fork to the left of the charger with tines pointing towards the top of the tablecloth
+PLACE (
+    (you) 
+    (dinner_fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_157.json
+376   place the dinner knife to the right of the charger with it's tip pointing to the top of the tablecloth
+TO_THE_RIGHT_OF (
+    (knife) 
+    (charger)) 
+WITH (
+    (knife) 
+    (dinner)) 
+PLACE (
+    (you) 
+    (dinner)) 
+CLASSIFICATION (
+    (tip) 
+    (knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_157.json
+377   place the salad knife to the right of the dinner knife with it's tip pointing to the top of the tablecloth
+TO_THE_RIGHT_OF (
+    (knife) 
+    (dinner_knife)) 
+WITH (
+    (knife) 
+    (salad)) 
+PLACE (
+    (you) 
+    (salad)) 
+CLASSIFICATION (
+    (tip) 
+    (knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_157.json
+378   place the soup spoon to the right of the salad knife, head pointing to the top of the tablecloth
+PLACE (
+    (you) 
+    (soup_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_157.json
+379   place the bread plate to the left of the dessert spoon
+PLACE (
+    (you) 
+    (bread_plate)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_157.json
+380   place the butter knife on the bread plate with its tip pointing toward 10 o'clock
+PLACE (
+    (you) 
+    (butter_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_157.json
+381   place the water glass above the salad knife
+PLACE (
+    (you) 
+    (water_glass)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_157.json
+382   place the napkin in the center of the charger
+PLACE (
+    (you) 
+    (napkin)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+383   Put the plate on the charger.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (plate)) 
+        ON (
+            (charger)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+384   Put the napkin on the plate.
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (napkin)) 
+        ON (
+            (plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+385   Put the dinner fork on the left side of the plate with the prongs turned up
+ON (
+    (fork) 
+    LEFT_SIDE (
+        (plate))) 
+WITH (
+    (fork) 
+    (prongs)) 
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+386   Put the dinner knife on the right side of the dinner plate with the blade towards the dinner plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dinner_knife)) 
+        ON (
+            RIGHT_SIDE (
+                (dinner_plate)))  
+        TOWARDS (
+            (dinner_plate)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+387   Put the tea spoon on the right side of the knife
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (tea_spoon)) 
+        ON (
+            RIGHT_SIDE (
+                (knife))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+388   Put the soup spoon on the right side of the tea spoon
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (soup_spoon)) 
+        ON (
+            OF (
+                (right_side) 
+                (tea_spoon))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+389   Put the water glass on the top right side of the plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (water_glass)) 
+        ON (
+            RIGHT_SIDE (
+                (plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+390   Put the wine glass on the right side on the water glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        ON (
+            (right_side)) 
+        ON (
+            (water_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+391   Put another wine glass under the first wine glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (wine_glass)) 
+        UNDER (
+            (wine_glass)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+392   Put the coffee cup on the right side of the wine glass
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (coffee_cup)) 
+        ON (
+            OF (
+                (right_side) 
+                (wine_glass))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+393   Put the bread plate on the top left side of the plate
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (bread_plate)) 
+        ON (
+            LEFT_SIDE (
+                (plate))))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+394   Put the butter knife on top of the bread plate with the blade facing down and pointing to the left
+ON_TOP_OF (
+    PUT_DOWN (
+        (you) 
+        (
+            OBJECT (
+                (butter_knife)) 
+            WITH (
+                (blade_facing)))) 
+    (bread_plate)) 
+POINT (
+    (you) 
+    (
+        TO (
+            (left)))) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+395   Put the dessert fork above the dinner plate with the prongs facing right
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_fork)) 
+        ABOVE (
+            (dinner_plate)) )) [
+FACE (
+    (prongs) 
+    (
+        OBJECT (
+            (right))))]
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_74.json
+396   Put the dessert spoon above the dinner plate and below the dessert fork with the handle facing right
+PUT (
+    (you) 
+    (
+        OBJECT (
+            (dessert_spoon)) 
+        ABOVE (
+            (dinner_plate)) 
+        BELOW (
+            (dessert_fork)) )) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_229.json
+397   Place the charger on the tablecloth and near its bottom
+PLACE (
+    (you) 
+    (charger)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_229.json
+398   Place the dinner knife, with the blade facing the charger, on the right side of the charger
+PLACE (
+    (you) 
+    (dinner_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_229.json
+399   Place the salad knife, with the blade facing the charger, on the right side of the dinner knife
+PLACE (
+    (you) 
+    (salad_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_229.json
+400   Place the soup spoon, with the bowl pointing up, on the right side of the salad knife
+PLACE (
+    (you) 
+    (soup_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_229.json
+401   Place the dessert spoon, with the bowl pointing towards the dinner fork, above the charger
+PLACE (
+    (you) 
+    (dessert_spoon)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_229.json
+402   Place the dessert fork, with tines pointing to the dinner knife, between the charger and dessert spoon
+PLACE (
+    (you) 
+    (dessert_fork)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_229.json
+403   Place the bread plate above the salad and dinner fork
+ABOVE (
+    (bread_plate) 
+    (salad)) 
+(place) 
+(dinner_fork) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_229.json
+404   Place the butter knife, with the blade facing the top left corner of the tablecloth, on the bread plate 
+PLACE (
+    (you) 
+    (butter_knife)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_229.json
+405   Place the water glass above the dinner and salad knives
+ABOVE (
+    PLACE (
+        (you) 
+        (water_glass)) 
+    (dinner)) 
+
+
+
+/Users/z/git/genesis/students/zhutianYang/instruction_data/data_229.json
+406   Place the napkin on the middle of the plate
+PLACE (
+    (you) 
+    (napkin)) 
+
+
+

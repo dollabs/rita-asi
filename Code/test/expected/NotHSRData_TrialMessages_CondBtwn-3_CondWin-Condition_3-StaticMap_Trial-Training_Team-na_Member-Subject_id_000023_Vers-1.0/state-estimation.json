@@ -1,0 +1,436 @@
+[
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "asistmod:item_unpause_cookie",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST5",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "ASIST5"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-ended": true,
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "received-routing-key": "mission-ended",
+    "routing-key": "mission-ended"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "9e45005b-e9ea-4ff7-9090-38d302147d14",
+    "prediction-stats": {
+      "aggregate-stats": {
+        "breakdown": {
+          "false": 400,
+          "true": 785,
+          "unknown": 52
+        },
+        "total": 1237
+      },
+      "aggregate-stats-detail": {
+        "MissionTracker--goto-room": {
+          "counts": {
+            "false": 128,
+            "true": 10
+          },
+          "probability": {
+            "false": 0.927536231884058,
+            "true": 0.07246376811594203
+          },
+          "totals": 138
+        },
+        "StateEstimation--enter-room": {
+          "counts": {
+            "false": 179,
+            "true": 232,
+            "unknown": 33
+          },
+          "probability": {
+            "false": 0.4031531531531532,
+            "true": 0.5225225225225225,
+            "unknown": 0.07432432432432431
+          },
+          "totals": 444
+        },
+        "StateEstimation--exit-room": {
+          "counts": {
+            "true": 410,
+            "unknown": 3
+          },
+          "probability": {
+            "true": 0.9927360774818402,
+            "unknown": 0.007263922518159806
+          },
+          "totals": 413
+        },
+        "StateEstimation--next-room-to-visit": {
+          "counts": {
+            "false": 6,
+            "true": 34,
+            "unknown": 2
+          },
+          "probability": {
+            "false": 0.1428571428571429,
+            "true": 0.8095238095238095,
+            "unknown": 0.04761904761904762
+          },
+          "totals": 42
+        },
+        "StateEstimation--triage-victim": {
+          "counts": {
+            "false": 87,
+            "true": 99,
+            "unknown": 14
+          },
+          "probability": {
+            "false": 0.435,
+            "true": 0.495,
+            "unknown": 0.07
+          },
+          "totals": 200
+        }
+      },
+      "mission-stats": {
+        "breakdown": {},
+        "total": 0
+      },
+      "mission-stats-detail": {},
+      "unhandled-timeouts": 0
+    },
+    "received-routing-key": "prediction-stats",
+    "routing-key": "prediction-stats"
+  }
+]

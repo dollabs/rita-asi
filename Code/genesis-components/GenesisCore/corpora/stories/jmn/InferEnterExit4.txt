@@ -1,0 +1,51 @@
+//Infer Enter Exit 4, March 2016
+
+Start experiment.
+
+//Start common sense knowledge.
+//xx is a person.
+//yy is a person.
+
+Start story titled "Infer Enter Exit 4".
+
+////////////////////////////////////////////////////////////////////////////////
+// Exp 4: advanced co-location: multiple scenes at once
+// This could be modeled with:
+//     - containers (each containing a different subset of characters)
+//     - awareness windows (one per character)
+
+Then, Alice, Bobby, Carla, and David are in the kitchen. //infer A, B, C, D enter the kitchen scene
+The heater starts emitting heat. //obs by A, B, C, D in kitchen
+Alice and Carla leave. //A, C exit the kitchen scene
+Alice asks Carla, "Why is the heat on during the summer". //obs by A, C (not in kitchen)
+Carla says, "I don't know". //obs by A, C (not in kitchen)
+Bobby tells David, "I want cake". //obs by B, D in kitchen
+Bobby begins cooking. //obs by B, D in kitchen
+Carla jumps on the bed. //obs by A, C (not in kitchen)
+
+////////////////////////////////////////////////////////////////////////////////
+// Future experiments
+
+// non-physical co-location
+    // Ex: A and B are sitting in a room together.  Mom calls A on the phone and says X.  Now A knows X, but B doesn't.
+    // Ex: another example: someone writing on paper, only some people can see
+
+// one-way observations
+	// Ex: if John sees the woman on a distant hill, this is an observation for John but not for the woman
+
+// containment: When does entering a second location mean that you've left the first?
+    // Ex: John enters location_X.  Then, John enters location_Y.  Has John exited location_X?  
+        // X=house, Y=kitchen -> No
+        // X=kitchen, Y=bedroom -> Yes
+        
+// if someone is mentioned but not present
+    // Ex: Alice asks about Carla, "Why isn't Carla here yet".
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+The end.
+
+////////////////////////////////////////////////////////////////////////////////
+/*
+*/

@@ -1,0 +1,19 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0293".
+THE PRINCESS WOKE UP WHILE THE SONGS OF THE BIRDS COVERED THE SKY.
+BECAUSE THE HUNTER WAS GREEDY, THE HUNTER ABDUCTED THE PRINCESS AND TOOK HER TO THE FOREST.
+THE PRINCESS HAD THE OPPORTUNITY AND ESCAPED.
+IN ORDER TO SAVE HER LIFE, SHE DECIDED TO HIDE.
+THE PRINCESS DECIDED TO GO TO THE TEMPLE.
+THE END.
+
+
+
+The end.

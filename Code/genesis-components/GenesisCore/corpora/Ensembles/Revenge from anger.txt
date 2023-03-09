@@ -1,0 +1,63 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Learn concept button to true.
+Set left panel to commentary.
+// Set right panel to Z Story Aligner Gallery.
+Set right panel to source.
+Both perspectives.
+
+Denmark is a country.
+Hamlet is a person.
+King Hamlet is a person.
+Claudius is a person.
+Ophelia is a person.
+Laertes is a person.
+
+Hera is a person.
+Heracles is a person.
+
+xx, yy, and zz are persons.
+vv is a variable.
+
+If xx is the wife of yy and zz is the illegitimate son of yy, then xx may be angry.
+If xx sends a poisonous vv to yy, then xx may want to kill yy.
+
+If xx believes that yy killed xx's father, then xx may be angry.
+If xx is resolved to kill yy, then xx must want to kill yy.
+
+Show both perspectives.
+
+First perspective.
+Start story titled "Hamlet".
+Hamlet is the prince of Denmark.
+King Hamlet is the king of Denmark.
+Claudius is the uncle of Hamlet.
+King Hamlet was killed by Claudius.
+Claudius succeeded King Hamlet as the king.
+The ghost of King Hamlet asked Hamlet to revenge.
+Since then, Hamlet pretended to be mad.
+He refused to love Ophelia, his girlfriend.
+Then, Hamlet arranged a show and proved that King Claudius was guilty.
+Hamlet believed that Claudius killed Hamlet's father.
+Hamlet is resolved to kill his uncle.
+Accidentally, Hamlet killed Ophelia’s father, so King Claudius exiled Hamlet to England.
+In despair, Ophelia drowned herself.
+Laertes is Ophelia’s brother.
+Laertes challenged Hamlet to a duel.
+Hamlet killed Laertes and King Claudius.
+But he died from the poison of the blade of Laertes.
+The end.
+
+Second perspective.
+Start story titled "Hera".
+// https://classicalwisdom.com/mythology/heracles-and-hera/
+Hera is the wife of Zeus.
+Heracles is the illegitimate son of Zeus.
+Hera was angry and she sent a poisonous snake to Heracles.
+Heracles killed the snake with bare hands.
+Hera made Heracles mad so he killed his children and wife.
+Hera also made Heracles to do the twelve labour.
+The end.

@@ -1,0 +1,4 @@
+<h1>What you will see</h1>
+
+Genesis reads two stories about replacing a battery in a cell phone.  
+From the ensemble, it learns a general recipe and two particular recipes.

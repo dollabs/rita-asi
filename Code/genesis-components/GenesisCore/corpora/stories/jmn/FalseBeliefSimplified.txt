@@ -1,0 +1,15 @@
+//False-Belief Test - simplified version, 1/16, 1/21
+
+Start experiment.
+
+Start story titled "False-Belief Test / Simplified".
+The child, the king, and John are persons.
+The child, the king, and John enter the scene.
+On the table, there is a red box and a blue box.
+The king places his sandwich in the red box.
+The king exits the scene.
+John moves the king's sandwich from the red box to the blue box.
+
+//Question: where does each actor believe the sandwich to be?
+
+The end. 

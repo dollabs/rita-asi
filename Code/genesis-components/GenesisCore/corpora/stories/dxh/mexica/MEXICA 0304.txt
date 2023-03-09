@@ -1,0 +1,20 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0304".
+THAT DAY THE HUNTER'S HEART WAS FULL OF ENERGY.
+IN THE MORNING, THE PRINCESS AWOKE IN THE GREAT CITY.
+THE PRINCESS AND THE HUNTER HAD BEEN RIVALS FOR LONG TIME.
+SUDDENLY, THE PRINCESS AND THE HUNTER WERE INVOLVED IN A VIOLENT FIGHT.
+THE HUNTER KNEW THAT THE PRINCESS COULD KILL HER, SO HE DECIDED TO RUN AWAY.
+THE HUNTER ESCAPED TO THE VOLCANO.
+THE END.
+
+
+
+The end.

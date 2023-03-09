@@ -1,0 +1,51 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set perform goal analysis (ASPIRE) switch to true.
+
+Set use similarity rule matching switch to true.
+
+XX and YY are persons.
+If XX is resting and YY disturbs XX, then XX feels anger towards YY.
+// If XX is relaxing and YY disturbs XX, then XX becomes angry.
+
+Start story titled "A Long Day".
+
+Fred is a person.
+
+John is a person.
+
+John is Fred's roommate.
+
+Fred works hard at the office.
+
+Fred leaves work.
+
+Fred buys beer.
+
+Fred comes home.
+
+Fred opens a beer and watches television.
+
+Fred lies down and falls asleep.
+
+John comes home.
+
+John plays loud music and wakes up Fred.
+
+Fred sighs from exasperation.
+
+Fred leaves the apartment and takes a walk.
+
+The quiet night helps Fred clear his mind.
+
+Fred calms down and heads home.
+
+The end.
+
+Set left panel to sources at conceptnet knowledge.
+
+Set Perform goal analysis (ASPIRE) switch to false.
+
+Set Use similarity rule matching switch to false.

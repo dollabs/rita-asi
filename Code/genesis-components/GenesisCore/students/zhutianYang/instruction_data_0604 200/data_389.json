@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 11:30:18+08:00", 
+    "instructions": [
+        "Put the plate on the charger", 
+        "Set napkin on top of plate", 
+        "Put dinner form with prong facing up on the left side of the charger", 
+        "set the salad fork on the left side of the dinner for with prong facing up", 
+        "set the dinner knife to the right of the charger with the blade facing up and toward the charger", 
+        "set the tea spoon with the bowl facing up to the right of the knife", 
+        "set the soup spoon with the bowl facing up right of the spoon", 
+        "set the water glass top right of the charger ", 
+        "set the wine glass to the right of the wine glass", 
+        "move the wine glass next to the blade of the knife", 
+        "set the  coffee cup next to the wine glass", 
+        "set bread plate top left of the charge above the forks", 
+        "set the butter knife on the bread plate with the blade facing left", 
+        "set the dessert fork between the bread plate and the water glass with the prongs facing right", 
+        "set the dessert spoon between the dessert fork and charger with the bowl facing left"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table5"
+}

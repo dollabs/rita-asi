@@ -1,0 +1,26 @@
+// Do not call play "Caesar"; gets confused with person Caesar
+
+Start story titled "Julius Caesar".
+
+Anthony, Cassius, Caesar, and Brutus are persons.
+
+Cassius wanted Caesar to die because Cassius hates Caesar.  
+
+Cassius persuades Brutus to murder Caesar.
+
+Cassius also murders Caesar because Cassius persuades Brutus to murder Caesar.
+
+Anthony is Caesar's friend.
+
+Caesar is Anthony's friend.
+
+Anthony persuades the people to attack Cassius.
+
+Anthony persuaded the people to attack Brutus.
+
+Brutus and Cassius fight Anthony.
+Brutus kills Brutus.
+Cassius kills Cassius.
+
+The end.
+

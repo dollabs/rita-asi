@@ -1,0 +1,16 @@
+{
+    "accept_time": "2019-06-04 10:52:22+08:00", 
+    "instructions": [
+        "put the dinner plate on the center of table cloth", 
+        "put the salad plate on the center of dinner plate", 
+        "put the napkin on the center of salad plate", 
+        "put the wine glass on the table cloth in the up right corner", 
+        "put the water glass on the table cloth next to wine glass in right and position", 
+        "put the salad fork on the table cloth in the left side of dinner plate, parallel to table cloth's side", 
+        "put the dinner fork between salad fork and dinner plate and parallel to salad fork", 
+        "put the dinner knife between wine glass and dinner plate, parallel to dinner fork", 
+        "put soup spoon between dinner knife and wine glass and parallel to dinner knife"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table1"
+}

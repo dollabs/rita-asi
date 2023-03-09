@@ -1,0 +1,17 @@
+Start story titled "John and the Oil Spill".
+
+John is a registered professional engineer.
+Tom is the manager of company XYZ.
+
+Tom hired John as a consultant engineer.
+
+Petrochemicals leaked from the pipe of XYZ into the local river.
+The law requires that any oil spill be reported.
+Tom did not report the spill; Citizens continued using the local river for a living.
+John said that he want to report the spill.
+Tom told John that the oil spill is confidential.
+Tom threatened John not to report.
+Tom said that Tom will lose his contract if he report.
+John reported the spill to an external authority.
+
+The end.

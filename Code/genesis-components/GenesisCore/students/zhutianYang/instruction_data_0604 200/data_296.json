@@ -1,0 +1,16 @@
+{
+    "accept_time": "2019-06-04 10:19:31+08:00", 
+    "instructions": [
+        "Put down a plate.", 
+        "Put down a salad plate", 
+        "Put a napkin on the salad plate.", 
+        "Put a wine glass in the upper right corner.", 
+        "Put a water glass beside the wine glass.", 
+        "Put a salad fork to the left of the plate.", 
+        "Put a dinner fork to the right of the salad fork.", 
+        "Put a dinner knife to the right of the plate.", 
+        "Put a soup spoon to the right of the dinner knife."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table1"
+}

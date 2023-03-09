@@ -1,0 +1,63 @@
+Start experiment.
+
+Set Summarizer switch to true.
+
+Set Show text box switch to false.
+
+Set Show markup switch to false.
+
+Set bottom panel to elaboration graph.
+
+Set left panel to Inspector.
+
+Set right panel to Summary.
+
+Insert file General commonsense knowledge.
+
+Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+// Eastern
+
+WW, XX, YY, and ZZ are persons.
+
+YY may kill WW because YY wants to kill WW.
+
+XX may kill YY because YY angers XX.
+
+YY may murder WW because YY wants to become king and because WW is the king and because YY is WW's successor.
+
+Start description of "Revenge".
+xx is an entity.
+yy is a entity.
+xx's harming yy leads to yy's harming xx.
+The end.
+
+// Machiavellian
+
+WW, XX, YY, and ZZ are persons.
+
+If XX is an enemy of ZZ and YY is an enemy of ZZ, then XX may be a friend of YY.
+
+If XX is an enemy of ZZ and YY is an enemy of ZZ, then YY may be a friend of XX.
+
+
+Insert file Animacy.
+
+
+Start story titled "Macbeth".
+
+Insert file Macbeth plot.
+
+
+
+
+
+
+
+
+
+
+
+

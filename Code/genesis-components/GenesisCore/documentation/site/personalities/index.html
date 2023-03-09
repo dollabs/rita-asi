@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../css/favicon.ico">
+  
+  <title>Personalities - Genesis Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Personalities";
+    var mkdocs_page_input_path = "personalities.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Genesis Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Genesis</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="..">Genesis System</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../contribute/">Contribute to Documentation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../past/">Past</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../current.md">Current</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../future.md">Future</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Fundamentals</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../innerese/">Representation - Innerese</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../stories/">Writing Stories</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../inference/">Inference by Rules</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../concept-patterns/">Concept Patterns</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../mental-model/">Mental Models</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../classification/">Classification</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Genesis Interface</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../genesis-controls/">Controls</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../gui-subsystems/">Subsystems</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Consciousness</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../core/">Genesis Core</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../wire/">Box and Wire</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../problem-solver/">Problem Solver</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Mental Experts</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../hypothetical-reasoner/">Hypothetical Reasoner</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story reteller.md">Story Reteller</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-summarizer/">Story Summarizer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-aligner/">Story Aligner</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Knowledge Base</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../concept-net/">Commonsense - ConceptNet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../wikihow/">Procedural Knowledge - WikiHow</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../atomic/">Inference Rules - ATOMIC</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Personalities</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#example-personalities">Example Personalities</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#i">I</a></li>
+        
+            <li><a class="toctree-l4" href="#personality-demo">Personality Demo</a></li>
+        
+            <li><a class="toctree-l4" href="#nasty">... Nasty</a></li>
+        
+            <li><a class="toctree-l4" href="#shy">... Shy</a></li>
+        
+            <li><a class="toctree-l4" href="#vicious">... Vicious</a></li>
+        
+            <li><a class="toctree-l4" href="#other-common-personalities">Other Common Personalities</a></li>
+        
+            <li><a class="toctree-l4" href="#ambitious">... Ambitious</a></li>
+        
+            <li><a class="toctree-l4" href="#corrupt">... Corrupt</a></li>
+        
+            <li><a class="toctree-l4" href="#crazy">... Crazy</a></li>
+        
+            <li><a class="toctree-l4" href="#evil">... Evil</a></li>
+        
+            <li><a class="toctree-l4" href="#greedy">... Greedy</a></li>
+        
+            <li><a class="toctree-l4" href="#insane">... Insane</a></li>
+        
+            <li><a class="toctree-l4" href="#machiavellian">... Machiavellian</a></li>
+        
+            <li><a class="toctree-l4" href="#violent">... Violent</a></li>
+        
+            <li><a class="toctree-l4" href="#wizard">... Wizard</a></li>
+        
+            <li><a class="toctree-l4" href="#culture-personalities">Culture personalities</a></li>
+        
+            <li><a class="toctree-l4" href="#eastern">... Eastern</a></li>
+        
+            <li><a class="toctree-l4" href="#western">... Western</a></li>
+        
+            <li><a class="toctree-l4" href="#asian">... Asian</a></li>
+        
+            <li><a class="toctree-l4" href="#four-year-old">Four year old</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Knowledge Generators</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../recipe-learners/">Recipe Learners</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../story-aligner/">Story Aligner</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Tips for Users</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../tips-genesese/">Writing Parsable English</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../tips-eclipse/">Debugging in Eclipse</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../commentary/">Using Commentary</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Demonstrations</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../demo-macbeth2/">Culture Differences</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Genesis Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Knowledge Base &raquo;</li>
+        
+      
+    
+    <li>Personalities</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="example-personalities">Example Personalities</h1>
+<p>Here are the exiting personalities in Genesis Corpus: <code>corpora/stories/Personalities/</code></p>
+<ul>
+<li><code>I.txt</code> included the patterns for inspecting the thinking process of Genesis system</li>
+<li>cultural personalities</li>
+<li>personal personalities</li>
+</ul>
+<h2 id="i">I</h2>
+<p>In this file, PHW was trying to construct concept patterns so that Genesis can recognize:
+* when conclusions are made
+* what it has found
+* how did it solve a problem</p>
+<p>So these are the important knowledge for demonstrating self-awareness, introspection, and explanation!!!</p>
+<pre><code>I am a person.
+rr is a variable.
+ss is a variable.
+vv is a variable.
+xx is a person.
+
+Start description of &quot;Reached conclusion&quot;.
+xx concludes rr.
+The end.
+
+Start description of &quot;Reached conclusion&quot;.
+xx reached conclusion about rr.
+The end.
+
+Start description of &quot;Failed to reach conclusion&quot;.
+xx does not concludes rr.
+The end.
+
+Start description of &quot;Failed to reach conclusion&quot;.
+xx did not reach conclusion about rr.
+The end.
+
+//////////
+
+Start description of &quot;X believes Y&quot;.
+xx believes rr.
+The end.
+
+ll is a variable.
+mm is a variable.
+oo is a variable.
+vv is a variable.
+
+If I think about vv, then I exist.
+
+Start description of &quot;Cogito, ergo sum&quot;.
+xx's thinking about vv leads to xx's existing.
+The end.
+
+Start description of &quot;Confirmation using belief&quot;.
+xx's believing ll leads to xx's confirming mm.
+The end.
+
+Start description of &quot;Problem solved using search&quot;.
+the path's leading from ll to mm leads to xx's solving oo.
+The end.
+
+Start description of &quot;Confirmation using search&quot;.
+the path's leading from ll to mm leads to xx's confirming oo.
+The end.
+
+Start description of &quot;Note danger&quot;.
+I conclude that xx is lonely.
+The end.
+
+Start description of &quot;Found means&quot;.
+I succeed with &quot;I find recipe for ll&quot;.
+The end.
+
+Start description of &quot;Found steps&quot;.
+I find recipe for ll.
+The end.
+
+Start description of &quot;Found consequences&quot;.
+I search forward from ll.
+The end.
+
+Start description of &quot;Found causes&quot;.
+// I explain ll.
+My explaining ll leads to my solving yy.
+The end.
+
+// ------------------------------------------------------ Used in paper
+
+// If xx thinks about ll, then xx be.
+
+If xx believes ll then xx thinks about ll.
+
+Start description of &quot;Noted danger&quot;.
+I found &quot;xx is lonely&quot;.
+The end.
+
+/*
+Start description of &quot;Solved subproblem&quot;.
+I solved rr.
+I solved ss.
+rr must not equal ss.
+The end.
+*/
+
+// Start description of &quot;Problem solved using belief&quot;.
+// My succeeding with &quot;I find vv in my beliefs&quot; leads to my solving &quot;did I believe vv&quot;.
+// The end.
+
+Start description of &quot;Problem solved using belief&quot;.
+My succeeding with &quot;You establish that i believe vv&quot; leads to my solving rr.
+The end.
+
+Start description of &quot;Solved problem using search&quot;.
+My succeeding with &quot;You establish that a path leads from ll to mm&quot; leads to my solving ss.
+The end.
+</code></pre>
+
+<hr />
+<h2 id="personality-demo">Personality Demo</h2>
+<pre><code>Both perspectives.
+
+Show both perspectives.
+
+xx is a person.
+yy is a person.
+aa is an action.
+
+// If xx kills yy then xx harms yy.
+If xx harms yy, then yy becomes unhappy.
+If xx dislikes yy and xx avoids yy, then xx becomes happy.
+If xx attacks yy, then yy becomes unhappy.
+
+Start description of &quot;Negative emotional impact&quot;.
+xx's performing aa leads to yy's becoming unhappy.
+The end.
+
+Start description of &quot;Positive emotional impact&quot;.
+xx's performing aa leads to yy's becoming happy.
+The end.
+
+First perspective.
+&quot;Nasty&quot; is a kind of personality trait.
+&quot;Shy&quot; is a kind of personality trait.
+&quot;Vicious&quot; is a kind of personality trait.
+Start story titled &quot;Tragedy of traits&quot;.
+
+Second perspective.
+Start story titled &quot;Normal world&quot;.
+
+Both perspectives.
+Patrick is a person.
+Scylla is a person.
+Charybdis is a person.
+
+Patrick is nasty.
+Charybdis is shy.
+Scylla is vicious.
+
+Scylla attacks Patrick.
+The end.
+</code></pre>
+
+<p>So here is what happened ... please be aware not to laugh too loudly.</p>
+<p><img alt="personality-tragedy" src="../imgs/personality-tragedy.png" /></p>
+<p><img alt="personality-normal" src="../imgs/personality-normal.png" /></p>
+<h2 id="nasty">... Nasty</h2>
+<pre><code>xx is a person.
+yy is a person.
+
+If yy is nasty and xx is a person, then xx dislikes yy.
+</code></pre>
+
+<h2 id="shy">... Shy</h2>
+<pre><code>xx is a person.
+yy is a person.
+
+If xx dislikes yy and xx is shy then xx avoids yy.
+</code></pre>
+
+<h2 id="vicious">... Vicious</h2>
+<pre><code>xx is a person.
+yy is a person.
+aa is an action.
+
+// If xx dislikes yy and xx is vicious then xx wants to harm yy.
+// If xx wants to harm yy and xx is vicious, then xx may attack yy.
+xx may kill yy because xx is vicious and xx dislikes yy.
+xx may kill yy because xx is vicious and yy angers xx.
+xx may kill yy because xx wants to kill yy and xx is vicious.
+// xx may kill yy because xx wants to harm yy and xx is vicious.
+
+Start description of &quot;Joy in enemy's suffering&quot;.
+xx's disliking yy leads to yy's becoming unhappy.
+The end.
+
+Patrick is a person.
+Boris is a person.
+
+Start story titled &quot;Vicious person's characteristics&quot;.
+Patrick assaults Boris.
+Patrick attacks Boris.
+Patrick insults Boris.
+Patrick kills Boris.
+Patrick dislikes Boris.
+The end.
+</code></pre>
+
+<hr />
+<h2 id="other-common-personalities">Other Common Personalities</h2>
+<p>Each one of them is short for testing.</p>
+<h2 id="ambitious">... Ambitious</h2>
+<pre><code>xx is a person.
+
+// this is a typical concept pattern
+Start description of &quot;Leadership achieved&quot;.
+xx is an entity.
+xx's becoming ruler leads to xx's becoming happy.
+The end.
+</code></pre>
+
+<h2 id="corrupt">... Corrupt</h2>
+<pre><code>XX is a person.
+YY is a person.
+
+If XX is corrupt and YY is a person, then XX may harm YY.
+</code></pre>
+
+<h2 id="crazy">... Crazy</h2>
+<pre><code>xx is a person.
+
+if xx becomes crazy, then xx may kill xx.
+</code></pre>
+
+<h2 id="evil">... Evil</h2>
+<pre><code>ww, xx, yy, and zz are persons.
+
+YY murders WW because YY wants to become king and because WW is the king and because YY is WW's successor.
+</code></pre>
+
+<h2 id="greedy">... Greedy</h2>
+<pre><code>xx is a person.
+yy is a person.
+zz is a person.
+aa is an action.
+
+if xx is greedy and xx is yy's wife, then xx may persuade yy to want to become king.
+
+Start description of &quot;Tragic greed&quot;.
+xx is yy's relation.
+zz is a person.
+xx's being greedy leads to zz's harming yy.
+The end.
+
+Boris is a person.
+
+Start story titled &quot;Greedy person's characteristics&quot;.
+Boris loves Money.
+The end.
+</code></pre>
+
+<h2 id="insane">... Insane</h2>
+<pre><code>Start commonsense knowledge. // we seemed no longer need this sentence six years ago
+
+xx is a person.
+yy is a person.
+
+If xx is insane, then xx may kill xx.
+If xx is insane, then xx may kill yy.
+</code></pre>
+
+<h2 id="machiavellian">... Machiavellian</h2>
+<pre><code>WW, XX, YY, and ZZ are persons.
+
+Patrick is a person.
+If XX is an enemy of ZZ and YY is an enemy of ZZ, then XX may be a friend of YY.
+If XX is an enemy of ZZ and YY is an enemy of ZZ, then YY may be a friend of XX.
+
+Start story titled &quot;Machiavellian person's characteristics&quot;.
+Patrick protects himself.
+The end.
+</code></pre>
+
+<h2 id="violent">... Violent</h2>
+<pre><code>xx is a person.
+yy is a person.
+
+If xx is violent, then xx may kill yy.
+If xx becomes violent, then xx may kill yy.
+</code></pre>
+
+<h2 id="wizard">... Wizard</h2>
+<pre><code>WW, XX, YY, and ZZ are persons.
+
+If xx angers yy, then yy may kill xx.
+
+YY may murder WW because YY wants to become king and because WW is the king and because YY is WW's successor.
+</code></pre>
+
+<hr />
+<h2 id="culture-personalities">Culture personalities</h2>
+<p>Here are the eastern, western, and asian personalities.</p>
+<h2 id="eastern">... Eastern</h2>
+<pre><code>Insert file Eastern commonsense knowledge.
+
+Start story titled &quot;Eastern person's characteristics&quot;.
+The end.
+</code></pre>
+
+<h2 id="western">... Western</h2>
+<pre><code>Insert file Western commonsense knowledge.
+
+Start story titled &quot;Western person's characteristics&quot;.
+The end.
+</code></pre>
+
+<h2 id="asian">... Asian</h2>
+<p>This is used for the Lu murder story.</p>
+<pre><code>XX is a person.
+YY is a person.
+SS is an entity.
+TT is an entity.
+
+// Rules and concept pattern moved in from Eastern Commonsense1
+
+// corrupt society
+If SS is individualistic then SS is corrupt.
+If XX studies in SS and SS is corrupt, then XX becomes corrupt.
+
+// violence glorifying society.
+If SS's media glorifies violence, then SS glorifies violence.
+If XX comes from TT and XX studies in SS and SS glorifies violence, then XX becomes vicious.
+If XX feels frustrated, then XX becomes angry.
+If XX becomes vicious and XX becomes angry, then XX becomes murderous.
+
+// murderer personality.
+If XX becomes corrupt and XX becomes angry and XX feels frustrated then XX becomes murderous.
+If XX becomes corrupt and XX feels dishonored then XX becomes murderous.
+If XX becomes corrupt and XX feels victimized then XX becomes murderous.
+// If XX becomes violent and XX becomes angry and XX feels dishonored then XX becomes murderous.
+If XX becomes corrupt and XX becomes violent and XX feels dishonored then XX becomes murderous.
+
+// suicidal personality
+If XX is lonely and XX feels frustrated then XX becomes suicidal.
+If xx becomes suicidal then xx may kill xx.
+
+Start description of &quot;Murderous influence&quot;.
+ss's being individualistic leads to xx's killing yy.
+The end.
+
+Start description of &quot;Murderous influence&quot;.
+ss's glorifying violence leads to xx's killing yy.
+The end.
+
+America is a country.
+
+// A story optionally containing typical actions of an Asian person
+Start story titled &quot;Asian person's actions&quot;.
+I believe America is individualistic.
+I believe America glorifies violence.
+I believe America's media glorifies violence.
+I believe America is rich.
+The end.
+</code></pre>
+
+<hr />
+<h2 id="four-year-old">Four year old</h2>
+<p>Caroline onoff wrote these files in 2018</p>
+<pre><code>VV is a thing.
+WW is a person.
+XX is a person.
+YY is a physical-thing.
+ZZ is a psych-thing.
+AA is a physical-thing.
+BB is a psych-thing.
+
+//   UNCOMMENT BELOW
+//If WW contacts VV and WW has a physical-sickness, then WW may have a physical-sickness because WW runs in VV.
+
+//If WW contacts VV and WW becomes sick, then WW may become sick because WW runs in VV.
+//If WW runs in VV and WW becomes sick, then XX believes WW becomes sick because WW runs in VV.
+
+//If WW contacts VV, then WW may have physical-sickness.
+//   EXPAND THIS FUNCTIONALITY If XX contacts VV, then XX may have itchy spots.
+//WW's contacting VV leads to WW's having itchy spots. //becoming sick.
+
+//If WW eats VV, then WW may have physical-sickness.
+If WW has a negative-psych-action, then WW may have physical-sickness.
+//WW may have physical-sickness because WW has negative-psych-action.
+//WW may have physical-sickness because WW thinks about VV. // and WW has a negative-psych-action.
+//WW may have physical-sickness because WW has a negative-psych-action because WW thinks about VV.
+
+Start story titled &quot;Four-year-old's characteristics&quot;.
+
+The end.
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../recipe-learners/" class="btn btn-neutral float-right" title="Recipe Learners">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../atomic/" class="btn btn-neutral" title="Inference Rules - ATOMIC"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Maintained by the Gensis Group, Computer Science and Artificial Intelligence Lab, MIT. <br>
+
+  Any questions? Contact Yang at <a href="mailto:ztyang@mit.edu">ztyang@mit.edu</a> or Dylan at <a href="mailto:dxh@mit.edu">dxh@mit.edu</a>
+
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../atomic/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../recipe-learners/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

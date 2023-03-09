@@ -1,0 +1,27 @@
+Start experiment.
+
+Start story titled "exp".
+
+Isabella is a person.
+Audrey is a person.
+
+
+Isabella cried with joyful tears.
+
+Audrey and Isabella dance.
+
+Audrey hurts Isabella.
+
+Isabella worries.
+
+Isabella is happy.
+
+Isabella dances wonderfully.
+
+Isabella stabs Audrey with a knife.
+
+Isabella stabs Audrey with happiness.
+
+
+
+The End.

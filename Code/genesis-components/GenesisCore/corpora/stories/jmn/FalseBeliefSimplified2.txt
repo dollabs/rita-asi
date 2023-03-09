@@ -1,0 +1,28 @@
+//False-Belief Test - simplified version, 6/2
+
+Start experiment.
+
+Start common sense knowledge.
+xx is a person.
+aa is a thing.
+p1 and p2 are things. //todo places
+If aa is in p1, and xx moves aa from p1 to p2, then I think aa is in p2. //todo this might not be nec?
+
+Child is a name.
+King is a name.
+John is a name.
+
+
+Start story titled "False Belief".
+
+Child, King, and John are persons.
+On the table, there is a red box and a blue box.
+King places King's sandwich in the red box. //todo: awk, but his binds to John
+The king leaves the room. //todo not currently used
+
+Then, John moves King's sandwich from the red box to the blue box.
+
+The end. 
+
+//Question: where does each actor believe the sandwich to be?
+Insert into text box: Where is King's sandwich?

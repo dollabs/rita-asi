@@ -1,0 +1,108 @@
+
+;;; jun10TB43-run7.csv
+
+(defpclass SituatedObject []
+  :meta {:doc "Where the entity is located"}
+  :fields {x 0
+           y 0
+           z 0
+           motion_x 0
+           motion_y 0
+           motion_z 0
+           yaw 0
+           pitch 0
+           space {:observable false}})
+
+(defpclass Participant []
+  :meta {:doc "What the participant knows and believes about his himself"}
+  :inherit [SituatedObject]
+  :fields {p-name "Participant 1"
+           known "belief-state"
+           theory-of-mind "tom"}
+  :modes [:open :closed :locked]
+  :methods [
+            ;; Interacting with doors
+            (defpmethod open-door
+              {:post :open
+               :doc "opens the door"}
+              [])
+            (defpmethod close-door
+              {:pre :open :post :closed
+               :doc "closes the door"} [])
+            (defpmethod lock-door
+              {:pre :closed :post :locked
+               :doc "locks the door"} [])
+            (defpmethod unlock-door
+              {:pre :locked :post :closed
+               :doc "unlocks the door"} [])
+            (defpmethod walk-through-door
+              {:pre :open
+               :doc "passes through the door"} [])
+            (defpmethod enter-corridor-through
+              {:doc "Enter corridor through a portal"}
+              [portal])
+            ;;  Interacting with rooms
+            (defpmethod enter-room-through
+              {:doc "Enter room through a portal"}
+              [portal])
+            (defpmethod exit-room-through
+              {:doc "Exit room through a portal"}
+              [portal])
+            ;; Interacting with switches
+            (defpmethod turn-on-switch
+              {:doc "Exit room through a portal"}
+              [aswitch])
+            (defpmethod turn-off-switch
+              {:doc "Exit room through a portal"}
+              [aswitch])
+            ;; Interacting with a patient
+            (defpmethod triage-victim
+              {:doc "Triage a victim"}
+              [avictim])
+            (defpmethod goto
+              [x y z])
+            (defpmethod goto-portal
+              [portal])
+            (defpmethod select-tool
+              {:doc "Select a tool"}
+              [atool])
+            (defpmethod process-room
+              [room])
+              ])
+
+(defpclass Plan-1 []
+  :inherit [Participant]
+  :methods [(defpmethod clear-womens-room
+              []
+              (sequence
+               (exit-room-through "Staging Area Door")
+               (goto-portal "Womens Room Entrance")
+               (enter-room-through "Womens Room Entrance")
+               (process-room "Womens rest room")))
+
+            (defpmethod clear-elevator-1
+              []
+              (sequence
+               (exit-room-through "Womens Room Entrance")
+               (goto-portal "Elevator 1 entrance")
+               (enter-room-through "Elevator 1 entrance")
+               (process-room "Elevator 1")))
+
+            (defpmethod clear-room-J
+              []
+              (sequence
+               (exit-room-through "Elevator 1 entrance")
+               (goto-portal "Corridor Intersection CC-LSN")
+               (enter-corridor-through "Corridor Intersection CC-LSN")
+               (goto-portal "Door between LSN-RJ")
+               (enter-room-through "Door between LSN-RJ")
+               (process-room "Room J")))
+
+            (defpmethod main
+              []
+              (sequence
+               (clear-womens-room)
+               (clear-elevator-1)
+               (clear-room-J)))])
+
+;;; Fin

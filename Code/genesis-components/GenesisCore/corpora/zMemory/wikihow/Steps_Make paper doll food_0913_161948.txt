@@ -1,0 +1,290 @@
+/* ------------------------------
+ Generated on 0913_161948 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make paper doll food".
+Intention: Make paper doll food.
+The end.
+
+If the intention is "Make paper doll food".
+Step: Cut the paper's square.
+Step: So you make the bush on top, stuff a small amount of green paper into the cone.
+Step: Crumple a piece of brown paper into a ball....
+Step: Make an indent in it with a pencil and set it aside....
+Step: Roll a piece into a cone before you tape it.
+Step: Fill in the indent with glue, then put the white cone into the glue....
+Step: So you dry, leave it.
+Step: Colored paper is colored.
+Step: Cut out a circle slightly larger than the rim of the cake....
+Step: Glue the circle onto the rim....
+Step: Cut the paper's strip out.
+Step: Crinkle it up slightly to make it look crispy....
+Step: Cut a circle out of cardboard for the bread....
+Step: Cut a smaller circle out of red construction paper for the sauce....
+Step: Cut small squares out of red and white papers and arrange them on the sauce....
+Step: Cut out as many small circles as you want from thin cardboard.(The kind used as cereal boxes.)...
+Step: Draw chocolate chips with a dark brown felt.
+Step: Cut out a blob of white paper, and a smaller circle of yellow paper for the yolk....
+Step: Glue the yellow circle on top of the blob....
+Step: Cut two brown circles for the bread out.
+Step: Cut out patine with dark brown paper.
+Step: Cut out the other things of the burger; e.g., lettuce, cheese, mayonnaise, etc....
+Step: Glue them together....
+Step: Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>.
+Step: Use roasted-chicken colored paper.
+Step: A roasted chicken shape is roasted.
+Step: Paint if needed....
+Step: So you serve, place the finished chicken on a tint plate.
+The end.
+
+// ------------ Step 1: Cut the paper's square
+If the problem is "Cut the paper's square".
+Intention: Cut the paper's square.
+The end.
+
+If the intention is "Cut the paper's square".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: So you make the bush on top, stuff a small amount of green paper into the cone
+If the problem is "So you make the bush on top, stuff a small amount of green paper into the cone".
+Intention: So you make the bush on top, stuff a small amount of green paper into the cone.
+The end.
+
+If the intention is "So you make the bush on top, stuff a small amount of green paper into the cone".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Crumple a piece of brown paper into a ball...
+If the problem is "Crumple a piece of brown paper into a ball...".
+Intention: Crumple a piece of brown paper into a ball....
+The end.
+
+If the intention is "Crumple a piece of brown paper into a ball...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Make an indent in it with a pencil and set it aside...
+If the problem is "Make an indent in it with a pencil and set it aside...".
+Intention: Make an indent in it with a pencil and set it aside....
+The end.
+
+If the intention is "Make an indent in it with a pencil and set it aside...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Roll a piece into a cone before you tape it
+If the problem is "Roll a piece into a cone before you tape it".
+Intention: Roll a piece into a cone before you tape it.
+The end.
+
+If the intention is "Roll a piece into a cone before you tape it".
+Method: Assume successful.
+The end.
+
+// ------------ Step 6: Fill in the indent with glue, then put the white cone into the glue...
+If the problem is "Fill in the indent with glue, then put the white cone into the glue...".
+Intention: Fill in the indent with glue, then put the white cone into the glue....
+The end.
+
+If the intention is "Fill in the indent with glue, then put the white cone into the glue...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 7: So you dry, leave it
+If the problem is "So you dry, leave it".
+Intention: So you dry, leave it.
+The end.
+
+If the intention is "So you dry, leave it".
+Method: Assume successful.
+The end.
+
+// ------------ Step 8: Colored paper is colored
+If the problem is "Colored paper is colored".
+Intention: Colored paper is colored.
+The end.
+
+If the intention is "Colored paper is colored".
+Method: Assume successful.
+The end.
+
+// ------------ Step 9: Cut out a circle slightly larger than the rim of the cake...
+If the problem is "Cut out a circle slightly larger than the rim of the cake...".
+Intention: Cut out a circle slightly larger than the rim of the cake....
+The end.
+
+If the intention is "Cut out a circle slightly larger than the rim of the cake...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 10: Glue the circle onto the rim...
+If the problem is "Glue the circle onto the rim...".
+Intention: Glue the circle onto the rim....
+The end.
+
+If the intention is "Glue the circle onto the rim...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 11: Cut the paper's strip out
+If the problem is "Cut the paper's strip out".
+Intention: Cut the paper's strip out.
+The end.
+
+If the intention is "Cut the paper's strip out".
+Method: Assume successful.
+The end.
+
+// ------------ Step 12: Crinkle it up slightly to make it look crispy...
+If the problem is "Crinkle it up slightly to make it look crispy...".
+Intention: Crinkle it up slightly to make it look crispy....
+The end.
+
+If the intention is "Crinkle it up slightly to make it look crispy...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 13: Cut a circle out of cardboard for the bread...
+If the problem is "Cut a circle out of cardboard for the bread...".
+Intention: Cut a circle out of cardboard for the bread....
+The end.
+
+If the intention is "Cut a circle out of cardboard for the bread...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 14: Cut a smaller circle out of red construction paper for the sauce...
+If the problem is "Cut a smaller circle out of red construction paper for the sauce...".
+Intention: Cut a smaller circle out of red construction paper for the sauce....
+The end.
+
+If the intention is "Cut a smaller circle out of red construction paper for the sauce...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 15: Cut small squares out of red and white papers and arrange them on the sauce...
+If the problem is "Cut small squares out of red and white papers and arrange them on the sauce...".
+Intention: Cut small squares out of red and white papers and arrange them on the sauce....
+The end.
+
+If the intention is "Cut small squares out of red and white papers and arrange them on the sauce...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 16: Cut out as many small circles as you want from thin cardboard.(The kind used as cereal boxes.)..
+If the problem is "Cut out as many small circles as you want from thin cardboard.(The kind used as cereal boxes.)..".
+Intention: Cut out as many small circles as you want from thin cardboard.(The kind used as cereal boxes.)...
+The end.
+
+If the intention is "Cut out as many small circles as you want from thin cardboard.(The kind used as cereal boxes.)..".
+Method: Assume successful.
+The end.
+
+// ------------ Step 17: Draw chocolate chips with a dark brown felt
+If the problem is "Draw chocolate chips with a dark brown felt".
+Intention: Draw chocolate chips with a dark brown felt.
+The end.
+
+If the intention is "Draw chocolate chips with a dark brown felt".
+Method: Assume successful.
+The end.
+
+// ------------ Step 18: Cut out a blob of white paper, and a smaller circle of yellow paper for the yolk...
+If the problem is "Cut out a blob of white paper, and a smaller circle of yellow paper for the yolk...".
+Intention: Cut out a blob of white paper, and a smaller circle of yellow paper for the yolk....
+The end.
+
+If the intention is "Cut out a blob of white paper, and a smaller circle of yellow paper for the yolk...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 19: Glue the yellow circle on top of the blob...
+If the problem is "Glue the yellow circle on top of the blob...".
+Intention: Glue the yellow circle on top of the blob....
+The end.
+
+If the intention is "Glue the yellow circle on top of the blob...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 20: Cut two brown circles for the bread out
+If the problem is "Cut two brown circles for the bread out".
+Intention: Cut two brown circles for the bread out.
+The end.
+
+If the intention is "Cut two brown circles for the bread out".
+Method: Assume successful.
+The end.
+
+// ------------ Step 21: Cut out patine with dark brown paper
+If the problem is "Cut out patine with dark brown paper".
+Intention: Cut out patine with dark brown paper.
+The end.
+
+If the intention is "Cut out patine with dark brown paper".
+Method: Assume successful.
+The end.
+
+// ------------ Step 22: Cut out the other things of the burger; e.g., lettuce, cheese, mayonnaise, etc...
+If the problem is "Cut out the other things of the burger; e.g., lettuce, cheese, mayonnaise, etc...".
+Intention: Cut out the other things of the burger; e.g., lettuce, cheese, mayonnaise, etc....
+The end.
+
+If the intention is "Cut out the other things of the burger; e.g., lettuce, cheese, mayonnaise, etc...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 23: Glue them together...
+If the problem is "Glue them together...".
+Intention: Glue them together....
+The end.
+
+If the intention is "Glue them together...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 24: Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>
+If the problem is "Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>".
+Intention: Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>.
+The end.
+
+If the intention is "Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>".
+Method: Assume successful.
+The end.
+
+// ------------ Step 25: Use roasted-chicken colored paper
+If the problem is "Use roasted-chicken colored paper".
+Intention: Use roasted-chicken colored paper.
+The end.
+
+If the intention is "Use roasted-chicken colored paper".
+Method: Assume successful.
+The end.
+
+// ------------ Step 26: A roasted chicken shape is roasted
+If the problem is "A roasted chicken shape is roasted".
+Intention: A roasted chicken shape is roasted.
+The end.
+
+If the intention is "A roasted chicken shape is roasted".
+Method: Assume successful.
+The end.
+
+// ------------ Step 27: Paint if needed...
+If the problem is "Paint if needed...".
+Intention: Paint if needed....
+The end.
+
+If the intention is "Paint if needed...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 28: So you serve, place the finished chicken on a tint plate
+If the problem is "So you serve, place the finished chicken on a tint plate".
+Intention: So you serve, place the finished chicken on a tint plate.
+The end.
+
+If the intention is "So you serve, place the finished chicken on a tint plate".
+Method: Assume successful.
+The end.
+

@@ -1,0 +1,6276 @@
+[
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "select-tool",
+        "object": "asistmod:item_first_aid",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "generated-plan": {
+      "current-state": {},
+      "htn": {},
+      "hypothesis-id": "opportunistic",
+      "hypothesis-rank": 2,
+      "pamela": "(defpclass Top [] :fields {top (Main)})\n(defpclass\n Main\n []\n :fields\n {player (PlanningAgent), missionstatus \"missionstatus\"}\n :methods\n [(defpmethod\n   goal\n   []\n   (sequence\n    (choose\n     (choice\n      (sequence\n       (player.goto-room \"/Falcon.Lobby\")\n       (choose\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.BreakR\")\n          (choose\n           (choice\n            (sequence\n             (player.goto-room \"/Falcon.Room109\")\n             (player.goto-room \"/Falcon.Room111\")\n             (player.goto-room \"/Falcon.Room110\")\n             (player.goto-room \"/Falcon.Room106\")\n             (player.goto-room \"/Falcon.Room107\")\n             (player.goto-room \"/Falcon.Room104\")\n             (player.goto-room \"/Falcon.ExecS2\")\n             (player.goto-room \"/Falcon.Room102\")\n             (player.goto-room \"/Falcon.Room103\")\n             (player.goto-room \"/Falcon.MCR\")\n             (player.goto-room \"/Falcon.SCR2\")\n             (player.goto-room \"/Falcon.SCR1\")\n             (player.goto-room \"/Falcon.Room105\")\n             (player.goto-room \"/Falcon.Room108\")\n             (player.goto-room \"/Falcon.RoomJ\")\n             (player.goto-room \"/Falcon.CSEast\")\n             (player.goto-room \"/Falcon.CSNorth\")\n             (player.goto-room \"/Falcon.Terrace\")\n             (player.goto-room \"/Falcon.Cfarm\")\n             (player.goto-room \"/Falcon.WomRR\")\n             (player.goto-room \"/Falcon.ExecS1\")\n             (player.arrive missionstatus)))\n           (choice\n            (sequence\n             (player.goto-room \"/Falcon.CloakR\")\n             (player.goto-room \"/Falcon.Room111\")\n             (player.goto-room \"/Falcon.Room103\")\n             (player.goto-room \"/Falcon.Room104\")\n             (player.goto-room \"/Falcon.ExecS1\")\n             (player.arrive missionstatus))))))\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.Cfarm\")\n          (choose\n           (choice\n            (sequence\n             (player.goto-room \"/Falcon.ExecS1\")\n             (player.arrive missionstatus)))\n           (choice\n            (sequence\n             (player.goto-room \"/Falcon.RoomJ\")\n             (player.goto-room \"/Falcon.BreakR\")\n             (player.goto-room \"/Falcon.ExecS1\")\n             (player.arrive missionstatus)))\n           (choice\n            (sequence\n             (player.goto-room \"/Falcon.CloakR\")\n             (player.goto-room \"/Falcon.WomRR\")\n             (player.goto-room \"/Falcon.MenRR\")\n             (player.goto-room \"/Falcon.SCR2\")\n             (player.goto-room \"/Falcon.Room104\")\n             (player.goto-room \"/Falcon.Room101\")\n             (player.goto-room \"/Falcon.MCR\")\n             (player.goto-room \"/Falcon.Room111\")\n             (player.goto-room \"/Falcon.Room110\")\n             (player.goto-room \"/Falcon.Room109\")\n             (player.goto-room \"/Falcon.Room108\")\n             (player.goto-room \"/Falcon.Room102\")\n             (player.goto-room \"/Falcon.Room103\")\n             (player.goto-room \"/Falcon.CSEast\")\n             (player.goto-room \"/Falcon.CSNorth\")\n             (player.goto-room \"/Falcon.Room107\")\n             (player.goto-room \"/Falcon.Room106\")\n             (player.goto-room \"/Falcon.SCR1\")\n             (player.goto-room \"/Falcon.RoomJ\")\n             (player.goto-room \"/Falcon.BreakR\")\n             (player.goto-room \"/Falcon.ExecS1\")\n             (player.arrive missionstatus))))))\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.WomRR\")\n          (player.goto-room \"/Falcon.RoomJ\")\n          (player.goto-room \"/Falcon.ExecS1\")\n          (player.arrive missionstatus)))\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.CloakR\")\n          (player.goto-room \"/Falcon.Cfarm\")\n          (player.goto-room \"/Falcon.ExecS1\")\n          (player.arrive missionstatus))))))\n     (choice\n      (sequence\n       (player.goto-room \"/Falcon.BreakR\")\n       (player.goto-room \"/Falcon.ExecS1\")\n       (player.arrive missionstatus)))\n     (choice\n      (sequence\n       (player.goto-room \"/Falcon.Cfarm\")\n       (player.goto-room \"/Falcon.CloakR\")\n       (choose\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.Room104\")\n          (player.goto-room \"/Falcon.Room102\")\n          (player.goto-room \"/Falcon.SCR1\")\n          (player.goto-room \"/Falcon.RoomJ\")\n          (player.goto-room \"/Falcon.BreakR\")\n          (player.goto-room \"/Falcon.ExecS1\")\n          (player.arrive missionstatus)))\n        (choice\n         (sequence\n          (player.goto-room \"/Falcon.BreakR\")\n          (player.goto-room \"/Falcon.RoomJ\")\n          (player.goto-room \"/Falcon.ExecS2\")\n          (player.goto-room \"/Falcon.CSEast\")\n          (player.goto-room \"/Falcon.CSNorth\")\n          (player.goto-room \"/Falcon.Terrace\")\n          (player.goto-room \"/Falcon.SCR1\")\n          (player.goto-room \"/Falcon.Room102\")\n          (player.goto-room \"/Falcon.Room104\")\n          (player.goto-room \"/Falcon.MCR\")\n          (player.goto-room \"/Falcon.Room103\")\n          (player.goto-room \"/Falcon.Room105\")\n          (player.goto-room \"/Falcon.ExecS1\")\n          (player.arrive missionstatus)))))))))])\n(defpclass\n PlanningAgent\n []\n :methods\n [(defpmethod goto-room [arg1]) (defpmethod arrive [arg1])])\n",
+      "tpn": {
+        "act-106": {
+          "args": [
+            "/Falcon.Room107"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-115",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-106"
+        },
+        "act-114": {
+          "args": [
+            "/Falcon.Room104"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-123",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-114"
+        },
+        "act-122": {
+          "args": [
+            "/Falcon.ExecS2"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-131",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-122"
+        },
+        "act-130": {
+          "args": [
+            "/Falcon.Room102"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-139",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-130"
+        },
+        "act-138": {
+          "args": [
+            "/Falcon.Room103"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-147",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-138"
+        },
+        "act-146": {
+          "args": [
+            "/Falcon.MCR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-155",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-146"
+        },
+        "act-154": {
+          "args": [
+            "/Falcon.SCR2"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-163",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-154"
+        },
+        "act-162": {
+          "args": [
+            "/Falcon.SCR1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-171",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-162"
+        },
+        "act-170": {
+          "args": [
+            "/Falcon.Room105"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-179",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-170"
+        },
+        "act-178": {
+          "args": [
+            "/Falcon.Room108"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-187",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-178"
+        },
+        "act-186": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-195",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-186"
+        },
+        "act-194": {
+          "args": [
+            "/Falcon.CSEast"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-203",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-194"
+        },
+        "act-202": {
+          "args": [
+            "/Falcon.CSNorth"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-211",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-202"
+        },
+        "act-210": {
+          "args": [
+            "/Falcon.Terrace"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-219",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-210"
+        },
+        "act-218": {
+          "args": [
+            "/Falcon.Cfarm"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-227",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-218"
+        },
+        "act-226": {
+          "args": [
+            "/Falcon.WomRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-235",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-226"
+        },
+        "act-234": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-243",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-234"
+        },
+        "act-242": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-61",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-242"
+        },
+        "act-259": {
+          "args": [
+            "/Falcon.CloakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-268",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-259"
+        },
+        "act-267": {
+          "args": [
+            "/Falcon.Room111"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-276",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-267"
+        },
+        "act-275": {
+          "args": [
+            "/Falcon.Room103"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-284",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-275"
+        },
+        "act-28": {
+          "args": [
+            "/Falcon.Lobby"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-32",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-28"
+        },
+        "act-283": {
+          "args": [
+            "/Falcon.Room104"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-292",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-283"
+        },
+        "act-291": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-300",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-291"
+        },
+        "act-299": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-246",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-299"
+        },
+        "act-317": {
+          "args": [
+            "/Falcon.Cfarm"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-321",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-317"
+        },
+        "act-340": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-349",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-340"
+        },
+        "act-348": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-327",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-348"
+        },
+        "act-365": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-374",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-365"
+        },
+        "act-373": {
+          "args": [
+            "/Falcon.BreakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-382",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-373"
+        },
+        "act-381": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-390",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-381"
+        },
+        "act-389": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-352",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-389"
+        },
+        "act-406": {
+          "args": [
+            "/Falcon.CloakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-415",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-406"
+        },
+        "act-414": {
+          "args": [
+            "/Falcon.WomRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-423",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-414"
+        },
+        "act-422": {
+          "args": [
+            "/Falcon.MenRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-431",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-422"
+        },
+        "act-430": {
+          "args": [
+            "/Falcon.SCR2"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-439",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-430"
+        },
+        "act-438": {
+          "args": [
+            "/Falcon.Room104"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-447",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-438"
+        },
+        "act-446": {
+          "args": [
+            "/Falcon.Room101"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-455",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-446"
+        },
+        "act-454": {
+          "args": [
+            "/Falcon.MCR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-463",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-454"
+        },
+        "act-462": {
+          "args": [
+            "/Falcon.Room111"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-471",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-462"
+        },
+        "act-470": {
+          "args": [
+            "/Falcon.Room110"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-479",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-470"
+        },
+        "act-478": {
+          "args": [
+            "/Falcon.Room109"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-487",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-478"
+        },
+        "act-486": {
+          "args": [
+            "/Falcon.Room108"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-495",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-486"
+        },
+        "act-494": {
+          "args": [
+            "/Falcon.Room102"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-503",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-494"
+        },
+        "act-502": {
+          "args": [
+            "/Falcon.Room103"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-511",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-502"
+        },
+        "act-51": {
+          "args": [
+            "/Falcon.BreakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-55",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-51"
+        },
+        "act-510": {
+          "args": [
+            "/Falcon.CSEast"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-519",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-510"
+        },
+        "act-518": {
+          "args": [
+            "/Falcon.CSNorth"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-527",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-518"
+        },
+        "act-526": {
+          "args": [
+            "/Falcon.Room107"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-535",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-526"
+        },
+        "act-534": {
+          "args": [
+            "/Falcon.Room106"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-543",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-534"
+        },
+        "act-542": {
+          "args": [
+            "/Falcon.SCR1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-551",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-542"
+        },
+        "act-550": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-559",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-550"
+        },
+        "act-558": {
+          "args": [
+            "/Falcon.BreakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-567",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-558"
+        },
+        "act-566": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-575",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-566"
+        },
+        "act-574": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-393",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-574"
+        },
+        "act-592": {
+          "args": [
+            "/Falcon.WomRR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-601",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-592"
+        },
+        "act-600": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-609",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-600"
+        },
+        "act-608": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-617",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-608"
+        },
+        "act-616": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-579",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-616"
+        },
+        "act-633": {
+          "args": [
+            "/Falcon.CloakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-642",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-633"
+        },
+        "act-641": {
+          "args": [
+            "/Falcon.Cfarm"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-650",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-641"
+        },
+        "act-649": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-658",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-649"
+        },
+        "act-657": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-620",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-657"
+        },
+        "act-675": {
+          "args": [
+            "/Falcon.BreakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-684",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-675"
+        },
+        "act-683": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-692",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-683"
+        },
+        "act-691": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-662",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-691"
+        },
+        "act-708": {
+          "args": [
+            "/Falcon.Cfarm"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-717",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-708"
+        },
+        "act-716": {
+          "args": [
+            "/Falcon.CloakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-720",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-716"
+        },
+        "act-739": {
+          "args": [
+            "/Falcon.Room104"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-748",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-739"
+        },
+        "act-74": {
+          "args": [
+            "/Falcon.Room109"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-83",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-74"
+        },
+        "act-747": {
+          "args": [
+            "/Falcon.Room102"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-756",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-747"
+        },
+        "act-755": {
+          "args": [
+            "/Falcon.SCR1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-764",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-755"
+        },
+        "act-763": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-772",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-763"
+        },
+        "act-771": {
+          "args": [
+            "/Falcon.BreakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-780",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-771"
+        },
+        "act-779": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-788",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-779"
+        },
+        "act-787": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-726",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-787"
+        },
+        "act-804": {
+          "args": [
+            "/Falcon.BreakR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-813",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-804"
+        },
+        "act-812": {
+          "args": [
+            "/Falcon.RoomJ"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-821",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-812"
+        },
+        "act-82": {
+          "args": [
+            "/Falcon.Room111"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-91",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-82"
+        },
+        "act-820": {
+          "args": [
+            "/Falcon.ExecS2"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-829",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-820"
+        },
+        "act-828": {
+          "args": [
+            "/Falcon.CSEast"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-837",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-828"
+        },
+        "act-836": {
+          "args": [
+            "/Falcon.CSNorth"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-845",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-836"
+        },
+        "act-844": {
+          "args": [
+            "/Falcon.Terrace"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-853",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-844"
+        },
+        "act-852": {
+          "args": [
+            "/Falcon.SCR1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-861",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-852"
+        },
+        "act-860": {
+          "args": [
+            "/Falcon.Room102"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-869",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-860"
+        },
+        "act-868": {
+          "args": [
+            "/Falcon.Room104"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-877",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-868"
+        },
+        "act-876": {
+          "args": [
+            "/Falcon.MCR"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-885",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-876"
+        },
+        "act-884": {
+          "args": [
+            "/Falcon.Room103"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-893",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-884"
+        },
+        "act-892": {
+          "args": [
+            "/Falcon.Room105"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-901",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-892"
+        },
+        "act-90": {
+          "args": [
+            "/Falcon.Room110"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-99",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-90"
+        },
+        "act-900": {
+          "args": [
+            "/Falcon.ExecS1"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-909",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-900"
+        },
+        "act-908": {
+          "args": [
+            "missionstatus"
+          ],
+          "argsmap": {},
+          "command": "arrive",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Arrive",
+          "end-node": "node-791",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-908"
+        },
+        "act-98": {
+          "args": [
+            "/Falcon.Room106"
+          ],
+          "argsmap": {},
+          "command": "goto-room",
+          "constraints": [],
+          "controllable": false,
+          "display-name": "Goto Room",
+          "end-node": "node-107",
+          "plant": "player",
+          "tpn-type": "activity",
+          "uid": "act-98"
+        },
+        "na-17": {
+          "constraints": [],
+          "end-node": "node-12",
+          "tpn-type": "null-activity",
+          "uid": "na-17"
+        },
+        "na-248": {
+          "constraints": [],
+          "end-node": "node-58",
+          "tpn-type": "null-activity",
+          "uid": "na-248"
+        },
+        "na-261": {
+          "constraints": [],
+          "end-node": "node-260",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-261"
+        },
+        "na-30": {
+          "constraints": [],
+          "end-node": "node-29",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-30"
+        },
+        "na-306": {
+          "constraints": [],
+          "end-node": "node-35",
+          "tpn-type": "null-activity",
+          "uid": "na-306"
+        },
+        "na-319": {
+          "constraints": [],
+          "end-node": "node-318",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-319"
+        },
+        "na-326": {
+          "constraints": [],
+          "end-node": "node-325",
+          "order": 1,
+          "tpn-type": "null-activity",
+          "uid": "na-326"
+        },
+        "na-329": {
+          "constraints": [],
+          "end-node": "node-324",
+          "tpn-type": "null-activity",
+          "uid": "na-329"
+        },
+        "na-342": {
+          "constraints": [],
+          "end-node": "node-341",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-342"
+        },
+        "na-354": {
+          "constraints": [],
+          "end-node": "node-324",
+          "tpn-type": "null-activity",
+          "uid": "na-354"
+        },
+        "na-367": {
+          "constraints": [],
+          "end-node": "node-366",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-367"
+        },
+        "na-37": {
+          "constraints": [],
+          "end-node": "node-36",
+          "order": 1,
+          "tpn-type": "null-activity",
+          "uid": "na-37"
+        },
+        "na-395": {
+          "constraints": [],
+          "end-node": "node-324",
+          "tpn-type": "null-activity",
+          "uid": "na-395"
+        },
+        "na-40": {
+          "constraints": [],
+          "end-node": "node-35",
+          "tpn-type": "null-activity",
+          "uid": "na-40"
+        },
+        "na-408": {
+          "constraints": [],
+          "end-node": "node-407",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-408"
+        },
+        "na-53": {
+          "constraints": [],
+          "end-node": "node-52",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-53"
+        },
+        "na-581": {
+          "constraints": [],
+          "end-node": "node-35",
+          "tpn-type": "null-activity",
+          "uid": "na-581"
+        },
+        "na-594": {
+          "constraints": [],
+          "end-node": "node-593",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-594"
+        },
+        "na-60": {
+          "constraints": [],
+          "end-node": "node-59",
+          "order": 1,
+          "tpn-type": "null-activity",
+          "uid": "na-60"
+        },
+        "na-622": {
+          "constraints": [],
+          "end-node": "node-35",
+          "tpn-type": "null-activity",
+          "uid": "na-622"
+        },
+        "na-63": {
+          "constraints": [],
+          "end-node": "node-58",
+          "tpn-type": "null-activity",
+          "uid": "na-63"
+        },
+        "na-635": {
+          "constraints": [],
+          "end-node": "node-634",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-635"
+        },
+        "na-664": {
+          "constraints": [],
+          "end-node": "node-12",
+          "tpn-type": "null-activity",
+          "uid": "na-664"
+        },
+        "na-677": {
+          "constraints": [],
+          "end-node": "node-676",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-677"
+        },
+        "na-697": {
+          "constraints": [],
+          "end-node": "node-12",
+          "tpn-type": "null-activity",
+          "uid": "na-697"
+        },
+        "na-710": {
+          "constraints": [],
+          "end-node": "node-709",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-710"
+        },
+        "na-725": {
+          "constraints": [],
+          "end-node": "node-724",
+          "order": 2,
+          "tpn-type": "null-activity",
+          "uid": "na-725"
+        },
+        "na-728": {
+          "constraints": [],
+          "end-node": "node-723",
+          "tpn-type": "null-activity",
+          "uid": "na-728"
+        },
+        "na-741": {
+          "constraints": [],
+          "end-node": "node-740",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-741"
+        },
+        "na-76": {
+          "constraints": [],
+          "end-node": "node-75",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-76"
+        },
+        "na-793": {
+          "constraints": [],
+          "end-node": "node-723",
+          "tpn-type": "null-activity",
+          "uid": "na-793"
+        },
+        "na-806": {
+          "constraints": [],
+          "end-node": "node-805",
+          "order": 0,
+          "tpn-type": "null-activity",
+          "uid": "na-806"
+        },
+        "net-3": {
+          "begin-node": "node-13",
+          "end-node": "node-12",
+          "tpn-type": "network",
+          "uid": "net-3"
+        },
+        "network-id": "net-3",
+        "node-107": {
+          "activities": [
+            "act-106"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-98"
+          ],
+          "tpn-type": "state",
+          "uid": "node-107"
+        },
+        "node-115": {
+          "activities": [
+            "act-114"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-106"
+          ],
+          "tpn-type": "state",
+          "uid": "node-115"
+        },
+        "node-12": {
+          "activities": [],
+          "constraints": [],
+          "incidence-set": [
+            "na-664",
+            "na-17",
+            "na-697"
+          ],
+          "tpn-type": "c-end",
+          "uid": "node-12"
+        },
+        "node-123": {
+          "activities": [
+            "act-122"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-114"
+          ],
+          "tpn-type": "state",
+          "uid": "node-123"
+        },
+        "node-13": {
+          "activities": [
+            "na-677",
+            "na-30",
+            "na-710"
+          ],
+          "constraints": [],
+          "end-node": "node-12",
+          "incidence-set": [],
+          "tpn-type": "c-begin",
+          "uid": "node-13"
+        },
+        "node-131": {
+          "activities": [
+            "act-130"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-122"
+          ],
+          "tpn-type": "state",
+          "uid": "node-131"
+        },
+        "node-139": {
+          "activities": [
+            "act-138"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-130"
+          ],
+          "tpn-type": "state",
+          "uid": "node-139"
+        },
+        "node-147": {
+          "activities": [
+            "act-146"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-138"
+          ],
+          "tpn-type": "state",
+          "uid": "node-147"
+        },
+        "node-155": {
+          "activities": [
+            "act-154"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-146"
+          ],
+          "tpn-type": "state",
+          "uid": "node-155"
+        },
+        "node-163": {
+          "activities": [
+            "act-162"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-154"
+          ],
+          "tpn-type": "state",
+          "uid": "node-163"
+        },
+        "node-171": {
+          "activities": [
+            "act-170"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-162"
+          ],
+          "tpn-type": "state",
+          "uid": "node-171"
+        },
+        "node-179": {
+          "activities": [
+            "act-178"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-170"
+          ],
+          "tpn-type": "state",
+          "uid": "node-179"
+        },
+        "node-187": {
+          "activities": [
+            "act-186"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-178"
+          ],
+          "tpn-type": "state",
+          "uid": "node-187"
+        },
+        "node-195": {
+          "activities": [
+            "act-194"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-186"
+          ],
+          "tpn-type": "state",
+          "uid": "node-195"
+        },
+        "node-203": {
+          "activities": [
+            "act-202"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-194"
+          ],
+          "tpn-type": "state",
+          "uid": "node-203"
+        },
+        "node-211": {
+          "activities": [
+            "act-210"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-202"
+          ],
+          "tpn-type": "state",
+          "uid": "node-211"
+        },
+        "node-219": {
+          "activities": [
+            "act-218"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-210"
+          ],
+          "tpn-type": "state",
+          "uid": "node-219"
+        },
+        "node-227": {
+          "activities": [
+            "act-226"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-218"
+          ],
+          "tpn-type": "state",
+          "uid": "node-227"
+        },
+        "node-235": {
+          "activities": [
+            "act-234"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-226"
+          ],
+          "tpn-type": "state",
+          "uid": "node-235"
+        },
+        "node-243": {
+          "activities": [
+            "act-242"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-234"
+          ],
+          "tpn-type": "state",
+          "uid": "node-243"
+        },
+        "node-246": {
+          "activities": [
+            "na-248"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-299"
+          ],
+          "tpn-type": "state",
+          "uid": "node-246"
+        },
+        "node-260": {
+          "activities": [
+            "act-259"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-261"
+          ],
+          "tpn-type": "state",
+          "uid": "node-260"
+        },
+        "node-268": {
+          "activities": [
+            "act-267"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-259"
+          ],
+          "tpn-type": "state",
+          "uid": "node-268"
+        },
+        "node-276": {
+          "activities": [
+            "act-275"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-267"
+          ],
+          "tpn-type": "state",
+          "uid": "node-276"
+        },
+        "node-284": {
+          "activities": [
+            "act-283"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-275"
+          ],
+          "tpn-type": "state",
+          "uid": "node-284"
+        },
+        "node-29": {
+          "activities": [
+            "act-28"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-30"
+          ],
+          "tpn-type": "state",
+          "uid": "node-29"
+        },
+        "node-292": {
+          "activities": [
+            "act-291"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-283"
+          ],
+          "tpn-type": "state",
+          "uid": "node-292"
+        },
+        "node-300": {
+          "activities": [
+            "act-299"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-291"
+          ],
+          "tpn-type": "state",
+          "uid": "node-300"
+        },
+        "node-318": {
+          "activities": [
+            "act-317"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-319"
+          ],
+          "tpn-type": "state",
+          "uid": "node-318"
+        },
+        "node-32": {
+          "activities": [
+            "na-37"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-28"
+          ],
+          "tpn-type": "state",
+          "uid": "node-32"
+        },
+        "node-321": {
+          "activities": [
+            "na-326"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-317"
+          ],
+          "tpn-type": "state",
+          "uid": "node-321"
+        },
+        "node-324": {
+          "activities": [
+            "na-306"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-354",
+            "na-395",
+            "na-329"
+          ],
+          "tpn-type": "c-end",
+          "uid": "node-324"
+        },
+        "node-325": {
+          "activities": [
+            "na-408",
+            "na-367",
+            "na-342"
+          ],
+          "constraints": [],
+          "end-node": "node-324",
+          "incidence-set": [
+            "na-326"
+          ],
+          "tpn-type": "c-begin",
+          "uid": "node-325"
+        },
+        "node-327": {
+          "activities": [
+            "na-329"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-348"
+          ],
+          "tpn-type": "state",
+          "uid": "node-327"
+        },
+        "node-341": {
+          "activities": [
+            "act-340"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-342"
+          ],
+          "tpn-type": "state",
+          "uid": "node-341"
+        },
+        "node-349": {
+          "activities": [
+            "act-348"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-340"
+          ],
+          "tpn-type": "state",
+          "uid": "node-349"
+        },
+        "node-35": {
+          "activities": [
+            "na-17"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-581",
+            "na-306",
+            "na-40",
+            "na-622"
+          ],
+          "tpn-type": "c-end",
+          "uid": "node-35"
+        },
+        "node-352": {
+          "activities": [
+            "na-354"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-389"
+          ],
+          "tpn-type": "state",
+          "uid": "node-352"
+        },
+        "node-36": {
+          "activities": [
+            "na-319",
+            "na-635",
+            "na-594",
+            "na-53"
+          ],
+          "constraints": [],
+          "end-node": "node-35",
+          "incidence-set": [
+            "na-37"
+          ],
+          "tpn-type": "c-begin",
+          "uid": "node-36"
+        },
+        "node-366": {
+          "activities": [
+            "act-365"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-367"
+          ],
+          "tpn-type": "state",
+          "uid": "node-366"
+        },
+        "node-374": {
+          "activities": [
+            "act-373"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-365"
+          ],
+          "tpn-type": "state",
+          "uid": "node-374"
+        },
+        "node-382": {
+          "activities": [
+            "act-381"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-373"
+          ],
+          "tpn-type": "state",
+          "uid": "node-382"
+        },
+        "node-390": {
+          "activities": [
+            "act-389"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-381"
+          ],
+          "tpn-type": "state",
+          "uid": "node-390"
+        },
+        "node-393": {
+          "activities": [
+            "na-395"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-574"
+          ],
+          "tpn-type": "state",
+          "uid": "node-393"
+        },
+        "node-407": {
+          "activities": [
+            "act-406"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-408"
+          ],
+          "tpn-type": "state",
+          "uid": "node-407"
+        },
+        "node-415": {
+          "activities": [
+            "act-414"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-406"
+          ],
+          "tpn-type": "state",
+          "uid": "node-415"
+        },
+        "node-423": {
+          "activities": [
+            "act-422"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-414"
+          ],
+          "tpn-type": "state",
+          "uid": "node-423"
+        },
+        "node-431": {
+          "activities": [
+            "act-430"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-422"
+          ],
+          "tpn-type": "state",
+          "uid": "node-431"
+        },
+        "node-439": {
+          "activities": [
+            "act-438"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-430"
+          ],
+          "tpn-type": "state",
+          "uid": "node-439"
+        },
+        "node-447": {
+          "activities": [
+            "act-446"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-438"
+          ],
+          "tpn-type": "state",
+          "uid": "node-447"
+        },
+        "node-455": {
+          "activities": [
+            "act-454"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-446"
+          ],
+          "tpn-type": "state",
+          "uid": "node-455"
+        },
+        "node-463": {
+          "activities": [
+            "act-462"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-454"
+          ],
+          "tpn-type": "state",
+          "uid": "node-463"
+        },
+        "node-471": {
+          "activities": [
+            "act-470"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-462"
+          ],
+          "tpn-type": "state",
+          "uid": "node-471"
+        },
+        "node-479": {
+          "activities": [
+            "act-478"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-470"
+          ],
+          "tpn-type": "state",
+          "uid": "node-479"
+        },
+        "node-487": {
+          "activities": [
+            "act-486"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-478"
+          ],
+          "tpn-type": "state",
+          "uid": "node-487"
+        },
+        "node-495": {
+          "activities": [
+            "act-494"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-486"
+          ],
+          "tpn-type": "state",
+          "uid": "node-495"
+        },
+        "node-503": {
+          "activities": [
+            "act-502"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-494"
+          ],
+          "tpn-type": "state",
+          "uid": "node-503"
+        },
+        "node-511": {
+          "activities": [
+            "act-510"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-502"
+          ],
+          "tpn-type": "state",
+          "uid": "node-511"
+        },
+        "node-519": {
+          "activities": [
+            "act-518"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-510"
+          ],
+          "tpn-type": "state",
+          "uid": "node-519"
+        },
+        "node-52": {
+          "activities": [
+            "act-51"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-53"
+          ],
+          "tpn-type": "state",
+          "uid": "node-52"
+        },
+        "node-527": {
+          "activities": [
+            "act-526"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-518"
+          ],
+          "tpn-type": "state",
+          "uid": "node-527"
+        },
+        "node-535": {
+          "activities": [
+            "act-534"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-526"
+          ],
+          "tpn-type": "state",
+          "uid": "node-535"
+        },
+        "node-543": {
+          "activities": [
+            "act-542"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-534"
+          ],
+          "tpn-type": "state",
+          "uid": "node-543"
+        },
+        "node-55": {
+          "activities": [
+            "na-60"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-51"
+          ],
+          "tpn-type": "state",
+          "uid": "node-55"
+        },
+        "node-551": {
+          "activities": [
+            "act-550"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-542"
+          ],
+          "tpn-type": "state",
+          "uid": "node-551"
+        },
+        "node-559": {
+          "activities": [
+            "act-558"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-550"
+          ],
+          "tpn-type": "state",
+          "uid": "node-559"
+        },
+        "node-567": {
+          "activities": [
+            "act-566"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-558"
+          ],
+          "tpn-type": "state",
+          "uid": "node-567"
+        },
+        "node-575": {
+          "activities": [
+            "act-574"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-566"
+          ],
+          "tpn-type": "state",
+          "uid": "node-575"
+        },
+        "node-579": {
+          "activities": [
+            "na-581"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-616"
+          ],
+          "tpn-type": "state",
+          "uid": "node-579"
+        },
+        "node-58": {
+          "activities": [
+            "na-40"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-248",
+            "na-63"
+          ],
+          "tpn-type": "c-end",
+          "uid": "node-58"
+        },
+        "node-59": {
+          "activities": [
+            "na-261",
+            "na-76"
+          ],
+          "constraints": [],
+          "end-node": "node-58",
+          "incidence-set": [
+            "na-60"
+          ],
+          "tpn-type": "c-begin",
+          "uid": "node-59"
+        },
+        "node-593": {
+          "activities": [
+            "act-592"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-594"
+          ],
+          "tpn-type": "state",
+          "uid": "node-593"
+        },
+        "node-601": {
+          "activities": [
+            "act-600"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-592"
+          ],
+          "tpn-type": "state",
+          "uid": "node-601"
+        },
+        "node-609": {
+          "activities": [
+            "act-608"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-600"
+          ],
+          "tpn-type": "state",
+          "uid": "node-609"
+        },
+        "node-61": {
+          "activities": [
+            "na-63"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-242"
+          ],
+          "tpn-type": "state",
+          "uid": "node-61"
+        },
+        "node-617": {
+          "activities": [
+            "act-616"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-608"
+          ],
+          "tpn-type": "state",
+          "uid": "node-617"
+        },
+        "node-620": {
+          "activities": [
+            "na-622"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-657"
+          ],
+          "tpn-type": "state",
+          "uid": "node-620"
+        },
+        "node-634": {
+          "activities": [
+            "act-633"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-635"
+          ],
+          "tpn-type": "state",
+          "uid": "node-634"
+        },
+        "node-642": {
+          "activities": [
+            "act-641"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-633"
+          ],
+          "tpn-type": "state",
+          "uid": "node-642"
+        },
+        "node-650": {
+          "activities": [
+            "act-649"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-641"
+          ],
+          "tpn-type": "state",
+          "uid": "node-650"
+        },
+        "node-658": {
+          "activities": [
+            "act-657"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-649"
+          ],
+          "tpn-type": "state",
+          "uid": "node-658"
+        },
+        "node-662": {
+          "activities": [
+            "na-664"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-691"
+          ],
+          "tpn-type": "state",
+          "uid": "node-662"
+        },
+        "node-676": {
+          "activities": [
+            "act-675"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-677"
+          ],
+          "tpn-type": "state",
+          "uid": "node-676"
+        },
+        "node-684": {
+          "activities": [
+            "act-683"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-675"
+          ],
+          "tpn-type": "state",
+          "uid": "node-684"
+        },
+        "node-692": {
+          "activities": [
+            "act-691"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-683"
+          ],
+          "tpn-type": "state",
+          "uid": "node-692"
+        },
+        "node-709": {
+          "activities": [
+            "act-708"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-710"
+          ],
+          "tpn-type": "state",
+          "uid": "node-709"
+        },
+        "node-717": {
+          "activities": [
+            "act-716"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-708"
+          ],
+          "tpn-type": "state",
+          "uid": "node-717"
+        },
+        "node-720": {
+          "activities": [
+            "na-725"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-716"
+          ],
+          "tpn-type": "state",
+          "uid": "node-720"
+        },
+        "node-723": {
+          "activities": [
+            "na-697"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-793",
+            "na-728"
+          ],
+          "tpn-type": "c-end",
+          "uid": "node-723"
+        },
+        "node-724": {
+          "activities": [
+            "na-741",
+            "na-806"
+          ],
+          "constraints": [],
+          "end-node": "node-723",
+          "incidence-set": [
+            "na-725"
+          ],
+          "tpn-type": "c-begin",
+          "uid": "node-724"
+        },
+        "node-726": {
+          "activities": [
+            "na-728"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-787"
+          ],
+          "tpn-type": "state",
+          "uid": "node-726"
+        },
+        "node-740": {
+          "activities": [
+            "act-739"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-741"
+          ],
+          "tpn-type": "state",
+          "uid": "node-740"
+        },
+        "node-748": {
+          "activities": [
+            "act-747"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-739"
+          ],
+          "tpn-type": "state",
+          "uid": "node-748"
+        },
+        "node-75": {
+          "activities": [
+            "act-74"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-76"
+          ],
+          "tpn-type": "state",
+          "uid": "node-75"
+        },
+        "node-756": {
+          "activities": [
+            "act-755"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-747"
+          ],
+          "tpn-type": "state",
+          "uid": "node-756"
+        },
+        "node-764": {
+          "activities": [
+            "act-763"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-755"
+          ],
+          "tpn-type": "state",
+          "uid": "node-764"
+        },
+        "node-772": {
+          "activities": [
+            "act-771"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-763"
+          ],
+          "tpn-type": "state",
+          "uid": "node-772"
+        },
+        "node-780": {
+          "activities": [
+            "act-779"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-771"
+          ],
+          "tpn-type": "state",
+          "uid": "node-780"
+        },
+        "node-788": {
+          "activities": [
+            "act-787"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-779"
+          ],
+          "tpn-type": "state",
+          "uid": "node-788"
+        },
+        "node-791": {
+          "activities": [
+            "na-793"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-908"
+          ],
+          "tpn-type": "state",
+          "uid": "node-791"
+        },
+        "node-805": {
+          "activities": [
+            "act-804"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "na-806"
+          ],
+          "tpn-type": "state",
+          "uid": "node-805"
+        },
+        "node-813": {
+          "activities": [
+            "act-812"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-804"
+          ],
+          "tpn-type": "state",
+          "uid": "node-813"
+        },
+        "node-821": {
+          "activities": [
+            "act-820"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-812"
+          ],
+          "tpn-type": "state",
+          "uid": "node-821"
+        },
+        "node-829": {
+          "activities": [
+            "act-828"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-820"
+          ],
+          "tpn-type": "state",
+          "uid": "node-829"
+        },
+        "node-83": {
+          "activities": [
+            "act-82"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-74"
+          ],
+          "tpn-type": "state",
+          "uid": "node-83"
+        },
+        "node-837": {
+          "activities": [
+            "act-836"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-828"
+          ],
+          "tpn-type": "state",
+          "uid": "node-837"
+        },
+        "node-845": {
+          "activities": [
+            "act-844"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-836"
+          ],
+          "tpn-type": "state",
+          "uid": "node-845"
+        },
+        "node-853": {
+          "activities": [
+            "act-852"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-844"
+          ],
+          "tpn-type": "state",
+          "uid": "node-853"
+        },
+        "node-861": {
+          "activities": [
+            "act-860"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-852"
+          ],
+          "tpn-type": "state",
+          "uid": "node-861"
+        },
+        "node-869": {
+          "activities": [
+            "act-868"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-860"
+          ],
+          "tpn-type": "state",
+          "uid": "node-869"
+        },
+        "node-877": {
+          "activities": [
+            "act-876"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-868"
+          ],
+          "tpn-type": "state",
+          "uid": "node-877"
+        },
+        "node-885": {
+          "activities": [
+            "act-884"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-876"
+          ],
+          "tpn-type": "state",
+          "uid": "node-885"
+        },
+        "node-893": {
+          "activities": [
+            "act-892"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-884"
+          ],
+          "tpn-type": "state",
+          "uid": "node-893"
+        },
+        "node-901": {
+          "activities": [
+            "act-900"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-892"
+          ],
+          "tpn-type": "state",
+          "uid": "node-901"
+        },
+        "node-909": {
+          "activities": [
+            "act-908"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-900"
+          ],
+          "tpn-type": "state",
+          "uid": "node-909"
+        },
+        "node-91": {
+          "activities": [
+            "act-90"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-82"
+          ],
+          "tpn-type": "state",
+          "uid": "node-91"
+        },
+        "node-99": {
+          "activities": [
+            "act-98"
+          ],
+          "constraints": [],
+          "incidence-set": [
+            "act-90"
+          ],
+          "tpn-type": "state",
+          "uid": "node-99"
+        }
+      }
+    },
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "generated-plan",
+    "routing-key": "generated-plan"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Right Entrance-b",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Right Entrance-a",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "Lobby"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Right Entrance-b",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "enter-room",
+        "object": "Lobby",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "mode",
+      "subject": "Right Entrance-b",
+      "values": {
+        "closed": 0.1,
+        "locked": 0.1,
+        "open": 0.8
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "lever"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "North Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Lobby entrance to North Corridor",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Break room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Break room entrance",
+          "subject": "playername"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Break room",
+          "subject": "playername"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "playername",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "playername",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "playername",
+      "uid": "se16975",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "opportunistic-entering",
+      "hypothesis-rank": 1,
+      "object": "Break room",
+      "reason": 2,
+      "state": "unknown",
+      "subject": "playername",
+      "uid": "se16976",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2077.0-60.0-150.0-block_victim_2-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se16977",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2077.0-60.0-150.0-block_victim_2-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se16978",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2077.0-60.0-150.0-block_victim_2-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": true,
+      "subject": "Aptiminer1",
+      "uid": "se16978",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2077.0-60.0-150.0-block_victim_2-in-Open Break Area",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": true,
+      "subject": "Aptiminer1",
+      "uid": "se16977",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2077.0 60.0 150.0 block_victim_2 in Open Break Area",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "Aptiminer1",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 27,
+        "untriaged-green-victims": 3,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "victim at  2082.0 60.0 147.0 block_victim_1 in Open Break Area"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "Break room"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "opportunistic-entering",
+      "hypothesis-rank": 1,
+      "object": "Break room",
+      "reason": 2,
+      "state": true,
+      "subject": "playername",
+      "uid": "se16976",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Break room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Break room entrance",
+          "subject": "playername"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Break room",
+          "subject": "playername"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "playername",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "playername",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": true,
+      "subject": "playername",
+      "uid": "se16975",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "Aptiminer1",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 18,
+        "untriaged-green-victims": 2,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2082.0 60.0 147.0 block_victim_1 in Open Break Area",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "victim at  2077.0 60.0 145.0 block_victim_1 in Open Break Area"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "Aptiminer1",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 9,
+        "untriaged-green-victims": 1,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2077.0 60.0 145.0 block_victim_1 in Open Break Area",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "Break room entrance"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Break room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Break room entrance",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se16979",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "North Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Break room entrance",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Break room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Break room entrance",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": true,
+      "subject": "Aptiminer1",
+      "uid": "se16979",
+      "using": "Break room entrance"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "Center Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Corridor Intersection NC-CC",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "Small conference room 1 door-b"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "Small conference room 1 door-b"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Small conference room 1 door-b",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Small conference room 1 door-a",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "select-tool",
+        "object": "asistmod:item_unpause_cookie",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "select-tool",
+        "object": "asistmod:item_first_aid",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2064.0 60.0 166.0 block_victim_2 in Amway Conference Room",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "Small Conference Room 1"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "opportunistic-entering",
+      "hypothesis-rank": 1,
+      "object": "Small Conference Room 1",
+      "reason": 2,
+      "state": true,
+      "subject": "Aptiminer1",
+      "uid": "se16984",
+      "using": "Small conference room 1 door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Small Conference Room 1",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Small conference room 1 door-a",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Small Conference Room 1",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "Aptiminer1",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": true,
+      "subject": "Aptiminer1",
+      "uid": "se16983",
+      "using": "Small conference room 1 door-a"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "Small Conference Room 1"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "victim at  2064.0 60.0 166.0 block_victim_2 in Amway Conference Room"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2064.0-60.0-166.0-block_victim_2-in-Amway Conference Room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2064.0 60.0 166.0 block_victim_2 in Amway Conference Room",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2064.0 60.0 166.0 block_victim_2 in Amway Conference Room"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se16985",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2064.0-60.0-166.0-block_victim_2-in-Amway Conference Room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2064.0 60.0 166.0 block_victim_2 in Amway Conference Room",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2064.0 60.0 166.0 block_victim_2 in Amway Conference Room"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se16986",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Womens rest room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens room inner door 2",
+          "subject": "playername"
+        }
+      ],
+      "state": "unknown",
+      "subject": "playername",
+      "uid": "se16987",
+      "using": "Womens room inner door 2"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "Aptiminer1",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 27,
+        "untriaged-green-victims": 3,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "Womens rest room"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Womens room inner door 1",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "enter-room",
+        "object": "Womens rest room",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "mode",
+      "subject": "Womens room inner door 1",
+      "values": {
+        "closed": 0.1,
+        "locked": 0.1,
+        "open": 0.8
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "victim at  2067.0 60.0 168.0 block_victim_1 in Men's Room"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "Womens rest room"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Womens rest room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens room inner door 2",
+          "subject": "playername"
+        }
+      ],
+      "state": true,
+      "subject": "playername",
+      "uid": "se16987",
+      "using": "Womens room inner door 2"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "Womens room inner door 2"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Womens rest room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens room inner door 2",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se16988",
+      "using": "Womens room inner door 2"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2067.0-60.0-168.0-block_victim_1-in-Men's Room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2067.0 60.0 168.0 block_victim_1 in Men's Room",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2067.0 60.0 168.0 block_victim_1 in Men's Room"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se16989",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2067.0-60.0-168.0-block_victim_1-in-Men's Room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2067.0 60.0 168.0 block_victim_1 in Men's Room",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2067.0 60.0 168.0 block_victim_1 in Men's Room"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se16990",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Womens room inner door 2",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "Womens room inner door 1"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "Womens rest room"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Womens room inner door 1",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "enter-room",
+        "object": "Womens rest room",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "mode",
+      "subject": "Womens room inner door 1",
+      "values": {
+        "closed": 0.1,
+        "locked": 0.1,
+        "open": 0.8
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Womens rest room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens room inner door 2",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": true,
+      "subject": "Aptiminer1",
+      "uid": "se16988",
+      "using": "Womens room inner door 2"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Womens rest room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens room inner door 2",
+          "subject": "playername"
+        }
+      ],
+      "state": "unknown",
+      "subject": "playername",
+      "uid": "se16991",
+      "using": "Womens room inner door 2"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "Womens rest room"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Womens rest room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens room inner door 2",
+          "subject": "playername"
+        }
+      ],
+      "state": true,
+      "subject": "playername",
+      "uid": "se16991",
+      "using": "Womens room inner door 2"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "victim at  2072.0 60.0 163.0 block_victim_1 in Men's Room"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "Womens room inner door 1"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Womens rest room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens room inner door 1",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se16992",
+      "using": "Womens room inner door 1"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "anvil",
+        "wooden_button"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "Womens room"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2072.0-60.0-163.0-block_victim_1-in-Men's Room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2072.0 60.0 163.0 block_victim_1 in Men's Room",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2072.0 60.0 163.0 block_victim_1 in Men's Room"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se16993",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2072.0-60.0-163.0-block_victim_1-in-Men's Room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2072.0 60.0 163.0 block_victim_1 in Men's Room",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2072.0 60.0 163.0 block_victim_1 in Men's Room"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se16994",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Womens room",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Womens rest room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens room",
+          "subject": "playername"
+        },
+        {
+          "agent-belief": 1.0,
+          "has-not-visited": "Womens rest room",
+          "subject": "playername"
+        },
+        {
+          "agent-belief": 0.9,
+          "subject": "playername",
+          "wants-to-find": "victim"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "playername",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "playername",
+      "uid": "se16995",
+      "using": "Womens room"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "enter-room",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "opportunistic-entering",
+      "hypothesis-rank": 1,
+      "object": "Womens rest room",
+      "reason": 1,
+      "state": "unknown",
+      "subject": "playername",
+      "uid": "se16996",
+      "using": "Womens room"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "West Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Womens room",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "enter-corridor",
+        "object": "West Corridor",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "mode",
+      "subject": "Womens room",
+      "values": {
+        "closed": 0.1,
+        "locked": 0.1,
+        "open": 0.8
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "exit-room",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "Womens rest room",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 0.9,
+          "is-moving-towards": "Womens room inner door 1",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": true,
+      "subject": "Aptiminer1",
+      "uid": "se16992",
+      "using": "Womens room inner door 1"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "Aptiminer1",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 117,
+        "untriaged-green-victims": 13,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "South Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Corridor Intersection SC-WC",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "lever",
+        "wall_sign"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "lever"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "Door to room 107"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "open",
+        "object": "Door to room 107",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "flower_pot"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "victim at  2075.0 60.0 190.0 block_victim_1 in Room 108"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "victim at  2067.0 60.0 190.0 block_victim_2 in Room 107"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2067.0-60.0-190.0-block_victim_2-in-Room 107",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2067.0 60.0 190.0 block_victim_2 in Room 107",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2067.0 60.0 190.0 block_victim_2 in Room 107"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se17001",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2067.0-60.0-190.0-block_victim_2-in-Room 107",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2067.0 60.0 190.0 block_victim_2 in Room 107",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2067.0 60.0 190.0 block_victim_2 in Room 107"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se17002",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2067.0-60.0-190.0-block_victim_2-in-Room 107",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2067.0 60.0 190.0 block_victim_2 in Room 107",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2067.0 60.0 190.0 block_victim_2 in Room 107"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": true,
+      "subject": "Aptiminer1",
+      "uid": "se17002",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2067.0-60.0-190.0-block_victim_2-in-Room 107",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2067.0 60.0 190.0 block_victim_2 in Room 107",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2067.0 60.0 190.0 block_victim_2 in Room 107"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": true,
+      "subject": "Aptiminer1",
+      "uid": "se17001",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "Aptiminer1",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 108,
+        "untriaged-green-victims": 12,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2067.0 60.0 190.0 block_victim_2 in Room 107",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "South Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "flower_pot"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "lever"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "flower_pot"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "South Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "South Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2075.0-60.0-190.0-block_victim_1-in-Room 108",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2075.0 60.0 190.0 block_victim_1 in Room 108",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2075.0 60.0 190.0 block_victim_1 in Room 108"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se17003",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2075.0-60.0-190.0-block_victim_1-in-Room 108",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2075.0 60.0 190.0 block_victim_1 in Room 108",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2075.0 60.0 190.0 block_victim_1 in Room 108"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se17004",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "flower_pot"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "victim at  2083.0 60.0 191.0 block_victim_1 in Room 109"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2083.0-60.0-191.0-block_victim_1-in-Room 109",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2083.0 60.0 191.0 block_victim_1 in Room 109",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2083.0 60.0 191.0 block_victim_1 in Room 109"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se17005",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2083.0-60.0-191.0-block_victim_1-in-Room 109",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2083.0 60.0 191.0 block_victim_1 in Room 109",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2083.0 60.0 191.0 block_victim_1 in Room 109"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se17006",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "South Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "flower_pot"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "location",
+      "subject": "Aptiminer1",
+      "values": "South Corridor"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2093.0-60.0-190.0-block_victim_2-in-Room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2093.0 60.0 190.0 block_victim_2 in Room 110",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2093.0 60.0 190.0 block_victim_2 in Room 110"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se17007",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2093.0-60.0-190.0-block_victim_2-in-Room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2093.0 60.0 190.0 block_victim_2 in Room 110",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2093.0 60.0 190.0 block_victim_2 in Room 110"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se17008",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2093.0-60.0-190.0-block_victim_2-in-Room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2093.0 60.0 190.0 block_victim_2 in Room 110",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2093.0 60.0 190.0 block_victim_2 in Room 110"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": true,
+      "subject": "Aptiminer1",
+      "uid": "se17008",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2093.0-60.0-190.0-block_victim_2-in-Room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2093.0 60.0 190.0 block_victim_2 in Room 110",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2093.0 60.0 190.0 block_victim_2 in Room 110"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": true,
+      "subject": "Aptiminer1",
+      "uid": "se17007",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "Aptiminer1",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 99,
+        "untriaged-green-victims": 11,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2093.0 60.0 190.0 block_victim_2 in Room 110",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "victim at  2096.0 60.0 190.0 block_victim_1 in Room 110"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.8,
+      "changed": "proximity",
+      "subject": "Aptiminer1",
+      "values": "victim"
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.2,
+      "bounds": [
+        0,
+        21
+      ],
+      "hypothesis-id": "opportunistic-triage",
+      "hypothesis-rank": 1,
+      "object": "victim-at--2096.0-60.0-190.0-block_victim_1-in-Room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2096.0 60.0 190.0 block_victim_1 in Room 110",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2096.0 60.0 190.0 block_victim_1 in Room 110"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        },
+        {
+          "has-strategy": "all-players",
+          "subject": "Aptiminer1"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se17009",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "predictions": {
+      "action": "triage-victim",
+      "agent-belief": 0.6,
+      "bounds": [
+        0,
+        5
+      ],
+      "hypothesis-id": "hyp0001-pending",
+      "hypothesis-rank": 0,
+      "object": "victim-at--2096.0-60.0-190.0-block_victim_1-in-Room 110",
+      "reason": [
+        "and",
+        {
+          "agent-belief": 1.0,
+          "is-close-to": "victim at  2096.0 60.0 190.0 block_victim_1 in Room 110",
+          "subject": "Aptiminer1"
+        },
+        {
+          "agent-belief": 1.0,
+          "is-a": "victim",
+          "subject": "victim at  2096.0 60.0 190.0 block_victim_1 in Room 110"
+        },
+        {
+          "agent-belief": 1.0,
+          "subject": "Aptiminer1",
+          "wants-to-triage": "victim"
+        }
+      ],
+      "state": "unknown",
+      "subject": "Aptiminer1",
+      "uid": "se17010",
+      "using": "first-aid-kit"
+    },
+    "received-routing-key": "predictions",
+    "routing-key": "predictions"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.5,
+      "changed": "NewNoticedObjects",
+      "subject": "Aptiminer1",
+      "values": [
+        "victim at  2092.0 60.0 186.0 block_victim_2 in Room 110"
+      ]
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 0.9,
+      "changed": "cognitive-load",
+      "subject": "Aptiminer1",
+      "values": {
+        "rooms-skipped": 0,
+        "total-cognitive-load": 90,
+        "untriaged-green-victims": 10,
+        "untriaged-urgent-patients": 0
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Aptiminer1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2092.0 60.0 186.0 block_victim_2 in Room 110",
+        "subject": "Aptiminer1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-ended": true,
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "received-routing-key": "mission-ended",
+    "routing-key": "mission-ended"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-ended": true,
+    "mission-id": "326ba445-85d2-4661-a0bc-d97048cdbb75",
+    "received-routing-key": "mission-ended",
+    "routing-key": "mission-ended"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Research_Account",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "Research_Account"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "326ba445-85d2-4661-a0bc-d97048cdbb75",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Research_Account",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "Research_Account"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "326ba445-85d2-4661-a0bc-d97048cdbb75",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Research_Account",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "Research_Account"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "326ba445-85d2-4661-a0bc-d97048cdbb75",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Research_Account",
+      "values": {
+        "action": "select-tool",
+        "object": "First Aid Box",
+        "subject": "Research_Account"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "326ba445-85d2-4661-a0bc-d97048cdbb75",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "Research_Account",
+      "values": {
+        "action": "select-tool",
+        "object": "Nothing",
+        "subject": "Research_Account"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "326ba445-85d2-4661-a0bc-d97048cdbb75",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "41c8c41b-bc31-4661-b06d-cc1d0f956c44",
+    "prediction-stats": {
+      "aggregate-stats": {
+        "breakdown": {
+          "false": 175,
+          "true": 539,
+          "unknown": 50
+        },
+        "total": 764
+      },
+      "aggregate-stats-detail": {
+        "MissionTracker--goto-room": {
+          "counts": {
+            "false": 7
+          },
+          "probability": {
+            "false": 1.0
+          },
+          "totals": 7
+        },
+        "StateEstimation--enter-room": {
+          "counts": {
+            "false": 127,
+            "true": 172,
+            "unknown": 33
+          },
+          "probability": {
+            "false": 0.3825301204819277,
+            "true": 0.5180722891566265,
+            "unknown": 0.09939759036144578
+          },
+          "totals": 332
+        },
+        "StateEstimation--exit-room": {
+          "counts": {
+            "true": 361,
+            "unknown": 3
+          },
+          "probability": {
+            "true": 0.9917582417582418,
+            "unknown": 0.008241758241758242
+          },
+          "totals": 364
+        },
+        "StateEstimation--triage-victim": {
+          "counts": {
+            "false": 41,
+            "true": 6,
+            "unknown": 14
+          },
+          "probability": {
+            "false": 0.6721311475409836,
+            "true": 0.09836065573770492,
+            "unknown": 0.2295081967213115
+          },
+          "totals": 61
+        }
+      },
+      "mission-stats": {
+        "breakdown": {
+          "false": 14,
+          "true": 13
+        },
+        "total": 27
+      },
+      "mission-stats-detail": {
+        "StateEstimation--enter-room": {
+          "counts": {
+            "false": 2,
+            "true": 2
+          },
+          "probability": {
+            "false": 0.5,
+            "true": 0.5
+          },
+          "totals": 4
+        },
+        "StateEstimation--exit-room": {
+          "counts": {
+            "true": 5
+          },
+          "probability": {
+            "true": 1.0
+          },
+          "totals": 5
+        },
+        "StateEstimation--triage-victim": {
+          "counts": {
+            "false": 12,
+            "true": 6
+          },
+          "probability": {
+            "false": 0.6666666666666667,
+            "true": 0.3333333333333333
+          },
+          "totals": 18
+        }
+      },
+      "unhandled-timeouts": 0
+    },
+    "received-routing-key": "prediction-stats",
+    "routing-key": "prediction-stats"
+  }
+]

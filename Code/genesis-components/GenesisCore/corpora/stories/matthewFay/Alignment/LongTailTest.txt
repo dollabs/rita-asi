@@ -1,0 +1,39 @@
+Insert file Start experiment.
+
+First perspective.
+
+Start story titled "John".
+
+John is an entity.
+
+//John is happy.
+//John jumps.
+//John runs.
+//John flys.
+//John is awesome.
+//John hops.
+//John eats.
+
+The end.
+
+
+Second perspective.
+
+Start story titled "Matt".
+
+Matt is an entity.
+
+Matt is happy.
+Matt jumps.
+Matt runs.
+Matt flys.
+Matt is awesome.
+Matt hops.
+Matt eats.
+
+The end.
+
+
+
+
+

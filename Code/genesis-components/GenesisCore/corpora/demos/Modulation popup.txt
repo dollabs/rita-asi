@@ -1,0 +1,16 @@
+<h1>What you see</h1>
+<p>The program will read two short article-like stories describing a conflict from two different perspectives. Based on the author's modulation of each story, such as using passive voice or emphasizing childhood, the program forms an argument about how the author casts blame. 
+</p>
+<p>
+The program uses a system of experts, each responsible for finding and interpreting a different form of modulation.
+</p>
+<p> 
+</p>
+<p>
+<h1>What you can do</h1>
+
+<ul>
+<li> Read an article-like story.</li>
+<li> See what evidence the program finds about the author's intentions regarding blame.</li>
+<li> See how the program summarizers its argument about the author's assignment of blame.</li>
+</ul>

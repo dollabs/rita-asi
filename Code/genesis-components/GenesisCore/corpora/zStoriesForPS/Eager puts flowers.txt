@@ -1,0 +1,4 @@
+Start experiment.
+Start story titled "Eager".
+Miss Eager put a battery in the phone.
+The end.

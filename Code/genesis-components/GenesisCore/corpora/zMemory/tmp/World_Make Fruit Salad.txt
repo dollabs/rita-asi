@@ -1,0 +1,11 @@
+// ----------- Step 1
+
+If the problem is "Find the bowl".
+Intention: Find the bowl.
+The end.
+
+If the intention is "Find the ball".
+Method: Verify that the ball is on the table.
+The end.
+
+// ----------- Step 3

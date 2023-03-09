@@ -1,0 +1,110 @@
+Make an old-fashioned martini  @  Make an old-fashioned martini_0918_122123.txt
+Put the gin into the glass  @  Make an old-fashioned martini_0918_122123.txt
+Put the vermouth into the glass  @  Make an old-fashioned martini_0918_122123.txt
+Put the orange bitters into the glass  @  Make an old-fashioned martini_0918_122123.txt
+Pour cold water  @  Make hard boiled eggs_0527_224011.txt
+Make hard boiled eggs  @  Make hard boiled eggs_0527_224011.txt
+Cover the eggs  @  Make hard boiled eggs_0527_224011.txt
+Place the eggs into a saucepan  @  Make hard boiled eggs_0527_224011.txt
+Place the saucepan over high heat  @  Make hard boiled eggs_0527_224011.txt
+turn off heat  @  Make hard boiled eggs_0527_224011.txt
+Cover the pan with a lid  @  Make hard boiled eggs_0527_224011.txt
+Let the pan rest for 17 minutes  @  Make hard boiled eggs_0527_224011.txt
+Drain the hot water  @  Make hard boiled eggs_0527_224011.txt
+Pour cold water over eggs  @  Make hard boiled eggs_0527_224011.txt
+Drain the cold water  @  Make hard boiled eggs_0527_224011.txt
+Refill the saucepan with additional cold water  @  Make hard boiled eggs_0527_224011.txt
+Pour cold water  @  Make hard boiled eggs_0527_224803.txt
+Make hard boiled eggs  @  Make hard boiled eggs_0527_224803.txt
+Cover the eggs  @  Make hard boiled eggs_0527_224803.txt
+Place the eggs into a saucepan  @  Make hard boiled eggs_0527_224803.txt
+Place the saucepan over high heat  @  Make hard boiled eggs_0527_224803.txt
+turn off heat  @  Make hard boiled eggs_0527_224803.txt
+Cover the pan with a lid  @  Make hard boiled eggs_0527_224803.txt
+Let the pan rest for 17 minutes  @  Make hard boiled eggs_0527_224803.txt
+Drain the hot water  @  Make hard boiled eggs_0527_224803.txt
+Pour cold water over eggs  @  Make hard boiled eggs_0527_224803.txt
+Drain the cold water  @  Make hard boiled eggs_0527_224803.txt
+Refill the saucepan with additional cold water  @  Make hard boiled eggs_0527_224803.txt
+Let the eggs stand to cool down  @  Make hard boiled eggs_0527_224803.txt
+Wait for 20 minutes  @  Make hard boiled eggs_0527_224803.txt
+Peel eggs under run water  @  Make hard boiled eggs_0527_224803.txt
+Pour cold water  @  Make hard boiled eggs_0529_122419.txt
+Make hard boiled eggs  @  Make hard boiled eggs_0529_122419.txt
+Cover the eggs  @  Make hard boiled eggs_0529_122419.txt
+Place the eggs into a saucepan  @  Make hard boiled eggs_0529_122419.txt
+Place the saucepan over high heat  @  Make hard boiled eggs_0529_122419.txt
+turn heat off  @  Make hard boiled eggs_0529_122419.txt
+Cover the pan with a lid  @  Make hard boiled eggs_0529_122419.txt
+Let the pan rest for 17 minutes  @  Make hard boiled eggs_0529_122419.txt
+Drain the hot water  @  Make hard boiled eggs_0529_122419.txt
+Pour cold water over eggs  @  Make hard boiled eggs_0529_122419.txt
+Drain the cold water  @  Make hard boiled eggs_0529_122419.txt
+Refill the saucepan with additional cold water  @  Make hard boiled eggs_0529_122419.txt
+Let the eggs stand to cool down  @  Make hard boiled eggs_0529_122419.txt
+Wait for 20 minutes  @  Make hard boiled eggs_0529_122419.txt
+Peel eggs under run water  @  Make hard boiled eggs_0529_122419.txt
+Pour cold water  @  Make hard boiled eggs_0529_123121.txt
+Make hard boiled eggs  @  Make hard boiled eggs_0529_123121.txt
+Cover the eggs  @  Make hard boiled eggs_0529_123121.txt
+Place the eggs into a saucepan  @  Make hard boiled eggs_0529_123121.txt
+Make hard boiled eggs  @  Make hard boiled eggs_0529_125202.txt
+Place eggs into a saucepan  @  Make hard boiled eggs_0529_125202.txt
+Make hard boiled eggs  @  Make hard boiled eggs_0529_125329.txt
+Place the eggs into a saucepan  @  Make hard boiled eggs_0529_125329.txt
+Cover the eggs with cold water  @  Make hard boiled eggs_0529_125329.txt
+Make hard boiled eggs  @  Make hard boiled eggs_0529_125428.txt
+Place the eggs into a saucepan  @  Make hard boiled eggs_0529_125428.txt
+Cover the eggs with cold water  @  Make hard boiled eggs_0529_125428.txt
+Place the saucepan over high heat  @  Make hard boiled eggs_0529_125428.txt
+turn heat off  @  Make hard boiled eggs_0529_125428.txt
+Make hard boiled eggs  @  Make hard boiled eggs_0529_125730.txt
+Let the eggs stand to cool down  @  Make hard boiled eggs_0529_125730.txt
+Wait for 20 minutes  @  Make hard boiled eggs_0529_125730.txt
+Pour cold water  @  Make hard boiled eggs_0529_125807.txt
+Make hard boiled eggs  @  Make hard boiled eggs_0529_125807.txt
+Cover the eggs  @  Make hard boiled eggs_0529_125807.txt
+Place the eggs into a saucepan  @  Make hard boiled eggs_0529_125807.txt
+Place the saucepan over high heat  @  Make hard boiled eggs_0529_125807.txt
+turn off heat  @  Make hard boiled eggs_0529_125807.txt
+Cover the pan with a lid  @  Make hard boiled eggs_0529_125807.txt
+Let the pan rest for 17 minutes  @  Make hard boiled eggs_0529_125807.txt
+Drain the hot water  @  Make hard boiled eggs_0529_125807.txt
+Pour cold water over eggs  @  Make hard boiled eggs_0529_125807.txt
+Drain the cold water  @  Make hard boiled eggs_0529_125807.txt
+Refill the saucepan with additional cold water  @  Make hard boiled eggs_0529_125807.txt
+Let the eggs stand to cool down  @  Make hard boiled eggs_0529_125807.txt
+Wait for 20 minutes  @  Make hard boiled eggs_0529_125807.txt
+Peel eggs under run water  @  Make hard boiled eggs_0529_125807.txt
+Make hard boiled eggs  @  Make hard boiled eggs_0529_130051.txt
+Place the saucepan over high heat  @  Make hard boiled eggs_0529_130051.txt
+Pour cold water  @  Make hard boiled eggs_0529_130130.txt
+Make hard boiled eggs  @  Make hard boiled eggs_0529_130130.txt
+Cover the eggs  @  Make hard boiled eggs_0529_130130.txt
+Place the eggs into a saucepan  @  Make hard boiled eggs_0529_130130.txt
+Place the saucepan over high heat  @  Make hard boiled eggs_0529_130130.txt
+turn off heat  @  Make hard boiled eggs_0529_130130.txt
+Cover the pan with a lid  @  Make hard boiled eggs_0529_130130.txt
+Let the pan rest for 17 minutes  @  Make hard boiled eggs_0529_130130.txt
+Drain the hot water  @  Make hard boiled eggs_0529_130130.txt
+Pour cold water over eggs  @  Make hard boiled eggs_0529_130130.txt
+Drain the cold water  @  Make hard boiled eggs_0529_130130.txt
+Refill the saucepan with additional cold water  @  Make hard boiled eggs_0529_130130.txt
+Let the eggs stand to cool down  @  Make hard boiled eggs_0529_130130.txt
+Wait for 20 minutes  @  Make hard boiled eggs_0529_130130.txt
+Peel eggs under run water  @  Make hard boiled eggs_0529_130130.txt
+Pour cold water  @  Make hard boiled eggs_0529_130219.txt
+Make hard boiled eggs  @  Make hard boiled eggs_0529_130219.txt
+Cover the eggs  @  Make hard boiled eggs_0529_130219.txt
+Place the eggs into a saucepan  @  Make hard boiled eggs_0529_130219.txt
+Place the saucepan over high heat  @  Make hard boiled eggs_0529_130219.txt
+turn off heat  @  Make hard boiled eggs_0529_130219.txt
+Cover the pan with a lid  @  Make hard boiled eggs_0529_130219.txt
+Let the pan rest for 17 minutes  @  Make hard boiled eggs_0529_130219.txt
+Drain the hot water  @  Make hard boiled eggs_0529_130219.txt
+Pour cold water over eggs  @  Make hard boiled eggs_0529_130219.txt
+Drain the cold water  @  Make hard boiled eggs_0529_130219.txt
+Refill the saucepan with additional cold water  @  Make hard boiled eggs_0529_130219.txt
+Let the eggs stand to cool down  @  Make hard boiled eggs_0529_130219.txt
+Wait for 20 minutes  @  Make hard boiled eggs_0529_130219.txt
+Peel eggs under run water  @  Make hard boiled eggs_0529_130219.txt

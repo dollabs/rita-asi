@@ -1,0 +1,29 @@
+
+Insert file Cultural differences in interpretation test.  Pause.
+Insert file Allegiance differences in interpretation. Pause.
+
+// Pause. Insert file Persuasive telling.
+
+Set Persuader switch to false.
+Set Show markup switch to false.
+Set Summarizer switch to false.
+Set Show markup switch to false.
+
+// Pause. Insert file Causal varieties.
+
+Set all switches to defaults.
+Set right panel to mental models.
+Set bottom panel to elaboration graph.
+
+// Pause. Insert file Traits-Macbeth.
+
+Insert file LostInTranslation.  Pause.
+Insert file Hamlet1.  Pause.
+Insert file Caesar1.  Pause.
+
+// Pause. Insert file Question-driven reflection.
+// Pause. Insert file Schizo IntentionAttributionTask SchizoViaFaM top.
+
+Insert file dxh-phw.  Pause.
+Insert file Macbeth summary.  Pause.
+Insert file Lu murder story.

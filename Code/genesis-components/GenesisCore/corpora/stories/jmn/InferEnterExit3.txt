@@ -1,0 +1,38 @@
+//Infer Enter Exit 3, March 2016
+
+Start experiment.
+
+//Start common sense knowledge.
+//xx is a person.
+//yy is a person.
+
+Start story titled "Infer Enter Exit 3".
+
+////////////////////////////////////////////////////////////////////////////////
+// Exp 3a: physical co-location: if someone leaves the room, they stop observing events in the scene (need some concept of locale)
+
+//infer B, C, D enter
+Then, Bobby, Carla, and David are in the kitchen. //infer that scene takes place in the kitchen
+The cake is in the oven. //obs by B, C, D
+Bobby leaves the kitchen. //infer B exits
+The cake is done. //obs by C, D
+Carla goes to the bathroom. //infer C exits
+Someone turns the oven off. //obs by D
+In the kitchen, the cake disappears. //obs by D
+Emily enters the kitchen. //infer E enters
+Someone asks "where is the cake". //obs by D, E
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Exp 3b: if the story starts talking about a different place, scene should be reset
+
+//infer new scene. ie D, E exit; A, F enter
+In the bedroom, Alice and Frank yawn. //obs by A, F; infer that scene takes place in bedroom
+Someone gets out of bed. //obs by A, F
+Frank leaves the room. //infer F exits
+In the bedroom, the alarm clock starts ringing. //obs by A (don't reset scene if location is the same)
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+The end.

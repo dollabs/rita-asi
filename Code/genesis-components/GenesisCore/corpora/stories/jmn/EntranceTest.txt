@@ -1,0 +1,36 @@
+//Entrance test, 7/30
+
+Start experiment.
+
+Start story titled "Entrance test".
+Alice, Bobby, and Carla are persons.
+
+Alice enters the scene.
+People sing on stage.
+Alice exits the scene.
+
+Bobby enters the kitchen.
+Bobby cooks dinner.
+Bobby exits the kitchen.
+
+Carla enters.
+Birds fly.
+Carla exits.
+
+Then, Alice enters the scene.
+Bobby jumps.
+Alice exits.
+Bobby falls.
+Alice exits the scene.
+The duck quacks.
+
+Carla knows that Bobby is a teacher.
+Carla believes that Bobby is a criminal. //should be added to Carla's mental model
+Carla perceives that Bobby is a hunter.
+Carla thinks that Bobby is a farmer. //should be added to Carla's mental model
+Carla observes that Bobby is a miner.
+Carla sees that Bobby is a woodsmith.
+
+The end.
+
+Insert into text box: Did Alice observe that Bobby jumped?

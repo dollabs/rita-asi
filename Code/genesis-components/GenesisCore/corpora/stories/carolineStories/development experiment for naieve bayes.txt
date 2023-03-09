@@ -1,0 +1,11 @@
+// Note idiom that sets up experiments and gives each a name; must be first sentence read.
+
+Run what-if experiments A, B, B, B, B, B, B, B, B, B, B, B, B, B, B, B, B, C, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D.
+
+Assume if experiment A: Insert file CA Bambi Story.
+
+Assume if experiment B: Insert question into text box: Does bambi have itchy spots because bambi runs in the cattails or bambi runs in_the_garden?
+
+Assume if experiment C: Insert file CA Bunny Story.
+
+Assume if experiment D: Insert question into text box: Does bunny have a tummy_ache because bunny eats a carrot or bunny feels scared?

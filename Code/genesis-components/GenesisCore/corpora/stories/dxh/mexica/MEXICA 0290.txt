@@ -1,0 +1,18 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0290".
+THE HUNTER WOKE UP WHILE THE SONGS OF THE BIRDS COVERED THE SKY.
+THE PRINCESS WAS PROUD TO BE A MEMBER OF THE MEXICA'S SOCIETY.
+THE TRADER WAS A PROUD NATIVE OF THE GREAT CITY.
+WHEN THE PRINCESS REALIZED THAT THE HUNTER HAD FEELINGS FOR THE TRADER, SHE FREAKED OUT!
+HIS BEHAVIOR WAS UNACCEPTABLE. SO, THE PRINCESS DECIDED TO FIND THE HUNTER AND CONFRONT HIM WITH HIS ACTIONS.
+
+
+
+The end.

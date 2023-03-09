@@ -1,0 +1,60 @@
+Start experiment.
+
+Lodge-Boy is a name.
+Thrown-Away is a name.
+Lodge-Boy's-Mother is a name.
+Long-Arm is a name.
+
+"Heroic" is a kind of personality trait.
+"Reckless" is a kind of personality trait.
+
+Start description of "Destruction of evil".
+
+XX is a person.
+YY is an entity.
+YY is evil.
+XX destroys YY.
+
+The end.
+
+Start story titled "Lodge-Boy and Thrown-Away".
+
+A tipi is a place.
+The sky is a place.
+A buffalo is an entity.
+A spirit is a supernatural being.
+Lodge-Boy is a person.
+Thrown-Away is a person.
+Long-Arm is a person.
+
+A man and a woman lived together in a tipi.
+The man was hunting.
+The woman was pregnant.
+Because the man was hunting and the woman was pregnant, the woman was killed by a witch.
+Because the woman was killed by a witch, Lodge-Boy was thrown behind a curtain by the witch.
+Because the woman was killed by a witch, Thrown-Away was thrown into a spring by the witch.
+
+Because Thrown-Away was thrown into a spring by the witch, Thrown-Away was adopted by a spirit.
+Because Lodge-Boy was thrown behind a curtain by the witch, Lodge-Boy met his father.
+Because Lodge-Boy met his father, Lodge-Boy caught Thrown-Away.
+Because Lodge-Boy caught Thrown-Away, Lodge-Boy and Thrown-Away join forces.
+
+Lodge-Boy and Thrown-Away resurrect their mother.
+Lodge-Boy's-Mother was dead.
+Because Lodge-Boy and Thrown-Away resurrect their mother, Lodge-Boy's-Mother is alive.
+
+A buffalo is evil.
+Lodge-Boy is given advice by his father.
+Thrown-Away is given advice by his father.
+Lodge-Boy ignores the advice.
+Thrown-Away ignores the advice.
+
+Lodge-Boy destroys the buffalo.
+Thrown-Away destroys the buffalo.
+
+Because Thrown-Away destroyed the buffalo, Thrown-Away is captured by Long-Arm.
+Lodge-Boy goes to the sky because Thrown-Away is captured by Long-Arm.
+Because Lodge-Boy goes to the sky, Lodge-Boy is adopted by an old lady.
+Because Lodge-Boy goes to the sky, Lodge-Boy rescues Thrown-Away.
+
+The end.

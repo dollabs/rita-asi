@@ -1,0 +1,122 @@
+/* ------------------------------
+ Generated on Make a pasta_0411_220602 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a pasta".
+Intention: Make a pasta.
+The end.
+
+If the intention is "Make a pasta".
+Step: Put the pasta on the pan.
+Step: Put the salt into the pan.
+Step: Boil the water.
+Step: Serve the pasta into the plate.
+Step: Add the salt into the plate.
+Step: Add the parley into the plate.
+Step: Add the peppers into the plate.
+Step: Put the tomato sauce into the plate.
+The end.
+
+If the problem is "Put the pasta on the pan".
+Intention: Put the pasta on the pan.
+The end.
+
+If the intention is "Put the pasta on the pan".
+Step: The pasta is on the pan.
+The end.
+
+/* ------------------------------
+ Generated on Make a pasta_0411_220602 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Put the salt into the pan".
+Intention: Put the salt into the pan.
+The end.
+
+If the intention is "Put the salt into the pan".
+Step: The salt is in the pan.
+The end.
+
+/* ------------------------------
+ Generated on Make a pasta_0411_220602 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Boil the water".
+Intention: Boil the water.
+The end.
+
+/* ------------------------------
+ Generated on Make a pasta_0411_220602 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Serve the pasta into the plate".
+Intention: Serve the pasta into the plate.
+The end.
+
+If the intention is "Serve the pasta into the plate".
+Step: The pasta is in the plate.
+The end.
+
+/* ------------------------------
+ Generated on Make a pasta_0411_220602 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Add the salt into the plate".
+Intention: Add the salt into the plate.
+The end.
+
+If the intention is "Add the salt into the plate".
+Step: The salt is in the plate.
+The end.
+
+/* ------------------------------
+ Generated on Make a pasta_0411_220602 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Add the parley into the plate".
+Intention: Add the parley into the plate.
+The end.
+
+If the intention is "Add the parley into the plate".
+Step: The parley is in the plate.
+The end.
+
+/* ------------------------------
+ Generated on Make a pasta_0411_220602 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Add the peppers into the plate".
+Intention: Add the peppers into the plate.
+The end.
+
+If the intention is "Add the peppers into the plate".
+Step: The peppers are in the plate.
+The end.
+
+/* ------------------------------
+ Generated on Make a pasta_0411_220602 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Put the tomato sauce into the plate".
+Intention: Put the tomato sauce into the plate.
+The end.
+
+If the intention is "Put the tomato sauce into the plate".
+Step: The tomato sauce is in the plate.
+The end.
+
+/* ------------------------------
+ Generated on Make a pasta_0411_220602 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Boil the water".
+Step: Press the power button on the stove.
+The end.
+
+
+If the problem is "Press the power button on the stove".
+Intention: Press the power button on the stove.
+The end.
+
+If the intention is "Press the power button on the stove".
+Step: The power button is on the stove.
+The end.
+

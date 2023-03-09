@@ -1,0 +1,70 @@
+Start experiment.
+
+Both perspectives.
+Show both perspectives.
+
+Set bottom panel to Story.
+
+
+// Insert file General reflective knowledge.
+
+// Insert file Macbeth reflective knowledge.
+
+Insert file Macbeth preface.
+
+First perspective. 
+
+Insert file General commonsense knowledge.
+
+Insert file Macbeth commonsense.
+
+If YY becomes dead and XX is an entity, then XX cannot harm YY.
+
+xx is a person.  yy is a person.  zz is a person.
+
+If xx is an enemy of zz and yy is an enemy of zz then xx is a friend of yy.
+
+Second perspective.
+
+Insert file Macbeth student commonsense knowledge. 
+
+First perspective.
+Start story titled "Macbeth/Teacher".
+
+Second perspective.
+Start story titled "Macbeth/Student".
+
+Both Perspectives.
+
+Insert file Macbeth plot.
+
+/*
+Insert file Start experiment.
+
+Both perspectives.
+Show both perspectives.
+
+// Insert file Macbeth commonsense knowledge.
+
+Insert file General reflective knowledge.
+
+Insert file Macbeth reflective knowledge.
+
+First perspective. 
+Insert file General commonsense knowledge.
+
+Second perspective.
+Insert file Macbeth student commonsense knowledge. 
+
+First perspective.
+Start story titled "Macbeth/Revenge".
+
+
+Second perspective.
+Start story titled "Macbeth/Insanity".
+
+
+Both Perspectives.
+
+Insert file Macbeth plot.
+*/

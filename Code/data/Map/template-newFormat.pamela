@@ -1,0 +1,387 @@
+;; Compile command: pamela -i map_template.pamela --json-ir -o map_template.pamela.json-ir build
+
+;;----------------------------------------------------;;
+;;            DO NOT TOUCH THIS SECTION               ;;
+;;----------------------------------------------------;;
+(defpclass General [] :modes [:initial :nothing])
+(defpclass RectangularVolume [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name]
+  :fields {tl-x botLeftX
+          tl-y botLeftZ
+          tl-z botLeftY
+          br-x topRightX
+          br-y topRightZ
+          br-z topRightY
+          v-name name})
+(defpclass DoorCommands [] :modes [:open :close :lock :unlock :leave :enter])
+(defpclass Portal [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name connId]
+  :inherit [RectangularVolume]
+  :fields {conn connId}   
+  :modes [:open])
+(defpclass Victim-commands [] :modes [:triage])
+(defpclass block_victim_1 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name]     
+  :inherit [RectangularVolume]
+  :modes [:awaiting-triage :being-triaged :saved :dead]
+  :fields {model-state :good}
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :saved
+               :doc "triage"}
+              [command])])
+(defpclass block_victim_2 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name]     
+  :inherit [RectangularVolume]
+  :modes [:awaiting-triage :being-triaged :saved :dead]
+  :fields {model-state :urgent}
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :saved
+               :doc "triage"}
+              [command])])
+(defpclass Minecraft-object-wall_sign [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-flower_pot [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-lever [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name connId] 
+  :inherit [RectangularVolume]
+  :modes [:on :off :failed]
+  :fields {conns connId}
+  :methods [(defpmethod switch
+              {:pre (and :off (or (= command :on) (= command :off)))
+               ;; +++ won't parse +++ :post command
+               :doc "switch"}
+              [command])])
+(defpclass blockage  [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY 
+                      name connId]
+    :meta {:doc "A Blockage"}
+    :inherit [Portal]
+    :modes [:blocked :unblocked])
+
+;; Not used in this file (consider removing these? TBD by Paul)
+(defpclass Entrance-Commands [] :modes [:enter :leave :lock :unlock :open :close])
+(defpclass Illumination [] :modes [:dark :light])
+(defpclass SituatedObject []
+  :meta {:doc "Where the entity is located"}
+  :fields {x 0
+           y 0
+           z 0
+           motion_x 0
+           motion_y 0
+           motion_z 0
+           yaw 0
+           pitch 0
+           space {:observable false}})
+(defpclass Light  [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY 
+                  name connId] 
+  :inherit [RectangularVolume]
+  :modes [:dark :light :failed]
+  :fields {conns connId})
+(defpclass hole-in-the-wall [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY 
+                            name connId]
+    :inherit [Portal]
+    :fields {conn connId}               
+    :modes [:open])
+(defpclass Minecraft-object-block_victim_1 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-block_victim_2 [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-banner [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-anvil [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-dispenser [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-table [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-button [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-ladder [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-prismarine [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-prismarine [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name]     
+  :inherit [RectangularVolume]
+  :modes [:awaiting-triage :being-triaged :saved :dead]
+  :fields {model-state :good}
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :saved
+               :doc "triage"}
+              [command])])
+(defpclass Minecraft-object-gold_block [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-gold_block [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY name]  
+  :inherit [RectangularVolume]
+  :modes [:awaiting-triage :being-triaged :saved :dead]
+  :fields {model-state :urgent}
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :saved
+               :doc "triage"}
+              [command])])
+
+;;-----------------------------------------------------------;;
+;;   ADJUST AS NEEDED (Autogenerated using parsePamela.js)   ;;
+;;-----------------------------------------------------------;;
+;;----------------------------------
+;; Connections:  
+;; • Door and DoubleDoor
+;; • Opening (Doorless entrance)
+;; • Extension (connects subareas)
+;; • CorridorJoin (connects corridors) 
+;;----------------------------------
+(defpclass Door [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY 
+                name connId]
+    :meta {:doc "A Door"}
+    :modes [:open :closed :locked :blocked]
+    :inherit [Portal]
+    :methods [(defpmethod open
+                {:pre (and :closed (= command (mode-of DoorCommands :open)))
+                :post :open
+                :doc "opens the door"}
+                [command])
+                (defpmethod close
+                {:pre (and :open (= command (mode-of DoorCommands :close)))
+                :post :closed
+                :doc "closes the door"}
+                [command])
+                (defpmethod enter
+                {:pre (and :open (or (= command (mode-of DoorCommands :leave))
+                                    (= command (mode-of DoorCommands :enter))))
+                :doc "Enters the doorway"}
+                [command])
+                (defpmethod lock
+                {:pre (and :closed (= command (mode-of DoorCommands :lock)))
+                :post :locked
+                :doc "locks the door"}
+                [command])
+                (defpmethod unlock
+                {:pre (and :locked (= command (mode-of DoorCommands :unlock)))
+                :post :closed
+                :doc "unlocks the door"}
+                [command])])
+(defpclass DoubleDoor [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY 
+                      name connId]
+    :inherit [Door])
+(defpclass Opening [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY 
+                            name connId]
+  :meta {:doc "A walk-in entrance without a door"}
+  :inherit [Portal]
+  :modes [:open]
+  :methods [(defpmethod enter
+                {:pre (and :open (or (= command (mode-of DoorCommands :leave))
+                                    (= command (mode-of DoorCommands :enter))))
+                :doc "Enters a doorless entrance"}
+                [command])])
+(defpclass Extension [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY 
+                   name connId]
+    :meta {:doc "passes from one sub-area into another (within the same room or hallway)"}
+    :inherit [Portal]
+    :modes [:open])
+(defpclass CorridorJoin [botLeftX botLeftZ botLeftY topRightX topRightZ topRightY 
+                        name connId]
+  :meta {:doc "A Corridor Join, like a door for corridoors"}
+  :inherit [Portal]
+  :methods [(defpmethod walk-into-corridor
+              {:pre (or (= command (mode-of DoorCommands :enter))
+                        (= command (mode-of DoorCommands :leave)))
+               :doc "passes from one corridor into another"}
+              [command])])
+
+;;-------------------------
+;; Room
+;;-------------------------
+
+;;-------------------------
+;; Treatments 
+;;-------------------------
+
+;;-------------------------
+;; Corridor 
+;;-------------------------
+
+;;-------------------------
+;; Building 
+;;-------------------------
+
+;;-------------------------------------------------;;
+;;                 THE MAP MODEL                   ;;
+;;-------------------------------------------------;;
+(defpclass Saturn []
+  :meta {:doc "Constructor of the SAR scenario - Saturn building"}
+  :fields {
+    ;;-------------------------
+    ;;      1. Lvar  
+    ;;-------------------------
+  
+    ;;-------------------------
+    ;;      2. OBJECTS   
+    ;;-------------------------
+    ;; 2a. Doors and openings
+    ;; 2b. Rooms
+    ;; 2c. Treatments
+    ;; 2d. Corridors
+    ;; 2e. Building
+
+    ;;----------------------------------------------------;;
+    ;;            DO NOT TOUCH THIS SECTION               ;;
+    ;;----------------------------------------------------;;
+    ;;--------------------------------------------------
+    ;;     3. AUTOGENERATED FROM THE MINECRAFT WORLD  
+    ;;--------------------------------------------------
+    ;; 3a. Minecraft objects of type  :wall_sign
+    wall_sign21143 (Minecraft-object-wall_sign -2143 127 61 -2143 127 61 "wall_sign")
+    wall_sign21144 (Minecraft-object-wall_sign -2144 127 62 -2144 127 62 "wall_sign")
+    wall_sign21145 (Minecraft-object-wall_sign -2144 127 60 -2144 127 60 "wall_sign")
+    wall_sign21146 (Minecraft-object-wall_sign -2145 127 61 -2145 127 61 "wall_sign")
+    wall_sign21147 (Minecraft-object-wall_sign -2152 127 62 -2152 127 62 "wall_sign")
+    wall_sign21148 (Minecraft-object-wall_sign -2154 127 62 -2154 127 62 "wall_sign")
+    wall_sign21149 (Minecraft-object-wall_sign -2156 127 62 -2156 127 62 "wall_sign")
+    wall_sign21150 (Minecraft-object-wall_sign -2147 125 61 -2147 125 61 "wall_sign")
+    wall_sign21151 (Minecraft-object-wall_sign -2141 124 62 -2141 124 62 "wall_sign")
+    wall_sign21152 (Minecraft-object-wall_sign -2147 124 62 -2147 124 62 "wall_sign")
+    wall_sign21153 (Minecraft-object-wall_sign -2147 124 61 -2147 124 61 "wall_sign")
+    wall_sign21154 (Minecraft-object-wall_sign -2147 124 60 -2147 124 60 "wall_sign")
+    wall_sign21155 (Minecraft-object-wall_sign -2147 123 61 -2147 123 61 "wall_sign")
+    wall_sign21156 (Minecraft-object-wall_sign -2141 120 62 -2141 120 62 "wall_sign")
+    wall_sign21157 (Minecraft-object-wall_sign -2141 116 62 -2141 116 62 "wall_sign")
+    wall_sign21158 (Minecraft-object-wall_sign -2215 57 61 -2215 57 61 "wall_sign")
+    wall_sign21159 (Minecraft-object-wall_sign -2186 54 61 -2186 54 61 "wall_sign")
+    wall_sign21160 (Minecraft-object-wall_sign -2101 52 61 -2101 52 61 "wall_sign")
+    wall_sign21161 (Minecraft-object-wall_sign -2117 51 62 -2117 51 62 "wall_sign")
+    wall_sign21162 (Minecraft-object-wall_sign -2122 51 62 -2122 51 62 "wall_sign")
+    wall_sign21163 (Minecraft-object-wall_sign -2211 51 61 -2211 51 61 "wall_sign")
+    wall_sign21164 (Minecraft-object-wall_sign -2163 50 62 -2163 50 62 "wall_sign")
+    wall_sign21165 (Minecraft-object-wall_sign -2090 49 61 -2090 49 61 "wall_sign")
+    wall_sign21166 (Minecraft-object-wall_sign -2190 49 61 -2190 49 61 "wall_sign")
+    wall_sign21167 (Minecraft-object-wall_sign -2186 48 61 -2186 48 61 "wall_sign")
+    wall_sign21168 (Minecraft-object-wall_sign -2215 48 61 -2215 48 61 "wall_sign")
+    wall_sign21169 (Minecraft-object-wall_sign -2151 46 62 -2151 46 62 "wall_sign")
+    wall_sign21170 (Minecraft-object-wall_sign -2215 46 61 -2215 46 61 "wall_sign")
+    wall_sign21171 (Minecraft-object-wall_sign -2151 45 62 -2151 45 62 "wall_sign")
+    wall_sign21172 (Minecraft-object-wall_sign -2163 45 62 -2163 45 62 "wall_sign")
+    wall_sign21173 (Minecraft-object-wall_sign -2163 44 62 -2163 44 62 "wall_sign")
+    wall_sign21174 (Minecraft-object-wall_sign -2164 44 62 -2164 44 62 "wall_sign")
+    wall_sign21175 (Minecraft-object-wall_sign -2173 44 62 -2173 44 62 "wall_sign")
+    wall_sign21176 (Minecraft-object-wall_sign -2174 44 62 -2174 44 62 "wall_sign")
+    wall_sign21177 (Minecraft-object-wall_sign -2101 42 61 -2101 42 61 "wall_sign")
+    wall_sign21178 (Minecraft-object-wall_sign -2186 41 61 -2186 41 61 "wall_sign")
+    wall_sign21179 (Minecraft-object-wall_sign -2194 41 61 -2194 41 61 "wall_sign")
+    wall_sign21180 (Minecraft-object-wall_sign -2200 41 61 -2200 41 61 "wall_sign")
+    wall_sign21181 (Minecraft-object-wall_sign -2117 40 62 -2117 40 62 "wall_sign")
+    wall_sign21182 (Minecraft-object-wall_sign -2122 40 62 -2122 40 62 "wall_sign")
+    wall_sign21183 (Minecraft-object-wall_sign -2090 39 61 -2090 39 61 "wall_sign")
+    wall_sign21184 (Minecraft-object-wall_sign -2211 39 61 -2211 39 61 "wall_sign")
+    wall_sign21185 (Minecraft-object-wall_sign -2157 38 62 -2157 38 62 "wall_sign")
+    wall_sign21186 (Minecraft-object-wall_sign -2204 37 61 -2204 37 61 "wall_sign")
+    wall_sign21187 (Minecraft-object-wall_sign -2153 34 62 -2153 34 62 "wall_sign")
+    wall_sign21188 (Minecraft-object-wall_sign -2154 34 62 -2154 34 62 "wall_sign")
+    wall_sign21189 (Minecraft-object-wall_sign -2155 34 62 -2155 34 62 "wall_sign")
+    wall_sign21190 (Minecraft-object-wall_sign -2186 34 61 -2186 34 61 "wall_sign")
+    wall_sign21191 (Minecraft-object-wall_sign -2101 33 61 -2101 33 61 "wall_sign")
+    wall_sign21192 (Minecraft-object-wall_sign -2142 33 61 -2142 33 61 "wall_sign")
+    wall_sign21193 (Minecraft-object-wall_sign -2090 30 61 -2090 30 61 "wall_sign")
+    wall_sign21194 (Minecraft-object-wall_sign -2215 30 61 -2215 30 61 "wall_sign")
+    wall_sign21195 (Minecraft-object-wall_sign -2117 29 62 -2117 29 62 "wall_sign")
+    wall_sign21196 (Minecraft-object-wall_sign -2122 29 62 -2122 29 62 "wall_sign")
+    wall_sign21197 (Minecraft-object-wall_sign -2142 27 61 -2142 27 61 "wall_sign")
+    wall_sign21198 (Minecraft-object-wall_sign -2186 27 61 -2186 27 61 "wall_sign")
+    wall_sign21199 (Minecraft-object-wall_sign -2200 27 61 -2200 27 61 "wall_sign")
+    wall_sign21200 (Minecraft-object-wall_sign -2204 27 61 -2204 27 61 "wall_sign")
+    wall_sign21201 (Minecraft-object-wall_sign -2150 25 61 -2150 25 61 "wall_sign")
+    wall_sign21202 (Minecraft-object-wall_sign -2101 24 61 -2101 24 61 "wall_sign")
+    wall_sign21203 (Minecraft-object-wall_sign -2191 23 61 -2191 23 61 "wall_sign")
+    wall_sign21204 (Minecraft-object-wall_sign -2090 21 61 -2090 21 61 "wall_sign")
+    wall_sign21205 (Minecraft-object-wall_sign -2142 21 61 -2142 21 61 "wall_sign")
+    wall_sign21206 (Minecraft-object-wall_sign -2186 20 61 -2186 20 61 "wall_sign")
+    wall_sign21207 (Minecraft-object-wall_sign -2150 19 61 -2150 19 61 "wall_sign")
+    wall_sign21208 (Minecraft-object-wall_sign -2117 18 62 -2117 18 62 "wall_sign")
+    wall_sign21209 (Minecraft-object-wall_sign -2122 18 62 -2122 18 62 "wall_sign")
+    wall_sign21210 (Minecraft-object-wall_sign -2101 16 61 -2101 16 61 "wall_sign")
+    wall_sign21211 (Minecraft-object-wall_sign -2142 15 61 -2142 15 61 "wall_sign")
+    wall_sign21212 (Minecraft-object-wall_sign -2090 13 61 -2090 13 61 "wall_sign")
+    wall_sign21213 (Minecraft-object-wall_sign -2186 13 61 -2186 13 61 "wall_sign")
+    wall_sign21214 (Minecraft-object-wall_sign -2210 11 61 -2210 11 61 "wall_sign")
+    wall_sign21215 (Minecraft-object-wall_sign -2215 11 61 -2215 11 61 "wall_sign")
+    wall_sign21216 (Minecraft-object-wall_sign -2142 9 61 -2142 9 61 "wall_sign")
+    wall_sign21217 (Minecraft-object-wall_sign -2150 9 61 -2150 9 61 "wall_sign")
+    wall_sign21218 (Minecraft-object-wall_sign -2101 8 61 -2101 8 61 "wall_sign")
+    wall_sign21219 (Minecraft-object-wall_sign -2144 7 61 -2144 7 61 "wall_sign")
+    wall_sign21220 (Minecraft-object-wall_sign -2198 7 61 -2198 7 61 "wall_sign")
+    wall_sign21221 (Minecraft-object-wall_sign -2186 6 61 -2186 6 61 "wall_sign")
+    wall_sign21222 (Minecraft-object-wall_sign -2090 5 61 -2090 5 61 "wall_sign")
+    wall_sign21223 (Minecraft-object-wall_sign -2190 4 61 -2190 4 61 "wall_sign")
+    wall_sign21224 (Minecraft-object-wall_sign -2151 3 62 -2151 3 62 "wall_sign")
+    wall_sign21225 (Minecraft-object-wall_sign -2157 3 62 -2157 3 62 "wall_sign")
+    wall_sign21226 (Minecraft-object-wall_sign -2174 1 61 -2174 1 61 "wall_sign")
+    wall_sign21227 (Minecraft-object-wall_sign -2215 -1 61 -2215 -1 61 "wall_sign")
+
+    ;; 3b. Minecraft objects of type  :flower_pot   
+    flower_pot21241 (Minecraft-object-flower_pot -2159 53 63 -2159 53 63 "flower_pot")
+    flower_pot21242 (Minecraft-object-flower_pot -2160 53 63 -2160 53 63 "flower_pot")
+    flower_pot21243 (Minecraft-object-flower_pot -2161 53 63 -2161 53 63 "flower_pot")
+    flower_pot21244 (Minecraft-object-flower_pot -2159 48 63 -2159 48 63 "flower_pot")
+    flower_pot21245 (Minecraft-object-flower_pot -2160 48 63 -2160 48 63 "flower_pot")
+    flower_pot21246 (Minecraft-object-flower_pot -2161 48 63 -2161 48 63 "flower_pot")
+    flower_pot21247 (Minecraft-object-flower_pot -2139 47 62 -2139 47 62 "flower_pot")
+    flower_pot21248 (Minecraft-object-flower_pot -2140 47 62 -2140 47 62 "flower_pot")
+    flower_pot21249 (Minecraft-object-flower_pot -2141 40 62 -2141 40 62 "flower_pot")
+    flower_pot21250 (Minecraft-object-flower_pot -2168 40 61 -2168 40 61 "flower_pot")
+    flower_pot21251 (Minecraft-object-flower_pot -2141 39 62 -2141 39 62 "flower_pot")
+    flower_pot21252 (Minecraft-object-flower_pot -2168 36 61 -2168 36 61 "flower_pot")
+    flower_pot21253 (Minecraft-object-flower_pot -2153 30 61 -2153 30 61 "flower_pot")
+    flower_pot21254 (Minecraft-object-flower_pot -2155 30 61 -2155 30 61 "flower_pot")
+    flower_pot21255 (Minecraft-object-flower_pot -2154 6 61 -2154 6 61 "flower_pot")
+    flower_pot21256 (Minecraft-object-flower_pot -2156 6 61 -2156 6 61 "flower_pot")
+    flower_pot21257 (Minecraft-object-flower_pot -2176 5 61 -2176 5 61 "flower_pot")
+    flower_pot21258 (Minecraft-object-flower_pot -2208 5 61 -2208 5 61 "flower_pot")
+    flower_pot21259 (Minecraft-object-flower_pot -2197 4 61 -2197 4 61 "flower_pot")
+    flower_pot21260 (Minecraft-object-flower_pot -2197 1 61 -2197 1 61 "flower_pot")
+    flower_pot21261 (Minecraft-object-flower_pot -2203 -1 61 -2203 -1 61 "flower_pot")
+    flower_pot21262 (Minecraft-object-flower_pot -2206 -1 61 -2206 -1 61 "flower_pot")
+    flower_pot21263 (Minecraft-object-flower_pot -2208 -1 61 -2208 -1 61 "flower_pot")
+          
+    ;; 3c. Minecraft objects of type  :lever
+    lever-controls (lvar "Controls")
+    lever21228 (Minecraft-object-lever -2138 38 61 -2138 38 61 "lever" lever-controls)
+    lever21229 (Minecraft-object-lever -2139 38 61 -2139 38 61 "lever" lever-controls)
+    lever21230 (Minecraft-object-lever -2136 30 61 -2136 30 61 "lever" lever-controls)
+    lever21231 (Minecraft-object-lever -2136 29 61 -2136 29 61 "lever" lever-controls)
+    lever21232 (Minecraft-object-lever -2136 28 61 -2136 28 61 "lever" lever-controls)
+    lever21233 (Minecraft-object-lever -2136 27 61 -2136 27 61 "lever" lever-controls)
+    lever21234 (Minecraft-object-lever -2136 12 61 -2136 12 61 "lever" lever-controls)
+    lever21235 (Minecraft-object-lever -2136 11 61 -2136 11 61 "lever" lever-controls)
+    lever21236 (Minecraft-object-lever -2136 10 61 -2136 10 61 "lever" lever-controls)
+    lever21237 (Minecraft-object-lever -2136 9 61 -2136 9 61 "lever" lever-controls)
+    lever21238 (Minecraft-object-lever -2136 8 61 -2136 8 61 "lever" lever-controls)
+    lever21239 (Minecraft-object-lever -2136 7 61 -2136 7 61 "lever" lever-controls)
+    lever21240 (Minecraft-object-lever -2136 6 61 -2136 6 61 "lever" lever-controls)
+
+    ;; 3d. Minecraft objects of type  :flower_pot
+    flower_pot21241 (Minecraft-object-flower_pot -2159 53 63 -2159 53 63 "flower_pot")
+    flower_pot21242 (Minecraft-object-flower_pot -2160 53 63 -2160 53 63 "flower_pot")
+    flower_pot21243 (Minecraft-object-flower_pot -2161 53 63 -2161 53 63 "flower_pot")
+    flower_pot21244 (Minecraft-object-flower_pot -2159 48 63 -2159 48 63 "flower_pot")
+    flower_pot21245 (Minecraft-object-flower_pot -2160 48 63 -2160 48 63 "flower_pot")
+    flower_pot21246 (Minecraft-object-flower_pot -2161 48 63 -2161 48 63 "flower_pot")
+    flower_pot21247 (Minecraft-object-flower_pot -2139 47 62 -2139 47 62 "flower_pot")
+    flower_pot21248 (Minecraft-object-flower_pot -2140 47 62 -2140 47 62 "flower_pot")
+    flower_pot21249 (Minecraft-object-flower_pot -2141 40 62 -2141 40 62 "flower_pot")
+    flower_pot21250 (Minecraft-object-flower_pot -2168 40 61 -2168 40 61 "flower_pot")
+    flower_pot21251 (Minecraft-object-flower_pot -2141 39 62 -2141 39 62 "flower_pot")
+    flower_pot21252 (Minecraft-object-flower_pot -2168 36 61 -2168 36 61 "flower_pot")
+    flower_pot21253 (Minecraft-object-flower_pot -2153 30 61 -2153 30 61 "flower_pot")
+    flower_pot21254 (Minecraft-object-flower_pot -2155 30 61 -2155 30 61 "flower_pot")
+    flower_pot21255 (Minecraft-object-flower_pot -2154 6 61 -2154 6 61 "flower_pot")
+    flower_pot21256 (Minecraft-object-flower_pot -2156 6 61 -2156 6 61 "flower_pot")
+    flower_pot21257 (Minecraft-object-flower_pot -2176 5 61 -2176 5 61 "flower_pot")
+    flower_pot21258 (Minecraft-object-flower_pot -2208 5 61 -2208 5 61 "flower_pot")
+    flower_pot21259 (Minecraft-object-flower_pot -2197 4 61 -2197 4 61 "flower_pot")
+    flower_pot21260 (Minecraft-object-flower_pot -2197 1 61 -2197 1 61 "flower_pot")
+    flower_pot21261 (Minecraft-object-flower_pot -2203 -1 61 -2203 -1 61 "flower_pot")
+    flower_pot21263 (Minecraft-object-flower_pot -2208 -1 61 -2208 -1 61 "flower_pot")
+    flower_pot21262 (Minecraft-object-flower_pot -2206 -1 61 -2206 -1 61 "flower_pot")
+    
+    ;;--------------------------------
+    ;;     4. DUMMIES FOR CLONING
+    ;;--------------------------------
+    ;; 4a. Victims
+    dummy-block-victim-1 (block_victim_1 0 0 0 0 0 0 "prismarine")   ; Green victims
+    dummy-block-victim-2 (block_victim_2 0 0 0 0 0 0 "gold_block")   ; Gold/Yellow victims that die early
+
+    ;; 4b. Popup portals
+    dummy-hole (hole-in-the-wall 0 0 0 0 0 0 "a hole in the wall" 0) ; Hole in the wall
+    
+    ;; 4.c Popup blockages
+    dummy-blockage (blockage 0 0 0 0 0 0 "a blockage" 0)             ; A blockage in a corridor or doorway.
+})

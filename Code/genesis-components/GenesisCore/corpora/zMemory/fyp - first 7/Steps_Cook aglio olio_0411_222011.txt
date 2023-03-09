@@ -1,0 +1,97 @@
+/* ------------------------------
+ Generated on Cook aglio olio_0411_222011 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Cook aglio olio".
+Intention: Cook aglio olio.
+The end.
+
+If the intention is "Cook aglio olio".
+Step: Add salt's two spoons.
+Step: Sprinkle salt into the plate.
+Step: Sprinkle pepper into the plate.
+Step: Add parsley leaves above everything.
+Step: Add tomato sauce above everything.
+The end.
+
+If the problem is "Add salt's two spoons".
+Intention: Add salt's two spoons.
+The end.
+
+/* ------------------------------
+ Generated on Cook aglio olio_0411_222011 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Add salt's two spoons".
+Step: Add salt to the pasta.
+The end.
+
+If the problem is "Add salt to the pasta".
+Intention: Add salt to the pasta.
+The end.
+
+/* ------------------------------
+ Generated on Cook aglio olio_0411_222011 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Add salt to the pasta".
+Step: Sprinkle salt to the pasta.
+The end.
+
+If the problem is "Sprinkle salt to the pasta".
+Intention: Sprinkle salt to the pasta.
+The end.
+
+/* ------------------------------
+ Generated on Cook aglio olio_0411_222011 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Sprinkle salt to the pasta".
+Step: Sprinkle salt into the plate.
+The end.
+
+If the problem is "Sprinkle salt into the plate".
+Intention: Sprinkle salt into the plate.
+The end.
+
+If the intention is "Sprinkle salt into the plate".
+Step: The salt is in the plate.
+The end.
+
+/* ------------------------------
+ Generated on Cook aglio olio_0411_222011 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Sprinkle salt into the plate".
+Intention: Sprinkle salt into the plate.
+The end.
+
+If the intention is "Sprinkle salt into the plate".
+Step: The salt is in the plate.
+The end.
+
+If the problem is "Sprinkle pepper into the plate".
+Intention: Sprinkle pepper into the plate.
+The end.
+
+If the intention is "Sprinkle pepper into the plate".
+Step: Pepper is in the plate.
+The end.
+
+/* ------------------------------
+ Generated on Cook aglio olio_0411_222011 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Add parsley leaves above everything".
+Intention: Add parsley leaves above everything.
+The end.
+
+If the intention is "Add parsley leaves above everything".
+Step: Parsley leaves is above everything.
+The end.
+
+
+If the problem is "Add tomato sauce above everything".
+Intention: Add tomato sauce above everything.
+The end.
+
+If the intention is "Add tomato sauce above everything".
+Step: Tomato sauce is above everything.
+The end.
+

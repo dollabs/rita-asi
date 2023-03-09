@@ -1,0 +1,160 @@
+/* ------------------------------
+ Generated on 0913_162418 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Store scoby".
+Intention: Store scoby.
+The end.
+
+If the intention is "Store scoby".
+Step: Start a batch of kombucha to store your Scoby for less than 4 weeks....
+Step: Add in one cup.
+Step: .
+Step: Put your scoby inside the jar.
+Step: Store your glass jar in a warm dark spot.
+Step: Store your Scoby in a small glass jar or a clean plastic bag....
+Step: Pour some tea mixture in your jar or bag so it fills about 20%....
+Step: Place your Scoby in the refrigerator to prevent it from going bad....
+Step: Avoid leaving your Scoby in the fridge for over 3 months....
+Step: So you fit several scobys, select a large sterile glass container big enough.
+Step: Put your scobys into the jar.
+Step: Pour in 1 cup (0.24 L) of kombucha and 3 cups (0.71 L) of freshly brewed tea....
+Step: Cover your secure jar with a lid with a clean cloth.
+Step: Store your jar in a dark warm dry place.
+Step: Replace the kombucha in your Scoby hotel every 2 weeks....
+The end.
+
+// ------------ Step 1: Start a batch of kombucha to store your Scoby for less than 4 weeks...
+If the problem is "Start a batch of kombucha to store your Scoby for less than 4 weeks...".
+Intention: Start a batch of kombucha to store your Scoby for less than 4 weeks....
+The end.
+
+If the intention is "Start a batch of kombucha to store your Scoby for less than 4 weeks...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Add in one cup
+If the problem is "Add in one cup".
+Intention: Add in one cup.
+The end.
+
+If the intention is "Add in one cup".
+Step: Null is on cup.
+The end.
+
+// ------------ Step 3: 
+If the problem is "".
+Intention: .
+The end.
+
+If the intention is "".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Put your scoby inside the jar
+If the problem is "Put your scoby inside the jar".
+Intention: Put your scoby inside the jar.
+The end.
+
+If the intention is "Put your scoby inside the jar".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Store your glass jar in a warm dark spot
+If the problem is "Store your glass jar in a warm dark spot".
+Intention: Store your glass jar in a warm dark spot.
+The end.
+
+If the intention is "Store your glass jar in a warm dark spot".
+Step: rel be ent glassjar seq roles fun on ent warm dark spot.
+The end.
+
+// ------------ Step 6: Store your Scoby in a small glass jar or a clean plastic bag...
+If the problem is "Store your Scoby in a small glass jar or a clean plastic bag...".
+Intention: Store your Scoby in a small glass jar or a clean plastic bag....
+The end.
+
+If the intention is "Store your Scoby in a small glass jar or a clean plastic bag...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 7: Pour some tea mixture in your jar or bag so it fills about 20%...
+If the problem is "Pour some tea mixture in your jar or bag so it fills about 20%...".
+Intention: Pour some tea mixture in your jar or bag so it fills about 20%....
+The end.
+
+If the intention is "Pour some tea mixture in your jar or bag so it fills about 20%...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 8: Place your Scoby in the refrigerator to prevent it from going bad...
+If the problem is "Place your Scoby in the refrigerator to prevent it from going bad...".
+Intention: Place your Scoby in the refrigerator to prevent it from going bad....
+The end.
+
+If the intention is "Place your Scoby in the refrigerator to prevent it from going bad...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 9: Avoid leaving your Scoby in the fridge for over 3 months...
+If the problem is "Avoid leaving your Scoby in the fridge for over 3 months...".
+Intention: Avoid leaving your Scoby in the fridge for over 3 months....
+The end.
+
+If the intention is "Avoid leaving your Scoby in the fridge for over 3 months...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 10: So you fit several scobys, select a large sterile glass container big enough
+If the problem is "So you fit several scobys, select a large sterile glass container big enough".
+Intention: So you fit several scobys, select a large sterile glass container big enough.
+The end.
+
+If the intention is "So you fit several scobys, select a large sterile glass container big enough".
+Method: Assume successful.
+The end.
+
+// ------------ Step 11: Put your scobys into the jar
+If the problem is "Put your scobys into the jar".
+Intention: Put your scobys into the jar.
+The end.
+
+If the intention is "Put your scobys into the jar".
+Method: Assume successful.
+The end.
+
+// ------------ Step 12: Pour in 1 cup (0.24 L) of kombucha and 3 cups (0.71 L) of freshly brewed tea...
+If the problem is "Pour in 1 cup (0.24 L) of kombucha and 3 cups (0.71 L) of freshly brewed tea...".
+Intention: Pour in 1 cup (0.24 L) of kombucha and 3 cups (0.71 L) of freshly brewed tea....
+The end.
+
+If the intention is "Pour in 1 cup (0.24 L) of kombucha and 3 cups (0.71 L) of freshly brewed tea...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 13: Cover your secure jar with a lid with a clean cloth
+If the problem is "Cover your secure jar with a lid with a clean cloth".
+Intention: Cover your secure jar with a lid with a clean cloth.
+The end.
+
+If the intention is "Cover your secure jar with a lid with a clean cloth".
+Method: Assume successful.
+The end.
+
+// ------------ Step 14: Store your jar in a dark warm dry place
+If the problem is "Store your jar in a dark warm dry place".
+Intention: Store your jar in a dark warm dry place.
+The end.
+
+If the intention is "Store your jar in a dark warm dry place".
+Step: rel be ent jar seq roles fun on ent dark warm dry place.
+The end.
+
+// ------------ Step 15: Replace the kombucha in your Scoby hotel every 2 weeks...
+If the problem is "Replace the kombucha in your Scoby hotel every 2 weeks...".
+Intention: Replace the kombucha in your Scoby hotel every 2 weeks....
+The end.
+
+If the intention is "Replace the kombucha in your Scoby hotel every 2 weeks...".
+Method: Assume successful.
+The end.
+

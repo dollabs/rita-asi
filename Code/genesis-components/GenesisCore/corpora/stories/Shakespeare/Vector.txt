@@ -1,0 +1,48 @@
+Start experiment.
+
+Set left panel to precedent word recall.
+Set right panel to precedent recall.
+
+Insert file Hamlet1.
+
+
+
+Set left panel to precedent word recall.
+Set right panel to precedent recall.
+
+Insert file Caesar1.
+
+Set left panel to precedent word recall.
+Set right panel to precedent recall.
+
+
+
+Insert file Estonia1.
+
+Set left panel to precedent word recall.
+Set right panel to precedent recall.
+
+
+
+Insert file Georgia1.
+
+Set left panel to precedent word recall.
+Set right panel to precedent recall.
+
+Insert file LostInTranslation.
+
+Set left panel to precedent word recall.
+Set right panel to precedent recall.
+
+Insert file Old Man Coyote Makes The World.
+
+Set left panel to precedent word recall.
+Set right panel to precedent recall.
+
+
+Insert file Macbeth1.
+
+
+Set left panel to precedent word recall.
+
+Set right panel to precedent concept recall.

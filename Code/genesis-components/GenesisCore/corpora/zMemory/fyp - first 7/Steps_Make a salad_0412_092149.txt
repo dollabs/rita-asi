@@ -1,0 +1,32 @@
+/* ------------------------------
+ Generated on Make a salad_0412_092149 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a salad".
+Intention: Make a salad.
+The end.
+
+If the intention is "Make a salad".
+Step: Pour the apple in the green cup to the red cup.
+Step: Add grapes to the red cup.
+The end.
+
+If the problem is "Pour the apple in the green cup to the red cup".
+Intention: Pour the apple in the green cup to the red cup.
+The end.
+
+If the intention is "Pour the apple in the green cup to the red cup".
+Step: The apple is on the red cup.
+The end.
+
+/* ------------------------------
+ Generated on Make a salad_0412_092149 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Add grapes to the red cup".
+Intention: Add grapes to the red cup.
+The end.
+
+If the intention is "Add grapes to the red cup".
+Step: Grapes are on the red cup.
+The end.
+

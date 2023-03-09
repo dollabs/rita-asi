@@ -1,0 +1,16 @@
+{
+    "accept_time": "2019-06-04 10:15:55+08:00", 
+    "instructions": [
+        "Put the dinner plate on the place mat.", 
+        "Put the salad plate on the dinner plate.", 
+        "Put the napkin on the salad plate. ", 
+        "Put the wine glass on the upper right side of the place mat.", 
+        "Put the water glass next to and a little behind the wine glass. ", 
+        "Put the salad fork on the left side to the dinner plate. ", 
+        "Put the dinner fork between the salad fork and the dinner plate on the place mat.. ", 
+        "Put the dinner knife on the right side of the dinner plate. ", 
+        "Put the soup spoon on the right side of the dinner knife. "
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table1"
+}

@@ -1,0 +1,168 @@
+/* ------------------------------
+ Generated on 0913_163646 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Draw a food web".
+Intention: Draw a food web.
+The end.
+
+If the intention is "Draw a food web".
+Step: Set your web up.
+Step: Maps out your initial web.
+Step: Include the final web details.
+The end.
+
+// ------------ Step 1: Set your web up
+If the problem is "Set your web up".
+Intention: Set your web up.
+The end.
+
+// ------------ Step 2: Maps out your initial web
+If the problem is "Maps out your initial web".
+Intention: Maps out your initial web.
+The end.
+
+// ------------ Step 3: Include the final web details
+If the problem is "Include the final web details".
+Intention: Include the final web details.
+The end.
+
+/* ------------------------------
+ Generated on 0913_163646 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Set your web up".
+Intention: Set your web up.
+The end.
+
+If the intention is "Set your web up".
+Step: Choose a particular food web habitat.
+Step: Write organisms' list in your habitat down.
+Step: Get a large piece to the create.
+Step: Title your food web....
+Step: Decide whether to label, illustrate, or do both for organisms....
+The end.
+
+// ------------ Step 1: Choose a particular food web habitat
+If the problem is "Choose a particular food web habitat".
+Intention: Choose a particular food web habitat.
+The end.
+
+If the intention is "Choose a particular food web habitat".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Write organisms' list in your habitat down
+If the problem is "Write organisms' list in your habitat down".
+Intention: Write organisms' list in your habitat down.
+The end.
+
+If the intention is "Write organisms' list in your habitat down".
+Step: List is on habitat.
+The end.
+
+// ------------ Step 3: Get a large piece to the create
+If the problem is "Get a large piece to the create".
+Intention: Get a large piece to the create.
+The end.
+
+If the intention is "Get a large piece to the create".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Title your food web...
+If the problem is "Title your food web...".
+Intention: Title your food web....
+The end.
+
+If the intention is "Title your food web...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Decide whether to label, illustrate, or do both for organisms...
+If the problem is "Decide whether to label, illustrate, or do both for organisms...".
+Intention: Decide whether to label, illustrate, or do both for organisms....
+The end.
+
+If the intention is "Decide whether to label, illustrate, or do both for organisms...".
+Method: Assume successful.
+The end.
+
+/* ------------------------------
+ Generated on 0913_163646 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Maps out your initial web".
+Intention: Maps out your initial web.
+The end.
+
+If the intention is "Maps out your initial web".
+Step: Put your producers on the page.
+Step: Place your primary consumers on the page.
+Step: Add in your secondary consumers.
+The end.
+
+// ------------ Step 1: Put your producers on the page
+If the problem is "Put your producers on the page".
+Intention: Put your producers on the page.
+The end.
+
+If the intention is "Put your producers on the page".
+Step: Producers are on page.
+The end.
+
+// ------------ Step 2: Place your primary consumers on the page
+If the problem is "Place your primary consumers on the page".
+Intention: Place your primary consumers on the page.
+The end.
+
+If the intention is "Place your primary consumers on the page".
+Step: rel be ent primary consumers seq roles fun on ent page.
+The end.
+
+// ------------ Step 3: Add in your secondary consumers
+If the problem is "Add in your secondary consumers".
+Intention: Add in your secondary consumers.
+The end.
+
+If the intention is "Add in your secondary consumers".
+Step: rel be ent null seq roles fun on ent secondary consumers.
+The end.
+
+/* ------------------------------
+ Generated on 0913_163646 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Include the final web details".
+Intention: Include the final web details.
+The end.
+
+If the intention is "Include the final web details".
+Step: Include your tertiary consumers and beyond....
+Step: Add is in detrivores.
+Step: Draw arrows between organisms that are indicating energy's transfer.
+The end.
+
+// ------------ Step 1: Include your tertiary consumers and beyond...
+If the problem is "Include your tertiary consumers and beyond...".
+Intention: Include your tertiary consumers and beyond....
+The end.
+
+If the intention is "Include your tertiary consumers and beyond...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Add is in detrivores
+If the problem is "Add is in detrivores".
+Intention: Add is in detrivores.
+The end.
+
+If the intention is "Add is in detrivores".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Draw arrows between organisms that are indicating energy's transfer
+If the problem is "Draw arrows between organisms that are indicating energy's transfer".
+Intention: Draw arrows between organisms that are indicating energy's transfer.
+The end.
+
+If the intention is "Draw arrows between organisms that are indicating energy's transfer".
+Method: Assume successful.
+The end.
+

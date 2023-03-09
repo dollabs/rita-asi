@@ -1,0 +1,45 @@
+//"gene home" test, Mar 2016
+//To use run students/alexanderList/LocalGenesis.java, that fetches from gene sim server
+
+Start experiment.
+
+Insert file geneHomeCommonsense.
+
+Start story titled "Gene turns off stove".
+
+The end.
+
+////THE FOLLOWING STORY IS NOW SERVED FROM THE GENE SIMULATOR SERVER AT http://162.243.80.189:3000/simulate/0
+//Patrick leaves home. // -> "oo does not want the stove on"
+//Thermostat turned off.
+//Temperature increased in kitchen. 
+//The stove is definitely operating. // -> "Stove is on" -> "I turn off the stove"
+
+//NOTE THE FOLLOWING, after the above story:
+//Genesis writes this next story line for Gene, inferring that Gene takes action. 
+// I turn off the stove.
+
+////THE FOLLOWING IS A NEW, MORE COMMON STORY
+// Alex is home. I have a high trust level. There are two pending maintenance requests. 
+// The apartment door opened. //=>Alex may have left home. //=>Someone else may have entered. 
+// Motion not detected for 30 minutes. //=> Alex has left home (prob .9). || Occupants may be out of range of sensors (prob .1).
+// 
+// Knocking detected on apartment door. //=> A friend may be at the door, a maintenance person may be at the door //<=> Owner is not home. Owner will want to know someone is at the door. 
+// Then, the apartment door opened. //=> Alex may have returned, a maintenance person may have entered //<=> Owner is not home. Owner will want to know someone has entered. //=> ask if maintenance person //=> notify Alex
+// Then, the door stayed open for 1 minute. 
+// After 15 minutes, the door opened. //The occupant may have exited (.8) // Someone else may have arrived (.2) 
+// Motion not detected for 30 minutes. //=>The occupant has exited (.9)
+// After 60 minutes, a maintenance request was fulfilled. //The occupant was a maintenance person 
+//
+// Alex's code unlocked the building door.
+// Then within five minutes, the apartment door opened. //trust level=high and within 5 minutes => Alex returned home => I should welcome Alex home, I should bring Alex up to speed 
+//# else (eg., trust level=low) => Alex may have returned home => notify Alex.
+// I say "Welcome home, Alist!" // => I welcomed Alex home.
+// I say: "A maintenance person was in while you were out." 
+// I ask Alex: "Did you catch that?"
+// Alex doesn't respond for 15 seconds. => I should ask him again. 
+// I tell Alex: "A maintenance person was in while you were out." 
+// I ask Alex: "Did you catch that: say yes, no, or explain?"
+// Alex said "explain" : "the "bathroom sink" maintenance request was fulfilled."
+// I ask Alex: "Did you catch that"
+// Alex said "yes" //=> Alex knows someone entered while he was out. //=> Then, Alex became up to speed.

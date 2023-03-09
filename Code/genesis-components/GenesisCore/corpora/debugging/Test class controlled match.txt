@@ -1,0 +1,23 @@
+Start experiment.
+
+Set all switches to defaults.
+
+xx, yy, and zz are persons.
+
+tt is a tool.
+
+John, Mary, and Peter are persons.
+
+if xx kills yy with a tt, then tt is a weapon.
+
+if xx kills yy with a zz, then zz is an accomplice.
+
+John is a person.
+
+Start story titled "Test".
+
+John and Paul kissed Mary and Susan.
+
+The end.
+
+

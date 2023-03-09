@@ -1,0 +1,31 @@
+// Need this because otherwise victim and child match as both have threads that define them as person.
+// Effect here is to force use of primed thread, that is, the first one.
+A victim is a victim. A child is a child. xx is an entity. yy is an entity. The author is an entity.
+
+Start description of "Patriotism".
+xx and yy are entities.
+xx refers to yy as a patriot.
+Consequently, xx invokes yy's patriotism.
+The end.
+
+Start description of "Sympathy".
+xx is an entity.
+yy is a person.
+xx refers to yy as a victim.
+Consequently, xx elicits sympathy for yy.
+The end.
+
+Start description of "Increased Sympathy". 
+xx and yy are entities. 
+xx invokes yy's patriotism. 
+xx elicits sympathy for yy.
+Consequently, xx increases sympathy for yy. 
+The end.
+
+Start description of "Increased Sympathy Two".
+xx is an entity.
+yy is a person.
+xx refers to yy as a victim and xx labels yy as passivity's object.
+Consequently, xx increases sympathy for yy.
+The end.
+

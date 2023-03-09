@@ -1,0 +1,11 @@
+// job
+if xx is an official in mm, then xx has official's job.
+
+// role
+if xx wants to overturn mm, then xx has rebel's role.
+if xx plans to create a new Dynasty, then xx has rebel's role.
+if xx kills yy, then yy has killer's role.
+
+// contact
+if xx plans to kill yy, then xx has motive's contact.
+if xx kills yy, then xx has death's contact.

@@ -1,0 +1,17 @@
+xx is a variable.
+yy is a variable.
+zz is a story.
+vv is a variable.
+
+If the intention is "Make salad".
+Step: Put fruits in the bowl.
+Step: Pour sugar into ball.
+Step: Pour soda can in bowl.
+The end.
+
+
+If the intention is "Pour xx into yy".
+Step: Put xx above yy.
+Step: Rotate xx.
+Step: Move xx to the table.
+The end.

@@ -1,0 +1,31 @@
+Katherine is a person.
+Petruchio is a person.
+Bianca is a person.
+Lucentio is a person.
+Gremio is a person
+Hortensio is a person.
+
+Bianca is Katherine's sister.
+Bianca is attractive. 
+Katherine is unfriendly.
+
+Lucentio, Gremio, and Hortensio are lustful.
+Gremio dislikes Katherine.
+Hortensio wants Katherine to marry someone.
+
+Hortensio convinces Petruchio to court Katherine.
+Hortensio convinces Petruchio to court Katherine because Hortensio wants Katherine to marry someone.
+
+Lucentio woos Bianca.
+
+Petruchio courts Katherine.
+Petruchio courts Katherine because Hortensio convinces Petruchio to court Katherine.
+
+Petruchio wants to marry Katherine.
+Petruchio marries Katherine.
+Katherine marries Petruchio.
+Petruchio marries Katherine because Petruchio courts Katherine and Petruchio wants to marry Katherine.
+
+Lucentio marries Bianca.
+Bianca marries Lucentio.
+Lucentio marries Bianca because Petruchio marries Katherine.

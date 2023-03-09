@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 10:13:11+08:00", 
+    "instructions": [
+        "Put the dinner plate on the table cloth.", 
+        "Pick up the fork and put it to the left of the dinner plate on the table cloth.", 
+        "Pick up the salad fork and put it to the left of the dinner fork.", 
+        "Pick up the dinner knife and place it to the right of the dinner plate.", 
+        "Pick up the salad knife and place it to the right of the dinner knife.", 
+        "Pick up the soup spoon and place it to the right of the salad knife.", 
+        "Pick up the water glass and place it in front of the dinner plate and the knives on the right side.", 
+        "Pick up the wine glass and place it to the right side of the water glass.", 
+        "Pick up an additional wine glass and place it next to the other one.", 
+        "Pick up a coffee cup and place it on the table to the right of the soup spoon.", 
+        "Pick up the bread plate and place it above the forks.", 
+        "Pick up a butter knife and place it on the corner of the bread plate.", 
+        "Pick up a dessert fork, place it above the dinner plate and to the right of the bread plate.", 
+        "pick up a dessert spoon and place it right above the dessert fork.", 
+        "Pick up the napkin and place it in the center of the dinner plate."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table3"
+}

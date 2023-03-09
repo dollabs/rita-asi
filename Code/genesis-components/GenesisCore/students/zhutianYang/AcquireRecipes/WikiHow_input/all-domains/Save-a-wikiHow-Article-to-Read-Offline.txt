@@ -1,0 +1,94 @@
+Save a wikiHow Article to Read Offline
+
+Steps
+Method 1
+Android App
+1
+Install the wikiHow app.
+2
+Open the wikiHow app.
+3
+Open the article you want to save. You can use the search function or browse around the Featured article feed to find articles you might like. Then, select the 3 dots in the top right corner.
+4
+Tap Bookmark and save offline.
+5
+View your saved article later. Hit ☰ in the top left corner of the app. Then select Bookmarks. All your bookmarked articles will be saved there for offline reading.
+If you want to remove an article from your bookmarks list, press and holding on it, and then select the trash can in the top right corner. The selected articles will no longer be saved on your bookmarks list.
+Method 2
+iOS App
+1
+Download the wikiHow App for your iPhone or iPad. You can find it in the App Store.
+2
+Open the wikiHow app on your iPhone or iPad.
+3
+Open the article you want to save. You can use the search function or browse around the Featured article feed to find articles you might like.
+4
+Hit Options. It's in the top right corner of the article page.
+5
+Tap Bookmark. This option will be on the bottom row of icons, but you may need to slide the row to the left to see it. The "Bookmark" button looks like an open book.
+6
+View the saved article later. Hit Menu in the top left corner of the app. Then select Bookmarks. All your bookmarked articles will be saved there for offline reading.
+If you want to remove articles from your bookmarks list, hit Edit at the top right corner of the page. Then select the circle next to the articles you want to remove and hit Remove at the bottom left. The selected articles will no longer be saved on your bookmarks list.
+Method 3
+Windows: Saving as a PDF
+1
+Navigate to the wikiHow article that you want to save.
+2
+Scroll all the way down to the bottom.
+3
+Select Print.
+4
+Choose whether or not you want to save the images too. You might want to save them to help you understand the steps, but it will increase the file size. Not saving the images will reduce the file size, but it might make the article harder to understand.
+5
+Open the dropdown menu in the dialog box. It is in the "Printer" section and is labeled "Name:"
+6
+Click on Microsoft Print to PDF. You can also select another PDF printer here if you prefer.
+7
+Click OK.
+8
+Decide where to save the article. Remember where you save it so that you know where to go to open it latter.
+If you plan on saving a lot of articles, you might want to create a folder just for wikiHow articles.
+9
+Name the file. You can name it whatever you want, but naming it the original article title might help you remember what it is.
+10
+Click Save.
+11
+Wait for the article to be saved.
+12
+View the saved article later. Navigate to the location where you saved the article, and open it with a PDF reader.
+Method 4
+Mac: Saving as a PDF
+1
+Navigate to the wikiHow article that you want to save.
+2
+Scroll all the way down to the bottom.
+3
+Select Print.
+4
+Choose whether or not you want to save the images too. You might want to save them to help you understand the steps, but it will increase the file size. Not saving the images will reduce the file size, but it might make the article harder to understand.
+5
+Click on Print using system dialog.... If you don't see this button and are already in the system dialog, skip this step.
+6
+Click on PDF. It's in the lower-left corner of the print dialog box. A pop-up menu will open.
+7
+Click on Save as PDF…. It's near the top of the list.
+8
+Name the file in the Save As: field at the top of the dialog box.
+9
+Select a location. Use the drop-down menu below the "Save As:" field or choose a location from the "Favorites" section on the left side of the dialog box.
+10
+Click on Save. It's the lower-right corner of the dialog box. The article will be saved.
+11
+View the saved article later. Navigate to the location where you saved the article, and open it with Preview or another PDF reader.
+Method 5
+Mac: Saving on the Safari Reading List
+1
+Open Safari.
+2
+Navigate to the article that you want to save.
+3
+Click the action icon. This looks like a square with an arrow pointing up and it can be found in the upper right-hand corner of your Safari window.
+4
+Select Add to Reading List From the dropdown menu that appears.
+5
+View the article by going to your Reading List. To go to your reading list on your computer, select the Sidebar icon in the upper left-hand corner of your Safari window. Once the sidebar window appears, select the glasses icon to view your Reading list.

@@ -1,0 +1,80 @@
+
+
+body {
+    background-color: white;
+    margin: 10px;
+    text-align: left;
+    width:100%;
+}
+
+h1 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	}
+
+h1,h2{
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px; 
+} 
+
+p{
+	padding: 0px;
+    margin: 0px;
+    margin-top:6px;
+    font-size: 1em;
+}
+
+/* .cartoon {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 1000px;
+} */
+
+.img-cont {
+    /* background-image: url(file:corpora/demos/Test.jpg);
+    background-repeat: no-repeat;
+  
+    padding-bottom: 100px;
+    padding-left: 30px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    
+    
+    attempted use, 
+    
+    <div class="img-cont" id="ia"></div>
+    
+    does not work, switched to inserted image.
+    
+    */
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#ia {
+	background-image: url(file:corpora/demos/Schizophrenia/Schizophrenia-Images/ia.jpg);
+}
+#fb {
+	background-image: url(file:corpora/demos/Schizophrenia/Schizophrenia-Images/fb.jpg);
+}
+#h {
+	background-image: url(file:corpora/demos/Schizophrenia/Schizophrenia-Images/h.jpg);
+}
+#pd {
+	background-image: url(file:corpora/demos/Schizophrenia/Schizophrenia-Images/pd.jpg);
+}
+#pod {
+	background-image: url(file:corpora/demos/Schizophrenia/Schizophrenia-Images/pod.jpg);
+}
+#pcwo {
+	background-image: url(file:corpora/demos/Schizophrenia/Schizophrenia-Images/pcwo.jpg);
+}
+#pcwoc {
+	background-image: url(file:corpora/demos/Schizophrenia/Schizophrenia-Images/pcwoc.jpg);
+}
+.half {
+}

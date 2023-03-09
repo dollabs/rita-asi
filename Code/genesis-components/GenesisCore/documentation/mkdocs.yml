@@ -1,0 +1,66 @@
+nav:
+    - Genesis:
+      - Genesis Enterprise: index.md
+      - Install Genesis: genesis-installation.md
+      - Contribute to Documentation: genesis-documentation.md
+      - Codebase Overview (Optional): genesis-codebase.md
+      # - Past: past.md
+      # - Current: current.md
+      # - Future: future.md
+    - Fundamentals:
+      - Representation - Innerese: innerese.md
+      - Writing Stories: stories.md
+      - Inference by Rules: inference.md
+      - Concept Patterns: concept-patterns.md
+      - Mental Models: mental-model.md
+      - Personalities: personalities.md
+      - Classification: classification.md
+      # - Translator: translator.md
+      # - Generator: generator.md
+      # - RoleFrame: roleFrame.md
+      # - Matcher: matcher.md
+    # - Genesis Interface:
+      # - Panes: genesis-panes.md
+      # - Views: genesis-views.md
+      # - Controls: genesis-controls.md
+      # - Subsystems: gui-subsystems.md
+      # - Elaboration Graph: genesis-elaboration-graph.md
+      # - Experts: genesis-experts.md
+      # - Inspector: genesis-inspector.md
+      # - Subsystems: genesis-subsystems.md
+    # - Consciousness:
+      # - Genesis Core: core.md
+      - Box and Wire: wire.md
+      # - Problem Solver: problem-solver.md
+    - Tips for Users:
+      - Writing Parsable English: tips-genesese.md
+      - Debugging in Eclipse: tips-eclipse.md
+      - Using Commentary: commentary.md
+    - Subsystems: #Mental Experts:
+      - Story Reteller: story-reteller.md
+      - Story Aligner: story-aligner.md
+    # - Knowledge Base:
+      # - Internal Corpus: corpora.md
+      # - Commonsense - ConceptNet: concept-net.md
+      # - Procedural Knowledge - WikiHow: wikihow.md
+      # - Inference Rules - ATOMIC: atomic.md
+    # - Knowledge Generators:
+      # - Recipe Learners: recipe-learners.md
+      # - Story Aligner: story-aligner.md
+    - Demonstrations:
+      - Culture Differences: demo-macbeth2.md
+      - Story Summarizer: story-summarizer.md
+      - Hypothetical Reasoner: hypothetical-reasoner.md
+    # - Ideas for Future Research:
+    #   - Personality Expert: personality.md
+    #   - Empathy Expert: empathy.md
+    #   - Humor Expert: humor.md
+    # - Procedure Knowledge - Microstory: microstory.md
+
+
+site_dir: ../genesis
+site_name: Genesis Docs
+theme: readthedocs
+# theme: material
+site_favicon: css/favicon.ico
+extra_css: [css/extra.css]

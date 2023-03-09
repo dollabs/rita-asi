@@ -1,0 +1,34 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Find difference button to true.
+Set left panel to commentary.
+// Set right panel to Z Story Aligner Gallery.
+Set right panel to source.
+Both perspectives.
+
+
+If xx appears white on the dark sky outside yy, then xx may be reflecting light.
+If xx looks white, then xx may be reflecting light.
+
+
+Show both perspectives.
+
+First perspective.
+Start story titled "Earth and Moon".
+The Earth is a planet in the solar system.
+The Moon is the Earth's satellite.
+The Moon is circle and it looks white.
+It orbits the Earth.
+The end.
+
+Second perspective.
+Start story titled "Jupiter and moons".
+Some black dots move cross Jupiter in a straight line.
+They appear white on the dark sky outside Jupiter.
+It would continue moving along the line, then slow down, stop, and reverse tracks.
+When it returned to the edge of the while circle, it would disappear totally.
+After a while, it would reappear on the far side of the while circle.
+The end.

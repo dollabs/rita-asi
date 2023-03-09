@@ -1,0 +1,157 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set show text box switch to true.
+
+Set show all story elements switch to true.
+
+Set Migrate unsupported facts to left switch to true.
+
+xx, yy, and zz are animals.
+
+Note that "hinny" is a name.
+
+Note that "ruminant" is a name.
+
+A hinny is an animal.
+
+A ruminant is an animal.
+
+// Deduction
+
+If xx eats meat, then xx is a carnivore.
+
+If xx has sharp teeth and xx has sharp claws and xx has eyes that point forward, then xx is a carnivore.
+
+If xx has hair, then xx is a mammal.
+
+If xx gives milk, then xx is a mammal.
+
+If xx chews cud, then xx is an ruminant.
+
+If  xx is a mammal and xx has spots and xx has a long neck and xx is a ruminant, then xx is a giraffe.
+
+// If  xx is a mammal and xx has spots and xx has a long neck, then xx is a giraffe.
+
+If xx is a carnivore and xx is a mammal and xx has spots and xx runs fast, then xx is a cheetah.
+
+If xx is yy's mother and xx is a zz and xx is not a horse and xx is not a donkey, then yy is a zz. 
+
+If xx is yy's mother and zz is yy's father and xx is a horse and zz is a horse, then yy is a horse.
+
+If xx is yy's mother and zz is yy's father and xx is a horse and zz is a donkey, then yy is a mule.
+
+If xx is yy's mother and zz is yy's father and xx is a donkey and zz is a horse, then yy is a hinny.
+
+If xx is yy's mother and xx is a zz and xx is not a donkey and xx is not a horse, then yy is a zz. 
+
+"Sally" is name.
+
+"Christine" is name.
+
+Sally is an animal.
+
+Bobby is an animal.
+
+Start story titled "Deduce".
+
+Bobby has eyes that point forward.
+
+Pause.
+
+Bobby has sharp teeth.
+
+Pause.
+
+Bobby has sharp claws.
+
+Pause.
+
+Bobby has hair.
+
+Pause.
+
+Bobby has spots.
+
+Pause.
+
+Bobby runs fast.
+
+The end.  
+  
+Pause.
+  
+Start story titled "Deduce".
+
+Paul is an animal.
+
+Sally gives milk.
+
+Pause.
+
+Sally has spots.
+
+Pause.
+
+Sally chews cud.
+
+Pause.
+
+Sally has a long neck.
+
+Pause.
+
+Sally is Paul's mother.
+
+The end.  
+
+Pause.
+
+Patricia is an animal.
+
+Patrick is an animal.
+
+Jack is an animal.
+
+Start story titled "Deduce".
+
+Patricia is a horse.
+
+Patrick is a (donkey animal).
+
+Patricia is Jack's mother.
+
+Pause.
+
+Patrick is Jack's father.
+
+The end.  
+
+
+
+Pause. 
+
+
+
+// Christopher is an animal.
+
+// Christine is an animal.
+
+Billy is an animal.
+
+Start story titled "Deduce".
+
+Christopher is a horse.
+
+Christine is a (donkey animal).
+
+Christopher is Billy's father.
+
+Pause.
+
+Christine is Billy's mother.
+
+The end.
+
+

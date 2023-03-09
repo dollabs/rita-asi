@@ -1,0 +1,9 @@
+Start story titled "Model Test".
+
+//FIRST VERSION
+Bambi runs in the marsh.
+Bambi gets excited.
+Bambi runs in the cattails.
+Bambi has itchy spots.
+
+The end.

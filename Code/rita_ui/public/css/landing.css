@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;500&display=swap');
+
+html {
+  min-width: 768px;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+}
+
+header {
+  background-image: url('../img/headerLanding.png');
+  background-size: 100% 100%;
+  padding: 0;
+}
+
+.section1 {
+  background-image: url('../img/Section1Landing.png');
+  background-size: 100% 100%;
+  margin: 0;
+}
+
+.section2 {
+  background-image: url('../img/Section2Landing.jpg');
+  background-size: 100% 100%;
+  margin: 0;
+  padding-bottom: 10rem;
+}
+
+.containerBox {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0rem 5rem;
+}
+
+/* Buttons */
+.btn,
+.btn:link,
+.btn:visited {
+  padding: 1rem 4rem !important;
+  font-size: 1.2rem !important;
+  border-radius: 10rem;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  font-weight: 400;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: none;
+  cursor: pointer;
+  color: #1d054e;
+  border-bottom: 1px solid #4c319e;
+  background-color: white;
+}
+
+.btn:hover {
+  color: white !important;
+  background-color: #3e109a;
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+/* Section 1 */
+.introContainer {
+  max-width: 100%;
+  color: white;
+  position: relative;
+  height: 50rem;
+  padding: 0rem 5rem;
+}
+
+.dollIntro {
+  margin: 5rem;
+  width: 90%;
+  height: 40rem;
+  background-color: rgba(60, 27, 139, 0.931);
+  border-radius: 3%;
+  color: rgba(210, 195, 246, 0.931);
+}
+
+.mitIntro {
+  margin: 5rem;
+  width: 90%;
+  height: 40rem;
+  background-color: rgba(108, 23, 134, 0.76);
+  border-radius: 3%;
+  color: rgb(224, 184, 238);
+}
+
+.introContainer h2,
+p {
+  text-align: center;
+  justify-content: center;
+}
+
+.introContainer h2 {
+  font-family: 'Jura', sans-serif;
+  font-weight: 500;
+  color: rgb(244, 224, 251);
+  margin: 2rem 1rem;
+}
+
+.dollIntro h2 {
+  padding: 0 5rem;
+}
+
+.introContainer p {
+  padding: 0 2rem;
+  font-family: 'Bellota Text', cursive;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.introContainer img {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Section 2 */
+.card-container {
+  margin: 0 auto;
+  padding-top: 15rem;
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem;
+}
+
+.card {
+  margin-top: 3rem;
+  border: solid 3px rgba(152, 106, 243, 0.776);
+  border-radius: 3px;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+
+.card__header {
+  position: relative;
+}
+.card__picture {
+  position: relative;
+  clip-path: polygon(0 0, 100% 0%, 100% 83%, 0% 98%);
+  height: 16rem;
+}
+.card__picture-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(147, 99, 242, 0.79); /* fallback for old browsers */
+  opacity: 0.5;
+}
+.card__picture-img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.heading-tertirary {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-align: right;
+  position: absolute;
+  bottom: 2rem;
+  right: 1.5rem;
+  width: 90%;
+  z-index: 10;
+}
+
+.heading-tertirary span {
+  padding: 1rem 3rem;
+  line-height: 1.8;
+  background: #1a043eeb; /* fallback for old browsers */
+  color: white;
+}
+
+.card__details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 1.2rem;
+  grid-column-gap: 1rem;
+  padding: 2rem 2rem 0.5rem 2rem;
+}
+
+.card__text {
+  grid-column: 1 / -1;
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: -1rem;
+  margin-bottom: 0.75rem;
+}
+
+.card__data1 {
+  margin-top: -1rem;
+  margin-bottom: 0.75rem;
+  grid-column: 1 / -1;
+  font-size: 0.9rem;
+  align-items: center;
+}
+
+.card__data2 {
+  margin-top: -1rem;
+  margin-bottom: 0.75rem;
+  grid-column: 1 / -1;
+  font-size: 0.9rem;
+  align-items: center;
+}
+
+.card__icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: #4d22cf;
+}
+.card__icon_text {
+  margin-left: 2rem;
+}
+.card__footer {
+  background-color: #cebcf1;
+  padding: 1rem 1rem;
+  border-top: 1px solid #f1f1f1;
+  font-size: 1.4rem;
+  margin-top: auto;
+}
+
+.card .btn {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1731px) {
+  .introContainer {
+    padding: 0rem 3rem;
+  }
+
+  .dollIntro,
+  .mitIntro {
+    margin: 3rem;
+    margin-top: 4rem;
+  }
+
+  .dollIntro img {
+    width: 60%;
+  }
+
+  .mitIntro img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1565px) {
+  .introContainer {
+    padding: 0rem 2.5rem;
+  }
+
+  .dollIntro,
+  .mitIntro {
+    margin: 2.5rem;
+    margin-top: 4rem;
+  }
+
+  .introContainer h2 {
+    font-size: 1.9rem;
+  }
+
+  .dollIntro img {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1440px) {
+  /* Section 1 */
+  .dollIntro,
+  .mitIntro {
+    margin: 2rem;
+    margin-top: 4rem;
+  }
+
+  .introContainer h2 {
+    font-size: 1.8rem;
+  }
+
+  /* Section 2 */
+  .card-container {
+    max-width: 72%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  /* Section 1 */
+  .dollIntro,
+  .mitIntro {
+    margin: 1rem;
+    margin-top: 4rem;
+  }
+
+  /* Section 2 */
+  .card-container {
+    max-width: 75%;
+    grid-gap: 5rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  /* Section 1 */
+  .introContainer {
+    padding: 0rem 2rem;
+  }
+
+  .dollIntro,
+  .mitIntro {
+    margin: 0rem;
+    margin-top: 4rem;
+  }
+
+  .introContainer h2 {
+    font-size: 1.6rem;
+  }
+
+  .introContainer p {
+    font-size: 1.1rem;
+  }
+
+  /* Section 2 */
+  .card-container {
+    max-width: 80%;
+  }
+}
+
+/* Break point */
+@media (max-width: 1198px) {
+  /* Section 1 */
+  .introContainer {
+    padding: 0rem 0rem;
+  }
+
+  .dollIntro,
+  .mitIntro {
+    height: 20rem;
+  }
+
+  .introContainer p {
+    text-align: left;
+    font-size: 1.05rem;
+  }
+
+  .dollIntro img {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    width: 100%;
+  }
+
+  .mitIntro img {
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    width: 100%;
+  }
+
+  /* Section 2 */
+  /* Section 2 */
+  .card-container {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 992px) {
+  .introContainer h2 {
+    font-size: 1.7rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .introContainer p {
+    font-size: 1rem;
+  }
+}
+
+/* break point for section 2 (1 column) */
+@media (max-width: 914px) {
+  .introContainer h2 {
+    font-size: 1.5rem;
+    padding: 0rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .introContainer p {
+    font-size: 0.88rem;
+  }
+
+  /* Section 2 */
+  .section2 {
+    padding-bottom: 5rem;
+  }
+
+  .card-container {
+    grid-gap: 0rem;
+    max-width: 70%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+    margin-top: 5rem;
+    background: #220958;
+    color: rgb(237, 223, 252);
+  }
+
+  .card__picture {
+    height: 10rem;
+  }
+
+  .heading-tertirary {
+    font-size: 1.6rem;
+  }
+
+  .card__data1 {
+    text-align: center;
+    grid-column: 1 / 2;
+  }
+
+  .card__data2 {
+    text-align: center;
+    grid-column: 2 / 2;
+  }
+
+  .card__icon {
+    fill: #ba9ef3;
+  }
+
+  .card__footer {
+    background-color: #d3b3f7e3;
+    padding: 0.5rem 0.5rem;
+    border-top: 1px solid #f1f1f1;
+    margin-top: auto;
+  }
+
+  .card .btn {
+    padding: 1rem 4rem !important;
+    font-size: 1rem !important;
+  }
+
+  /* Buttons */
+  .btn,
+  .btn:link,
+  .btn:visited {
+    color: #1d054e;
+    border-bottom: 1px solid #4c319e;
+    background-color: #e6def6;
+  }
+
+  .btn:hover {
+    color: #e6def6 !important;
+    background-color: #3e109a;
+  }
+}
+
+/* Break point Navbar */
+@media (max-width: 778px) {
+  .introContainer h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .introContainer p {
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,77 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Situational awareness
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; ToM This is what RITA believes about a team player (onle one at present)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Behavioral model
+
+(defpclass BehavioralModel []
+  :meta {:doc "What we believe about the participants behaviortyype"}
+  :modes [:type1 :type2 :type3]) ; replace with real player types
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; EmotionalState model
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; This is information that is provided ahead of time regarding the participant
+;;; Its usefulness is not clear, but it is fixed starting information
+
+(defpclass EmotionalState [cl tp tired happy afraid distractible oriented]
+  :meta {:doc "What we believe about the participants emotional state"}
+  ;; For now, these are all numeric ranges between 0 and 100
+  :fields {cognitiveLoad cl
+           feelingTimePressured tp
+           tiredness tired
+           happiness happy
+           fear afraid
+           distractibility distractible
+           spatialawareness oriented})
+
+(defpclass ToM [estate ;pbm
+               ]
+  :meta {:doc "What we believe about the participants state of mind"}
+  :fields {emotionalState estate
+           ;;participantBehaviorModel pbm
+           })
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Participant model
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; This is information that is provided ahead of time regarding the participant
+;;; Its usefulness is not clear, but it is fixed starting information
+
+(defpclass ParticipantProfile [name age gender culture minecraft-proficiency
+                               gamer-proficiency training-proficiency spatial-ability]
+  :meta {:doc "What we know about the participant a-priori - provided information"}
+
+  :fields {pname name                         ; Name as a String, eg "Fred"
+           page age                           ; age in years
+           pgender gender                     ; :male or :female
+           cultural culture                   ; Cultural affiliation a keyword
+           pmcprof minecraft-proficiency      ; Proficiency in minecraft (0 100)
+           pgamerprof gamer-proficiency       ; General Gamer Proficiency (0 100)
+           ptprof training-proficiency        ; Training proficiency (0 100) or however that is provided
+           pspatial-ability spatial-ability}) ; Special ability (0 100) or however that is provided
+
+
+(defpclass Main []
+  :meta {:doc "Constructor of the SAR scenario"}
+  :fields {
+           ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+           ;;; Instantiate the participants
+           ;;; Player emotional states
+
+           p1estate (EmotionalState 0 20 20 50 0 50 100)
+           p1ToM (ToM p1estate)
+           rita (ParticipantProfile "Rita"       0 :asist-assistant    :robot     0  0  0  0)
+           observer (ParticipantProfile "Ed"     0 :testbed-observer   :robot     0  0  0  0)
+           p1   (ParticipantProfile "Player396" 18 :male               :american 50 50 80 80)
+           ;;theTeam (TheTeam p1estate)
+           ;;+++ where do we get the Player name from in the running system+++
+           agentBeliefState (BeliefState rita observer "Player396" p1 p1ToM)})
+
+;;; Fin

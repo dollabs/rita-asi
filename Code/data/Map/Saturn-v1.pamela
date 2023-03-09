@@ -1,0 +1,1017 @@
+;; Compile command: pamela -i Saturn.pamela --json-ir -o Saturn.pamela.json-ir build
+
+;;----------------------------------------------------;;
+;;                Supporting Functions                ;;
+;;----------------------------------------------------;;
+;; RectangularVolume is used to create any objects that has a rectangular shape: rooms, corridors.
+(defpclass RectangularVolume [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name]
+  :fields {tl-x topLeftX  
+           tl-y topLeftZ
+           tl-z topLeftY
+           br-x bottomRightX
+           br-y bottomRightZ
+           br-z bottomRightY
+           v-name name})
+
+;; General, DoorCommands and Portal are used to create Door-related objects
+(defpclass General [] :modes [:initial :nothing])
+(defpclass DoorCommands [] :modes [:open :close :lock :unlock :leave :enter])
+(defpclass Portal [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                   connId]
+  :inherit [RectangularVolume]
+  :fields {connection connId}
+  :modes [:open])
+
+;;----------------------------------------------------------;;
+;; Functions that we will use to create objects of interest ;;
+;;----------------------------------------------------------;;
+(defpclass Minecraft-object-wall_sign [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-flower_pot [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-lever [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name connId]
+  :inherit [RectangularVolume]
+  :modes [:on :off :failed]
+  :fields {connections connId}
+  :methods [(defpmethod switch
+              {:pre (and :off (or (= command :on) (= command :off)))
+               ;; +++ won't parse +++ :post command
+               :doc "switch"}
+              [command])])
+
+(defpclass Victim-commands [] :modes [:triage])
+(defpclass block_victim_1 [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name]
+  :inherit [RectangularVolume]
+  :modes [:awaiting-triage :being-triaged :saved :dead]
+  :fields {model-state :good}
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :saved
+               :doc "triage"}
+              [command])])
+(defpclass block_victim_2 [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name]
+  :inherit [RectangularVolume]
+  :modes [:awaiting-triage :being-triaged :saved :dead]
+  :fields {model-state :urgent}
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :saved
+               :doc "triage"}
+              [command])])
+
+;; Not used in this file
+(defpclass Minecraft-object-block_victim_1 [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-block_victim_2 [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-banner [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-anvil [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-dispenser [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-table [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-button [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-ladder [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name] :inherit [RectangularVolume])
+
+;; (defpclass Minecraft-object-prismarine [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-prismarine [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name]
+  :inherit [RectangularVolume]
+  :modes [:awaiting-triage :being-triaged :saved :dead]
+  :fields {model-state :good}
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :saved
+               :doc "triage"}
+              [command])])
+
+;; (defpclass Minecraft-object-gold_block [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name] :inherit [RectangularVolume])
+(defpclass Minecraft-object-gold_block [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name]
+  :inherit [RectangularVolume]
+  :modes [:awaiting-triage :being-triaged :saved :dead]
+  :fields {model-state :urgent}
+  :methods [(defpmethod triage
+              {:pre (and :awaiting-triage
+                         (= command (mode-of Victim-commands :triage)))
+               :post :saved
+               :doc "triage"}
+              [command])])
+
+;;----------------------------------------------------;;
+;; Functions that we will use to create the map model ;;
+;;----------------------------------------------------;;
+;; Params explained:
+;; connId = IDs represent a conn between 2 objects (lvar)
+;; c = corridor ID that is connected to the current object (represent a conn between 2 corridor: corridor-cooridor)
+
+;;-------------------------
+;; 1. Building
+(defpclass Building [c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13 c14]
+    :modes [:electricity-on :no-power]
+    :meta {:doc "The SAR building"}
+    :fields {corridor1 c1
+            corridor2 c2
+            corridor3 c3
+            corridor4 c4
+            corridor5 c5
+            corridor6 c6
+            corridor7 c7
+            corridor8 c8
+            corridor9 c9
+            corridor10 c10
+            corridor11 c11
+            corridor12 c12
+            corridor13 c13
+            corridor14 c14})
+
+;;-------------------------
+;; 2. Corridor
+(defpclass ConferenceCWest [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                            connIdC1 connIdC2 connIdC3 connIdC4
+                            connIdR1 connIdR2 connIdR3 connIdR4 connIdR5]
+  :inherit [RectangularVolume]
+  :fields {
+          c1cx connIdC1
+          c2cx connIdC2
+          c3cx connIdC3
+          c4cx connIdC4
+          r1cx connIdR1
+          r2cx connIdR2
+          r3cx connIdR3
+          r4cx connIdR4
+          r5cx connIdR5})
+
+(defpclass MainCWest [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                        connIdC1 connIdC2 connIdC3
+                        connIdR1 connIdR2 connIdTM]
+    :inherit [RectangularVolume]
+    :fields {
+            c1cx connIdC1
+            c2cx connIdC2
+            c3cx connIdC3
+            r1cx connIdR1
+            r2cx connIdR2
+            tmcx connIdTM})
+
+(defpclass ConferenceCNorth [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                            connIdC1 connIdC2
+                            connIdR1 connIdR2]
+  :inherit [RectangularVolume]
+  :fields {
+          c1cx connIdC1
+          c2cx connIdC2
+          r1cx connIdR1
+          r2cx connIdR2})
+
+(defpclass ConferenceRoomC [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                            connIdC1 connIdC2
+                            connIdR1 connIdR2 connIdR3]
+  :inherit [RectangularVolume]
+  :fields {
+          c1cx connIdC1
+          c2cx connIdC2
+          r1cx connIdR1
+          r2cx connIdR2
+          r3cx connIdR3})
+
+(defpclass RestroomC [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                      connIdC1 connIdC2
+                      connIdR1 connIdR2]
+  :inherit [RectangularVolume]
+  :fields {
+          c1cx connIdC1
+          c2cx connIdC2
+          r1cx connIdR1
+          r2cx connIdR2})
+
+(defpclass ConferenceCEast [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                            connIdC1 connIdC2 connIdC3 connIdC4
+                            connIdR1 connIdR2 connIdR3 connIdR4 connIdR5 connIdR6 connIdR7 connIdR8 connIdR9 connIdR10]
+  :inherit [RectangularVolume]
+  :fields {
+          c1cx connIdC1
+          c2cx connIdC2
+          c3cx connIdC3
+          c4cx connIdC4
+          r1cx connIdR1
+          r2cx connIdR2
+          r3cx connIdR3
+          r4cx connIdR4
+          r5cx connIdR5
+          r6cx connIdR6
+          r7cx connIdR7
+          r8cx connIdR8
+          r9cx connIdR9
+          r10cx connIdR10})
+
+(defpclass LimpingLambCNorth [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                             connIdC1
+                             connIdR1 connIdR2]
+  :inherit [RectangularVolume]
+  :fields {
+          c1cx connIdC1
+          r1cx connIdR1
+          r2cx connIdR2})
+
+(defpclass Lobby [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1 connIdC2 connIdC3
+                  connIdR1 connIdR2 connIdR3 connIdTM]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            c2cx connIdC2
+            c3cx connIdC3
+            r1cx connIdR1
+            r2cx connIdR2
+            r3cx connIdR3
+            tmcx connIdTM})
+
+(defpclass EntranceWalkway [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1 connIdR1 connIdTM]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            r1cx connIdR1
+            tmcx connIdTM})
+
+(defpclass MainCEast [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1 connIdC2 connIdC3 connIdC4 connIdC5 connIdTM]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            c2cx connIdC2
+            c3cx connIdC3
+            c4cx connIdC4
+            c5cx connIdC5
+            tmcx connIdTM})
+
+(defpclass StorageCNorth [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1 connIdC2 connIdC3 connIdC4]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            c2cx connIdC2
+            c3cx connIdC3
+            c4cx connIdC4})
+
+(defpclass StorageCWest [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1 connIdC2
+                  connIdR1 connIdR2 connIdR3 connIdR4 connIdR5 connIdR6 connIdR7 connIdR8]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            c2cx connIdC2
+            r1cx connIdR1
+            r2cx connIdR2
+            r3cx connIdR3
+            r4cx connIdR4
+            r5cx connIdR5
+            r6cx connIdR6
+            r7cx connIdR7
+            r8cx connIdR8})
+
+(defpclass StorageCCenter [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1 connIdC2
+                  connIdR1 connIdR2 connIdR3 connIdR4 connIdR5 connIdR6 connIdR7]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            c2cx connIdC2
+            r1cx connIdR1
+            r2cx connIdR2
+            r3cx connIdR3
+            r4cx connIdR4
+            r5cx connIdR5
+            r6cx connIdR6
+            r7cx connIdR7})
+
+(defpclass StorageCEast [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1 connIdC2
+                  connIdR1 connIdR2 connIdR3]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            c2cx connIdC2
+            r1cx connIdR1
+            r2cx connIdR2
+            r3cx connIdR3})
+
+(defpclass LLCInnerCEast [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1 connIdC2 connIdC3 connIdC4
+                  connIdR1 connIdR2 connIdR3 connIdR4]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            c2cx connIdC2
+            c3cx connIdC3
+            c4cx connIdC4
+            r1cx connIdR1
+            r2cx connIdR2
+            r3cx connIdR3
+            r4cx connIdR4})
+
+(defpclass LLCInnerCNorthEast [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1 connIdC2
+                  connIdR1]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            c2cx connIdC2
+            r1cx connIdR1})
+
+(defpclass LLCInnerCSouthEast [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1 connIdC2]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            c2cx connIdC2})
+
+(defpclass LLCInnerCWest [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1 connIdC2 connIdC3
+                  connIdR1 connIdR2 connIdR3 connIdR4 connIdR5 connIdR6]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            c2cx connIdC2
+            c3cx connIdC3
+            r1cx connIdR1
+            r2cx connIdR2
+            r3cx connIdR3
+            r4cx connIdR4
+            r5cx connIdR5
+            r6cx connIdR6})
+
+(defpclass LLCInnerCNorthWest [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1
+                  connIdR1 connIdR2 connIdR3]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            r1cx connIdR1
+            r2cx connIdR2
+            r3cx connIdR3})
+
+(defpclass LLCInnerCWestWest [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1]
+  :inherit [RectangularVolume]
+  :fields {c1cx connIdC1})
+
+(defpclass LLCInnerCEastWest [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                  connIdC1 connIdC2]
+  :inherit [RectangularVolume]
+  :fields {
+            c1cx connIdC1
+            c2cx connIdC2})
+
+;;-------------------------
+;; 3. Rooms
+(defpclass Room1Conn [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                      connId]
+  :meta {:doc "A Single Door Room"}
+  :inherit [RectangularVolume]
+  :modes {:unvisited (or (mode-of General :initial))
+          :visited true}
+  :fields {doorcx connId})
+
+(defpclass Room2Conn [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                      connId1 connId2]
+  :meta {:doc "A Two Door Room"}
+  :inherit [RectangularVolume]
+  :fields {doorcx connId1
+           doorcx2 connId2})
+
+(defpclass Room3Conn [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                      connId1 connId2 connId3]
+  :meta {:doc "A Three Door Room"}
+  :inherit [RectangularVolume]
+  :fields {doorcx connId1
+           doorcx2 connId2
+           doorcx3 connId3})
+
+(defpclass Room4Conn [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                      connId1 connId2 connId3 connId4]
+  :meta {:doc "A Four Door Room"}
+  :inherit [RectangularVolume]
+  :fields {doorcx connId1
+           doorcx2 connId2
+           doorcx3 connId3
+           doorcx4 connId4})
+
+(defpclass Room5Conn [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                      connId1 connId2 connId3 connId4 connId5]
+  :meta {:doc "A Five Door Room"}
+  :inherit [RectangularVolume]
+  :fields {doorcx connId1
+           doorcx2 connId2
+           doorcx3 connId3
+           doorcx4 connId4
+           doorcx5 connId5})
+
+;;-------------------------
+;; 4. Treatment Areas
+(defpclass TreatmentArea1Conn [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                              connId]
+  :inherit [RectangularVolume]
+  :fields { cx connId })
+
+(defpclass TreatmentArea2Conn [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY name
+                              connId1 connId2]
+  :inherit [RectangularVolume]
+  :fields { cx1 connId1 
+            cx2 connId2})
+
+;;-------------------------
+;; 5. Doors and Openings
+(defpclass Door [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY
+                name connId]
+    :meta {:doc "A Door"}
+    :modes [:open :closed :locked :blocked]
+    :inherit [Portal]
+    :methods [(defpmethod open
+                {:pre (and :closed (= command (mode-of DoorCommands :open)))
+                :post :open
+                :doc "opens the door"}
+                [command])
+                (defpmethod close
+                {:pre (and :open (= command (mode-of DoorCommands :close)))
+                :post :closed
+                :doc "closes the door"}
+                [command])
+                (defpmethod enter
+                {:pre (and :open (or (= command (mode-of DoorCommands :leave))
+                                    (= command (mode-of DoorCommands :enter))))
+                :doc "Enters the doorway"}
+                [command])
+                (defpmethod lock
+                {:pre (and :closed (= command (mode-of DoorCommands :lock)))
+                :post :locked
+                :doc "locks the door"}
+                [command])
+                (defpmethod unlock
+                {:pre (and :locked (= command (mode-of DoorCommands :unlock)))
+                :post :closed
+                :doc "unlocks the door"}
+                [command])])
+
+(defpclass DoubleDoor [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY
+                      name connId]
+    :inherit [Door])
+
+(defpclass Opening [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY
+                   name connId]
+    :meta {:doc "An Opening"}
+    :inherit [Portal]
+    :modes [:open])
+
+;;-------------------------
+;; 4. Additional Objects
+(defpclass hole-in-the-wall [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY
+                            name connId]
+    :inherit [Portal]
+    :fields {connection connId}
+    :modes [:open])
+
+(defpclass blockage  [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY
+                      name connId]
+    :meta {:doc "A Blockage"}
+    :inherit [Portal]
+    :modes [:blocked :unblocked])
+
+
+;;----------------------------------------------------;;
+;;                  The Saturn Model                  ;;
+;;----------------------------------------------------;;
+(defpclass Saturn []
+  :meta {:doc "Constructor of the SAR scenario - Saturn building"}
+  :fields {
+    ;;-------------------------
+    ;; 1. CONNECTIONS
+    ;; Format: connID    (lvar "object1-object2")
+    TAA-MCW      (lvar "TreatmentAreaA-Main Corridor West")
+    TAC-EL       (lvar "TreatmentAreaC-Lobby")
+    TAC-EW       (lvar "TreatmentAreaC-Entrance Walkway")
+    MCE-TAB      (lvar "Main Corridor East-TreatmentAreaB")
+    SRT-SCE	     (lvar "Storage T-Storage Corridor East")
+    SRU-SCE	     (lvar "Storage U-Storage Corridor East")
+    SRV-SCE	     (lvar "Storage V-Storage Corridor East")
+    SCC-SRQ	     (lvar "Storage Corridor Center-Storage Q")
+    SCC-SRR	     (lvar "Storage Corridor Center-Storage R")
+    SCC-SRS	     (lvar "Storage Corridor Center-Storage S")
+    SRM-SCC	     (lvar "Storage M-Storage Corridor Center")
+    SRN-SCC	     (lvar "Storage N-Storage Corridor Center")
+    SRO-SCC	     (lvar "Storage O-Storage Corridor Center")
+    SRP-SCC	     (lvar "Storage P-Storage Corridor Center")
+    SCW-SRI	     (lvar "Storage Corridor West-Storage I")
+    SCW-SRJ	     (lvar "Storage Corridor West-Storage J")
+    SCW-SRK	     (lvar "Storage Corridor West-Storage K")
+    SCW-SRL	     (lvar "Storage Corridor West-Storage L")
+    SRA-SCW	     (lvar "Storage A-Storage Corridor West")
+    SRC-SCW	     (lvar "Storage C-Storage Corridor West")
+    SRE-SCW	     (lvar "Storage E-Storage Corridor West")
+    SRG-SCW	     (lvar "Storage G-Storage Corridor West")
+    SRB-SRA	     (lvar "Storage B-Storage A")
+    SRD-SRC	     (lvar "Storage D-Storage C")
+    SRF-SRE	     (lvar "Storage F-Storage E")
+    SRH-SRG	     (lvar "Storage H-Storage G")
+    EL-SDC	     (lvar "Lobby-Sundollars Coffee")
+    BR-EL	       (lvar "Break Room-Lobby")
+    CA-BR	       (lvar "Cubicle Area-Break Room")
+    CA-O101	     (lvar "Cubicle Area-Office 101")
+    CA-O100	     (lvar "Cubicle Area-Office 100")
+    DS-CA	       (lvar "Data Storage-Cubicle Area")
+    BUF-KIT	     (lvar "Buffet-Kitchen")
+    R103-LLCN	   (lvar "Room 103-Limping Lamb Corridor North")
+    CCE-R103	   (lvar "Conference Corridor East-Room 103")
+    CCE-R109	   (lvar "Conference Corridor East-Room 109")
+    CCE-R108	   (lvar "Conference Corridor East-Room 108")
+    CCE-R107	   (lvar "Conference Corridor East-Room 107")
+    CCE-R106	   (lvar "Conference Corridor East-Room 106")
+    CCE-R105	   (lvar "Conference Corridor East-Room 105")
+    CCE-R104	   (lvar "Conference Corridor East-Room 104")
+    CF-CCE	     (lvar "The Computer Farm-Conference Corridor East")
+    CCW-CF	     (lvar "Conference Corridor West-The Computer Farm")
+    R102-CCE	   (lvar "Room 102-Conference Corridor East")
+    CCN-R101	   (lvar "Conference Corridor North-Room 101")
+    CRC-MKCR	   (lvar "Conference Room Corridor-Mary Kay Conference Room")
+    CRC-ACR	     (lvar "Conference Room Corridor-Amway Conference Room")
+    CCW-JC	     (lvar "Conference Corridor West-Janitor's Closet")
+    SO-MCW	     (lvar "Security Office-Main Corridor West")
+    OBA-CCW	     (lvar "Open Break Area-Conference Corridor West")
+    LIB-CCW	     (lvar "Library-Conference Corridor West")
+    KCO-CCW	     (lvar "King Chris's Office-Conference Corridor West")
+    TKT-KCO	     (lvar "The King's Terrace-King Chris's Office")
+    EL-EW	       (lvar "Lobby-Entrance Walkway")
+    RRC-WB	     (lvar "Restroom Corridor-Women's Room")
+    RRC-MB	     (lvar "Restroom Corridor-Men's Room")
+    CCN-HCR	     (lvar "Conference Corridor North-Herbalife Conference Room")
+    MCW-EL	     (lvar "Main Corridor West-Lobby")
+    EL-MCE	     (lvar "Lobby-Main Corridor East")
+    RRC-CCE	     (lvar "Restroom Corridor-Conference Corridor East")
+    CRC-CCE	     (lvar "Conference Room Corridor-Conference Corridor East")
+    CCN-CCE	     (lvar "Conference Corridor North-Conference Corridor East")
+    CCW-MCW	     (lvar "Conference Corridor West-Main Corridor West")
+    CCE-R110	   (lvar "Conference Corridor East-Room 110")
+    MCW-CCE	     (lvar "Main Corridor West-Conference Corridor East")
+    LLCN-SCN	   (lvar "Limping Lamb Corridor North-Storage Corridor North")
+    MCE-SCW	     (lvar "Main Corridor East-Storage Corridor West")
+    MCE-SCC	     (lvar "Main Corridor East-Storage Corridor Center")
+    MCE-SCE	     (lvar "Main Corridor East-Storage Corridor East")
+    SCN-SCE	     (lvar "Storage Corridor North-Storage Corridor East")
+    MCW-CA	     (lvar "Main Corridor West-Cubicle Area")
+    SGA-EW	     (lvar "Staging Area-Entrance Walkway")
+    SDC-MCE	     (lvar "Sundollars Coffee-Main Corridor East")
+    WB-WB	       (lvar "Women's Room-Women's Room")
+    HCR-CRC	     (lvar "Herbalife Conference Room-Conference Room Corridor")
+    JC-MB	       (lvar "Janitor's Closet-Men's Room")
+    MB-MB	       (lvar "Men's Room-Men's Room")
+    CCW-RRC	     (lvar "Conference Corridor West-Restroom Corridor")
+    CCW-CRC	     (lvar "Conference Corridor West-Conference Room Corridor")
+    CCW-CCN	     (lvar "Conference Corridor West-Conference Corridor North")
+    SCN-SCW	     (lvar "Storage Corridor North-Storage Corridor West")
+    SCN-SCC	     (lvar "Storage Corridor North-Storage Corridor Center")
+    ;; Limping Lamb Chophouse Connections
+    LLCICNE-BUF	 (lvar "LLCInnerCNorthEast-Buffet")
+    LLCICE-BUF	 (lvar "LLCInnerCEast-Buffet")
+    LLCN-LLCICNE (lvar "Limping Lamb Corridor North-LLCInnerCNorthEast")
+    LLCICSE-EL	 (lvar "LLCInnerCSouthEast-Lobby")
+    LLCICE-EL	   (lvar "LLCInnerCEast-Lobby")
+    LLCR1-LLCICNW   (lvar "llc_1-LLCInnerCNorthWest")
+    LLCR2-LLCICNW   (lvar "llc_2-LLCInnerCNorthWest")
+    LLCR3-LLCICNW   (lvar "llc_3-LLCInnerCNorthWest")
+    LLCR8-LLCICE    (lvar "llc_8-LLCInnerCEast")
+    LLCR14-LLCICW   (lvar "llc_14-LLCInnerCWest")
+    LLCR15-LLCICW   (lvar "llc_15-LLCInnerCWest")
+    LLCR16-LLCICE   (lvar "llc_16-LLCInnerCEast")
+    LLCR23-LLCICW   (lvar "llc_23-LLCInnerCWest")
+    LLCR24-LLCICW   (lvar "llc_24-LLCInnerCWest")
+    LLCR25-LLCICE   (lvar "llc_25-LLCInnerCEast")
+    LLCR30-LLCICW   (lvar "llc_30-LLCInnerCWest")
+    LLCR31-LLCICW   (lvar "llc_31-LLCInnerCWest")
+    LLCICEW-LLCICE  (lvar "LLCInnerCEastWest-LLCInnerCEast")
+    LLCICSE-LLCICE  (lvar "LLCInnerCSouthEast-LLCInnerCEast")
+    LLCICNE-LLCICE  (lvar "LLCInnerCNorthEast-LLCInnerCEast")
+    LLCICNW-LLCICW  (lvar "LLCInnerCNorthWest-LLCInnerCWest")
+    LLCICWW-LLCICW  (lvar "LLCInnerCWestWest-LLCInnerCWest")
+    LLCICEW-LLCICW  (lvar "LLCInnerCEastWest-LLCInnerCWest")
+
+    ;;-------------------------
+    ;; 2. OBJECTS
+    ;; 2a. Doors
+    ;; Format: doorID  (Function topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY testbedName connID)
+    door1	      (Door -2091 42 60 -2090 43 61 "c_110_-33_111_-32"       SRT-SCE)
+    door2	      (Door -2091 23 60 -2090 24 61 "c_110_-52_111_-51"       SRU-SCE)
+    door3	      (Door -2091 6 60 -2090 7 61 "c_110_-69_111_-68"         SRV-SCE)
+    door4	      (Door -2100 50 60 -2099 51 61 "c_101_-25_102_-24"       SCC-SRQ)
+    door5	      (Door -2100 32 60 -2099 33 61 "c_101_-43_102_-42"       SCC-SRR)
+    door6	      (Door -2100 15 60 -2099 16 61 "c_101_-60_102_-59"       SCC-SRS)
+    door7	      (Door -2104 49 60 -2103 50 61 "c_97_-26_98_-25"         SRM-SCC)
+    door8	      (Door -2104 38 60 -2103 39 61 "c_97_-37_98_-36"         SRN-SCC)
+    door9       (Door -2104 27 60 -2103 28 61 "c_97_-48_98_-47"         SRO-SCC)
+    door10	    (Door -2104 16 60 -2103 17 61 "c_97_-59_98_-58"         SRP-SCC)
+    door11	    (Door -2116 51 60 -2115 52 61 "c_85_-24_86_-23"         SCW-SRI)
+    door12	    (Door -2116 40 60 -2115 41 61 "c_85_-35_86_-34"         SCW-SRJ)
+    door13	    (Door -2116 29 60 -2115 30 61 "c_85_-46_86_-45"         SCW-SRK)
+    door14	    (Door -2116 18 60 -2115 19 61 "c_85_-57_86_-56"         SCW-SRL)
+    door15	    (Door -2123 51 60 -2122 52 61 "c_78_-24_79_-23"         SRA-SCW)
+    door16	    (Door -2123 40 60 -2122 41 61 "c_78_-35_79_-34"         SRC-SCW)
+    door17	    (Door -2123 29 60 -2122 30 61 "c_78_-46_79_-45"         SRE-SCW)
+    door18	    (Door -2123 18 60 -2122 19 61 "c_78_-57_79_-56"         SRG-SCW)
+    door19	    (Door -2129 49 60 -2128 50 61 "c_72_-26_73_-25"         SRB-SRA)
+    door20	    (Door -2129 37 60 -2128 38 61 "c_72_-38_73_-37"         SRD-SRC)
+    door21	    (Door -2129 27 60 -2128 28 61 "c_72_-48_73_-47"         SRF-SRE)
+    door22	    (Door -2129 15 60 -2128 16 61 "c_72_-60_73_-59"         SRH-SRG)
+    door23	    (DoubleDoor -2150 45 60 -2149 47 61 "c_51_-30_52_-28"   EL-SDC)
+    door24	    (Door -2158 38 60 -2157 39 61 "c_43_-37_44_-36"         BR-EL)
+    door25	    (DoubleDoor -2164 43 60 -2162 44 61 "c_37_-32_39_-31"   CA-BR)
+    door26	    (Door -2162 50 60 -2161 51 61 "c_39_-25_40_-24"         CA-O101)
+    door27	    (Door -2162 45 60 -2161 46 61 "c_39_-30_40_-29"         CA-O100)
+    door28	    (DoubleDoor -2174 43 60 -2172 44 61 "c_27_-32_29_-31"   DS-CA)
+    door29	    (Door -2141 32 60 -2140 33 61 "c_60_-43_61_-42"         BUF-KIT)
+    door30	    (Door -2141 26 60 -2140 27 61 "c_60_-49_61_-48"         BUF-KIT)
+    door31	    (Door -2141 20 60 -2140 21 61 "c_60_-55_61_-54"         BUF-KIT)
+    door32	    (Door -2141 14 60 -2140 15 61 "c_60_-61_61_-60"         BUF-KIT)
+    door33	    (Door -2141 8 60 -2140 9 61 "c_60_-67_61_-66"           BUF-KIT)
+    door34	    (Door -2143 6 60 -2142 7 61 "c_58_-69_59_-68"           BUF-KIT)
+    door35	    (Door -2175 0 60 -2174 1 61 "c_26_-75_27_-74"           R103-LLCN)
+    door36	    (Door -2185 5 60 -2184 6 61 "c_16_-70_17_-69"           CCE-R103)
+    door37	    (Door -2185 47 60 -2184 48 61 "c_16_-28_17_-27"         CCE-R109)
+    door38	    (Door -2185 40 60 -2184 41 61 "c_16_-35_17_-34"         CCE-R108)
+    door39	    (Door -2185 33 60 -2184 34 61 "c_16_-42_17_-41"         CCE-R107)
+    door40	    (Door -2185 26 60 -2184 27 61 "c_16_-49_17_-48"         CCE-R106)
+    door41	    (Door -2185 19 60 -2184 20 61 "c_16_-56_17_-55"         CCE-R105)
+    door42	    (Door -2185 12 60 -2184 13 61 "c_16_-63_17_-62"         CCE-R104)
+    door43	    (Door -2191 50 60 -2190 51 61 "c_10_-25_11_-24"         CF-CCE)
+    door44	    (Door -2210 50 60 -2209 51 61 "c_-9_-25_-8_-24"         CCW-CF)
+    door45	    (Door -2191 5 60 -2190 6 61 "c_10_-70_11_-69"           R102-CCE)
+    door46	    (Door -2199 6 60 -2198 7 61 "c_2_-69_3_-68"             CCN-R101)
+    door47	    (DoubleDoor -2199 28 60 -2197 29 61 "c_2_-47_4_-46"     CRC-MKCR)
+    door48	    (DoubleDoor -2203 28 60 -2201 29 61 "c_-2_-47_0_-46"    CRC-ACR)
+    door49	    (Door -2210 38 60 -2209 39 61 "c_-9_-37_-8_-36"         CCW-JC)
+    door50	    (Door -2216 58 60 -2215 59 61 "c_-15_-17_-14_-16"       SO-MCW)
+    door51	    (Door -2216 45 60 -2215 46 61 "c_-15_-30_-14_-29"       LIB-CCW)
+    door52	    (Door -2216 29 60 -2215 30 61 "c_-15_-46_-14_-45"       LIB-CCW)
+    door53	    (DoubleDoor -2216 12 60 -2215 14 61 "c_-15_-63_-14_-61" KCO-CCW)
+    door54	    (DoubleDoor -2217 -2 60 -2215 -1 61 "c_-16_-77_-14_-76" TKT-KCO)
+    door55	    (DoubleDoor -2156 61 60 -2154 62 61 "c_45_-14_46_-13"   EL-EW)
+    door56	    (DoubleDoor -2153 61 60 -2151 62 61 "c_48_-14_50_-13"   EL-EW)
+    door57	    (Door -2195 40 60 -2194 41 61 "c_6_-35_7_-34"           RRC-WB)
+    door58	    (Door -2201 40 60 -2200 41 61 "c_0_-35_1_-34"           RRC-MB)
+    door59	    (Door -2185 53 60 -2184 54 61 "c_16_-22_17_-21"         CCE-R110)
+    door60	    (DoubleDoor -2209 12 60 -2207 13 61 "c_-8_-63_-6_-62"   CCN-HCR)
+    door61	    (DoubleDoor -2137 54 60 -2135 55 61 "c_64_-21_66_-20"   SDC-MCE)
+    door62	    (DoubleDoor -2193 38 60 -2191 39 61 "c_8_-37_10_-36"    WB-WB)
+    door63	    (DoubleDoor -2193 22 60 -2191 23 61 "c_8_-53_10_-52"    HCR-CRC)
+    door64	    (Door -2205 36 60 -2204 37 61 "c_-4_-39_-3_-38"         JC-MB)
+    door65      (DoubleDoor -2156 61 60 -2154 62 61 "c_45_-14_47_-13"   TAC-EL)
+    door66		  (DoubleDoor -2153 61 60 -2151 62 61 "c_48_-14_50_-13"   TAC-EL)
+
+
+    ;; 2b. Openings
+    opening1		(Opening -2155 65 60 -2152 66 61 "c_46_-10_49_-9"       TAC-EW)   ;; TreatmentArea
+    opening2		(Opening -2213 60 60 -2211 61 61 "c_-12_-15_-10_-14"    TAA-MCW)  ;; TreatmentArea
+    opening3		(Opening -2100 60 60 -2098 61 61 "c_101_-15_103_-14"    MCE-TAB)  ;; TreatmentArea
+    opening3	  (Opening -2216 49 60 -2215 54 61 "c_-15_-26_-14_-21"    OBA-CCW)
+    opening4	  (Opening -2158 55 60 -2157 60 61 "c_43_-20_44_-15"      MCW-EL)
+    opening5	  (Opening -2150 55 60 -2149 60 61 "c_51_-20_52_-15"      EL-MCE)
+    opening6	  (Opening -2191 41 60 -2190 46 61 "c_10_-34_11_-29"      RRC-CCE)
+    opening7	  (Opening -2191 23 60 -2190 28 61 "c_10_-52_11_-47"      CRC-CCE)
+    opening8	  (Opening -2191 7 60 -2190 12 61 "c_10_-68_11_-63"       CCN-CCE)
+    opening9    (Opening -2215 54 60 -2210 55 61 "c_-14_-21_-9_-20"     CCW-MCW)
+    opening10   (Opening -2190 54 60 -2185 55 61 "c_11_-21_16_-20"      MCW-CCE)
+    opening11	  (Opening -2135 0 60 -2134 3 61 "c_66_-75_67_-72"        LLCN-SCN)
+    opening12	  (Opening -2122 54 60 -2116 55 61 "c_79_-21_85_-20"      MCE-SCW)
+    opening13   (Opening -2103 54 60 -2100 55 61 "c_98_-21_101_-20"     MCE-SCC)
+    opening14	  (Opening -2090 54 60 -2087 55 61 "c_111_-21_114_-20"    MCE-SCE)
+    opening15	  (Opening -2090 2 60 -2087 3 61 "c_111_-73_114_-72"      SCN-SCE)
+    opening16   (Opening -2174 54 60 -2172 55 61 "c_27_-21_29_-20"      MCW-CA)
+    opening17	  (Opening -2155 110 60 -2152 111 61 "c_46_35_49_36"      SGA-EW)
+    opening18	  (Opening -2156 4 60 -2151 5 61 "c_45_-71_50_-70"        LLCN-LLCICNE)
+    opening20   (Opening -2204 38 60 -2203 39 61 "c_-3_-37_-2_-36"      MB-MB)
+    opening21	  (Opening -2199 38 60 -2198 39 61 "c_2_-37_3_-36"        MB-MB)
+    opening22	  (Opening -2197 38 60 -2196 39 61 "c_4_-37_5_-36"        WB-WB)
+    opening23	  (Opening -2164 54 60 -2162 55 61 "c_37_-21_39_-20"      MCW-CA)
+    opening25   (Opening -2210 41 60 -2209 46 61 "c_-9_-34_-8_-29"      CCW-RRC)
+    opening26	  (Opening -2210 23 60 -2209 28 61 "c_-9_-52_-8_-47"      CCW-CRC)
+    opening27	  (Opening -2210 7 60 -2209 12 61 "c_-9_-68_-8_-63"       CCW-CCN)
+    opening28	  (Opening -2122 7 60 -2116 8 61 "c_79_-68_85_-67"        SCN-SCW)
+    opening29   (Opening -2103 10 60 -2100 11 61 "c_98_-65_101_-64"     SCN-SCC)
+    opening30   (Opening -2171 9 60 -2170 10 61 "llc_6"                 LLCR1-LLCICNW)     ;; LLC Inner
+    opening31   (Opening -2166 9 60 -2165 10 61 "llc_7"                 LLCR2-LLCICNW)     ;; LLC Inner
+    opening32   (Opening -2153 10 60 -2152 11 61 "llc_10"               LLCR8-LLCICE)      ;; LLC Inner
+    opening33   (Opening -2163 15 60 -2162 16 61 "llc_17"               LLCR15-LLCICW)     ;; LLC Inner
+    opening34   (Opening -2167 16 60 -2166 17 61 "llc_18"               LLCR14-LLCICW)     ;; LLC Inner
+    opening35   (Opening -2153 16 60 -2152 17 61 "llc_19"               LLCR16-LLCICE)     ;; LLC Inner
+    opening36   (Opening -2163 24 60 -2162 25 61 "llc_26"               LLCR24-LLCICW)     ;; LLC Inner
+    opening37   (Opening -2153 24 60 -2152 25 61 "llc_27"               LLCR25-LLCICE)     ;; LLC Inner
+    opening38   (Opening -2167 25 60 -2166 26 61 "llc_28"               LLCR23-LLCICW)     ;; LLC Inner
+    opening39   (Opening -2163 29 60 -2162 30 61 "llc_33"               LLCR31-LLCICW)     ;; LLC Inner
+    opening40   (Opening -2167 30 60 -2166 31 61 "llc_34"               LLCR30-LLCICW)     ;; LLC Inner
+
+    ;; 2c. Room  
+    TKT	  (Room1Conn -2224 -10 60 -2208 -2 61 "The King's Terrace"          TKT-KCO)
+    LIB	  (Room1Conn -2224 16 60 -2216 46 61 "Library"                      LIB-CCW)
+    OBA	  (Room1Conn -2224 47 60 -2216 56 61 "Open Break Area"              OBA-CCW)
+    SO	  (Room1Conn -2224 57 60 -2216 59 61 "Security Office"              SO-MCW)
+    ACR	  (Room1Conn -2209 29 60 -2201 35 61 "Amway Conference Room"        CRC-ACR)
+    R101  (Room1Conn -2206 -1 60 -2198 6 61 "Room 101"                      CCN-R101)
+    MKCR	(Room1Conn -2199 29 60 -2191 35 61 "Mary Kay Conference Room"     CRC-MKCR)
+    R102	(Room1Conn -2197 -1 60 -2191 6 61 "Room 102"                      R102-CCE)
+    R104	(Room1Conn -2184 7 60 -2175 13 61 "Room 104"                      CCE-R104)
+    R105	(Room1Conn -2184 14 60 -2175 20 61 "Room 105"                     CCE-R105)
+    R106	(Room1Conn -2184 21 60 -2175 27 61 "Room 106"                     CCE-R106)
+    R107	(Room1Conn -2184 28 60 -2175 34 61 "Room 107"                     CCE-R107)
+    R108	(Room1Conn -2184 35 60 -2175 41 61 "Room 108"                     CCE-R108)
+    R109	(Room1Conn -2184 42 60 -2175 48 61 "Room 109"                     CCE-R109)
+    R110	(Room1Conn -2184 49 60 -2175 54 61 "Room 110"                     CCE-R110)
+    DS	  (Room1Conn -2174 35 60 -2169 43 61 "Data Storage"                 DS-CA)
+    O100	(Room1Conn -2161 45 60 -2158 49 61 "Office 100"                   CA-O100)
+    O101	(Room1Conn -2161 50 60 -2158 54 61 "Office 101"                   CA-O101)
+    SGA	  (Room1Conn -2159 111 60 -2148 128 61 "Staging Area"               SGA-EW)
+    KIT	  (Room1Conn -2142 5 60 -2135 37 61 "Kitchen"                       BUF-KIT)
+    SRH	  (Room1Conn -2133 11 60 -2129 21 61 "Storage H"                    SRH-SRG)
+    SRF	  (Room1Conn -2133 22 60 -2129 32 61 "Storage F"                    SRF-SRE)
+    SRD	  (Room1Conn -2133 33 60 -2129 43 61 "Storage D"                    SRD-SRC)
+    SRB	  (Room1Conn -2133 44 60 -2129 54 61 "Storage B"                    SRB-SRA)
+    SRL	  (Room1Conn -2115 11 60 -2110 21 61 "Storage L"                    SCW-SRL)
+    SRK	  (Room1Conn -2115 22 60 -2110 32 61 "Storage K"                    SCW-SRK)
+    SRJ	  (Room1Conn -2115 33 60 -2110 43 61 "Storage J"                    SCW-SRJ)
+    SRI	  (Room1Conn -2115 44 60 -2110 54 61 "Storage I"                    SCW-SRI)
+    SRP	  (Room1Conn -2109 11 60 -2104 21 61 "Storage P"                    SRP-SCC)
+    SRO	  (Room1Conn -2109 22 60 -2104 32 61 "Storage O"                    SRO-SCC)
+    SRN	  (Room1Conn -2109 33 60 -2104 43 61 "Storage N"                    SRN-SCC)
+    SRM	  (Room1Conn -2109 44 60 -2104 54 61 "Storage M"                    SRM-SCC)
+    SRV	  (Room1Conn -2099 3 60 -2091 10 61 "Storage V"                     SRV-SCE)
+    SRS	  (Room1Conn -2099 11 60 -2091 19 61 "Storage S"                    SCC-SRS)
+    SRU	  (Room1Conn -2099 20 60 -2091 28 61 "Storage U"                    SRU-SCE)
+    SRR	  (Room1Conn -2099 29 60 -2091 37 61 "Storage R"                    SCC-SRR)
+    SRT	  (Room1Conn -2099 38 60 -2091 46 61 "Storage T"                    SRT-SCE)
+    SRQ	  (Room1Conn -2099 47 60 -2091 54 61 "Storage Q"                    SCC-SRQ)
+    WB	  (Room2Conn -2197 36 60 -2191 40 61 "Women's Room"                 RRC-WB WB-WB)
+    R103  (Room2Conn -2184 -1 60 -2175 6 61 "Room 103"                      R103-LLCN CCE-R103)
+    HCR	  (Room2Conn -2209 13 60 -2191 22 61 "Herbalife Conference Room"    CCN-HCR HCR-CRC)
+    KCO	  (Room2Conn -2224 -1 60 -2207 14 61 "King Chris's Office"          KCO-CCW   TKT-KCO)
+    JC	  (Room2Conn -2209 36 60 -2205 40 61 "Janitor's Closet"             CCW-JC    JC-MB)
+    CF	  (Room2Conn -2209 47 60 -2191 54 61 "The Computer Farm"            CF-CCE    CCW-CF)
+    SRG	  (Room2Conn -2128 11 60 -2123 21 61 "Storage G"                    SRG-SCW   SRH-SRG)
+    SRE	  (Room2Conn -2128 22 60 -2123 32 61 "Storage E"                    SRE-SCW   SRF-SRE)
+    SRC	  (Room2Conn -2128 33 60 -2123 43 61 "Storage C"                    SRC-SCW   SRD-SRC)
+    SRA	  (Room2Conn -2128 44 60 -2123 54 61 "Storage A"                    SRA-SCW   SRB-SRA)
+    SDC	  (Room2Conn -2149 38 60 -2135 54 61 "Sundollars Coffee"            EL-SDC    SDC-MCE)
+    BUF	  (Room2Conn -2148 5 60 -2141 36 61 "Buffet"                        BUF-KIT   LLCICE-BUF)
+    BR	  (Room2Conn -2168 34 60 -2158 43 61 "Break Room"                   BR-EL     CA-BR)
+    MB	  (Room3Conn -2204 36 60 -2198 40 61 "Men's Room"                   RRC-MB    JC-MB     MB-MB)
+    CA	  (Room5Conn -2174 44 60 -2162 54 61 "Cubicle Area"                 CA-BR     CA-O101   CA-O100   DS-CA     MCW-CA)
+    ;; LLC	  (Room5Conn -2173 5 60 -2149 33 61 "The Limping Lamb Chophouse"    LLC-BUF   R103-LLCN LLCN-SCN  LLCN-LLC  LLC-EL) ;; Replaced with broken down areas
+    ;; Inner LLC
+    LLCR1    (Room1Conn -2173 5 60 -2169 9 61 "llc_1"              LLCR1-LLCICNW)
+    LLCR2    (Room1Conn -2173 5 60 -2164 9 61 "llc_2"              LLCR2-LLCICNW)
+    LLCR3    (Room1Conn -2163 5 60 -2158 13 61 "llc_3-12"          LLCR3-LLCICNW)
+    LLCR8    (Room1Conn -2157 9 60 -2153 13 61 "llc_8"             LLCR8-LLCICE)
+    LLCR14   (Room1Conn -2173 14 60 -2167 18 61 "llc_14"           LLCR14-LLCICW)
+    LLCR15   (Room1Conn -2162 14 60 -2158 18 61 "llc_15"           LLCR15-LLCICW)
+    LLCR16   (Room1Conn -2157 14 60 -2153 18 61 "llc_16"           LLCR16-LLCICE)
+    LLCR23   (Room1Conn -2173 23 60 -2167 27 61 "llc_23"           LLCR23-LLCICW)
+    LLCR24   (Room1Conn -2162 23 60 -2158 27 61 "llc_24"           LLCR24-LLCICW)
+    LLCR25   (Room1Conn -2157 23 60 -2153 27 61 "llc_25"           LLCR25-LLCICE)
+    LLCR30   (Room1Conn -2173 28 60 -2167 32 61 "llc_30"           LLCR30-LLCICW)
+    LLCR31   (Room1Conn -2162 28 60 -2158 32 61 "llc_31"           LLCR31-LLCICW)
+
+
+    ;; 2d. TreatmentArea 
+    TAA	(TreatmentArea1Conn -2224 61 60 -2208 64 61 "Treatment Area A" TAA-MCW)
+    TAC	(TreatmentArea2Conn -2162 62 60 -2145 65 61 "Treatment Area C" TAC-EL TAC-EW)
+    TAB	(TreatmentArea1Conn -2103 61 60 -2087 64 61 "Treatment Area B" MCE-TAB)
+
+    ;; 2f. Corridors
+    CCW	  (ConferenceCWest    -2215 7 60 -2210 54 61      "Conference Corridor West"      CCW-MCW CCW-RRC CCW-CRC CCW-CCN CCW-CF CCW-JC OBA-CCW LIB-CCW KCO-CCW) ;; 4C 5R
+    MCW	  (MainCWest          -2215 55 60 -2158 60 61     "Main Corridor West"            MCW-EL CCW-MCW MCW-CCE SO-MCW MCW-CA TAA-MCW)       ;; 3C 2R 1TM
+    CCN	  (ConferenceCNorth   -2209 7 60 -2191 12 61      "Conference Corridor North"     CCN-CCE CCW-CCN CCN-R101 CCN-HCR)           ;; 2C 2R
+    CRC	  (ConferenceRoomC    -2209 23 60 -2191 28 61     "Conference Room Corridor"      CCW-CRC CRC-CCE CRC-MKCR CRC-ACR HCR-CRC)   ;; 2C 3R
+    RRC	  (RestroomC          -2209 41 60 -2191 46 61     "Restroom Corridor"             RRC-WB RRC-CCE CCW-RRC RRC-MB)              ;; 2C 2R
+    CCE	  (ConferenceCEast    -2190 -1 60 -2185 54 61     "Conference Corridor East"      RRC-CCE CRC-CCE CCN-CCE MCW-CCE CCE-R110 CCE-R103 CCE-R109 CCE-R108 CCE-R107 CCE-R106 CCE-R105 CCE-R104 CF-CCE R102-CCE) ;; 4C 10R
+    LLCN  (LimpingLambCNorth  -2174 -1 60 -2135 4 61      "Limping Lamb Corridor North"   LLCN-SCN R103-LLCN LLCN-LLCICNE)                ;; 1C 2R
+    EL	  (Lobby              -2157 34 60 -2150 61 61     "Lobby"                         EL-EW MCW-EL EL-MCE EL-SDC BR-EL LLCICE-EL TAC-EL)    ;; 3C 3R 1TM
+    EW	  (EntranceWalkway    -2157 62 60 -2150 110 61    "Entrance Walkway"              EL-EW SGA-EW TAC-EW)                               ;; 1C 1R  1TM (before entering the building) Areas leading to the lobby.
+    MCE	  (MainCEast          -2149 55 60 -2087 60 61     "Main Corridor East"            EL-MCE MCE-SCW MCE-SCC MCE-SCE SDC-MCE MCE-TAB)     ;; 5C 0R 1TM
+    SCN	  (StorageCNorth      -2134 -1 60 -2087 10 61     "Storage Corridor North"        LLCN-SCN SCN-SCE SCN-SCW SCN-SCC)           ;; 4C 0R
+    SCW	  (StorageCWest       -2122 8 60 -2116 54 61      "Storage Corridor West"         MCE-SCW SCN-SCW SCW-SRI SCW-SRJ SCW-SRK SCW-SRL SRA-SCW SRC-SCW SRE-SCW SRG-SCW) ;; 2C 8R
+    SCC	  (StorageCCenter     -2103 11 60 -2100 54 61     "Storage Corridor Center"       MCE-SCC SCN-SCC SCC-SRQ SCC-SRR SCC-SRS SRM-SCC SRN-SCC SRO-SCC SRP-SCC)         ;; 2C 7R
+    SCE	  (StorageCEast       -2090 3 60 -2087 54 61      "Storage Corridor East"         MCE-SCE SCN-SCE SRT-SCE SRU-SCE SRV-SCE)    ;; 2C 3R
+    ;; LLCIC = Limping Lamb Chophouse Inner Corridor
+    LLCICE  (LLCInnerCEast        -2152 8 60  -2149 33 61 "llc_5"       LLCICEW-LLCICE LLCICSE-LLCICE LLCICNE-LLCICE LLCICE-EL LLCR8-LLCICE LLCR16-LLCICE LLCR25-LLCICE LLCICE-BUF)  ;; 4C 4R
+    LLCICNE (LLCInnerCNorthEast   -2157 5 60  -2149 8  61 "llc_4"       LLCICNE-LLCICE LLCN-LLCICNE LLCICNE-BUF) ;; 2C 1R
+    LLCICSE (LLCInnerCSouthEast   -2157 28 60 -2152 33 61 "llc_32"      LLCICSE-LLCICE LLCICSE-EL) ;; 2C
+    LLCICW  (LLCInnerCWest        -2166 13 60 -2163 32 61 "llc_13-11-17-18-20-21-22-28-29-34-35"       LLCICNW-LLCICW LLCICWW-LLCICW LLCICEW-LLCICW LLCR15-LLCICW LLCR14-LLCICW LLCR24-LLCICW LLCR23-LLCICW LLCR31-LLCICW LLCR30-LLCICW )  ;; 3C 6R
+    LLCICNW (LLCInnerCNorthWest   -2173 10 60 -2163 13 61 "llc_9-11"    LLCICNW-LLCICW LLCR1-LLCICNW LLCR2-LLCICNW LLCR3-LLCICNW) ;;  1C 3R
+    LLCICWW  (LLCInnerCWestWest    -2173 19 60 -2166 22 61 "llc_21"     LLCICWW-LLCICW) ;; 1C
+    LLCICEW  (LLCInnerCEastWest    -2163 19 60 -2152 22 61 "llc_21"     LLCICEW-LLCICW LLCICEW-LLCICE) ;; 2C
+
+    ;; 2e. Building
+    building (Building CCW MCW CCN CRC RRC CCE LLCN EL EW MCE SCN SCW SCC SCE)
+
+    ;;-------------------------
+    ;; 3. AUTOGENERATED FROM THE MINECRAFT WORLD
+    ;; 3a. Minecraft objects of type  :wall_sign
+    wall_sign21143 (Minecraft-object-wall_sign -2143 127 61 -2143 127 61 "wall_sign")
+    wall_sign21144 (Minecraft-object-wall_sign -2144 127 62 -2144 127 62 "wall_sign")
+    wall_sign21145 (Minecraft-object-wall_sign -2144 127 60 -2144 127 60 "wall_sign")
+    wall_sign21146 (Minecraft-object-wall_sign -2145 127 61 -2145 127 61 "wall_sign")
+    wall_sign21147 (Minecraft-object-wall_sign -2152 127 62 -2152 127 62 "wall_sign")
+    wall_sign21148 (Minecraft-object-wall_sign -2154 127 62 -2154 127 62 "wall_sign")
+    wall_sign21149 (Minecraft-object-wall_sign -2156 127 62 -2156 127 62 "wall_sign")
+    wall_sign21150 (Minecraft-object-wall_sign -2147 125 61 -2147 125 61 "wall_sign")
+    wall_sign21151 (Minecraft-object-wall_sign -2141 124 62 -2141 124 62 "wall_sign")
+    wall_sign21152 (Minecraft-object-wall_sign -2147 124 62 -2147 124 62 "wall_sign")
+    wall_sign21153 (Minecraft-object-wall_sign -2147 124 61 -2147 124 61 "wall_sign")
+    wall_sign21154 (Minecraft-object-wall_sign -2147 124 60 -2147 124 60 "wall_sign")
+    wall_sign21155 (Minecraft-object-wall_sign -2147 123 61 -2147 123 61 "wall_sign")
+    wall_sign21156 (Minecraft-object-wall_sign -2141 120 62 -2141 120 62 "wall_sign")
+    wall_sign21157 (Minecraft-object-wall_sign -2141 116 62 -2141 116 62 "wall_sign")
+    wall_sign21158 (Minecraft-object-wall_sign -2215 57 61 -2215 57 61 "wall_sign")
+    wall_sign21159 (Minecraft-object-wall_sign -2186 54 61 -2186 54 61 "wall_sign")
+    wall_sign21160 (Minecraft-object-wall_sign -2101 52 61 -2101 52 61 "wall_sign")
+    wall_sign21161 (Minecraft-object-wall_sign -2117 51 62 -2117 51 62 "wall_sign")
+    wall_sign21162 (Minecraft-object-wall_sign -2122 51 62 -2122 51 62 "wall_sign")
+    wall_sign21163 (Minecraft-object-wall_sign -2211 51 61 -2211 51 61 "wall_sign")
+    wall_sign21164 (Minecraft-object-wall_sign -2163 50 62 -2163 50 62 "wall_sign")
+    wall_sign21165 (Minecraft-object-wall_sign -2090 49 61 -2090 49 61 "wall_sign")
+    wall_sign21166 (Minecraft-object-wall_sign -2190 49 61 -2190 49 61 "wall_sign")
+    wall_sign21167 (Minecraft-object-wall_sign -2186 48 61 -2186 48 61 "wall_sign")
+    wall_sign21168 (Minecraft-object-wall_sign -2215 48 61 -2215 48 61 "wall_sign")
+    wall_sign21169 (Minecraft-object-wall_sign -2151 46 62 -2151 46 62 "wall_sign")
+    wall_sign21170 (Minecraft-object-wall_sign -2215 46 61 -2215 46 61 "wall_sign")
+    wall_sign21171 (Minecraft-object-wall_sign -2151 45 62 -2151 45 62 "wall_sign")
+    wall_sign21172 (Minecraft-object-wall_sign -2163 45 62 -2163 45 62 "wall_sign")
+    wall_sign21173 (Minecraft-object-wall_sign -2163 44 62 -2163 44 62 "wall_sign")
+    wall_sign21174 (Minecraft-object-wall_sign -2164 44 62 -2164 44 62 "wall_sign")
+    wall_sign21175 (Minecraft-object-wall_sign -2173 44 62 -2173 44 62 "wall_sign")
+    wall_sign21176 (Minecraft-object-wall_sign -2174 44 62 -2174 44 62 "wall_sign")
+    wall_sign21177 (Minecraft-object-wall_sign -2101 42 61 -2101 42 61 "wall_sign")
+    wall_sign21178 (Minecraft-object-wall_sign -2186 41 61 -2186 41 61 "wall_sign")
+    wall_sign21179 (Minecraft-object-wall_sign -2194 41 61 -2194 41 61 "wall_sign")
+    wall_sign21180 (Minecraft-object-wall_sign -2200 41 61 -2200 41 61 "wall_sign")
+    wall_sign21181 (Minecraft-object-wall_sign -2117 40 62 -2117 40 62 "wall_sign")
+    wall_sign21182 (Minecraft-object-wall_sign -2122 40 62 -2122 40 62 "wall_sign")
+    wall_sign21183 (Minecraft-object-wall_sign -2090 39 61 -2090 39 61 "wall_sign")
+    wall_sign21184 (Minecraft-object-wall_sign -2211 39 61 -2211 39 61 "wall_sign")
+    wall_sign21185 (Minecraft-object-wall_sign -2157 38 62 -2157 38 62 "wall_sign")
+    wall_sign21186 (Minecraft-object-wall_sign -2204 37 61 -2204 37 61 "wall_sign")
+    wall_sign21187 (Minecraft-object-wall_sign -2153 34 62 -2153 34 62 "wall_sign")
+    wall_sign21188 (Minecraft-object-wall_sign -2154 34 62 -2154 34 62 "wall_sign")
+    wall_sign21189 (Minecraft-object-wall_sign -2155 34 62 -2155 34 62 "wall_sign")
+    wall_sign21190 (Minecraft-object-wall_sign -2186 34 61 -2186 34 61 "wall_sign")
+    wall_sign21191 (Minecraft-object-wall_sign -2101 33 61 -2101 33 61 "wall_sign")
+    wall_sign21192 (Minecraft-object-wall_sign -2142 33 61 -2142 33 61 "wall_sign")
+    wall_sign21193 (Minecraft-object-wall_sign -2090 30 61 -2090 30 61 "wall_sign")
+    wall_sign21194 (Minecraft-object-wall_sign -2215 30 61 -2215 30 61 "wall_sign")
+    wall_sign21195 (Minecraft-object-wall_sign -2117 29 62 -2117 29 62 "wall_sign")
+    wall_sign21196 (Minecraft-object-wall_sign -2122 29 62 -2122 29 62 "wall_sign")
+    wall_sign21197 (Minecraft-object-wall_sign -2142 27 61 -2142 27 61 "wall_sign")
+    wall_sign21198 (Minecraft-object-wall_sign -2186 27 61 -2186 27 61 "wall_sign")
+    wall_sign21199 (Minecraft-object-wall_sign -2200 27 61 -2200 27 61 "wall_sign")
+    wall_sign21200 (Minecraft-object-wall_sign -2204 27 61 -2204 27 61 "wall_sign")
+    wall_sign21201 (Minecraft-object-wall_sign -2150 25 61 -2150 25 61 "wall_sign")
+    wall_sign21202 (Minecraft-object-wall_sign -2101 24 61 -2101 24 61 "wall_sign")
+    wall_sign21203 (Minecraft-object-wall_sign -2191 23 61 -2191 23 61 "wall_sign")
+    wall_sign21204 (Minecraft-object-wall_sign -2090 21 61 -2090 21 61 "wall_sign")
+    wall_sign21205 (Minecraft-object-wall_sign -2142 21 61 -2142 21 61 "wall_sign")
+    wall_sign21206 (Minecraft-object-wall_sign -2186 20 61 -2186 20 61 "wall_sign")
+    wall_sign21207 (Minecraft-object-wall_sign -2150 19 61 -2150 19 61 "wall_sign")
+    wall_sign21208 (Minecraft-object-wall_sign -2117 18 62 -2117 18 62 "wall_sign")
+    wall_sign21209 (Minecraft-object-wall_sign -2122 18 62 -2122 18 62 "wall_sign")
+    wall_sign21210 (Minecraft-object-wall_sign -2101 16 61 -2101 16 61 "wall_sign")
+    wall_sign21211 (Minecraft-object-wall_sign -2142 15 61 -2142 15 61 "wall_sign")
+    wall_sign21212 (Minecraft-object-wall_sign -2090 13 61 -2090 13 61 "wall_sign")
+    wall_sign21213 (Minecraft-object-wall_sign -2186 13 61 -2186 13 61 "wall_sign")
+    wall_sign21214 (Minecraft-object-wall_sign -2210 11 61 -2210 11 61 "wall_sign")
+    wall_sign21215 (Minecraft-object-wall_sign -2215 11 61 -2215 11 61 "wall_sign")
+    wall_sign21216 (Minecraft-object-wall_sign -2142 9 61 -2142 9 61 "wall_sign")
+    wall_sign21217 (Minecraft-object-wall_sign -2150 9 61 -2150 9 61 "wall_sign")
+    wall_sign21218 (Minecraft-object-wall_sign -2101 8 61 -2101 8 61 "wall_sign")
+    wall_sign21219 (Minecraft-object-wall_sign -2144 7 61 -2144 7 61 "wall_sign")
+    wall_sign21220 (Minecraft-object-wall_sign -2198 7 61 -2198 7 61 "wall_sign")
+    wall_sign21221 (Minecraft-object-wall_sign -2186 6 61 -2186 6 61 "wall_sign")
+    wall_sign21222 (Minecraft-object-wall_sign -2090 5 61 -2090 5 61 "wall_sign")
+    wall_sign21223 (Minecraft-object-wall_sign -2190 4 61 -2190 4 61 "wall_sign")
+    wall_sign21224 (Minecraft-object-wall_sign -2151 3 62 -2151 3 62 "wall_sign")
+    wall_sign21225 (Minecraft-object-wall_sign -2157 3 62 -2157 3 62 "wall_sign")
+    wall_sign21226 (Minecraft-object-wall_sign -2174 1 61 -2174 1 61 "wall_sign")
+    wall_sign21227 (Minecraft-object-wall_sign -2215 -1 61 -2215 -1 61 "wall_sign")
+
+    ;; 3b. Minecraft objects of type  :flower_pot
+    flower_pot21241 (Minecraft-object-flower_pot -2159 53 63 -2159 53 63 "flower_pot")
+    flower_pot21242 (Minecraft-object-flower_pot -2160 53 63 -2160 53 63 "flower_pot")
+    flower_pot21243 (Minecraft-object-flower_pot -2161 53 63 -2161 53 63 "flower_pot")
+    flower_pot21244 (Minecraft-object-flower_pot -2159 48 63 -2159 48 63 "flower_pot")
+    flower_pot21245 (Minecraft-object-flower_pot -2160 48 63 -2160 48 63 "flower_pot")
+    flower_pot21246 (Minecraft-object-flower_pot -2161 48 63 -2161 48 63 "flower_pot")
+    flower_pot21247 (Minecraft-object-flower_pot -2139 47 62 -2139 47 62 "flower_pot")
+    flower_pot21248 (Minecraft-object-flower_pot -2140 47 62 -2140 47 62 "flower_pot")
+    flower_pot21249 (Minecraft-object-flower_pot -2141 40 62 -2141 40 62 "flower_pot")
+    flower_pot21250 (Minecraft-object-flower_pot -2168 40 61 -2168 40 61 "flower_pot")
+    flower_pot21251 (Minecraft-object-flower_pot -2141 39 62 -2141 39 62 "flower_pot")
+    flower_pot21252 (Minecraft-object-flower_pot -2168 36 61 -2168 36 61 "flower_pot")
+    flower_pot21253 (Minecraft-object-flower_pot -2153 30 61 -2153 30 61 "flower_pot")
+    flower_pot21254 (Minecraft-object-flower_pot -2155 30 61 -2155 30 61 "flower_pot")
+    flower_pot21255 (Minecraft-object-flower_pot -2154 6 61 -2154 6 61 "flower_pot")
+    flower_pot21256 (Minecraft-object-flower_pot -2156 6 61 -2156 6 61 "flower_pot")
+    flower_pot21257 (Minecraft-object-flower_pot -2176 5 61 -2176 5 61 "flower_pot")
+    flower_pot21258 (Minecraft-object-flower_pot -2208 5 61 -2208 5 61 "flower_pot")
+    flower_pot21259 (Minecraft-object-flower_pot -2197 4 61 -2197 4 61 "flower_pot")
+    flower_pot21260 (Minecraft-object-flower_pot -2197 1 61 -2197 1 61 "flower_pot")
+    flower_pot21261 (Minecraft-object-flower_pot -2203 -1 61 -2203 -1 61 "flower_pot")
+    flower_pot21262 (Minecraft-object-flower_pot -2206 -1 61 -2206 -1 61 "flower_pot")
+    flower_pot21263 (Minecraft-object-flower_pot -2208 -1 61 -2208 -1 61 "flower_pot")
+
+    ;; 3c. Minecraft objects of type  :lever
+    lever-controls (lvar "Controls")
+    lever21228 (Minecraft-object-lever -2138 38 61 -2138 38 61 "lever" lever-controls)
+    lever21229 (Minecraft-object-lever -2139 38 61 -2139 38 61 "lever" lever-controls)
+    lever21230 (Minecraft-object-lever -2136 30 61 -2136 30 61 "lever" lever-controls)
+    lever21231 (Minecraft-object-lever -2136 29 61 -2136 29 61 "lever" lever-controls)
+    lever21232 (Minecraft-object-lever -2136 28 61 -2136 28 61 "lever" lever-controls)
+    lever21233 (Minecraft-object-lever -2136 27 61 -2136 27 61 "lever" lever-controls)
+    lever21234 (Minecraft-object-lever -2136 12 61 -2136 12 61 "lever" lever-controls)
+    lever21235 (Minecraft-object-lever -2136 11 61 -2136 11 61 "lever" lever-controls)
+    lever21236 (Minecraft-object-lever -2136 10 61 -2136 10 61 "lever" lever-controls)
+    lever21237 (Minecraft-object-lever -2136 9 61 -2136 9 61 "lever" lever-controls)
+    lever21238 (Minecraft-object-lever -2136 8 61 -2136 8 61 "lever" lever-controls)
+    lever21239 (Minecraft-object-lever -2136 7 61 -2136 7 61 "lever" lever-controls)
+    lever21240 (Minecraft-object-lever -2136 6 61 -2136 6 61 "lever" lever-controls)
+
+    ;; 3d. Minecraft objects of type  :flower_pot
+    flower_pot21241 (Minecraft-object-flower_pot -2159 53 63 -2159 53 63 "flower_pot")
+    flower_pot21242 (Minecraft-object-flower_pot -2160 53 63 -2160 53 63 "flower_pot")
+    flower_pot21243 (Minecraft-object-flower_pot -2161 53 63 -2161 53 63 "flower_pot")
+    flower_pot21244 (Minecraft-object-flower_pot -2159 48 63 -2159 48 63 "flower_pot")
+    flower_pot21245 (Minecraft-object-flower_pot -2160 48 63 -2160 48 63 "flower_pot")
+    flower_pot21246 (Minecraft-object-flower_pot -2161 48 63 -2161 48 63 "flower_pot")
+    flower_pot21247 (Minecraft-object-flower_pot -2139 47 62 -2139 47 62 "flower_pot")
+    flower_pot21248 (Minecraft-object-flower_pot -2140 47 62 -2140 47 62 "flower_pot")
+    flower_pot21249 (Minecraft-object-flower_pot -2141 40 62 -2141 40 62 "flower_pot")
+    flower_pot21250 (Minecraft-object-flower_pot -2168 40 61 -2168 40 61 "flower_pot")
+    flower_pot21251 (Minecraft-object-flower_pot -2141 39 62 -2141 39 62 "flower_pot")
+    flower_pot21252 (Minecraft-object-flower_pot -2168 36 61 -2168 36 61 "flower_pot")
+    flower_pot21253 (Minecraft-object-flower_pot -2153 30 61 -2153 30 61 "flower_pot")
+    flower_pot21254 (Minecraft-object-flower_pot -2155 30 61 -2155 30 61 "flower_pot")
+    flower_pot21255 (Minecraft-object-flower_pot -2154 6 61 -2154 6 61 "flower_pot")
+    flower_pot21256 (Minecraft-object-flower_pot -2156 6 61 -2156 6 61 "flower_pot")
+    flower_pot21257 (Minecraft-object-flower_pot -2176 5 61 -2176 5 61 "flower_pot")
+    flower_pot21258 (Minecraft-object-flower_pot -2208 5 61 -2208 5 61 "flower_pot")
+    flower_pot21259 (Minecraft-object-flower_pot -2197 4 61 -2197 4 61 "flower_pot")
+    flower_pot21260 (Minecraft-object-flower_pot -2197 1 61 -2197 1 61 "flower_pot")
+    flower_pot21261 (Minecraft-object-flower_pot -2203 -1 61 -2203 -1 61 "flower_pot")
+    flower_pot21262 (Minecraft-object-flower_pot -2206 -1 61 -2206 -1 61 "flower_pot")
+    flower_pot21263 (Minecraft-object-flower_pot -2208 -1 61 -2208 -1 61 "flower_pot")
+
+    ;;-------------------------
+    ;; 4. DUMMIES FOR CLONING
+    ;; 4a. Victims
+    dummy-block-victim-1 (block_victim_1 0 0 0 0 0 0 "prismarine")   ; Green victims
+    dummy-block-victim-2 (block_victim_2 0 0 0 0 0 0 "gold_block")   ; Gold/Yellow victims that die early
+
+    ;; 4b. Popup portals
+    dummy-hole (hole-in-the-wall 0 0 0 0 0 0 "a hole in the wall" 0) ; Hole in the wall
+
+    ;; 4.c Popup blockages
+    dummy-blockage (blockage 0 0 0 0 0 0 "a blockage" 0)             ; A blockage in a corridor or doorway.
+})
+
+;;----------------------------------------------------;;
+;;                Unused Functions                    ;;
+;;----------------------------------------------------;;
+(defpclass Entrance-Commands [] :modes [:enter :leave :lock :unlock :open :close])
+(defpclass Illumination [] :modes [:dark :light])
+(defpclass SituatedObject []
+  :meta {:doc "Where the entity is located"}
+  :fields {x 0
+           y 0
+           z 0
+           motion_x 0
+           motion_y 0
+           motion_z 0
+           yaw 0
+           pitch 0
+           space {:observable false}})
+
+(defpclass DoorlessEntrance [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY
+                            name connId]
+  :meta {:doc "A walk-in entrance without a door"}
+  :inherit [Portal]
+  :methods [(defpmethod walk-into-corridor
+              {:pre (or (= command (mode-of DoorCommands :enter))
+                        (= command (mode-of DoorCommands :leave)))
+               :doc "Enter through a doorless entrance"}
+              [command])])
+
+(defpclass CorridorJoin [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY
+                        name connId]
+  :meta {:doc "A Corridor Join, like a door for corridoors"}
+  :inherit [Portal]
+  :methods [(defpmethod walk-into-corridor
+              {:pre (or (= command (mode-of DoorCommands :enter))
+                        (= command (mode-of DoorCommands :leave)))
+               :doc "passes from one corridor into another"}
+              [command])])
+
+(defpclass Light  [topLeftX topLeftZ topLeftY bottomRightX bottomRightZ bottomRightY
+                  name connId]
+  :inherit [RectangularVolume]
+  :modes [:dark :light :failed]
+  :fields {connections connId})

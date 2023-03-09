@@ -1,0 +1,13 @@
+Start experiment.
+
+// Note that you can test whether an entity is passive thus:
+// <entity>.hasFeature(Markers.PASSIVE))
+
+Start story titled "Passive".
+
+Mary was liked by John.
+
+Mary was given a present by John.
+
+The end.
+

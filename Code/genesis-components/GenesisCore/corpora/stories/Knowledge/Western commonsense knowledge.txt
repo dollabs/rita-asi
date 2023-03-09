@@ -1,0 +1,14 @@
+XX and YY are entities.
+
+If XX is American and XX becomes angry, then XX becomes violent. 
+
+If XX becomes violent, then XX may kill YY.
+
+If XX kills YY then XX must not be sane.
+
+// XX may kill YY because YY angers XX.
+
+Start description of "Insane violence".
+XX's not being sane leads to XX 's killing YY.
+The end.
+

@@ -1,0 +1,75 @@
+Start experiment.
+
+Set summarizer switch to true.
+
+Set persuader switch to true.
+
+Set escalation expert switch to true.
+
+Set precedent expert switch to true.
+
+Set prediction expert switch to true.
+
+Set show markup switch to false.
+
+Set all switches to defaults.
+
+Set Show all story elements switch to true.
+
+Both perspectives.
+
+Show both perspectives.
+
+If xx cannot sleep, then xx becomes harmed.
+
+If xx becomes harmed, then xx becomes angry.
+
+I am a person.
+
+"Peter" is a name.
+"George" is a name.
+"Patrick" is a name.
+"Susan" is a name.
+
+"musical-instrument" is a name.
+
+
+First perspective.
+
+Start description of "Angry consequence".
+aa is an action.
+xx is a person.
+yy is a person.
+xx's performing aa leads to yy's becoming angry.
+
+The end.
+
+Peter, George, Patrick, and Susan are persons.
+
+Start story titled "Harm memory".
+
+A drum is a musical-instrument.
+
+Peter plays drums badly.
+
+Peter plays drums in the morning.
+
+Susan cannot sleep because Peter plays drums at night.
+
+The end.
+
+Second perspective.
+
+Start story titled "Harm incident".
+
+George says that Patrick plays piano well.
+
+George says that Patrick practices a lot.
+
+George says that Patrick plays piano at night.
+
+The end.
+
+Insert question into text box: Why did George say that Patrick plays piano at night?
+
+

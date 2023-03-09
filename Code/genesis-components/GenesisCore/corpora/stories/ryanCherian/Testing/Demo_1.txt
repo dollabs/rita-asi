@@ -1,0 +1,55 @@
+Start experiment.
+
+Insert file General commonsense knowledge.
+
+Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+Insert file Contradictions.
+
+Start story titled "Demo 1".
+
+Austin is a person.
+
+Ben is a person.
+
+Pat is a person.
+
+Stoj is a person.
+
+Chris is a person.
+
+David is a person.
+
+Trevor is a person.
+
+Chase is a person.
+
+
+
+
+C
+
+Trevor wins an award.
+
+Pat happily cries.
+
+Stoj is happy because the angry murderer died.
+
+Chris is not happy.
+
+Austin gets hurt.
+
+Stoj believes Chase will win.
+
+Chase doesn't win.
+
+Pat happily jumps.
+
+David is lonely.
+
+Chase happily murders the enemies.
+
+
+The End.

@@ -1,0 +1,24 @@
+{try-bounds
+ {:args [],
+  :meta {:doc "try example with time bounds", :version "0.2.0"},
+  :methods
+  {example
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :try,
+       :body [{:type :delay, :body nil}],
+       :catch [{:type :delay, :body nil}],
+       :temporal-constraints [{:type :bounds, :value [1 100]}]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Example",
+     :doc "try example",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}]},
+  :type :pclass}}

@@ -1,0 +1,9 @@
+<h1>What you will see</h1>
+
+<p>Mortimer Adler teaches Genesis how to read a book. </p>
+
+<p>Then, Genesis applies learned knowledge to read a textbook. </p>
+
+<p>On the top right corner, you will see the steps that Genesis do not know how to do. </p>
+
+<p>On the bottom right corner, you will see the knowledge that Genesis generates. </p>

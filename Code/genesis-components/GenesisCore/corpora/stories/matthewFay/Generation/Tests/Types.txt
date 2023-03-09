@@ -1,0 +1,16 @@
+Start Experiment.
+
+Start story titled "Broken file".
+
+Note that Scar is a name.
+Scar is a character.
+Scar is a person.
+Scar is similar to Macbeth.
+
+//Note that John is a name.
+//John is a character.
+//John is a person.
+//John is a character.
+//John is similar to Macbeth.
+
+The end.

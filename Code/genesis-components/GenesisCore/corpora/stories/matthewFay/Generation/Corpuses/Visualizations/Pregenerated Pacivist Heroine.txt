@@ -1,0 +1,37 @@
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "Pacivist Heroine".
+
+Dan is a name.
+Dan is a person.
+
+Lana is a name.
+Lana is a person.
+
+John is a name.
+John is a person.
+
+Dan is Lana's friend.
+Lana is Dan's friend.
+
+Lana is the king.
+
+John enslaves Dan.
+
+Lana wants to save Dan.
+Lana saves Dan.
+
+Lana wants to kill John.
+Lana forgives John.
+
+Dan loves Lana because Lana saves Dan.
+Lana loves Dan.
+Dan marries Lana.
+Lana marries Dan.
+
+Lana dies from old age.
+
+The end.

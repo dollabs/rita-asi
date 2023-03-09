@@ -1,0 +1,40 @@
+Start experiment.
+
+Set Reprocess switch to true.
+
+Both perspectives.
+
+xx and yy are persons.
+
+John and Peter are persons.
+
+Mary and Susan are persons.
+
+Show both perspectives.
+
+First perspective.
+
+If xx loves yy, then yy is nice.
+
+If xx loves yy, then yy may love xx.
+
+Start story titled "First perspective".
+
+John loves Mary.
+
+The end.
+
+Second perspective.
+
+Start story titled "Second perspective".
+
+// Note that these are different Mary and John, 
+// not same as in first story.
+// That is why second rule doesn't fire.
+Mary loves John.
+
+The end.
+
+
+
+

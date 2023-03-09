@@ -1,0 +1,5 @@
+Popup Basic story understanding popup.
+
+Set all switches to defaults.
+
+Insert file Macbeth1.

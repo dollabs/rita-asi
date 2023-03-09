@@ -1,0 +1,18 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0101".
+THE PRINCESS WAS IN LOVE WITH THE HUNTER.
+THE HUNTER FELT AFFECTION FOR THE PRINCESS.
+WHEN EHECATL (GOD OF THE WIND) BLEW, AN OLD TREE FELL, INJURING THE HUNTER BADLY.
+THE PRINCESS KNEW THAT THE HUNTER COULD DIE AND THAT SHE HAD TO DO SOMETHING ABOUT IT.
+THE PRINCESS FOUND SOME PLANTS; THE PRINCESS CURED THE HUNTER. HE WAS LUCKY.
+
+
+
+The end.

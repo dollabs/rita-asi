@@ -1,0 +1,11 @@
+<h1>What you see</h1>
+
+Genesis reads a summary of Macbeth, one sentence at a time. 
+Genesis evaluates revenge using ideas borrowed from Political Science, the Goldstein index in particular.
+
+<h1>What you can do</h1>
+
+<ul>
+<li> Click various buttons in the Elaboration graph to see the concepts Genesis finds.
+</ul>
+

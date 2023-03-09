@@ -1,0 +1,71 @@
+//Mystery: School Theft, July-Aug 2016
+//based on https://www.5minutemystery.com/mystery/itheft
+
+Start experiment.
+
+/*
+Start common sense knowledge.
+xx is a person.
+If xx becomes unconscious, then xx loses consciousness.
+If xx falls asleep, then xx loses consciousness.
+If xx dies, then xx loses consciousness.
+*/
+
+Mrs. Adams is a name.
+Mrs. Adams, Jane, Shay, Shawn, Lea, and Rachel are persons.
+Mrs. Adams is a teacher.
+Jane, Shay, Shawn, Lea, and Rachel are students.
+
+Start story titled "Mystery: School Theft".
+
+/////////////////////////////////////////////////////////////////////////////**/
+
+Scene shifts to classroom.
+Mrs. Adams and Jane enter the classroom.
+Jane's music player is on the desk.
+Jane's music player has Jane's name on it.
+Shay is sitting behind Jane.
+Shay is dull.
+
+Shawn is sitting beside Shay.
+Shawn likes to steal things.
+If Shawn steals again, he will be expelled. //infer that Shawn won't steal
+
+Lea is sitting in front of Shawn. //infer Lea is sitting next to Jane.
+Rachel is sitting in front of Lea. //infer Rachel is sitting two seats away in the same row as Jane.
+Lea is complaining to Rachel.
+Rachel is angry at her dad.
+Rachel is spoiled.
+Rachel is whining to Lea.
+Lea is annoyed.
+Jane turns around and asks Shay for a pencil.
+Shay is watching Lea and Rachel.
+
+Jane exits the classroom.
+Jane enters the bathroom.
+
+In the classroom, Shay turns on a music player.
+Shay reads a book and listens to music.
+Lea gets called to the principal's office to talk to her swim coach.
+Lea exits the classroom.
+Lea enters the principal's office.
+
+The bell rings.
+Shay, Shawn, and Rachel exit the classroom.
+Jane exits the bathroom.
+Jane enters the classroom.
+Jane's music player is missing.
+
+Mrs. Adams calls Lea to the classroom.
+Lea and Rachel enter the classroom.
+
+Mrs. Adams says "A music player was stolen."
+Lea is annoyed.
+Lea says "I wasn't here. I couldn't have stolen it."
+Rachel says "I couldn't have taken Jane's music player. I was working."
+
+//Who stole Jane's music player? Answer: Rachel, because she shouldn't have known whose music player was stolen.
+
+/////////////////////////////////////////////////////////////////////////////**/
+
+The end.

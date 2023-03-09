@@ -1,0 +1,25 @@
+Start experiment.
+
+Set right panel to mental models.
+
+xx, yy, and zz are persons.
+
+Inspector Javert is a name.
+Jean Valjean is a name.
+
+Inspector Javert and Jean Valjean are persons.
+
+Peter is a person.
+
+personality-p is a kind of personality trait.
+personality-j is a kind of personality trait.
+
+Start story titled "Mental model testing".
+
+Inspector Javert thinks like personality-p.
+Jean Valjean thinks like personality-j.
+
+Peter shouts.
+
+The end.
+

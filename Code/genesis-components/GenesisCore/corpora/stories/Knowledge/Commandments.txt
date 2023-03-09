@@ -1,0 +1,67 @@
+xx, yy, and zz are persons.
+
+If xx swears at yy, then xx harms yy.
+
+Zeus and Jehova are persons.
+
+Start description of "1st commandment violation".
+yy is a god.
+Jehova is a god.
+xx believes yy is superior to Jehova.
+The end.
+
+xx, yy, and zz are persons.
+
+Start description of "2nd commandment violation".
+xx makes idol.
+The end.
+
+Start description of "3rd commandment violation".
+xx swears.
+The end.
+
+Start description of "3rd commandment violation".
+xx curses.
+The end.
+
+Start description of "4th commandment violation".
+xx works on sabbath.
+The end.
+
+Start description of "5th commandment violation".
+xx is yy's father.
+yy harms xx.
+The end.
+
+Start description of "5th commandment violation".
+xx is yy's mother.
+yy harms xx.
+The end.
+
+Start description of "6th commandment violation".
+xx kills yy.
+The end.
+
+Start description of "7th commandment violation".
+xx makes love with yy.
+xx's wife is zz.
+yy must not equal zz.
+The end.
+
+Start description of "7th commandment violation".
+xx makes love with yy.
+xx's husband is zz.
+yy must not equal zz.
+The end.
+
+Start description of "8th commandment violation".
+xx steals.
+The end.
+
+Start description of "9th commandment violation".
+xx lies.
+The end.
+
+Start description of "10th commandment violation".
+xx wanted yy's entity.
+The end.

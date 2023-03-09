@@ -1,0 +1,81 @@
+{camera
+ {:args [],
+  :methods
+  {main
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :choose,
+       :body
+       [{:type :choice,
+         :body
+         [{:type :method-fn,
+           :method-ref
+           {:type :symbol-ref, :names [this take-high-res-images]},
+           :args []}]}
+        {:type :choice,
+         :body
+         [{:type :method-fn,
+           :method-ref
+           {:type :symbol-ref, :names [this take-medium-res-images]},
+           :args []}],
+         :temporal-constraints
+         [{:type :bounds,
+           :value
+           {:type :lvar, :name "med-res-bounds", :default [3 6]}}]}]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Main",
+     :doc "the tpn",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}],
+   take-high-res-images
+   [{:args [],
+     :betweens [],
+     :body nil,
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Take High Res Images",
+     :doc "Take High Res Image",
+     :post true,
+     :pre true,
+     :primitive true,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints
+     [{:type :bounds,
+       :value
+       {:type :lvar, :name "high-res-bounds", :default [5 10]}}]}],
+   take-medium-res-images
+   [{:args [],
+     :betweens [],
+     :body nil,
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Take Medium Res Images",
+     :doc "Take Medium Res Image",
+     :post true,
+     :pre true,
+     :primitive true,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}]},
+  :type :pclass},
+ example
+ {:args [],
+  :fields
+  {imager
+   {:access :private,
+    :initial {:args [], :pclass camera, :type :pclass-ctor},
+    :observable false}},
+  :type :pclass},
+ pamela/lvars
+ {:lvars {"high-res-bounds" [5 10], "med-res-bounds" [3 6]},
+  :type :lvars}}

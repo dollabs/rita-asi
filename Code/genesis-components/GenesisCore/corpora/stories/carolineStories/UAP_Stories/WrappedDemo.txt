@@ -1,0 +1,37 @@
+Start experiment.
+
+xx is a person and yy is a person.
+
+//If xx is nice and yy is poor, then xx helps yy. // with probability of 0.5.
+
+//If xx is rich and yy is poor, then xx hires yy. // with probability of 0.3.
+
+//If xx is mean and yy is poor, then xx hurts yy. // with probability of 0.8.
+
+//if xx is rude and yy is poor, then xx insults yy. // with probability of 0.1.
+
+With probability of 0.5 xx helps yy because xx is nice and yy is a person.
+With probability of 0.3 xx hires yy because xx is rich and yy is a person.
+With probability of 0.8 xx hurts yy because xx is mean and yy is a person.
+With probability of 0.1 xx insults yy because xx is rude and yy is a person.
+
+Start story titled "Test story".
+
+Peter is a person and Paul is a person.
+
+Paul is poor.
+
+Peter helps Paul.
+Peter hires Paul.
+Peter hurts Paul.
+Peter insults Paul.
+
+Assume if experiment A: Peter is nice.
+
+Assume if experiment B: Peter is rich.
+
+Assume if experiment C: Peter is mean.
+
+Assume if experiment D: Peter is rude.
+
+The end.

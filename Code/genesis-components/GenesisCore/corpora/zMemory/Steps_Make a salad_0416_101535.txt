@@ -1,0 +1,75 @@
+/* ------------------------------
+ Generated on Make a salad_0416_101535 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a salad".
+Intention: Make a salad.
+The end.
+
+If the intention is "Make a salad".
+Verify: Don't have spices.
+Step: Add leaves.
+Step: Put sauces into the bowl.
+The end.
+
+If the intention is "Make a salad".
+Verify: you have spices.
+Step: Add leaves.
+Step: add your spices.
+Step: Put sauces into the bowl.
+The end.
+
+If the problem is "Add leaves".
+Intention: Add leaves.
+The end.
+
+/* ------------------------------
+ Generated on Make a salad_0416_101535 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "add your spices".
+Intention: add your spices.
+The end.
+
+/* ------------------------------
+ Generated on Make a salad_0416_101535 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Put sauces into the bowl".
+Intention: Put sauces into the bowl.
+The end.
+
+If the intention is "Put sauces into the bowl".
+Step: Sauces are in the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make a salad_0416_101535 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Add leaves".
+Step: Put leaves into the bowl.
+The end.
+
+If the problem is "Put leaves into the bowl".
+Intention: Put leaves into the bowl.
+The end.
+
+If the intention is "Put leaves into the bowl".
+Step: Leaves are in the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make a salad_0416_101535 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the intention is "Add your spices".
+Step: Put spices into the bowl.
+The end.
+
+
+If the problem is "Put spices into the bowl".
+Intention: Put spices into the bowl.
+The end.
+
+If the intention is "Put spices into the bowl".
+Step: Spices are in the bowl.
+The end.
+

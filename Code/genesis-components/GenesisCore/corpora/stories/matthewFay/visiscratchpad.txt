@@ -1,0 +1,26 @@
+Start experiment.
+
+xx is an entity.
+yy is an entity.
+zz is an entity.
+
+If xx harmed yy and zz is yy's friend, then xx harmed zz.
+If xx killed yy, then xx harmed yy.
+If yy is killed, then yy becomes dead.
+If xx harms yy, then yy may kill xx.
+
+Start description of "Revenge".
+xx is an entity.
+yy is an entity.
+xx's harming yy leads to yy's harming xx.
+The end.
+
+Start story titled "Revenge Example".
+Macbeth is an entity.
+Duncan is an entity.
+Macduff is an entity.
+
+Macduff is Duncan's friend.
+Macbeth kills Duncan.
+Macduff kills Macbeth.
+The end.

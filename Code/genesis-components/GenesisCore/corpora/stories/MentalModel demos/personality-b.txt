@@ -1,0 +1,6 @@
+xx and yy are persons.
+
+If xx loves yy then xx is romantic.
+
+Start story titled "Personality B". The end.
+

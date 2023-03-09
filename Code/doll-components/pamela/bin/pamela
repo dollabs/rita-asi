@@ -1,0 +1,98 @@
+#!/bin/sh
+# pamela
+# PAMELA launch script
+#
+# Copyright © 2016 Dynamic Object Language Labs Inc.
+#
+# This software is licensed under the terms of the
+# Apache License, Version 2.0 which can be found in
+# the file LICENSE at the root of this distribution.
+
+# Acknowledgement and Disclaimer:
+# This material is based upon work supported by the Army Contracting
+# and DARPA under contract No. W911NF-15-C-0005.
+# Any opinions, findings and conclusions or recommendations expressed
+# in this material are those of the author(s) and do necessarily reflect the
+# views of the Army Contracting Command and DARPA.
+
+# set -x
+
+program=$(basename $0)
+dir=$(dirname $0)
+export PAMELA_CWD="$(pwd -P)"
+cd "$dir"
+# dir="$(pwd -P)"
+# run from the top directory
+cd ..
+top="$(pwd -P)"
+logs="$top/logs"
+
+if [ ! -d "$logs" ]; then
+    mkdir "$logs"
+fi
+
+LEIN_JVM_OPTS="${LEIN_JVM_OPTS:--server}"
+JVM_OPTS="${JVM_OPTS:-$LEIN_JVM_OPTS}"
+PAMELA_OPTS="${PAMELA_OPTS:-$JVM_OPTS}"
+PAMELA_MODE="${PAMELA_MODE:-prod}"
+PAMELA_VERBOSE="${PAMELA_VERBOSE:-0}"
+
+# ensure pamela does not use PAGER to guess we are in the repl
+unset PAGER
+
+verbose=$PAMELA_VERBOSE
+target="$top/target"
+jar="$target/$program.jar"
+
+# functions ------------------------------------------
+log() {
+  # do NOT log now
+  # echo $* >> "$logfile"
+  echo $*
+}
+
+vlog() {
+    [ $verbose -eq 0 ] || log "$@"
+}
+
+vvlog() {
+    [ $verbose -lt 2 ] || log "$@"
+}
+
+err() {
+  # as log only echos we do not need to repeat this here
+  # log "${program}: $*"
+  echo >&2 "${program}: $*"
+}
+
+# main program -----------------------------------------------
+
+usage() {
+    err "invalid command line (type 'pamela -h' for usage)"
+    exit 1
+}
+
+if [ "$PAMELA_MODE" != "dev" ] && [ -e "$jar" ]; then
+    cmd="java $PAMELA_OPTS -jar $jar"
+    sep=""
+else
+    cmd="boot run"
+    sep=" -A"
+    if [ "$PAMELA_MODE" = "prod" ]; then
+        err "jar not present in PAMELA_MODE=prod : $jar"
+        err "to run in development mode, export PAMELA_MODE=dev"
+        exit 1
+    fi
+    if [ ! -e "build.boot" ]; then
+        err "missing build.boot"
+        exit 1
+    fi
+fi
+
+while [ $# -gt 0 ]; do
+    cmd="$cmd $sep \"$(echo $1 | sed 's/\"/\\\"/g')\""
+    shift
+done
+
+vvlog "$cmd"
+eval $cmd

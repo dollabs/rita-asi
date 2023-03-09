@@ -1,0 +1,80 @@
+xx is a variable.
+yy is a variable.
+zz is a story.
+vv is a variable.
+
+// Drinks
+
+If the problem is "Mix martini".
+Intention: Mix martini.
+The end.
+
+If the problem is "Pour xx into yy".
+Intention: Pour xx into yy.
+The end.
+
+If the problem is "Rotate xx".
+Intention: Rotate xx.
+The end.
+
+If the intention is "Rotate xx".
+Method: Rotate xx.
+The end.
+
+If the method is "Rotate xx".
+Execute: Call "jdTilt" with xx.
+Verify: Did I rotate xx.
+The end.
+
+If the problem is "Move xx to yy".
+Intention: Move xx to yy.
+The end.
+
+If the intention is "Move xx to yy".
+Method: Move xx to yy.
+The end.
+
+If the problem is "Place xx in yy".
+Intention: Put xx on yy.
+The end.
+
+If the problem is "Put xx above yy".
+Intention: Put xx above yy.
+The end.
+
+If the intention is "Put xx above yy".
+Condition: Verify that nothing is on yy.
+Condition: Verify that nothing is on xx.
+Method: Move xx above yy.
+The end.
+
+If the method is "Move xx above yy".
+Execute: Call "jdPutOver" with xx with yy.
+The end.
+
+If the condition is "Identify elements".
+Solve: Identify elements.
+The end.
+
+If the problem is "Identify elements".
+Intention: Identify elements.
+The end.
+
+If the intention is "Identify elements".
+Step: B5 is known as the glass.
+Step: B2 is known as the gin.
+Step: B1 is known as the vermouth.
+Step: B7 is known as the lemon.
+The end.
+
+If the problem is "xx is known as yy".
+Intention: xx is known as yy.
+The end.
+
+If the intention is "xx is known as yy".
+Method: xx is known as yy.
+The end.
+
+If the method is "xx is known as yy".
+Execute: Call "jdRemember" with xx with yy.
+The end.

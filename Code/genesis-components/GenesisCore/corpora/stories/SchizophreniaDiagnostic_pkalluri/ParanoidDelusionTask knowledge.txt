@@ -1,0 +1,13 @@
+pp is a person.
+
+//Known Predictions
+If pp is my boss, then pp wants to assess me.
+
+//Contextual explanations
+If pp wants to assess me, then pp may stare at me.
+
+//If no contextual explanations
+If pp wants to harm me, then pp can stare at me.
+
+//Bad-situation predictions
+If pp wants to harm me, then I feel terrified.

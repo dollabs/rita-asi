@@ -1,0 +1,21 @@
+XX is a person.
+YY is a thing.
+
+
+Start description of "Physical cause ingestion to physical effect".
+XX's eating VV leads to XX's having a physical-sickness.
+The end.
+
+Start description of "Physical cause contact on to physical effect".
+XX's running on VV leads to XX's having a physical-sickness.
+The end.
+
+Start description of "Physical cause contact in to physical effect".
+XX's running in VV leads to XX's having a physical-sickness.
+The end.
+
+
+Start description of "Psychological cause to physical effect".
+XX's feeling VV leads to XX's having a physical-sickness.
+//XX's having a psych-action leads to XX's having a physical-sickness.
+The end.

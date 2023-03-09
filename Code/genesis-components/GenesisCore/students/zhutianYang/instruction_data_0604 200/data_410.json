@@ -1,0 +1,19 @@
+{
+    "accept_time": "2019-06-04 11:55:55+08:00", 
+    "instructions": [
+        "put the charger on the table", 
+        "put the dinner fork next to the charger on the table", 
+        "place the dinner knife on the opposite side of the charger on the table", 
+        "place the salad fork next to the dinner fork", 
+        "place the salad knife directly next to the dinner knife", 
+        "place the soup spoon next to the salad knife", 
+        "place the dessert spoon above the charger ", 
+        "place the dessert fork underneath the dessert spoon on the top of the charger", 
+        "place the bread plate in the upper right hand section directly above the salad fork", 
+        "place the butter knife on the bread plate", 
+        "place the water glass above the salad knife next to the dessert fork and spoon on the right side", 
+        "place the napkin on the plate "
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table4"
+}

@@ -1,0 +1,84 @@
+Start experiment.
+
+Set Show all story elements switch to true.
+
+Joan is a person.
+
+Friend is a person.
+
+Start story titled "Joan".
+
+Friend enters.
+
+Joan enters.
+
+/*
+
+I am crossing a street.  I am taking my report to a meeting.  
+
+I am thinking about what I will say.
+
+I turn my head because i hear a sound.
+
+// Doesn't work:
+// She decides that she will sprint across the street.
+
+// across the street
+
+I run because I do not want to be late for the meeting.
+
+I remember my injured knee.
+
+// No go
+// She thinks about her impulsive decision.
+
+Friend exits.
+
+I believe I could have been killed by a car if my knee had failed.
+ 
+Friend believes I could have been killed by a car if my knee had failed.
+
+I wonders what friend would think about me.
+
+The end.
+
+*/
+
+Joan is crossing a street.  She is taking her report to a meeting.  
+
+She is thinking about what she will say.
+
+She turns her head because she hears a sound.
+
+// Doesn't work:
+// She decides that she will sprint across the street.
+
+// across the street
+
+She runs  because she does not want to be late for the meeting.
+
+She remembers her injured knee.
+
+// No go
+// She thinks about her impulsive decision.
+
+Joan exits.
+
+Joan believes she could have been killed by a car if her knee had failed.
+ 
+The friend believes Joan could have been killed by a car if her knee had failed.
+
+Joan believes she wonders what her friends would think about her.
+
+The end.
+
+
+
+/*
+Joan is part way across the street on the way to deliver her finished report. While
+thinking about what to say at the meeting, she hears a sound and turns her head---and sees
+a quickly oncoming car. Uncertain whether to cross or retreat but uneasy about arriving
+late, Joan decides to sprint across the road. She later remembers her injured knee and
+reflects upon her impulsive decision. ``If my knee had failed, I could have been killed'' 
+and what would my friends have thought of me?''
+*/

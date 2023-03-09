@@ -1,0 +1,69 @@
+Start experiment.
+
+Set Summarizer switch to false.
+
+Set Persuader switch to true.
+
+Set Show markup switch to true.
+
+Set right panel to Retelling.
+
+Show both perspectives.
+
+Both perspectives.
+
+//xx is a person.  yy is a person.
+
+//If xx is yy's husband, then yy is xx's wife.
+
+Insert file HanselGretelRelations.
+Insert file Human Condition Knowledge.
+Insert file Hansel Gretel Commonsense Knowledge. 
+
+// New idiom
+Likable is the opposite of unlikable.
+
+// New idiom
+Assert thread thing, likable, good parent. 
+Assert thread thing, likable, caring.
+Assert thread thing, likable, honest 1.
+Assert thread thing, likable, honest 2.
+Assert thread thing, likable, resourceful.
+Assert thread thing, likable, nice.
+Assert thread thing, likable, sad.
+Assert thread thing, likable, friendly.
+Assert thread thing, likable, repentant.
+Assert thread thing, likable, generous.
+Assert thread thing, likable, hardworking.
+Assert thread thing, likable, unlucky.
+
+Assert thread thing, unlikable, badparent 3.
+Assert thread thing, unlikable, bad husband.
+Assert thread thing, unlikable, dishonest 1.
+Assert thread thing, unlikable, dishonest 2.
+Assert thread thing, unlikable, dishonest 3.
+Assert thread thing, unlikable, dishonest 4.
+Assert thread thing, unlikable, weak 1.
+Assert thread thing, unlikable, weak 2.
+Assert thread thing, unlikable, harsh.
+Assert thread thing, unlikable, cruel 1.
+Assert thread thing, unlikable, cruel 2.
+Assert thread thing, unlikable, hateful.
+Assert thread thing, unlikable, violent.
+Assert thread thing, unlikable, vicious.
+Assert thread thing, unlikable, scary.
+Assert thread thing, unlikable, sly.
+Assert thread thing, unlikable, unfamiliar.
+
+Insert file Social Role Concepts.
+Insert file Honesty Concepts.
+Insert file Situational Concepts.
+Insert file Negative Personal Attribute Concepts.
+Insert file Positive Personal Attribute Concepts.
+
+First perspective.
+
+Insert file Hansel and Gretel story.
+
+Insert into text box: Make Woodcutter be likable.
+

@@ -1,0 +1,20 @@
+{
+    "instructions": [
+        "Place the dinner plate on the lower portion of the table",
+        "place the dinner fork to the left of the plate, tines pointing up",
+        "place the salad fork to the left of the dinner fork in the same orientation",
+        "place the dinner knife to the right of the dinner plate with the blade facing left, vertically",
+        "place the salad knife to the right of the dinner knife in the same orientation",
+        "place the soup spoon to the right of the salad knife, bowl pointing up",
+        "place the water glass to the upper right of the dinner place above the dinner knife",
+        "place the wine glass to the right of the water glass",
+        "place another wine glass to the right of the previous wine glass",
+        "place a coffee cup to the right of the soup spoon",
+        "place the bread plate above the dinner fork",
+        "place the butter knife on top of the bread plate",
+        "place the desert fork above the dinner plate, tines laying horizontally pointing right",
+        "place the dessert spoon perpendicular to the dessert fork, above it with the bowl pointing left",
+        "place the napkin in the middle of the dinner plate"
+    ],
+    "video_name": "table3"
+}

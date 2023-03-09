@@ -1,0 +1,59 @@
+Start experiment.
+
+// Need this because otherwise victim and child match as both have threads that define them as person.
+// Effect here is to force use of primed thread, that is, the first one.
+A victim is a victim. A child is a child.
+
+Start description of "Decrease Agency".
+xx and yy are entities.
+xx uses passivity for yy.
+Consequently, xx decreases yy's agency.
+The end.
+
+// Using refers to instead of calls to ensure that entities do not become what they are called.
+
+Start description of "Childhood".
+xx is an entity.
+yy is a person.
+xx refers to yy as a youth.
+Consequently, xx invokes yy's childhood.
+The end.
+
+Start description of "Victimhood".
+xx is an entity.
+yy is a person.
+xx refers to yy as a victim.
+Consequently, xx invokes sympathy for yy.
+The end.
+
+Start description of "Doubt".
+xx and yy are entities.
+xx alleges yy's role.
+Consequently, xx casts doubt on yy's role.
+The end.
+
+If xx decreases yy's agency, then xx decreases yy's blame.
+
+If xx invokes yy's childhood and xx refers to yy as a victim, then xx increases sympathy for yy.
+
+Start story titled "Analysis of Child is killed by alleged terrorist".
+
+// Using youth instead of child just makes start generate a little nicer.
+// Otherwise get "The author refers to a child as him
+// So, a work around
+
+// But! Making all of these entities must break some matching, because doubt and decrease attention do not work.
+
+The author alleges the terrorist's role. 
+
+Author uses passivity for alleged terrorist.
+
+The author refers to child as a victim. 
+
+The author says alleged terrorist commits a negative action. 
+
+The author refers to child as a youth. 
+
+The author refers to child as a victim.
+
+The end.

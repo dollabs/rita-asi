@@ -1,0 +1,16 @@
+{
+    "accept_time": "2019-06-04 11:01:47+08:00", 
+    "instructions": [
+        "Place the dinner plate in the center bottom of the table cloth.", 
+        "Place the salad plate in the center of the dinner plate.", 
+        "Place the napkin in the center of the salad plate.", 
+        "Place the wine glass on the top right corner of the table cloth.", 
+        "Place the water glass on the table cloth, directly below and to the right of the wine glass.", 
+        "Place the salad fork near the bottom left edge of the table cloth, with teeth pointing upwards.", 
+        "Place the dinner fork directly to the right of the salad fork, facing upward.", 
+        "Place the dinner knife directly to the right of the dinner plate, teeth facing inward and&amp;nbsp; head pointing up.", 
+        "Place the soup spoon to the right of the dinner knife, with the head facing upward."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table1"
+}

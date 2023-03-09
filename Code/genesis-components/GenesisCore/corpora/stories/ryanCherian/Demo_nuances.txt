@@ -1,0 +1,41 @@
+Start experiment.
+
+Insert file General commonsense knowledge.
+
+Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+Insert file Contradictions.
+
+Start story titled "Demo Nuances".
+
+Ben is a person.
+
+Trevor is a person.
+
+Chris is a person.
+
+
+
+Ben is a doctor.
+
+Ben is a sad camper.
+
+
+Trevor likes to smile.
+
+Trevor wins an award.
+
+
+Chris happily cries.
+
+Chris smiles in fear.
+
+Chris happily murders the enemies.
+
+
+The End.
+
+
+

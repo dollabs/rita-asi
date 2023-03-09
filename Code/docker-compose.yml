@@ -1,0 +1,84 @@
+# DISTRIBUTION STATEMENT C: U.S. Government agencies and their contractors.
+# Other requests shall be referred to DARPA’s Public Release Center via email at prc@darpa.mil.
+
+# To build and launch (first time):
+#   $ docker-compose up -d
+# To create new images (--no-cache) to force building from scratch:
+#   $ docker-compose build
+# To launch again (leave out -d for non daemon launch):
+#   $ docker-compose up -d
+# To stop containers:
+#  $ docker-compose stop
+
+# When we want to run Tom Minecraft gui from docker,
+# On Mac:
+# xhost +
+# DISPLAY=192.168.11.185:0 docker-compose up
+
+# Default values for environment vars are in .env file
+
+version: '3'
+
+services:
+
+  mongo:
+    image: mongo:4.2
+    # ports:
+    # - 27017:27017 # Uncomment to expose mongo-port on host
+    volumes:
+      - ${SERVICE_LOGS_DIR}mongo_data_db${DB_DATA_DIR}:/data/db
+
+  rabbitmq:
+    image: rita_rabbitmq
+    build:
+      context: .
+      dockerfile: docker/rabbitmq.Dockerfile
+    ports: #https://www.rabbitmq.com/networking.html
+#     - 6369:4369/tcp # epmd
+     - ${RMQ_PORT}:5672/tcp
+#     - 16671-16672:15671-15672/tcp
+#     - 26672:25672/tcp
+
+  clojure:
+    image: rita_clojure
+    build:
+      context: .
+      dockerfile: docker/clojurebase.Dockerfile
+    depends_on:
+      - rabbitmq
+      - mongo
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - MONGODB_HOST=mongo
+      - MQTT_HOST
+      - TEST_MODE
+    volumes:
+      - ${SERVICE_LOGS_DIR}/clojure_service_logs${SERVICE_LOGS_TAG}:/Applications/logs
+      - ${SERVICE_LOGS_DIR}/runtime-learned-models:/Applications/doll-components/runtime-learned-models
+#    deploy:
+#      resources:
+#        reservations:
+#          memory: 500000M
+
+  tailer:
+    image: rita_tailer
+    build:
+      context: .
+      dockerfile: docker/tailer.Dockerfile
+    depends_on:
+      - rabbitmq
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+    volumes:
+      - ${SERVICE_LOGS_DIR}/tailer_service_logs${SERVICE_LOGS_TAG}:/Applications/logs
+
+  mqt2rmq:
+    image: rita_mqt2rmq
+    depends_on:
+      - rabbitmq
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      #External MQTT Host specified via environment file.
+      - MQTT_HOST
+    volumes:
+      - ${HOST_DIRECTORY}${SERVICE_LOGS_DIR}/mqt2rmq_service_logs${SERVICE_LOGS_TAG}:/Applications/logs

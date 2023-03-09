@@ -1,0 +1,16 @@
+Start experiment.
+
+Insert file General commonsense knowledge.
+Insert file cp.
+
+Start story titled "Test Story". 
+
+///////////////////
+
+Mary and John are persons.
+
+John harmed Mary on the table with a knife; Mary harms John.
+
+///////////////////
+
+The end.

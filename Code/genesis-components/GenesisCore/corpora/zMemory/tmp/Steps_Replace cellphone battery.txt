@@ -1,0 +1,67 @@
+If the problem is "Replace cellphone battery".
+Intention: Replace cellphone battery.
+The end.
+
+
+// ------------- method 1 -------------------------------------------------------- yes/ yes
+If the intention is "Replace cellphone battery".
+Verify: the phone is wet.
+Verify: you have a replacement battery.
+Step: remove the cover from the phone.
+The end.
+
+If the problem is "remove the cover from the phone".
+Intention: remove the cover from the phone.
+The end.
+
+If the intention is "remove the cover from the phone".
+Step: The cover moves from the phone to table.
+The end.
+
+
+// ------------- method 2 -------------------------------------------------------- no/ yes
+If the intention is "Replace cellphone battery".
+Verify: the phone isn't wet.
+Verify: you have a replacement battery.
+Step: slide down the cover from the phone.
+The end.
+
+If the problem is "slide down the cover from the phone".
+Intention: slide down the cover from the phone.
+The end.
+
+If the intention is "slide down the cover from the phone".
+Step: The cover moves from the phone to table.
+The end.
+
+
+// ------------- method 3 -------------------------------------------------------- yes/ no
+If the intention is "Replace cellphone battery".
+Verify: the phone is wet.
+Verify: you don't have a replacement battery.
+Step: take the cover from the phone.
+The end.
+
+If the problem is "take the cover from the phone".
+Intention: take the cover from the phone.
+The end.
+
+If the intention is "take the cover from the phone".
+Step: The cover moves from the phone to table.
+The end.
+
+
+// ------------- method 4 -------------------------------------------------------- no/ no
+If the intention is "Replace cellphone battery".
+Verify: the phone isn't wet.
+Verify: you don't have a replacement battery.
+Step: collect the cover from the phone.
+The end.
+
+If the problem is "collect the cover from the phone".
+Intention: collect the cover from the phone.
+The end.
+
+If the intention is "collect the cover from the phone".
+Step: The cover moves from the phone to table.
+The end.

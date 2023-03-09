@@ -1,0 +1,176 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set Basic button to true.
+
+Set Show all story elements switch to true.
+
+Set Deploy novice first switch to false.
+
+Set right panel to Mental models.
+
+Set bottom panel to Elaboration graph.
+
+Show first perspective.
+
+First perspective.
+
+Insert file General commonsense1.
+
+Insert file General reflective knowledge1.
+
+//Insert file personality rules.
+
+Insert file Eastern Commonsense1.
+
+Insert file Eastern Reflective Knowledge1.
+
+"Asian" is a kind of personality trait.
+
+"Violent" is a kind of personality trait. 
+
+Note that "Lu" is a masculine name.
+Note that "Shan" is a masculine name.
+Note that "Goertz" is a masculine name.
+
+Note that unexplained is an adjective.
+
+Lu is a person.
+Shan is a person. 
+Goertz is a person.
+// Associate professor is a person.
+
+America is a country. 
+
+Start story titled "Lu murder story/Eastern".
+
+I am Asian.
+
+// America is individualistic.
+
+// Set summarizer switch to true.
+
+America is a country.
+
+Lu is a student.
+Shan is a student.
+Lu comes from China.
+Shan comes from China.
+Lu studies in America.
+Shan studies in America.
+
+// America glorifies violence.
+
+// America's media glorifies violence.
+
+Lu fails Lu's dissertation defense.
+Goertz is Lu's advisor. 
+
+Lu dislikes Goertz.
+
+Lu is Chinese.
+// Lu went to US to do phD.
+Lu had highest entrance exam score.
+
+Lu is a bachelor. 
+Lu is lonely. 
+Lu owns a gun.
+
+Lu practices shooting. 
+Lu passes his second dissertation defense.
+Lu becomes a lab assistant because Lu fails to find a job.
+
+// Shan is younger than Lu.
+Shan graduates with Lu.
+Shan received national award.
+// Lu did not receive national award. 
+// Lu contested faculty decision because Lu did not receive national award. 
+Faculty rejected Lu's appeal.
+Goertz angers Lu. 
+
+Shan comes from a small Chinese village. 
+Shan is married. 
+Shan is social.
+Shan has friends. 
+
+
+Shan angers Lu because Lu envies Shan. 
+
+In order to kill Goertz, Lu shoots Goertz. 
+// In order to kill associate professor Lu shoots associate professor. 
+In order to kill Shan, Lu shoots Shan. 
+In order to kill Lu, Lu shoots Lu.
+
+
+
+The end. 
+
+Set Self aware button to true.
+
+Set left panel to Inspector.  Set right panel to Mental models. 
+
+
+Pause.
+
+// Commented if broken
+
+Insert question into text box: Did Lu kill Shan because America glorifies violence? 
+
+Pause.
+
+Insert question into text box: Did Lu kill Shan because America is individualistic?  
+
+Pause.  
+
+Insert question into text box: Was Lu lonely?
+
+Pause.
+
+Insert question into text box: Did Lu kill Shan? 
+
+Pause.
+
+Insert question into text box: How did Lu kill Shan? 
+
+Pause.
+
+Insert question into text box: Why did Lu kill Lu? 
+
+Pause.
+
+Insert question into text box: Did Lu kill Shan after Lu killed Goertz? 
+
+Pause.
+
+Insert question into text box: Did Lu kill Shan before Lu killed Goertz? 
+
+Pause.
+
+Insert question into text box: What happened after Lu fails his dissertation defense? 
+
+Pause.
+
+Insert question into text box: What happened after Lu became corrupt? 
+
+Pause.
+
+Insert question into text box: What happened before Lu became corrupt? 
+
+Pause.
+
+Insert question into text box: What happened when Lu shot Lu? 
+
+Pause.
+
+Insert question into text box: What is not explained?  
+
+Pause. 
+
+Insert question into text box: What is the story about? 
+
+
+
+
+
+

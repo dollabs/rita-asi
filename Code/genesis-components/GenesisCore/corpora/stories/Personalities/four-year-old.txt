@@ -1,0 +1,34 @@
+VV is a thing.
+WW is a person.
+XX is a person.
+YY is a physical-thing.
+ZZ is a psych-thing.
+AA is a physical-thing.
+BB is a psych-thing.
+
+
+//phys --> phys: YY --> AA
+//psych --> psych: ZZ --> BB
+//psych --> phys: ZZ --> AA
+
+//TODO: UNCOMMENT BELOW
+//If WW contacts VV and WW has a physical-sickness, then WW may have a physical-sickness because WW runs in VV.
+
+//If WW contacts VV and WW becomes sick, then WW may become sick because WW runs in VV.
+//If WW runs in VV and WW becomes sick, then XX believes WW becomes sick because WW runs in VV.
+
+//If WW contacts VV, then WW may have physical-sickness.
+//TODO: EXPAND THIS FUNCTIONALITY If XX contacts VV, then XX may have itchy spots.
+//WW's contacting VV leads to WW's having itchy spots. //becoming sick.
+
+//If WW eats VV, then WW may have physical-sickness.
+If WW has a negative-psych-action, then WW may have physical-sickness.
+//WW may have physical-sickness because WW has negative-psych-action.
+//WW may have physical-sickness because WW thinks about VV. // and WW has a negative-psych-action.
+//WW may have physical-sickness because WW has a negative-psych-action because WW thinks about VV.
+
+Start story titled "Four-year-old's characteristics".
+
+The end.
+
+

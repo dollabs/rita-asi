@@ -1,0 +1,83 @@
+/* ------------------------------
+ Generated on Make a milk cracker_0412_094350 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a milk cracker".
+Intention: Make a milk cracker.
+The end.
+
+If the intention is "Make a milk cracker".
+Verify: Today is not a weekend.
+Verify: Today is not a weekday.
+Step: Put the cereals to the red box.
+Step: Add nuts to the red box.
+The end.
+
+If the intention is "Make a milk cracker".
+Verify: today is a weekend.
+Verify: Today is not a weekday.
+Step: Put the cereals to the red box.
+Step: pour the chocolate milk to the red box.
+Step: Add nuts to the red box.
+The end.
+
+If the intention is "Make a milk cracker".
+Verify: Today is not a weekend.
+Verify: today is a weekday.
+Step: Put the cereals to the red box.
+Step: pour the milk to the red box.
+Step: Add nuts to the red box.
+The end.
+
+If the intention is "Make a milk cracker".
+Verify: today is a weekend.
+Verify: today is a weekday.
+Step: Put the cereals to the red box.
+Step: pour the milk to the red box.
+Step: pour the chocolate milk to the red box.
+Step: Add nuts to the red box.
+The end.
+
+If the problem is "Put the cereals to the red box".
+Intention: Put the cereals to the red box.
+The end.
+
+If the intention is "Put the cereals to the red box".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Make a milk cracker_0412_094350 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "pour the milk to the red box".
+Intention: pour the milk to the red box.
+The end.
+
+If the intention is "pour the milk to the red box".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Make a milk cracker_0412_094350 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "pour the chocolate milk to the red box".
+Intention: pour the chocolate milk to the red box.
+The end.
+
+If the intention is "pour the chocolate milk to the red box".
+Method: Assume success.
+The end.
+
+/* ------------------------------
+ Generated on Make a milk cracker_0412_094350 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Add nuts to the red box".
+Intention: Add nuts to the red box.
+The end.
+
+If the intention is "Add nuts to the red box".
+Method: Assume success.
+The end.
+

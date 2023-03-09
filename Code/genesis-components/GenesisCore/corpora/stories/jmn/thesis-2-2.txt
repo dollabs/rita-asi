@@ -1,0 +1,28 @@
+//Les Mis 2.2 (Thesis), copied from 2.1 on 1/10/2017
+
+Start experiment.
+
+Start common sense knowledge.
+xx is a person.
+yy is a person.
+
+If xx commits a crime, then xx becomes criminal.
+If xx is a policeman and yy becomes criminal, then xx wants to arrest yy.
+If xx repents, then xx stops being criminal.
+If a tree falls in the forest, then the tree makes noise.
+
+Inspector Javert is a name.
+Jean Valjean is a name.
+
+Start story titled "Les Mis 2.2".
+
+Inspector Javert and Jean Valjean are persons.
+
+Then, Inspector Javert is a policeman.
+Jean Valjean commits a crime.
+
+Then, Jean Valjean repents.
+
+Then, a tree falls in the forest.
+
+The end.

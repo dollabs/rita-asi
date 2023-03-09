@@ -1,0 +1,20 @@
+// Note idiom that sets up experiments and gives each a name; must be first sentence read.
+
+Run what-if experiments A, B, C, D.
+
+Set right panel to mental models.
+
+Set bottom panel to elaboration graph.
+
+
+
+
+Assume if experiment A: Insert file WrappedDemo.
+
+Assume if experiment B: Insert file WrappedDemo.
+
+Assume if experiment C: Insert file WrappedDemo.
+
+Assume if experiment D: Insert file WrappedDemo.
+
+

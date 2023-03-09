@@ -1,0 +1,21 @@
+Set expert teaches novice button to true.
+
+Set Use features when matching switch to false.
+
+Set Split names with underscores switch to false.
+
+Set right panel to Learn PS from conversations.
+
+Insert conversation: Do you know how to replace cellphone battery?
+
+Insert conversation: read how Alice replaces cellphone battery.
+
+Insert conversation: read how Bob replaces cellphone battery.
+
+Insert conversation: yes.
+
+Insert conversation: you apply the first method if your phone is wet.
+
+Insert conversation: if you have a replacement battery, you apply the second method.
+
+Insert conversation: show me.

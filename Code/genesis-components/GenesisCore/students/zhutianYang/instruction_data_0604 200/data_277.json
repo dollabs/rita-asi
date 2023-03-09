@@ -1,0 +1,19 @@
+{
+    "accept_time": "2019-06-04 10:12:23+08:00", 
+    "instructions": [
+        "Put the charger on the bottom edge of the table", 
+        "Put the dinner fork to the left of the charger with the tines facing up", 
+        "put the dinner knife to the right of the charger, vertically with the blade facing to the left", 
+        "put the salad for to the left of the dinner fork, with the tines facing up", 
+        "put the salad knife to the right of the dinner knife, vertically with the blade facing to the left", 
+        "put the soup spoon to the right of the salad knife with the bowl facing up", 
+        "center the dessert spoon above the charger with the bowl facing left", 
+        "place the dessert fork between the dessert spoon and the charger, with the tines facing right", 
+        "place the bread plate above the dinner and salad forks, place the dinner plate in the center of the charger", 
+        "place the butter knife diagonally on the bread plate with the point in the upper left", 
+        "place the water glass above the knives and soup spoon", 
+        "place the napkin horizontally in the middle of the dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table4"
+}

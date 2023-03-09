@@ -1,0 +1,3 @@
+Set all switches to defaults.
+
+Insert file Macbeth1.

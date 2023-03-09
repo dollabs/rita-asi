@@ -1,0 +1,418 @@
+xx is a variable.
+yy is a variable.
+zz is a variable.
+
+
+// ========================================
+// Concept 1: On = In     (in the world of a robot arm)
+// ----------------------------
+
+If the problem is "xx is in yy".
+Check: Verify that xx is on yy.
+Intention: Put xx on yy.
+The end.
+
+If the problem is "xx is on yy".
+Check: Verify that xx is on yy.
+Intention: Put xx on yy.
+The end.
+
+
+// --------------- if xx can be manipulated directly
+If the intention is "Put xx on yy".
+Verify: xx can be observed on the table.
+Verify: xx is not an instance of seed.
+Verify: xx is not an instance of bread.
+Verify: xx is not an instance of ingredient.
+Method: Move xx to yy.
+The end.
+
+
+// --------------- if it is seed
+If the intention is "Put xx on yy".
+Verify: xx is an instance of seed.
+Instantiate: xx is stored in zz.
+Solve: xx moves from zz to yy.
+The end.
+
+If the intention is "Put xx on yy".
+Verify: xx is an instance of seed.
+Instantiate: xx are placed in zz in kk.
+Solve: xx moves from zz to yy.
+Solve: xx moves from kk to yy.
+The end.
+
+If the intention is "Put xx on yy".
+Verify: xx is an instance of seed.
+Instantiate: xx are distributed in zz in kk in qq.
+Solve: xx moves from zz to yy.
+Solve: xx moves from kk to yy.
+Solve: xx moves from qq to yy.
+The end.
+
+If the intention is "Put xx on yy".
+Verify: xx is an instance of seed.
+Instantiate: xx are located in zz in kk in qq in pp.
+Solve: xx moves from zz to yy.
+Solve: xx moves from kk to yy.
+Solve: xx moves from qq to yy.
+Solve: xx moves from pp to yy.
+The end.
+
+
+// --------------- if it is ingredient, such as sugar
+If the intention is "Put xx on yy".
+Verify: xx is an instance of ingredient.
+Instantiate: xx is stored in zz.
+Solve: xx moves from zz to yy.
+The end.
+
+If the intention is "Put xx on yy".
+Verify: xx is an instance of ingredient.
+Instantiate: xx are placed in zz, in kk.
+Solve: xx moves from zz to yy.
+Solve: xx moves from kk to yy.
+The end.
+
+If the intention is "Put xx on yy".
+Verify: xx is an instance of ingredient.
+Instantiate: xx are distributed in zz in kk in qq.
+Solve: xx moves from zz to yy.
+Solve: xx moves from kk to yy.
+Solve: xx moves from qq to yy.
+The end.
+
+If the intention is "Put xx on yy".
+Verify: xx is an instance of ingredient.
+Instantiate: xx are located in zz in kk in qq in pp.
+Solve: xx moves from zz to yy.
+Solve: xx moves from kk to yy.
+Solve: xx moves from qq to yy.
+Solve: xx moves from pp to yy.
+The end.
+
+
+// --------------- if it is bread, such as crackers
+
+If the intention is "Put xx on yy".
+Verify: xx is an instance of bread.
+Instantiate: xx is stored in zz.
+Solve: xx moves from zz to yy.
+The end.
+
+
+If the intention is "Put xx on yy".
+Verify: xx is an instance of bread.
+Instantiate: xx are placed in zz in kk.
+Solve: xx moves from zz to yy.
+Solve: xx moves from kk to yy.
+The end.
+
+If the intention is "Put xx on yy".
+Verify: xx is an instance of bread.
+Instantiate: xx are distributed in zz in kk in qq.
+Solve: xx moves from zz to yy.
+Solve: xx moves from kk to yy.
+Solve: xx moves from qq to yy.
+The end.
+
+If the intention is "Put xx on yy".
+Verify: xx is an instance of bread.
+Instantiate: xx are located in zz in kk in qq in pp.
+Solve: xx moves from zz to yy.
+Solve: xx moves from kk to yy.
+Solve: xx moves from qq to yy.
+Solve: xx moves from pp to yy.
+The end.
+
+
+// --------------- if cannot find on table
+If the intention is "Put xx on yy".
+Verify: xx can't be observed on the table.
+Instantiate: xx is stored in zz.
+Solve: xx moves from zz to yy.
+The end.
+
+If the intention is "Put xx on yy".
+Verify: xx can't be observed on the table.
+Instantiate: xx are placed in zz in kk.
+Solve: xx moves from zz to yy.
+Solve: xx moves from kk to yy.
+The end.
+
+If the intention is "Put xx on yy".
+Verify: xx can't be observed on the table.
+Instantiate: xx are distributed in zz in kk in qq.
+Solve: xx moves from zz to yy.
+Solve: xx moves from kk to yy.
+Solve: xx moves from qq to yy.
+The end.
+
+If the intention is "Put xx on yy".
+Verify: xx can't be observed on the table.
+Instantiate: xx are located in zz in kk in qq in pp.
+Solve: xx moves from zz to yy.
+Solve: xx moves from kk to yy.
+Solve: xx moves from qq to yy.
+Solve: xx moves from pp to yy.
+The end.
+
+
+// -------------- if fail to meet conditions for directly manipulate xx, ask for container
+
+// ---------- 1 container
+If the problem is "xx is stored in zz".
+Intention: xx is stored in zz.
+The end.
+
+If the intention is "xx is stored in zz".
+Method: xx is stored in zz.
+The end.
+
+If the method is "xx is stored in zz".
+Execute: Call "zCheckStore" with xx with zz.
+The end.
+
+
+// ---------- 2 containers
+If the problem is "xx are placed in zz in kk".
+Intention: xx are placed in zz in kk.
+The end.
+
+If the intention is "xx are placed in zz in kk".
+Method: xx are placed in zz in kk.
+The end.
+
+If the method is "xx are placed in zz in kk".
+Execute: Call "zCheckStoreTwo" with xx with zz with kk.
+The end.
+
+
+// ---------- 3 containers
+If the problem is "xx are distributed in zz in kk in qq".
+Intention: xx are distributed in zz in kk in qq.
+The end.
+
+If the intention is "xx are distributed in zz in kk in qq".
+Method: xx are distributed in zz in kk in qq.
+The end.
+
+If the method is "xx are distributed in zz in kk in qq".
+Execute: Call "zCheckStoreThree" with xx with zz with kk with qq.
+The end.
+
+
+// ---------- 4 containers
+If the problem is "xx are located in zz in kk in qq in pp".
+Intention: xx are located in zz in kk in qq in pp.
+The end.
+
+If the intention is "xx are located in zz in kk in qq in pp".
+Method: xx are located in zz in kk in qq in pp.
+The end.
+
+If the method is "xx are located in zz in kk in qq in pp".
+Execute: Call "zCheckStoreFour" with xx with zz with kk with qq with pp.
+The end.
+
+
+// ========================================
+// Concept 2: From-Into
+// ----------------------------
+
+If the problem is "xx moves from yy into zz".
+Intention: xx moves from yy into zz.
+The end.
+
+If the intention is "xx moves from yy into zz".
+Step: yy is above zz.
+Step: yy is tilted.
+Step: yy is on the table.
+The end.
+
+If the problem is "xx moves from yy to zz".
+Intention: xx moves from yy to zz.
+The end.
+
+If the intention is "xx moves from yy to zz".
+Step: yy is above zz.
+Step: yy is tilted.
+Step: yy is on the table.
+The end.
+
+
+
+// --------------------
+
+If the problem is "xx is tilted".
+Intention: Rotate xx.
+The end.
+
+If the problem is "Rotate xx".
+Intention: Rotate xx.
+The end.
+
+If the intention is "Rotate xx".
+Method: Rotate xx.
+The end.
+
+If the method is "Rotate xx".
+Execute: Call "jdTilt" with xx.
+The end.
+
+
+
+
+
+// ========================================
+// Concept 3: FROM / TO
+// ----------------------------
+
+If the problem is "xx moves from yy".
+Intention: xx moves from yy to table.
+The end.
+
+If the problem is "xx moves from yy to table".
+Intention: xx moves from yy to table.
+The end.
+
+If the intention is "xx moves from yy to table".
+Step: yy is on table.
+The end.
+
+If the problem is "xx is on table".
+Check: Verify that nothing is on xx.
+Intention: Get rid of xx.
+The end.
+
+If the intention is "Get rid of xx".
+Method: Move xx to table.
+The end.
+
+If the method is "Move xx to yy".
+Execute: Call "jdPutOnWithSpeed" with xx with yy.
+The end.
+
+
+
+// ========================================
+// Concept 4: Above
+// ----------------------------
+
+
+If the problem is "xx is above yy".
+Intention: Move xx above yy.
+The end.
+
+If the problem is "Move xx above yy".
+Intention: Move xx above yy.
+The end.
+
+If the intention is "Move xx above yy".
+Method: Move xx above yy.
+The end.
+
+If the method is "Move xx above yy".
+Execute: Call "jdPutOverWithSpeed" with xx with yy.
+The end.
+
+
+
+// ========================================
+// Concept 5: AS
+// ----------------------------
+
+If the problem is "Identify elements".
+Intention: Identify elements.
+The end.
+
+If the problem is "xx is known as yy".
+Intention: Recognize xx as yy.
+The end.
+
+If the intention is "Recognize xx as yy".
+Method: Recognize xx as yy.
+The end.
+
+If the method is "Recognize xx as yy".
+Execute: Call "jdRemember" with xx with yy.
+The end.
+
+
+
+// ----------------------------
+// For kitchen
+// ----------------------------
+
+
+If the method is "Verify that xx is on the table".
+Execute: Call "jdOnTable" with xx.
+The end.
+
+If the method is "xx is on the table".
+Execute: Call "zOnTable" with xx.
+The end.
+
+If the method is "Assume success".
+Execute: Call "zAssumeSuccess".
+The end.
+
+If the method is "Print xx".
+Execute: Call "zPrint" with xx.
+The end.
+
+
+
+// ----------------------------
+// For Blocks World Visual Checking
+// ----------------------------
+
+// -------- 1 jdSupportedBy
+
+If the method is "Verify that xx is on yy".
+Execute: Call "jdSupportedBy" with yy with xx.
+The end.
+
+
+
+// -------- 2 jdFindSpace
+
+If the condition is "There is space for xx on yy".
+Check: Verify that there is space for xx on yy.
+Instantiate: zz is supported by yy.
+Solve: zz is on the table.
+The end.
+
+If the method is "Verify that there is space for xx on yy".
+Execute: Call "jdFindSpace" with xx with yy.
+The end.
+
+
+
+// -------- 3 jdHasClearTop
+
+If the condition is "There is nothing on xx".
+Check: Verify that nothing is on xx.
+Instantiate: zz is supported by xx.
+Solve: zz is on the table.
+The end.
+
+If the method is "Verify that nothing is on xx".
+Execute: Call "jdHasClearTop" with xx.
+The end.
+
+
+
+// -------- 4 jdSupported
+
+If the problem is "yy is supported by xx".
+Intention: Verify that yy is supported by xx.
+The end.
+
+If the intention is " Verify that yy is supported by xx".
+Method: Verify that yy is supported by xx.
+The end.
+
+If the method is "Verify that yy is supported by xx".
+Execute: Call "jdSupported" with xx with yy.
+The end.

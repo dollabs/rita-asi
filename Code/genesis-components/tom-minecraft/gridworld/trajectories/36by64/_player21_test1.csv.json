@@ -1,0 +1,4404 @@
+{
+    "map": "test1.csv",
+    "time_start": "T16595",
+    "time_finish": "T19221",
+    "duration": 8576,
+    "steps": {
+        "0": {
+            "time": "T16595",
+            "x": 18.5,
+            "y": 227.0,
+            "z": 15.5,
+            "yaw": -61.5,
+            "cell": "(19,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 24.0,
+                "y": 228.39369255656084,
+                "z": 17.238911203039766,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 5.772783279418945
+            }
+        },
+        "1": {
+            "time": "T16595",
+            "x": 18.5,
+            "y": 227.0,
+            "z": 15.5,
+            "yaw": -41.249996,
+            "cell": "(19,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 20.439475264030527,
+                "y": 228.37958351195323,
+                "z": 18.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 3.1732261180877686
+            }
+        },
+        "2": {
+            "time": "T16595",
+            "x": 18.5,
+            "y": 227.0,
+            "z": 15.5,
+            "yaw": -64.19999,
+            "cell": "(19,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 24.0,
+                "y": 228.1820298033409,
+                "z": 16.356309936679697,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 5.583465099334717
+            }
+        },
+        "3": {
+            "time": "T17000",
+            "x": 19.323676241845593,
+            "y": 227.0,
+            "z": 15.619359149618461,
+            "yaw": -81.74999,
+            "cell": "(20,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.175729332427654,
+                "y": 227.75,
+                "z": 16.032645195423907,
+                "type": "enchanting_table",
+                "NBTTagCompound": {
+                    "x": 22,
+                    "y": 227,
+                    "z": 16,
+                    "id": "minecraft:enchanting_table"
+                },
+                "inRange": true,
+                "distance": 3.010301113128662
+            }
+        },
+        "4": {
+            "time": "T17000",
+            "x": 20.166816682945267,
+            "y": 227.0,
+            "z": 15.74153886167753,
+            "yaw": -81.74999,
+            "cell": "(21,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 24.0,
+                "y": 227.51572408567327,
+                "z": 16.296999209250146,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 3.8209228515625
+            }
+        },
+        "5": {
+            "time": "T17000",
+            "x": 21.451995616831827,
+            "y": 227.0,
+            "z": 15.673500610080966,
+            "yaw": -103.65,
+            "cell": "(22,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 24.0,
+                "y": 227.30462422140937,
+                "z": 15.083066826189182,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 2.9276530742645264
+            }
+        },
+        "6": {
+            "time": "T17000",
+            "x": 21.675193433469712,
+            "y": 227.0,
+            "z": 15.620590659538776,
+            "yaw": -37.050007,
+            "cell": "(22,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.08554573407725,
+                "y": 227.0,
+                "z": 17.411788314033195,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.449730157852173
+            }
+        },
+        "7": {
+            "time": "T17000",
+            "x": 21.506487304420755,
+            "y": 227.0,
+            "z": 16.435603717397832,
+            "yaw": 11.699993,
+            "cell": "(21,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 21.182660305116112,
+                "y": 227.15876136603652,
+                "z": 18.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 2.1650445461273193
+            }
+        },
+        "8": {
+            "time": "T17000",
+            "x": 21.37735099396942,
+            "y": 227.0,
+            "z": 17.059456447911472,
+            "yaw": -46.650005,
+            "cell": "(21,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.81639172034454,
+                "y": 227.0,
+                "z": 17.641798193500215,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.238947868347168
+            }
+        },
+        "9": {
+            "time": "T17000",
+            "x": 21.46072691106456,
+            "y": 227.0,
+            "z": 16.675320416350722,
+            "yaw": -78.30001,
+            "cell": "(22,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.317171000876577,
+                "y": 227.75,
+                "z": 16.85260267734179,
+                "type": "enchanting_table",
+                "NBTTagCompound": {
+                    "x": 22,
+                    "y": 227,
+                    "z": 16,
+                    "id": "minecraft:enchanting_table"
+                },
+                "inRange": true,
+                "distance": 1.2336229085922241
+            }
+        },
+        "10": {
+            "time": "T17000",
+            "x": 21.69999998807907,
+            "y": 227.0,
+            "z": 16.375508202299034,
+            "yaw": -43.350006,
+            "cell": "(22,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.74133645964064,
+                "y": 227.0,
+                "z": 17.553565652863874,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.2559385299682617
+            }
+        },
+        "11": {
+            "time": "T17000",
+            "x": 21.69999998807907,
+            "y": 227.0,
+            "z": 16.375508202299034,
+            "yaw": 73.19999,
+            "cell": "(22,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.0,
+                "y": 230.34256500162036,
+                "z": 16.010188875682545,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.927696228027344
+            }
+        },
+        "12": {
+            "time": "T17001",
+            "x": 21.60888134688139,
+            "y": 227.0,
+            "z": 16.342553880350373,
+            "yaw": 111.6,
+            "cell": "(21,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.0,
+                "y": 228.1591878814429,
+                "z": 13.924113929992796,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 7.052553653717041
+            }
+        },
+        "13": {
+            "time": "T17001",
+            "x": 20.717577045527243,
+            "y": 227.0,
+            "z": 16.030737266163456,
+            "yaw": 108.6,
+            "cell": "(20,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.0,
+                "y": 228.29994926546613,
+                "z": 14.106301746838614,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 5.828817844390869
+            }
+        },
+        "14": {
+            "time": "T17001",
+            "x": 19.962146614205036,
+            "y": 227.0,
+            "z": 16.008549935551244,
+            "yaw": 40.95,
+            "cell": "(20,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 18.927700187994212,
+                "y": 227.51346189381266,
+                "z": 18.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 2.502074956893921
+            }
+        },
+        "15": {
+            "time": "T17001",
+            "x": 19.61782107343673,
+            "y": 227.0,
+            "z": 16.479022775337988,
+            "yaw": 4.650004,
+            "cell": "(20,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.478147577094344,
+                "y": 227.83468393071303,
+                "z": 18.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.7035712003707886
+            }
+        },
+        "16": {
+            "time": "T17001",
+            "x": 19.603526585547986,
+            "y": 227.0,
+            "z": 16.50640612047615,
+            "yaw": 75.600006,
+            "cell": "(20,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.0,
+                "y": 227.9520750268334,
+                "z": 16.73565993037145,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 4.657374382019043
+            }
+        },
+        "17": {
+            "time": "T17001",
+            "x": 19.603526585547986,
+            "y": 227.0,
+            "z": 16.50640612047615,
+            "yaw": 92.25001,
+            "cell": "(20,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.0,
+                "y": 227.91373032488875,
+                "z": 16.14418954177209,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 4.67145299911499
+            }
+        },
+        "18": {
+            "time": "T17001",
+            "x": 19.505828545241418,
+            "y": 227.0,
+            "z": 16.498719003037387,
+            "yaw": 94.50001,
+            "cell": "(19,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.0,
+                "y": 227.91001302037571,
+                "z": 15.797194315455629,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 4.615052700042725
+            }
+        },
+        "19": {
+            "time": "T17001",
+            "x": 18.576925651987963,
+            "y": 227.0,
+            "z": 16.4841012359801,
+            "yaw": 69.00001,
+            "cell": "(18,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.355861441928917,
+                "y": 227.7557772113595,
+                "z": 18.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 3.6633434295654297
+            }
+        },
+        "20": {
+            "time": "T17001",
+            "x": 17.665936323563475,
+            "y": 227.0,
+            "z": 16.942275590079703,
+            "yaw": 43.05001,
+            "cell": "(18,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.67786785511368,
+                "y": 228.08179722025668,
+                "z": 18.0,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 1.5442546606063843
+            }
+        },
+        "21": {
+            "time": "T17001",
+            "x": 17.607432103720186,
+            "y": 227.0,
+            "z": 16.97995281866649,
+            "yaw": 41.40001,
+            "cell": "(17,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.0,
+                "y": 228.04062900557872,
+                "z": 18.803452110104363,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 2.4037091732025146
+            }
+        },
+        "22": {
+            "time": "T17001",
+            "x": 17.322934805893652,
+            "y": 227.0,
+            "z": 17.30269154768432,
+            "yaw": 41.40001,
+            "cell": "(17,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.0,
+                "y": 228.17198514467415,
+                "z": 18.80345208869462,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.85873544216156
+            }
+        },
+        "23": {
+            "time": "T17001",
+            "x": 16.577841499981066,
+            "y": 227.0,
+            "z": 17.69999998807907,
+            "yaw": 7.8000107,
+            "cell": "(16,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.843070161757893,
+                "y": 227.32269679552053,
+                "z": 23.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 5.499122619628906
+            }
+        },
+        "24": {
+            "time": "T17001",
+            "x": 16.424955204371436,
+            "y": 227.0,
+            "z": 18.322611292565917,
+            "yaw": 5.7000103,
+            "cell": "(16,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.0,
+                "y": 227.03818035229546,
+                "z": 23.915459188377238,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 5.827751636505127
+            }
+        },
+        "25": {
+            "time": "T17001",
+            "x": 16.350863208541494,
+            "y": 227.0,
+            "z": 19.377076636166443,
+            "yaw": -0.29998955,
+            "cell": "(16,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.37524037997563,
+                "y": 227.13146496953618,
+                "z": 24.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 4.856722354888916
+            }
+        },
+        "26": {
+            "time": "T17001",
+            "x": 16.348965172053216,
+            "y": 227.0,
+            "z": 20.239200542911323,
+            "yaw": -0.29998955,
+            "cell": "(16,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.368165704929584,
+                "y": 227.47854517741564,
+                "z": 24.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 3.724285364151001
+            }
+        },
+        "27": {
+            "time": "T17001",
+            "x": 16.39509665591446,
+            "y": 227.0,
+            "z": 20.7975008723169,
+            "yaw": -27.749989,
+            "cell": "(17,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.443915574645978,
+                "y": 228.24531534111196,
+                "z": 23.0,
+                "type": "dispenser",
+                "prop_facing": "north",
+                "prop_triggered": false,
+                "NBTTagCompound": {
+                    "x": 17,
+                    "y": 228,
+                    "z": 23,
+                    "id": "minecraft:dispenser"
+                },
+                "inRange": true,
+                "distance": 2.318521022796631
+            }
+        },
+        "28": {
+            "time": "T17001",
+            "x": 16.695904439572725,
+            "y": 227.0,
+            "z": 21.46602993521922,
+            "yaw": -19.64999,
+            "cell": "(17,22)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.243772523757706,
+                "y": 228.3005344914055,
+                "z": 23.0,
+                "type": "dispenser",
+                "prop_facing": "north",
+                "prop_triggered": false,
+                "NBTTagCompound": {
+                    "x": 17,
+                    "y": 228,
+                    "z": 23,
+                    "id": "minecraft:dispenser"
+                },
+                "inRange": true,
+                "distance": 1.6599041223526
+            }
+        },
+        "29": {
+            "time": "T17002",
+            "x": 16.781692617560125,
+            "y": 227.0,
+            "z": 21.68956521424985,
+            "yaw": 82.95001,
+            "cell": "(17,22)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 14.225932223839283,
+                "y": 227.0,
+                "z": 19.7287207722947,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.6057207584381104
+            }
+        },
+        "30": {
+            "time": "T17002",
+            "x": 16.781692617560125,
+            "y": 227.0,
+            "z": 21.68956521424985,
+            "yaw": 146.10002,
+            "cell": "(17,22)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.142454198220989,
+                "y": 227.0,
+                "z": 19.151282030962786,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.428466796875
+            }
+        },
+        "31": {
+            "time": "T17002",
+            "x": 16.728526719833113,
+            "y": 227.0,
+            "z": 21.607240336868525,
+            "yaw": 147.15002,
+            "cell": "(17,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.708376767281422,
+                "y": 228.809890259648,
+                "z": 20.0,
+                "type": "dispenser",
+                "prop_facing": "north",
+                "prop_triggered": false,
+                "NBTTagCompound": {
+                    "x": 15,
+                    "y": 228,
+                    "z": 19,
+                    "id": "minecraft:dispenser"
+                },
+                "inRange": true,
+                "distance": 1.9131089448928833
+            }
+        },
+        "32": {
+            "time": "T17002",
+            "x": 16.55037714271278,
+            "y": 227.0,
+            "z": 21.326815996431314,
+            "yaw": 147.90002,
+            "cell": "(16,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.737198288103318,
+                "y": 228.73824161966533,
+                "z": 20.0,
+                "type": "dispenser",
+                "prop_facing": "north",
+                "prop_triggered": false,
+                "NBTTagCompound": {
+                    "x": 15,
+                    "y": 228,
+                    "z": 19,
+                    "id": "minecraft:dispenser"
+                },
+                "inRange": true,
+                "distance": 1.5606670379638672
+            }
+        },
+        "33": {
+            "time": "T17002",
+            "x": 16.116603266849697,
+            "y": 227.0,
+            "z": 20.589419194224906,
+            "yaw": 150.14998,
+            "cell": "(16,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.204294193731998,
+                "y": 228.1698901447164,
+                "z": 19.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.8871036767959595
+            }
+        },
+        "34": {
+            "time": "T17002",
+            "x": 15.907288964085733,
+            "y": 227.0,
+            "z": 20.218786956790805,
+            "yaw": 312.3,
+            "cell": "(16,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.67396236963847,
+                "y": 227.5571702209874,
+                "z": 23.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 2.986501932144165
+            }
+        },
+        "35": {
+            "time": "T17002",
+            "x": 15.907288964085733,
+            "y": 227.0,
+            "z": 20.218786956790805,
+            "yaw": 4.799988,
+            "cell": "(16,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.5116160381095,
+                "y": 227.55022645396335,
+                "z": 23.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 3.0060136318206787
+            }
+        },
+        "36": {
+            "time": "T17002",
+            "x": 15.907288964085733,
+            "y": 227.0,
+            "z": 20.218786956790805,
+            "yaw": 52.349976,
+            "cell": "(16,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 13.01780373417387,
+                "y": 228.16428331193111,
+                "z": 22.0,
+                "type": "dispenser",
+                "prop_facing": "north",
+                "prop_triggered": false,
+                "NBTTagCompound": {
+                    "x": 13,
+                    "y": 228,
+                    "z": 22,
+                    "id": "minecraft:dispenser"
+                },
+                "inRange": true,
+                "distance": 3.4248390197753906
+            }
+        },
+        "37": {
+            "time": "T17002",
+            "x": 15.907288964085733,
+            "y": 227.0,
+            "z": 20.218786956790805,
+            "yaw": 28.649963,
+            "cell": "(16,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 14.527006349812341,
+                "y": 228.16155634496866,
+                "z": 23.0,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 3.138550043106079
+            }
+        },
+        "38": {
+            "time": "T17002",
+            "x": 15.899864141077256,
+            "y": 227.0,
+            "z": 20.316505277577757,
+            "yaw": 4.349884,
+            "cell": "(16,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.705464858603092,
+                "y": 228.42374089719326,
+                "z": 22.875,
+                "type": "wall_sign",
+                "prop_facing": "north",
+                "NBTTagCompound": {
+                    "x": 15,
+                    "Text4": "{\"text\":\"\"}",
+                    "y": 228,
+                    "Text3": "{\"text\":\"\"}",
+                    "z": 22,
+                    "Text2": "{\"text\":\"32-123\"}",
+                    "id": "minecraft:sign",
+                    "Text1": "{\"text\":\"\"}"
+                },
+                "inRange": true,
+                "distance": 2.4223251342773438
+            }
+        },
+        "39": {
+            "time": "T17003",
+            "x": 15.826484183228295,
+            "y": 227.0,
+            "z": 21.25807524955845,
+            "yaw": 4.9498596,
+            "cell": "(16,22)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.683290636445658,
+                "y": 228.49785103328972,
+                "z": 22.875,
+                "type": "wall_sign",
+                "prop_facing": "north",
+                "NBTTagCompound": {
+                    "x": 15,
+                    "Text4": "{\"text\":\"\"}",
+                    "y": 228,
+                    "Text3": "{\"text\":\"\"}",
+                    "z": 22,
+                    "Text2": "{\"text\":\"32-123\"}",
+                    "id": "minecraft:sign",
+                    "Text1": "{\"text\":\"\"}"
+                },
+                "inRange": true,
+                "distance": 1.4157993793487549
+            }
+        },
+        "40": {
+            "time": "T17003",
+            "x": 15.716854252271723,
+            "y": 227.0,
+            "z": 22.344623550419,
+            "yaw": 46.64978,
+            "cell": "(16,22)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 14.285395333900698,
+                "y": 228.455151052116,
+                "z": 23.0,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 1.5774403810501099
+            }
+        },
+        "41": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(15,22)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 11.582333245136756,
+                "y": 227.0,
+                "z": 21.113051844223047,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.430770397186279
+            }
+        },
+        "42": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(14,22)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.993983701147927,
+                "y": 227.0,
+                "z": 19.91598878589719,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.139769077301025
+            }
+        },
+        "43": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(13,22)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.821442744087499,
+                "y": 227.0,
+                "z": 19.452255349196232,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.321652889251709
+            }
+        },
+        "44": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(13,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.419313977444144,
+                "y": 227.0,
+                "z": 19.29584712303686,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.321652889251709
+            }
+        },
+        "45": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(12,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 6.8159979277053555,
+                "y": 227.0,
+                "z": 19.0607852537466,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.321652889251709
+            }
+        },
+        "46": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(11,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 6.0,
+                "y": 227.07387489310796,
+                "z": 19.035294168628695,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 6.217958927154541
+            }
+        },
+        "47": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(10,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.0,
+                "y": 228.45771820423013,
+                "z": 20.769995590933338,
+                "type": "dispenser",
+                "prop_facing": "north",
+                "prop_triggered": false,
+                "NBTTagCompound": {
+                    "x": 8,
+                    "y": 228,
+                    "z": 20,
+                    "id": "minecraft:dispenser"
+                },
+                "inRange": true,
+                "distance": 1.552875280380249
+            }
+        },
+        "48": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(10,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.0,
+                "y": 228.5253657808803,
+                "z": 20.182002274016163,
+                "type": "dispenser",
+                "prop_facing": "north",
+                "prop_triggered": false,
+                "NBTTagCompound": {
+                    "x": 8,
+                    "y": 228,
+                    "z": 20,
+                    "id": "minecraft:dispenser"
+                },
+                "inRange": true,
+                "distance": 0.8837862014770508
+            }
+        },
+        "49": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(9,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.0,
+                "y": 228.54760003096249,
+                "z": 20.1846069768011,
+                "type": "dispenser",
+                "prop_facing": "north",
+                "prop_triggered": false,
+                "NBTTagCompound": {
+                    "x": 8,
+                    "y": 228,
+                    "z": 20,
+                    "id": "minecraft:dispenser"
+                },
+                "inRange": true,
+                "distance": 0.6761411428451538
+            }
+        },
+        "50": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(10,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.0,
+                "y": 227.49001167959042,
+                "z": 16.4256190110893,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": false,
+                "distance": 9.209542274475098
+            }
+        },
+        "51": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(10,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.0,
+                "y": 227.46972865704524,
+                "z": 15.991375389954689,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 9.37485122680664
+            }
+        },
+        "52": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(9,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.0,
+                "y": 227.4856362225386,
+                "z": 16.086631640075893,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": false,
+                "distance": 9.24520206451416
+            }
+        },
+        "53": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(8,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.0,
+                "y": 227.63949168947238,
+                "z": 16.353503104835074,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": false,
+                "distance": 7.9912614822387695
+            }
+        },
+        "54": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(7,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.0,
+                "y": 227.80963868736657,
+                "z": 16.15728184635893,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": false,
+                "distance": 7.053279399871826
+            }
+        },
+        "55": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(6,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.509773310703035,
+                "y": 228.04941713643643,
+                "z": 15.0,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": false,
+                "distance": 5.901634693145752
+            }
+        },
+        "56": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(6,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.5335954820196434,
+                "y": 228.13605365694048,
+                "z": 15.0,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": false,
+                "distance": 5.005538463592529
+            }
+        },
+        "57": {
+            "time": "T17003",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(5,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.7199024762977313,
+                "y": 228.17196102017508,
+                "z": 15.0,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": false,
+                "distance": 4.6341423988342285
+            }
+        },
+        "58": {
+            "time": "T17004",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(4,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.0,
+                "y": 228.1720672851287,
+                "z": 14.636279921990091,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": true,
+                "distance": 3.302671432495117
+            }
+        },
+        "59": {
+            "time": "T17004",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(4,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.0,
+                "y": 228.25840661582473,
+                "z": 14.780137017400321,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": true,
+                "distance": 3.010066032409668
+            }
+        },
+        "60": {
+            "time": "T17004",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(4,15)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 6.508932818181656,
+                "y": 227.0,
+                "z": 7.49565748764399,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 8.64566707611084
+            }
+        },
+        "61": {
+            "time": "T17004",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(4,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 6.85497062385355,
+                "y": 227.0,
+                "z": 6.515880499195928,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 8.64566707611084
+            }
+        },
+        "62": {
+            "time": "T17004",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(5,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 227.1877928142059,
+                "z": 7.244492514005926,
+                "type": "birch_stairs",
+                "variant": "bottom",
+                "prop_facing": "north",
+                "prop_shape": "straight",
+                "inRange": false,
+                "distance": 7.643448352813721
+            }
+        },
+        "63": {
+            "time": "T17004",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(5,15)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.371533898837428,
+                "y": 227.31162055122073,
+                "z": 8.0,
+                "type": "birch_stairs",
+                "variant": "bottom",
+                "prop_facing": "north",
+                "prop_shape": "straight",
+                "inRange": false,
+                "distance": 6.982600688934326
+            }
+        },
+        "64": {
+            "time": "T17004",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(5,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.596287857586325,
+                "y": 227.2983386357113,
+                "z": 8.0,
+                "type": "birch_stairs",
+                "variant": "bottom",
+                "prop_facing": "north",
+                "prop_shape": "straight",
+                "inRange": false,
+                "distance": 7.053483963012695
+            }
+        },
+        "65": {
+            "time": "T17004",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(6,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.64313782326567,
+                "y": 227.31453917823674,
+                "z": 8.0,
+                "type": "birch_stairs",
+                "variant": "bottom",
+                "prop_facing": "north",
+                "prop_shape": "straight",
+                "inRange": false,
+                "distance": 6.967024803161621
+            }
+        },
+        "66": {
+            "time": "T17004",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(6,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 6.082905242066167,
+                "y": 227.0,
+                "z": 2.6289224781238856,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 11.090678215026855
+            }
+        },
+        "67": {
+            "time": "T17004",
+            "x": 15.50786700906836,
+            "y": 227.0,
+            "z": 22.376977872663424,
+            "yaw": 82.34976,
+            "cell": "(6,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.659996666454637,
+                "y": 227.089022718765,
+                "z": 1.5625,
+                "type": "iron_bars",
+                "prop_east": false,
+                "prop_north": false,
+                "prop_south": false,
+                "prop_west": false,
+                "inRange": false,
+                "distance": 11.071043014526367
+            }
+        },
+        "68": {
+            "time": "T17004",
+            "x": 5.7756292778477984,
+            "y": 227.0,
+            "z": 12.526565272581607,
+            "yaw": 179.70007,
+            "cell": "(6,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.607685410448329,
+                "y": 227.14915032968347,
+                "z": 1.5625,
+                "type": "iron_bars",
+                "prop_east": false,
+                "prop_north": false,
+                "prop_south": false,
+                "prop_west": false,
+                "inRange": false,
+                "distance": 10.636238098144531
+            }
+        },
+        "69": {
+            "time": "T17004",
+            "x": 5.7756292778477984,
+            "y": 227.0,
+            "z": 12.526565272581607,
+            "yaw": 179.70007,
+            "cell": "(6,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.557590853319654,
+                "y": 227.20927835568008,
+                "z": 1.5625,
+                "type": "iron_bars",
+                "prop_east": false,
+                "prop_north": false,
+                "prop_south": false,
+                "prop_west": false,
+                "inRange": false,
+                "distance": 10.201431274414062
+            }
+        },
+        "70": {
+            "time": "T17004",
+            "x": 5.7756292778477984,
+            "y": 227.0,
+            "z": 12.526565272581607,
+            "yaw": 179.70007,
+            "cell": "(6,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.100840289150176,
+                "y": 227.25321255260448,
+                "z": 1.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 9.703853607177734
+            }
+        },
+        "71": {
+            "time": "T17004",
+            "x": 5.7756292778477984,
+            "y": 227.0,
+            "z": 12.526565272581607,
+            "yaw": 179.70007,
+            "cell": "(6,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.4820030480197515,
+                "y": 227.3057474336535,
+                "z": 1.0,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": false,
+                "distance": 8.692811012268066
+            }
+        },
+        "72": {
+            "time": "T17004",
+            "x": 5.557008220107824,
+            "y": 227.0,
+            "z": 8.617981685944564,
+            "yaw": 104.09982,
+            "cell": "(6,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.0,
+                "y": 227.85496943635127,
+                "z": 8.330552422006269,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.7579513788223267
+            }
+        },
+        "73": {
+            "time": "T17004",
+            "x": 5.545735016690165,
+            "y": 227.0,
+            "z": 9.43948261748933,
+            "yaw": 92.09982,
+            "cell": "(5,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.5625,
+                "y": 227.33769055569988,
+                "z": 9.370414958240058,
+                "type": "iron_bars",
+                "prop_east": false,
+                "prop_north": false,
+                "prop_south": false,
+                "prop_west": false,
+                "inRange": true,
+                "distance": 3.2487332820892334
+            }
+        },
+        "74": {
+            "time": "T17004",
+            "x": 4.72106613370429,
+            "y": 227.0,
+            "z": 9.468386986276196,
+            "yaw": 86.69986,
+            "cell": "(4,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 3.5919609644508506,
+                "y": 227.0,
+                "z": 9.62718494628558,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.9092241525650024
+            }
+        },
+        "75": {
+            "time": "T17004",
+            "x": 4.262995865875673,
+            "y": 227.0,
+            "z": 9.529664389160677,
+            "yaw": 81.74985,
+            "cell": "(3,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.657264166766786,
+                "y": 227.0,
+                "z": 9.762428414358896,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.9092241525650024
+            }
+        },
+        "76": {
+            "time": "T19202",
+            "x": 3.3970571681857074,
+            "y": 227.0,
+            "z": 9.686438771896066,
+            "yaw": 82.049774,
+            "cell": "(4,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.5625,
+                "y": 227.7594527687734,
+                "z": 9.803046458256576,
+                "type": "iron_bars",
+                "prop_east": false,
+                "prop_north": false,
+                "prop_south": false,
+                "prop_west": false,
+                "inRange": true,
+                "distance": 1.2044187784194946
+            }
+        },
+        "77": {
+            "time": "T19202",
+            "x": 4.332401828352944,
+            "y": 227.0,
+            "z": 9.555748654543521,
+            "yaw": 82.049774,
+            "cell": "(5,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.7613287252278997,
+                "y": 227.0,
+                "z": 9.775265311571232,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.267346143722534
+            }
+        },
+        "78": {
+            "time": "T19202",
+            "x": 4.543091563020525,
+            "y": 227.0,
+            "z": 9.52631023753929,
+            "yaw": 82.049774,
+            "cell": "(5,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.972018459895479,
+                "y": 227.0,
+                "z": 9.745826894567001,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.267346143722534
+            }
+        },
+        "79": {
+            "time": "T19202",
+            "x": 4.602306489444114,
+            "y": 227.0,
+            "z": 9.423849284628664,
+            "yaw": 88.049835,
+            "cell": "(4,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.5625,
+                "y": 227.83520862531714,
+                "z": 9.568416837477182,
+                "type": "iron_bars",
+                "prop_east": false,
+                "prop_north": false,
+                "prop_south": false,
+                "prop_west": false,
+                "inRange": true,
+                "distance": 2.1903443336486816
+            }
+        },
+        "80": {
+            "time": "T19202",
+            "x": 3.8533830186575138,
+            "y": 227.0,
+            "z": 9.491632375439783,
+            "yaw": 80.09985,
+            "cell": "(4,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.5625,
+                "y": 227.76824386781888,
+                "z": 9.714087636613883,
+                "type": "iron_bars",
+                "prop_east": false,
+                "prop_north": false,
+                "prop_south": false,
+                "prop_west": false,
+                "inRange": true,
+                "distance": 1.5095261335372925
+            }
+        },
+        "81": {
+            "time": "T19202",
+            "x": 3.6212593558967057,
+            "y": 227.0,
+            "z": 9.520496042201474,
+            "yaw": 80.39984,
+            "cell": "(3,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.5625,
+                "y": 227.83119139938634,
+                "z": 9.699610776016188,
+                "type": "iron_bars",
+                "prop_east": false,
+                "prop_north": false,
+                "prop_south": false,
+                "prop_west": false,
+                "inRange": true,
+                "distance": 1.3323935270309448
+            }
+        },
+        "82": {
+            "time": "T19202",
+            "x": 2.765707440674302,
+            "y": 227.0,
+            "z": 9.695854509346365,
+            "yaw": 80.99985,
+            "cell": "(2,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.7255465612621095,
+                "y": 227.0,
+                "z": 9.841096942536963,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.8540047407150269
+            }
+        },
+        "83": {
+            "time": "T19202",
+            "x": 1.8320278576507527,
+            "y": 227.0,
+            "z": 9.699999988079073,
+            "yaw": 83.549835,
+            "cell": "(1,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.0,
+                "y": 227.84824992347785,
+                "z": 9.770248317678723,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 0.9930307865142822
+            }
+        },
+        "84": {
+            "time": "T19202",
+            "x": 1.3000000119209258,
+            "y": 227.0,
+            "z": 9.699999988079073,
+            "yaw": 141.59976,
+            "cell": "(1,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.0,
+                "y": 228.40739098955586,
+                "z": 9.299928940666486,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 0.5321207642555237
+            }
+        },
+        "85": {
+            "time": "T19202",
+            "x": 1.3000000119209258,
+            "y": 227.0,
+            "z": 9.699999988079073,
+            "yaw": 230.24976,
+            "cell": "(1,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.3072997337736108,
+                "y": 227.93802691631853,
+                "z": 9.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.3958431482315063
+            }
+        },
+        "86": {
+            "time": "T19203",
+            "x": 1.3979996740817993,
+            "y": 227.0,
+            "z": 9.684825172919016,
+            "yaw": 270.14972,
+            "cell": "(2,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 6.665444125604505,
+                "y": 227.0,
+                "z": 9.698460470766838,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.510948657989502
+            }
+        },
+        "87": {
+            "time": "T19203",
+            "x": 2.342427638446571,
+            "y": 227.0,
+            "z": 9.685830504338963,
+            "yaw": 269.9997,
+            "cell": "(3,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.512676136976382,
+                "y": 227.0,
+                "z": 9.671951113411307,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.418123722076416
+            }
+        },
+        "88": {
+            "time": "T19203",
+            "x": 3.415093460833741,
+            "y": 227.0,
+            "z": 9.679131782406483,
+            "yaw": 268.79968,
+            "cell": "(4,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.0,
+                "y": 227.13020156603153,
+                "z": 9.570976916029815,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 4.822091102600098
+            }
+        },
+        "89": {
+            "time": "T19203",
+            "x": 4.099042012367718,
+            "y": 227.0,
+            "z": 9.674509560482118,
+            "yaw": 199.64972,
+            "cell": "(4,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.267006057044351,
+                "y": 227.0,
+                "z": 5.0876819159243905,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.002024173736572
+            }
+        },
+        "90": {
+            "time": "T19203",
+            "x": 4.099042012367718,
+            "y": 227.0,
+            "z": 9.674509560482118,
+            "yaw": 214.1997,
+            "cell": "(4,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 227.25064273834573,
+                "z": 6.629958531212728,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 4.327649116516113
+            }
+        },
+        "91": {
+            "time": "T19203",
+            "x": 4.392818420283261,
+            "y": 227.0,
+            "z": 9.35746393175686,
+            "yaw": 223.64972,
+            "cell": "(5,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 227.37032730742044,
+                "z": 6.666978670175624,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 3.9494035243988037
+            }
+        },
+        "92": {
+            "time": "T19203",
+            "x": 4.673242802200633,
+            "y": 227.0,
+            "z": 9.069477620066422,
+            "yaw": 226.04974,
+            "cell": "(5,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 227.6036287073299,
+                "z": 7.225133374814486,
+                "type": "birch_stairs",
+                "variant": "bottom",
+                "prop_facing": "north",
+                "prop_shape": "straight",
+                "inRange": true,
+                "distance": 3.138218402862549
+            }
+        },
+        "93": {
+            "time": "T19203",
+            "x": 5.344854534333859,
+            "y": 227.0,
+            "z": 8.550482212907283,
+            "yaw": 236.54974,
+            "cell": "(6,8)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.0,
+                "y": 227.91166550082906,
+                "z": 7.456901378131553,
+                "type": "birch_stairs",
+                "variant": "bottom",
+                "prop_facing": "north",
+                "prop_shape": "straight",
+                "inRange": true,
+                "distance": 2.106457471847534
+            }
+        },
+        "94": {
+            "time": "T19203",
+            "x": 5.701956849104995,
+            "y": 227.0,
+            "z": 8.307851281390349,
+            "yaw": 210.74976,
+            "cell": "(6,8)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.7366223263304805,
+                "y": 227.0,
+                "z": 3.8440641031593548,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 4.748789310455322
+            }
+        },
+        "95": {
+            "time": "T19203",
+            "x": 5.73111961232023,
+            "y": 227.0,
+            "z": 8.288036824547484,
+            "yaw": 118.499756,
+            "cell": "(6,8)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 3.1875,
+                "y": 227.75682432873424,
+                "z": 7.296474549107391,
+                "type": "iron_door",
+                "variant": "lower",
+                "prop_facing": "east",
+                "prop_hinge": "left",
+                "prop_open": false,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 2.8632619380950928
+            }
+        },
+        "96": {
+            "time": "T19203",
+            "x": 5.73111961232023,
+            "y": 227.0,
+            "z": 8.288036824547484,
+            "yaw": 36.599762,
+            "cell": "(6,8)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.408167529204895,
+                "y": 227.0,
+                "z": 13.386659980206918,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.51094913482666
+            }
+        },
+        "97": {
+            "time": "T19203",
+            "x": 5.719608413143918,
+            "y": 227.0,
+            "z": 8.385358401917651,
+            "yaw": 6.7497864,
+            "cell": "(6,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.0165700338798285,
+                "y": 227.0,
+                "z": 14.329205668534273,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.200644016265869
+            }
+        },
+        "98": {
+            "time": "T19203",
+            "x": 5.633096494759478,
+            "y": 227.0,
+            "z": 9.114534808115334,
+            "yaw": 6.8997803,
+            "cell": "(6,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.4702934469029625,
+                "y": 227.0,
+                "z": 15.199393931726068,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.200643539428711
+            }
+        },
+        "99": {
+            "time": "T19203",
+            "x": 5.53008379473608,
+            "y": 227.0,
+            "z": 9.742259557908037,
+            "yaw": 15.449799,
+            "cell": "(5,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 3.5420718676040273,
+                "y": 227.0,
+                "z": 15.131637701101072,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.9684157371521
+            }
+        },
+        "100": {
+            "time": "T19203",
+            "x": 5.286705359869234,
+            "y": 227.0,
+            "z": 10.410434911439852,
+            "yaw": 29.249817,
+            "cell": "(5,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.0,
+                "y": 227.76445577747396,
+                "z": 12.708426110745124,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.7691750526428223
+            }
+        },
+        "101": {
+            "time": "T19203",
+            "x": 4.900951685202328,
+            "y": 227.0,
+            "z": 11.102862943207564,
+            "yaw": 46.19983,
+            "cell": "(5,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 3.8603288252602885,
+                "y": 228.10289077528822,
+                "z": 12.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.4432463645935059
+            }
+        },
+        "102": {
+            "time": "T19203",
+            "x": 4.8871649683523835,
+            "y": 227.0,
+            "z": 11.132312828169365,
+            "yaw": 26.849854,
+            "cell": "(5,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.561988875385558,
+                "y": 227.0,
+                "z": 17.045571282795514,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.139769077301025
+            }
+        },
+        "103": {
+            "time": "T19203",
+            "x": 4.886140863115518,
+            "y": 227.0,
+            "z": 11.230307468638916,
+            "yaw": 0.599823,
+            "cell": "(5,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.823229525735334,
+                "y": 227.0,
+                "z": 17.303676131062353,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.139769077301025
+            }
+        },
+        "104": {
+            "time": "T19203",
+            "x": 4.879488902802198,
+            "y": 227.0,
+            "z": 12.387403929855891,
+            "yaw": 0.7498169,
+            "cell": "(5,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.78694402115528,
+                "y": 227.0,
+                "z": 18.308873235199318,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.139769077301025
+            }
+        },
+        "105": {
+            "time": "T19203",
+            "x": 4.873363200279503,
+            "y": 227.0,
+            "z": 13.247324124121963,
+            "yaw": 0.8998108,
+            "cell": "(5,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.785295739611441,
+                "y": 227.10518498011842,
+                "z": 19.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 5.741119861602783
+            }
+        },
+        "106": {
+            "time": "T19203",
+            "x": 4.868768923387481,
+            "y": 227.0,
+            "z": 14.111817551949942,
+            "yaw": 48.299835,
+            "cell": "(5,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.0,
+                "y": 227.68445427577726,
+                "z": 16.231917470393405,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": false,
+                "distance": 4.500721454620361
+            }
+        },
+        "107": {
+            "time": "T19203",
+            "x": 4.633797839958213,
+            "y": 227.0,
+            "z": 14.234226667277865,
+            "yaw": 70.34985,
+            "cell": "(4,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.0,
+                "y": 227.7363865059275,
+                "z": 15.532062794258103,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 3.958489418029785
+            }
+        },
+        "108": {
+            "time": "T19203",
+            "x": 4.300000011920925,
+            "y": 227.0,
+            "z": 14.361163901747735,
+            "yaw": 70.34985,
+            "cell": "(4,15)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.0,
+                "y": 227.8399963458554,
+                "z": 15.57590040991844,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 3.4943289756774902
+            }
+        },
+        "109": {
+            "time": "T19203",
+            "x": 3.650051950341881,
+            "y": 227.0,
+            "z": 14.553778797229631,
+            "yaw": 96.44983,
+            "cell": "(3,15)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.0,
+                "y": 228.52437148500795,
+                "z": 14.367267517197833,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": true,
+                "distance": 1.6633107662200928
+            }
+        },
+        "110": {
+            "time": "T19203",
+            "x": 3.470472159762849,
+            "y": 227.0,
+            "z": 14.53348025073022,
+            "yaw": 96.44983,
+            "cell": "(3,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.0,
+                "y": 228.54610514859334,
+                "z": 14.367267517663917,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": true,
+                "distance": 1.2852871417999268
+            }
+        },
+        "111": {
+            "time": "T19203",
+            "x": 2.6507562844865404,
+            "y": 227.0,
+            "z": 14.44082483133725,
+            "yaw": 96.44983,
+            "cell": "(2,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.0,
+                "y": 228.58228551935636,
+                "z": 14.367267518439816,
+                "type": "red_mushroom_block",
+                "prop_variant": "all_outside",
+                "inRange": true,
+                "distance": 0.6559853553771973
+            }
+        },
+        "112": {
+            "time": "T19204",
+            "x": 2.3973798826336825,
+            "y": 227.0,
+            "z": 14.403559498385516,
+            "yaw": 96.44983,
+            "cell": "(3,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.0,
+                "y": 228.4810602038535,
+                "z": 14.13257506632576,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 2.4166438579559326
+            }
+        },
+        "113": {
+            "time": "T19204",
+            "x": 3.127405041642186,
+            "y": 227.0,
+            "z": 14.482398293469245,
+            "yaw": 95.24982,
+            "cell": "(4,15)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.0,
+                "y": 228.1001165867959,
+                "z": 14.375917614892858,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 3.379342794418335
+            }
+        },
+        "114": {
+            "time": "T19204",
+            "x": 3.7672392346288603,
+            "y": 227.0,
+            "z": 14.516521954436689,
+            "yaw": 91.799835,
+            "cell": "(3,15)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.0,
+                "y": 227.05600307148455,
+                "z": 14.400970544273742,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 3.9143927097320557
+            }
+        },
+        "115": {
+            "time": "T19204",
+            "x": 2.7620741492335554,
+            "y": 227.0,
+            "z": 14.501162612804114,
+            "yaw": 91.799835,
+            "cell": "(3,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.0,
+                "y": 227.41555293185257,
+                "z": 14.414541180213865,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 3.0145065784454346
+            }
+        },
+        "116": {
+            "time": "T19204",
+            "x": 2.7620741492335554,
+            "y": 227.0,
+            "z": 14.501162612804114,
+            "yaw": 91.799835,
+            "cell": "(2,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.0,
+                "y": 227.5088923975555,
+                "z": 14.418182100201763,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 2.780895233154297
+            }
+        },
+        "117": {
+            "time": "T19204",
+            "x": 1.9024822126789387,
+            "y": 227.0,
+            "z": 14.488875139498054,
+            "yaw": 91.799835,
+            "cell": "(1,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.0,
+                "y": 227.88440841779126,
+                "z": 14.432900990533305,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.8410485982894897
+            }
+        },
+        "118": {
+            "time": "T19205",
+            "x": 0.6860995578986534,
+            "y": 227.0,
+            "z": 14.474793200840145,
+            "yaw": 91.049835,
+            "cell": "(0,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -1.9310696888168604,
+                "y": 227.0,
+                "z": 14.427842288222847,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": true,
+                "distance": 2.950601577758789
+            }
+        },
+        "119": {
+            "time": "T19205",
+            "x": -0.2581729153458955,
+            "y": 227.0,
+            "z": 14.465820874080896,
+            "yaw": 91.049835,
+            "cell": "(-1,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -4.135758840992046,
+                "y": 227.0,
+                "z": 14.445052449553542,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": true,
+                "distance": 4.007011890411377
+            }
+        },
+        "120": {
+            "time": "T19205",
+            "x": -1.330845035012781,
+            "y": 227.0,
+            "z": 14.462758001602856,
+            "yaw": 90.14984,
+            "cell": "(-2,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -6.229752141658889,
+                "y": 227.0,
+                "z": 14.450076698750754,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 5.159830570220947
+            }
+        },
+        "121": {
+            "time": "T19205",
+            "x": -2.483435457104686,
+            "y": 227.0,
+            "z": 14.461489592788643,
+            "yaw": 90.14984,
+            "cell": "(-3,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -7.55970771955724,
+                "y": 227.0,
+                "z": 14.448349163646714,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 5.328518867492676
+            }
+        },
+        "122": {
+            "time": "T19205",
+            "x": -3.2762589831483653,
+            "y": 227.0,
+            "z": 14.456370412336332,
+            "yaw": 92.549835,
+            "cell": "(-4,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -8.548408447435834,
+                "y": 227.0,
+                "z": 14.039960110260122,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 5.328518390655518
+            }
+        },
+        "123": {
+            "time": "T19205",
+            "x": -4.3431944582726665,
+            "y": 227.0,
+            "z": 14.372562398157784,
+            "yaw": 100.94986,
+            "cell": "(-5,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -9.126782544840717,
+                "y": 227.0,
+                "z": 12.536806009017983,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 5.373743057250977
+            }
+        },
+        "124": {
+            "time": "T19205",
+            "x": -4.929368576018654,
+            "y": 227.0,
+            "z": 14.139003720022673,
+            "yaw": 137.54987,
+            "cell": "(-5,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -7.223284248991976,
+                "y": 227.0,
+                "z": 10.793506354363162,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": true,
+                "distance": 4.1809186935424805
+            }
+        },
+        "125": {
+            "time": "T19205",
+            "x": -5.259913867308878,
+            "y": 227.0,
+            "z": 13.83300290637292,
+            "yaw": 232.19983,
+            "cell": "(-5,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -1.0,
+                "y": 228.17224709146254,
+                "z": 13.933082776997866,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 4.284549713134766
+            }
+        },
+        "126": {
+            "time": "T19205",
+            "x": -5.355981005325102,
+            "y": 227.0,
+            "z": 13.813635313963667,
+            "yaw": 281.3999,
+            "cell": "(-6,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.5286257163988466,
+                "y": 228.41618318979607,
+                "z": 15.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 6.006463050842285
+            }
+        },
+        "127": {
+            "time": "T19205",
+            "x": -6.281784810207742,
+            "y": 227.0,
+            "z": 13.62698885905549,
+            "yaw": 281.3999,
+            "cell": "(-7,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.5286257606304986,
+                "y": 228.3768945018193,
+                "z": 15.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 7.164297103881836
+            }
+        },
+        "128": {
+            "time": "T19205",
+            "x": -6.700255764366091,
+            "y": 227.0,
+            "z": 13.542623122315405,
+            "yaw": 281.3999,
+            "cell": "(-7,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.5286257770317715,
+                "y": 228.36232609942724,
+                "z": 15.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 7.593626499176025
+            }
+        },
+        "129": {
+            "time": "T19205",
+            "x": -7.122048283247911,
+            "y": 227.0,
+            "z": 13.457587742312768,
+            "yaw": 281.3999,
+            "cell": "(-8,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.5286257935037711,
+                "y": 228.34769488281157,
+                "z": 15.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 8.02480697631836
+            }
+        },
+        "130": {
+            "time": "T19205",
+            "x": -8.391074874745154,
+            "y": 227.0,
+            "z": 13.201745939505324,
+            "yaw": 281.3999,
+            "cell": "(-9,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.528625834746694,
+                "y": 228.31106092437017,
+                "z": 15.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 9.104406356811523
+            }
+        },
+        "131": {
+            "time": "T19205",
+            "x": -9.449068044920617,
+            "y": 227.0,
+            "z": 12.98844947918742,
+            "yaw": 281.3999,
+            "cell": "(-10,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.5286258760011772,
+                "y": 228.2744167072095,
+                "z": 15.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 10.184308052062988
+            }
+        },
+        "132": {
+            "time": "T19205",
+            "x": -10.083872365375337,
+            "y": 227.0,
+            "z": 12.86046990581735,
+            "yaw": 281.3999,
+            "cell": "(-11,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.5286259090051884,
+                "y": 228.2451009392403,
+                "z": 15.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 11.04824161529541
+            }
+        },
+        "133": {
+            "time": "T19205",
+            "x": -11.46901668979346,
+            "y": 227.0,
+            "z": 12.581218215205,
+            "yaw": 290.6999,
+            "cell": "(-12,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -3.2193950186347484,
+                "y": 227.0,
+                "z": 16.83835081580757,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 9.423578262329102
+            }
+        },
+        "134": {
+            "time": "T19205",
+            "x": -11.604282191171464,
+            "y": 227.0,
+            "z": 12.557765480418912,
+            "yaw": 257.3999,
+            "cell": "(-12,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -3.762471395335176,
+                "y": 227.0,
+                "z": 10.804723595540525,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.19704532623291
+            }
+        },
+        "135": {
+            "time": "T19205",
+            "x": -11.831704832798675,
+            "y": 227.0,
+            "z": 11.540445040210686,
+            "yaw": 257.3999,
+            "cell": "(-12,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -3.989894036962512,
+                "y": 227.0,
+                "z": 9.787403155332328,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.19704532623291
+            }
+        },
+        "136": {
+            "time": "T19205",
+            "x": -12.129425629031811,
+            "y": 227.0,
+            "z": 10.620993587183667,
+            "yaw": 236.09991,
+            "cell": "(-12,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -5.826376504233583,
+                "y": 227.0,
+                "z": 6.139937433190221,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 7.793492317199707
+            }
+        },
+        "137": {
+            "time": "T19205",
+            "x": -11.500638035082696,
+            "y": 227.0,
+            "z": 10.023640167833417,
+            "yaw": 235.04993,
+            "cell": "(-11,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -5.2524431122798605,
+                "y": 227.0,
+                "z": 5.656240151494276,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 7.793492317199707
+            }
+        },
+        "138": {
+            "time": "T19205",
+            "x": -10.804834109555618,
+            "y": 227.0,
+            "z": 9.529948687250307,
+            "yaw": 235.04993,
+            "cell": "(-11,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -4.476106924392909,
+                "y": 227.0,
+                "z": 5.106257821709143,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 7.889627933502197
+            }
+        },
+        "139": {
+            "time": "T19205",
+            "x": -10.628437679581541,
+            "y": 227.0,
+            "z": 9.406325273963516,
+            "yaw": 235.04993,
+            "cell": "(-10,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -4.29971049441879,
+                "y": 227.0,
+                "z": 4.982634408422323,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 7.889627933502197
+            }
+        },
+        "140": {
+            "time": "T19205",
+            "x": -9.567662465769617,
+            "y": 227.0,
+            "z": 8.66416858075256,
+            "yaw": 234.8999,
+            "cell": "(-9,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -3.55207443084671,
+                "y": 227.0,
+                "z": 3.498177763281908,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.093154907226562
+            }
+        },
+        "141": {
+            "time": "T19205",
+            "x": -9.567662465769617,
+            "y": 227.0,
+            "z": 8.66416858075256,
+            "yaw": 234.8999,
+            "cell": "(-9,8)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -3.504206596184444,
+                "y": 227.0,
+                "z": 3.226833517691557,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.093154907226562
+            }
+        },
+        "142": {
+            "time": "T19210",
+            "x": -8.600948281612977,
+            "y": 227.0,
+            "z": 7.805994915818319,
+            "yaw": 225.29999,
+            "cell": "(-8,8)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -2.994043603172737,
+                "y": 227.0,
+                "z": 2.199090237378079,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.093154907226562
+            }
+        },
+        "143": {
+            "time": "T19210",
+            "x": -8.447157660492648,
+            "y": 227.0,
+            "z": 7.654605876291787,
+            "yaw": 225.0,
+            "cell": "(-8,8)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -2.8845053445961635,
+                "y": 227.0,
+                "z": 2.003795197575669,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.093154907226562
+            }
+        },
+        "144": {
+            "time": "T19210",
+            "x": -8.294438432053528,
+            "y": 227.0,
+            "z": 7.502108353549855,
+            "yaw": 224.54999,
+            "cell": "(-8,7)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -2.836741601785885,
+                "y": 227.0,
+                "z": 1.7498646645281033,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.093154907226562
+            }
+        },
+        "145": {
+            "time": "T19210",
+            "x": -7.554965939070732,
+            "y": 227.0,
+            "z": 6.716256985116488,
+            "yaw": 222.0,
+            "cell": "(-7,7)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -2.2802583732906667,
+                "y": 227.0,
+                "z": 0.7957656535465394,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.093154907226562
+            }
+        },
+        "146": {
+            "time": "T19210",
+            "x": -7.554965939070732,
+            "y": 227.0,
+            "z": 6.716256985116488,
+            "yaw": 222.0,
+            "cell": "(-7,6)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -2.135577425712426,
+                "y": 227.0,
+                "z": 0.6355888810705426,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.093154907226562
+            }
+        },
+        "147": {
+            "time": "T19210",
+            "x": -6.692336712807017,
+            "y": 227.0,
+            "z": 5.750240872440994,
+            "yaw": 221.54999,
+            "cell": "(-6,5)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -1.2903327921791448,
+                "y": 227.0,
+                "z": -0.34590101959958874,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.093154907226562
+            }
+        },
+        "148": {
+            "time": "T19210",
+            "x": -5.690116233896229,
+            "y": 227.0,
+            "z": 4.619439769461242,
+            "yaw": 221.54999,
+            "cell": "(-6,4)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -0.5130954760754264,
+                "y": 227.0,
+                "z": -1.672770181537584,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.307698249816895
+            }
+        },
+        "149": {
+            "time": "T19210",
+            "x": -5.690116233896229,
+            "y": 227.0,
+            "z": 4.619439769461242,
+            "yaw": 221.54999,
+            "cell": "(-5,4)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -0.5945936018674147,
+                "y": 227.0,
+                "z": -2.4415643638061164,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.64566707611084
+            }
+        },
+        "150": {
+            "time": "T19210",
+            "x": -5.054494241006548,
+            "y": 227.0,
+            "z": 3.750588172480983,
+            "yaw": 210.45001,
+            "cell": "(-5,3)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -0.5114690550334424,
+                "y": 227.0,
+                "z": -3.9704184357520975,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.89158821105957
+            }
+        },
+        "151": {
+            "time": "T19210",
+            "x": -4.6107035029501375,
+            "y": 227.0,
+            "z": 3.010409191655861,
+            "yaw": 210.45001,
+            "cell": "(-4,3)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": -0.09098303692951137,
+                "y": 227.0,
+                "z": -4.7244931149808576,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.891589164733887
+            }
+        },
+        "152": {
+            "time": "T19210",
+            "x": -4.3920750203316015,
+            "y": 227.0,
+            "z": 2.63817914273888,
+            "yaw": 210.29999,
+            "cell": "(-4,2)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.018206600875448193,
+                "y": 227.0,
+                "z": -4.910686427221535,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.891589164733887
+            }
+        },
+        "153": {
+            "time": "T19210",
+            "x": -3.738384545425853,
+            "y": 227.0,
+            "z": 1.5201099050457394,
+            "yaw": 210.29999,
+            "cell": "(-4,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.6718970757812278,
+                "y": 227.0,
+                "z": -6.0287556649147245,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.891589164733887
+            }
+        },
+        "154": {
+            "time": "T19210",
+            "x": -3.5205979813954613,
+            "y": 227.0,
+            "z": 1.147350882731136,
+            "yaw": 210.29999,
+            "cell": "(-3,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.8896836398116376,
+                "y": 227.0,
+                "z": -6.40151468722936,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.891589164733887
+            }
+        },
+        "155": {
+            "time": "T19210",
+            "x": -3.3028161219445726,
+            "y": 227.0,
+            "z": 0.7745889045518688,
+            "yaw": 210.29999,
+            "cell": "(-3,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.2163558151991103,
+                "y": 227.0,
+                "z": -6.960658040138493,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 8.891589164733887
+            }
+        },
+        "156": {
+            "time": "T19210",
+            "x": -2.649248737504438,
+            "y": 227.0,
+            "z": -0.3435672620512822,
+            "yaw": 210.45001,
+            "cell": "(-3,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.6750747305035176,
+                "y": 227.0,
+                "z": -8.881418284196837,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 10.191551208496094
+            }
+        },
+        "157": {
+            "time": "T19210",
+            "x": -2.5378139030081126,
+            "y": 227.0,
+            "z": -0.5284145912417874,
+            "yaw": 211.95001,
+            "cell": "(-2,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.919719854588306,
+                "y": 227.0,
+                "z": -10.536917134304286,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 13.20319652557373
+            }
+        },
+        "158": {
+            "time": "T19210",
+            "x": -2.12509925716785,
+            "y": 227.0,
+            "z": -1.0196694169469602,
+            "yaw": 234.29999,
+            "cell": "(-2,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 11.442725795458761,
+                "y": 227.0,
+                "z": -8.340538021200937,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 15.501787185668945
+            }
+        },
+        "159": {
+            "time": "T19210",
+            "x": -2.12509925716785,
+            "y": 227.0,
+            "z": -1.0196694169469602,
+            "yaw": 234.29999,
+            "cell": "(-1,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 10.713440065596656,
+                "y": 227.0,
+                "z": -2.0119220870942742,
+                "type": "grass",
+                "prop_snowy": false,
+                "inRange": false,
+                "distance": 12.414161682128906
+            }
+        },
+        "160": {
+            "time": "T19210",
+            "x": -0.7478153206964993,
+            "y": 227.0,
+            "z": -1.3327729459392739,
+            "yaw": 286.94995,
+            "cell": "(0,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 0.4164251232051686,
+                "y": 228.4584530186937,
+                "z": -1.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.0163052082061768
+            }
+        },
+        "161": {
+            "time": "T19210",
+            "x": 0.48974509181207504,
+            "y": 227.0,
+            "z": -1.300000011920928,
+            "yaw": 287.39996,
+            "cell": "(1,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 1.4472307672057574,
+                "y": 228.4584530186937,
+                "z": -1.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.0163052082061768
+            }
+        },
+        "162": {
+            "time": "T19210",
+            "x": 1.3176163586082679,
+            "y": 227.0,
+            "z": -1.300000011920928,
+            "yaw": 284.09998,
+            "cell": "(2,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 2.5972173416643995,
+                "y": 228.37998323999008,
+                "z": -1.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.3360339403152466
+            }
+        },
+        "163": {
+            "time": "T19210",
+            "x": 2.366199693481345,
+            "y": 227.0,
+            "z": -1.300000011920928,
+            "yaw": 283.19995,
+            "cell": "(3,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 3.645800676537476,
+                "y": 228.37998323999005,
+                "z": -1.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.3360339403152466
+            }
+        },
+        "164": {
+            "time": "T19210",
+            "x": 3.4168943964414265,
+            "y": 227.0,
+            "z": -1.300000011920928,
+            "yaw": 283.19995,
+            "cell": "(4,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.6964953794975575,
+                "y": 228.37998323999005,
+                "z": -1.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.3360339403152466
+            }
+        },
+        "165": {
+            "time": "T19210",
+            "x": 4.467691553047638,
+            "y": 227.0,
+            "z": -1.300000011920928,
+            "yaw": 283.19995,
+            "cell": "(5,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.747292536103769,
+                "y": 228.37998323999008,
+                "z": -1.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.3360339403152466
+            }
+        },
+        "166": {
+            "time": "T19210",
+            "x": 5.344224401368528,
+            "y": 227.0,
+            "z": -1.300000011920928,
+            "yaw": 323.0999,
+            "cell": "(5,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.495220138807476,
+                "y": 228.5786450877284,
+                "z": -1.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 0.33704760670661926
+            }
+        },
+        "167": {
+            "time": "T19211",
+            "x": 5.4502346627940135,
+            "y": 227.0,
+            "z": -1.300000011920928,
+            "yaw": 350.54987,
+            "cell": "(6,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.643520619646566,
+                "y": 228.0,
+                "z": -0.3418065776772736,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.1523849964141846
+            }
+        },
+        "168": {
+            "time": "T19211",
+            "x": 5.541163874186218,
+            "y": 227.0,
+            "z": -1.300000011920928,
+            "yaw": 20.249939,
+            "cell": "(5,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.061625154272456,
+                "y": 228.2135520198118,
+                "z": 0.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.444007396697998
+            }
+        },
+        "169": {
+            "time": "T19211",
+            "x": 4.962853930547282,
+            "y": 227.0,
+            "z": -1.4133012677088823,
+            "yaw": 344.84998,
+            "cell": "(5,-2)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.54927572055361,
+                "y": 228.10489404563927,
+                "z": 0.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.6026016473770142
+            }
+        },
+        "170": {
+            "time": "T19211",
+            "x": 5.350890311604271,
+            "y": 227.0,
+            "z": -1.518560144208223,
+            "yaw": 344.84998,
+            "cell": "(6,-2)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.740877192810785,
+                "y": 228.0878294434579,
+                "z": 0.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.6556932926177979
+            }
+        },
+        "171": {
+            "time": "T19211",
+            "x": 5.554043107281068,
+            "y": 227.0,
+            "z": -1.5722794379716731,
+            "yaw": 345.59998,
+            "cell": "(6,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.724094042980649,
+                "y": 228.29554641203038,
+                "z": 0.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.580134630203247
+            }
+        },
+        "172": {
+            "time": "T19211",
+            "x": 5.554081061284325,
+            "y": 228.24918707874468,
+            "z": -1.300000011920928,
+            "yaw": 18.899902,
+            "cell": "(5,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.40243979105911,
+                "y": 229.82538436373113,
+                "z": -1.0,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 0.3205273151397705
+            }
+        },
+        "173": {
+            "time": "T19211",
+            "x": 5.435093611702127,
+            "y": 227.0,
+            "z": -1.300000011920928,
+            "yaw": 337.94995,
+            "cell": "(6,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.92657145058365,
+                "y": 228.0,
+                "z": -0.0869068988439704,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.448290467262268
+            }
+        },
+        "174": {
+            "time": "T19212",
+            "x": 5.765017485785826,
+            "y": 227.0,
+            "z": -1.300000011920928,
+            "yaw": 41.99994,
+            "cell": "(5,-1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.0,
+                "y": 227.88736185630026,
+                "z": -0.5195016397642289,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.1994911432266235
+            }
+        },
+        "175": {
+            "time": "T19212",
+            "x": 5.300000011920927,
+            "y": 227.0,
+            "z": -0.5234621723893448,
+            "yaw": 41.849915,
+            "cell": "(5,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.0,
+                "y": 228.25770788543576,
+                "z": -0.1588387831200202,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 0.5951519012451172
+            }
+        },
+        "176": {
+            "time": "T19212",
+            "x": 5.300000011920927,
+            "y": 227.0,
+            "z": -0.3000000119209281,
+            "yaw": 313.65015,
+            "cell": "(5,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.3553628663842705,
+                "y": 227.0,
+                "z": -0.2474720454529905,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.6217966079711914
+            }
+        },
+        "177": {
+            "time": "T19212",
+            "x": 5.300000011920927,
+            "y": 227.0,
+            "z": -0.3000000119209281,
+            "yaw": 321.6001,
+            "cell": "(5,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.533983508895557,
+                "y": 227.58035736641884,
+                "z": 0.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.1070704460144043
+            }
+        },
+        "178": {
+            "time": "T19213",
+            "x": 5.300000011920927,
+            "y": 227.0,
+            "z": -0.3000000119209281,
+            "yaw": 304.20007,
+            "cell": "(5,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.300000011920927,
+                "y": 227.0,
+                "z": -0.30000001192092807,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.6200000047683716
+            }
+        },
+        "179": {
+            "time": "T19213",
+            "x": 5.300000011920927,
+            "y": 227.0,
+            "z": -0.3000000119209281,
+            "yaw": 320.85004,
+            "cell": "(5,0)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 6.0,
+                "y": 228.8172592287595,
+                "z": 0.9271540359019987,
+                "type": "tnt",
+                "prop_explode": false,
+                "inRange": true,
+                "distance": 1.4264705181121826
+            }
+        },
+        "180": {
+            "time": "T19213",
+            "x": 5.300000011920927,
+            "y": 227.0,
+            "z": 0.32545852629018485,
+            "yaw": 3.9000244,
+            "cell": "(5,1)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.254077628800389,
+                "y": 228.4003713646971,
+                "z": 1.0,
+                "type": "dispenser",
+                "prop_facing": "north",
+                "prop_triggered": false,
+                "NBTTagCompound": {
+                    "x": 5,
+                    "y": 228,
+                    "z": 1,
+                    "id": "minecraft:dispenser"
+                },
+                "inRange": true,
+                "distance": 0.7108809947967529
+            }
+        },
+        "181": {
+            "time": "T19214",
+            "x": 5.300000011920927,
+            "y": 227.0,
+            "z": 1.2354970201849946,
+            "yaw": 0.44970703,
+            "cell": "(5,2)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.292560455139548,
+                "y": 227.0,
+                "z": 2.344973673767421,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.8820648193359375
+            }
+        },
+        "182": {
+            "time": "T19214",
+            "x": 5.296429724432526,
+            "y": 227.0,
+            "z": 2.17989322164701,
+            "yaw": 0.59973145,
+            "cell": "(5,3)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.2852735703011495,
+                "y": 227.0,
+                "z": 3.362134984290234,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.8879789113998413
+            }
+        },
+        "183": {
+            "time": "T19214",
+            "x": 5.289787166402673,
+            "y": 227.0,
+            "z": 3.476981033203872,
+            "yaw": 0.44970703,
+            "cell": "(5,4)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.289164453904661,
+                "y": 226.0,
+                "z": 3.7175407626321975,
+                "type": "dirt",
+                "prop_snowy": false,
+                "prop_variant": "dirt",
+                "inRange": true,
+                "distance": 2.6310205459594727
+            }
+        },
+        "184": {
+            "time": "T19215",
+            "x": 5.330808793118058,
+            "y": 227.0,
+            "z": 4.342991616289163,
+            "yaw": 356.24957,
+            "cell": "(5,5)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.330808793118058,
+                "y": 227.0,
+                "z": 4.342991616289163,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.6200000047683716
+            }
+        },
+        "185": {
+            "time": "T19215",
+            "x": 5.396614125208461,
+            "y": 227.0,
+            "z": 5.413443446261919,
+            "yaw": 356.24957,
+            "cell": "(5,6)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.396614125208461,
+                "y": 227.0,
+                "z": 5.413443446261919,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.6200000047683716
+            }
+        },
+        "186": {
+            "time": "T19215",
+            "x": 5.435411007775446,
+            "y": 227.0,
+            "z": 6.073577764182771,
+            "yaw": 53.999634,
+            "cell": "(5,6)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.0,
+                "y": 228.93904395271113,
+                "z": 6.742922386318247,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 1.6143620014190674
+            }
+        },
+        "187": {
+            "time": "T19215",
+            "x": 5.435411007775446,
+            "y": 227.0,
+            "z": 6.0766111364909445,
+            "yaw": 110.249695,
+            "cell": "(6,6)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.0,
+                "y": 228.45122023915474,
+                "z": 5.547122584812236,
+                "type": "dispenser",
+                "prop_facing": "north",
+                "prop_triggered": false,
+                "NBTTagCompound": {
+                    "x": 3,
+                    "y": 228,
+                    "z": 5,
+                    "id": "minecraft:dispenser"
+                },
+                "inRange": true,
+                "distance": 1.5392366647720337
+            }
+        },
+        "188": {
+            "time": "T19215",
+            "x": 6.239611268341939,
+            "y": 227.0,
+            "z": 6.371457873902678,
+            "yaw": 138.8996,
+            "cell": "(6,6)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.1829463258940205,
+                "y": 227.0,
+                "z": 4.868049185660691,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.449730396270752
+            }
+        },
+        "189": {
+            "time": "T19215",
+            "x": 6.239611268341939,
+            "y": 227.0,
+            "z": 6.371457873902678,
+            "yaw": 60.899597,
+            "cell": "(6,6)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.79090898050549,
+                "y": 227.0,
+                "z": 8.564540450766065,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.087515115737915
+            }
+        },
+        "190": {
+            "time": "T19215",
+            "x": 6.239611268341939,
+            "y": 227.0,
+            "z": 6.371457873902678,
+            "yaw": 33.449585,
+            "cell": "(6,6)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.850322347063006,
+                "y": 227.0,
+                "z": 8.63876629902298,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.113713502883911
+            }
+        },
+        "191": {
+            "time": "T19215",
+            "x": 6.239611268341939,
+            "y": 227.0,
+            "z": 6.371457873902678,
+            "yaw": 333.5996,
+            "cell": "(6,7)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.69436751380657,
+                "y": 227.0,
+                "z": 9.378204690478679,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.624390125274658
+            }
+        },
+        "192": {
+            "time": "T19215",
+            "x": 6.349645194068781,
+            "y": 227.0,
+            "z": 6.595388923898881,
+            "yaw": 334.1996,
+            "cell": "(7,7)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.843005264225292,
+                "y": 227.0,
+                "z": 9.723314738477642,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 3.6631016731262207
+            }
+        },
+        "193": {
+            "time": "T19215",
+            "x": 6.682899491108909,
+            "y": 227.0,
+            "z": 7.3144358720885485,
+            "yaw": 339.8996,
+            "cell": "(7,8)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.98067739245066,
+                "y": 227.0,
+                "z": 11.104233602596295,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.1809186935424805
+            }
+        },
+        "194": {
+            "time": "T19215",
+            "x": 6.50794544870653,
+            "y": 227.0,
+            "z": 8.334339111356899,
+            "yaw": 18.59961,
+            "cell": "(6,9)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.192943992268806,
+                "y": 227.0,
+                "z": 12.243059543314166,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.430770397186279
+            }
+        },
+        "195": {
+            "time": "T19215",
+            "x": 6.17152271120151,
+            "y": 227.0,
+            "z": 9.357255583733293,
+            "yaw": 18.59961,
+            "cell": "(6,10)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.897439409331709,
+                "y": 227.0,
+                "z": 13.279504433224616,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.430770397186279
+            }
+        },
+        "196": {
+            "time": "T19215",
+            "x": 5.839247822108607,
+            "y": 227.0,
+            "z": 10.383976793069339,
+            "yaw": 17.249512,
+            "cell": "(6,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.740850330496087,
+                "y": 227.0,
+                "z": 14.359004799698774,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.430770397186279
+            }
+        },
+        "197": {
+            "time": "T19215",
+            "x": 5.737816461170413,
+            "y": 227.0,
+            "z": 11.117091628856437,
+            "yaw": 304.49957,
+            "cell": "(6,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 7.9141660552146025,
+                "y": 227.0,
+                "z": 11.473265468936729,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 2.7363767623901367
+            }
+        },
+        "198": {
+            "time": "T19220",
+            "x": 5.737816461170413,
+            "y": 227.0,
+            "z": 11.245249010828253,
+            "yaw": 197.54956,
+            "cell": "(6,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 6.546449231003771,
+                "y": 227.0,
+                "z": 7.234268343029885,
+                "type": "iron_block",
+                "inRange": true,
+                "distance": 4.400710582733154
+            }
+        },
+        "199": {
+            "time": "T19220",
+            "x": 5.737816461170413,
+            "y": 227.0,
+            "z": 11.245249010828253,
+            "yaw": 242.69952,
+            "cell": "(6,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.0,
+                "y": 227.73099439317429,
+                "z": 11.31033219444927,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 2.431468963623047
+            }
+        },
+        "200": {
+            "time": "T19220",
+            "x": 5.737816461170413,
+            "y": 227.0,
+            "z": 11.245249010828253,
+            "yaw": 359.39954,
+            "cell": "(6,11)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.216930059887006,
+                "y": 228.8268832942824,
+                "z": 19.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 7.905191898345947
+            }
+        },
+        "201": {
+            "time": "T19220",
+            "x": 5.687782097192484,
+            "y": 227.0,
+            "z": 11.489675384999789,
+            "yaw": 12.2994995,
+            "cell": "(6,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.050377191680077,
+                "y": 228.82123537574597,
+                "z": 19.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 7.689380168914795
+            }
+        },
+        "202": {
+            "time": "T19220",
+            "x": 5.563868826104264,
+            "y": 227.0,
+            "z": 12.05911847865069,
+            "yaw": 12.599548,
+            "cell": "(5,12)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.013264791964182,
+                "y": 228.80068686492726,
+                "z": 19.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 6.904203414916992
+            }
+        },
+        "203": {
+            "time": "T19220",
+            "x": 5.472146479788522,
+            "y": 227.0,
+            "z": 12.471924733345775,
+            "yaw": 12.599548,
+            "cell": "(5,13)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 4.013448159667964,
+                "y": 228.7951165089626,
+                "z": 19.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 6.691355228424072
+            }
+        },
+        "204": {
+            "time": "T19220",
+            "x": 5.34420047118063,
+            "y": 227.0,
+            "z": 13.102834226818139,
+            "yaw": 5.2495728,
+            "cell": "(5,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 5.705195418327681,
+                "y": 227.7944576271774,
+                "z": 19.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 5.756424903869629
+            }
+        },
+        "205": {
+            "time": "T19220",
+            "x": 5.419724355850033,
+            "y": 227.0,
+            "z": 14.154984706561308,
+            "yaw": 333.44952,
+            "cell": "(6,14)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.329144660539598,
+                "y": 227.0,
+                "z": 19.754702881748067,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.51505708694458
+            }
+        },
+        "206": {
+            "time": "T19220",
+            "x": 5.5004448190064394,
+            "y": 227.0,
+            "z": 14.351956360992963,
+            "yaw": 332.5495,
+            "cell": "(6,15)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.453797839951115,
+                "y": 227.0,
+                "z": 19.92862831098953,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.515056610107422
+            }
+        },
+        "207": {
+            "time": "T19220",
+            "x": 5.982333467502392,
+            "y": 227.0,
+            "z": 15.31286236374864,
+            "yaw": 332.0995,
+            "cell": "(6,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 8.935686488447038,
+                "y": 227.0,
+                "z": 20.889534313745152,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.515056610107422
+            }
+        },
+        "208": {
+            "time": "T19220",
+            "x": 6.385351628234455,
+            "y": 227.0,
+            "z": 16.076230698728395,
+            "yaw": 332.0995,
+            "cell": "(7,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.024340559343763,
+                "y": 227.24128603943166,
+                "z": 21.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 5.544691562652588
+            }
+        },
+        "209": {
+            "time": "T19220",
+            "x": 6.385351628234455,
+            "y": 227.0,
+            "z": 16.076230698728395,
+            "yaw": 332.0995,
+            "cell": "(7,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 9.023617800800402,
+                "y": 227.2967867993736,
+                "z": 21.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 5.3214874267578125
+            }
+        },
+        "210": {
+            "time": "T19220",
+            "x": 6.791550793753008,
+            "y": 227.0,
+            "z": 16.838125910909746,
+            "yaw": 331.64948,
+            "cell": "(8,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 13.220554175839466,
+                "y": 227.0,
+                "z": 20.12769119145145,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.651784896850586
+            }
+        },
+        "211": {
+            "time": "T19220",
+            "x": 7.522766653584467,
+            "y": 227.0,
+            "z": 17.580941537926027,
+            "yaw": 294.29938,
+            "cell": "(8,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 13.653605796734821,
+                "y": 227.0,
+                "z": 20.19307293861134,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.651784420013428
+            }
+        },
+        "212": {
+            "time": "T19220",
+            "x": 8.497813209314899,
+            "y": 227.0,
+            "z": 18.028705735766895,
+            "yaw": 292.94934,
+            "cell": "(9,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 14.438868673201432,
+                "y": 227.0,
+                "z": 20.543799820546386,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.651784420013428
+            }
+        },
+        "213": {
+            "time": "T19220",
+            "x": 9.490799482745507,
+            "y": 227.4215999984741,
+            "z": 18.4507755495297,
+            "yaw": 292.94934,
+            "cell": "(10,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.977996284370672,
+                "y": 227.0,
+                "z": 21.62041510294139,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 8.382890701293945
+            }
+        },
+        "214": {
+            "time": "T19220",
+            "x": 10.107232908302368,
+            "y": 227.0,
+            "z": 18.71081139249579,
+            "yaw": 292.64935,
+            "cell": "(11,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.216313428682664,
+                "y": 227.0,
+                "z": 21.223423715242646,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.581445693969727
+            }
+        },
+        "215": {
+            "time": "T19220",
+            "x": 11.125421804666688,
+            "y": 227.0,
+            "z": 19.132169636280327,
+            "yaw": 292.3493,
+            "cell": "(12,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.162074163639556,
+                "y": 227.0,
+                "z": 21.613733532592153,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.51505708694458
+            }
+        },
+        "216": {
+            "time": "T19220",
+            "x": 11.925233860380693,
+            "y": 227.0,
+            "z": 19.460247532125635,
+            "yaw": 291.8993,
+            "cell": "(12,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.822565844543192,
+                "y": 227.0,
+                "z": 21.70591899852301,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.515056610107422
+            }
+        },
+        "217": {
+            "time": "T19220",
+            "x": 12.126026158472104,
+            "y": 227.0,
+            "z": 19.539565637212664,
+            "yaw": 290.84924,
+            "cell": "(13,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 18.07135640425726,
+                "y": 227.0,
+                "z": 21.701999509017714,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 6.321652889251709
+            }
+        },
+        "218": {
+            "time": "T19220",
+            "x": 13.349573582428796,
+            "y": 227.0,
+            "z": 19.55166448302137,
+            "yaw": 248.84918,
+            "cell": "(14,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 14.820727677181445,
+                "y": 228.26020146381978,
+                "z": 19.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.6118570566177368
+            }
+        },
+        "219": {
+            "time": "T19220",
+            "x": 14.487113849623372,
+            "y": 227.0,
+            "z": 19.30000001192093,
+            "yaw": 258.14917,
+            "cell": "(15,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 15.916371271981195,
+                "y": 228.28158958233885,
+                "z": 19.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": true,
+                "distance": 1.4990992546081543
+            }
+        },
+        "220": {
+            "time": "T19220",
+            "x": 15.137499988079073,
+            "y": 227.0,
+            "z": 19.484447933269106,
+            "yaw": 301.04926,
+            "cell": "(15,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.486566167861557,
+                "y": 227.0,
+                "z": 22.102526214021715,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.328518390655518
+            }
+        },
+        "221": {
+            "time": "T19220",
+            "x": 15.351263776352058,
+            "y": 227.0,
+            "z": 20.13179597797279,
+            "yaw": 301.04926,
+            "cell": "(16,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 19.630470263068688,
+                "y": 227.0,
+                "z": 22.69275160171936,
+                "type": "iron_block",
+                "inRange": false,
+                "distance": 5.2435197830200195
+            }
+        },
+        "222": {
+            "time": "T19220",
+            "x": 15.969589285982897,
+            "y": 227.0,
+            "z": 20.465007120417017,
+            "yaw": 211.4992,
+            "cell": "(16,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.8125,
+                "y": 228.4153661893293,
+                "z": 18.70945972548832,
+                "type": "dark_oak_door",
+                "variant": "lower",
+                "prop_facing": "south",
+                "prop_hinge": "left",
+                "prop_open": true,
+                "prop_powered": false,
+                "inRange": true,
+                "distance": 1.9581420421600342
+            }
+        },
+        "223": {
+            "time": "T19220",
+            "x": 16.02613556254122,
+            "y": 227.0,
+            "z": 20.48716616836791,
+            "yaw": 205.64923,
+            "cell": "(16,21)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 18.045126923425695,
+                "y": 227.84609974944547,
+                "z": 13.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 7.7968268394470215
+            }
+        },
+        "224": {
+            "time": "T19220",
+            "x": 16.088096751037803,
+            "y": 227.0,
+            "z": 20.509477837324233,
+            "yaw": 188.5492,
+            "cell": "(16,20)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 17.216742813990514,
+                "y": 227.3562610631823,
+                "z": 13.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 7.69825553894043
+            }
+        },
+        "225": {
+            "time": "T19221",
+            "x": 16.164276354650347,
+            "y": 227.0,
+            "z": 19.887484962765704,
+            "yaw": 184.0492,
+            "cell": "(16,19)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.547327856892128,
+                "y": 227.27065888882723,
+                "z": 13.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 6.827537536621094
+            }
+        },
+        "226": {
+            "time": "T19221",
+            "x": 16.330403184257484,
+            "y": 227.0,
+            "z": 18.870616712692144,
+            "yaw": 183.59918,
+            "cell": "(16,18)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.70062497521263,
+                "y": 227.47374664333947,
+                "z": 13.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 5.799932479858398
+            }
+        },
+        "227": {
+            "time": "T19221",
+            "x": 16.39787013625262,
+            "y": 227.0,
+            "z": 17.833574948985735,
+            "yaw": 183.59918,
+            "cell": "(16,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 16.701857703933538,
+                "y": 227.68691617261112,
+                "z": 13.0,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 4.721315383911133
+            }
+        },
+        "228": {
+            "time": "T19221",
+            "x": 16.436385527921907,
+            "y": 227.0,
+            "z": 17.187737594565004,
+            "yaw": 255.89917,
+            "cell": "(16,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.0,
+                "y": 227.5384232987814,
+                "z": 16.61312711891578,
+                "type": "enchanting_table",
+                "NBTTagCompound": {
+                    "x": 22,
+                    "y": 227,
+                    "z": 16,
+                    "id": "minecraft:enchanting_table"
+                },
+                "inRange": false,
+                "distance": 5.694928169250488
+            }
+        },
+        "229": {
+            "time": "T19221",
+            "x": 16.424060490651122,
+            "y": 227.0,
+            "z": 16.522807307432277,
+            "yaw": 268.19916,
+            "cell": "(16,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.0,
+                "y": 227.64647744532263,
+                "z": 16.347405114664724,
+                "type": "enchanting_table",
+                "NBTTagCompound": {
+                    "x": 22,
+                    "y": 227,
+                    "z": 16,
+                    "id": "minecraft:enchanting_table"
+                },
+                "inRange": false,
+                "distance": 5.663003921508789
+            }
+        },
+        "230": {
+            "time": "T19221",
+            "x": 16.420979231333426,
+            "y": 227.0,
+            "z": 16.144241638918285,
+            "yaw": 268.19916,
+            "cell": "(17,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 24.0,
+                "y": 227.29675256199505,
+                "z": 15.87241437023542,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 7.697361946105957
+            }
+        },
+        "231": {
+            "time": "T19221",
+            "x": 17.461234335518895,
+            "y": 227.0,
+            "z": 16.119752438852878,
+            "yaw": 274.6491,
+            "cell": "(18,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.0,
+                "y": 227.67736671495152,
+                "z": 16.488697684416152,
+                "type": "enchanting_table",
+                "NBTTagCompound": {
+                    "x": 22,
+                    "y": 227,
+                    "z": 16,
+                    "id": "minecraft:enchanting_table"
+                },
+                "inRange": false,
+                "distance": 4.6502766609191895
+            }
+        },
+        "232": {
+            "time": "T19221",
+            "x": 18.31563935867174,
+            "y": 227.0,
+            "z": 16.18658901471038,
+            "yaw": 274.6491,
+            "cell": "(19,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.50467680557574,
+                "y": 227.75,
+                "z": 16.527105702235477,
+                "type": "enchanting_table",
+                "NBTTagCompound": {
+                    "x": 22,
+                    "y": 227,
+                    "z": 16,
+                    "id": "minecraft:enchanting_table"
+                },
+                "inRange": true,
+                "distance": 4.291955947875977
+            }
+        },
+        "233": {
+            "time": "T19221",
+            "x": 19.390811612541334,
+            "y": 227.0,
+            "z": 16.273744368407556,
+            "yaw": 274.6491,
+            "cell": "(20,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 24.0,
+                "y": 227.66274097572077,
+                "z": 16.648414106210097,
+                "type": "planks",
+                "variant": "oak",
+                "inRange": false,
+                "distance": 4.722429275512695
+            }
+        },
+        "234": {
+            "time": "T19221",
+            "x": 20.46356955401048,
+            "y": 227.0,
+            "z": 16.386834683010278,
+            "yaw": 280.04907,
+            "cell": "(21,16)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.0,
+                "y": 227.706150245885,
+                "z": 16.679759578610085,
+                "type": "enchanting_table",
+                "NBTTagCompound": {
+                    "x": 22,
+                    "y": 227,
+                    "z": 16,
+                    "id": "minecraft:enchanting_table"
+                },
+                "inRange": true,
+                "distance": 1.811503529548645
+            }
+        },
+        "235": {
+            "time": "T19221",
+            "x": 21.101134189070997,
+            "y": 227.0,
+            "z": 16.498745752614965,
+            "yaw": 280.79907,
+            "cell": "(21,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.479395809529684,
+                "y": 227.75,
+                "z": 16.76151531886881,
+                "type": "enchanting_table",
+                "NBTTagCompound": {
+                    "x": 22,
+                    "y": 227,
+                    "z": 16,
+                    "id": "minecraft:enchanting_table"
+                },
+                "inRange": true,
+                "distance": 1.6509249210357666
+            }
+        },
+        "236": {
+            "time": "T19221",
+            "x": 21.49239541931582,
+            "y": 227.0,
+            "z": 16.571771315482522,
+            "yaw": 280.79907,
+            "cell": "(22,17)",
+            "lineOfSight": {
+                "hitType": "block",
+                "x": 22.735910306609885,
+                "y": 227.75,
+                "z": 16.808851005317404,
+                "type": "enchanting_table",
+                "NBTTagCompound": {
+                    "x": 22,
+                    "y": 227,
+                    "z": 16,
+                    "id": "minecraft:enchanting_table"
+                },
+                "inRange": true,
+                "distance": 1.5360455513000488
+            }
+        }
+    },
+    "reward_v": 0,
+    "reward_vv": 0,
+    "score_total": 0
+}

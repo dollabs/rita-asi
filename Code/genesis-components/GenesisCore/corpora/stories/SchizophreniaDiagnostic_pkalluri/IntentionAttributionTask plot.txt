@@ -1,0 +1,6 @@
+Samantha is a person.
+the handle is a door handle.
+
+Samantha tries to reach the handle.
+Samantha fails to reach the handle.
+Samantha grabs an umbrella.

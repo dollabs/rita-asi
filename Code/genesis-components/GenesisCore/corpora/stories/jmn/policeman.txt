@@ -1,0 +1,18 @@
+Start experiment.
+
+Start common sense knowledge.
+xx is a person.
+If xx is a policeman, then xx wants to catch criminals.
+If xx commits a crime, then xx is a criminal.
+
+Pauline is a name.
+Caleb is a name.
+Carl is a name.
+
+Start story titled "Policeman and Criminals".
+Pauline, Caleb, and Carl are persons.
+Pauline is a policeman.  //expect "Pauline wants to catch criminals."
+Caleb commits a crime.   //expect "Caleb is a criminal."
+Carl is a criminal.
+
+The end.

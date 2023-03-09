@@ -1,0 +1,200 @@
+/* ------------------------------
+ Generated on 0913_162823 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Decorate glass bottles with paint".
+Intention: Decorate glass bottles with paint.
+The end.
+
+If the intention is "Decorate glass bottles with paint".
+Step: Remove the labels.
+Step: Dry the bottles thoroughly.
+Step: Create designs for the inside of the bottle....
+Step: Spray your first coat of paint on the outside of the bottle....
+Step: Allow that your bottles dry.
+Step: Add your decorative touches.
+Step: Choose paint's type.
+Step: Choose the brush's type.
+Step: Prepare the glass before you apply paint.
+Step: Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>.
+Step: Reproduce the design on the glass surface.
+Step: Apply the glass paint's layers to the design.
+Step: Allow your bottle to dry for 24 hours at least.
+Step: Cure your bottle in the oven.
+Step: Wash the glass.
+Step: Use a syringe to change the bottle’s color....
+Step: Add a varnish layer to make it extra shiny....
+Step: So you create patterns, use tape.
+Step: So you create small designs, apply nail polish.
+The end.
+
+// ------------ Step 1: Remove the labels
+If the problem is "Remove the labels".
+Intention: Remove the labels.
+The end.
+
+If the intention is "Remove the labels".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Dry the bottles thoroughly
+If the problem is "Dry the bottles thoroughly".
+Intention: Dry the bottles thoroughly.
+The end.
+
+If the intention is "Dry the bottles thoroughly".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Create designs for the inside of the bottle...
+If the problem is "Create designs for the inside of the bottle...".
+Intention: Create designs for the inside of the bottle....
+The end.
+
+If the intention is "Create designs for the inside of the bottle...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Spray your first coat of paint on the outside of the bottle...
+If the problem is "Spray your first coat of paint on the outside of the bottle...".
+Intention: Spray your first coat of paint on the outside of the bottle....
+The end.
+
+If the intention is "Spray your first coat of paint on the outside of the bottle...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Allow that your bottles dry
+If the problem is "Allow that your bottles dry".
+Intention: Allow that your bottles dry.
+The end.
+
+If the intention is "Allow that your bottles dry".
+Method: Assume successful.
+The end.
+
+// ------------ Step 6: Add your decorative touches
+If the problem is "Add your decorative touches".
+Intention: Add your decorative touches.
+The end.
+
+If the intention is "Add your decorative touches".
+Method: Assume successful.
+The end.
+
+// ------------ Step 7: Choose paint's type
+If the problem is "Choose paint's type".
+Intention: Choose paint's type.
+The end.
+
+If the intention is "Choose paint's type".
+Method: Assume successful.
+The end.
+
+// ------------ Step 8: Choose the brush's type
+If the problem is "Choose the brush's type".
+Intention: Choose the brush's type.
+The end.
+
+If the intention is "Choose the brush's type".
+Method: Assume successful.
+The end.
+
+// ------------ Step 9: Prepare the glass before you apply paint
+If the problem is "Prepare the glass before you apply paint".
+Intention: Prepare the glass before you apply paint.
+The end.
+
+If the intention is "Prepare the glass before you apply paint".
+Method: Assume successful.
+The end.
+
+// ------------ Step 10: Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>
+If the problem is "Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>".
+Intention: Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>.
+The end.
+
+If the intention is "Unable to generate from<P>One of the servers required to answer your question istemporarily down  Please try again later</P>".
+Method: Assume successful.
+The end.
+
+// ------------ Step 11: Reproduce the design on the glass surface
+If the problem is "Reproduce the design on the glass surface".
+Intention: Reproduce the design on the glass surface.
+The end.
+
+If the intention is "Reproduce the design on the glass surface".
+Step: Design is on glass surface.
+The end.
+
+// ------------ Step 12: Apply the glass paint's layers to the design
+If the problem is "Apply the glass paint's layers to the design".
+Intention: Apply the glass paint's layers to the design.
+The end.
+
+If the intention is "Apply the glass paint's layers to the design".
+Method: Assume successful.
+The end.
+
+// ------------ Step 13: Allow your bottle to dry for 24 hours at least
+If the problem is "Allow your bottle to dry for 24 hours at least".
+Intention: Allow your bottle to dry for 24 hours at least.
+The end.
+
+If the intention is "Allow your bottle to dry for 24 hours at least".
+Method: Assume successful.
+The end.
+
+// ------------ Step 14: Cure your bottle in the oven
+If the problem is "Cure your bottle in the oven".
+Intention: Cure your bottle in the oven.
+The end.
+
+If the intention is "Cure your bottle in the oven".
+Step: Bottle is on oven.
+The end.
+
+// ------------ Step 15: Wash the glass
+If the problem is "Wash the glass".
+Intention: Wash the glass.
+The end.
+
+If the intention is "Wash the glass".
+Method: Assume successful.
+The end.
+
+// ------------ Step 16: Use a syringe to change the bottle’s color...
+If the problem is "Use a syringe to change the bottle’s color...".
+Intention: Use a syringe to change the bottle’s color....
+The end.
+
+If the intention is "Use a syringe to change the bottle’s color...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 17: Add a varnish layer to make it extra shiny...
+If the problem is "Add a varnish layer to make it extra shiny...".
+Intention: Add a varnish layer to make it extra shiny....
+The end.
+
+If the intention is "Add a varnish layer to make it extra shiny...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 18: So you create patterns, use tape
+If the problem is "So you create patterns, use tape".
+Intention: So you create patterns, use tape.
+The end.
+
+If the intention is "So you create patterns, use tape".
+Method: Assume successful.
+The end.
+
+// ------------ Step 19: So you create small designs, apply nail polish
+If the problem is "So you create small designs, apply nail polish".
+Intention: So you create small designs, apply nail polish.
+The end.
+
+If the intention is "So you create small designs, apply nail polish".
+Method: Assume successful.
+The end.
+

@@ -1,0 +1,102 @@
+Start experiment.
+
+Insert file General reflective knowledge.
+
+Show both perspectives.
+
+Both perspectives.
+
+Insert file General commonsense knowledge.
+
+Insert file Relations knowledge.
+
+If xx is an enemy of zz and yy is an enemy of zz then xx is a friend of yy.
+
+If xx talks to zz, then zz may predict that xx will become king.
+
+Insert file General reflective knowledge.
+
+Insert file Macbeth commonsense.
+
+
+"Eastern" is a kind of personality trait.
+
+"Machiavellian" is a kind of personality trait.
+
+First perspective.
+
+
+Start story titled "Macbeth".
+
+Thane is noble.                                                                                          
+England is a country.                                                                                            
+Dunsinane is a castle.                                                                                            
+Birnam Wood is a forest.                                                                                            
+Duncan is a person.                                                                                            
+Cawdor is a person.                                                                                            
+Lady Macduff is a person.                                                                                            
+Lady Macbeth is a person.                                                                                            
+Macduff is a person.                                                                                            
+Macbeth is a person.                                                                                            
+Donalbain is a person.                                                                                            
+Malcolm is a person.                                                                                            
+Lady Macbeth is Macbeth's wife.                                                                                            
+Lady Macduff is Macduff's wife.                                                                                           
+ Macbeth is a thane.                                                                                            
+Macduff is a thane.                                                                                            
+Lady Macbeth is evil.                                                                                            
+Duncan is a king.                                                                                            
+Macbeth is Duncan's successor.                                                                                            
+Duncan is Cawdor's enemy.                                                                                            
+Macduff is Cawdor's enemy.                                                                                            
+Duncan becomes happy because Macbeth defeats Cawdor.                                                                                            
+Witches dance.                                                                                            
+Witches have visions.                                                                                            
+Macbeth talks with witches.                                                                                            
+Macbeth becomes king.                                                                                           
+ Witches predict that Macbeth becomes king.                                                                                            
+ Witches astonish Macbeth.                                                                                           
+  Duncan executes Cawdor.                                                                                            
+  Macbeth becomes thane.                                                                                            
+  Duncan rewards Macbeth because Duncan becomes happy.                                                                                            
+  Lady Macbeth persuades that Macbeth wants to become king because Lady Macbeth is greedy.                                                                                            
+Macbeth loves Lady Macbeth.                                                                                            
+Macbeth wants to please Lady Macbeth.                                                                                            
+Macbeth wants to become king because Lady Macbeth persuades that Macbeth wants to become king.                                                                                            
+Macbeth plans to murder king.                                                                                            
+Lady Macbeth plans Macbeth murdering king.                                                                                            
+Macbeth plans Lady Macbeth murdering king.                                                                                            
+Lady Macbeth plans to murder king.                                                                                            
+Macbeth invites Duncan to dinner.                                                                                            
+Duncan enters scene.                                                                                            
+Duncan complements Macbeth.                                                                                           
+ Duncan goes to bed.                                                                                            
+Guards become drunk.                                                                                            
+Guards sleep.                                                                                            
+In order to murder Duncan, Macbeth murders guards; in order to murder Duncan, he enters bedroom; in order to murder Duncan, he stabs Duncan.                                                                                           
+ Malcolm becomes afraid.                                                                                           
+  Donalbain becomes afraid.                                                                                           
+   Malcolm flees.                                                                                            
+Donalbain flees.                                                                                            
+For Macbeth to murder Duncan leads to Macduff flee to England.                                                                                            
+In order to flee to England, Macduff rides to coast; in order to flee to it, he sails on ship.                                                                                           
+ For Macduff to flee to England leads to Macbeth murder Lady Macduff.                                                                                           
+  Macbeth hallucinates at dinner.                                                                                           
+   Lady Macbeth says Macbeth hallucinates.                                                                                            
+   Everyone leaves because Lady Macbeth tells everyone to the leave.                                                                                            
+   For Macbeth to murder Duncan leads to Lady Macbeth become distraught.                                                               
+   Lady Macbeth has bad dreams.                                                                           
+Lady Macbeth thinks she has blood on hands.                                                                                            
+Birnam Wood goes to Dunsinane.                                                                                            
+Witches predict Birnam Wood goes to Dunsinane.                                                                                            
+Birnam wood is a forest.                                                                                           
+ Birnam wood goes to Dunsinane.                                                                                            
+ Army attacks Dunsinane.                                                                                            
+ Macduff curses Macbeth.                                                                                            
+ Macbeth refuses to surrender.                                                                                            
+ Macduff kills Macbeth.
+ 
+ The end.
+
+
+

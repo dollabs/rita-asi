@@ -1,0 +1,133 @@
+Start experiment.
+
+Set bottom panel to Elaboration graph.
+
+Start story titled "Bunny Story".
+
+Bunny is a rabbit. Bunny is a girl.
+
+This is Bunny.
+Bunny is scared because next week she has to give show-and-tell.
+Show-and-tell makes Bunny scared.
+
+//Then on Monday morning, Bunny thinks about show-and-tell.
+Then, it is Monday morning.
+Bunny thinks about show-and-tell.
+Bunny feels scared.
+Bunny eats some cheese.
+Bunny has a tummy_ache.
+//Then on Monday afternoon, Bunny ties her shoes. // and
+Then, it is Monday afternoon.
+Bunny ties her shoes.
+Bunny eats strawberries.
+Bunny feels great. //! can't parse !
+Bunny does not have a tummy_ache.
+//Then on Tuesday morning, Bunny eats a popsicle.
+Then, it is Tuesday morning. //split so can match...
+Bunny eats a popsicle.
+Bunny thinks about show-and-tell.
+Bunny feels scared.
+Bunny has a tummy_ache.
+//Then on Tuesday afternoon, Bunny eats some toast. // and
+Then, it is Tuesday afternoon.
+Bunny eats some toast.
+Bunny takes a bath.
+Bunny feels great. //! can't parse !
+Bunny does not have a tummy_ache.
+//Then on Wednesday morning, Bunny thinks about show-and-tell.
+Then, it is Wednesday morning.
+Bunny thinks about show-and-tell.
+Bunny feels scared.
+Bunny eats French fries.
+Bunny has a tummy_ache.
+//Then on Wednesday afternoon, Bunny plays bingo. // and
+Then, it is Wednesday afternoon.
+Bunny plays bingo.
+Bunny eats pasta.
+Bunny feels great. //! can't parse !
+Bunny does not have a tummy_ache.
+//Then on Thursday morning, Bunny eats a muffin.
+Then, it is Thursday morning.
+Bunny eats a muffin.
+Bunny thinks about show-and-tell.
+Bunny feels scared.
+Bunny has a tummy_ache.
+//Then on Thursday afternoon, Bunny eats some yogurt. // and
+Then, it is Thursday afternoon.
+Bunny eats some yogurt.
+Bunny brushes her teeth.
+Bunny feels great. //! can't parse !
+Bunny does not have a tummy_ache.
+//Then on Friday morning, Bunny thinks about show-and-tell.
+Then, it is Friday morning.
+Bunny thinks about show-and-tell.
+Bunny feels scared.
+Bunny eats some soup.
+Bunny has a tummy_ache.
+//Then on Friday afternoon, Bunny plays on the monkey bars. // and
+Then, it is Friday afternoon.
+Bunny plays on the monkey bars.
+Bunny eats a banana.
+Bunny feels great. //! can't parse !
+Bunny does not have a tummy_ache.
+//Then on Saturday morning, Bunny eats a carrot.
+Then, it is Saturday morning.
+Bunny eats a carrot.
+Bunny thinks about show-and-tell.
+Bunny feels scared.
+Bunny has a tummy_ache.
+//Then on Saturday afternoon, Bunny eats some tofu. // and
+Then, it is Saturday afternoon.
+Bunny eats some tofu.
+Bunny builds a snowman.
+Bunny feels great. //! can't parse !
+Bunny does not have a tummy_ache.
+//Then on Sunday morning, Bunny thinks about show-and-tell.
+Then, it is Sunday morning.
+Bunny eats a sandwich.
+Bunny thinks about show-and-tell.
+Bunny feels scared.
+Bunny has a tummy_ache.
+Then the next day Bunny gave show-and-tell.
+She did very well and everyone clapped!
+Hurray for Bunny. //! can't parse !
+
+The End.
+
+//Set left panel to Commentary.  Set right panel to Mental models.
+
+//Pause.
+
+// ask question 16 times.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.
+
+//Insert question into text box: Did bunny have a tummy ache because bunny thinks about show-and-tell or bunny eats a popsicle?  Pause.

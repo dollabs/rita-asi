@@ -1,0 +1,84 @@
+//Conflict Explanation Test, Jan 2017, based on LesMis2_demo
+
+Start experiment.
+
+/*
+xx and yy are persons.
+John and Mary are persons.
+
+If xx is musician and xx becomes happy, then xx sings.
+If xx is musician and xx does not become happy, then xx does not sing.
+
+Start story titled "Test".
+
+John becomes happy.
+John is musician.
+
+Mary becomes happy.
+Mary stops being happy.
+Mary is musician.
+
+The end.
+*/
+
+Set Agent focused button to true.
+
+Start common sense knowledge.
+Mary and John are persons.
+If water is boiling, then water is hot.
+If water is cold, then water is not hot.
+Start story titled "test".
+Mary enters the scene.
+Water is boiling.
+Mary exits the scene.
+John enters the scene.
+John bakes cake.
+Water is cold.
+John exits the scene.
+The end.
+
+Insert into text box: Why does Mary disagree with John?
+
+/*
+Set Agent focused button to true.
+Start common sense knowledge.
+xx and yy are persons.
+
+If xx commits a crime, then xx becomes criminal.
+If xx is a policeman and yy becomes criminal and story is over, then xx wants to arrest yy.
+//If xx is a policeman and yy does not become criminal and story is over, then xx does not want to arrest yy.
+If story is over and not xx becomes criminal, then xx sings.
+
+If xx repents and xx becomes a good person, then xx stops being criminal.
+
+
+Inspector Javert is a name.
+Jean Valjean is a name.
+
+Inspector Javert and Jean Valjean are persons.
+
+Start story titled "Les Mis 2 -- Conflict Explanation Test".
+
+//Scene 1: Crime
+Inspector Javert and Jean Valjean enter the scene.
+	Inspector Javert is a policeman.
+	Jean Valjean commits a crime.
+		//Infer: Jean Valjean is a criminal. Inspector Javert wants to arrest JV.
+Inspector Javert exits the scene.
+
+//Scene 2: Repentance
+//Then, Jean Valjean enters the scene. //Javert does not observe.
+	Jean Valjean repents.
+	Jean Valjean becomes a good person.
+		//JV's story: JV is no longer a criminal. (not Genesese...)
+		//Javert's story: unchanged (Javert wants to arrest JV.)
+//Jean Valjean exits the scene.
+
+Then, tree falls.
+Inspector Javert and Jean Valjean enter the scene.
+Story is over. //this is a hack. Such a hack.
+
+The end.
+
+Insert into text box: Why does Jean Valjean disagree with Inspector Javert?
+*/

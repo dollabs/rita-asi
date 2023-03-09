@@ -1,0 +1,19 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0191".
+EARLIER, THE PRINCESS WAS BORN WITH DIVINE PROTECTION.
+AS PART OF A CONSPIRACY, THE VIRGIN TOOK THE PRINCESS HOSTAGE, PLANNING TO KILL HER.
+QUIETLY, THE PRINCESS WAS ABLE TO ESCAPE.
+THE PRINCESS REALIZED THAT THE VIRGIN COULD KILL HER AT ONCE. SHE HAD TO RUN AWAY.
+THE PRINCESS DECIDED TO GO TO THE TLATELOLCO MARKET.
+THE END.
+
+
+
+The end.

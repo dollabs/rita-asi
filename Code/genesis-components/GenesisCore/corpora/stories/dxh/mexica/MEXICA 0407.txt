@@ -1,0 +1,18 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0407".
+BECAUSE THE ENEMY WAS GREEDY, THE ENEMY ABDUCTED THE HUNTER AND TOOK HIM TO THE FOREST.
+THE HUNTER UNDID THE ROPES. HE WAS FREE.
+IN ORDER TO SAVE HIS LIFE, HE DECIDED TO HIDE.
+THE HUNTER WENT BACK TO THE GREAT CITY.
+THE END.
+
+
+
+The end.

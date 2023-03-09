@@ -1,0 +1,34 @@
+Start experiment.
+
+Set all switches to defaults.
+
+Set Use expert's rules switch to true.
+
+Set variable test-expert-request to true.
+
+Set left panel to inspector.
+
+Set right panel to mental models.
+
+Set bottom panel to elaboration graph.
+
+Set show text box switch to false.
+
+Set show all story elements switch to true.
+
+Insert file Macbeth1 common.
+
+Set Use expert's rules switch to false.
+
+Set variable test-expert-request to false.
+
+
+
+
+
+
+
+
+
+
+

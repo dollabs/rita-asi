@@ -1,0 +1,228 @@
+/* ------------------------------
+ Generated on 0913_163841 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make flower food".
+Intention: Make flower food.
+The end.
+
+If the intention is "Make flower food".
+Step: Making plants food with lemon juice.
+Step: Prepare your flowers for a vase.
+Step: Ensure flower shelf life.
+The end.
+
+// ------------ Step 1: Making plants food with lemon juice
+If the problem is "Making plants food with lemon juice".
+Intention: Making plants food with lemon juice.
+The end.
+
+// ------------ Step 2: Prepare your flowers for a vase
+If the problem is "Prepare your flowers for a vase".
+Intention: Prepare your flowers for a vase.
+The end.
+
+// ------------ Step 3: Ensure flower shelf life
+If the problem is "Ensure flower shelf life".
+Intention: Ensure flower shelf life.
+The end.
+
+/* ------------------------------
+ Generated on 0913_163841 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Making plants food with lemon juice".
+Intention: Making plants food with lemon juice.
+The end.
+
+If the intention is "Making plants food with lemon juice".
+Step: Gather your ingredients.
+Step: Select your vase.
+Step: Clean your flower container.
+Step: Mix your flower food.
+Step: Pour your solution into the container.
+Step: Keep your water clear and free of bacteria....
+Step: Consider making plant food with soda pop....
+The end.
+
+// ------------ Step 1: Gather your ingredients
+If the problem is "Gather your ingredients".
+Intention: Gather your ingredients.
+The end.
+
+If the intention is "Gather your ingredients".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Select your vase
+If the problem is "Select your vase".
+Intention: Select your vase.
+The end.
+
+If the intention is "Select your vase".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Clean your flower container
+If the problem is "Clean your flower container".
+Intention: Clean your flower container.
+The end.
+
+If the intention is "Clean your flower container".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Mix your flower food
+If the problem is "Mix your flower food".
+Intention: Mix your flower food.
+The end.
+
+If the intention is "Mix your flower food".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Pour your solution into the container
+If the problem is "Pour your solution into the container".
+Intention: Pour your solution into the container.
+The end.
+
+If the intention is "Pour your solution into the container".
+Step: Solution moves into container.
+The end.
+
+// ------------ Step 6: Keep your water clear and free of bacteria...
+If the problem is "Keep your water clear and free of bacteria...".
+Intention: Keep your water clear and free of bacteria....
+The end.
+
+If the intention is "Keep your water clear and free of bacteria...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 7: Consider making plant food with soda pop...
+If the problem is "Consider making plant food with soda pop...".
+Intention: Consider making plant food with soda pop....
+The end.
+
+If the intention is "Consider making plant food with soda pop...".
+Method: Assume successful.
+The end.
+
+/* ------------------------------
+ Generated on 0913_163841 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Prepare your flowers for a vase".
+Intention: Prepare your flowers for a vase.
+The end.
+
+If the intention is "Prepare your flowers for a vase".
+Step: Cut your flowers under water.
+Step: Boil flowers' stems with sap.
+Step: Prune leaves below the water line.
+Step: Use demineralized water if you have hard water....
+Step: Add a commercial vase preservative to your water.
+The end.
+
+// ------------ Step 1: Cut your flowers under water
+If the problem is "Cut your flowers under water".
+Intention: Cut your flowers under water.
+The end.
+
+If the intention is "Cut your flowers under water".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Boil flowers' stems with sap
+If the problem is "Boil flowers' stems with sap".
+Intention: Boil flowers' stems with sap.
+The end.
+
+If the intention is "Boil flowers' stems with sap".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Prune leaves below the water line
+If the problem is "Prune leaves below the water line".
+Intention: Prune leaves below the water line.
+The end.
+
+If the intention is "Prune leaves below the water line".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Use demineralized water if you have hard water...
+If the problem is "Use demineralized water if you have hard water...".
+Intention: Use demineralized water if you have hard water....
+The end.
+
+If the intention is "Use demineralized water if you have hard water...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Add a commercial vase preservative to your water
+If the problem is "Add a commercial vase preservative to your water".
+Intention: Add a commercial vase preservative to your water.
+The end.
+
+If the intention is "Add a commercial vase preservative to your water".
+Method: Assume successful.
+The end.
+
+/* ------------------------------
+ Generated on 0913_163841 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Ensure flower shelf life".
+Intention: Ensure flower shelf life.
+The end.
+
+If the intention is "Ensure flower shelf life".
+Step: Take care when using arranging aids....
+Step: Display flowers in a cool location.
+Step: Store your flowers overnight.
+Step: Avoid vinegar.
+Step: Replenish your water daily.
+The end.
+
+// ------------ Step 1: Take care when using arranging aids...
+If the problem is "Take care when using arranging aids...".
+Intention: Take care when using arranging aids....
+The end.
+
+If the intention is "Take care when using arranging aids...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Display flowers in a cool location
+If the problem is "Display flowers in a cool location".
+Intention: Display flowers in a cool location.
+The end.
+
+If the intention is "Display flowers in a cool location".
+Step: rel be ent flowers seq roles fun on ent cool location.
+The end.
+
+// ------------ Step 3: Store your flowers overnight
+If the problem is "Store your flowers overnight".
+Intention: Store your flowers overnight.
+The end.
+
+If the intention is "Store your flowers overnight".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Avoid vinegar
+If the problem is "Avoid vinegar".
+Intention: Avoid vinegar.
+The end.
+
+If the intention is "Avoid vinegar".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Replenish your water daily
+If the problem is "Replenish your water daily".
+Intention: Replenish your water daily.
+The end.
+
+If the intention is "Replenish your water daily".
+Method: Assume successful.
+The end.
+

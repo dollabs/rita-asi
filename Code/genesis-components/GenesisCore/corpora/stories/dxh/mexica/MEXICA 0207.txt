@@ -1,0 +1,14 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0207".
+THE PRINCESS WAS THE PROUD FATHER OF THE HUNTER.
+
+
+
+The end.

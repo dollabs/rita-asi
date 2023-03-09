@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 11:03:34+08:00", 
+    "instructions": [
+        "Put the Plate on the Charger", 
+        "Put the naplin on the plate", 
+        "Put the fork to the left of the plate with prong pointing upward", 
+        "Put the Salad Fork to the left of the fork with prong facing up", 
+        "Put the Dinner Knife to the right of the plate with the blade pointing up", 
+        "Put the tea spoon to the right of the dinner knife with bowl pointing up", 
+        "Put the Soup Spoon to the right of the Tea Spoon with bowl facing up", 
+        "Put the glass in top right of Charger", 
+        "Place the wine glass to the right of the Water Glass", 
+        "Place the Water glass below the wine glass ", 
+        "Place the coffee cup to the right of the wine glass", 
+        "Place the bread plate to the top left of the Charger", 
+        "Place the Butter Knife on top of the Bread Plate with blade facing right", 
+        "Place the desert fork to the right of the Bread Plate with prong facing right", 
+        "Place the desert spoon below the Desert fork with the bowl facing left"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table5"
+}

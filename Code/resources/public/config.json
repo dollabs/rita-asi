@@ -1,0 +1,8 @@
+{
+ "agent-name": "ASI_DOLL_TA1_RITA",
+ "branch": "master",
+ "git-commit": "37b601c30d729e9f44268712c3f9751a5364630f",
+ "internal-tag": "spiral-4",
+ "rita-minor-version": "1",
+ "rita-version": "3.1.2022-5-5-spiral-4"
+}

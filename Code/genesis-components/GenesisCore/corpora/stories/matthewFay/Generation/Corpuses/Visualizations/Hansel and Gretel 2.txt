@@ -1,0 +1,76 @@
+Start Experiment.
+
+Insert file Matt General Commonsense Knowledge.
+Insert file Matt General Reflective Knowledge.
+
+Start Story Titled, "Hansel and Gretel".
+
+Mother is a name.
+Mother is a person.
+
+Father is a name.
+Father is a person.
+
+Hansel is a name.
+Hansel is a person.
+
+Gretel is name.
+Gretel is person.
+
+The witch is a name.
+The witch is a person.
+
+Mother dislikes Hansel.
+Mother dislikes Gretel.
+Mother persuades Father to abandon Hansel in the woods.
+Mother persuades Father to abandon Gretel in the woods.
+Father abandons Hansel in the woods.
+Father abandons Gretel in the woods.
+Father abandons Hansel in the woods because Mother persuaded Father to abandon Hansel in the woods.
+Father abandons Gretel in the woods because Mother persuaded Father to abandon Gretel in the woods.
+
+Hansel is lost.
+Gretel is lost.
+Hansel is lost because Father abandons Hansel in the woods.
+Gretel is lost because Father abandons Gretel in the woods.
+
+Hansel becomes hungry.
+Gretel becomes hungry.
+
+The witch lives in the candy_house.
+
+Hansel finds the candy_house.
+Gretel finds the candy_house.
+Hansel finds the candy_house because Hansel is lost.
+Gretel finds the candy_house because Gretel is lost.
+
+Hansel eats the candy_house.
+Gretel eats the candy_house.
+Hansel eats the candy_house because Hansel becomes hungry and Hansel finds the candy_house.
+Gretel eats the candy_house because Gretel becomes hungry and Gretel finds the candy_house.
+
+//The witch enslaves Hansel.
+//The witch enslaves Gretel.
+The witch enslaves Hansel because Hansel eats the candy_house.
+The witch enslaves Gretel because Gretel eats the candy_house.
+
+The witch becomes hungry.
+The witch wants to eat Hansel.
+The witch wants to eat Gretel.
+The witch wants to eat Hansel because Hansel eats the candy_house and the witch becomes hungry.
+The witch wants to eat Gretel because Gretel eats the candy_house and the witch becomes hungry.
+
+The witch fattens up Hansel.
+The witch fattens up Hansel because the witch wants to eat Hansel.
+
+The witch wants to push Gretel into the oven.
+The witch wants to push Gretel into the oven because the witch wants to eat Gretel.
+Gretel pushes the witch into the oven.
+Gretel pushes the witch into the oven because the witch wants to push Gretel into the oven.
+
+Gretel kills the witch.
+Gretel kills the witch because Gretel pushes the witch into the oven.
+
+Gretel frees Gretel.
+Gretel frees Hansel.
+The end.

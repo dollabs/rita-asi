@@ -1,0 +1,19 @@
+{
+    "instructions": [
+        "Put the dinner fork on the left of the table cloth with its tine pointing upward.",
+        "put the dinner fork to the right of the table cloth with its blade pointing towards the fork",
+        "put the salad fork to the left of the dinner fork with its tines pointing upward.",
+        "put the salad knife to the right of the dinner knife",
+        "put the soup spoon to the right of the salad knife with its bowl pointing upward.",
+        "put the desert spoon on the top of the table cloth with its bowl pointing leftwards ",
+        "move the dessert spoon to the right of the soup spoon with its bowl pointing upward",
+        "move the dessert spoon to the top of the table cloth and rotate 90 degrees conterclockwise",
+        "place the diner plate between the dinner fork and the dinner knife",
+        "put the bread plate on top of the salad fork and to the left of the dessert spoon",
+        "put the butter knife on top of the bread plate, pointing downward and to the left",
+        "put the wine glass on top of the soup spoon",
+        "put the water glass to the left of the wine glass and to the right of the dessert spoon",
+        "put the napkin on top of the dinner plate"
+    ],
+    "video_name": "table2"
+}

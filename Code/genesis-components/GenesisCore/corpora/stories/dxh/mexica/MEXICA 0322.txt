@@ -1,0 +1,18 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0322".
+BECAUSE THE PRINCE WAS GREEDY, THE PRINCE KIDNAPPED THE HUNTER. HE EXPECTED TO GET SOME RANSOM.
+QUIETLY, THE HUNTER WAS ABLE TO ESCAPE.
+THE HUNTER REALIZED THAT THE PRINCE COULD KILL HIM AT ONCE. HE HAD TO RUN AWAY.
+THE HUNTER DECIDED TO GO TO THE TEMPLE.
+THE END.
+
+
+
+The end.

@@ -1,0 +1,48 @@
+//Infer Enter Exit 3a, July 2016; simpler version of 3
+// Note: For entrances to work correctly, requires useSceneAssumptionInsertEnter = false in JessicasExpert.java.
+
+Start experiment.
+
+//Start common sense knowledge.
+//xx is a person.
+//yy is a person.
+
+Start story titled "Infer Enter Exit 3a".
+
+/////////////////////////////////////////////////////////////////////////////**/
+// Exp 3a: physical co-location: if someone leaves the room, they stop observing events in the scene (need some concept of locale)
+
+Scene shifts to the kitchen.
+Bobby enters the kitchen.
+Bobby bakes a cake.
+
+Carla enters the scene. //enter current scene, ie kitchen //todo these entrances don't work with the InsertEnter assumption because InsertEnter overrides Enter
+Bobby reads a book.
+
+Maria enters the bathroom. //M has no MM because no events happen in the bathroom
+
+David enters the kitchen.
+The cake is in the oven. //obs by B, C, D
+Bobby exits the kitchen. //infer B exits
+The cake is done. //obs by C, D
+
+
+Carla exits the kitchen.
+Carla enters the bathroom.
+In the kitchen, someone turns the oven off. //obs by D
+The cake disappears. //obs by D
+Emily enters the kitchen. //infer E enters //todo why does Emily's entrance work?
+Someone asks "where is the cake". //obs by D, E
+
+Scene shifts to the bedroom.
+
+Alice and Frank enter the bedroom.
+Frank yawns. //obs by A, F
+Someone leaves the bed. //obs by A, F
+Frank exits the bedroom. //infer F exits
+The alarm clock starts ringing. //obs by A
+
+
+/////////////////////////////////////////////////////////////////////////////**/
+
+The end.

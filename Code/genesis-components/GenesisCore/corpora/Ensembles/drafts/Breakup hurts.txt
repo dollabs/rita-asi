@@ -1,0 +1,35 @@
+Start experiment.
+
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Find difference button to true.
+Set left panel to commentary.
+Set right panel to Z Story Aligner Gallery.
+Both perspectives.
+
+Caroline is a person.
+Nanyang Technological University is an university.
+
+xx is a person.
+
+Show both perspectives.
+
+First perspective.
+Start story titled "Caroline in love".
+Caroline was a freshman at Nanyang Technological University.
+She was in love with Jack.
+She went to classes with Jack.
+She played tennis.
+She felt happy.
+The end.
+
+Second perspective.
+Start story titled "Caroline after breakup".
+Caroline is a junior student.
+She has broken up with Jack.
+She plays tennis sometimes.
+She takes classes alone.
+She fails a lot of job interviews.
+She feels so stressful.
+The end.

@@ -1,0 +1,20 @@
+Set right panel to mental models.
+
+Set bottom panel to elaboration graph.
+
+Both perspectives.
+
+First perspective.
+
+Insert file General commonsense knowledge.
+
+If xx is an enemy of zz and yy is an enemy of zz then xx is a friend of yy.
+
+Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+Start story titled "Macbeth/Revenge".
+
+Insert file Macbeth plot static.
+

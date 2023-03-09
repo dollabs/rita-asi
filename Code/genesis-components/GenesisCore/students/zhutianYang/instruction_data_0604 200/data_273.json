@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 10:14:21+08:00", 
+    "instructions": [
+        "Put the dinner plate on the right side of the table.", 
+        "Put the fork on the left side of the dinner plate.", 
+        "Put the salad fork beside the dinner fork.", 
+        "Put the dinner knife on the right side of the dinner plate", 
+        "Put the salad knife om the right side of the dinner knife.", 
+        "Put the soup spoon beside the salad knife.", 
+        "Put the water glass on the top right side of the dinner plate.", 
+        "Put the wine glass on the right side of the water glass.", 
+        "Put a second wine glass directly beside the wine glass that was just placed.", 
+        "Put the coffee cup beside the soup spoon.", 
+        "Put the bread plate on the left side of the dinner plate, above the dinner fork.", 
+        "Put the butter knife on the right side of the bread plate.", 
+        "Put the dessert fork directly above the dinner plate.", 
+        "Put the dessert spoon directly above the dessert fork.", 
+        "Put the napkin in the center of the dinner plate."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table3"
+}

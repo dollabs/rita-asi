@@ -1,0 +1,20 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0169".
+THE HUNTER AWAKENED.
+THE PRINCESS WOKE UP WHILE THE SONGS OF THE BIRDS COVERED THE SKY.
+WHILE HE WAS WALKING, THE HUNTER HAD A TERRIBLE ACCIDENT AND WAS SEVERELY INJURED.
+THE PRINCESS FOUND SOME PLANTS; THE PRINCESS CURED THE HUNTER. HE WAS LUCKY.
+WHILE HE WAS DISTRACTED, THE PRINCESS TRIED TO STEAL FROM THE HUNTER.
+THE PRINCESS PRODUCED CONFLICTING FEELINGS IN THE HUNTER.
+THE END.
+
+
+
+The end.

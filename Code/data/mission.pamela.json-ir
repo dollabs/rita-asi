@@ -1,0 +1,1528 @@
+{"Activity":
+ {":args":null,
+  ":modes":
+  {":jumping":true,
+   ":sprinting":true,
+   ":stationary":true,
+   ":swinging":true,
+   ":triaging":true,
+   ":walking":true},
+  ":type":":pclass"},
+ "Agent":
+ {":args":["ks"],
+  ":fields":
+  {"activity":
+   {":access":":private",
+    ":initial":
+    {":mode":":stationary",
+     ":mode-ref":{":names":["Activity"], ":type":":symbol-ref"},
+     ":type":":mode-ref"},
+    ":observable":false},
+   "beep-response":
+   {":access":":private",
+    ":initial":
+    {":mode":":never",
+     ":mode-ref":{":names":["DeviceUse"], ":type":":symbol-ref"},
+     ":type":":mode-ref"},
+    ":observable":false},
+   "beeps-followed":
+   {":access":":private", ":initial":0, ":observable":false},
+   "beeps-ignored":
+   {":access":":private", ":initial":0, ":observable":false},
+   "gold-victims-triaged":
+   {":access":":private", ":initial":0, ":observable":false},
+   "green-victims-triaged":
+   {":access":":private", ":initial":0, ":observable":false},
+   "known":
+   {":access":":private",
+    ":initial":{":names":["ks"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "left-gold-victims":
+   {":access":":private", ":initial":0, ":observable":false},
+   "left-green-victims":
+   {":access":":private", ":initial":0, ":observable":false},
+   "marking-with-door-closed-if-cleared":
+   {":access":":private", ":initial":0, ":observable":false},
+   "marking-with-door-closed-if-not-cleared":
+   {":access":":private", ":initial":0, ":observable":false},
+   "marking-with-light-off-if-cleared":
+   {":access":":private", ":initial":0, ":observable":false},
+   "marking-with-light-off-if-not-cleared":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_x":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_y":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_z":
+   {":access":":private", ":initial":0, ":observable":false},
+   "mx":{":access":":private", ":initial":0, ":observable":false},
+   "my":{":access":":private", ":initial":0, ":observable":false},
+   "mz":{":access":":private", ":initial":0, ":observable":false},
+   "pitch":{":access":":private", ":initial":0, ":observable":false},
+   "pname":
+   {":access":":private", ":initial":"\"RITA\"", ":observable":false},
+   "score":{":access":":private", ":initial":0, ":observable":false},
+   "seconds-remaining":
+   {":access":":private", ":initial":0, ":observable":false},
+   "space":
+   {":access":":private", ":initial":null, ":observable":false},
+   "triage-strategy":
+   {":access":":private",
+    ":initial":
+    {":mode":":all-victims",
+     ":mode-ref":{":names":["TriageStrategy"], ":type":":symbol-ref"},
+     ":type":":mode-ref"},
+    ":observable":false},
+   "where":
+   {":access":":private",
+    ":initial":"\"Unknown\"",
+    ":observable":false},
+   "x":{":access":":private", ":initial":0, ":observable":false},
+   "y":{":access":":private", ":initial":0, ":observable":false},
+   "yaw":{":access":":private", ":initial":0, ":observable":false},
+   "z":{":access":":private", ":initial":0, ":observable":false}},
+  ":inherit":["SituatedObject"],
+  ":meta":
+  {":doc":"\"What RITA knows and believes about a participant\""},
+  ":type":":pclass"},
+ "BehavioralModel":
+ {":args":null,
+  ":meta":
+  {":doc":"\"What we believe about the participants behaviortyype\""},
+  ":modes":{":type1":true, ":type2":true, ":type3":true},
+  ":type":":pclass"},
+ "BeliefState":
+ {":args":
+  ["rita", "rob1", "ed", "pname", "p1", "p1tom", "p2", "p2tom", "p3",
+   "p3tom", "p4", "p4tom"],
+  ":fields":
+  {"participant1":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [{":type":":pclass-arg-ref", ":names":["pname"]},
+      {":type":":pclass-arg-ref", ":names":["p1"]},
+      {":type":":pclass-arg-ref", ":names":["p1tom"]}],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant1\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant2":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [{":type":":pclass-arg-ref", ":names":["pname"]},
+      {":type":":pclass-arg-ref", ":names":["p2"]},
+      {":type":":pclass-arg-ref", ":names":["p2tom"]}],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant2\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant3":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [{":type":":pclass-arg-ref", ":names":["pname"]},
+      {":type":":pclass-arg-ref", ":names":["p3"]},
+      {":type":":pclass-arg-ref", ":names":["p3tom"]}],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant3\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant4":
+   {":access":":private",
+    ":initial":
+    {":args":
+     [{":type":":pclass-arg-ref", ":names":["pname"]},
+      {":type":":pclass-arg-ref", ":names":["p4"]},
+      {":type":":pclass-arg-ref", ":names":["p4tom"]}],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant4\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "rita-agent":
+   {":access":":private",
+    ":initial":
+    {":args":[{":type":":pclass-arg-ref", ":names":["rita"]}],
+     ":pclass":"Agent",
+     ":plant-id":"\"agentBeliefState.rita\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "robot1":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Robot1\"", {":type":":pclass-arg-ref", ":names":["rob1"]}],
+     ":pclass":"Robot",
+     ":plant-id":"\"agentBeliefState.robot1\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "testbed-observer":
+   {":access":":private",
+    ":initial":
+    {":args":[{":type":":pclass-arg-ref", ":names":["ed"]}],
+     ":pclass":"Passive-Agent",
+     ":plant-id":"\"agentBeliefState.observer\"",
+     ":type":":pclass-ctor"},
+    ":observable":false}},
+  ":meta":{":doc":"\"Constructor of the Belief State\""},
+  ":type":":pclass"},
+ "Destination":
+ {":args":["adest"],
+  ":fields":
+  {"t-location":
+   {":access":":private",
+    ":initial":{":names":["adest"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":methods":
+  {"be-arrived":
+   [{":doc":"\"Change state to arrived.\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":null,
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Be Arrived\"",
+     ":pre":
+     {":type":":not",
+      ":args":
+      [{":type":":mode-ref",
+        ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+        ":mode":":arrived"}]},
+     ":betweens":null,
+     ":post":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":arrived"},
+     ":display-args":null}]},
+  ":modes":
+  {":arrived":true,
+   ":normal":
+   {":args":
+    [{":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["General"]},
+      ":mode":":initial"}],
+    ":type":":or"}},
+  ":type":":pclass"},
+ "DestinationStates":
+ {":args":null,
+  ":modes":{":arrived":true, ":normal":true},
+  ":type":":pclass"},
+ "DeviceUse":
+ {":args":null,
+  ":modes":
+  {":always":true, ":never":true, ":sometimes":true, ":usually":true},
+  ":type":":pclass"},
+ "EmotionalState":
+ {":args":
+  ["cl", "tp", "tired", "happy", "afraid", "distractible", "oriented"],
+  ":fields":
+  {"cognitiveLoad":
+   {":access":":private",
+    ":initial":{":names":["cl"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "distractibility":
+   {":access":":private",
+    ":initial":{":names":["distractible"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "fear":
+   {":access":":private",
+    ":initial":{":names":["afraid"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "feelingTimePressured":
+   {":access":":private",
+    ":initial":{":names":["tp"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "happiness":
+   {":access":":private",
+    ":initial":{":names":["happy"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "spatialawareness":
+   {":access":":private",
+    ":initial":{":names":["oriented"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "tiredness":
+   {":access":":private",
+    ":initial":{":names":["tired"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":meta":
+  {":doc":
+   "\"What we believe about the participants emotional state\""},
+  ":type":":pclass"},
+ "General":
+ {":args":null,
+  ":modes":{":initial":true, ":nothing":true},
+  ":type":":pclass"},
+ "LPlayer":
+ {":args":["endat"],
+  ":fields":
+  {"nowat":
+   {":access":":private",
+    ":initial":{":name":"\"room came-from\"", ":type":":lvar"},
+    ":observable":false},
+   "p-location":
+   {":access":":private",
+    ":initial":{":names":["endat"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":methods":
+  {"arrive":
+   [{":doc":"\"arrived\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["object"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Arrive\"",
+     ":pre":
+     {":type":":same",
+      ":args":
+      [{":type":":field-ref", ":names":["p-location"]},
+       {":type":":method-arg-ref",
+        ":names":["object", "t-location"]}]},
+     ":betweens":null,
+     ":post":
+     {":type":":equal",
+      ":args":
+      [{":type":":method-arg-ref", ":names":["object"]},
+       {":type":":mode-ref",
+        ":mode-ref":
+        {":type":":symbol-ref", ":names":["DestinationStates"]},
+        ":mode":":arrived"}]},
+     ":display-args":["object"]}],
+   "goto-room":
+   [{":doc":"\"Move to another room\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["newloc"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Goto Room\"",
+     ":pre":
+     {":type":":and",
+      ":args":
+      [{":type":":lookup-propositions",
+        ":where":null,
+        ":propositions":
+        [{":type":":proposition-pattern",
+          ":look-where":null,
+          ":prop-name":":left-path-neighbor",
+          ":args":
+          [{":type":":field-ref", ":names":["nowat"]},
+           {":type":":method-arg-ref", ":names":["newloc"]}]}]},
+       {":type":":same",
+        ":args":
+        [{":type":":field-ref", ":names":["p-location"]},
+         {":type":":field-ref", ":names":["nowat"]}]}]},
+     ":betweens":null,
+     ":post":
+     {":type":":same",
+      ":args":
+      [{":type":":field-ref", ":names":["p-location"]},
+       {":type":":method-arg-ref", ":names":["newloc"]}]},
+     ":display-args":["newloc"]}]},
+  ":type":":pclass"},
+ "Main":
+ {":args":null,
+  ":fields":
+  {"aroom":
+   {":access":":private",
+    ":initial":{":name":"\"a room\"", ":type":":lvar"},
+    ":observable":false},
+   "missionstatus":
+   {":access":":private",
+    ":initial":
+    {":args":null, ":pclass":"MissionStatus", ":type":":pclass-ctor"},
+    ":observable":false},
+   "observer":
+   {":access":":private",
+    ":initial":
+    {":args":["\"Ed\"", 0, ":testbed-observer", ":robot", 0, 0, 0, 0],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p1":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player1  \"", 18, ":female", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p2":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player2  \"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p3":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player3  \"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p4":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player4\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p5":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player5\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p6":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player6\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant1":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player1\"", {":type":":field-ref", ":names":["p1"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant1\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant2":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player2\"", {":type":":field-ref", ":names":["p2"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant2\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant3":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player3\"", {":type":":field-ref", ":names":["p3"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant3\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant4":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player4\"", {":type":":field-ref", ":names":["p3"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant4\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant5":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player5\"", {":type":":field-ref", ":names":["p3"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant5\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant6":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player6\"", {":type":":field-ref", ":names":["p3"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant6\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "player":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"\/Falcon.StagingArea\"",
+      {":type":":field-ref", ":names":["missionstatus"]}],
+     ":pclass":"OPlayer",
+     ":plant-id":"\"Player-Opportunistic\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r1":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Robot1\"", 0, ":learing-robot", ":robot", 0, 0, 0, 0],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "rita":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Rita\"", 0, ":asist-assistant", ":robot", 0, 0, 0, 0],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "rita-agent":
+   {":access":":private",
+    ":initial":
+    {":args":[{":type":":field-ref", ":names":["rita"]}],
+     ":pclass":"Agent",
+     ":plant-id":"\"agentBeliefState.rita\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "robot1":
+   {":access":":private",
+    ":initial":
+    {":args":["\"Robot1\"", {":type":":field-ref", ":names":["r1"]}],
+     ":pclass":"Robot",
+     ":plant-id":"\"agentBeliefState.robot1\"",
+     ":type":":pclass-ctor"},
+    ":observable":false}},
+  ":meta":{":doc":"\"Constructor of the SAR scenario\""},
+  ":methods":
+  {"goal":
+   [{":doc":"\"Search the building\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":null,
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Goal\"",
+     ":pre":true,
+     ":betweens":null,
+     ":post":
+     {":type":":equal",
+      ":args":
+      [{":type":":field-ref", ":names":["missionstatus"]},
+       {":type":":mode-ref",
+        ":mode-ref":
+        {":type":":symbol-ref", ":names":["MissionStatus"]},
+        ":mode":":finished"}]},
+     ":display-args":null}]},
+  ":type":":pclass"},
+ "Main2":
+ {":args":null,
+  ":fields":
+  {"ldest":
+   {":access":":private",
+    ":initial":
+    {":args":["\"\/Falcon.RoomJ\""],
+     ":pclass":"Destination",
+     ":plant-id":"\"targetdestination1\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "observer":
+   {":access":":private",
+    ":initial":
+    {":args":["\"Ed\"", 0, ":testbed-observer", ":robot", 0, 0, 0, 0],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p1":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player1\"", 18, ":female", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p2":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player2\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p3":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player3\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p4":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player4\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p5":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player5\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p6":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player6\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant1":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player1\"", {":type":":field-ref", ":names":["p1"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant1\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant2":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player2\"", {":type":":field-ref", ":names":["p2"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant2\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant3":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player3\"", {":type":":field-ref", ":names":["p3"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant3\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant4":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player4\"", {":type":":field-ref", ":names":["p3"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant4\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant5":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player5\"", {":type":":field-ref", ":names":["p3"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant5\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant6":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player6\"", {":type":":field-ref", ":names":["p3"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant6\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r1":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Robot1\"", 0, ":learing-robot", ":robot", 0, 0, 0, 0],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "rdest":
+   {":access":":private",
+    ":initial":
+    {":args":["\"\/Falcon.SCR2\""],
+     ":pclass":"Destination",
+     ":plant-id":"\"targetdestination2\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "rita":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Rita\"", 0, ":asist-assistant", ":robot", 0, 0, 0, 0],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "robot1":
+   {":access":":private",
+    ":initial":
+    {":args":["\"Robot1\"", {":type":":field-ref", ":names":["r1"]}],
+     ":pclass":"Robot",
+     ":plant-id":"\"agentBeliefState.robot1\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "srplayer":
+   {":access":":private",
+    ":initial":
+    {":args":["\"\/Falcon.StagingArea\""],
+     ":pclass":"RPlayer",
+     ":plant-id":"\"Player-right\"",
+     ":type":":pclass-ctor"},
+    ":observable":false}},
+  ":methods":
+  {"goal":
+   [{":doc":"\"Search the building\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":null,
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Goal\"",
+     ":pre":true,
+     ":betweens":null,
+     ":post":
+     {":type":":equal",
+      ":args":
+      [{":type":":field-ref", ":names":["rdest"]},
+       {":type":":mode-ref",
+        ":mode-ref":{":type":":symbol-ref", ":names":["Destination"]},
+        ":mode":":arrived"}]},
+     ":display-args":null}]},
+  ":modes":{":root":true},
+  ":type":":pclass"},
+ "Main3":
+ {":args":null,
+  ":fields":
+  {"ldest":
+   {":access":":private",
+    ":initial":
+    {":args":["\"\/Falcon.RoomJ\""],
+     ":pclass":"Destination",
+     ":plant-id":"\"targetdestination1\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "observer":
+   {":access":":private",
+    ":initial":
+    {":args":["\"Ed\"", 0, ":testbed-observer", ":robot", 0, 0, 0, 0],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p1":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player1\"", 18, ":female", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p2":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player2\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p3":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player3\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p4":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player4\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p5":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player5\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "p6":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player6\"", 18, ":male", ":american", 50, 50, 80, 80],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant1":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player1\"", {":type":":field-ref", ":names":["p1"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant1\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant2":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player2\"", {":type":":field-ref", ":names":["p2"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant2\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant3":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player3\"", {":type":":field-ref", ":names":["p3"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant3\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant4":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player4\"", {":type":":field-ref", ":names":["p3"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant4\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant5":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player5\"", {":type":":field-ref", ":names":["p3"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant5\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "participant6":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Player6\"", {":type":":field-ref", ":names":["p3"]}, 0],
+     ":pclass":"Participant",
+     ":plant-id":"\"agentBeliefState.participant6\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "r1":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Robot1\"", 0, ":learing-robot", ":robot", 0, 0, 0, 0],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "rdest":
+   {":access":":private",
+    ":initial":
+    {":args":["\"\/Falcon.SCR2\""],
+     ":pclass":"Destination",
+     ":plant-id":"\"targetdestination2\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "rita":
+   {":access":":private",
+    ":initial":
+    {":args":
+     ["\"Rita\"", 0, ":asist-assistant", ":robot", 0, 0, 0, 0],
+     ":pclass":"ParticipantProfile",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "robot1":
+   {":access":":private",
+    ":initial":
+    {":args":["\"Robot1\"", {":type":":field-ref", ":names":["r1"]}],
+     ":pclass":"Robot",
+     ":plant-id":"\"agentBeliefState.robot1\"",
+     ":type":":pclass-ctor"},
+    ":observable":false},
+   "slplayer":
+   {":access":":private",
+    ":initial":
+    {":args":["\"\/Falcon.StagingArea\""],
+     ":pclass":"LPlayer",
+     ":plant-id":"\"Player-left\"",
+     ":type":":pclass-ctor"},
+    ":observable":false}},
+  ":methods":
+  {"goal":
+   [{":doc":"\"Search the building\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":null,
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Goal\"",
+     ":pre":true,
+     ":betweens":null,
+     ":post":
+     {":type":":equal",
+      ":args":
+      [{":type":":field-ref", ":names":["ldest"]},
+       {":type":":mode-ref",
+        ":mode-ref":{":type":":symbol-ref", ":names":["Destination"]},
+        ":mode":":arrived"}]},
+     ":display-args":null}]},
+  ":modes":{":root":true},
+  ":type":":pclass"},
+ "MissionStatus":
+ {":args":null,
+  ":modes":
+  {":finished":true,
+   ":started":
+   {":args":
+    [{":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["General"]},
+      ":mode":":initial"}],
+    ":type":":or"}},
+  ":type":":pclass"},
+ "OPlayer":
+ {":args":["startat", "mstatus"],
+  ":fields":
+  {"dest":
+   {":access":":private",
+    ":initial":{":name":"\"finalroom\"", ":type":":lvar"},
+    ":observable":false},
+   "from":
+   {":access":":private",
+    ":initial":{":name":"\"from\"", ":type":":lvar"},
+    ":observable":false},
+   "missionstatus":
+   {":access":":private",
+    ":initial":{":names":["mstatus"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "nowat":
+   {":access":":private",
+    ":initial":{":name":"\"room-came-from\"", ":type":":lvar"},
+    ":observable":false},
+   "p-location":
+   {":access":":private",
+    ":initial":{":names":["startat"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":methods":
+  {"arrive":
+   [{":doc":"\"Finished when all rooms visited\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["newloc"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Arrive\"",
+     ":pre":
+     {":type":":and",
+      ":args":
+      [{":type":":lookup-propositions",
+        ":where":null,
+        ":propositions":
+        [{":type":":proposition-pattern",
+          ":look-where":null,
+          ":prop-name":":lookahead-steps",
+          ":args":
+          [{":type":":field-ref", ":names":["p-location"]},
+           {":type":":field-ref", ":names":["dest"]}]}]},
+       {":type":":same",
+        ":args":
+        [{":type":":field-ref", ":names":["p-location"]},
+         {":type":":field-ref", ":names":["dest"]}]}]},
+     ":betweens":null,
+     ":post":
+     {":type":":equal",
+      ":args":
+      [{":type":":field-ref", ":names":["missionstatus"]},
+       {":type":":mode-ref",
+        ":mode-ref":
+        {":type":":symbol-ref", ":names":["MissionStatus"]},
+        ":mode":":finished"}]},
+     ":display-args":["newloc"]}],
+   "goto-room":
+   [{":doc":"\"Move to another room\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["newloc"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Goto Room\"",
+     ":pre":
+     {":type":":and",
+      ":args":
+      [{":type":":lookup-propositions",
+        ":where":null,
+        ":propositions":
+        [{":type":":proposition-pattern",
+          ":look-where":null,
+          ":prop-name":":nearby-unvisited-wrt-distance",
+          ":args":
+          [{":type":":field-ref", ":names":["nowat"]},
+           {":type":":method-arg-ref", ":names":["newloc"]}]}]},
+       {":type":":same",
+        ":args":
+        [{":type":":field-ref", ":names":["p-location"]},
+         {":type":":field-ref", ":names":["nowat"]}]}]},
+     ":betweens":null,
+     ":post":
+     {":type":":and",
+      ":args":
+      [{":type":":same",
+        ":args":
+        [{":type":":field-ref", ":names":["p-location"]},
+         {":type":":method-arg-ref", ":names":["newloc"]}]},
+       {":type":":equal",
+        ":args":
+        [{":type":":method-arg-ref", ":names":["newloc"]},
+         {":type":":mode-ref",
+          ":mode-ref":{":type":":symbol-ref", ":names":["RoomModes"]},
+          ":mode":":visited"}]}]},
+     ":display-args":["newloc"]}]},
+  ":type":":pclass"},
+ "Participant":
+ {":args":["pname", "ks", "tom"],
+  ":fields":
+  {"activity":
+   {":access":":private",
+    ":initial":
+    {":mode":":stationary",
+     ":mode-ref":{":names":["Activity"], ":type":":symbol-ref"},
+     ":type":":mode-ref"},
+    ":observable":false},
+   "beep-response":
+   {":access":":private",
+    ":initial":
+    {":mode":":never",
+     ":mode-ref":{":names":["DeviceUse"], ":type":":symbol-ref"},
+     ":type":":mode-ref"},
+    ":observable":false},
+   "beeps-followed":
+   {":access":":private", ":initial":0, ":observable":false},
+   "beeps-ignored":
+   {":access":":private", ":initial":0, ":observable":false},
+   "gold-victims-triaged":
+   {":access":":private", ":initial":0, ":observable":false},
+   "green-victims-triaged":
+   {":access":":private", ":initial":0, ":observable":false},
+   "known":
+   {":access":":private",
+    ":initial":{":names":["ks"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "left-gold-victims":
+   {":access":":private", ":initial":0, ":observable":false},
+   "left-green-victims":
+   {":access":":private", ":initial":0, ":observable":false},
+   "marking-with-door-closed-if-cleared":
+   {":access":":private", ":initial":0, ":observable":false},
+   "marking-with-door-closed-if-not-cleared":
+   {":access":":private", ":initial":0, ":observable":false},
+   "marking-with-light-off-if-cleared":
+   {":access":":private", ":initial":0, ":observable":false},
+   "marking-with-light-off-if-not-cleared":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_x":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_y":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_z":
+   {":access":":private", ":initial":0, ":observable":false},
+   "mx":{":access":":private", ":initial":0, ":observable":false},
+   "my":{":access":":private", ":initial":0, ":observable":false},
+   "mz":{":access":":private", ":initial":0, ":observable":false},
+   "pitch":{":access":":private", ":initial":0, ":observable":false},
+   "pname":
+   {":access":":private",
+    ":initial":{":names":["pname"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "score":{":access":":private", ":initial":0, ":observable":false},
+   "seconds-remaining":
+   {":access":":private", ":initial":0, ":observable":false},
+   "space":
+   {":access":":private", ":initial":null, ":observable":false},
+   "theory-of-mind":
+   {":access":":private",
+    ":initial":{":names":["tom"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "triage-strategy":
+   {":access":":private",
+    ":initial":
+    {":mode":":all-victims",
+     ":mode-ref":{":names":["TriageStrategy"], ":type":":symbol-ref"},
+     ":type":":mode-ref"},
+    ":observable":false},
+   "where":
+   {":access":":private",
+    ":initial":"\"Unknown\"",
+    ":observable":false},
+   "x":{":access":":private", ":initial":0, ":observable":false},
+   "y":{":access":":private", ":initial":0, ":observable":false},
+   "yaw":{":access":":private", ":initial":0, ":observable":false},
+   "z":{":access":":private", ":initial":0, ":observable":false}},
+  ":inherit":["SituatedObject"],
+  ":meta":
+  {":doc":
+   "\"What the participant knows and believes about his himself\""},
+  ":methods":
+  {"close-door":
+   [{":doc":"\"closes the door\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":null,
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Close Door\"",
+     ":pre":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":open"},
+     ":betweens":null,
+     ":post":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":closed"},
+     ":display-args":null}],
+   "enter-room-through":
+   [{":doc":"\"Enter room through a portal\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["portal"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Enter Room Through\"",
+     ":pre":true,
+     ":betweens":null,
+     ":post":true,
+     ":display-args":["portal"]}],
+   "exit-room-through":
+   [{":doc":"\"Exit room through a portal\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["portal"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Exit Room Through\"",
+     ":pre":true,
+     ":betweens":null,
+     ":post":true,
+     ":display-args":["portal"]}],
+   "lock-door":
+   [{":doc":"\"locks the door\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":null,
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Lock Door\"",
+     ":pre":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":closed"},
+     ":betweens":null,
+     ":post":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":locked"},
+     ":display-args":null}],
+   "open-door":
+   [{":doc":"\"opens the door\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":null,
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Open Door\"",
+     ":pre":true,
+     ":betweens":null,
+     ":post":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":open"},
+     ":display-args":null}],
+   "select-tool":
+   [{":doc":"\"Select a tool\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["atool"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Select Tool\"",
+     ":pre":true,
+     ":betweens":null,
+     ":post":true,
+     ":display-args":["atool"]}],
+   "triage-victim":
+   [{":doc":"\"Triage a victim\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["avictim"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Triage Victim\"",
+     ":pre":true,
+     ":betweens":null,
+     ":post":true,
+     ":display-args":["avictim"]}],
+   "turn-off-switch":
+   [{":doc":"\"Exit room through a portal\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["aswitch"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Turn Off Switch\"",
+     ":pre":true,
+     ":betweens":null,
+     ":post":true,
+     ":display-args":["aswitch"]}],
+   "turn-on-switch":
+   [{":doc":"\"Exit room through a portal\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["aswitch"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Turn On Switch\"",
+     ":pre":true,
+     ":betweens":null,
+     ":post":true,
+     ":display-args":["aswitch"]}],
+   "unlock-door":
+   [{":doc":"\"unlocks the door\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":null,
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Unlock Door\"",
+     ":pre":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":locked"},
+     ":betweens":null,
+     ":post":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":closed"},
+     ":display-args":null}],
+   "walk-through-door":
+   [{":doc":"\"passes through the door\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":null,
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Walk Through Door\"",
+     ":pre":
+     {":type":":mode-ref",
+      ":mode-ref":{":type":":symbol-ref", ":names":["this"]},
+      ":mode":":open"},
+     ":betweens":null,
+     ":post":true,
+     ":display-args":null}]},
+  ":modes":{":closed":true, ":locked":true, ":open":true},
+  ":type":":pclass"},
+ "ParticipantProfile":
+ {":args":
+  ["name", "age", "gender", "culture", "minecraft-proficiency",
+   "gamer-proficiency", "training-proficiency", "spatial-ability"],
+  ":fields":
+  {"cultural":
+   {":access":":private",
+    ":initial":{":names":["culture"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "page":
+   {":access":":private",
+    ":initial":{":names":["age"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "pgamerprof":
+   {":access":":private",
+    ":initial":
+    {":names":["gamer-proficiency"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "pgender":
+   {":access":":private",
+    ":initial":{":names":["gender"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "pmcprof":
+   {":access":":private",
+    ":initial":
+    {":names":["minecraft-proficiency"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "pname":
+   {":access":":private",
+    ":initial":{":names":["name"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "pspatial-ability":
+   {":access":":private",
+    ":initial":
+    {":names":["spatial-ability"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "ptprof":
+   {":access":":private",
+    ":initial":
+    {":names":["training-proficiency"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":meta":
+  {":doc":
+   "\"What we know about the participant a-priori - provided information\""},
+  ":type":":pclass"},
+ "Passive-Agent":
+ {":args":["ks"],
+  ":fields":
+  {"known":
+   {":access":":private",
+    ":initial":{":names":["ks"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "motion_x":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_y":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_z":
+   {":access":":private", ":initial":0, ":observable":false},
+   "pitch":{":access":":private", ":initial":0, ":observable":false},
+   "space":
+   {":access":":private", ":initial":null, ":observable":false},
+   "x":{":access":":private", ":initial":0, ":observable":false},
+   "y":{":access":":private", ":initial":0, ":observable":false},
+   "yaw":{":access":":private", ":initial":0, ":observable":false},
+   "z":{":access":":private", ":initial":0, ":observable":false}},
+  ":inherit":["SituatedObject"],
+  ":meta":
+  {":doc":"\"What RITA knows and believes about a participant\""},
+  ":type":":pclass"},
+ "RPlayer":
+ {":args":["endat"],
+  ":fields":
+  {"nowat":
+   {":access":":private",
+    ":initial":{":name":"\"room came-from\"", ":type":":lvar"},
+    ":observable":false},
+   "p-location":
+   {":access":":private",
+    ":initial":{":names":["endat"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":methods":
+  {"arrive":
+   [{":doc":"\"arrived\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["object"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Arrive\"",
+     ":pre":
+     {":type":":same",
+      ":args":
+      [{":type":":field-ref", ":names":["p-location"]},
+       {":type":":method-arg-ref",
+        ":names":["object", "t-location"]}]},
+     ":betweens":null,
+     ":post":
+     {":type":":equal",
+      ":args":
+      [{":type":":method-arg-ref", ":names":["object"]},
+       {":type":":mode-ref",
+        ":mode-ref":
+        {":type":":symbol-ref", ":names":["DestinationStates"]},
+        ":mode":":arrived"}]},
+     ":display-args":["object"]}],
+   "goto-room":
+   [{":doc":"\"Move to another room\"",
+     ":probability":1.0,
+     ":reward":0,
+     ":temporal-constraints":
+     [{":type":":bounds", ":value":[0, ":infinity"]}],
+     ":controllable":false,
+     ":cost":0,
+     ":args":["newloc"],
+     ":primitive":true,
+     ":body":null,
+     ":display-name":"\"Goto Room\"",
+     ":pre":
+     {":type":":and",
+      ":args":
+      [{":type":":lookup-propositions",
+        ":where":null,
+        ":propositions":
+        [{":type":":proposition-pattern",
+          ":look-where":null,
+          ":prop-name":":right-path-neighbor",
+          ":args":
+          [{":type":":field-ref", ":names":["nowat"]},
+           {":type":":method-arg-ref", ":names":["newloc"]}]}]},
+       {":type":":same",
+        ":args":
+        [{":type":":field-ref", ":names":["p-location"]},
+         {":type":":field-ref", ":names":["nowat"]}]}]},
+     ":betweens":null,
+     ":post":
+     {":type":":same",
+      ":args":
+      [{":type":":field-ref", ":names":["p-location"]},
+       {":type":":method-arg-ref", ":names":["newloc"]}]},
+     ":display-args":["newloc"]}]},
+  ":type":":pclass"},
+ "Robot":
+ {":args":["pname", "ks"],
+  ":fields":
+  {"known":
+   {":access":":private",
+    ":initial":{":names":["ks"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "motion_x":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_y":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_z":
+   {":access":":private", ":initial":0, ":observable":false},
+   "mx":{":access":":private", ":initial":0, ":observable":false},
+   "my":{":access":":private", ":initial":0, ":observable":false},
+   "mz":{":access":":private", ":initial":0, ":observable":false},
+   "pitch":{":access":":private", ":initial":0, ":observable":false},
+   "pname":
+   {":access":":private",
+    ":initial":{":names":["pname"], ":type":":pclass-arg-ref"},
+    ":observable":false},
+   "space":
+   {":access":":private", ":initial":null, ":observable":false},
+   "where":
+   {":access":":private",
+    ":initial":"\"Unknown\"",
+    ":observable":false},
+   "x":{":access":":private", ":initial":0, ":observable":false},
+   "y":{":access":":private", ":initial":0, ":observable":false},
+   "yaw":{":access":":private", ":initial":0, ":observable":false},
+   "z":{":access":":private", ":initial":0, ":observable":false}},
+  ":inherit":["SituatedObject"],
+  ":meta":
+  {":doc":"\"What Robot knows and believes about a participant\""},
+  ":type":":pclass"},
+ "RoomModes":
+ {":args":null,
+  ":modes":{":unvisited":true, ":visited":true},
+  ":type":":pclass"},
+ "SituatedObject":
+ {":args":null,
+  ":fields":
+  {"motion_x":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_y":
+   {":access":":private", ":initial":0, ":observable":false},
+   "motion_z":
+   {":access":":private", ":initial":0, ":observable":false},
+   "pitch":{":access":":private", ":initial":0, ":observable":false},
+   "space":
+   {":access":":private", ":initial":null, ":observable":false},
+   "x":{":access":":private", ":initial":0, ":observable":false},
+   "y":{":access":":private", ":initial":0, ":observable":false},
+   "yaw":{":access":":private", ":initial":0, ":observable":false},
+   "z":{":access":":private", ":initial":0, ":observable":false}},
+  ":meta":{":doc":"\"Where the entity is located\""},
+  ":type":":pclass"},
+ "Strategy":
+ {":args":null,
+  ":modes":{":by-corridor":true, ":left":true, ":right":true},
+  ":type":":pclass"},
+ "ToM":
+ {":args":["estate"],
+  ":fields":
+  {"emotionalState":
+   {":access":":private",
+    ":initial":{":names":["estate"], ":type":":pclass-arg-ref"},
+    ":observable":false}},
+  ":meta":
+  {":doc":"\"What we believe about the participants state of mind\""},
+  ":type":":pclass"},
+ "TriageStrategy":
+ {":args":null,
+  ":modes":
+  {":all-victims":true,
+   ":gold-victims-only":true,
+   ":green-victims-only":true},
+  ":type":":pclass"},
+ "lvars":
+ {":lvars":
+  {"\"a room\"":":unset",
+   "\"finalroom\"":":unset",
+   "\"from\"":":unset",
+   "\"room came-from\"":":unset",
+   "\"room-came-from\"":":unset"},
+  ":type":":lvars"}}

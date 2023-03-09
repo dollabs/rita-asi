@@ -1,0 +1,18 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0292".
+IN THE MORNING, THE HUNTER AWOKE IN THE GREAT CITY.
+THE PRINCESS WAS A PROUD NATIVE OF THE GREAT CITY.
+THE PRIEST AWAKENED.
+THE PRINCESS REALIZED THAT THE PRIEST WAS INTERESTED IN THE HUNTER. SHE GOT JEALOUS OF THE HUNTER!
+THE PRINCESS THREATENED THE HUNTER WITH A DAGGER. HE HID IN THE VOLCANO.
+
+
+
+The end.

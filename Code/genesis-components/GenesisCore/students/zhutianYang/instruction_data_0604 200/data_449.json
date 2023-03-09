@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 13:21:23+08:00", 
+    "instructions": [
+        "put the dinner plate at bottom.", 
+        "put the dinner fork at left side close to the plate.", 
+        "put salad fork at left side closed from dinner fork.", 
+        "put blade at right side close to the plate.", 
+        "put salad knife closed from dinner knife from his right side.", 
+        "Put soop spoon at right side, close from salad knife.", 
+        "Put Water Glass at top right of plate.", 
+        "put Wine glass close from water one, at its right side.", 
+        "Put another wine glass at right side from previous close to it.", 
+        "Put coffee cup at bottom right corner.", 
+        "put bread plate at top left place from dinner one", 
+        "put butter knife into butter plate, on right part, vertically.", 
+        "put dessert fork on top from dinner plate horizontally pointed to right side, close to plate.", 
+        "put dessert spoon  parallel to dessert fork but pointing to left side.", 
+        "put napkin into dinner plate, vertically, at center point.&lt;br&gt;&lt;br&gt;"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table3"
+}

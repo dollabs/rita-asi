@@ -1,0 +1,22 @@
+{
+    "accept_time": "2019-06-04 12:30:12+08:00", 
+    "instructions": [
+        "Put the plate on the dinner table.", 
+        "Place the dinner fork down next to the left side of the plate.", 
+        "Place the salad fork down next to the left of the dinner fork.", 
+        "Place the dinner knife down next to the right of the plate.", 
+        "Place the salad knife to the right of the dinner knife.", 
+        "Place down the soup spoon next to the right of the salad knife.", 
+        "Place the water glass on the top right corner of the dinner plate.", 
+        "Place the wine glass directly to the right of the water glass.", 
+        "Place another wine glass to the right of the other wine glass.", 
+        "Place the coffee cup directly to the right of the soup spoon.", 
+        "Place the bread plate on the top left corner of the dinner plate above the forks.", 
+        "Place the butter knife on the bread plate on a diagonal position facing northwest.", 
+        "Place the dessert fork above the dinner plate in a horizontal position.", 
+        "Place a dessert spoon above the dessert fork in an opposite parallel position.", 
+        "Place a napkin centered on top of the dinner plate in a vertical position."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table3"
+}

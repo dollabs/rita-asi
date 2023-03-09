@@ -1,0 +1,15 @@
+Start experiment.
+Set all switches to defaults.
+Set Deploy novice first switch to true.
+Set Use fancy simulator switch to false.
+Set Self aware button to true.
+Set Use features when matching switch to false.
+Set Split names with underscores switch to false.
+Set left panel to commentary.
+Set right panel to blocks.
+Set bottom panel to Mental models.
+
+Read knowledge in PHW expert knowledge.
+Read helper knowledge in PHW novice knowledge.
+
+Insert into text box: Identify cellphone.

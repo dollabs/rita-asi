@@ -1,0 +1,24 @@
+Start experiment.
+
+Insert file General commonsense knowledge.
+
+Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+Insert file Contradictions.
+
+Start story titled "expAgain".
+
+Isabella is a person.
+
+Audrey is a person.
+
+Isabella executes Audrey.
+
+Isabella runs.
+
+
+
+
+The End.

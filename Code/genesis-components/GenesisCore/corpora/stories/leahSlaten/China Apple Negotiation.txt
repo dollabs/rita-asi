@@ -1,0 +1,39 @@
+// Story describing the negotiation between China and Apple.
+
+Start experiment.
+
+Set all switches to defaults.
+//Set perform goal analysis (ASPIRE) switch to true.
+//Set use similarity rule matching switch to true.
+
+Insert file Negotiation Rules.
+Insert file Negotiation Concepts.
+//Insert file General commonsense knowledge.
+//Insert file General reflective knowledge.
+
+Start story titled "Negotiation of Apple and China".
+
+China, Apple, and Huawei are entities.
+
+Apple and Huawei are companies.
+Huawei comes from China.
+//Huawei is a company.
+China is a country.
+//China is an eastern country.
+
+China values apologies.
+
+A phone is an entity.
+
+Apple sells phones.
+Huawei sells phones.
+
+China accuses Apple.
+
+Apple gives apologies to China.
+
+The negotiation is successful.
+
+The end.
+
+

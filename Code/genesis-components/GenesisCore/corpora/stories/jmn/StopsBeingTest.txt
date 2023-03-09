@@ -1,0 +1,31 @@
+//"stops being" test, Feb 2016
+
+Start experiment.
+
+Start common sense knowledge.
+xx and yy are persons.
+If xx is happy and yy is happy, then xx hugs yy.
+
+Start story titled "Stops Being test".
+Alice, Bobby, Carla, and David are persons.
+
+// 1. If two people are happy at the same time, rule fires.
+Alice becomes happy.
+Bobby becomes happy. //expect Alice hugs Bobby, Bobby hugs Alice
+
+// 2. If someone (Alice) stops being happy, they should no longer match rule.
+Alice stops being happy.
+Carla becomes happy. //expect Bobby hugs Carla, Carla hugs Bobby; not Alice-Carla
+
+// reset so no one is happy
+Carla stops being happy.
+Bobby stops being happy.
+
+// 3. If someone (Alice) becomes happy a second time, they should again match rule.
+Alice becomes happy. //might need "Then"?
+David becomes happy. //expect Alice hugs David, David hugs Alice
+
+The end.
+
+// 4. It would be nice (but not essential) to also be able to answer questions:
+//Insert into text box: When Bobby was happy, was David happy? //expect NO

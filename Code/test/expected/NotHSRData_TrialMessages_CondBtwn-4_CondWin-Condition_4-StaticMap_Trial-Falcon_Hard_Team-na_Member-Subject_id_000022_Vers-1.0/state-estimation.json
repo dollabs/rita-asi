@@ -1,0 +1,929 @@
+[
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Right Entrance-a",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Cube farm door to north corridor",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Door to room 108",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Cube farm door to south corridor",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Door to room 111",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Door to room 110",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2092.0 60.0 191.0 block_victim_2 in Room 110",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Door to room 109",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Door to room 107",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2067.0 60.0 186.0 block_victim_2 in Room 107",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Door to room 106",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Door to room 105",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Door to room 104",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2029.0 60.0 185.0 block_victim_2 in Room 103",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Door to room 102",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Door to room 101",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2034.0 60.0 164.0 block_victim_1 in Room 101",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Terrace door",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2027.0 60.0 158.0 block_victim_2 in The King's Terrace",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2025.0 60.0 147.0 block_victim_1 in The King's Terrace",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2047.0 60.0 149.0 block_victim_1 in Executive Suite 2",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2053.0 60.0 147.0 block_victim_1 in Executive Suite 2",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2063.0 60.0 145.0 block_victim_2 in Executive Suite 1",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Executive suite 1",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2084.0 60.0 145.0 block_victim_1 in Open Break Area",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Janitor room door",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Cloak room door?",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2093.0 60.0 164.0 block_victim_1 in The Computer Farm",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Womens room",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2063.0 60.0 160.0 block_victim_1 in Amway Conference Room",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2058.0 60.0 160.0 block_victim_1 in Amway Conference Room",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Small conference room 1 door-b",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Small conference room 2 door-a",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2060.0 60.0 176.0 block_victim_1 in Mary Kay Conference Room",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Small conference room 2 door-b",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Main conference room door to center corridor-a",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Main conference room door to center corridor-b",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2050.0 60.0 177.0 block_victim_1 in Herbalife Conference Room",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2045.0 60.0 175.0 block_victim_1 in Herbalife Conference Room",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2049.0 60.0 158.0 block_victim_1 in Herbalife Conference Room",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Main conference room door to East Corridor-a",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Corner space door-b",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Womens room inner door 1",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2072.0 60.0 163.0 block_victim_1 in Men's Room",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Womens room inner door 2",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Mens room inner door 1",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Mens room inner door 2",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "triage-victim",
+        "object": "victim at  2056.0 60.0 185.0 block_victim_1 in Room 106",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "belief-state-changes": {
+      "agent-belief": 1.0,
+      "changed": "action",
+      "subject": "ASIST1",
+      "values": {
+        "action": "open",
+        "object": "Main conference room door to East Corridor-b",
+        "subject": "ASIST1"
+      }
+    },
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "belief-state-changes",
+    "routing-key": "belief-state-changes"
+  },
+  {
+    "app-id": "StateEstimation",
+    "exchange": "rita",
+    "mission-ended": true,
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "received-routing-key": "mission-ended",
+    "routing-key": "mission-ended"
+  },
+  {
+    "app-id": "PredictionGenerator",
+    "exchange": "rita",
+    "mission-id": "1d44fb83-a814-40db-93ab-b91f87c62cde",
+    "prediction-stats": {
+      "aggregate-stats": {
+        "breakdown": {
+          "false": 413,
+          "true": 794,
+          "unknown": 52
+        },
+        "total": 1259
+      },
+      "aggregate-stats-detail": {
+        "MissionTracker--goto-room": {
+          "counts": {
+            "false": 134,
+            "true": 10
+          },
+          "probability": {
+            "false": 0.9305555555555556,
+            "true": 0.06944444444444443
+          },
+          "totals": 144
+        },
+        "StateEstimation--enter-room": {
+          "counts": {
+            "false": 179,
+            "true": 234,
+            "unknown": 33
+          },
+          "probability": {
+            "false": 0.4013452914798206,
+            "true": 0.5246636771300448,
+            "unknown": 0.07399103139013453
+          },
+          "totals": 446
+        },
+        "StateEstimation--exit-room": {
+          "counts": {
+            "true": 412,
+            "unknown": 3
+          },
+          "probability": {
+            "true": 0.9927710843373494,
+            "unknown": 0.007228915662650602
+          },
+          "totals": 415
+        },
+        "StateEstimation--next-room-to-visit": {
+          "counts": {
+            "false": 7,
+            "true": 35,
+            "unknown": 2
+          },
+          "probability": {
+            "false": 0.1590909090909091,
+            "true": 0.7954545454545455,
+            "unknown": 0.04545454545454545
+          },
+          "totals": 44
+        },
+        "StateEstimation--triage-victim": {
+          "counts": {
+            "false": 93,
+            "true": 103,
+            "unknown": 14
+          },
+          "probability": {
+            "false": 0.4428571428571429,
+            "true": 0.4904761904761905,
+            "unknown": 0.06666666666666667
+          },
+          "totals": 210
+        }
+      },
+      "mission-stats": {
+        "breakdown": {},
+        "total": 0
+      },
+      "mission-stats-detail": {},
+      "unhandled-timeouts": 0
+    },
+    "received-routing-key": "prediction-stats",
+    "routing-key": "prediction-stats"
+  }
+]

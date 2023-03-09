@@ -1,0 +1,21 @@
+{
+    "accept_time": "2019-06-04 10:24:13+08:00", 
+    "instructions": [
+        "Put the dinner fork on the left side of the table cloth, prongs facing up", 
+        "place the dinner knife on the right side of the cloth, blade up", 
+        "add a salad fork to the left of the dinner fork, same way up", 
+        "add a salad knife to the right of the dinner knife, same way up", 
+        "add a soup spoon to the left of the knives, bowl facing up", 
+        "place a dessert spoon horizontally in between the knives and forks but higher up on the cloth", 
+        "move the dessert spoon to the right of the soup spoon, facing up", 
+        "move the knives closer to the left, and put the dessert spoon back where it was", 
+        "add a dinner plate between the cutlery", 
+        "add a bread plate to the north west of the table", 
+        "put a butter knife on the bread plate in the north west, with the blade facing south west", 
+        "add a wine glass above the soup spoon", 
+        "add a water glass between the wine glass and dessert spoon", 
+        "place a napkin in the middle of the dinner plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table2"
+}

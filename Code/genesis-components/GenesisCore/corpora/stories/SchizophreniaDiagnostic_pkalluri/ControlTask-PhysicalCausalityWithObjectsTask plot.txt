@@ -1,0 +1,14 @@
+Domino_a, Domino_b, Domino_c, and Domino_d are dominos.
+
+//Pic 1
+Domino_a, Domino_b, Domino_c, and Domino_d are upright.
+Domino_b is right of Domino_a.
+Domino_c is right of Domino_b.
+Domino_d is right of Domino_c.
+
+//Pic 2
+Domino_a falls right.
+
+//Pic 3
+Domino_a becomes flat.
+Domino_b falls right.

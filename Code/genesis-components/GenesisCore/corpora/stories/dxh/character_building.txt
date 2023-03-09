@@ -1,0 +1,72 @@
+Insert file Start experiment.
+
+
+// Set right panel to mental models.
+
+Set top panel to commentary.
+Set bottom panel to elaboration graph.
+Show first perspective.
+
+Start common sense knowledge.
+xx is a person.
+yy is a person.
+ww is an entity.
+zz is an entity.
+
+If xx takes ww from zz, then xx has ww.
+If xx takes ww from yy, then xx harms yy.
+If xx gives ww to yy, then yy has ww.
+xx may give ww to yy because yy lacks ww.
+
+xx can play with ww because xx has the ball.
+If xx plays with ww, then xx enjoys ww.
+
+If xx lacks food, xx can be hungry.
+
+If xx lacks ww and xx has ww, then xx enjoys ww.
+
+
+Start description of "Theft for personal gain".
+xx and yy are persons.
+ww is an entity.
+xx's taking ww from yy leads to xx's enjoying ww.
+The end.
+
+Start description of "Theft to help a friend".
+xx and yy are persons.
+ww and bb are entities.
+yy is xx's friend.
+xx's taking ww from bb leads to yy's enjoying ww.
+The end.
+
+Start description of "Theft".
+xx and yy are persons.
+ww and bb are entities.
+xx takes bb from ww.
+The end.
+
+
+
+
+
+Start story titled "Character-building story".
+Amy, Kate, Jeff, and Teresa are persons.
+The ball is an entity. The toy store is an entity. The robot is an entity.
+
+Amy is at the playground. Jeff is playing with the ball. 
+Amy asks Jeff for the ball, so Jeff gives the ball to Amy.
+// Amy takes the ball from Jeff.
+Amy plays with the ball.
+Teresa takes the ball from Amy and plays with the ball.
+
+Then, Amy goes to the cafeteria for lunch. // "it's lunch time"
+Kate is Amy's friend.
+Kate lacks food.
+Amy takes food from the cafeteria in order to give the food to Kate.
+
+Then, school ends. Amy walks home. Amy sees a toy store. 
+The toy store has a robot.
+// Teresa has a robot.
+The end. 
+
+Insert question into text box: What would happen if Amy wants the robot?

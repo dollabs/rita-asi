@@ -1,0 +1,80 @@
+/* ------------------------------
+ Generated on Make a breakfast cereal_1127_215752 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a breakfast cereal".
+Intention: Make a breakfast cereal.
+The end.
+
+//If the intention is "Make a breakfast cereal".
+//Verify: The crackers are not cheap.
+//Step: Pour the cereal from the yellow blue box into the bowl.
+//Step: Add nuts from the bottle to the bowl.
+//Step: Transfer blueberries from the cup to the bowl.
+//Step: Pour milk from the yellow box into the bowl.
+//The end.
+
+If the intention is "Make a breakfast cereal".
+//Verify: the crackers are cheap.
+Step: Pour the cereal from the yellow blue box into the bowl.
+Step: Add nuts from the bottle to the bowl.
+Step: Transfer blueberries from the cup to the bowl.
+Step: Pour milk from the yellow bottle into the bowl.
+Step: spread the crackers into the bowl.
+The end.
+
+If the problem is "Pour the cereal from the yellow blue box into the bowl".
+Intention: Pour the cereal from the yellow blue box into the bowl.
+The end.
+
+If the intention is "Pour the cereal from the yellow blue box into the bowl".
+Step: The cereal moves from the yellow blue box to the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make a breakfast cereal_1127_215752 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Add nuts from the bottle to the bowl".
+Intention: Add nuts from the black and white bottle to the bowl.
+The end.
+
+If the intention is "Add nuts from the bottle to the bowl".
+Step: Nuts move from the black and white bottle to the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make a breakfast cereal_1127_215752 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Transfer blueberries from the cup to the bowl".
+Intention: Transfer blueberries from the blue cup to the bowl.
+The end.
+
+If the intention is "Transfer blueberries from the cup to the bowl".
+Step: Blueberries move from the blue cup to the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make a breakfast cereal_1127_215752 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "Pour milk from the yellow bottle into the bowl".
+Intention: Pour milk from the yellow bottle into the bowl.
+The end.
+
+If the intention is "Pour milk from the yellow bottle into the bowl".
+Step: Milk moves from the yellow bottle to the bowl.
+The end.
+
+/* ------------------------------
+ Generated on Make a breakfast cereal_1127_215752 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+
+If the problem is "spread the crackers into the bowl".
+Intention: spread the crackers into the bowl.
+The end.
+
+If the intention is "spread the crackers into the bowl".
+//Step: The crackers are in the bowl.
+Step: The crackers move from the yellow red box to the bowl.
+The end.

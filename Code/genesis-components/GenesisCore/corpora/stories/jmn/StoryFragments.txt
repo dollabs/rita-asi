@@ -1,0 +1,31 @@
+Start experiment. 
+
+Show both perspectives.
+Both perspectives.
+
+//common sense rules
+	xx, yy, and zz are persons. 
+	If xx kills yy then yy becomes dead. 
+	xx may kill yy because xx wants to kill yy. //explanation rule
+	If YY becomes dead, then YY cannot become unhappy. //censor rule
+
+// A concept pattern defining "murder" concept. 
+	Start description of "Murder". 
+	xx and yy are persons. 
+	yy's angering xx leads to xx's killing yy. 
+	The end. 
+
+First perspective.
+Start story titled "Basic Scene". 
+Alice and Bob are persons.
+Alice likes hippos.
+Bob likes Alice because Alice likes hippos.
+
+/*
+Alice enters the scene.
+A block falls.
+Alice exits the scene.
+Bob enters the scene.
+*/
+
+The end. 

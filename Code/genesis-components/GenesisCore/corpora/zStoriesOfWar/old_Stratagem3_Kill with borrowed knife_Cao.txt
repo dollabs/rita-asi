@@ -1,0 +1,33 @@
+Start experiment.
+
+// start declarations
+xx is a person.
+yy is a person.
+zz is a person.
+mm is a regime.
+Cao is a person.
+Mi is a person.
+Liu is a person.
+Huang is a person.
+the Han Dynasty is a regime.
+// end declarations
+
+if xx is royal, then xx may fight against yy.
+if xx is a general, then xx may fight against yy.
+if nobody can defeat xx, then xx may conquer mm.
+if xx believes that yy wants to overturn him, xx may execute yy.
+
+Start story titled "Kill with borrowed knife".
+
+Cao was an official in the Han Dynasty.
+Cao imprisoned the King and plan to create a new Dynasty.
+Mi despised Cao.
+Mi insulted Cao every time he met Cao.
+Cao was angry but he could not kill Mi because he did not want all the talents in the world to be afraid
+So he sent Mi to General Liu, knowing that Mi will be so annoying that Liu will kill him.
+But Liu spotted out that Cao is using stratagem, so he send Mi to meet Huang.
+Huang is a violent official.
+Mi insulted Huang.
+Huang killed Mi.
+Cao was happy that Mi is dead.
+The end.

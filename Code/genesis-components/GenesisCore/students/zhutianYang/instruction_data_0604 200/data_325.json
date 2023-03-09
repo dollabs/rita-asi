@@ -1,0 +1,19 @@
+{
+    "accept_time": "2019-06-04 10:16:30+08:00", 
+    "instructions": [
+        "Put the Charger on Table Cloth", 
+        "Put the Dinner Fork immediately to the left of the Charger", 
+        "Put the Dinner Knife immediately to the right of the Charger.", 
+        "Put the Salad Fork immediately to the left of the Dinner Fork", 
+        "Put Salad Knife immediately to the right of the Dinner Knife", 
+        "Put Salad Spoon immediately to the right of the Salad Knife", 
+        "Put Dessert Spoon above the Charger pointing its head towards left  side", 
+        "Put the Dessert Fork in between Charger and Dessert Spoon pointing its head towards right side", 
+        "Put the Bread Plate above the Salad Fork", 
+        "Put Butter Knife on the Bread Plate", 
+        "Put Water Glass above the Salad Knife ", 
+        "Put Napkin on the Plate"
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table4"
+}

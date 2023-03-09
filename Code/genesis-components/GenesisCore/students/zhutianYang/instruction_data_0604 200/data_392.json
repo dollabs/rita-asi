@@ -1,0 +1,19 @@
+{
+    "accept_time": "2019-06-04 11:17:50+08:00", 
+    "instructions": [
+        "put the plate on the table cloth.", 
+        "put the desert fork on the left side of the table.", 
+        "put the dinner knife on the right side of the plate.", 
+        "put the salad fork  on the north side of the plate.", 
+        "put the salad knife on the right side of the plate.", 
+        ".put the soup spoon on the right side of the table", 
+        ".put the desert spoon on the north side of the plate", 
+        "put the desert fork on the north side of the plate.", 
+        "put the bread plate before the desert forks.", 
+        "put the butter knife on the bread plate.", 
+        "put the water glass after the desert fork and spoon.", 
+        "put the napkin on the plate."
+    ], 
+    "HIT_Id": "30ZKOOGW2W4DZGJLVOMGTA8UGZJA1Z", 
+    "video_name": "table4"
+}

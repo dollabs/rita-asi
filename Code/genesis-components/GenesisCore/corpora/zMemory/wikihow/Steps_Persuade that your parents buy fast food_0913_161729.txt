@@ -1,0 +1,198 @@
+/* ------------------------------
+ Generated on 0913_161729 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Persuade that your parents buy fast food".
+Intention: Persuade that your parents buy fast food.
+The end.
+
+If the intention is "Persuade that your parents buy fast food".
+Step: Talk to your parents.
+Step: Do research.
+Step: Make a deal.
+The end.
+
+// ------------ Step 1: Talk to your parents
+If the problem is "Talk to your parents".
+Intention: Talk to your parents.
+The end.
+
+// ------------ Step 2: Do research
+If the problem is "Do research".
+Intention: Do research.
+The end.
+
+// ------------ Step 3: Make a deal
+If the problem is "Make a deal".
+Intention: Make a deal.
+The end.
+
+/* ------------------------------
+ Generated on 0913_161729 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Talk to your parents".
+Intention: Talk to your parents.
+The end.
+
+If the intention is "Talk to your parents".
+Step: Ask your parents why they won’t buy fast food....
+Step: Are respectful.
+Step: Note their reasons.
+The end.
+
+// ------------ Step 1: Ask your parents why they won’t buy fast food...
+If the problem is "Ask your parents why they won’t buy fast food...".
+Intention: Ask your parents why they won’t buy fast food....
+The end.
+
+If the intention is "Ask your parents why they won’t buy fast food...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Are respectful
+If the problem is "Are respectful".
+Intention: Are respectful.
+The end.
+
+If the intention is "Are respectful".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Note their reasons
+If the problem is "Note their reasons".
+Intention: Note their reasons.
+The end.
+
+If the intention is "Note their reasons".
+Method: Assume successful.
+The end.
+
+/* ------------------------------
+ Generated on 0913_161729 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Do research".
+Intention: Do research.
+The end.
+
+If the intention is "Do research".
+Step: Remember their points.
+Step: Focus on your health.
+Step: Research values menus.
+Step: Think about how much you value time with friends....
+The end.
+
+// ------------ Step 1: Remember their points
+If the problem is "Remember their points".
+Intention: Remember their points.
+The end.
+
+If the intention is "Remember their points".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Focus on your health
+If the problem is "Focus on your health".
+Intention: Focus on your health.
+The end.
+
+If the intention is "Focus on your health".
+Step: Null is on health.
+The end.
+
+// ------------ Step 3: Research values menus
+If the problem is "Research values menus".
+Intention: Research values menus.
+The end.
+
+If the intention is "Research values menus".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Think about how much you value time with friends...
+If the problem is "Think about how much you value time with friends...".
+Intention: Think about how much you value time with friends....
+The end.
+
+If the intention is "Think about how much you value time with friends...".
+Method: Assume successful.
+The end.
+
+/* ------------------------------
+ Generated on 0913_161729 by students/zhutianYang/RecipeLearner.java
+ --------------------------------*/
+If the problem is "Make a deal".
+Intention: Make a deal.
+The end.
+
+If the intention is "Make a deal".
+Step: Talk to your parents again.
+Step: Refute their reasons.
+Step: Tell them how often you’d like to eat fast food....
+Step: Ask they get fast food as a treat.
+Step: Tell them you’ll pay for it yourself....
+Step: Make an exercise.
+Step: Enjoy your fast food treat.
+The end.
+
+// ------------ Step 1: Talk to your parents again
+If the problem is "Talk to your parents again".
+Intention: Talk to your parents again.
+The end.
+
+If the intention is "Talk to your parents again".
+Method: Assume successful.
+The end.
+
+// ------------ Step 2: Refute their reasons
+If the problem is "Refute their reasons".
+Intention: Refute their reasons.
+The end.
+
+If the intention is "Refute their reasons".
+Method: Assume successful.
+The end.
+
+// ------------ Step 3: Tell them how often you’d like to eat fast food...
+If the problem is "Tell them how often you’d like to eat fast food...".
+Intention: Tell them how often you’d like to eat fast food....
+The end.
+
+If the intention is "Tell them how often you’d like to eat fast food...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 4: Ask they get fast food as a treat
+If the problem is "Ask they get fast food as a treat".
+Intention: Ask they get fast food as a treat.
+The end.
+
+If the intention is "Ask they get fast food as a treat".
+Method: Assume successful.
+The end.
+
+// ------------ Step 5: Tell them you’ll pay for it yourself...
+If the problem is "Tell them you’ll pay for it yourself...".
+Intention: Tell them you’ll pay for it yourself....
+The end.
+
+If the intention is "Tell them you’ll pay for it yourself...".
+Method: Assume successful.
+The end.
+
+// ------------ Step 6: Make an exercise
+If the problem is "Make an exercise".
+Intention: Make an exercise.
+The end.
+
+If the intention is "Make an exercise".
+Method: Assume successful.
+The end.
+
+// ------------ Step 7: Enjoy your fast food treat
+If the problem is "Enjoy your fast food treat".
+Intention: Enjoy your fast food treat.
+The end.
+
+If the intention is "Enjoy your fast food treat".
+Method: Assume successful.
+The end.
+

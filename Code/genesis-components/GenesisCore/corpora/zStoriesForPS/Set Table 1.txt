@@ -1,0 +1,16 @@
+Start experiment.
+// http://www.forksandspoons.it/table.shtml
+Start story titled "Set Table 1".
+
+The forks are positioned to the left of the plate - first the Table Fork and then the Fish Fork.
+To the right of the plate are the knives - first the Table Knife then the Fish Knife, each with its sharp edge facing towards the plate.
+The Table Spoon for soup goes next to the knives.
+The Fruit Fork and Fruit Spoon are positioned horizontally above the plate, with the handle of the fork towards the left and of the spoon towards the right.
+A Fruit Knife may be inserted between these two, facing in the same direction as the spoon.
+The fruit cutlery may be joined by a Dessert Fork to complement the desserts.
+The glasses are positioned slightly to the right of the plate, at about the same height as the knife.
+There should be at least two glasses - a larger one for water and, to its right, a smaller one for wine.
+If more than one wine is to be served during the meal, the number of glasses increases, always being positioned to the right of the water glass.
+To complement the arrangement, place markers may be added in front of each setting.
+
+The end.

@@ -1,0 +1,89 @@
+extends base  
+
+block styles 
+    link(rel='stylesheet' href='css/landing.css')
+
+block content
+    main
+        .section1
+            .containerBox
+                .introContainer
+                    .row 
+                        .col-xl-6.d-flex.justify-content-center
+                            div.dollIntro
+                                h2 Dynamic Object Language Labs
+                                img.d-none.d-xl-flex(src="../img/dollLogo.png" width="65%")
+                                p.d-none.d-xl-flex
+                                    |Dynamic Object Language Labs, Inc. was established in 1993 to 
+                                    |promote the synergistic combination of Dynamic and Open Languages, 
+                                    |Object Oriented Programming, and Artificial Intelligence.  We conduct 
+                                    |advanced research and development aimed at providing a brighter and 
+                                    |safer future through advances in computer based technology and its 
+                                    |application to real world problems. 
+                                //- a(href="https://www.dollabs.com/") Visit DOLL
+
+                                .row.d-xl-none
+                                    .col-3.justify-content-center.px-0
+                                        img.d-flex.justify-content-end(src="../img/dollLogo.png")
+
+                                    .col-9
+                                        p 
+                                            |Dynamic Object Language Labs, Inc. was established in 1993 to 
+                                            |promote the synergistic combination of Dynamic and Open Languages, 
+                                            |Object Oriented Programming, and Artificial Intelligence.  We conduct 
+                                            |advanced research and development aimed at providing a brighter and 
+                                            |safer future through advances in computer based technology and its 
+                                            |application to real world problems. 
+
+                        .col-xl-6.d-flex.justify-content-center
+                            div.mitIntro
+                                h2 MIT Computer Science & Artificial Intelligence Laboratory
+                                img.d-none.d-xl-flex(src="../img/csailLogo.png" width="30%")
+                                p.d-none.d-xl-flex 
+                                    |CSAIL is committed to pioneering new approaches to computing that will 
+                                    |bring about positive changes in the way people around the globe live, play, and work.
+                                    |We focus on developing fundamental new technologies, conducting basic research 
+                                    |that furthers the field of computing, and inspiring and educating future generations 
+                                    |of scientists and technologists.
+                                .row.d-xl-none
+                                    .col-3
+                                        img.d-flex.justify-content-end(src="../img/csailLogo.png")
+
+                                    .col-9
+                                        p 
+                                            |CSAIL is committed to pioneering new approaches to computing that will 
+                                            |bring about positive changes in the way people around the globe live, play, and work.
+                                            |We focus on developing fundamental new technologies, conducting basic research 
+                                            |that furthers the field of computing, and inspiring and educating future generations 
+                                            |of scientists and technologists.
+                                //- a(href="https://www.csail.mit.edu/about/mission-history") Visit CSAIL
+
+        .section2
+            .card-container
+                each component in components
+                    .card
+                        .card__header
+                            .card__picture
+                                .card__picture-overlay &nbsp;
+                                //- Photo by Alex Knight on Unsplash
+                                img.card__picture-img(src='img/robotAlex.jpg', alt=`${component.name}`) 
+
+                            h4.heading-tertirary
+                                span= component.name
+
+                        .card__details
+                            p.card__text= component.longDes
+
+                            .card__data1
+                                svg.card__icon
+                                    use(xlink:href='img/icons.svg#icon-map-pin')
+                                span.card__icon_text= `${component.status}`
+
+                            .card__data2
+                                svg.card__icon
+                                    use(xlink:href='img/icons.svg#icon-user')
+                                span.card__icon_text= `${component.author}`
+
+                        .card__footer
+                            a.btn.btn--small(href=`/${component.route}`) Details
+

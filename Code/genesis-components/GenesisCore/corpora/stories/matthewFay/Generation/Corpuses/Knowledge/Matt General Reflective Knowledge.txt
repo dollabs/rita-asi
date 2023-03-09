@@ -1,0 +1,108 @@
+///////// From Comedies
+
+Start description of "Other's Happiness Achieved".
+XX is an entity.
+YY is an entity.
+YY's wanting XX to be happy leads to XX's becoming happy.
+The end.
+
+Start description of "Marriage successful".
+XX is an entity.
+YY is an entity.
+YY's loving XX leads to YY's marrying XX.
+The end.
+
+//Start description of "Courtship failed".
+//XX is an entity.
+//YY is an entity.
+//ZZ is an entity.
+//YY is not ZZ.
+//YY's loving XX leads to ZZ's marrying XX.
+//The end.
+
+Start description of "Happy Ending".
+YY is an entity.
+YY's becoming happy does not lead to anything.
+The end.
+
+Start description of "Revenge".
+YY is an entity.
+ZZ is an entity.
+ZZ's harming YY leads to YY's killing ZZ.
+The end.
+
+Start description of "Regicide".
+YY is an entity.
+ZZ is an entity.
+YY's being king leads to ZZ's attacking YY.
+The end. 
+
+Start description of "Succession".
+YY is an entity.
+ZZ is an entity.
+YY's wanting to be king leads to YY's becoming king.
+The end. 
+
+Start Description of "Forgiveness".
+YY is an entity.
+ZZ is an entity.
+YY's harming ZZ leads to ZZ's forgiving YY.
+The end.
+
+Start description of "Independence Achieved".
+xx is an entity.
+yy is an entity.
+xx's defeating yy leads to xx's becoming independent.
+The end.
+
+Start description of "Killing a Witness".
+xx is an entity.
+yy is an entity.
+xx's stealing treasure from yy leads to xx's killing yy.
+The end.
+
+Start description of "Self Defense".
+xx is an entity.
+yy is an entity.
+yy's wanting to kill xx leads to xx's killing yy.
+The end.
+
+Start description of "Incest".
+XX is an entity.
+YY is an entity.
+YY is XX's parent.
+YY's loving XX leads to YY's marrying XX.
+The end.
+
+Start description of "Spoiled Appetite".
+xx is an entity.
+yy is an entity.
+xx's wanting to eat yy leads to yy's killing xx.
+The end.
+
+Start description of "Satisfied Appetite".
+xx is an entity.
+yy is an entity.
+xx's wanting to eat yy leads to xx's eating yy.
+The end.
+
+Start description of "Grief Self Harm".
+xx is an entity.
+yy is an entity.
+xx is yy's parent.
+xx's abandoning yy leads to xx's killing xx.
+The end.
+
+Start description of "Satisfied Grudge".
+xx is an entity.
+yy is an entity.
+xx's disliking yy leads to xx's killing yy.
+The end.
+
+Start description of "Success".
+xx is an entity.
+aa is an action.
+xx's wanting aa leads to aa.
+aa leads to xx's becoming happy.
+The end.
+

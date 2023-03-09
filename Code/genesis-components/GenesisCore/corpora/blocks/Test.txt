@@ -1,0 +1,13 @@
+Start experiment.
+
+Start story titled "test".
+
+This story has steps.
+
+This story is about how to make a cake.
+
+Put the flour in the bowl.
+
+Stir eggs into the flour.
+
+The end.

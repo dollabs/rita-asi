@@ -1,0 +1,74 @@
+// From ZT 
+
+xx and yy are persons.
+
+// 100 % true
+If xx kills yy, then yy becomes dead.
+If xx kills yy, then xx takes yy's life.
+If xx kills yy, then xx ends yy's life.
+
+// for me 100 % true
+If xx kills yy, then xx hurts yy's family.
+If xx kills yy, then yy becomes pained.
+
+// 5
+
+// for me are explanation rules
+If xx selects a weapon, xx may kill yy.
+If xx hardens xx's heart, xx may kill yy.
+If xx kills yy, then xx may deprive yy of xx.
+If xx kills yy, then xx may receive capital punishment.
+If xx kills yy, then someone may prosecute xx.
+If xx kills yy, then xx may become damned.
+If xx kills yy, then xx may die.
+If xx kills yy, then xx may commit a crime.
+If xx kills yy, then xx may destroy the evidence.
+If xx kills yy, then xx may get rid of the evidence.
+If xx kills yy, then xx may clean up the evidence.
+If xx kills yy, then xx may hide the evidence.
+If xx kills yy, then xx may establish an alibi.
+If xx kills yy, then xx may feel remorse.
+If xx kills yy, then xx may be arrested by the police.
+If xx kills yy, then xx may be sentenced.
+If xx kills yy, then xx may get blood on xx's clothes.
+If xx kills yy, then xx may go to jail.
+If xx kills yy, then xx may laugh.
+If xx kills yy, then yy may be punched.
+If xx kills yy, then xx may drink yy's blood.
+If xx kills yy, then xx may shoot yy.
+If xx kills yy, then xx may murder yy.
+If xx kills yy, then xx may run.
+If xx conquers yy, then xx may kill yy.
+If xx kills yy, then someone may cry.
+
+// From phw
+
+If xx wants revenge, then xx may kill yy.
+If xx wants to defend xx, then xx may kill yy.
+If xx wants money, then xx may kill yy.
+If xx wants to kill yy, then xx may murder yy.
+If xx wants to avenge a death, then xx may kill yy.
+If xx wants to get rid of yy, then xx may kill yy.
+If xx wants to keep yy silent, then xx may kill yy.
+If xx wants to sate xx's anger, then xx may kill yy.
+If xx wants yy to become dead, then xx may kill yy.
+If xx wants to defend xx, then xx may kill yy.
+If xx wants to stay alive, then xx may kill yy.
+If xx is angry, then xx may kill.
+If xx is being raped by yy, then yy may kill xx.
+If xx is evil, then xx may kill yy.
+If xx is a fool, then xx may kill yy.
+If xx is hungry, then xx may kill yy.
+If xx is insane, then xx may kill yy.
+If xx is mean, then xx may kill yy.
+If xx is a soldier, then xx may kill yy.
+If xx is trying to kill yy, then yy may kill xx.
+If xx attacked yy, then yy may kill yy.
+If xx killed yy's wife, then yy may kill xx.
+If xx needs yy to eat, then xx may kill yy.
+If xx is in danger, then xx may kill yy.
+If xx attacked yy, then yy may kill xx.
+
+// 50
+
+// Total: 50 + 5 = 55

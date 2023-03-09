@@ -1,0 +1,8 @@
+<h1>What you see</h1>
+
+Elements of the Tet Offensive in Viet Nam are placed into alignment with elements of the Yom Kippur war.  
+An unknown analyst suggested the parallels in a conference on computational politics.
+
+<h1>Reference</h1>
+
+The example is from the MEng thesis of Matthew Fay.

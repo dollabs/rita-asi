@@ -1,0 +1,36 @@
+If the problem is "Build big tower".
+Intention: Build big tower.
+The end.
+
+If the intention is "Build big tower".
+Request: Build big tower. 
+The end.
+
+If the request is "Build big tower".
+Communicate: Assemble big tower.
+The end.
+
+// Approach
+If the intention is "Construct big tower".
+Step: Put b1 on b2.
+Step: Put b4 on b1.
+The end.
+
+If the problem is "Build small tower".
+Intention: Build small tower.
+The end.
+
+If the intention is "Build small tower".
+Request: Build small tower. 
+The end.
+
+If the request is "Build small tower".
+Communicate: Assemble small tower.
+The end.
+
+// Approach
+If the intention is "Construct small tower".
+Step: Put b7 on b5.
+The end.
+
+

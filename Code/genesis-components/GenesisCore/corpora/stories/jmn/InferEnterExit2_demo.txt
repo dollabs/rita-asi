@@ -1,0 +1,34 @@
+//Demo version of Infer Enter Exit 2, Aug 2016
+
+Start experiment.
+
+Start common sense knowledge.
+xx is a person.
+If xx becomes unconscious, then xx loses consciousness.
+If xx falls asleep, then xx loses consciousness.
+If xx dies, then xx loses consciousness.
+
+If xx regains consciousness, then xx awakens.
+
+Alice, Bobby, Carla, and David are persons.
+
+Start story titled "Frisbee tragedy".
+
+/////////////////////////////////////////////////////////////////////////////**/
+// Exp 2: If someone is sleeping, dead, unconscious, not paying attention, blindfolded, etc, they don't observe events
+
+//infer A, B, C, D enter
+Alice, Bobby, and Carla play frisbee with David. //obs by A, B, C, D
+David becomes unconscious. //infer D stops observing
+Carla falls asleep. //infer C becomes unconscious; could also use "Carla begins sleeping." with appropriate if/then rule
+Bobby falls off a cliff.
+Bobby dies. //infer B becomes unconscious -> B exits
+Alice is sad. //obs by A only
+
+Carla awakens. //infer C resumes observing
+David regains consciousness. //infer D resumes observing
+Alice cries. //obs by A, C, D
+
+/////////////////////////////////////////////////////////////////////////////**/
+
+The end.

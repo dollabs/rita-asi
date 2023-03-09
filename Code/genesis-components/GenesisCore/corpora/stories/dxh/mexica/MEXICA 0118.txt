@@ -1,0 +1,15 @@
+
+Start experiment.
+Set all switches to defaults.
+Set perform goal analysis (ASPIRE) switch to true.
+Set use similarity rule matching switch to true.
+Set show all story elements switch to true.
+Insert file Mexica knowledge.
+
+Start story titled "MEXICA MEXICA 0118".
+EARLIER, THE PRINCESS WAS BORN WITH DIVINE PROTECTION.
+SUICIDE WAS THE ONLY SOLUTION FOR THE PRINCESS.
+
+
+
+The end.

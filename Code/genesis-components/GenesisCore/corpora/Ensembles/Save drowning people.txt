@@ -1,0 +1,106 @@
+Start experiment.
+
+// This switch sets the appropriate switch to true.
+Set all switches to defaults.
+Set Show all story elements switch to true.
+Set Story aligner switch to true.
+Set Learn procedure button to true.
+Set left panel to commentary.
+// Set right panel to Z Story Aligner Gallery.
+Set right panel to source.
+
+Both perspectives.
+
+Tiverton is a place.
+The emergency responders are persons.
+James is a person.
+Anselmo is a person.
+Correia is a person.
+Jayme is a person.
+Sarah is a person.
+Rescue-personnel is a person.
+
+Hazel is a person.
+EW is a person.
+Sisk is a person.
+Lisa is a person.
+Jason is a person.
+Paramedics are persons.
+
+The scene, the bathrooms, and the docks are entities.
+The Quarry Park and the hospital are entities.
+
+xx, yy, and zz are entities.
+vv is a variable.
+uu is a variable.
+aa is an action.
+
+Note that "James" is a masculine name.
+Note that "Hazel" is a masculine name.
+Note that "Anselmo" is a masculine name.
+Note that "Sisk" is a masculine name.
+Note that "Jayme" is a masculine name.
+Note that "EW" is a feminine name.
+Note that "Correia" is a feminine name.
+
+Start description of "Action-evoking goal".
+ xx's wanting vv leads to aa.
+The end.
+
+If xx scrambles to yy, then xx must want to reach yy.
+If xx yells, then xx must want to be heard.
+If xx shouts, then xx must want to be heard.
+If xx checks yy, then xx must want to find something in yy.
+If xx scours yy, then xx must want to find something in yy.
+If xx hands out swim goggles, then xx must want someone to swim.
+If xx presses yy's chest, then xx must want to expel water from yy.
+If xx provides mouth-to-mouth breaths to yy, then xx must want to ingest air into yy.
+If xx takes over yy, then xx must want to gain control over yy.
+If xx transported yy to zz, then xx must want to send yy into zz.
+
+If xx walks from yy to zz, then xx must want to leave yy.
+If xx walks from yy to zz, then xx must want to reach zz.
+If xx yells to yy, then xx must want to be heard by yy.
+If xx jumps into yy, then xx must want to reach yy.
+If xx gives yy chest compressions, then xx must want to expel water from yy.
+If xx gives rescue breaths to yy, then xx must want to ingest air into yy.
+If xx transported yy to zz in vv, then xx must want to send yy into zz.
+
+Show both perspectives.
+
+First perspective.
+Start story titled "James's story".
+There were about 35 people at an annual summer party in Tiverton.
+Ten people were in the pool at the time.
+Anselmo walked from a swing set to the fence.
+His attention was drawn to James.
+At first, James was swimming in circles.
+But suddenly he went under the water.
+Anselmo yelled to Correia, who jumped into the pool.
+He jumped over the fence and into the water.
+Together they found Anselmo, handing him to an uncle.
+Jayme gave James chest compressions.
+The gunk and water left his mouth and nose.
+Sarah gave rescue breaths to James.
+Rescue-personnel arrived and transported James to Hospital in Providence.
+He stayed overnight for observation.
+The end.
+
+Second perspective.
+Start story titled "Hazel's story".
+The drama unfolded on a warm late-summer Saturday in Quarry Park.
+Hazel was last seen in the water with no life jacket at Quarry No 11.
+The emergency responders scrambled to the scene.
+Meanwhile, EW was yelling that her daughter was drowning.
+Lisa is Sisk's girlfriend.
+Lisa checked the bathrooms.
+He shouted into the crowd for any strong swimmers and asked them to begin searching.
+They also began handing out any swim goggles they could find.
+Sisk scoured the docks and climbed to a high spot for a wider view.
+Jason found Hazel in 15 feet of water and brought her to shore.
+Sisk pressed Hazel's chest.
+Lisa provided mouth-to-mouth breaths to Hazel.
+Sisk continued the compressions for about 5 minutes before another bystander relieved him.
+Then, paramedics took over the Quarry Park.
+Hazel was transported to the hospital.
+The end.

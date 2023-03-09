@@ -1,0 +1,32 @@
+{choose-reward
+ {:args [],
+  :meta {:doc "choose example with rewards", :version "0.2.0"},
+  :methods
+  {example
+   [{:args [],
+     :betweens [],
+     :body
+     [{:type :choose,
+       :body
+       [{:type :choice,
+         :body [{:type :delay, :body nil}],
+         :reward 1000}
+        {:type :choice,
+         :body [{:type :delay, :body nil}],
+         :reward 2000}
+        {:type :choice,
+         :body [{:type :delay, :body nil}],
+         :reward {:type :lvar, :name "payoff"}}]}],
+     :controllable false,
+     :cost 0,
+     :display-args [],
+     :display-name "Example",
+     :doc "choose based on rewards",
+     :post true,
+     :pre true,
+     :primitive false,
+     :probability 1.0,
+     :reward 0,
+     :temporal-constraints [{:type :bounds, :value [0 :infinity]}]}]},
+  :type :pclass},
+ pamela/lvars {:lvars {"payoff" :unset}, :type :lvars}}

@@ -1,0 +1,33 @@
+Start experiment.
+
+Insert file General commonsense knowledge.
+
+Insert file Relations knowledge.
+
+Insert file General reflective knowledge.
+
+Insert file Contradictions.
+
+Start story titled "expAgain2".
+
+Austin is a person.
+
+Stoj is a person.
+
+John is a person.
+
+Cortana is a person.
+
+Austin likes Stoj.
+
+Austin hates cereal.
+
+John is Cortana's boyfriend.
+
+Stoj is happy.
+
+Stoj jumps.
+
+Cortana is happy.
+
+The End.
