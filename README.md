@@ -6,9 +6,9 @@ The DOLL Team (DOLL and MIT CSAIL) is developing RITA, an artificial social inte
 
 ## RITA Open Source Release
 
-This is a bare-bones snapshot of the RITA ASI that was used in the DARPA ASIST Study 3. 
+**This is a bare-bones snapshot of the RITA ASI that was used in the DARPA ASIST Study 3. **
 
-We intend to provide documentation and examples as part of the work we are doing for DARPA ASIST Study 4.
+In the near future (1Q 2024), we will provide documentation and examples from our work in DARPA ASIST Study 4.
 
 ## Building RITA
 To build the Docker images for the RITA ASI, do the following:
